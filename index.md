@@ -31,9 +31,11 @@ We strive to hold ourselves to a set of best practices for running the projects
 that are showcased by this guild:
 
 * We run the software in a production environment
-* We accept contributions from the community
-* We activity engage the community
-* The software is thoroughly tested
+* We have clear contribution guidelines
+* We actively engage the community
+* We strive towards consistent and predictable releases
+* We publish releases to central community repositories
+* The software is publicly and thoroughly tested
 * The software is well documented
 * The software is clearly licensed
 

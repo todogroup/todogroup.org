@@ -10,7 +10,7 @@ title: Move Fast, Open Source
 
 ---
 
-We are a [guild of companies](#members) that run dedicated open source programs, in order
+We are a [group of companies](#members) that run dedicated open source programs, in order
 to:
 
 * Give back to open source engineering communities
@@ -24,11 +24,11 @@ companies and developers more successful.
 
 ##Commitment##
 
-Each of the companies in this guild are committed to running their open source
+Each of the companies in this group are committed to running their open source
 programs in a disciplined and responsible way.
 
 We strive to hold ourselves to a set of best practices for running the projects
-that are showcased by this guild:
+that are showcased by this group:
 
 * We run the software in a production environment
 * We accept contributions from the community
@@ -50,7 +50,7 @@ order for them to be valuable for others to use.
 * Stripe
 * Walmart Labs
 
-We always welcome new members to the guild to help shape the future of
+We always welcome new members to the group to help shape the future of
 company-led open source programs.
 
 ---

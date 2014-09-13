@@ -4,6 +4,8 @@ title: "// TODO: Talk openly, develop openly."
 
 # TODO: Talk openly, develop openly.
 
+<section id="about" markdown="1">
+
 Open source is part of the fabric of each of our companies. Between us, our open source programs
 enable us to use, contribute to, and maintain, thousands of projects - both large and small.
 
@@ -18,11 +20,19 @@ and help make this happen.
 **TODO: talk openly, develop openly.** We believe we can better improve our open source programs -
 and our contributions to the open source movement as a whole - by working together.
 
+</section>
+
+
+<section id="participate" markdown="1">
 
 ## Interested in participating?
 
 (TODO: insert form.  Where should it post to?)
 
+</section>
+
+
+<section id="faq" markdown="1">
 
 ## Questions & Answers
 
@@ -43,4 +53,6 @@ resources for, contributing and using open source software.
 ### How can I stay up to date with TODO?
 
 Follow us on GitHub at <https://github.com/todogroup>, Twitter at
-[@todogroup](https://twitter.com/todogroup), and on Facebook at <http://facebook.com/todo>.
+[@todogroup](https://twitter.com/todogroup), and on Facebook at <https://facebook.com/todo>.
+
+</section>

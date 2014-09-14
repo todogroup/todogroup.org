@@ -1,6 +1,7 @@
 ---
 ---
-@import "compass/css3";
+
+@import "flex.scss";
 
 html, body {
   height: 100%;
@@ -9,14 +10,14 @@ html, body {
 }
 
 body {
-  color: #444;
-  @include display-flex;
-  flex-direction: column;
+  color: #333;
+  @include flexbox();
+  @include flex-direction(column);
 }
 
 header {
-  flex: 1 0 140px;
-  display: flex;
+  @include flex(1 0 140px);
+  @include flexbox();
   overflow: hidden;
   padding: 10px;
   border-bottom: 1px solid #f0f0f0;
@@ -29,15 +30,15 @@ header {
 
 article {
   overflow: scroll;
-padding: 10px;
+  padding: 10px;
 }
 
 footer {
-  flex: 1 0 50px;
-  display: flex;
+  @include flex(1 0 50px);
+  @include flexbox();
   border-top: 1px solid #f0f0f0;
   padding: 10px;
-  justify-content: space-between;
+  @include justify-content(space-between);
 }
 
 footer a {

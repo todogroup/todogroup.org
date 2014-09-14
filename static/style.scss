@@ -4,6 +4,10 @@
 @import "flex.scss";
 @import "normalize";
 
+$display-font: Oswald, Helvetica, sans-serif;
+$sans-serif: Open Sans, Helvetica, sans-serif;
+$serif: Merriweather, serif;
+
 html, body {
   height: 100%;
   padding: 0;
@@ -12,7 +16,7 @@ html, body {
 
 body {
   color: #666;
-  font-family: Raleway, sans-serif;
+  font-family: $sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }

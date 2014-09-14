@@ -65,6 +65,9 @@ footer {
   height: 50px;
   padding: 0 5%;
   a {
+    font-family: $display-font;
+    font-weight: 300;
+    text-transform: uppercase;
     line-height: 50px;
     text-align: center;
     text-decoration: none;

@@ -12,16 +12,12 @@ html, body {
 
 body {
   color: #333;
-  @include flexbox();
-  @include flex-direction(column);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
 
 header {
-  @include flex(0 0 80px);
-  @include flexbox();
   overflow: hidden;
   padding: 10px;
   border-bottom: 1px solid #f0f0f0;
@@ -35,14 +31,10 @@ header {
 }
 
 article {
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
-  @include flex(1);
-  @include flexbox();
 }
 
 section {
-  @include flex(0 0 80%);
   margin: 0 auto auto;
   padding: 0 10%;
 }
@@ -52,12 +44,34 @@ section * {
 }
 
 footer {
-  @include flex(0 0 50px);
-  @include flexbox();
   border-top: 1px solid #f0f0f0;
   @include justify-content(space-between);
 }
 
 footer a {
   margin: auto 10%;
+}
+
+// switch to flexbox layout for window sizes that can handle it
+@media only screen and (min-width: 500px) and (min-height: 600px) {
+  body {
+    @include flexbox();
+    @include flex-direction(column);
+  }
+  header {
+    @include flex(0 0 80px);
+    @include flexbox();
+  }
+  article {
+    @include flex(1);
+    @include flexbox();
+    overflow: scroll;
+  }
+  section {
+    @include flex(0 0 80%);
+  }
+  footer {
+    @include flex(0 0 50px);
+    @include flexbox();
+  }
 }

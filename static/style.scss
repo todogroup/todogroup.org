@@ -14,6 +14,9 @@ body {
   color: #333;
   @include flexbox();
   @include flex-direction(column);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 header {
@@ -44,7 +47,7 @@ section {
 }
 
 section * {
-  max-width: 500px;
+  max-width: 800px;
 }
 
 footer {

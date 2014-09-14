@@ -15,9 +15,15 @@ body {
 
 header {
   flex: 1 0 140px;
+  display: flex;
   overflow: hidden;
   padding: 10px;
   border-bottom: 1px solid #f0f0f0;
+}
+
+.logo {
+  max-height: 120px;
+  margin: auto 0;
 }
 
 article {

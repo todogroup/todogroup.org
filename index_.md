@@ -4,7 +4,7 @@ title: "// TODO: Talk openly, develop openly."
 
 <section id="about" markdown="1">
 
-## TODO: Talk openly, develop openly.
+# Talk openly, develop openly
 
 Open source is part of the fabric of each of our companies. Between us, our open source programs
 enable us to use, contribute to, and maintain, thousands of projects - both large and small.
@@ -24,15 +24,16 @@ and our contributions to the open source movement as a whole - by working togeth
 
 <section id="members" markdown="1">
 
-## Who is in in the TODO group?
+# Who is in in the TODO group?
 
+(TODO: insert final list)
 
 </section>
 
 
 <section id="participate" markdown="1">
 
-## Interested in participating?
+# Interested in participating?
 
 (TODO: insert form.  Where should it post to?)
 
@@ -41,23 +42,23 @@ and our contributions to the open source movement as a whole - by working togeth
 
 <section id="faq" markdown="1">
 
-## Questions & Answers
+# Questions & Answers
 
-### Is this a new open source foundation?
+## Is this a new open source foundation?
 
 No. We’re a group of companies with a common interested who have come together to help solve the
 problem of utilizing and releasing open source software.
 
-### Whom is this group for?
+## Whom is this group for?
 
 This group is primarily a forum for companies who both are passionate about, and have dedicated
 resources for, contributing and using open source software.
 
-### Which companies are participating?
+## Which companies are participating?
 
-(TODO: insert final list.  Is this just a list of names, or logos as well here?)
+See the full <a href="#members">list of members</a>.
 
-### How can I stay up to date with TODO?
+## How can I stay up to date with TODO?
 
 Follow us on GitHub at <https://github.com/todogroup>, Twitter at
 [@todogroup](https://twitter.com/todogroup), and on Facebook at <https://facebook.com/todo>.

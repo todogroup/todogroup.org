@@ -6,18 +6,24 @@ window.addEventListener('load', function () {
       sectionsLength = sections.length,
       footer = document.getElementById('footer');
 
-  var isFlexing = function() {
-    return window.matchMedia(
+  var wasFlexing;
+  var isFlexing = function(changed) {
+    var flexing = window.matchMedia(
       'only screen and (min-width: 500px) and (min-height: 600px)'
     ).matches;
+    if (flexing != wasFlexing) {
+      wasFlexing = flexing;
+      changed && changed(flexing);
+    }
+    return flexing;
   }
 
   var articleHeight = article.clientHeight;
   var resizeSections = function(e) {
+    var flexing = isFlexing(focusSection);
     if (article.clientHeight == articleHeight) {
       return;
     }
-    var flexing = isFlexing();
     articleHeight = article.clientHeight;
     for (var s = 0; s < sectionsLength; s++) {
       if (flexing) {
@@ -28,8 +34,10 @@ window.addEventListener('load', function () {
     }
   };
 
-  var focusSection = function () {
-    var flexing = isFlexing();
+  var focusSection = function (flexing) {
+    if (flexing === undefined) {
+      flexing = isFlexing()
+    };
     var hash = (location.hash || '#about').substr(1);
     for (var s = 0; s < sectionsLength; s++) {
       sections[s].style.display =

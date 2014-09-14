@@ -43,11 +43,13 @@ window.addEventListener('load', function () {
     var hash = location.hash || '#about';
     for (var s = 0; s < sectionsLength; s++) {
       var section = sections[s];
-      if (
-        flexing && section.id != hash.substr(1)
-      ) {
+      if (!flexing) {
+        section.className = '';
+        continue;
+      }
+      if (section.id != hash.substr(1)) {
         section.className = 'hidden';
-      } else {
+      } else if (section.className == 'hidden') {
         section.className = 'appearing'; // kill me now
         setTimeout(function() {
           this.className = '';

@@ -50,7 +50,9 @@ section :last-child {
 
 footer {
   border-top: 1px solid #f0f0f0;
+  height: 50px;
   a {
+    line-height: 50px;
     margin: auto 5%;
     &.fixed {
       display: none;

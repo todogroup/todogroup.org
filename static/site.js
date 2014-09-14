@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
       if (flexing) {
         sections[s].style.minHeight = articleHeight + 'px';
       } else {
-        sections[s].style.minHeight = 'default';
+        sections[s].style.minHeight = 'initial';
       }
     }
   };

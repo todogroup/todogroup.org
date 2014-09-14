@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  @include flex(0 0 120px);
+  @include flex(0 0 80px);
   @include flexbox();
   overflow: hidden;
   padding: 10px;
@@ -29,7 +29,8 @@ header {
 
 .logo {
   height: 120px;
-  max-height: 120px;
+  max-height: 80px;
+  max-width: 40%;
   margin: auto auto auto 10%;
 }
 

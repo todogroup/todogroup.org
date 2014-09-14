@@ -33,6 +33,12 @@ padding: 10px;
 
 footer {
   flex: 1 0 50px;
+  display: flex;
   border-top: 1px solid #f0f0f0;
   padding: 10px;
+  justify-content: space-between;
+}
+
+footer a {
+  margin: auto 0;
 }

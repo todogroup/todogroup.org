@@ -4,7 +4,9 @@ window.addEventListener('load', function () {
       article = document.getElementById('article'),
       sections = article.getElementsByTagName('section'),
       sectionsLength = sections.length,
-      footer = document.getElementById('footer');
+      footer = document.getElementById('footer'),
+      links = footer.getElementsByTagName('a'),
+      linksLength = links.length;
 
   var wasFlexing;
   var isFlexing = function(changed) {
@@ -38,11 +40,19 @@ window.addEventListener('load', function () {
     if (flexing === undefined) {
       flexing = isFlexing()
     };
-    var hash = (location.hash || '#about').substr(1);
+    var hash = location.hash || '#about';
     for (var s = 0; s < sectionsLength; s++) {
       sections[s].style.display =
-        (!flexing || sections[s].id == hash)
+        (!flexing || sections[s].id == hash.substr(1))
         ? 'block' : 'none';
+    }
+    for (var l = 0; l < linksLength; l++) {
+      if (links[l].className == 'fluid') {
+        continue;
+      }
+      links[l].className =
+        (flexing && links[l].getAttribute('href') == hash)
+        ? 'fixed active' : 'fixed';
     }
   };
 

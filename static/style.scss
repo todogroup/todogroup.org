@@ -51,9 +51,12 @@ section :last-child {
 footer {
   border-top: 1px solid #f0f0f0;
   height: 50px;
+  padding: 0 5%;
   a {
     line-height: 50px;
-    margin: auto 5%;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
     &.fixed {
       display: none;
     }
@@ -86,6 +89,11 @@ footer {
     @include justify-content(space-between);
     a.fixed {
       display: block;
+      flex: 1;
+      &.active {
+        background: rgb(0, 200, 2);
+        color: #fff;
+      }
     }
     a.fluid {
       display: none;

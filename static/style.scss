@@ -66,18 +66,21 @@ section {
 }
 
 footer {
-  border-top: 1px solid #f0f0f0;
   height: 50px;
-  padding: 0 5%;
+  padding: 20px 5%;
   a {
     font-family: $display-font;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 50px;
-    text-align: center;
     text-decoration: none;
-    color: #666;
+    color: $color-black;
     transition: color 0.5s, background 0.5s;
+    &::before {
+      content: "// ";
+      color: $color-primary;
+      font-size: 175%;
+    }
     &.fixed {
       display: none;
     }
@@ -107,13 +110,15 @@ footer {
   footer {
     @include flex(0 0 50px);
     @include flexbox();
-    @include justify-content(space-between);
+    @include justify-content(flex-start);
     a.fixed {
       display: block;
+      max-width: 180px;
       @include flex(1);
       &.active {
-        background: rgb(0, 200, 2);
-        color: #fff;
+        &::before {
+          color: $color-black;
+        }
       }
     }
     a.fluid {

@@ -2,6 +2,14 @@
 title: "// TODO: Talk openly, develop openly."
 ---
 
+<section id="intro" markdown="1">
+
+# Talk Openly
+# Develop Openly
+## Because open source is never done.
+
+</section>
+
 <section id="about" markdown="1">
 
 # Talk openly, develop openly

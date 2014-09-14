@@ -40,7 +40,7 @@ window.addEventListener('load', function () {
     if (flexing === undefined) {
       flexing = isFlexing()
     };
-    var hash = location.hash || '#about';
+    var hash = (location.hash != '#header' && location.hash) || '#about';
     for (var s = 0; s < sectionsLength; s++) {
       var section = sections[s];
       if (!flexing) {

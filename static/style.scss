@@ -2,7 +2,6 @@
 ---
 
 @import "flex.scss";
-@import "normalize";
 
 html, body {
   height: 100%;
@@ -12,8 +11,9 @@ html, body {
 
 body {
   color: #666;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, helvetica, sans-serif;
   font-size: 18px;
+  font-weight: lighter;
   line-height: 1.5;
 }
 
@@ -24,8 +24,8 @@ header {
 
 .logo {
   height: 120px;
-  max-height: 80px;
-  max-width: 40%;
+  max-height: 120px;
+  max-width: 60%;
   margin: auto auto auto 0;
 }
 
@@ -48,13 +48,33 @@ section {
   }
   :first-child {
     margin-top: 0;
-    padding-top: 1em;
+    padding-top: 0;
   }
   :last-child {
     margin-bottom: 0;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 
+}
+
+h1, h2, h3 {
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+b, strong {
+  font-weight: normal;
 }
 
 footer {
@@ -84,7 +104,7 @@ footer {
   }
 
   header {
-    @include flex(0 0 80px);
+    @include flex(0 0 120px);
     @include flexbox();
   }
 

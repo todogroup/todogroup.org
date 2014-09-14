@@ -3,15 +3,8 @@
 
 @import "flex.scss";
 @import "normalize";
-
-$display-font: Oswald, Helvetica, sans-serif;
-$sans-serif: Open Sans, Helvetica, sans-serif;
-$serif: Merriweather, serif;
-
-$color-black: #2F3028;
-$color-primary: #FFD63D;
-$color-secondary: #4DBFAC;
-$color-accent: #EA4D4D;
+@import "colors.scss";
+@import "typography.scss";
 
 html, body {
   height: 100%;
@@ -44,6 +37,7 @@ article {
 
 section {
   transition: opacity 0.5s;
+  font-family: $serif;
   &.hidden {
     display: none;
     opacity: 0;

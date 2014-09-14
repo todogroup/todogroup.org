@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
     ).matches;
     if (flexing != wasFlexing) {
       wasFlexing = flexing;
-      changed && changed(flexing);
+      changed && changed(null, flexing);
     }
     return flexing;
   }
@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
     }
   };
 
-  var focusSection = function (flexing) {
+  var focusSection = function (e, flexing) {
     if (flexing === undefined) {
       flexing = isFlexing()
     };

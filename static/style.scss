@@ -27,7 +27,7 @@ header {
   height: 120px;
   max-height: 80px;
   max-width: 40%;
-  margin: auto auto auto 10%;
+  margin: auto auto auto 5%;
 }
 
 article {
@@ -36,7 +36,7 @@ article {
 
 section {
   margin: 0 auto auto;
-  padding: 0 10%;
+  padding: 0 5%;
 
   * {
     max-width: 800px;
@@ -47,7 +47,20 @@ footer {
   border-top: 1px solid #f0f0f0;
 
   a {
-    margin: auto 10%;
+    margin: auto 5%;
+  }
+}
+
+// expand side margin on wider screens
+@media only screen and (min-width: 800px) {
+  .logo {
+    margin-left: 10%;
+  }
+  section {
+    padding: 0 10%;
+  }
+  footer a {
+    margin: auto 5%;
   }
 }
 
@@ -57,18 +70,28 @@ footer {
     @include flexbox();
     @include flex-direction(column);
   }
+
   header {
     @include flex(0 0 80px);
     @include flexbox();
   }
+
   article {
     @include flex(1);
     @include flexbox();
     overflow: scroll;
   }
+
   section {
-    @include flex(0 0 80%);
+    @include flex(0 0 90%);
   }
+  // expand side margin on wider screens
+  @media only screen and (min-width: 800px) {
+    section {
+      @include flex(0 0 80%);
+    }
+  }
+
   footer {
     @include flex(0 0 50px);
     @include flexbox();

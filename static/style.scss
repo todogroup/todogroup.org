@@ -32,6 +32,7 @@ header {
 
 article {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   @include flex(1);
   @include flexbox();
 }

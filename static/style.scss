@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  color: #333;
+  color: #666;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -19,28 +19,33 @@ body {
 
 header {
   overflow: hidden;
-  padding: 10px;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 5%;
 }
 
 .logo {
   height: 120px;
   max-height: 80px;
   max-width: 40%;
-  margin: auto auto auto 5%;
+  margin: auto auto auto 0;
 }
 
 article {
+  padding: 0 5%;
   -webkit-overflow-scrolling: touch;
 }
 
-section {
-  margin: 0 auto auto;
-  padding: 0 5%;
+section * {
+  max-width: 800px;
+}
 
-  * {
-    max-width: 800px;
-  }
+section :first-child {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+section :last-child {
+  margin-bottom: 0;
+  padding-bottom: 1em;
 }
 
 footer {
@@ -53,16 +58,6 @@ footer {
     &.fluid {
       display: block;
     }
-  }
-}
-
-// expand side margin on wider screens
-@media only screen and (min-width: 800px) {
-  .logo {
-    margin-left: 10%;
-  }
-  section {
-    padding: 0 10%;
   }
 }
 
@@ -80,18 +75,7 @@ footer {
 
   article {
     @include flex(1);
-    @include flexbox();
     overflow: scroll;
-  }
-
-  section {
-    @include flex(0 0 90%);
-  }
-  // expand side margin on wider screens
-  @media only screen and (min-width: 800px) {
-    section {
-      @include flex(0 0 80%);
-    }
   }
 
   footer {

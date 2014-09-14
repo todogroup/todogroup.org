@@ -42,9 +42,17 @@ window.addEventListener('load', function () {
     };
     var hash = location.hash || '#about';
     for (var s = 0; s < sectionsLength; s++) {
-      sections[s].style.display =
-        (!flexing || sections[s].id == hash.substr(1))
-        ? 'block' : 'none';
+      var section = sections[s];
+      if (
+        flexing && section.id != hash.substr(1)
+      ) {
+        section.className = 'hidden';
+      } else {
+        section.className = 'appearing'; // kill me now
+        setTimeout(function() {
+          this.className = '';
+        }.bind(section), 30);
+      }
     }
     for (var l = 0; l < linksLength; l++) {
       if (links[l].className == 'fluid') {

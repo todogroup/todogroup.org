@@ -34,18 +34,27 @@ article {
   -webkit-overflow-scrolling: touch;
 }
 
-section * {
-  max-width: 800px;
-}
+section {
+  transition: opacity 0.5s;
+  &.hidden {
+    display: none;
+    opacity: 0;
+  }
+  &.appearing {
+    opacity: 0;
+  }
+  * {
+    max-width: 800px;
+  }
+  :first-child {
+    margin-top: 0;
+    padding-top: 1em;
+  }
+  :last-child {
+    margin-bottom: 0;
+    padding-bottom: 1em;
+  }
 
-section :first-child {
-  margin-top: 0;
-  padding-top: 1em;
-}
-
-section :last-child {
-  margin-bottom: 0;
-  padding-bottom: 1em;
 }
 
 footer {
@@ -57,6 +66,7 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #666;
+    transition: color 0.5s, background 0.5s;
     &.fixed {
       display: none;
     }
@@ -89,7 +99,7 @@ footer {
     @include justify-content(space-between);
     a.fixed {
       display: block;
-      flex: 1;
+      @include flex(1);
       &.active {
         background: rgb(0, 200, 2);
         color: #fff;

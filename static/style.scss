@@ -45,9 +45,14 @@ section {
 
 footer {
   border-top: 1px solid #f0f0f0;
-
   a {
     margin: auto 5%;
+    &.fixed {
+      display: none;
+    }
+    &.fluid {
+      display: block;
+    }
   }
 }
 
@@ -58,9 +63,6 @@ footer {
   }
   section {
     padding: 0 10%;
-  }
-  footer a {
-    margin: auto 5%;
   }
 }
 
@@ -96,5 +98,11 @@ footer {
     @include flex(0 0 50px);
     @include flexbox();
     @include justify-content(space-between);
+    a.fixed {
+      display: block;
+    }
+    a.fluid {
+      display: none;
+    }
   }
 }

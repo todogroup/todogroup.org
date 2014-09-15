@@ -5,14 +5,16 @@ title: "// TODO: Talk openly, develop openly."
 <section id="intro" markdown="1">
 
 # Talk Openly
+
 # Develop Openly
+
 ## Because open source is never done.
 
 </section>
 
 <section id="about" markdown="1">
 
-# Talk openly, develop openly
+# About
 
 Open source is part of the fabric of each of our companies. Between us, our open source programs
 enable us to use, contribute to, and maintain, thousands of projects - both large and small.

@@ -109,7 +109,7 @@ Our members include:
 
 ## Is this a new open source foundation?
 
-No. We’re a group of companies with a common interested who have come together to help solve the
+No. We’re a group of companies with a common interest who have come together to help solve the
 problem of utilizing and releasing open source software.
 
 ## Whom is this group for?
@@ -123,7 +123,7 @@ See the full <a href="#members">list of members</a>.
 
 ## How can I stay up to date with TODO?
 
-Follow us on [GitHub](https://github.com/todogroup), Twitter at
+Follow us on [GitHub](https://github.com/todogroup), on Twitter at
 [@todogroup](https://twitter.com/todogroup), and on [Facebook](https://facebook.com/todo).
 
 </section>

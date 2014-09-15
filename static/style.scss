@@ -82,7 +82,7 @@ section {
     h1 {
       font-family: $display-font;
       text-transform: uppercase;
-      color: $color-secondary;
+      color: $color-primary;
       font-size: 4.5em;
       padding: 0px;
       margin: 0px;
@@ -90,7 +90,7 @@ section {
       font-weight: 700;
 
       &:first-child {
-        color: $color-primary;
+        color: $color-secondary;
       }
     }
 
@@ -119,7 +119,7 @@ section {
               padding-bottom: 3px;
               border: none;
               border-bottom: solid 2px #ccc;
-              color: $color-accent;
+              color: $color-primary;
               transition: border 0.3s;
               width: 300px;
             }

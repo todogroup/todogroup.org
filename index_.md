@@ -8,7 +8,7 @@ title: "// TODO: Talk openly, develop openly."
 
 # Develop Openly
 
-## Because open source is never done.
+## For companies committed to open source.
 
 </section>
 

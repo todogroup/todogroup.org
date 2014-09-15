@@ -66,6 +66,7 @@ section {
   h1 {
     margin-bottom: 0px;
     line-height: 1.4;
+    font-weight: 700;
   }
 
   a {
@@ -82,14 +83,13 @@ section {
       font-family: $display-font;
       text-transform: uppercase;
       color: $color-secondary;
-      font-size: 5em;
+      font-size: 4.25em;
       padding: 0px;
       margin: 0px;
       line-height: 1;
       font-weight: 700;
 
       &:first-child {
-        padding-top: 1em;
         color: $color-primary;
       }
     }

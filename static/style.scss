@@ -83,7 +83,7 @@ section {
       font-family: $display-font;
       text-transform: uppercase;
       color: $color-secondary;
-      font-size: 4.25em;
+      font-size: 4.5em;
       padding: 0px;
       margin: 0px;
       line-height: 1;
@@ -100,6 +100,56 @@ section {
       margin-top: .3em;
       font-weight: 700;
       line-height: 1;
+    }
+  }
+
+  &#participate {
+    form {
+      ul {
+        list-style-type: none;
+        margin-top: 2em;
+        padding: 0px;
+
+        li {
+          font-family: $sans-serif;
+
+          div {
+            input[type="text"],
+            input[type="email"] {
+              padding-bottom: 3px;
+              border: none;
+              border-bottom: solid 2px #ccc;
+              color: $color-accent;
+              transition: border 0.3s;
+              width: 300px;
+            }
+
+            input[type="text"]:focus,
+            input[type="text"].focus,
+            input[type="email"]:focus,
+            input[type="email"].focus {
+              border-bottom: solid 2px #969696;
+            }
+
+            input[type="submit"] {
+              padding: 1em;
+              background-color: $color-primary;
+              text-transform: uppercase;
+              font-weight: 700;
+              color: white;
+              border: none;
+
+              &:hover {
+                color: $color-black;
+              }
+            }
+          }
+        }
+      }
+
+      .hide {
+        display: none;
+      }
     }
   }
 

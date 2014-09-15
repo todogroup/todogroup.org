@@ -24,7 +24,7 @@ with developer communities, and using and contributing back to other projects ef
 
 The [members of this group](#members) are committed to working together in order to overcome these challenges.
 We will be sharing experiences, developing best practices, and working on common tooling. But we
-can’t do this alone. If you are a company using or sharing open source, we welcome you [to join us](#participate)
+can’t do this alone. If you are a company using or sharing open source, we welcome you [to join us](#join)
 and help make this happen.
 
 **TODO: talk openly, develop openly.** We believe we can better improve our open source programs -
@@ -53,7 +53,7 @@ Our members include:
 </section>
 
 
-<section id="participate" markdown="1">
+<section id="join" markdown="1">
 
 # Interested in participating?
 

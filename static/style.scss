@@ -254,7 +254,7 @@ footer {
 
   article {
     @include flex(1);
-    overflow: scroll;
+    overflow: auto;
     margin-left: 107px;
 
     section {

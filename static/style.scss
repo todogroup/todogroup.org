@@ -60,6 +60,15 @@ section {
   h1 {
     margin-bottom: 0px;
   }
+
+  a {
+    text-decoration: none;
+    color: $color-accent;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 footer {

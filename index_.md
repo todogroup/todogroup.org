@@ -123,7 +123,7 @@ See the full <a href="#members">list of members</a>.
 ## How can I stay up to date with TODO?
 
 Follow us on [GitHub](https://github.com/todogroup), on Twitter at
-[@todogroup](https://twitter.com/todogroup), and on [Facebook](https://facebook.com/todo).
+[@todogroup](https://twitter.com/todogroup), and on [Facebook](https://facebook.com/todo). Press inquiries can be sent to <press@todogroup.org>.
 
 </section>
 

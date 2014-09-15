@@ -126,3 +126,11 @@ Follow us on [GitHub](https://github.com/todogroup), on Twitter at
 [@todogroup](https://twitter.com/todogroup), and on [Facebook](https://facebook.com/todo).
 
 </section>
+
+<section id="thanks" markdown="1">
+
+# All set!
+
+## We'll be in touch soon about participation.
+
+</section>

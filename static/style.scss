@@ -79,7 +79,8 @@ section {
     }
   }
 
-  &#intro {
+  &#intro,
+  &#thanks {
     h1 {
       font-family: $display-font;
       text-transform: uppercase;
@@ -102,6 +103,10 @@ section {
       font-weight: 700;
       line-height: 1;
     }
+  }
+
+  &#thanks {
+    display: none;
   }
 
   &#members {
@@ -140,7 +145,7 @@ section {
 
           div {
             padding-bottom: 1em;
-            
+
             input[type="text"],
             input[type="email"] {
               padding-bottom: 3px;
@@ -255,6 +260,12 @@ footer {
     @include flex(1);
     overflow: scroll;
     margin-left: 107px;
+
+    section {
+      &#thanks {
+        display: block;
+      }
+    }
   }
 
   footer {

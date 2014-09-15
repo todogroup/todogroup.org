@@ -113,20 +113,16 @@ section {
     ul {
       list-style-type: none;
       padding-left: 0px;
-
       li {
         display: inline;
-        width: 150px;
-
         a {
           font-size: 1.5em;
           font-family: $sans-serif;
-
           img {
-            max-width: 150px;
-            max-height: 75px;
-            padding-bottom: 10px;
-            padding-right: 30px;
+            width: 150px;
+            max-height: 40px;
+            padding: 20px 80px 20px 0;
+            vertical-align: middle;
           }
         }
       }

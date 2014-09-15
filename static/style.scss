@@ -36,8 +36,8 @@ article {
 }
 
 section {
+  @include body-copy;
   transition: opacity 0.5s;
-  font-family: $serif;
   &.hidden {
     display: none;
     opacity: 0;

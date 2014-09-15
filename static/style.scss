@@ -122,7 +122,10 @@ section {
               border-bottom: solid 2px #ccc;
               color: $color-black;
               transition: border 0.3s;
-              width: 300px;
+              // 300px width, but not wider than the parent on narrow phones
+              box-sizing: border-box;
+              max-width: 300px;
+              width: 100%;
             }
 
             input[type="text"]:focus,

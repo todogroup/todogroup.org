@@ -59,6 +59,7 @@ section {
 
   h1 {
     margin-bottom: 0px;
+    line-height: 1.4;
   }
 
   a {
@@ -70,12 +71,37 @@ section {
     }
   }
 
+  &#intro {
+    h1 {
+      font-family: $display-font;
+      text-transform: uppercase;
+      color: $color-secondary;
+      font-size: 5em;
+      padding: 0px;
+      margin: 0px;
+      line-height: 1;
+
+      &:first-child {
+        padding-top: 1em;
+        color: $color-primary;
+      }
+    }
+
+    h2 {
+      font-family: $sans-serif;
+      color: $color-black;
+      margin-top: .3em;
+      font-weight: 700;
+      line-height: 1;
+    }
+  }
+
   &#faq {
     h2 {
       font-size: 1.25em;
       margin-bottom: 0px;
     }
-    
+
     p {
       margin-top: 0px;
       margin-bottom: 3em;

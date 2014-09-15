@@ -6,4 +6,8 @@ $serif: Merriweather, serif;
   font-family: $serif;
   font-size: 16px;
   line-height: 2;
+
+  strong {
+    font-weight: 700;
+  }
 }

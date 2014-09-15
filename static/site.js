@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+(function () {
 
   var header = document.getElementById('header'),
       article = document.getElementById('article'),
@@ -71,4 +71,4 @@ window.addEventListener('load', function () {
   focusSection();
   window.addEventListener('hashchange', focusSection);
 
-});
+})();

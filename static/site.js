@@ -21,6 +21,17 @@ window.addEventListener('load', function () {
   }
 
   var articleHeight = article.clientHeight;
+  var setIndent = function(e) {
+    var flexing = isFlexing();
+    if (flexing) {
+      article.setAttribute("class", "indent");
+      footer.setAttribute("class", "indent");
+    } else {
+      article.removeAttribute("class", "indent");
+      footer.setAttribute("class", "indent");
+    }
+  }
+
   var resizeSections = function(e) {
     var flexing = isFlexing(focusSection);
     if (article.clientHeight == articleHeight) {
@@ -66,6 +77,8 @@ window.addEventListener('load', function () {
     }
   };
 
+  setIndent();
+  window.addEventListener('resize', setIndent);
   resizeSections();
   window.addEventListener('resize', resizeSections);
   focusSection();

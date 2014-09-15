@@ -196,10 +196,11 @@ footer {
     &::before {
       content: "// ";
       color: $color-primary;
+      font-size: 1.25em;
     }
     &.fixed {
       display: none;
-      font-size: smaller;
+      font-size: 1em;
       white-space: nowrap;
     }
     &.fluid {

@@ -139,6 +139,8 @@ section {
           font-family: $sans-serif;
 
           div {
+            padding-bottom: 1em;
+            
             input[type="text"],
             input[type="email"] {
               padding-bottom: 3px;

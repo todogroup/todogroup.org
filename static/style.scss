@@ -260,9 +260,10 @@ footer {
     section {
       &#thanks {
         display: block;
-        // Without this, the "thanks!" message fades out on load on a desktop?
-        transition: none;
       }
+      &#thanks.hidden {
+        display: none;
+      }      
     }
   }
 

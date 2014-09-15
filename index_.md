@@ -43,7 +43,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_facebook.svg" alt="Facebook" title="Facebook" width="65px">](https://code.facebook.com/projects/)
 * [<img src="/static/logo_github.svg" alt="GitHub" title="GitHub" width="140px">](https://github.com/github)
 * [<img src="/static/logo_google.svg" alt="Google" title="Google">](https://developers.google.com/open-source/)
-* [<img src="/static/logo_khanacademy.svg" alt="Khan Academy" title="Khan Academy" style="max-width:200px">](https://github.com/Khan)
+* [<img src="/static/logo_khanacademy.svg" alt="Khan Academy" title="Khan Academy" style="max-width:230px">](https://github.com/Khan)
 * [<img src="/static/logo_square.svg" alt="Square" title="Square">](http://corner.squareup.com)
 * [<img src="/static/logo_stripe.svg" alt="Stripe" title="Stripe" width="120px">](https://github.com/stripe)
 * [<img src="/static/logo_twitter.svg" alt="Twitter" title="Twitter" width="75px">](https://engineering.twitter.com/opensource)

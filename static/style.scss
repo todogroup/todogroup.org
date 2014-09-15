@@ -208,10 +208,6 @@ footer {
   }
 }
 
-.indent {
-  margin-left: 107px;
-}
-
 // switch to flexbox layout for window sizes that can handle it
 @media only screen and (min-width: 500px) and (min-height: 600px) {
   body {
@@ -227,9 +223,11 @@ footer {
   article {
     @include flex(1);
     overflow: scroll;
+    margin-left: 107px;
   }
 
   footer {
+    margin-left: 107px;
     @include flex(0 0 50px);
     @include flexbox();
     @include justify-content(flex-start);

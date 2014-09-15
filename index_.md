@@ -36,19 +36,17 @@ and our contributions to the open source movement as a whole - by working togeth
 
 # Who is in the TODO group?
 
-TODO is an open group of companies who run open source programs.
+TODO is an open group of companies who run open source programs. Our members include:
 
-Our members include:
-
-* [Box](http://opensource.box.com/)
-* [Dropbox](https://opensource.dropbox.com/)
-* [Facebook](https://code.facebook.com/projects/)
-* [Google](https://developers.google.com/open-source/)
-* [GitHub](https://github.com/github)
-* [Khan Academy](https://github.com/Khan)
-* [Square](http://corner.squareup.com)
-* [Stripe](https://github.com/stripe)
-* [Walmart Labs](https://github.com/walmartlabs)
+* [<img src="/static/logo_box.svg" alt="Box" title="Box" width="110px">](http://opensource.box.com/)
+* [<img src="/static/logo_dropbox.svg" alt="Dropbox" title="Dropbox">](https://opensource.dropbox.com/)
+* [<img src="/static/logo_facebook.svg" alt="Facebook" title="Facebook" width="65px">](https://code.facebook.com/projects/)
+* [<img src="/static/logo_github.svg" alt="GitHub" title="GitHub" width="140px">](https://github.com/github)
+* [<img src="/static/logo_google.svg" alt="Google" title="Google">](https://developers.google.com/open-source/)
+* [<img src="/static/logo_khanacademy.svg" alt="Khan Academy" title="Khan Academy" style="max-width:200px">](https://github.com/Khan)
+* [<img src="/static/logo_square.svg" alt="Square" title="Square">](http://corner.squareup.com)
+* [<img src="/static/logo_stripe.svg" alt="Stripe" title="Stripe" width="120px">](https://github.com/stripe)
+* [<img src="/static/logo_walmartlabs.gif" alt="Walmart Labs" title="Walmart Labs" style="max-width:200px;padding-bottom:20px" width="200px">](https://github.com/walmartlabs)
 
 </section>
 

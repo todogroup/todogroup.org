@@ -20,13 +20,16 @@ body {
 header {
   overflow: hidden;
   padding: 20px 5%;
-}
-
-.logo {
-  height: 120px;
-  max-height: 120px;
-  max-width: 60%;
-  margin: auto auto auto 0;
+  a {
+    display: block;
+    width: 100%;
+    .logo {
+      height: 120px;
+      max-height: 120px;
+      max-width: 60%;
+      margin: auto auto auto 0;
+    }
+  }
 }
 
 article {

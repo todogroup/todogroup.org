@@ -22,9 +22,9 @@ enable us to use, contribute to, and maintain, thousands of projects - both larg
 These programs face many challenges, including ensuring high-quality and frequent releases, engaging
 with developer communities, and using and contributing back to other projects effectively.
 
-The members of this group are committed to working together in order to overcome these challenges.
+The [members of this group](#members) are committed to working together in order to overcome these challenges.
 We will be sharing experiences, developing best practices, and working on common tooling. But we
-can’t do this alone. If you are a company using or sharing open source, we welcome you to join us
+can’t do this alone. If you are a company using or sharing open source, we welcome you [to join us](#participate)
 and help make this happen.
 
 **TODO: talk openly, develop openly.** We believe we can better improve our open source programs -
@@ -34,9 +34,21 @@ and our contributions to the open source movement as a whole - by working togeth
 
 <section id="members" markdown="1">
 
-# Who is in in the TODO group?
+# Who is in the TODO group?
 
-(TODO: insert final list)
+TODO is an open group of companies who run open source programs.
+
+Our members include:
+
+* [Box](http://opensource.box.com/)
+* [Dropbox](https://opensource.dropbox.com/)
+* [Facebook](https://code.facebook.com/projects/)
+* [Google](https://developers.google.com/open-source/)
+* [GitHub](https://github.com/github)
+* [Khan Academy](https://github.com/Khan)
+* [Square](http://corner.squareup.com)
+* [Stripe](https://github.com/stripe)
+* [Walmart Labs](https://github.com/walmartlabs)
 
 </section>
 
@@ -48,7 +60,6 @@ and our contributions to the open source movement as a whole - by working togeth
 (TODO: insert form.  Where should it post to?)
 
 </section>
-
 
 <section id="faq" markdown="1">
 
@@ -70,7 +81,7 @@ See the full <a href="#members">list of members</a>.
 
 ## How can I stay up to date with TODO?
 
-Follow us on GitHub at <https://github.com/todogroup>, Twitter at
-[@todogroup](https://twitter.com/todogroup), and on Facebook at <https://facebook.com/todo>.
+Follow us on [GitHub](https://github.com/todogroup), Twitter at
+[@todogroup](https://twitter.com/todogroup), and on [Facebook](https://facebook.com/todo).
 
 </section>

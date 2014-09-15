@@ -24,7 +24,7 @@
     if (flexing === undefined) {
       flexing = isFlexing()
     };
-    var hash = location.hash || '#intro';
+    var hash = (location.hash != '#header' && location.hash) || '#intro';
     for (var s = 0; s < sectionsLength; s++) {
       var section = sections[s];
       if (!flexing) {

@@ -7,3 +7,10 @@ defaults:
 
 sass:
   style: :compressed
+
+footer:
+    Home: /
+    About: /about/
+    Members: /members/
+    Join: /join/
+    Q&A: /faq/

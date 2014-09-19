@@ -1,11 +1,15 @@
     </article>
     <footer id='footer'>
-      <a href='#header' class='fluid'>Top</a>
-      <a href='#about' class='fixed'>About</a>
-      <a href='#members' class='fixed'>Members</a>
-      <a href='#join' class='fixed'>Join</a>
-      <a href='#faq' class='fixed'>Q&A</a>
+      <nav>
+        {% for link in site.footer %}
+          <a href='{{link[1]}}'
+            {% assign path = link[1] | append:'index.html' %}
+            {% if page.url == path %}
+              class='active'
+            {% endif %}
+          >{{link[0]}}</a>
+        {% endfor %}
+      </nav>
     </footer>
   </body>
-  <script src='/static/site.js'></script>
 </html>

@@ -1,18 +1,13 @@
 ---
 ---
 
-@import "flex.scss";
 @import "normalize";
 @import "colors.scss";
 @import "typography.scss";
 
-html, body {
-  height: 100%;
+body {
   padding: 0;
   margin: 0;
-}
-
-body {
   color: $color-black;
   font-family: $sans-serif;
   font-size: 18px;
@@ -22,36 +17,50 @@ body {
 }
 
 header {
-  overflow: hidden;
-  padding: 20px 5%;
-
+  padding: 0.5em 2em 0;
   a {
     display: block;
-    width: 100%;
     .logo {
-      height: 120px;
-      max-height: 120px;
-      max-width: 60%;
-      margin: auto auto auto 0;
+      height: 80px;
     }
   }
 }
 
-article {
-  padding: 0 5%;
-  -webkit-overflow-scrolling: touch;
+h1 {
+  margin-bottom: 0px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 1.5em;
 }
 
-section {
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h1, h2, h3, b, strong {
+  font-weight: normal;
+}
+
+article {
   @include body-copy;
+
+  padding: 1em 2em;
+  margin-bottom: 100px;
+  -webkit-overflow-scrolling: touch;
   transition: opacity 0.5s;
-  &.hidden {
-    display: none;
-    opacity: 0;
+
+  a {
+    text-decoration: none;
+    color: $color-accent;
+    &:hover {
+      text-decoration: underline;
+    }
   }
-  &.appearing {
-    opacity: 0;
-  }
+
   * {
     max-width: 700px;
   }
@@ -59,28 +68,9 @@ section {
     margin-top: 0;
     padding-top: 0;
   }
-  :last-child {
-    margin-bottom: 0;
-    padding-bottom: 2em;
-  }
 
-  h1 {
-    margin-bottom: 0px;
-    line-height: 1.4;
-    font-weight: 700;
-  }
-
-  a {
-    text-decoration: none;
-    color: $color-accent;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  &#intro,
-  &#thanks {
+  &.page-,
+  &.page-thanks {
     h1 {
       font-family: $display-font;
       text-transform: uppercase;
@@ -90,7 +80,6 @@ section {
       margin: 0px;
       line-height: 1;
       font-weight: 700;
-
       &:first-child {
         color: $color-secondary;
       }
@@ -105,11 +94,7 @@ section {
     }
   }
 
-  &#thanks {
-    display: none;
-  }
-
-  &#members {
+  &.page-members {
     ul {
       list-style-type: none;
       padding-left: 0px;
@@ -129,7 +114,7 @@ section {
     }
   }
 
-  &#join {
+  &.page-join {
     form {
       ul {
         list-style-type: none;
@@ -175,16 +160,15 @@ section {
               }
             }
           }
+          &.hide {
+            display: none;
+          }
         }
-      }
-
-      .hide {
-        display: none;
       }
     }
   }
 
-  &#faq {
+  &.page-faq {
     h2 {
       font-size: 1.25em;
       margin-bottom: 0px;
@@ -197,93 +181,67 @@ section {
   }
 }
 
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-
-h3 {
-  font-size: 1.1em;
-}
-
-h1, h2, h3, b, strong {
-  font-weight: normal;
-}
-
 footer {
-  height: 50px;
-  padding: 20px 5%;
-  a {
-    font-family: $display-font;
-    font-weight: 300;
-    text-transform: uppercase;
-    line-height: 50px;
-    text-decoration: none;
-    color: $color-black;
-    transition: color 0.5s, background 0.5s;
-    &::before {
-      content: "// ";
-      color: $color-primary;
-      font-size: 1.25em;
-    }
-    &.fixed {
-      display: none;
-      font-size: 1em;
+  text-align: right;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  background: $color-background;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border;
+  nav {
+    margin: 0.5em;
+    a {
+      font-family: $display-font;
+      font-weight: 300;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      line-height: 1.5em;
+      text-decoration: none;
+      color: $color-black;
       white-space: nowrap;
-    }
-    &.fluid {
-      display: block;
-    }
-  }
-}
-
-// switch to flexbox layout for window sizes that can handle it
-@media only screen and (min-width: 500px) and (min-height: 600px) {
-  body {
-    @include flexbox();
-    @include flex-direction(column);
-  }
-
-  header {
-    @include flex(0 0 120px);
-    @include flexbox();
-  }
-
-  article {
-    @include flex(1);
-    overflow: auto;
-    margin-left: 107px;
-
-    section {
-      &#thanks {
-        display: block;
+      transition: color 0.5s, background 0.5s;
+      margin-right: 0.5em;
+      &::before {
+        content: "// ";
+        color: $color-primary;
+        font-size: 1.2em;
+        padding-top: 2px;
+        position: relative;
+        top: 0.1em;
       }
-      &#thanks.hidden {
-        display: none;
-      }
-    }
-  }
-
-  footer {
-    margin-left: 107px;
-    @include flex(0 0 50px);
-    @include flexbox();
-    @include justify-content(flex-start);
-    a.fixed {
-      display: block;
-      max-width: 180px;
-      @include flex(1);
       &.active {
         &::before {
           color: $color-black;
         }
       }
     }
-    a.fluid {
-      display: none;
+  }
+
+}
+
+// switch to flexbox layout for window sizes that can handle it
+@media only screen and (min-width: 600px) and (min-height: 600px) {
+  header {
+    padding: 1em 2em 0;
+    a {
+      .logo {
+        height: 120px;
+      }
+    }
+  }
+  article {
+    margin-left: 111px;
+  }
+  footer {
+    text-align:left;
+    nav {
+      margin-left: 2em;
+      padding-left: 111px;
+      a {
+        font-size: 1em;
+      }
     }
   }
 }

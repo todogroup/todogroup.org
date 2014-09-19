@@ -18,6 +18,7 @@ body {
 
 header {
   padding: 0.5em 2em 0;
+  transition: padding 0.5s;
   a {
     display: block;
     .logo {
@@ -172,12 +173,10 @@ article {
   &.page-faq {
     h2 {
       font-size: 1.25em;
-      margin-bottom: 0px;
+      margin: 2em 0 -0.5em;
     }
-
-    p {
-      margin-top: 0px;
-      margin-bottom: 3em;
+    li {
+      margin-bottom: 0.5em;
     }
   }
 }
@@ -201,8 +200,8 @@ footer {
       text-decoration: none;
       color: $color-black;
       white-space: nowrap;
-      transition: color 0.5s, background 0.5s;
-      margin-right: 0.5em;
+      transition: color 0.5s, background 0.5s, font-size 0.5s, margin-right 0.5s;
+      margin-right: 5px;
       &::before {
         content: "// ";
         color: $color-primary;
@@ -221,8 +220,7 @@ footer {
 
 }
 
-// switch to flexbox layout for window sizes that can handle it
-@media only screen and (min-width: 600px) and (min-height: 600px) {
+@media only screen and (min-width: 670px) and (min-height: 600px) {
   header {
     padding: 1em 2em 0;
     a {
@@ -240,7 +238,7 @@ footer {
       padding-left: 111px;
       a {
         font-size: 1em;
-        margin-right: 1em;
+        margin-right: 20px;
       }
     }
   }

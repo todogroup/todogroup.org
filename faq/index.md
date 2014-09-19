@@ -7,20 +7,45 @@ title: "FAQ"
 ## Is this a new open source foundation?
 
 No. We’re a group of companies with a common interest who have come together to
-help solve the problem of utilizing and releasing open source software.
+help solve the problem of utilizing and releasing our own open source software.
 
 ## Whom is this group for?
 
-This group is primarily a forum for companies who both are passionate about, and
-have dedicated resources for, contributing and using open source software.
+The primary purpose of this group is to bring together companies who run open
+source programs. We believe there are number of challenges for companies who
+want to run open source projects and programs effectively. We discovered we had
+only rarely even shared our own experiences, and formed this group to help
+improve shared knowledge about running such programs.
+
+## Should I join?
+
+There are lots of different ways in which open source is built, used, and
+released - and there are many foundations, groups, and communities for different
+aspects of this rich ecosystem. TODO is specifically intended as forum for
+companies' open source program managers to come together. Members generally tend
+to represent companies who consider open source to be an adjunct their core
+business.
 
 ## Which companies are participating?
 
-See the full [list of members](/members).
+See the full [list of members](/members). If you would like to take part too,
+please [contact us](/join).
+
+## What can deliverables can we expect to see from the group?
+
+We are currently focussing on establishing membership and confirming a roadmap
+of activity.
+
+We expect our plans to include work such as:
+
+* sharing best practices for running large open source programs well
+* codifying criteria or qualities that well-run projects should aspire to
+* tooling & instrumentation that makes it easier to reach and maintain those standards
+* a directory of projects from members that meet some or all of those criteria
 
 ## How can I stay up to date with TODO?
 
 Follow us on [GitHub](https://github.com/todogroup), on Twitter at
 [@todogroup](https://twitter.com/todogroup), and on
 [Facebook](https://facebook.com/todo). Press inquiries can be sent to
-<press@todogroup.org>. 
+<press@todogroup.org>.

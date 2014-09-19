@@ -22,6 +22,7 @@ header {
     display: block;
     .logo {
       height: 80px;
+      transition: height 0.5s, width 0.5s;
     }
   }
 }
@@ -51,7 +52,7 @@ article {
   padding: 1em 2em;
   margin-bottom: 100px;
   -webkit-overflow-scrolling: touch;
-  transition: opacity 0.5s;
+  transition: margin-left 0.5s;
 
   a {
     text-decoration: none;
@@ -182,16 +183,15 @@ article {
 }
 
 footer {
-  text-align: right;
   position:fixed;
   left:0px;
   bottom:0px;
   background: $color-background;
   border-top: 1px solid #ccc;
   width: 100%;
-  box-sizing: border;
   nav {
     margin: 0.5em;
+    transition: padding-left 0.5s, margin 0.5s;
     a {
       font-family: $display-font;
       font-weight: 300;
@@ -235,12 +235,12 @@ footer {
     margin-left: 111px;
   }
   footer {
-    text-align:left;
     nav {
-      margin-left: 2em;
+      margin: 2em;
       padding-left: 111px;
       a {
         font-size: 1em;
+        margin-right: 1em;
       }
     }
   }

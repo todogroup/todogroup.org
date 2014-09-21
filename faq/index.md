@@ -31,7 +31,7 @@ business.
 See the full [list of members](/members). If you would like to take part too,
 please [contact us](/join).
 
-## What can deliverables can we expect to see from the group?
+## What deliverables can we expect to see from the group?
 
 We are currently focussing on establishing membership and confirming a roadmap
 of activity.

@@ -101,12 +101,14 @@ article {
       list-style-type: none;
       padding-left: 0px;
       li {
-        display: inline;
+        display: inline-block;
+        width: 230px;
+        text-align: center;
         a {
           font-size: 1.5em;
           font-family: $sans-serif;
           img {
-            width: 150px;
+            max-width: 150px;
             max-height: 40px;
             padding: 20px 80px 20px 0;
             vertical-align: middle;

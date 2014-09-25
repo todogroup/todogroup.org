@@ -4,11 +4,6 @@ title: "FAQ"
 
 # Questions & Answers
 
-## Is this a new open source foundation?
-
-No. We’re a group of companies with a common interest who have come together to
-help solve the problem of utilizing and releasing our own open source software.
-
 ## Whom is this group for?
 
 The primary purpose of this group is to bring together companies who run open
@@ -42,6 +37,11 @@ We expect our plans to include work such as:
 * codifying criteria or qualities that well-run projects should aspire to
 * tooling & instrumentation that makes it easier to reach and maintain those standards
 * a directory of projects from members that meet some or all of those criteria
+
+## Is this a new open source foundation?
+
+No. We’re a group of companies with a common interest who have come together to
+help solve the problem of utilizing and releasing our own open source software.
 
 ## How can I stay up to date with TODO?
 

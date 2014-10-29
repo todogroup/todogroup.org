@@ -4,12 +4,20 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink: /blog/:title/
 
 sass:
   style: :compressed
 
 footer:
     Home: /
+    Blog: /blog/
     About: /about/
     Members: /members/
     Join: /join/

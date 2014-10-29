@@ -183,6 +183,27 @@ article {
   }
 }
 
+.post {
+  .byline {
+    text-transform: uppercase;
+    font-family: $sans-serif;
+    font-size: 0.75em;
+    color: #aaa;
+
+    .date {
+      font-weight: bold;
+    }
+
+    .author {
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    font-size: 2em;
+  }
+}
+
 footer {
   position:fixed;
   left:0px;

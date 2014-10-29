@@ -1,8 +1,8 @@
-- name: Chris Kelly
-  github: amateurhuman
+- github: amateurhuman
+  name: Chris Kelly
   twitter: amateurhuman
   company: GitHub
-- name: Nicholas C. Zakas
-  github: nzakas
+- github: nzakas
+  name: Nicholas C. Zakas
   twitter: slicknet
   company: Box

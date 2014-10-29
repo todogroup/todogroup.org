@@ -1,5 +1,6 @@
 ---
 title: "Join"
+permalink: /join/
 ---
 
 # Interested in participating?

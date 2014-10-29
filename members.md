@@ -1,5 +1,6 @@
 ---
 title: "Members"
+permalink: /members/
 ---
 
 # Who is in the TODO group?

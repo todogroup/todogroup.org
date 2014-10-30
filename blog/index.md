@@ -1,5 +1,4 @@
 ---
 title: "Blog"
+layout: blog_index
 ---
-
-There are currently no posts.

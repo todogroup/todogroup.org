@@ -58,6 +58,8 @@ article {
   a {
     text-decoration: none;
     color: $color-accent;
+    font-weight: bold;
+
     &:hover {
       text-decoration: underline;
     }
@@ -180,6 +182,55 @@ article {
     li {
       margin-bottom: 0.5em;
     }
+  }
+
+  &.page-blog {
+    .entries {
+      padding: 0px;
+
+      .entry {
+        list-style: none;
+        margin-bottom: 3em;
+
+        .date {
+          font-family: $sans-serif;
+          font-weight: bold;
+          font-size: 0.75em;
+          text-transform: uppercase;
+          color: #aaa;
+          margin: 0px;
+        }
+
+        .title {
+          font-size: 2.5em;
+          font-weight: bold;
+          line-height: 1em;
+          margin: 0.25em 0em;
+        }
+      }
+    }
+  }
+}
+
+.post {
+  .byline {
+    text-transform: uppercase;
+    font-family: $sans-serif;
+    font-size: 0.75em;
+    color: #aaa;
+
+    .date {
+      font-weight: bold;
+    }
+
+    .author {
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    font-size: 2.5em;
+    font-weight: bold;
   }
 }
 

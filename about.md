@@ -1,5 +1,6 @@
 ---
 title: "About"
+permalink: /about/
 ---
 
 # About the group

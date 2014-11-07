@@ -1,5 +1,6 @@
 ---
 title: "Members"
+permalink: /members/
 ---
 
 # Who is in the TODO group?
@@ -16,3 +17,4 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_stripe.svg" alt="Stripe" title="Stripe">](https://github.com/stripe)
 * [<img src="/static/logo_twitter.svg" alt="Twitter" title="Twitter">](https://engineering.twitter.com/opensource)
 * [<img src="/static/logo_walmartlabs.gif" alt="Walmart Labs" title="Walmart Labs">](https://github.com/walmartlabs)
+* * [<img src="/static/logo_yahoo.svg" alt="Yahoo!" title="Yahoo!">](https://yahoo.github.io/)

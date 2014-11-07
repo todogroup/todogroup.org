@@ -1,0 +1,15 @@
+{% include header.html %}
+
+{{ content }}
+
+<ul class="entries">
+  {% for post in site.posts %}
+    <li class="entry">
+      <h3 class="date">{{ post.date | date: "%B %-d, %Y" }}</h3>
+      <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include footer.html %}

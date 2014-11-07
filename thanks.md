@@ -1,5 +1,6 @@
 ---
 title: "Thanks"
+permalink: /thanks/
 ---
 
 # All set!

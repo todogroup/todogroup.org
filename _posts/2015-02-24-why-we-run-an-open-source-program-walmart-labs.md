@@ -15,7 +15,7 @@ Let's fast forward to today.
 
 ## Your company is in a fight for great engineers
 
-There are great engineers all over the world, and your company is probably fighting to get as many of them as possible. The supply doesn't meet demand, so it is important to do everything you can to help attract, and retrain talent.
+There are great engineers all over the world, and your company is probably fighting to get as many of them as possible. The supply doesn't meet demand, so it is important to do everything you can to help attract, and retain talent.
 
 The majority of great engineers have GitHub profiles and have been working on projects there (open source and otherwise). The stack has become ubiquitous, and the majority of engineers either like it, or are "happy" enough with it. There are a few grey beards that rant on about Perforce or something else... but that is pretty rare :)
 
@@ -29,7 +29,7 @@ We decided upon [node](http://nodejs.org/) because not only was it a good techni
 
 Compare the following:
 
-> Hey, would you want to build node services that need to handle the traffic of a Walmart Black Friday and proof to the world that node is ready?
+> Hey, would you want to build node services that need to handle the traffic of a Walmart Black Friday and prove to the world that node is ready?
 
 vs.:
 
@@ -98,4 +98,4 @@ This is why I am bullish on open sourcing anything that is not proprietary, and 
 
 But before you open source anything, you have to remember that it is far from "free". If a team is going to throw some software over the wall, then it isn't for me. In my mind you are stepping up to the community to say that you are there to support it in some way. You had better have good documentation. You had better have a process for contribution. Be a good citizen.
 
-It takes time and resources to build a great open source team, so you shouldn't take it on lightly, but I believe that in this day and age I don't know if you could build out a matrix and conclude "we can afford not too".
+It takes time and resources to build a great open source team, so you shouldn't take it on lightly, but I believe that in this day and age I don't know if you could build out a matrix and conclude "we can afford not to".

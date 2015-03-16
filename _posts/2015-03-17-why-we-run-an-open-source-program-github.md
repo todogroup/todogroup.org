@@ -13,6 +13,6 @@ We want to build the best platform for collaborating on software. There are subt
 
 Like other members of the TODO Group, we believe companies have just as much to learn from open source as the community has to benefit from the support of these businesses. As Kim Polesce says in [_Open Sources 2.0_](open-sources), "open source has grown far beyond the mainstream. It has become the bedrock over which the mainstream flows." We celebrate the notion that nobody has to build their own bedrock any more. This is just the beginning. Open source will continue to significantly alter what is possible as we share our knowledge in the form of free software.
 
-Building the most popular platform for collaborating on open source puts us in a unique position, and we take our responsibility to the community seriously. We have always participated in open source because it's who we are. As we become more introspective about our efforts, we think we can help everyone become an open source contributor.
+Building the most popular platform for collaborating on open source puts GitHub in a unique position, and we take our responsibility to the community seriously. We have always participated in open source because it's who we are, and we want to help everyone become a contributor.
 
 [open-sources]: http://shop.oreilly.com/product/9780596008024.do

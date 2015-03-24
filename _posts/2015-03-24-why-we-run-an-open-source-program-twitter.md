@@ -1,5 +1,5 @@
 ---
-title: Why we run an opaen source program - Twitter
+title: Why we run an open source program - Twitter
 author: caniszczyk
 ---
 

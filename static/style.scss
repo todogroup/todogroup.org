@@ -47,13 +47,17 @@ h1, h2, h3, b, strong {
   font-weight: normal;
 }
 
+.container {
+  max-width: 700px;
+  margin: 1em 2em;
+  transition: padding-left 0.5s;
+}
+
 article {
   @include body-copy;
 
-  padding: 1em 2em;
   margin-bottom: 100px;
   -webkit-overflow-scrolling: touch;
-  transition: margin-left 0.5s;
 
   a {
     text-decoration: none;
@@ -65,9 +69,6 @@ article {
     }
   }
 
-  * {
-    max-width: 700px;
-  }
   :first-child {
     margin-top: 0;
     padding-top: 0;
@@ -282,8 +283,8 @@ footer {
       }
     }
   }
-  article {
-    margin-left: 111px;
+  .container {
+    padding-left: 111px;
   }
   footer {
     nav {

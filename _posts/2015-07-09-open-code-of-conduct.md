@@ -1,9 +1,7 @@
 ---
-title: Why we run an open source program - GitHub
+title: Announcing the Open Code of Conduct
 author: bkeepers
 ---
-
-[repo]: https://github.com/todogroup/opencodeofconduct
 
 Open source software is used by everyone, and we believe open source communities should be a welcoming place for anyone that wants to participate. Through our experiences at the TODO Group, we strongly believe that a code of conduct helps set the ground rules for participation in communities and helps build a culture of respect. By adopting and upholding a code of conduct, communities can communicate their values, set expecations, and outline a process for dealing with unwelcome behavior when it arises.
 

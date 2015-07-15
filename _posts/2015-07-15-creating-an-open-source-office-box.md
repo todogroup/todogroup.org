@@ -3,9 +3,9 @@ title: Creating an Open Source Office at Box
 author: bvanevery
 ---
 
-_This time around we feature Benjamin VanEvery ([@bvanevery](https://twitter.com/bvanevery)) from the [Box](https://github.com/box) on how a company new to open source gets started developing an Open Source Office. The goal of this post is to shed some light on starting up an Open Source Office by sharing experiences at Box._
+_This time around we feature Benjamin VanEvery ([@bvanevery](https://twitter.com/bvanevery)) from [Box](http://opensource.box.com) on how a company new to open source gets started developing an Open Source Office. The goal of this post is to shed some light on starting up an Open Source Office by sharing experiences at Box._
 
-Several past blog articles have focused on why each of our companies got involved in open source. It's been enlightening to read through each one and get a glimpse of what open source means to each company and how it impacts their cultures. An important topic that hasn't gotten much attention is how a company new to Open Source gets started.
+Several past blog articles have focused on why each of our companies got involved in open source. Each has been enlightening to read through and get a glimpse of what open source means to the individual companies how it impacts their cultures. An important topic that hasn't gotten much attention is how a company new to Open Source gets started.
 
 # Getting Off the Ground
 

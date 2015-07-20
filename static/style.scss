@@ -56,6 +56,7 @@ h1, h2, h3, b, strong {
 
 article {
   @include body-copy;
+  padding-bottom: 1em;
 
   margin-bottom: 100px;
   -webkit-overflow-scrolling: touch;

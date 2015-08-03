@@ -1,6 +1,9 @@
 gems:
   - jekyll-feed
 
+name: TODO Group
+description: For companies committed to open source.
+
 defaults:
   -
     scope:

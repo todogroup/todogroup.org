@@ -50,7 +50,11 @@ Outside of what the members within the TODO Group have developed, there are othe
 Zalando has [released a tool](https://github.com/zalando/catwatch) that provides an open source metrics dashboard called CatWatch. This dashboard gives the company the ability to view which projects are popular on GitHub. The projects must self-identify to be shown on the list, you can see it in action at https://zalando.github.io
 
 ### Bitergia
-Bitergia have released two more tools in this area. The first tool is a pairing of [MetricsGrimoire](https://github.com/MetricsGrimoire) and [VizGrimoire](https://github.com/VizGrimoire) that can be used to generate metrics and insights into project health. These tools can include data from mailing lists and source control systems other than GitHub. This solution is best suited for large projects with a lot of activity, versus tracking multiple smaller projects. They recently released a GitHub focused service running from [biterg.io](http://biterg.io) that is free for a small number of projects.
+Bitergia have released several tools in this area. The first tool is a pairing of [MetricsGrimoire](https://github.com/MetricsGrimoire) toolkit and [VizGrimoire](https://github.com/VizGrimoire) that can be used to generate metrics and insights into project health. These tools can include data from source control systems other than GitHub, issue tracking systems like bugzilla, JIRA, mailing lists and other data sources related with Open Source and Inner Source development.
+
+They are updating Metrics Grimoire to a new toolkit ([GrimoireLab](http://grimoirelab.github.io)) and you can follow its progress in [their blog](http://blog.bitergia.com). It provides actionable metrics dashboards through a customized Kibana dashboard, but data can be plugged to regular Kibana or other BI tools.
+
+These solutions are best suited for projects with a lot of different data sources repositories. They recently released a GitHub focused service running from [biterg.io](http://biterg.io) that is free for a small number of projects.
 
 ### Join Us
 

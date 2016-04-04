@@ -10,9 +10,7 @@ Last week, the TODO Group led a track at the [Collaboration Summit](http://event
 
 Listed below are some of slides from those talks:
 
-Gil Yehuda ([@gyehuda](https://twitter.com/gyehuda)) runs the Open Source Office at Yahoo and presented a talk highlighting some of the governance issues facing corporate based open source program offices. Here are the slides along with a presentation summary below.
-
-Gil made the case that medium to large tech companies needs an Open Source Program Office. The tech industry acknowledges the ubiquity of open source in the corporate tech stack as well as in products, yet companies face governance issues that need to be addressed properly, consistently, and with goals in mind. He noted that Jim Zemlin lamented at the event keynote that only about 30% of the tech companies surveyed had basic Open Source Governance policies in place, let alone a mature process to manage their involvement in Open Source. The industry needs to improve this, since corporate contributions to Open Source are an increasingly important part of the ecosystem.
+Gil Yehuda ([@gyehuda](https://twitter.com/gyehuda)) runs the Open Source Office at Yahoo and presented a talk highlighting some of the governance issues facing corporate based open source program offices. Gil made the case that medium to large tech companies needs an Open Source Program Office. The tech industry acknowledges the ubiquity of open source in the corporate tech stack as well as in products, yet companies face governance issues that need to be addressed properly, consistently, and with goals in mind. He noted that Jim Zemlin lamented at the event keynote that only about 30% of the tech companies surveyed had basic Open Source Governance policies in place, let alone a mature process to manage their involvement in Open Source. The industry needs to improve this, since corporate contributions to Open Source are an increasingly important part of the ecosystem.
 
 Gil focused on six of the most common aspects of governance. He detailed how an Open Source program office addresses inbound use of Open Source code, M&A deals, publication of code to existing projects as well as new open source projects, product review to ensure compliance of distributed code, and the abundance of employee generated questions that often come up related to copyright, work for hire, and code with unclear provenance. Gil's thesis was that an OSPO is essential to helping your company meet its open source goals and helps improve the overall quality of engineering too. He concluded with an invitation to reach out to us, the TODO Group, to help get started.
 
@@ -21,5 +19,9 @@ Gil focused on six of the most common aspects of governance. He detailed how an 
 Brandon Keepers ([@bkeepers](https://twitter.com/bkeepers)) runs the Open Source Office at GitHub and presented a talk about developing a maturity model for embracing open source:
 
 <script async class="speakerdeck-embed" data-id="1de33e2a0e06469eac4b9d211e79f257" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+Jeff McAffer ([@jeffmcaffer](https://twitter.com/jeffmcaffer) from the Microsoft Open Source Office presented a talk about how Microsoft uses GHTorrent along with Microsoft's DataLake infrastructure to get important data analytics from Github. Jeff walked through real-world examples (using live data) to show how reseachers and community managers can use Github's wealth of data to help make better decisions about managing projects and addressing issues. He then showed how you can leverage the same for your projects too.
+
+Christine Abernathy ([@abernathyca](https://twitter.com/abernathyca) from the Facebook Open Source Office shared lessons from the community building strategies used at Facebook to manage some of the most successful Open Source projects. She also shared how Facebook uses their metrics dashboard and many tools (that are open sourced) to manage and report on activity in their open source communities.
 
 TODO

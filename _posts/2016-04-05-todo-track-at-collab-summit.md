@@ -16,7 +16,7 @@ Gil also focused on six of the most common aspects of governance. He detailed ho
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/vTNvkwIXN4pmr8" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/gyehuda/your-open-source-program-office" title="Your Open Source Program Office" target="_blank">Everything You Always Wanted to Know About a Corporate Open Source Program Office (but were afraid to ask).</a> </strong> presented by <strong><a target="_blank" href="//www.gilyehuda.com">Gil Yehuda</a></strong> </div>
 
-Brandon Keepers ([@bkeepers](https://twitter.com/bkeepers)) runs the OSPO equivalent at GitHub and presented a talk about developing a maturity model for embracing open source:
+Brandon Keepers ([@bkeepers](https://twitter.com/bkeepers)) leads up open source efforts at GitHub and presented a talk about developing a maturity model for helping organizations embrace open source. The maturity model aims to provide a framework for helping everyone in an organization understand the benfits and challenges of consuming, contributing to, and releasing open source software.
 
 <script async class="speakerdeck-embed" data-id="1de33e2a0e06469eac4b9d211e79f257" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 

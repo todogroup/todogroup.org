@@ -9,3 +9,6 @@ We had an opportunity to speak at OSCON 2016, the slides are provided below:
 
 Thank you to everyone who attended our session and asked questions! If you're
 interested in joining the TODO Group, please reach out over Twitter!
+
+See a follow up blog from Ben VanEvery about his experience starting the Open Source Office at Box, http://www.ingeniousmalarkey.com/2016/05/starting-open-source-office-within-your.html.
+

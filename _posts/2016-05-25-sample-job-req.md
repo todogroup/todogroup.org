@@ -5,6 +5,8 @@ author: bvanevery
 
 I ran into several folks this past week at OSCON who expressed a keen interest in creating a dedicated role for Open Source at their respective companies. So what was stopping them? One simple thing: every single one of them was struggling to define exactly what that role means. Instinctively we all have a feeling of what an employee dedicated to Open Source might do, but when it comes time to write it down or try to convince payroll, it can be challenging. Below I have included a starting point for a job description of what a dedicated Open Source manager might do. If you are in this boat, I'd highly recommend that you also check out the slides from our [talk at OSCON](http://todogroup.org/blog/oscon-talk/) this year. In addition, the many blog posts we've [published](http://todogroup.org/blog) about why our respective companies run Open Source.
 
+Also, on top of reusing what is below, we are collecting [open source office job descriptions](https://github.com/todogroup/job-descriptions) on GitHub from the industry that you can learn from.
+
 # The Job Posting
 
 *Side note: if you use this template, try running it through analysis on https://textio.com/talent/ first.*
@@ -20,7 +22,7 @@ In this role, you'll work with our Engineering (Dev & Ops), Legal, Security, Bus
 * 8 years experience coding in or leading software engineering environments
 * Experience working on at least one successful and widely recognized open source project
 * Excellent communication and organizational skills
-* Familiarity with GitHub, Travis CI, Coveralls, and/or other open source tools
+* Familiarity with GitHub and open source CI tooling (Travis CI, Coveralls, etc)
 * Understanding of open source licenses
 * Experience and familiarity with multiple programming languages
 * Real passion for quality and continuous improvement
@@ -34,5 +36,3 @@ In this role, you'll work with our Engineering (Dev & Ops), Legal, Security, Bus
 * You will build awareness of Company Open Source externally and increase overall involvement in the open source community.
 * You will establish Company as an actively contributing member of industry-leading Open Source initiatives. This involves taking active parts in TODO Group initiatives.
 * You will run our process for evaluating incoming open source code for use in our product.
-
-

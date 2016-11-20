@@ -7,7 +7,6 @@ permalink: /members/
 
 TODO is an open group of companies who run open source programs. Our members include:
 
-* [<img src="/static/logo_amazon.svg" alt="Amazon" title="Amazon">](http://amzn.github.io/)
 * [<img src="/static/logo_autodesk.svg" alt="Autodesk" title="Autodesk">](http://www.autodesk.com)
 * [<img src="/static/logo_box.svg" alt="Box" title="Box">](http://opensource.box.com/)
 * [<img src="/static/logo_capital_one.svg" alt="Capital One" title="Capital One">](http://www.capitalone.io/)

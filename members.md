@@ -7,9 +7,11 @@ permalink: /members/
 
 TODO is an open group of companies who run open source programs. Our members include:
 
+* [<img src="/static/logo_adobe.svg" alt="Adobe" title="Adobe">](http://www.adobe.com)
 * [<img src="/static/logo_autodesk.svg" alt="Autodesk" title="Autodesk">](http://www.autodesk.com)
 * [<img src="/static/logo_box.svg" alt="Box" title="Box">](http://opensource.box.com/)
 * [<img src="/static/logo_capital_one.svg" alt="Capital One" title="Capital One">](http://www.capitalone.io/)
+* [<img src="/static/logo_comcast.svg" alt="Comcast" title="Comcast">](http://www.comcast.com/)
 * [<img src="/static/logo_dropbox.svg" alt="Dropbox" title="Dropbox">](https://opensource.dropbox.com/)
 * [<img src="/static/logo_facebook.svg" alt="Facebook" title="Facebook">](https://code.facebook.com/projects/)
 * [<img src="/static/logo_github.svg" alt="GitHub" title="GitHub">](https://github.com/github)

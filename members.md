@@ -13,6 +13,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_capital_one.svg" alt="Capital One" title="Capital One">](http://www.capitalone.io/)
 * [<img src="/static/logo_comcast.svg" alt="Comcast" title="Comcast">](http://www.comcast.com/)
 * [<img src="/static/logo_dropbox.svg" alt="Dropbox" title="Dropbox">](https://opensource.dropbox.com/)
+* [<img src="/static/logo_ebay.svg" alt="eBay" title="eBay">](http://ebay.github.io/)
 * [<img src="/static/logo_facebook.svg" alt="Facebook" title="Facebook">](https://code.facebook.com/projects/)
 * [<img src="/static/logo_github.svg" alt="GitHub" title="GitHub">](https://github.com/github)
 * [<img src="/static/logo_google.svg" alt="Google" title="Google">](https://developers.google.com/open-source/)

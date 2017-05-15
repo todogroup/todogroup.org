@@ -34,6 +34,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_saucelabs.svg" alt="Sauce Labs" title="Sauce Labs">](https://github.com/saucelabs)
 * [<img src="/static/logo_square.svg" alt="Square" title="Square">](http://corner.squareup.com)
 * [<img src="/static/logo_stripe.svg" alt="Stripe" title="Stripe">](https://github.com/stripe)
+* [<img src="/static/logo_target.svg" alt="Target" title="Target">](https://github.com/target)
 * [<img src="/static/logo_twitter.svg" alt="Twitter" title="Twitter">](https://engineering.twitter.com/opensource)
 * [<img src="/static/logo_walmartlabs.gif" alt="Walmart Labs" title="Walmart Labs">](https://github.com/walmartlabs)
 * [<img src="/static/logo_vmware.svg" alt="VMWare" title="VMWare">](https://github.com/vmware)

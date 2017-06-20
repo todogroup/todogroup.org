@@ -35,6 +35,8 @@ The Crawler team spent some time looking at the overall structure and operation 
 
 * A simplified mechanism for transforming the JSON responses from GitHub into tabular rows for storage in table oriented stores
 
+* Testing the crawler on GitHub Enterprise
+
 There was work on a ElasticSearch store implementation (see this [fork](https://github.com/craigez/ghcrawler)). We eventually got something running and after some refinement that should get merged into the upstream repo quickly! We also did an experiment to get onto Cassandra as a data store.  We eventually decided that Cassandra was not the best technology for the task.
 
 We also took a look at the CrawlerFactory (main code that composes and configures the crawler) and (rightly) gasped (not in a good way).  We spent quite a bit of time talking about refactoring that for composability and understanding. 
@@ -48,6 +50,8 @@ Next steps:
 * Iterate on the refactoring of the CrawlerFactory
 
 * Prototype the mechanism for projecting JSON onto tabular rows (there must be an NPM for that)
+
+* Initial tests on GitHub Enterprise were promising.  There did turn out to be at least one issue that is being investigated by one of the team.
 
 ### GitHub Portal ([https://github.com/microsoft/opensource-portal/)](https://github.com/microsoft/opensource-portal/)
 

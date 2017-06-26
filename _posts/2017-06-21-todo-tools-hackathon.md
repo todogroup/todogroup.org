@@ -5,9 +5,9 @@ author: todogroup
 
 We recently held a TODO Tools Working Group hackathon at Microsoft. There were about a dozen people from half a dozen different organizations. We ended up with three groupings of hacking around: repository linting, GitHub portal and GitHub data/crawling. Below is a summary of the work that was done and some next steps.
 
-### Repolinter ([https://github.com/todogroup/repolinter](https://github.com/todogroup/repolinter))
+### Repo Linter ([https://github.com/todogroup/repolinter](https://github.com/todogroup/repolinter))
 
-Repolinters is a a simple linter to check for open source quality: [https://github.com/todogroup/repolinter](https://github.com/todogroup/repolinter). We initially evaluated using [https://github.com/basicallydan/forkability](https://github.com/basicallydan/forkability) but it wasn’t designed for extensibility and isn’t being actively maintained.
+Repo Linter is a a simple linter to check for open source quality: [https://github.com/todogroup/repolinter](https://github.com/todogroup/repolinter). We initially evaluated using [https://github.com/basicallydan/forkability](https://github.com/basicallydan/forkability) but it wasn’t designed for extensibility and isn’t being actively maintained.
 
 Rules:
 
@@ -17,13 +17,9 @@ Rules:
 
 Next steps:
 
-* Move the rule configuration outside of the tool source code so teams can define their own configuration.
-
-* Performance improvements (especially in file_starts_with rule).
+* Performance improvements.
 
 * More structure around rule config and results (e.g. provide advice on how to fix, warnings vs errors vs suggestions).
-
-* Support running against a remote GitHub repository.
 
 ### Ghcrawler ([https://github.com/Microsoft/ghcrawler](https://github.com/Microsoft/ghcrawler))
 

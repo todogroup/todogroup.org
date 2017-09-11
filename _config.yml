@@ -24,6 +24,7 @@ sass:
 footer:
     Home: /
     Blog: /blog/
+    Guides: /guides/
     About: /about/
     Community: /community/
     Members: /members/

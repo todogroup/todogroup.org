@@ -9,7 +9,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 
 * [<img src="/static/logo_adobe.svg" alt="Adobe" title="Adobe">](http://www.adobe.com)
 * [<img src="/static/logo_autodesk.svg" alt="Autodesk" title="Autodesk">](http://www.autodesk.com)
-* [<img src="/static/logo_aws.svg" alt="AWS" title="AWS">](https://twitter.com/AWSOpen))
+* [<img src="/static/logo_aws.svg" alt="AWS" title="AWS">](https://twitter.com/AWSOpen)
 * [<img src="/static/logo_box.svg" alt="Box" title="Box">](http://opensource.box.com/)
 * [<img src="/static/logo_capital_one.svg" alt="Capital One" title="Capital One">](http://www.capitalone.io/)
 * [<img src="/static/logo_comcast.svg" alt="Comcast" title="Comcast">](http://www.comcast.com/)

@@ -27,6 +27,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_microsoft.svg" alt="Microsoft" title="Microsoft">](https://www.microsoft.com/en-us/openness/)
 * [<img src="/static/logo_ni.svg" alt="National Instruments" title="National Instruments">](https://github.com/ni)
 * [<img src="/static/logo_netflix.svg" alt="Netflix" title="Netflix">](https://netflix.github.io/)
+* [<img src="/static/logo_oath.svg" alt="Oath" title="Oath">](https://yahoo.github.io/)
 * [<img src="/static/logo_paypal.svg" alt="Paypal" title="Paypal">](http://paypal.github.io/)
 * [<img src="/static/logo_pinterest.svg" alt="Pinterest" title="Pinterest">](https://github.com/pinterest)
 * [<img src="/static/logo_qualcomm.svg" alt="Qualcomm" title="Qualcomm">](https://www.codeaurora.org/)
@@ -42,4 +43,3 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_twitter.svg" alt="Twitter" title="Twitter">](https://engineering.twitter.com/opensource)
 * [<img src="/static/logo_walmartlabs.gif" alt="Walmart Labs" title="Walmart Labs">](https://github.com/walmartlabs)
 * [<img src="/static/logo_vmware.svg" alt="VMWare" title="VMWare">](https://github.com/vmware)
-* [<img src="/static/logo_yahoo.svg" alt="Yahoo!" title="Yahoo!">](https://yahoo.github.io/)

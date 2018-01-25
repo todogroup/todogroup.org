@@ -20,6 +20,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_facebook.svg" alt="Facebook" title="Facebook">](https://code.facebook.com/projects/)
 * [<img src="/static/logo_github.svg" alt="GitHub" title="GitHub">](https://github.com/github)
 * [<img src="/static/logo_google.svg" alt="Google" title="Google">](https://opensource.google.com/)
+* [<img src="/static/logo_here.svg" alt="Here Technologies" title="Here Technologies">](https://github.com/heremaps)
 * [<img src="/static/logo_hpe.svg" alt="HPE" title="HPE">](https://github.com/HewlettPackard)
 * [<img src="/static/logo_huawei.svg" alt="Huawei" title="Huawei">](http://www1.huawei.com/en/about-huawei/Partner/openathuawei/index.htm)
 * [<img src="/static/logo_khanacademy.svg" alt="Khan Academy" title="Khan Academy">](https://github.com/Khan)

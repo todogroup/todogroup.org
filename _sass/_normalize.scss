@@ -2,8 +2,11 @@
 
 /**
  * 1. Set default font family to sans-serif.
+1.Itakda ang default na font ng pamilya sa sans-serrif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
+2.Itakda ang default na font ng pamilya sa sans-serif. Pigilan ang laki ng IOS na ayusin pagkatapos ng pagbabago ng oryentasyon, nang hindi pinapagana.
  *    user zoom.
+mag-zoom ng tagagamit.
  */
 
 html {
@@ -14,6 +17,7 @@ html {
 
 /**
  * Remove default margin.
+Alisin ang default margin.
  */
 
 body {
@@ -21,12 +25,17 @@ body {
 }
 
 /* HTML5 display definitions
+Ang mga kahulugan ng display ng HTML5
    ========================================================================== */
 
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
+Ang tamang `block` display ay hindi tinukoy para sa anumang elemento ng HTML5 sa IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+Ang tamang `block` display ay hindi tinukoy para sa` mga detalye` o `buod` sa IE 10/11 at Firefox.
  * Correct `block` display not defined for `main` in IE 11.
+Ang tamang `block` display ay hindi tinukoy para sa` pangunahing` sa IE 11.
+
  */
 
 article,
@@ -46,7 +55,9 @@ summary {
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
+1.Tamang `inline-block` display hindi tinukoy sa IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+2.Normalize ang vertical alignment ng `progress` sa Chrome, Firefox, at Opera.
  */
 
 audio,
@@ -59,7 +70,9 @@ video {
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
+Pigilan ang mga modernong browser mula sa pagpapakita ng `audio` nang walang mga kontrol.
  * Remove excess height in iOS 5 devices.
+Alisin ang sobrang taas sa iOS 5 device.
  */
 
 audio:not([controls]) {
@@ -69,7 +82,9 @@ audio:not([controls]) {
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
+Magtatag ng `[hidden]` na estilo ng address sa IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+Itago ang elemento ng `template` sa IE 8/9/11, Safari, at Firefox <22.
  */
 
 [hidden],
@@ -78,10 +93,12 @@ template {
 }
 
 /* Links
+Mga Link
    ========================================================================== */
 
 /**
  * Remove the gray background color from active links in IE 10.
+Alisin ang kulay ng grey na background mula sa mga aktibong link sa IE 10.
  */
 
 a {
@@ -90,6 +107,7 @@ a {
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
+Pagbutihin ang pagiging madaling mabasa kapag naka-focus at din ang mouse sa lahat ng mga browser.
  */
 
 a:active,
@@ -98,10 +116,12 @@ a:hover {
 }
 
 /* Text-level semantics
+Mga semantika sa antas ng teksto
    ========================================================================== */
 
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+Ang estilo ng address ay hindi naroroon sa IE 8/9/10/11, Safari, at Chrome.
  */
 
 abbr[title] {
@@ -110,6 +130,7 @@ abbr[title] {
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+Itinakda ang estilo ng address sa `bolder` sa Firefox 4+, Safari, at Chrome.
  */
 
 b,
@@ -119,6 +140,7 @@ strong {
 
 /**
  * Address styling not present in Safari and Chrome.
+Ang estilo ng address na hindi naroroon sa Safari at Chrome.
  */
 
 dfn {
@@ -127,7 +149,9 @@ dfn {
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
+Address variable variable `h1` at sukat sa loob ng` seksyon` at `artikulo`
  * contexts in Firefox 4+, Safari, and Chrome.
+konteksto sa Firefox 4+, Safari, at Chrome.
  */
 
 h1 {
@@ -137,6 +161,7 @@ h1 {
 
 /**
  * Address styling not present in IE 8/9.
+Ang estilo ng address ay hindi naroroon sa IE 8/9.
  */
 
 mark {
@@ -146,6 +171,7 @@ mark {
 
 /**
  * Address inconsistent and variable font size in all browsers.
+Address ng hindi pantay-pantay at variable na laki ng font sa lahat ng mga browser.
  */
 
 small {
@@ -154,6 +180,7 @@ small {
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+Pigilan ang `sub` at` sup` na nakakaapekto sa `line-height` sa lahat ng mga browser.
  */
 
 sub,
@@ -173,10 +200,12 @@ sub {
 }
 
 /* Embedded content
+Naka-embed na nilalaman
    ========================================================================== */
 
 /**
  * Remove border when inside `a` element in IE 8/9/10.
+Alisin ang hangganan kapag nasa loob ng `a` sangkap sa IE 8/9/10.
  */
 
 img {
@@ -185,6 +214,7 @@ img {
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
+Tamang overflow hindi nakatago sa IE 9/10/11.
  */
 
 svg:not(:root) {
@@ -192,10 +222,12 @@ svg:not(:root) {
 }
 
 /* Grouping content
+Grouping content
    ========================================================================== */
 
 /**
  * Address margin not present in IE 8/9 and Safari.
+Ang margin ng address ay hindi naroroon sa IE 8/9 at Safari.
  */
 
 figure {
@@ -204,6 +236,7 @@ figure {
 
 /**
  * Address differences between Firefox and other browsers.
+Address pagkakaiba sa pagitan ng Firefox at iba pang mga browser.
  */
 
 hr {
@@ -214,6 +247,7 @@ hr {
 
 /**
  * Contain overflow in all browsers.
+Naglalaman ng overflow sa lahat ng mga browser.
  */
 
 pre {
@@ -222,6 +256,7 @@ pre {
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
+Mag-address ng odd `em`-unit na rendering ng laki ng font sa lahat ng mga browser.
  */
 
 code,
@@ -233,18 +268,25 @@ samp {
 }
 
 /* Forms
+Mga Form
    ========================================================================== */
 
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
+Kilalang limitasyon: sa pamamagitan ng default, ang Chrome at Safari sa OS X ay nagbibigay-daan sa limitado
  * styling of `select`, unless a `border` property is set.
+estilo ng `piliin`, maliban kung ang isang` border` ay nakatakda.
  */
 
 /**
  * 1. Correct color not being inherited.
+1. Tamang kulay na hindi minana.
  *    Known issue: affects color of disabled elements.
+Kilalang isyu: nakakaapekto sa kulay ng mga hindi pinagana na elemento.
  * 2. Correct font properties not being inherited.
+2. Tamang mga katangian ng font na hindi minana.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+3.Ang mga margin ng address ay naiiba sa Firefox 4+, Safari, at Chrome.
  */
 
 button,
@@ -259,6 +301,7 @@ textarea {
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
+Itakda ang `overflow` ng address sa` hidden` sa IE 8/9/10/11.
  */
 
 button {
@@ -267,9 +310,13 @@ button {
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
+Address hindi naaayon sa `text-transform` mana para sa` button` at `piliin`.
  * All other form control elements do not inherit `text-transform` values.
+Ang lahat ng iba pang mga elemento ng control form ay hindi nagmamana ng `mga text-transform` na mga halaga.
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+Tamang `button` na mana sa Firefox, IE 8/9/10/11, at Opera.
  * Correct `select` style inheritance in Firefox.
+Tama ang `piliin` na pamana ng istilo sa Firefox.
  */
 
 button,
@@ -279,10 +326,15 @@ select {
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+1. Iwasan ang bug sa WebKit sa Android 4.0. * Kung saan (2) ay sumisira sa katutubong `audio`
  *    and `video` controls.
+at `video` na mga kontrol.
  * 2. Correct inability to style clickable `input` types in iOS.
+2. Tamang kawalan ng kakayahan sa estilo naki-click na `input` uri sa iOS.
  * 3. Improve usability and consistency of cursor style between image-type
+3. Pagbutihin ang usability at pagkakapare-pareho ng estilo ng cursor sa pagitan ng uri ng imahe
  *    `input` and others.
+`input` at iba pa.
  */
 
 button,
@@ -295,6 +347,7 @@ input[type="submit"] {
 
 /**
  * Re-set default cursor for disabled elements.
+Muling magtakda ng default na cursor para sa mga hindi pinagana na elemento.
  */
 
 button[disabled],
@@ -304,6 +357,7 @@ html input[disabled] {
 
 /**
  * Remove inner padding and border in Firefox 4+.
+Alisin ang panloob na padding at hangganan sa Firefox 4+.
  */
 
 button::-moz-focus-inner,
@@ -314,7 +368,9 @@ input::-moz-focus-inner {
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+Address ng setting ng Firefox 4+ na `line-height` sa` input` gamit ang `! Important` in
  * the UA stylesheet.
+ang stylesheet ng UA.
  */
 
 input {
@@ -323,10 +379,14 @@ input {
 
 /**
  * It's recommended that you don't attempt to style these elements.
+Inirerekomenda na hindi mo subukan na estilo ang mga elementong ito.
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
+Ang pagpapatupad ng Firefox ay hindi paggalang sa box-sizing, padding, o lapad.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
+1. Laki ng kahon ng address na nakatakda sa `content-box` sa IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
+2. Alisin ang labis na padding sa IE 8/9/10.
  */
 
 input[type="checkbox"],
@@ -337,8 +397,11 @@ input[type="radio"] {
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+Ayusin ang estilo ng cursor para sa mga pindutan ng increment / decrement ng Chrome. Para sa tiyak
  * `font-size` values of the `input`, it causes the cursor style of the
+`font-size` na mga halaga ng` input`, nagiging sanhi ito ng estilo ng cursor ng
  * decrement button to change from `default` to `text`.
+pindutan ng pag-decrement upang baguhin mula sa `default` patungo sa` text`.
  */
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -348,8 +411,11 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+1. Address `hitsura` nakatakda sa` searchfield` sa Safari at Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+2. Itakda ang `box-sizing 'ng address sa` border-box` sa Safari at Chrome
  *    (include `-moz` to future-proof).
+(isama ang `-moz` sa hinaharap-patunay).
  */
 
 input[type="search"] {
@@ -361,8 +427,11 @@ input[type="search"] {
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+Alisin ang panloob na padding at pindutan ng pagkansela ng paghahanap sa Safari at Chrome sa OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
+I-clip ng Safari (ngunit hindi Chrome) ang pindutan ng pagkansela kapag may pag-input sa paghahanap
  * padding (and `textfield` appearance).
+padding (at `textfield` na hitsura).
  */
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -372,6 +441,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /**
  * Define consistent border, margin, and padding.
+Tukuyin ang pare-parehong hangganan, margin, at padding.
  */
 
 fieldset {
@@ -382,7 +452,9 @@ fieldset {
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
+1. Tamang `kulay` hindi minana sa IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+2. Alisin ang padding upang ang mga tao ay hindi mahuli kung sila ay mawalan ng mga fieldets.
  */
 
 legend {
@@ -392,6 +464,7 @@ legend {
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
+Alisin ang default vertical scrollbar sa IE 8/9/10/11.
  */
 
 textarea {
@@ -400,7 +473,9 @@ textarea {
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
+Huwag magmana ng `font-weight` (inilapat sa pamamagitan ng isang panuntunan sa itaas).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+TANDAAN: ang default ay hindi maaaring ligtas na mabago sa Chrome at Safari sa OS X.
  */
 
 optgroup {
@@ -408,10 +483,12 @@ optgroup {
 }
 
 /* Tables
+Mga Tabla
    ========================================================================== */
 
 /**
  * Remove most spacing between table cells.
+Alisin ang karamihan ng spacing sa pagitan ng mga cell ng talahanayan
  */
 
 table {

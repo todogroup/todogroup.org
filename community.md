@@ -3,6 +3,12 @@ title: "Community"
 permalink: /community/
 ---
 
+# Slack
+
+Join us on Slack to chat open source program management:
+
+<script async defer src="https://slack.cncf.io/slackin.js?large"></script>
+
 # Public Mailing List
 
 To discuss issues with the TODO Group you're welcome to join the [public mailing list](https://groups.google.com/forum/#!forum/todogroup).

@@ -7,7 +7,7 @@ permalink: /community/
 
 Join us on Slack to chat open source program management:
 
-<script async defer src="https://slack.cncf.io/slackin.js?large"></script>
+<script async defer src="https://slack.todogroup.org/slackin.js?large"></script>
 
 # Public Mailing List
 

@@ -5,8 +5,6 @@ author: todogroup
 
 Last year we launched our [Open Source Program Guides](http://todogroup.org/blog/open-source-guides/) and as part of that launch, we mentioned we will be actively publishing open source program case studies. We started with [Comcast, Dropbox, Facebook Red Hat and Salesforce](https://github.com/todogroup/guides/tree/master/casestudies), this month we're happy to add the Red Hat open source program:
 
-# Microsoft
-
 # The Open Source Program at Microsoft: How Open Source Thrives
 
 Microsoft is now an accepted big player in the open source space, but just a few years ago such a role for the software giant, seemed inconceivable. Many people were thus surprised when Microsoft emerged from its market lead as a proprietary software maker to make a move towards open source in a big way. Although the company’s story is remarkable, its open source journey has been neither as abrupt or unexpected as it may have appeared. 

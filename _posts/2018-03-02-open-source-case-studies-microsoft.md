@@ -1,5 +1,5 @@
 ---
-title: "Open Source Program Case Studies: Microsoft
+title: "Open Source Program Case Studies: Microsoft"
 author: todogroup
 ---
 

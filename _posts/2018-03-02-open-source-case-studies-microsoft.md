@@ -47,7 +47,7 @@ GitHub is a very rich environment, where lots of interactions are possible. Micr
 
 GHTorrent helps Microsoft understand what's going on at GitHub but also internally in terms of its own projects. Even so, there are some things that GHTorrent was not set up to do, including work with private repositories and some of the more detailed data concerning teams where admin permissions are required. 
 
-The company ended up creating another system called [GHCrawler](https://github.com/microsoft/ghcrawler), which it also open source. This tool tracks everything on GitHub down to the commit level, team, and permissions changes. That data is then used in metrics and tracking analysis to discover insights such as how many pull requests are coming in, how fast they are getting action, and how long they take to close or merge. "It gives us a way of tracking our presence," said McAffer.
+The company ended up creating another system called [GHCrawler](https://github.com/microsoft/ghcrawler), which it also open sourced. This tool tracks everything on GitHub down to the commit level, team, and permissions changes. That data is then used in metrics and tracking analysis to discover insights such as how many pull requests are coming in, how fast they are getting action, and how long they take to close or merge. "It gives us a way of tracking our presence," said McAffer.
 
 ## Simplifying open source use
 

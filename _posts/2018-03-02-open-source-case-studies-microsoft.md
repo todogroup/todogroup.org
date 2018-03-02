@@ -3,7 +3,7 @@ title: "Open Source Program Case Studies: Microsoft"
 author: todogroup
 ---
 
-Last year we launched our [Open Source Program Guides](http://todogroup.org/blog/open-source-guides/) and as part of that launch, we mentioned we will be actively publishing open source program case studies. We started with [Comcast, Dropbox, Facebook Red Hat and Salesforce](https://github.com/todogroup/guides/tree/master/casestudies), this month we're happy to add the Red Hat open source program:
+Last year we launched our [Open Source Program Guides](http://todogroup.org/blog/open-source-guides/) and as part of that launch, we mentioned we will be actively publishing open source program case studies. We started with [Comcast, Dropbox, Facebook, Red Hat and Salesforce](https://github.com/todogroup/guides/tree/master/casestudies), this month we're happy to add the Microsoft open source program:
 
 # The Open Source Program at Microsoft: How Open Source Thrives
 

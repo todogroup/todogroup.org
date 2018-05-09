@@ -8,7 +8,7 @@ permalink: /faq/
 ## Whom is this group for?
 
 The primary purpose of this group is to bring together companies who run open
-source programs. We believe there are number of challenges for companies who
+source programs. We believe there are a number of challenges for companies who
 want to run open source projects and programs effectively. We discovered we had
 only rarely even shared our own experiences, and formed this group to help
 improve shared knowledge about running such programs.
@@ -49,4 +49,4 @@ help solve the problem of utilizing and releasing our own open source software.
 Follow us on [GitHub](https://github.com/todogroup), on Twitter at
 [@todogroup](https://twitter.com/todogroup), and on
 [Facebook](https://facebook.com/todo). Press inquiries can be sent to
-<press@todogroup.org>.
+<press@todogroup.org>. 

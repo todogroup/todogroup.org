@@ -27,6 +27,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_khanacademy.svg" alt="Khan Academy" title="Khan Academy">](https://github.com/Khan)
 * [<img src="/static/logo_ibm.svg" alt="IBM" title="IBM">](http://ibm.github.io/)
 * [<img src="/static/logo_indeed.svg" alt="Indeed" title="Indeed">](https://github.com/indeedeng)
+* [<img src="/static/logo_intel.svg" alt="Intel" title="Intel">](https://01.org/)
 * [<img src="/static/logo_microsoft.svg" alt="Microsoft" title="Microsoft">](https://www.microsoft.com/en-us/openness/)
 * [<img src="/static/logo_ni.svg" alt="National Instruments" title="National Instruments">](https://github.com/ni)
 * [<img src="/static/logo_netflix.svg" alt="Netflix" title="Netflix">](https://netflix.github.io/)

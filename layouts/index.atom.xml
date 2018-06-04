@@ -12,18 +12,16 @@
   {{- $date := .Date.Format "2006-01-02T15:04:05-07:00" }}
   <entry>
     <title type="html">{{ .Title | safeHTML }}</title>
-    <link href="{{ .Permalink }}" rel="alternate" type="text/html" title="{{ .Title }}">
+    <link href="{{ .Permalink }}" rel="alternate" type="text/html" title="{{ .Title }}" />
     <published>{{ $date | safeHTML }}</published>
     <updated>{{ $date | safeHTML }}</updated>
     <id>{{ .Permalink }}</id>
-    <content type="html" xml:base="{{ .Permalink }}">
-      {{ .Content }}
-    </content>
+    {{ `<content type="html"><![CDATA[` | safeHTML }}{{ .Content }}]]></content>
     <author>
-      <name>{{ .Params.author }}</a>
+      <name>{{ .Params.author }}</name>
     </author>
     <summary type="html">
-      {{ .Summary }}
+      {{ .Summary | html }}
     </summary>
   </entry>
   {{- end }}

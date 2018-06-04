@@ -10,4 +10,4 @@ develop-site-content:
 	$(HUGO) server \
 		--disableFastRender \
 		--ignoreCache \
-		--baseURL /
+		--baseURL "localhost"

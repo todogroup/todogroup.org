@@ -2,6 +2,7 @@
 title: "@Scale 2016: Managing an Open Source Program at Scale"
 author: todogroup
 date: 2016-09-13
+draft: true
 ---
 
 At the recent @Scale conference, TODO members had an opportunity to partake in a

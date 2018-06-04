@@ -1,6 +1,6 @@
 {{- $title := cond (.IsHome) .Title (printf "%s - %s" .Title .Site.Title) }}
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <generator uri="http://gohugo.io/" version="v0.42-DEV">Hugo</generator>
+  <generator uri="http://gohugo.io/" version="{{ .Hugo.Version }}">Hugo</generator>
   <link href="{{ "/feed.xml" | absURL }}" rel="self" type="application/atom.xml" />
   <link href="{{ .Site.BaseURL }}" rel="alternate" type="text/html" />
   {{- if not .Date.IsZero }}

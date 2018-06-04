@@ -1,0 +1,10 @@
+{{- $footerLinks := .Site.Params.footer }}
+<footer id="footer">
+  <nav>
+    {{- range $footerLinks }}
+    <a href="{{ .link | absURL }}">
+      {{ .title }}
+    </a>
+    {{- end }}
+  </nav>
+</footer>

@@ -1,3 +1,5 @@
 .DS_store
-.sass-cache/
-_site/
+data/assetHashes.json
+node_modules/
+public/
+static/css/style-*.css

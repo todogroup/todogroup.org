@@ -1,0 +1,239 @@
+@import "normalize";
+@import "colors";
+@import "typography";
+@import "forms";
+
+body {
+  padding: 0;
+  margin: 0;
+  color: $color-black;
+  font-family: $sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.5;
+  background-color: $color-background;
+}
+
+header {
+  padding: 0.5em 2em 0;
+  transition: padding 0.5s;
+  a {
+    display: block;
+    .logo {
+      height: 80px;
+      transition: height 0.5s, width 0.5s;
+    }
+  }
+}
+
+h1 {
+  margin-bottom: 0px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h1, h2, h3, b, strong {
+  font-weight: normal;
+}
+
+.container {
+  max-width: 700px;
+  margin: 1em 2em;
+  transition: padding-left 0.5s;
+}
+
+article {
+  @include body-copy;
+  padding-bottom: 1em;
+
+  margin-bottom: 100px;
+  -webkit-overflow-scrolling: touch;
+
+  a {
+    text-decoration: none;
+    color: $color-accent;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.page-index,
+  &.page-thanks {
+    h1 {
+      font-family: $display-font;
+      text-transform: uppercase;
+      color: $color-primary;
+      font-size: 4.5em;
+      padding: 0px;
+      margin: 0px;
+      line-height: 1;
+      font-weight: 700;
+      &:first-child, em {
+        color: $color-secondary;
+      }
+    }
+
+    h2 {
+      font-family: $sans-serif;
+      color: $color-black;
+      margin-top: .3em;
+      font-weight: 700;
+      line-height: 1;
+    }
+  }
+
+  &.page-members {
+    ul {
+      list-style-type: none;
+      padding-left: 0px;
+      li {
+        display: inline-block;
+        width: 230px;
+        text-align: center;
+        a {
+          font-size: 1.5em;
+          font-family: $sans-serif;
+          img {
+            max-width: 150px;
+            max-height: 40px;
+            padding: 20px 80px 20px 0;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+
+  &.page-faq {
+    h2 {
+      font-size: 1.25em;
+      margin: 2em 0 -0.5em;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  &.page-blog {
+    .entries {
+      padding: 0px;
+
+      .entry {
+        list-style: none;
+        margin-bottom: 3em;
+
+        .date {
+          font-family: $sans-serif;
+          font-weight: bold;
+          font-size: 0.75em;
+          text-transform: uppercase;
+          color: #aaa;
+          margin: 0px;
+        }
+
+        .title {
+          font-size: 2.5em;
+          font-weight: bold;
+          line-height: 1em;
+          margin: 0.25em 0em;
+        }
+      }
+    }
+  }
+}
+
+.post {
+  .byline {
+    text-transform: uppercase;
+    font-family: $sans-serif;
+    font-size: 0.75em;
+    color: #aaa;
+
+    .date {
+      font-weight: bold;
+    }
+
+    .author {
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  background: $color-background;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  nav {
+    margin: 0.5em 1em;
+    transition: padding-left 0.5s, margin 0.5s;
+    a {
+      font-family: $display-font;
+      font-weight: 300;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      line-height: 1.5em;
+      text-decoration: none;
+      color: $color-black;
+      white-space: nowrap;
+      transition: color 0.5s, background 0.5s, font-size 0.5s, margin-right 0.5s;
+      margin-right: 5px;
+      &::before {
+        content: "// ";
+        color: $color-primary;
+        font-size: 1.2em;
+        padding-top: 2px;
+        position: relative;
+        top: 0.1em;
+      }
+      &.active {
+        &::before {
+          color: $color-black;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 670px) and (min-height: 600px) {
+  header {
+    padding: 1em 2em 0;
+    a {
+      .logo {
+        height: 120px;
+      }
+    }
+  }
+  .container {
+    padding-left: 111px;
+  }
+  footer {
+    nav {
+      margin: 2em;
+      padding-left: 111px;
+      a {
+        font-size: 1em;
+        margin-right: 20px;
+      }
+    }
+  }
+}

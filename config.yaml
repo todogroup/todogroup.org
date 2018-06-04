@@ -1,0 +1,50 @@
+title: "// TODO: Talk openly, develop openly"
+baseURL: https://todogroup.org
+enableRobotsTXT: true
+disableKinds:
+- RSS
+- taxonomy
+- taxonomyTerm
+rssLimit: 1
+outputs:
+  home: ["HTML", "Atom"]
+mediaTypes:
+  "application/atom":
+    suffix: "xml"
+
+outputFormats:
+  Atom:
+    mediaType: application/atom
+    baseName: feed
+    isPlainText: false
+
+
+params:
+  description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
+  longTitle: "TODO Group // TODO: Talk openly, develop openly"
+  googleAnalytics:
+    id: UA-54779798-1
+  keywords:
+  - open source
+  - todo
+  - talk openly
+  - develop openly
+  - high quality
+
+  footer:
+  - title: Home
+    link: /
+  - title: Blog
+    link: /blog
+  - title: Guides
+    link: /guides
+  - title: About
+    link: /about
+  - title: Community
+    link: /community
+  - title: Members
+    link: /members
+  - title: Join
+    link: /join
+  - title: Q&A
+    link: /faq

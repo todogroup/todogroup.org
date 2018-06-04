@@ -1,0 +1,10 @@
+{
+  "name": "todogroup.github.io",
+  "private": true,
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-hash": "^4.2.2",
+    "gulp-sass": "^4.0.1"
+  }
+}

@@ -9,6 +9,15 @@ var SRCS = {
 }
 
 gulp.task('sass', (done) => {
+  gulp.src(SRCS.sass)
+    .pipe(sass({
+      outputStyle: 'compressed'
+    }).on('error', sass.logError))
+    .pipe(gulp.dest('static/css'));
+  done();
+});
+
+gulp.task('sass-dev', (done) => {
   del(['static/css/style*.css']);
 
   gulp.src(SRCS.sass)
@@ -23,7 +32,7 @@ gulp.task('sass', (done) => {
 });
 
 gulp.task('sass:watch', () => {
-  gulp.watch(SRCS.sassWatch, gulp.series('sass'));
+  gulp.watch(SRCS.sassWatch, gulp.series('sass-dev'));
 });
 
 gulp.task('build', gulp.series('sass'));

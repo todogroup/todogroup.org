@@ -1,12 +1,12 @@
-todogroup.github.io
-===================
+# The TODO group website assets
 
-This is the site for todogroup.org ... you probably want index.md
+This repo houses the assets used to build the website for the [TODO Group](https://todogroup.org/) at https://todogroup.org.
 
 ## Building the site
 
-This site is managed using Jekyll and GitHub Pages, making it dead simple to update and deploy. You'll need Ruby and Bundler installed to get going. You should always use a pull request workflow to update the site. Any changes made to master (including merging a pull request) will automatically rebuild and publish the site.
+This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [GitHub Pages](https://pages.github.com/). In order to build the site, you'll need to install Hugo:
 
-1. Clone the repository locally
-2. Run `bundle` to install dependencies
-3. Run `bundle exec jekyll serve` to build and run a local http server
+```bash
+# macOS
+$ brew install hugo
+```

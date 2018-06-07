@@ -36,7 +36,7 @@ TODO is an open group of companies who run open source programs. Our members inc
 * [<img src="/static/logo_pinterest.svg" alt="Pinterest" title="Pinterest">](https://github.com/pinterest)
 * [<img src="/static/logo_qualcomm.svg" alt="Qualcomm" title="Qualcomm">](https://www.codeaurora.org/)
 * [<img src="/static/logo_redhat.svg" alt="Red Hat" title="Red Hat">](https://community.redhat.com/)
-* [<img src="/static/logo_salesforce.svg" alt="Salesforce" title="Salesforce">](https://medium.com/salesforce-open-source)
+* [<img src="/static/logo_salesforce.svg" alt="Salesforce" title="Salesforce">](https://engineering.salesforce.com/)
 * [<img src="/static/logo_samsung.svg" alt="Samsung" title="Samsung">](https://blogs.s-osg.org/)
 * [<img src="/static/logo_sandisk.svg" alt="Sandisk" title="Sandisk">](https://www.sandisk.com/business/datacenter/products/flash-software/open-source)
 * [<img src="/static/logo_sap.svg" alt="SAP" title="SAP">](https://github.com/sap)

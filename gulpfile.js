@@ -18,7 +18,7 @@ gulp.task('sass', (done) => {
 });
 
 gulp.task('sass-dev', (done) => {
-  del(['static/css/style*.css']);
+  del(['static/css/style-*.css']);
 
   gulp.src(SRCS.sass)
     .pipe(sass({
@@ -37,4 +37,6 @@ gulp.task('sass:watch', () => {
 
 gulp.task('build', gulp.series('sass'));
 
-gulp.task('default', gulp.series('build', gulp.parallel('sass:watch')));
+gulp.task('build-dev', gulp.series('sass-dev'));
+
+gulp.task('default', gulp.series('build-dev', gulp.parallel('sass:watch')));

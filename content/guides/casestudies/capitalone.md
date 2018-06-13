@@ -1,22 +1,16 @@
 ---
-title: "Open Source Program Case Studies: Capital One"
-author: todogroup
-date: 2018-04-16
+title: "Capital One: Open source in a regulated environment"
 ---
-
-Last year we launched our [Open Source Program Guides](http://todogroup.org/blog/open-source-guides/) and as part of that launch, we mentioned we will be actively publishing open source program case studies. We started with [Comcast, Dropbox, Facebook, Microsoft, Red Hat and Salesforce](https://github.com/todogroup/guides/tree/master/casestudies), this month we're happy to add the Capital One open source program:
-
-# Capital One: Open Source in a Regulated Environment
 
 ## Lessons Learned on Our Open Source Journey at Capital One
 
-![image alt text](/img/guides/casestudies/capitalone1.jpg)
+![](/img/guides/casestudies/capitalone1.jpg)
 
 Most people know Capital One as one of the largest credit card companies in the U.S. Some also know that we’re one of the nation’s largest banks — number 8 in the U.S. by assets. But Capital One is also a technology-focused digital bank that is proud to be [disrupting the financial services industry](https://medium.com/capital-one-developers/we-re-a-disruptive-bank-a21f7cce25b6#.7swhf6tt4)through our commitment to cutting edge technologies and innovative digital products. Like all U.S. banks, Capital One operates in a highly regulated environment that prioritizes the protection of our consumers and their financial data. This sets us apart from many companies who don’t operate under the same level of oversight and responsibility.
 
 Our goal to reimagine banking is attracting amazing engineers that want to be part of the movement to reinvent the financial technology industry. During interviews, they are often surprised to find we want them to use open source project and contribute back to the open source community. Even more are blown away that we sponsor open source projects built by our engineers.
 
-> People expect that kind of behavior at a start-up, not a top bank. There is nothing traditional about Capital One and our approach to technology.
+*People expect that kind of behavior at a start-up, not a top bank. There is nothing traditional about Capital One and our approach to technology.*
 
 When we see opportunities, especially in technology, we deliberately pursue them. Our approach to managing technology, guided by general industry regulations and company-specific policies, provide the guardrails for using, contributing to, and launching open source software projects. The Open Source Office adopted a comprehensive risk management approach wherein we have identified clear risk ownership around when to use, contribute to, and launch open source projects.
 
@@ -56,7 +50,7 @@ The policy also formalizes accountabilities for the three main open source stake
 2. Establishes a new strategic partnership between from diverse groups called the Open Source Steering Committee.
 3. Defines the tactical partnership between OSO, Legal, and Security within an Open Source Review Board.
 
-![image alt text](/img/guides/casestudies/capitalone2.jpg)
+![](/img/guides/casestudies/capitalone2.jpg)
 
 As we developed this policy and formalized accountabilities, we established the tactical partnership between OSO, Legal, and Security as the OSRB. This tactical team works to guide open source activities with the development community. We also established a strategic leadership committee named the OSS Steering Committee, a group comprised of a dozen leaders who provide strategic direction for the development community.
 
@@ -71,7 +65,7 @@ As we look ahead in our open source journey, we plan to focus on:
 
 Specifically, in 2018 we’re focusing on education, strengthening awareness in the development community, and establishing our role as an advisor.
 
-![image alt text](/img/guides/casestudies/capitalone3.jpg)
+![](/img/guides/casestudies/capitalone3.jpg)
 
 Collaboration among the multiple stakeholders has been key to navigating our open source journey. Capital One is a technology driven company and we are unified across our organization on taking our open source activities to the next level in 2018.
 

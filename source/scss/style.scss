@@ -153,7 +153,11 @@ article {
   }
 }
 
-.post {
+.post, .guides {
+  img {
+    max-width: 100%;
+  }
+
   .byline {
     text-transform: uppercase;
     font-family: $sans-serif;
@@ -172,6 +176,13 @@ article {
   .title {
     font-size: 2.5em;
     font-weight: bold;
+  }
+
+  blockquote {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 }
 

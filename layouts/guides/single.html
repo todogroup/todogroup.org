@@ -1,0 +1,14 @@
+{{ define "title" }}{{ .Title }} {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+{{- $footerContent := .Site.Params.guides.footerText | markdownify }}
+{{- $noAcknowledgments := eq .Params.noAcknowledgments "true" }}
+<div class="guides">
+  <h1 class="title">{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{- if not $noAcknowledgments }}
+  {{ $footerContent }}
+  {{- end }}
+</div>
+{{ end }}

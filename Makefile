@@ -3,8 +3,16 @@ HUGO         =  hugo
 GULP         := $(NODE_BIN)/gulp
 CONCURRENTLY := $(NODE_BIN)/concurrently
 
+netlify-build: print-hugo-version build-assets build-site
+
+print-hugo-version:
+	$(HUGO) version
+
 build-assets:
 	$(GULP) build
+
+build-site:
+	$(HUGO)
 
 clean:
 	rm -rf public/

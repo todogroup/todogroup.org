@@ -8,12 +8,12 @@
   {{- range $allAuthors }}
   {{- if eq .twitter $author }}
   <div class="byline">
-      Posted on <span class="date">{{ $date }}</span> by <a href="http://twitter.com/{{ .twitter }}" class="author">{{ .name }}</a>
-    </div>
+    Posted on <span class="date">{{ $date }}</span> by <a href="http://twitter.com/{{ .twitter }}" class="author">{{ .name }}</a>
+  </div>
   {{- end }}
   {{- end }}
 
   {{ .Content }}
 
-  </div>
+</div>
 {{ end }}

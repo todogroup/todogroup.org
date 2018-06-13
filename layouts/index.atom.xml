@@ -1,4 +1,3 @@
-{{- $title := cond (.IsHome) .Title (printf "%s - %s" .Title .Site.Title) }}
 <feed xmlns="http://www.w3.org/2005/Atom">
   <generator uri="http://gohugo.io/" version="{{ .Hugo.Version }}">Hugo</generator>
   <link href="{{ "/feed.xml" | absURL }}" rel="self" type="application/atom.xml" />
@@ -10,8 +9,9 @@
   <title type="html">TODO Group</title>
   {{- range where .Data.Pages "Section" "blog" }}
   {{- $date := .Date.Format "2006-01-02T15:04:05-07:00" }}
+  {{- $title := cond (.IsHome) .Title (printf "%s - %s" .Title .Site.Title) }}
   <entry>
-    <title type="html">{{ .Title | safeHTML }}</title>
+    <title type="html">{{ $title | safeHTML }}</title>
     <link href="{{ .Permalink }}" rel="alternate" type="text/html" title="{{ .Title }}" />
     <published>{{ $date | safeHTML }}</published>
     <updated>{{ $date | safeHTML }}</updated>

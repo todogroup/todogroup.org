@@ -1,0 +1,83 @@
+- name: Adobe
+  url: https://www.adobe.com/
+- name: ARM
+  url: https://developer.arm.com/open-source
+- name: Autodesk
+  url: http://www.autodesk.com
+- name: AWS
+  url: https://twitter.com/AWSOpen
+- name: Bloomberg
+  url: https://github.com/bloomberg
+- name: Box
+  url: http://opensource.box.com/
+- name: Capital One
+  url: http://www.capitalone.io/
+- name: Comcast
+  url: https://comcast.com
+- name: Datadog
+  url: https://github.com/DataDog
+- name: Dropbox
+  url: https://opensource.dropbox.com/
+- name: eBay
+  url: http://ebay.github.io/
+- name: Facebook
+  url: https://code.facebook.com/projects/
+- name: GitHub
+  url: https://github.com/github
+- name: Google
+  url: https://opensource.google.com/
+- name: Here Technologies
+  url: https://github.com/heremaps
+- name: HPE
+  url: https://github.com/HewlettPackard
+- name: Huawei
+  url: http://www1.huawei.com/en/about-huawei/Partner/openathuawei/index.htm
+- name: Khan Academy
+  url: IBM
+- name: IBM
+  url: http://ibm.github.io/
+- name: Indeed
+  url: https://github.com/indeedeng
+- name: Intel
+  url: https://01.org/
+- name: Microsoft
+  url: https://www.microsoft.com/en-us/openness
+- name: National Instruments
+  url: https://github.com/ni
+- name: Netflix
+  url: https://netflix.github.io/
+- name: Oath
+  url: https://yahoo.github.io/
+- name: Paypal
+  url: http://paypal.github.io/
+- name: Pinterest
+  url: https://github.com/pinterest
+- name: Qualcomm
+  url: https://www.codeaurora.org/
+- name: Red Hat
+  url: https://community.redhat.com/
+- name: Salesforce
+  url: https://medium.com/salesforce-open-source
+- name: Samsung
+  url: https://blogs.s-osg.org/
+- name: Sandisk
+  url: https://www.sandisk.com/business/datacenter/products/flash-software/open-source
+- name: SAP
+  url: https://github.com/sap
+- name: Sauce Labs
+  url: https://github.com/saucelabs
+- name: Square
+  url: http://corner.squareup.com
+- name: Stripe
+  url: https://github.com/stripe
+- name: Target
+  url: https://github.com/target
+- name: Twitter
+  url: https://engineering.twitter.com/opensource
+- name: VMWare
+  url: https://github.com/vmware
+- name: Walmart Labs
+  url: https://github.com/walmartlabs
+  gif: true
+- name: Wipro
+  url: https://github.com/WiproOpenSourcePractice

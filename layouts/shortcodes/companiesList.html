@@ -1,0 +1,12 @@
+{{- $companies := .Site.Data.companies }}
+<ul>
+  {{- range $companies }}
+  {{- $logoName := lower (replace .name " " "_") }}
+  {{- $logoType := cond (eq .gif true) "gif" "svg" }}
+  <li>
+    <a href="{{ .url }}">
+      <img src="{{ printf "/img/logo_%s.%s" $logoName $logoType | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+    </a>
+  </li>
+  {{- end }}
+</ul>

@@ -1,0 +1,15 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_BASEURL = "https://todogroup.netlify.com"
+HUGO_VERSION = "0.41"
+
+[context.deploy-preview]
+HUGO_VERSION = "0.41"
+command = "hugo -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+HUGO_VERSION = "0.41"
+command = "hugo -b $DEPLOY_PRIME_URL"

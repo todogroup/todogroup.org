@@ -1,4 +1,3 @@
-title: "// TODO: Talk openly, develop openly"
 baseURL: https://todogroup.org
 enableRobotsTXT: true
 disableKinds:
@@ -18,6 +17,20 @@ outputFormats:
     baseName: feed
     isPlainText: false
 
+# Internationalization
+defaultContentLanguage: en
+languages:
+  en:
+    title: "// TODO: Talk openly, develop openly"
+    weight: 0
+  cn:
+    title: INSERT CHINESE TITLE
+    weight: 1
+
+# Disable Chinese (for now)
+disableLanguages:
+- cn
+
 
 params:
   description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
@@ -30,6 +43,9 @@ params:
   - talk openly
   - develop openly
   - high quality
+
+  slack:
+    channel: todogroup
 
   footer:
   - title: Home

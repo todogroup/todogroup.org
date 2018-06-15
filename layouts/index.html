@@ -1,2 +1,12 @@
 {{ define "main" }}
+{{- $slackChannel := .Site.Params.slack.channel }}
+{{- $hero1 := i18n "hero1" }}
+{{- $hero2 := i18n "hero2" }}
+{{- $hero3 := i18n "hero3" }}
+{{- $heroText := i18n "heroText" }}
+<h1>{{ $hero1 }}</h1>
+<h1>{{ $hero2 }}</h1>
+<h2>{{ $hero3 }}</h2>
+{{ $heroText | markdownify }}
+<script async defer src="https://slack.{{ $slackChannel }}.org/slackin.js?large"></script>
 {{ end }}

@@ -1,6 +1,7 @@
 {{- $pageId := cond (eq .Kind "home") "index" .Title }}
+{{- $languageCode := .Lang }}
 <!DOCTYPE html>
-<html>
+<html lang="{{ $languageCode }}">
   <head>
     <script src="/js/redirect.js"></script>
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>

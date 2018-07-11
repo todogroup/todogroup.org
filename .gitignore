@@ -3,3 +3,4 @@ data/assetHashes.json
 node_modules/
 public/
 static/css/style-*.css
+.sass-cache/

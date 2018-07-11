@@ -6,6 +6,8 @@
   url: http://www.autodesk.com
 - name: AWS
   url: https://twitter.com/AWSOpen
+- name: Baidu
+  url: https://github.com/baidu
 - name: Bloomberg
   url: https://github.com/bloomberg
 - name: Box

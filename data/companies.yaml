@@ -54,6 +54,8 @@
   url: http://paypal.github.io/
 - name: Pinterest
   url: https://github.com/pinterest
+- name: Pivotal
+  url: https://pivotal.io/open-source
 - name: Qualcomm
   url: https://www.codeaurora.org/
 - name: Red Hat
@@ -74,6 +76,8 @@
   url: https://github.com/stripe
 - name: Target
   url: https://github.com/target
+- name: Toyota
+  url: https://www.toyota.com
 - name: Twitter
   url: https://engineering.twitter.com/opensource
 - name: VMWare

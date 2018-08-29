@@ -134,7 +134,7 @@ In addition to these strategic pillars and guidelines on governance, here are so
 
 Build a holistic set of goals for your strategy document, with metrics for achievement. Among metrics to track, consider reporting on increases in upstream contributions, cuts to development costs, and increases in recruitment of maintainers. In addition to these metrics, your inventory of business objectives and goals should provide specifics on open source leadership milestones, and project security and performance advancements. Also, though, keep in mind that there are no magic metrics.
 
-> "Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one, magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy.* " *– *[Sarah Novotny](https://twitter.com/sarahnovotny), Kubernetes community program manager at Google.
+> "Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one, magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy. " – [Sarah Novotny](https://twitter.com/sarahnovotny), Kubernetes community program manager at Google.
 
 * **Management Plan** Once your strategy document includes specific goals, ensure that it also sets out specific actions to achieve your open source business objectives, and assign roles and responsibilities for tracking progress. The most important part is to get buy in for your executive management chain. 
 
@@ -166,7 +166,7 @@ There is no way to wave a magic wand and find the exact benefit you will get fro
 
 First, you must weigh the benefits of open source with the risks and costs of managing it. [A free, joint white paper](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf) (PDF) from Novica and OpenLogic provides many specific ways to calculate open source ROI and strategize around it. For example, the following graphic from the white paper shows that the duration of project development has a profound impact on various elements of ROI calculation, ranging from licensing expenses to IT/Services expenses:
 
-![Credit: Novica, OpenLogic](strategy1.jpg)
+![Credit: Novica, OpenLogic](/img/guides/strategy1.jpg)
 
 As you go about calculating ROI, keep the following guidelines in mind:
 

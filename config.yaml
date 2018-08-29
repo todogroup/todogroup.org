@@ -9,7 +9,7 @@ outputs:
   home: ["HTML", "Atom"]
 mediaTypes:
   "application/atom":
-    suffix: "xml"
+    suffixes: [xml]
 
 outputFormats:
   Atom:

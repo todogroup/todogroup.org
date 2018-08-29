@@ -154,6 +154,21 @@ article {
 }
 
 .post, .guides {
+  .edit-button {
+    background-color: $color-primary;
+    color: white;
+    padding: .3rem .6rem;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    & + article.content {
+      margin-top: 2rem;
+    }
+  }
+
   img {
     max-width: 100%;
   }
@@ -176,6 +191,10 @@ article {
   .title {
     font-size: 2.5em;
     font-weight: bold;
+
+    & + .edit-button {
+      margin-top: 1.5rem;
+    }
   }
 
   blockquote {

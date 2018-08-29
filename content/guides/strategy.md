@@ -36,13 +36,13 @@ At a minimum, the document should:
 
 > "In Autodesk's case, the reason behind our new open source approach was to make a move to cloud technologies because of how we're shifting our product focus to integrate even more closely in a cloud environment. The realization follows that if you go to cloud, basically all of that's built on open source, so you've got to ramp up your open source strategy."* -  [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at  [Autodesk](https://autodesk.github.io) (Open@ADSK).
 
-* Specify how you want developers to**** consume open source **code**: **What if code comes into one of your products from a project with a different licensing setup? What acceptance, rejection, and exception policies should developers follow? What is your organization’s overall stance toward open source development? A good strategy document provides explicit answers to these kinds of questions.
+* Specify how you want developers to consume open source **code**: **What if code comes into one of your products from a project with a different licensing setup? What acceptance, rejection, and exception policies should developers follow? What is your organization’s overall stance toward open source development? A good strategy document provides explicit answers to these kinds of questions.
 * Specify how you want developers to contribute code to open source projects, **and identify projects that are critical to your business strategy**. (And encourage them to contribute!) What if a developer wants to contribute code from one open source project to the one you are working on but the two projects have different licenses? How can your contributions to open source serve a virtuous cycle, so that your projects benefit from contributions in turn? These considerations are part of defining strategic contributions.
 
 > "If you are relying on an open source project heavily for your product and you don't have a seat at the table in terms of leadership and strategy for that project, your business is at risk." - Guy Martin, Autodesk.
 
 * Provide guidelines for making new decisions, and encourage program buy-in and commitment: **Should business governance of open source be separated from technical governance? How can you make employees champions for open source? A good strategy document provides answers and should also clarify your organization’s overall stance toward developing with and around open source.
-* Align your business objectives**** and management directives: Which types of open source projects directly align with your business goals? 
+* Align your business objectives and management directives: Which types of open source projects directly align with your business goals? 
 * Lay out a usage policy and trademark that fits your code and concepts: **Branding an open source project properly is as important as branding any invention, and there should be no questions about usage policies.
 * Provide specifics on open source best practices: Successful open source projects have rich developer communities and are often productized in commercial products that profit businesses. Which specific practices can best foster this kind of sustainable ecosystem?
 * Answer questions as they evolve over time. A good open source policy document should include a FAQ, and answers to common questions should be provided continuously in the FAQ over time.
@@ -71,7 +71,7 @@ General Electric might not be the first company that you think of when it comes 
 
 Among other organizations that have rolled out professional, in-house programs focused on advancing open source and commercializing tools, Netflix is a true standout. It is well worth visiting visit the company’s[ Open Source Software Center](https://netflix.github.io/). Netflix has contributed many useful tools and applications to the open source community, ranging from[ machine learning and orchestration applications](http://techblog.netflix.com/2016_05_01_archive.html) to utilities that run on its platform, many of which have been tested and hardened at scale. Netflix, in turn, gets contributions that help its platform run more efficiently, and its open source endeavors have opened doors to various partnerships.
 
-**Internal resources**
+## Internal resources
 
 While these types of external resources can provide critical guidance and serve as a benchmark for your own strategy, internal collaboration is key in setting your open source business strategy. Your open source strategy should be tailored to your own unique business model, and the people within your own company are the best source of information. Additionally, you need to include all the stakeholders to reach consensus to ensure that everyone is on the same page and invested in seeing the efforts succeed. For example, it is important to involve executive leadership in the collaborative process.
 
@@ -140,9 +140,9 @@ Build a holistic set of goals for your strategy document, with metrics for achie
 
 * **Provide specific KPIs (Key Performance Indicators)** for tracking the achievement of goals.
 
-* **Policies and processes.** In addition to licensing and rules for accepting contributions and outside code, managing policies and processes is key. The TODO (Talk Openly Develop Openly) Group at The Linux Foundation offers [free open source policy examples and templates](https://github.com/todogroup/policies) on GitHub.** **
+* **Policies and processes.** In addition to licensing and rules for accepting contributions and outside code, managing policies and processes is key. The TODO (Talk Openly Develop Openly) Group at The Linux Foundation offers [free open source policy examples and templates](https://github.com/todogroup/policies) on GitHub.
 
-* **Partnerships and acquisitions.** Partnerships and acquisitions are key parts of a successful open source business strategy.** **Your strategy document should be specific about goals in these areas, and should lay out key strategic partnerships that your organization may have with other organizations such as TODO, The Cloud Foundry Foundation, and more.
+* **Partnerships and acquisitions.** Partnerships and acquisitions are key parts of a successful open source business strategy. **Your strategy document should be specific about goals in these areas, and should lay out key strategic partnerships that your organization may have with other organizations such as TODO, The Cloud Foundry Foundation, and more.
 
 * **Patents and IP.** Patent rights and intellectual property guidelines can have an enormous impact on how inventions are used, and in many cases commercially leveraged. Your strategy document should be specific about your patents, rules pertaining to patents, and your IP guidelines. If your organization has a separate IP strategy, ensure that your open source strategy is aligned with it.
 
@@ -188,7 +188,7 @@ You’ll also want to consider the costs and benefits of license compliance. The
 
 Legal issues should, of course, be assessed by your own legal personnel. The SFLC authors are attorneys who were part of creating popular open source licenses. It's also an excellent idea to keep up with current and archived editions of the[ International Free and Open Source Software Law Review.](http://www.ifosslr.org/ifosslr)
 
-## **Deciding where to invest**
+## Deciding where to invest
 
 Investing in open source can be approached from numerous angles, including leveraging in-house resources and external ones. Keep in mind that devoting developer resources to open source and upstream contributions are part of investing in open source.  It is important to understand how incoming and outgoing code and projects are arriving and being distributed. 
 
@@ -210,37 +210,36 @@ Next, turn to external resources to help pinpoint projects that you’re not yet
 
 Are you interested in more resources to help you set your strategy? Here are some excellent ones:
 
-**Measuring Open Source ROI**
+### Measuring Open Source ROI
 
 [Open Source Return on Investment](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf)
 
-**Launching Successful Open Source Projects**
+### Launching Successful Open Source Projects
 
 [The Linux Foundation on Starting Successful Projects](http://event.lvl3.on24.com/event/14/07/58/6/rt/1/documents/resourceList1493819210084/how_to_start_a_successful_open_source_project.pdf)
 
-**Legal Resources**
+### Legal Resources
 
-[International Free and Open Source Software Law Review.](http://www.ifosslr.org/ifosslr)
+* [International Free and Open Source Software Law Review.](http://www.ifosslr.org/ifosslr)
+* [Open Compliance program](https://compliance.linuxfoundation.org/)
 
-[Open Compliance program](https://compliance.linuxfoundation.org/)
-
-**Licensing**
+### Licensing
 
 [Choosealicense.com](http://choosealicense.com/)
 
-**Contributor Code of Conduct**
+### Contributor Code of Conduct
 
 [The Contributor Covenant](http://contributor-covenant.org/)
 
-**Open Source Policy**
+### Open Source Policy 
 
 [TODO Group Templates](http://contributor-covenant.org/)
 
-**Open Source Strategy Blog**
+### Open Source Strategy Blog
 
 [Changelog](https://changelog.com/)
 
-**Open Source Strategy Podcast**
+### Open Source Strategy Podcast
 
 [Request for Commits](https://changelog.com/rfc)
 

@@ -1,5 +1,5 @@
 ---
-title: "Open Source Program Guide: Setting an Open Source Strategy"
+title: "Open Source Program Management 2018 Survey Results"
 author: todogroup
 date: 2018-08-30
 ---
@@ -15,6 +15,6 @@ Key findings include:
 * Open source programs tend to start informally as a working group or a few key open source developers and then evolve into formal programs over time, typically within a company’s software engineering or development department (about 41 percent of programs).
 * The benefits of an open source program are widely known, with 70% of those without a program believing it would have a positive impact in their company, despite any barriers to creating it.
 
-As an organization, we commit to advancing the state of open source program management across the industry and we will be performing this survey on an annual basis moving forward.
+As an organization, we are committed to advancing the state of open source program management across the industry and will be performing this survey on an annual basis moving forward. We look forward to community feedback on this survey and how we can improve it in the future.
 
 If you're interested in starting an open source program or collaborating with your peers in open source program management, please consider [joining the TODO Group](http://todogroup.org/join/)!

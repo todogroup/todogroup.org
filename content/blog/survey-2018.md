@@ -4,7 +4,11 @@ author: todogroup
 date: 2018-08-30
 ---
 
-The TODO Group is thrilled to announce the first Open Source Program Management Survey for 2018 that examines the prevalence and outcomes of open source programs among the Global Fortune 2000, including the key benefits and barriers to adoption. We have open sourced all of our survey results and graphics: https://github.com/todogroup/survey
+The TODO Group is thrilled to announce the first Open Source Program Management Survey for 2018 (in partnership with [The New Stack](https://twitter.com/thenewstack/status/1035105095493578752)) that examines the prevalence and outcomes of open source programs among the Global Fortune 2000, including the key benefits and barriers to adoption. We have open sourced all of our survey results and graphics: https://github.com/todogroup/survey
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Survey: Open Source Programs Are a Best Practice Among Large Companies  <a href="https://t.co/SFtFTe4rSM">https://t.co/SFtFTe4rSM</a> <a href="https://twitter.com/LibbyMClark?ref_src=twsrc%5Etfw">@LibbyMClark</a> <a href="https://twitter.com/LawrenceHecht?ref_src=twsrc%5Etfw">@LawrenceHecht</a> <a href="https://twitter.com/linuxfoundation?ref_src=twsrc%5Etfw">@linuxfoundation</a> <a href="https://twitter.com/cra?ref_src=twsrc%5Etfw">@cra</a> <a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a></p>&mdash; The New Stack (@thenewstack) <a href="https://twitter.com/thenewstack/status/1035105095493578752?ref_src=twsrc%5Etfw">August 30, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Key findings include:
 

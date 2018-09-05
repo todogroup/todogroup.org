@@ -70,6 +70,8 @@
   url: https://github.com/sap
 - name: Sauce Labs
   url: https://github.com/saucelabs
+- name: Spotify
+  url: https://github.com/spotify
 - name: Square
   url: http://corner.squareup.com
 - name: Stripe

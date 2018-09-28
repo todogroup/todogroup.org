@@ -86,8 +86,5 @@
   url: https://engineering.twitter.com/opensource
 - name: VMWare
   url: https://github.com/vmware
-- name: Walmart Labs
-  url: https://github.com/walmartlabs
-  gif: true
 - name: Wipro
   url: https://github.com/WiproOpenSourcePractice

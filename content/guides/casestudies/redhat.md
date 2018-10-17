@@ -1,5 +1,5 @@
 ---
-title: RedHat
+title: Red Hat
 ---
 
 ## Open Source and Standards Team: How Red Hat Measures Open Source Success

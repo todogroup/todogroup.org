@@ -84,6 +84,8 @@
   url: https://www.toyota.com
 - name: Twitter
   url: https://engineering.twitter.com/opensource
+- name: Uber
+  url: https://opensource.uber.com
 - name: VMWare
   url: https://github.com/vmware
 - name: Wipro

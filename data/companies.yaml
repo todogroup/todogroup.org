@@ -20,6 +20,8 @@
   url: https://comcast.com
 - name: Datadog
   url: https://github.com/DataDog
+- name: Didi
+  url: https://github.com/didi
 - name: Dropbox
   url: https://opensource.dropbox.com/
 - name: eBay

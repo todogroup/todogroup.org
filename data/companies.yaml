@@ -92,5 +92,7 @@
   url: https://opensource.uber.com
 - name: VMWare
   url: https://github.com/vmware
+- name: WalmartLabs
+  url: https://code.walmartlabs.com
 - name: Wipro
   url: https://github.com/WiproOpenSourcePractice

@@ -36,15 +36,28 @@ At a minimum, the document should:
 
 > "In Autodesk's case, the reason behind our new open source approach was to make a move to cloud technologies because of how we're shifting our product focus to integrate even more closely in a cloud environment. The realization follows that if you go to cloud, basically all of that's built on open source, so you've got to ramp up your open source strategy."* -  [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at  [Autodesk](https://autodesk.github.io) (Open@ADSK).
 
-* Specify how you want developers to consume open source **code**: **What if code comes into one of your products from a project with a different licensing setup? What acceptance, rejection, and exception policies should developers follow? What is your organization’s overall stance toward open source development? A good strategy document provides explicit answers to these kinds of questions.
-* Specify how you want developers to contribute code to open source projects, **and identify projects that are critical to your business strategy**. (And encourage them to contribute!) What if a developer wants to contribute code from one open source project to the one you are working on but the two projects have different licenses? How can your contributions to open source serve a virtuous cycle, so that your projects benefit from contributions in turn? These considerations are part of defining strategic contributions.
+* Specify how you want developers to consume open source **code**:
+   * What if code comes into one of your products from a project with a different licensing setup?
+   * What acceptance, rejection, and exception policies should developers follow?
+   * What is your organization’s overall stance toward open source development?
+   * A good strategy document provides explicit answers to these kinds of questions.
+* Specify how you want developers to contribute code to open source projects, **and identify projects that are critical to your business strategy**. (And encourage them to contribute!)
+   * What if a developer wants to contribute code from one open source project to the one you are working on but the two projects have different licenses?
+   * How can your contributions to open source serve a virtuous cycle, so that your projects benefit from contributions in turn? These considerations are part of defining strategic contributions.
 
 > "If you are relying on an open source project heavily for your product and you don't have a seat at the table in terms of leadership and strategy for that project, your business is at risk." - Guy Martin, Autodesk.
 
-* Provide guidelines for making new decisions, and encourage program buy-in and commitment: **Should business governance of open source be separated from technical governance? How can you make employees champions for open source? A good strategy document provides answers and should also clarify your organization’s overall stance toward developing with and around open source.
-* Align your business objectives and management directives: Which types of open source projects directly align with your business goals? 
-* Lay out a usage policy and trademark that fits your code and concepts: **Branding an open source project properly is as important as branding any invention, and there should be no questions about usage policies.
-* Provide specifics on open source best practices: Successful open source projects have rich developer communities and are often productized in commercial products that profit businesses. Which specific practices can best foster this kind of sustainable ecosystem?
+* Provide guidelines for making new decisions, and encourage program buy-in and commitment:
+   * Should business governance of open source be separated from technical governance?
+   * How can you make employees champions for open source?
+   * A good strategy document provides answers and should also clarify your organization’s overall stance toward developing with and around open source.
+* Align your business objectives and management directives:
+   * Which types of open source projects directly align with your business goals?
+* Lay out a usage policy and trademark that fits your code and concepts:
+   * Branding an open source project properly is as important as branding any invention, and there should be no questions about usage policies.
+* Provide specifics on open source best practices:
+   * Successful open source projects have rich developer communities and are often productized in commercial products that profit businesses.
+   * Which specific practices can best foster this kind of sustainable ecosystem?
 * Answer questions as they evolve over time. A good open source policy document should include a FAQ, and answers to common questions should be provided continuously in the FAQ over time.
 
 > "FAQs are highly tuned to the questions users and developers actually ask — as opposed to the questions you might have expected them to ask, and therefore, a well-maintained FAQ tends to give those who consult it exactly what they're looking for. Good FAQs are not written, they are grown. They are by definition reactive documents, evolving over time in response to the questions people ask." *-- Karl Fogel, [Producing Open Source Software](http://producingoss.com/).
@@ -55,9 +68,9 @@ The first step in crafting an open source strategy is to decide who should be in
 
 **External resources**
 
-There are many external resources that can help you flesh out your open source strategy, and the good news is that many of them are free. The Linux Foundation offers extensive [educational resources](https://www.linux.com/learn/training) that can help you usher in the right strategy, and books like *[Best Practices for Commercial Use of Open Source Softwar*e](http://www.amazon.com/Best-Practices-commercial-source-software/dp/3738619097/ref=asap_bc?ie=UTF8) can provide guidance.
+There are many external resources that can help you flesh out your open source strategy, and the good news is that many of them are free. The Linux Foundation offers extensive [educational resources](https://www.linux.com/learn/training) that can help you usher in the right strategy, and books like [Best Practices for Commercial Use of Open Source Software](http://www.amazon.com/Best-Practices-commercial-source-software/dp/3738619097/ref=asap_bc?ie=UTF8) can provide guidance.
 
-The [Open Source Guide](https://opensource.guide) produced by GitHub also contains many resources on helping you build or contribute to an open source community. 
+The [Open Source Guide](https://opensource.guide) produced by GitHub also contains many resources on helping you build or contribute to an open source community.
 
 Google open sourced its [open source policy documentation](https://opensource.google.com/docs/) and it can serve as a create template to create your own internal policies.
 
@@ -121,7 +134,7 @@ For example, many open source tools are offered in free editions online but also
 
 Beyond the critical elements of your strategy discussed earlier, there are many other policies to lay out in your strategy document. The good news is that there are free guidelines from trusted external sources that you can take advantage of.
 
-For example, Black Duck offers a useful [four-pillar set of guidelines](http://blog.blackducksoftware.com/the-essentials-of-open-source-strategy-and-governance/) for setting your open source strategy:
+For example, Synopsys offers a useful four-pillar set of guidelines for setting your open source strategy:
 
 * Define strategy for building open source platforms and applications
 * Define strategy for building with open source, such as integrating existing products and services with open source tools
@@ -142,7 +155,7 @@ Build a holistic set of goals for your strategy document, with metrics for achie
 
 * **Policies and processes.** In addition to licensing and rules for accepting contributions and outside code, managing policies and processes is key. The TODO (Talk Openly Develop Openly) Group at The Linux Foundation offers [free open source policy examples and templates](https://github.com/todogroup/policies) on GitHub.
 
-* **Partnerships and acquisitions.** Partnerships and acquisitions are key parts of a successful open source business strategy. **Your strategy document should be specific about goals in these areas, and should lay out key strategic partnerships that your organization may have with other organizations such as TODO, The Cloud Foundry Foundation, and more.
+* **Partnerships and acquisitions.** Partnerships and acquisitions are key parts of a successful open source business strategy. Your strategy document should be specific about goals in these areas, and should lay out key strategic partnerships that your organization may have with other organizations such as TODO, The Cloud Foundry Foundation, and more.
 
 * **Patents and IP.** Patent rights and intellectual property guidelines can have an enormous impact on how inventions are used, and in many cases commercially leveraged. Your strategy document should be specific about your patents, rules pertaining to patents, and your IP guidelines. If your organization has a separate IP strategy, ensure that your open source strategy is aligned with it.
 
@@ -152,7 +165,7 @@ Build a holistic set of goals for your strategy document, with metrics for achie
 
 * **Inbound Contribution Guidelines/Metrics.** Your strategy can derive enormous benefits from inbound contributions (see our section on considerations for sustainability.) Your strategy document should provide both guidelines and metrics for contributions.
 
-You don’t have to build your policies in this area from the ground up; the [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as The TODO Group, The Linux Foundation, and Black Duck have extensive experience with setting inbound contribution guidelines. 
+You don’t have to build your policies in this area from the ground up; the [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as The TODO Group, The Linux Foundation, and Synopsys have extensive experience with setting inbound contribution guidelines. 
 
 A good inbound contribution strategy also includes carefully documenting your APIs — always a best practice. OpenAPI has emerged as the industry standard for describing RESTful APIs. 
 
@@ -162,7 +175,7 @@ A good inbound contribution strategy also includes carefully documenting your AP
 
 ## When and how much to invest: determining ROI
 
-There is no way to wave a magic wand and find the exact benefit you will get from your open source program, but there are guidelines for how to approach it. You must consider how ROI relates to your strategy. The bottom line is that the return on investment that you can derive from your open source strategy should be considered from numerous angles. 
+There is no way to wave a magic wand and find the exact benefit you will get from your open source program, but there are guidelines for how to approach it. You must consider how return of investment (ROI) relates to your strategy. The bottom line is that the return on investment that you can derive from your open source strategy should be considered from numerous angles. 
 
 First, you must weigh the benefits of open source with the risks and costs of managing it. [A free, joint white paper](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf) (PDF) from Novica and OpenLogic provides many specific ways to calculate open source ROI and strategize around it. For example, the following graphic from the white paper shows that the duration of project development has a profound impact on various elements of ROI calculation, ranging from licensing expenses to IT/Services expenses:
 

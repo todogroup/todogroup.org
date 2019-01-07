@@ -179,6 +179,8 @@ Among the best examples of such rules are from Google, which early in 2017 publi
 
 When drafting open source policies, among the many topics that need to be discussed are:
 
+* How employees of your company can contribute to open source projects
+* How your company can open source internal projects
 * How your company accepts external contributions to their open source projects
 * How to prepare for open source releases
 * How approvals are received

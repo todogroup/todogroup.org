@@ -1,4 +1,5 @@
 baseURL: https://todogroup.org
+contentDir: content/en
 enableRobotsTXT: true
 disableKinds:
 - RSS
@@ -19,22 +20,62 @@ outputFormats:
 
 # Internationalization
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+# Disable non-English languages (for now)
+disableLanguages:
+- zh
+- ko
+
 languages:
   en:
+    languageName: English
     title: "// TODO: Talk openly, develop openly"
-    weight: 0
-  cn:
-    title: INSERT CHINESE TITLE
     weight: 1
-
-# Disable Chinese (for now)
-disableLanguages:
-- cn
+    description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
+    longTitle: "TODO Group // TODO: Talk openly, develop openly"
+    footer:
+    - title: Home
+      link: /
+    - title: Blog
+      link: /blog
+    - title: Guides
+      link: /guides
+    - title: About
+      link: /about
+    - title: Community
+      link: /community
+    - title: Members
+      link: /members
+    - title: Join
+      link: /join
+    - title: Q&A
+      link: /faq
+  zh:
+    languageName: CHINESE
+    title: SHORT CHINESE TITLE
+    weight: 2
+    longTitle: LONGER CHINESE TITLE
+    description: SHORT DESCRIPTION IN CHINESE
+    footer:
+    - title: HOME IN CHINESE
+      link: /zh
+    - title: ABOUT IN CHINESE
+      link: /zh/about
+  ko:
+    languageName: KOREAN
+    title: SHORT KOREAN TITLE
+    weight: 3
+    longTitle: LONGER KOREAN TITLE
+    description: SHORT DESCRIPTION IN KOREAN
+    footer:
+    - title: HOME IN KOREAN
+      link: /ko
+    - title: ABOUT IN KOREAN
+      link: /ko/about
 
 
 params:
-  description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
-  longTitle: "TODO Group // TODO: Talk openly, develop openly"
   googleAnalytics:
     id: UA-54779798-1
   keywords:
@@ -46,25 +87,3 @@ params:
 
   slack:
     channel: todogroup
-
-  footer:
-  - title: Home
-    link: /
-  - title: Blog
-    link: /blog
-  - title: Guides
-    link: /guides
-  - title: About
-    link: /about
-  - title: Community
-    link: /community
-  - title: Members
-    link: /members
-  - title: Join
-    link: /join
-  - title: Q&A
-    link: /faq
-
-  guides:
-    footerText: |
-      These resources were created in partnership with the TODO Group: the professional open source program networking group at The Linux Foundation. A special thank you to Pam Baker for writing assistance and the open source program managers who contributed their time and knowledge to making these comprehensive guides. Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware. To learn more, visit: [todogroup.org](http://todogroup.org/).

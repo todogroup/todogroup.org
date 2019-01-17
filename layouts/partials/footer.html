@@ -1,10 +1,20 @@
-{{- $footerLinks := .Site.Params.footer }}
+{{ $footerLinks := .Site.Params.footer }}
+{{ $currentLang := .Language }}
+{{ $allLangs    := site.Home.AllTranslations }}
 <footer id="footer">
   <nav>
     {{- range $footerLinks }}
     <a href="{{ .link | absURL }}">
       {{ .title }}
     </a>
+    {{- end }}
+    {{- range $allLangs }}
+    {{- $isOtherLang := ne $currentLang .Language }}
+    {{- if $isOtherLang }}
+    <a href="{{ .Permalink }}">
+      {{ .Language.LanguageName }}
+    </a>
+    {{- end }}
     {{- end }}
   </nav>
 </footer>

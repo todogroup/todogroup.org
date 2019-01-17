@@ -1,7 +1,7 @@
 {{ define "title" }}{{ .Title }} {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-{{- $footerContent := .Site.Params.guides.footerText | markdownify }}
+{{- $footerContent := i18n "footerText" | markdownify }}
 {{- $noAcknowledgments := eq .Params.noAcknowledgments "true" }}
 {{- $githubPrefix := "https://github.com/todogroup/todogroup.github.io/blob/master/content" }}
 {{- $githubPath := printf "%s/%s" $githubPrefix .File.Path }}

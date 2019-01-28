@@ -37,6 +37,7 @@ For open source program management best practices:
 * [Oath](casestudies/oath)
 * [RedHat](casestudies/redhat)
 * [Salesforce](casestudies/salesforce)
+* [SAP](casestudies/sap)
 
 If your open source program would like to add a case study, please send a pull request!
 

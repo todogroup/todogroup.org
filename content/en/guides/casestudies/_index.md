@@ -15,5 +15,6 @@ We've had many organizations approach TODO Group members asking for advice on ho
 * [Oath](oath)
 * [Red Hat](redhat)
 * [Salesforce](salesforce)
+* [SAP](sap)
 
 If you have an open source program and you're interested in adding a case study, please send a pull request!

@@ -4,7 +4,7 @@ title: Setting an Open Source Strategy
 
 # Setting an Open Source Strategy
 
-The majority of companies that use open source do not necessarily understand the benefits to their organization and do not have a strategy aligned with their business needs. Furthermore, only about half of these companies report practicing basic open source management, such as community development, code maintenance, and the like, according to the latest [Future of Open Source survey](http://www.northbridge.com/2016-future-open-source-survey-results).
+The majority of companies that use open source do not necessarily understand the benefits to their organization and do not have a strategy aligned with their business needs. Furthermore, only about half of these companies report practicing basic open source management, such as community development, code maintenance, and the like, according to the latest [Future of Open Source survey](https://www.slideshare.net/blackducksoftware/2016-future-of-open-source-survey-results).
 
 Creating and documenting an open source strategy is an essential first step to realizing ROI with open source as open source can have a positive or negative effect across several dimensions related to an organization: strategic/business, operational, technological and financial. Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation. 
 

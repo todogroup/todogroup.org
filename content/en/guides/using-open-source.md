@@ -56,7 +56,7 @@ There is no need to make a lengthy or complicated document. A good open source u
 
 * Engineers must receive approval from the OSRB before integrating any open source code in a product.
 * Software received from third parties must be audited to identify any open source code included, which ensures license obligations can be fulfilled before a product ships.
-* All software must be audited and reviewed, including all proprietary software components.
+* All software and dependencies must be audited and reviewed, including all proprietary software components.
 * Products must fulfill open source licensing obligations prior to customer receipt.
 * Approval for using a given open source component in one product is not approval for another deployment, even if the open source component is the same.
 * All changed components must go through the approval process.
@@ -162,6 +162,7 @@ In the architecture review, the compliance officer and an engineering representa
 * Proprietary components
 * Components originating from third-party software providers
 * Component dependencies
+* Method of communication between the software components (TCP/IP, Linux socket, function API with static or dynamic         linking between the components)
 * Communication protocols
 * Other open source packages that the specific software component interacts with or depends on, especially if it is governed by a different open source license.
 

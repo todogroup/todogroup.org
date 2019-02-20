@@ -129,7 +129,7 @@ In summary, the steps in the legal review process include:
 
 * Consider the impact of open sourcing on your company’s intellectual property
 * Ensure full compliance with open source licenses
-* Select an open source license for the source code to be released, document all licensing requirements very clearly i your project
+* Select an open source license for the source code to be released, document all licensing requirements very clearly in      your project
 * Decide if you need a contributor agreement
 * Consider the possible non-software outputs from the community and the appropriate licenses, such as documentation and specifications
 * Decide on any trademark related considerations

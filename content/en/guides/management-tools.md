@@ -61,7 +61,7 @@ Ironically, many open source program offices don’t always reuse the tools deve
 
 That’s where companies that are just starting to build out their own open source programs have a significant advantage. Since they are now establishing their own open source program offices and diving into open source, they don’t have to be bothered with such limitations.
 
-Instead, they can wisely take advantage of the experiences and successes of others and build their open source toolboxes using the proven tools created by companies which led the way in recent years. The Linux Foundation’s open source industry organization, the [TODO Group](http://todogroup.org/) (Talk Openly Develop Openly), has been working on assembling a tool-filled “Open Source Program Office in A Box” starter package, which would give companies the ability to launch their open source efforts with a cohesive, pre-assembled kit of tools. The starter package isn’t yet ready, but the hope is that eventually it could make it easier for a company to deploy and configure the tools they need with less initial effort. Some of the members of the TODO Group working on this project include Adobe, Capital One, Comcast, Facebook, Google, eBay, IBM, Microsoft, Samsung, and Twitter.
+Instead, they can wisely take advantage of the experiences and successes of others and build their open source toolboxes using the proven tools created by companies which led the way in recent years. The Linux Foundation’s open source industry organization, the [TODO Group](http://todogroup.org/) (Talk Openly Develop Openly), collects a list of these tools in this document.
 
 ### Create a dashboard
 

@@ -151,7 +151,7 @@ Like every other function inside a company, legal teams must have a say in the o
 
 The open source compliance team is a cross-disciplinary group consisting of various individuals tasked with the mission of ensuring open source compliance. The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the compliance officer (who is often the open source program manager).
 
-The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts. These may include documentation, supply chain, corporate development, IT, localization and an Open Source Executive Committee (OSEC). However, unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB. Samsung program manager Ibrahim Haddad’s book, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/), provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.
+The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts. These may include documentation, supply chain, corporate development, IT, localization and an Open Source Executive Committee (OSEC). However, unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB. Samsung program manager Ibrahim Haddad’s book, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/), provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.
 
 ### Developer Relations, Advocacy, and Evangelists
 
@@ -220,7 +220,7 @@ For example, your policy could require engineers to receive approval from your o
 
 ### Policies for compliance
 
-Also needed are policies to formalize and establish legal compliance procedures and to assure executive oversight for the program. (See our ebook, Open Source Compliance in the Enterprise, for a detailed compliance program.)
+Also needed are policies to formalize and establish legal compliance procedures and to assure executive oversight for the program. (See our ebook, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/), for a detailed compliance program.)
 
 You’ll also want to map out how you’ll handle the software tools that will make much of the compliance and code testing work possible by automating it and streamlining procedures for developers and contributors. For example, the [I think we need to mention SPDX and OpenChain tools from The Linux Foundation, along with help from your and working with internal supply chain teams, will internally to ensure that code brought in by third parties is also compliant.]
 

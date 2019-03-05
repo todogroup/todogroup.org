@@ -248,7 +248,7 @@ If you’re interested in building out and open source program office and want t
 
 https://github.com/todogroup/job-descriptions
 
-## Acknolwedgements
+## Acknowledgements
 
 Contributors to this guide:
 

@@ -48,7 +48,7 @@ The OSRB is in charge of creating an open source compliance strategy and a set o
 
 ## A simple policy for using open source code
 
-The usage policy is an essential component of any compliance program. This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.The usage policy is an essential component of any compliance program. This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.
+The usage policy is an essential component of any compliance program. This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.
 
 The usage policy ensures that any software (proprietary, third-party, or open source) that makes its way into the product base has been audited, reviewed, and approved. It also ensures that your company has a plan to fulfill the license obligations resulting from using the various software components, before your products make it to customers.
 

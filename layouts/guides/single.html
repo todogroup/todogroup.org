@@ -3,7 +3,7 @@
 {{ define "main" }}
 {{- $footerContent := i18n "footerText" | markdownify }}
 {{- $noAcknowledgments := eq .Params.noAcknowledgments "true" }}
-{{- $githubPrefix := "https://github.com/todogroup/todogroup.github.io/blob/master/content" }}
+{{- $githubPrefix := "https://github.com/todogroup/todogroup.github.io/blob/master/content/en" }}
 {{- $githubPath := printf "%s/%s" $githubPrefix .File.Path }}
 <div class="guides">
   <h1 class="title">{{ .Title }}</h1>

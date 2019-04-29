@@ -217,7 +217,7 @@ You can also structure good ways to identify open source projects that either ex
 
 Next, turn to external resources to help pinpoint projects that you’re not yet using or participating in, but that may have a business benefit. There is tremendous leverage in choosing the right open source projects and communities at the outset. Selecting strategically important projects for focus is critical.
 
-**Partner with other organizations**. They can help you help you choose the best projects to get involved with and identify what projects they are reaping benefits from. And there are several independent organizations that can help. The Linux Foundation, TODO Group, Innersource Commons and Open Source Initiative can all provide guidance.
+**Partner with other organizations**. They can help you choose the best projects to get involved with and identify what projects they are reaping benefits from. And there are several independent organizations that can help. The Linux Foundation, TODO Group, Innersource Commons and Open Source Initiative can all provide guidance.
 
 **Examine which projects other organizations in your industry contribute to.** They can steer you toward the right projects to get involved with. For example, many telecoms are reaping big benefits from open Network Functions Virtualization (NFV) technology that can eliminate historically proprietary components in telecom technology stacks. Some of these companies work with The Linux Foundation on NFV initiatives and there are several [working groups](https://wiki.openstack.org/wiki/TelcoWorkingGroup) that focus on NFV. These industry-focused working groups can provide you with valuable guidance. 
 

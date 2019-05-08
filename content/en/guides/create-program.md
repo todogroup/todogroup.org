@@ -192,7 +192,7 @@ When drafting open source policies, among the many topics that need to be discus
 
 ### Policies for releasing code
 
-You want to help people be successful in making contributions to open source projects and in releasing their own projects. Guidelines and checklists ensure that developers have everything they need to release their code as open source without running into licensing or confidentiality issues. Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution. (See our guide on Participating in Open Source Communities.)
+You want to help people be successful in making contributions to open source projects and in releasing their own projects. Guidelines and checklists ensure that developers have everything they need to release their code as open source without running into licensing or confidentiality issues. Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution. (See our guide on [Participating in Open Source Communities](https://todogroup.org/guides/participating/).)
 
 Your organization should also strive to adopt an “upstream first” development policy. By submitting patches to the upstream open source project first, and incorporating them into your own products downstream, you will avoid spending a massive amount of time and money on re-engineering after each release.
 
@@ -226,7 +226,7 @@ You’ll also want to map out how you’ll handle the software tools that will m
 
 There’s a broad array of open source (e.g. FOSSology) and fee-based proprietary tools in the marketplace today that can help with these important tasks. For most open source program offices, a high-quality and comprehensive collection of tools can be brought together without the need to build your own custom tools. Again, much of this is due to open source collaboration, where contributing developers have created and refined the tools which can handle these tasks for enterprises. And if the tools don’t do exactly what your project needs, then users can contribute back to modify and improve them to gain the capabilities they seek. Getting involved in the open source community around enterprise tooling is something that your open source program office will likely support.
 
-Existing open source resources are also potential gold mines for finding other materials needed by your open source projects, including documentation for contributor license agreements (CLAs). CLAs “define the terms under which intellectual property has been contributed to a company/project, typically software under an open source license.”[[https://en.wikipedia.org/wiki/Contributor_License_Agreement](https://en.wikipedia.org/wiki/Contributor_License_Agreement)] Projects that use CLAs require contributors, and often their companies, to sign the CLA before contributions will be accepted by the project.
+Existing open source resources are also potential gold mines for finding other materials needed by your open source projects, including documentation for contributor license agreements (CLAs). CLAs “define the terms under which intellectual property has been contributed to a company/project, typically software under an open source license.”[[Contributor License Agreement](https://en.wikipedia.org/wiki/Contributor_License_Agreement)] Projects that use CLAs require contributors, and often their companies, to sign the CLA before contributions will be accepted by the project.
 
 Many companies have written their own CLAs, but generic versions are available as open source agreements which one can use without starting from scratch. Most of what you will need can be found in a template and then you can customize the CLAs to cover any issues that remain. Attorneys from other potential contributing companies will often appreciate reuse of standard terms.
 
@@ -248,7 +248,7 @@ If you’re interested in building out and open source program office and want t
 
 https://github.com/todogroup/job-descriptions
 
-## Acknolwedgements
+## Acknowledgements
 
 Contributors to this guide:
 

@@ -2,5 +2,6 @@
 data/assetHashes.json
 node_modules/
 public/
+resources/
 static/css/style-*.css
 .sass-cache/

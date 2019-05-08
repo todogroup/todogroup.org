@@ -54,8 +54,6 @@
   url: https://github.com/ni
 - name: Netflix
   url: https://netflix.github.io/
-- name: Oath
-  url: https://yahoo.github.io/
 - name: Paypal
   url: http://paypal.github.io/
 - name: Pinterest
@@ -90,6 +88,8 @@
   url: https://engineering.twitter.com/opensource
 - name: Uber
   url: https://opensource.uber.com
+  - name: Verizon Media
+  url: https://opensource.yahoo.com/
 - name: VMWare
   url: https://github.com/vmware
 - name: WalmartLabs

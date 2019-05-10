@@ -2,9 +2,9 @@
 title: Tools for managing open source programs
 ---
 
-The road to strategic use of open source starts with a carefully planned, organized, and empowered open source program office to guide and manage its creation, distribution, and use. But that’s just a first step. To get such an office underway and running smoothly, you need the right tools. These mission-critical tools will be used to track goals and metrics in departments from engineering and legal to executive leadership, PR, and marketing, and give employees all the resources they need to gather data, provide snapshots of performance, and manage the daily use of open source within your company.
+The road to strategic use of open source starts with a carefully planned, organized, and empowered open source program office to guide and manage its creation, distribution, and use. But, that’s just a first step. To get such an office underway and running smoothly, you need the right tools. These mission-critical tools will be used to track goals and metrics in departments from engineering and legal to executive leadership, PR and marketing to HR, and give each of these functions all the resources they need to gather data, provide snapshots of performance, and manage the daily use of open source within your company.
 
-This guide provides details and scenarios for how to get your open source tool collection started, including information about the most important tools to use to track and manage your open source projects. Many of the tools have been created and open-sourced by The Linux Foundation and other leaders in the field, providing free and easy access for your projects. You’ll also find an example dashboard setup which combines and displays information from multiple tools.
+This guide provides details and scenarios for how to get your open source tool collection started, including information about the most important tools to use to track and manage your open source projects. Many of the tools have been created and open-sourced by The Linux Foundation and other leaders in the field, providing free and easy access for your projects. You’ll also find an example dashboard setup, which combines information from multiple tools for central review.
 
 **Table of Contents**
 
@@ -19,17 +19,17 @@ This guide provides details and scenarios for how to get your open source tool c
 
 ## Why you need special tools for open source program management
 
-Once your open source program office is up and running, it’s time to collect the right software tools that will allow your development teams to manage, track, guide, and advance their open source projects, contributions, and releases.
+Once your open source program office is up and running, it’s time to collect the right software tools that will allow your development teams to manage, track, guide, and advance their open source projects, consumption, contributions, and releases.
 
 These tools are critical because using open source for business strategy requires its own methodologies and processes which are very different than those needed when using and releasing proprietary software. Open source tools allow companies to do a myriad of tasks:
 
-* Provide a workplace for collaboration and code building
-* Manage project health
-* Automate critical and repeatable tasks such as code review and tracking and license compliance
-* Generate data to prove ROI for your program office and open source strategy, in general
+* Provide a workplace for collaboration and code building.
+* Manage project health.
+* Automate critical and repeatable tasks such as code review and tracking and license compliance.
+* Generate data to prove ROI for your program office and open source strategy, in general.
 * Oversee project quality and to make sure that guard rails are in place if issues arise.
 
-Having the right targeted tools as you begin your open source path will also make jobs easier for developers and other employees, will provide better results, and will become the basis for successful collaboration and communications for a company’s open source projects.
+Having the right, targeted tools as you begin your open source journey will also make jobs easier for developers and other employees, will provide better insight to results, and will become the basis for successful collaboration and communication of a company’s open source projects.
 
 > “If you have more than 100 code repositories or 100 people that you're trying to manage, you really can’t have someone doing it manually with spreadsheets anymore. Obviously, people still do it that way. But it starts to become ad hoc and laborious. That’s where tools come into play. They allow you to scale.” – [Jeff McAffer](https://twitter.com/jeffmcaffer), Director of the Open Source Programs Office at Microsoft
 

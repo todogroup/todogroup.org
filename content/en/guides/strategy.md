@@ -22,7 +22,7 @@ The critical first step in increasing your open source investment is to create a
 * Explain your company’s approach to open source and business models and support of its use
 * Clarify where your company invests in community-driven, external R&D and where your company will focus on its value added differentiation
 
-> "If you do not start with that high-level consensus, driving agreement on the details of the policy and on investments in the process tends to be very hard, if not impossible."* *- *Ibrahim Haddad, Vice President of R&D and the Head of the Open Source Lab at Samsung, in his book[ Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)[.](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)
+> "If you do not start with that high-level consensus, driving agreement on the details of the policy and on investments in the process tends to be very hard, if not impossible."* *- *Ibrahim Haddad, Vice President of R&D and the Head of the Open Source Lab at Samsung, in his book[ Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)[.](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
 
 ## Your open source strategy document
 

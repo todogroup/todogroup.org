@@ -149,7 +149,7 @@ Working alongside great developers in high-visibility positions and projects is 
 3. Set up a mentorship program where senior and more experienced developers guide junior, less experienced ones.
 4. Develop and offer both technical and open source methodology training to your developers.
 5. Participate in open source events. Send your developers and support them in presenting their work.
-6. Provide proper IT infrastructure that will allow your developers to comunicate and work with the global open source community without any challenges.
+6. Provide proper IT infrastructure that will allow your developers to communicate and work with the global open source community without any challenges.
 7. Set up an internal system to track the contributions of your developers and measure their impact.
 8. Internally, plan on contributing and focus on areas that are useful to more than one business unit/product line.
 

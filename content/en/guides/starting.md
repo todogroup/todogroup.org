@@ -29,7 +29,7 @@ Open source projects provide freedom to collaborate – even among competitors i
 
 ## When to create an open source project
 
-The decision to release or create a new open source project depends on your circumstances. Your company should first achieve a certain level of open source mastery by using open source software and contributing to existing projects. This is because consuming can teach you how to leverage external projects and developers to build your products. And participation can bring more fluency in the conventions and culture of open source communities. (See our guides on [Using Open Source Code](https://www.linuxfoundation.org/using-open-source-code/) and [Participating in Open Source Communities](https://www.linuxfoundation.org/participating-open-source-communities/)) But once you have achieved open source fluency, the best time to start launching your own open source projects is simply “early” and “often.”
+The decision to release or create a new open source project depends on your circumstances. Your company should first achieve a certain level of open source mastery by using open source software and contributing to existing projects. This is because consuming can teach you how to leverage external projects and developers to build your products. And participation can bring more fluency in the conventions and culture of open source communities. (See our guides on [Using Open Source Code](https://todogroup.org/guides/using-open-source/) and [Participating in Open Source Communities](https://todogroup.org/guides/participating/)) But once you have achieved open source fluency, the best time to start launching your own open source projects is simply “early” and “often.”
 
 ![](/img/guides/starting-an-open-source-project2.jpg)
 
@@ -159,7 +159,7 @@ It’s important to decide early in the process what criteria must be met to par
 
 governance body. Decisions should be formalized on how features and bugs will be tracked, how code will be submitted, and who will manage the release process.
 
-You want to make sure the people entrusted with the project have the tools they need to operate and maintain the project. This is where your [open source program office and manager](https://www.linuxfoundation.org/creating-an-open-source-program/) comes in.
+You want to make sure the people entrusted with the project have the tools they need to operate and maintain the project. This is where your [open source program office and manager](https://todogroup.org/guides/create-program/) comes in.
 
 > “You need to make sure the people that need to get these things done are well empowered to be successful. You also need to be conscious of not intermixing the business half of the project with the technical half of the project – they need to have distinct leadership. That way you don’t get things stuck in the tracks. You're not getting people making out-of-context decisions. Let the business unit help make the technical unit more successful.” – John Mertic, Director of Program Management at The Linux Foundation
 

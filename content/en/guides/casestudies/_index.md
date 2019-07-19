@@ -16,5 +16,6 @@ We've had many organizations approach TODO Group members asking for advice on ho
 * [Red Hat](redhat)
 * [Salesforce](salesforce)
 * [SAP](sap)
+* [Uber](uber)
 
 If you have an open source program and you're interested in adding a case study, please send a pull request!

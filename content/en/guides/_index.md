@@ -25,6 +25,7 @@ For open source program management best practices:
 * [Shutting Down an Open Source Project](shutting-down)
 * [Building Leadership in an Open Source Community](building-leadership)
 * [Setting an Open Source Strategy](strategy)
+* [Marketing Open Source Projects](marketing-open-source-projects)
 
 ## Open Source Program Case Studies
 

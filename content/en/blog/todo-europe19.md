@@ -12,8 +12,8 @@ Listed below are the talks from the TODO track at OSSEU:
  * [Sustaining Global Public Goods - OSS for Social Good](https://osseu19.sched.com/event/TLM8/sustaining-global-public-goods-oss-for-social-good-heath-arensen-un-foundation-open-source-center?iframe=yes&w=100%&sidebar=yes&bg=no) - Heath Arensen, UN Foundation Open Source Center
  * [Trends in Open Source Program Management from the 2019 TODO Group Survey](https://osseu19.sched.com/event/TLIk/trends-in-open-source-program-management-from-the-2019-todo-group-survey-alex-williams-the-new-stack?iframe=yes&w=100%&sidebar=yes&bg=no) - Alex Williams, The New Stack 
  * [Panel Discussion: What’s Essential in an OSS Project Launch Playbook?](https://osseu19.sched.com/event/TLIV/panel-discussion-whats-essential-in-an-oss-project-launch-playbook-karen-chu-matt-butcher-aaron-schlesinger-ronan-flynn-curran-microsoft-betty-junod-soloio-tasha-drew-vmware?iframe=yes&w=100%&sidebar=yes&bg=no) - Karen Chu, Matt Butcher, Aaron Schlesinger & Ronan Flynn-Curran, Microsoft; Betty Junod, Solo.io; Tasha Drew, VMware
- * [Jumpstarting an OSPO and How to Measure Internal Community Success](https://osseu19.sched.com/event/TLBj/the-untold-story-behind-creating-an-open-source-program-office-brian-hsieh-uber?iframe=yes&w=100%&sidebar=yes&bg=no)- Alison Yu, Indeed
-
+ * [Jumpstarting an OSPO and How to Measure Internal Community Success](https://osseu19.sched.com/event/TLBj/the-untold-story-behind-creating-an-open-source-program-office-brian-hsieh-uber?iframe=yes&w=100%&sidebar=yes&bg=no) - Alison Yu, Indeed
+ * [The Untold Story Behind Creating an Open Source Program Office](https://osseu19.sched.com/event/TLBj/the-untold-story-behind-creating-an-open-source-program-office-brian-hsieh-uber) - Brian Hsieh, Uber
  
 ### Tuesday, October 29
 * [Open Source Collaboration and Companies: Finding the Right Balance](https://osseu19.sched.com/event/TLHU/open-source-collaboration-and-companies-finding-the-right-balance-dawn-foster-pivotal?iframe=yes&w=100%&sidebar=yes&bg=no) - Dawn Foster, Pivotal

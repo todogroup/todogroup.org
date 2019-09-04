@@ -31,4 +31,5 @@ Listed below are the talks from the TODO track at OSSEU:
 * [Grounding Contributions and Community Engagement in Your Business Goals](https://osseu19.sched.com/event/TLDu/grounding-contributions-and-community-engagement-in-your-business-goals-johan-linaker-lund-university?iframe=yes&w=100%&sidebar=yes&bg=no) - Johan Linåker, Lund University
 
 We hope you find these talks useful. Slides will be posted following Open Source Summit Europe.
+
 If you're interested in starting an open source program or collaborating with your peers in open source program management, please consider [joining the TODO Group](http://todogroup.org/join/)!

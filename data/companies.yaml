@@ -74,6 +74,8 @@
   url: https://github.com/sap
 - name: Sauce Labs
   url: https://github.com/saucelabs
+- name: Scania
+  url: https://github.com/scania
 - name: Spotify
   url: https://github.com/spotify
 - name: Square

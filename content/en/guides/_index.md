@@ -39,6 +39,7 @@ For open source program management best practices:
 * [RedHat](casestudies/redhat)
 * [Salesforce](casestudies/salesforce)
 * [SAP](casestudies/sap)
+* [Uber](casestudies/uber)
 
 If your open source program would like to add a case study, please send a pull request!
 

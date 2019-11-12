@@ -26,6 +26,8 @@
   url: https://opensource.dropbox.com/
 - name: eBay
   url: http://ebay.github.io/
+- name: EMC
+  url: https://github.com/thecodeteam
 - name: Facebook
   url: https://code.facebook.com/projects/
 - name: Freddie Mac

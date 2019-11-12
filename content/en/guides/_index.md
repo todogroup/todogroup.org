@@ -35,6 +35,7 @@ For open source program management best practices:
 * [Dropbox](casestudies/dropbox)
 * [Facebook](casestudies/facebook)
 * [Microsoft](casestudies/microsoft)
+* [National Instruments](casestudies/ni)
 * [Oath](casestudies/oath)
 * [RedHat](casestudies/redhat)
 * [Salesforce](casestudies/salesforce)

@@ -19,7 +19,7 @@ In 2015, [the Real-Time Linux Collaborative Project was established](https://www
 ![](/img/guides/casestudies/rtlogo.png)
 
 
-The Real-Time Linux Collaborative Project has been incredibly successful. Recently, [Linus Torvalds accepted a change into the kernel](https://wiki.linuxfoundation.org/realtime/rtl/blog#the_jury_has_spoken/), signaling that real-time will become a first class citizen of Linux. 
+The Real-Time Linux Collaborative Project has been incredibly successful. Recently, [Linus Torvalds accepted a change into the kernel](https://wiki.linuxfoundation.org/realtime/rtl/blog#the_jury_has_spoken/) signaling that real-time will become a first class citizen of Linux. 
 
 Because of this experience, we learned not to be timid about reaching out to business and technology leaders in the open source community. There’s a strong culture of finding ways to work together to solve common problems.
 

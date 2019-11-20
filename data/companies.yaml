@@ -80,6 +80,8 @@
   url: https://github.com/saucelabs
 - name: Scania
   url: https://github.com/scania
+- name: Seagate
+  url: https://github.com/seagate
 - name: Spotify
   url: https://github.com/spotify
 - name: Square

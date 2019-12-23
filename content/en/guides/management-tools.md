@@ -273,6 +273,7 @@ Having the right tools is critical to empowering your company’s open innovatio
 
 ## Acknowledgements
 
-Contributors:
+Contributors to this guide:
+
 * [Chris Aniszczyk](https://twitter.com/cra), COO of the Cloud Native Computing Foundation.
 * [Jeff McAffer](https://twitter.com/jeffmcaffer), Director of the Open Source Programs Office at Microsoft.

@@ -267,3 +267,14 @@ footer {
     }
   }
 }
+
+@media only print {
+  footer {
+    display: none;
+  }
+
+  article {
+    line-height: normal;
+    font-size: 12px;
+  }
+}

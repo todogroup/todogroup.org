@@ -1,6 +1,6 @@
 baseURL: https://todogroup.org
-contentDir: content/en
 enableRobotsTXT: true
+contentDir: content/en
 disableKinds:
 - RSS
 - taxonomy
@@ -21,11 +21,6 @@ outputFormats:
 # Internationalization
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-
-# Disable non-English languages (for now)
-disableLanguages:
-- zh
-- ko
 
 languages:
   en:
@@ -51,29 +46,18 @@ languages:
       link: /join
     - title: Q&A
       link: /faq
-  zh:
-    languageName: CHINESE
-    title: SHORT CHINESE TITLE
+  ja:
+    languageName: 日本語
+    title: "// TODO: Talk openly, develop openly"
+    contentDir: content/ja
     weight: 2
-    longTitle: LONGER CHINESE TITLE
-    description: SHORT DESCRIPTION IN CHINESE
+    description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
+    longTitle: "TODO Group // TODO: Talk openly, develop openly"
     footer:
-    - title: HOME IN CHINESE
-      link: /zh
-    - title: ABOUT IN CHINESE
-      link: /zh/about
-  ko:
-    languageName: KOREAN
-    title: SHORT KOREAN TITLE
-    weight: 3
-    longTitle: LONGER KOREAN TITLE
-    description: SHORT DESCRIPTION IN KOREAN
-    footer:
-    - title: HOME IN KOREAN
-      link: /ko
-    - title: ABOUT IN KOREAN
-      link: /ko/about
-
+    - title: Home
+      link: /
+    - title: Guides
+      link: /guides
 
 params:
   googleAnalytics:

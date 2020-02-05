@@ -1,5 +1,6 @@
 baseURL: https://todogroup.org
 enableRobotsTXT: true
+contentDir: content/en
 disableKinds:
 - RSS
 - taxonomy
@@ -19,6 +20,7 @@ outputFormats:
 
 # Internationalization
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
 languages:
   en:
@@ -47,6 +49,7 @@ languages:
   ja:
     languageName: 日本語
     title: "// TODO: Talk openly, develop openly"
+    contentDir: content/ja
     weight: 2
     description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
     longTitle: "TODO Group // TODO: Talk openly, develop openly"
@@ -55,8 +58,6 @@ languages:
       link: /
     - title: Guides
       link: /guides
-
-
 
 params:
   googleAnalytics:

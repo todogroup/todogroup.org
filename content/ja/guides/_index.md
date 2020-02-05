@@ -6,7 +6,7 @@
 
 ### オープンソース プログラムの作成
 「社内におけるオープンソースの利用」と「社外貢献」を管理するプログラムの構築方法を学びましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/creating-an-open-source-program/)
+[**ガイドを見る**](creat-program)
 
 ### オープンソース管理ツール
 オープンソース プロジェクトを追跡・管理できるさまざまなツールをご紹介します。

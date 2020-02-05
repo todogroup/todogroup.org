@@ -1,5 +1,6 @@
-
-# オープンソース プログラムを管理するためのツール
+---
+title: 'オープンソース プログラムを管理するためのツール'
+---
 
 #### オープンソースの戦略的な活用への道は、オープンソースの作成、配布、利用に対する指導と管理のために慎重に計画され、組織化され、権限移譲されたオープンソース プログラム オフィスから始まります。しかし、それは単に、最初の一歩に過ぎません。オープンソース プログラム オフィスを軌道に乗せて、円滑な運用を進めるためには、適切なツールが必要です。同オフィスの活動に必要不可欠なツールは、エンジニアリング部門と法務部門から始まり、経営幹部、広報部門、マーケティング部門に至る広い部門で、目標や評価基準の達成度をトラッキングするために使用され、また、データの収集、プロジェクト達成状況のスナップショットの提供、さらには、会社内の日々のオープンソース使用状況の管理のために必要なあらゆるリソースを従業員に与えるために使用されます。
 
@@ -21,11 +22,11 @@
 
 ### このガイドの貢献者
 
-**Chris Aniszczyk**  
-COO  
+**Chris Aniszczyk**
+COO
 Cloud Native Computing Foundation
 
-**Jeff McAffer**  
+**Jeff McAffer**
 Director of the Open Source Programs Office at Microsoft
 
 セクション 1
@@ -49,13 +50,13 @@ Director of the Open Source Programs Office at Microsoft
 
 > **「もし、あなたが100個以上のコード リポジトリ、または100人以上をマネージメントしなければならない立場にあれば、スプレッドシートを使用した手作業でそれらを管理することはできません。まだ、そのようにしている人はいます。
 しかし、そのやり方は、いずれその場しのぎの面倒なものになっていきます。そここそ、ツールが活躍する場です。それらのツールはあなたのマネージメントがより大きな規模になることを許してくれます。」**
-> 
+>
 > **[Jeff McAffer](https://twitter.com/jeffmcaffer) – Director of the Open Source
 Programs Office at Microsoft**
 
 
 > **「結局、あなたの仕事を自動化するツールが必要になります。そうでなければ、あなたは手作業のために、多くの時間を費やさなければならなくなります。」**
-> 
+>
 > **[Chris Aniszczyk](https://twitter.com/cra) – COO of the Cloud Native Computing
 Foundation and former head of open source programs at Twitter**
 
@@ -141,7 +142,7 @@ itHubユーザーは、コードの追加、提出されたコードのレビュ
 
 > **「あなたはリスク特性（risk profile）を理解しなければなりません。結局、スキャンすることがリスク管理のすべてなのです。現実を直視しないで、あなたが大丈夫であることをただ信じて、願っているだけなのか。それとも、『もし私が訴えられれば、それは私のビジネスを破滅させることになるだろう。』と言えるのか。本当に安全であることが必要です。
 だから、あなたはソフトウェアのパッケージを調べ、コードのすべての行をチェックして、そこに存在しているかもしれないリスクのすべてを見つけ出さなければなりません。」**
-> 
+>
 > **[Jeff McAffer](https://twitter.com/jeffmcaffer) – Director of the Open Source Programs Office at Microsoft**
 
 セクション 4
@@ -231,7 +232,7 @@ FoundationのプロジェクトFOSSologyは、コマンドラインで、ライ�
 オープンソース コミュニティには、大きなコントリビューター グループを持つものもあれば、小さく、ニッチなコミュニティ メンバーのグループから構成されているものもあります。プロジェクトの健全性管理ツールは、あらゆる規模のプロジェクトに対応できる必要があります。
 
 > **「ツールやシステムは既に存在しているので、企業のオープンソース プログラム オフィスは自分でツールやテクノロジを作成する必要はないとすぐに気づくでしょう。彼らはオープンソース プログラムを管理するために使用できる既存のオープンソース ツールを見つけて使用できるはずです。」**
-> 
+>
 > **[Jeff McAffer](https://twitter.com/jeffmcaffer) – Director of the Open Source Programs Office at Microsoft**
 
 最も一般的で、有用なプロジェクトの統計情報ツールとプロジェクトの健全性を管理するツールは次のとおりです。
@@ -251,7 +252,7 @@ FoundationのプロジェクトFOSSologyは、コマンドラインで、ライ�
 [OSS Tracker](https://github.com/Netflix/osstracker) – Netflix社のOSS Trackerは、GitHub組織内のすべてのプロジェクトに対して、単一のユーザー インターフェースでデータを収集し、集約してくれます。組織のすべてのリポジトリが一覧表示され、メトリクスは統合されます。また、コミュニティ マネージャーが、プロジェクトを機能別に編成して情報収集したり、管理とエンジニアリングの役割を管理責任者に割り当てたりすることもできます。
 
 > **「目標は、トランスペアレントなデータとメトリクス情報が提供され、組織を導くために使用できるツールを持つことです」**
-> 
+>
 > **[Chris Aniszczyk](https://twitter.com/cra) – COO of the Cloud Native Computing Foundation**
 
 TODOグループはまた、他のツールも加えた有益なリスト（[helpful list that adds other tools](https://github.com/todogroup/awesome-oss-mgmt)）も提供しています：
@@ -324,7 +325,7 @@ Microsoft社は、オープンソース プログラムの効率化、改善に�
 
 > **「GitHubの管理は、その規模が拡大するにつれ、重要になってきます。あなたはリポジトリの集合となるGitHubの組織（GitHub
 organization）を作成し、メンバーを集め、チームを構成します。特にGitHubが何百ものリポジトリを持ち、何百人もの人々が参加し、複数の組織を持つように拡大すると、このようなことをすべて管理することは少しばかり複雑になります。」**
-> 
+>
 > **[Jeff McAffer](https://twitter.com/jeffmcaffer) – Director of the Open Source Programs Office at Microsoft**
 
 Microsoft社が作成したものの一つは、プロジェクト、リポジトリ、チームを組織化するカスタムビルドでセルフサービスのGitHub管理とオンボーディングのポータル（[GitHub management and onboarding portal](https://www.jeff.wilcox.name/2015/11/azure-on-github/)）でした。最も簡単なレベルでは、Webベースのポータルにより、開発者はMicrosoft社の企業IDをGitHub IDにマップすることができ、システムのセキュリティを強化し、多数の重要なプロジェクトに携わる多数の開発者の組織（GitHub organization）を簡素化できるようにしました。

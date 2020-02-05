@@ -10,45 +10,45 @@
 
 ### オープンソース管理ツール
 オープンソース プロジェクトを追跡・管理できるさまざまなツールをご紹介します。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/tools-managing-open-source-programs/)
+[**ガイドを見る**](management-tools.md)
 
 ### オープンソース プログラムの成功度を測る
 トップ企業は自社のオープンソース プログラムや貢献のROIをどのように評価しているのでしょうか。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/measuring-your-open-source-program-success/)
+[**ガイドを見る**](measuring-success.md)
 
 ### オープンソース デベロッパーの採用
 オープンソース文化の醸成・オープンソース コミュニティへの貢献・オープンソース プロジェクトの立ち上げを通じたデベロッパーの採用について学びましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/recruiting-open-source-developers/)
+[**ガイドを見る**](recruiting-developers.md)
 
 ### オープンソース コミュニティへの参加
 社内の開発者リソースをオープンソースに参加させることの大切さと、そのベスト アプローチを理解しましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/participating-open-source-communities/)
+[**ガイドを見る**](participating.md)
 
 ### オープンソース コードの使用
 オープンソースを自社製品に組み込む際に守らなければならない法的義務とは？
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/using-open-source-code/)
+[**ガイドを見る**](using-open-source.md)
 
 ## 組織におけるオープンソース プロジェクトの管理
 
 ### オープンソース プロジェクトを立ち上げる
 オープンソース プロジェクトを開始するためのプロセス、予算、法務的な考慮事項などを学びましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/starting-open-source-project/)
+[**ガイドを見る**](starting.md)
 
 ### オープンソース開発の効果を高める
 社内の開発プロセスを改善し、あなたの会社に最も重要なオープンソース プロジェクトに貢献する準備をしましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/improving-your-open-source-development-impact/)
+[**ガイドを見る**](impact.md)
 
 ### オープンソース ガイド推奨図書
 オープンソース プログラム マネージャーの皆様に TODOグループ メンバーが推奨する21冊の必読図書。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/open-source-guides-reading-list/)
+[**ガイドを見る**](open-source-reading-list.md)
 
 ### オープンソース プロジェクトを終了させる
 オープンソース プロジェクトの終了やプロジェクトからの撤退をスムーズに行うためのアドバイス。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/winding-down-an-open-source-project/)
+[**ガイドを見る**](shutting-down.md)
 
 ### オープンソース コミュニティでリーダーシップを構築する
 オープンソース プロジェクトで企業が影響力とリーダーシップを発揮するには？
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/building-leadership-in-an-open-source-community/)
+[**ガイドを見る**](building-leadership.md)
 
 ### オープンソース戦略の策定
 ビジネス目標に合わせてオープンソース ソフトウェアに関する最適な管理・参加・作成方法を学び、オープンソース投資のROIを実現しましょう。

@@ -4,7 +4,7 @@
 ### オープンソース プログラム マネージャーの皆様に[TODOグループ](http://todogroup.org/)メンバーが推奨する21冊の必読図書。
 <br />
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_13.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_13.jpg" width="200">
 ### [**Code Version 2.0**](http://codev2.cc/)
 Larry Lessig 著 (2005年)
 インターネットの規制とコードの役割を法制度の形で論じた論文。
@@ -13,7 +13,7 @@ Larry Lessig 著 (2005年)
 <br />  
 <br /> 
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_17.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_17.jpg" width="200">
  ### [**Intellectual Property and Open Source**](http://www.amazon.com/Intellectual-Property-Open-Source-Protecting/dp/0596517963%E2%80%8B)
 オライリー・メディア刊、Van Lindberg 著 (2009年)
 法律専門家の観点よりも、より技術者の観点から見たオープンソース ライセンス。関連法制度の歴史にも触れる。なぜ商標があるのか？なぜ著作権があるのか？
@@ -21,7 +21,7 @@ Larry Lessig 著 (2005年)
 <br /> 
 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_19.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_19.jpg" width="200">
 ### [**Managing 3rd-Party Software Licenses**](https://www.amazon.com/Managing-3rd-Party-Software-Licences-ebook/dp/B01JJC7LD8)
 
 自主出版 Giles Middleton 著 (2016年)
@@ -29,14 +29,14 @@ Larry Lessig 著 (2005年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_1.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_1.jpg" width="200">
 ### [**New Frontiers in Open Innovation**](https://www.amazon.com/Frontiers-Open-Innovation-Henry-Chesbrough/dp/0198803990/ref=sr_1_cc_1?s=aps&amp;ie=UTF8&amp;qid=1507753139&amp;sr=1-1-catcorr&amp;keywords=New+Frontiers+in+open+innovation)
 オックスフォード大学出版局刊、Henry W. Chesbrough 著 (2014年)
 大企業におけるオープン イノベーションの調査結果を概観。
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_4.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_4.jpg" width="200">
 ### [**Open Business Models: How to Thrive in the New Innovation Landscape, Harvard Business School Press**](https://hbr.org/product/open-business-models-how-to-thrive-in-the-new-inno/an/4273-HBK-ENG)
 ハーバード・ビジネススクール・プレス刊、Henry W. Chesbrough 著 (2006年)
 同著者の前著作の上に構築、オープン イノベーションを通じてビジネスを成功に導く手引き。
@@ -46,7 +46,7 @@ Larry Lessig 著 (2005年)
 <br /> 
 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_3.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_3.jpg" width="200">
 ### [**Open Innovation: The New Imperative for Creating And Profiting from Technology**](https://www.amazon.com/Open-Innovation-Imperative-Profiting-Technology/dp/1422102831)
 ハーバード・ビジネススクール・プレス刊、Henry Chesbrough 著 (2005年)
 IT企業がいかに、なぜ協業を通じて効率よくイノベーションを成し遂げたのかについて学術的見解を示した基盤的著作。
@@ -55,7 +55,7 @@ IT企業がいかに、なぜ協業を通じて効率よくイノベーション
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/Screen-Shot-2017-10-17-at-3.27.03-PM.png =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/Screen-Shot-2017-10-17-at-3.27.03-PM.png" width="200">
 ### [**Open Sources 2.0: The Continuing Evolution**](http://shop.oreilly.com/product/9780596008024.do)
 
 オライリー・メディア刊、Chris DiBona、Mark Stone、Danese Cooper 編
@@ -63,7 +63,7 @@ IT企業がいかに、なぜ協業を通じて効率よくイノベーション
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_14.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_14.jpg" width="200">
 ### [**Open Source for Business: A Practical Guide to Open Source Software Licensing, 2nd Edition**](http://www.pdffull.co/files/book.php?id=1544737645)
 
 Heather Meeker 著
@@ -71,7 +71,7 @@ Heather Meeker 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_12.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_12.jpg" width="200">
 ### [**Open Sources: Voices from the Open Source Revolution**](http://www.oreilly.com/openbook/opensources/book/index.html)
 
 オライリー・メディア刊、Eric S. Raymond、Linus Torvalds 他共著 (1999年)
@@ -79,7 +79,7 @@ Heather Meeker 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_21.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_21.jpg" width="200">
 ### [**Philosophy of the GNU Project**](https://www.gnu.org/philosophy/philosophy.html)
 
 Richard Stallman 著
@@ -87,7 +87,7 @@ Richard Stallman 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_7.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_7.jpg" width="200">
 ### [**Producing Open Source Software: How to Run a Successful Free Software Project**](http://producingoss.com/en/index.html)
 
 オライリー・メディア刊、Karl Fogel 著 (2005年)
@@ -97,7 +97,7 @@ Richard Stallman 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_11.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_11.jpg" width="200">
 ### [**The Art of Community: Building the New Age of Participation**](https://www.amazon.com/Art-Community-Building-New-Participation/dp/1449312063)
 
 オライリー・メディア刊、Jono Bacon 著  (2012年)
@@ -107,7 +107,7 @@ Richard Stallman 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_6.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_6.jpg" width="200">
 ### [**The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary**](http://shop.oreilly.com/product/9780596001087.do)
 
 オライリー・メディア刊、Eric Raymond 著 (1999年)
@@ -117,7 +117,7 @@ Richard Stallman 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_18.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_18.jpg" width="200">
 ### [**The International Free and Open Source Software Law Book**](http://ifosslawbook.org/)
 
 オープンソース・プレス刊、Ywein Van den Brande、Shane Coughlan、Till Jaeger 共著 (2014年)
@@ -125,7 +125,7 @@ Richard Stallman 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_20.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_20.jpg" width="200">
 ### [**The Magic Cauldron**](http://www.catb.org/esr/writings/magic-cauldron/)
 
 Eric Raymond 著 (1999年)
@@ -135,7 +135,7 @@ Eric Raymond 著 (1999年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_9.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_9.jpg" width="200">
 ### [**The New Kingmakers: How Developers Conquered the World**](https://www.amazon.com/New-Kingmakers-Developers-Conquered-World-ebook/dp/B0097E4MEU)
 
 オライリー・メディア刊、Stephen O&#39;Grady 著 (2013年)
@@ -143,7 +143,7 @@ Eric Raymond 著 (1999年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_2.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_2.jpg" width="200">
 ### [**The Open Organization: Igniting Passion and Performance**](https://hbr.org/product/the-open-organization-igniting-passion-and-performance/13980-HBK-ENG)
 
 ハーバード・ビジネスレビュー・プレス刊、Jim Whitehurst 著 (2012年)
@@ -153,7 +153,7 @@ Eric Raymond 著 (1999年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_22.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_22.jpg" width="200">
 ### [**The Open Source Alternative: Understanding Risks and Leveraging Opportunities**](https://www.amazon.com/Open-Source-Alternative-Understanding-Opportunities/dp/0470194952/ref=pd_sim_14_2?_encoding=UTF8&amp;psc=1&amp;refRID=TRNY5HWZJ8WXZJFPW2A1)
 
 ワイリー刊、Heather Meeker 著 (2008年)
@@ -161,7 +161,7 @@ Eric Raymond 著 (1999年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_10.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_10.jpg" width="200">
 ### [**The Software Paradox : The Rise and Fall of the Commercial Software Market**](https://www.amazon.com/Software-Paradox-Rise-Commercial-Market/dp/1491900938)
 
 オライリー・メディア刊、Stephen O&#39;Grady 著 (2015年)
@@ -169,7 +169,7 @@ Eric Raymond 著 (1999年)
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_16.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_16.jpg" width="200">
 ### [**The Success of Open Source**](https://www.amazon.com/dp/B002OSXS0U/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1)
 
 Steven Weber 著
@@ -179,7 +179,7 @@ Steven Weber 著
 <br />
 <br /> 
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_5.jpg =200x300)
+<img src="https://www.linuxfoundation.jp/wp-content/uploads/2017/10/book_5.jpg" width="200">
 ### [**Wikinomics: How Mass Collaboration Changes Everything**](https://www.amazon.com/dp/B000QBYEH8/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1)
 
 Don Tapscott、Anthony D. Williams 共著 (2006年)

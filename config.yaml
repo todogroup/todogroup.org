@@ -48,15 +48,15 @@ languages:
       link: /faq
   ja:
     languageName: 日本語
-    title: "// TODO: Talk openly, develop openly"
+    title:"// TODO: Talk openly, develop openly"
     contentDir: content/ja
     weight: 2
-    description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
-    longTitle: "TODO Group // TODO: Talk openly, develop openly"
+    description:「TODO: talk openly, develop openly (オープンに議論し、オープンに開発する). わたしたちは、協力することで、オープンソース プログラムのみならず、オープンソースのムーブメントへの貢献も、総合的に改善できると考えています。」
+    longTitle:"TODO Group // TODO: Talk openly, develop openly"
     footer:
-    - title: Home
+    - title: ホーム
       link: /
-    - title: Guides
+    - title: ガイド
       link: /guides
 
 params:

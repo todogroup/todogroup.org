@@ -4,6 +4,7 @@
 {{ $lang  := .Language}}
 <h1>{{ i18n "hero1" }}</h1>
 <h1>{{ i18n "hero2" }}</h1>
+<br />
 <h2>{{ i18n "hero3" }}</h2>
 {{ i18n "heroText" | markdownify }}
 <script async defer src="https://slack.{{ $slackChannel }}.org/slackin.js?large"></script>

@@ -3,12 +3,12 @@ hero1:
 hero2:
   other: Develop openly
 hero3:
-  other: For companies committed to open source.
+  other: オープンソースに取り組むすべての企業のみなさんへ。
 heroText:
   other: |
-    Does your company release open source projects? Would you like to improve how you interact with the open source community to better manage and run your projects?
+    あなたの会社はオープンソース プロジェクトをリリースしていますか？オープンソース コミュニティとのやりとりを改善し、あなたのプロジェクトをよりよく運営しましょう。
 
-    TODO is an open [group of companies](../members) who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs. [Read more](../about) about the group, or [contact us](../join) to get involved.
+TODOはオープンな企業集団であり、確実で効果的なオープンソースのプロジェクトやプログラムを実現するために、さまざまな手法やツールなどについて協力しあっています。グループの詳細については [こちらを参照してください](../about) 。また、傘下については [こちらへお問い合わせください](../join) 。
 footerText:
   other: |
-    These resources were created in partnership with the TODO Group: the professional open source program networking group at The Linux Foundation. A special thank you to Pam Baker for writing assistance and the open source program managers who contributed their time and knowledge to making these comprehensive guides. Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware. To learn more, visit: [todogroup.org](http://todogroup.org/).
+    これらのリソースは、Linux Foundation のプロフェッショナルなオープンソース ネットワーク グループであるTODO Groupと協力して作成されました。執筆を支援してくれたPam Baker氏、およびこの包括的なガイドの作成に時間と知識を提供してくださったオープン ソース プログラム マネージャーの皆様に感謝いたします。参加企業は次のとおりです。Autodesk、Comcast、Dropbox、Facebook、Google、Intel、Microsoft、Netflix、Oath (Yahoo + AOL)、Red Hat、Salesforce、Samsung、VMware。詳細については、[todogroup.org]（http://todogroup.org/）をご覧ください。

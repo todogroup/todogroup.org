@@ -137,6 +137,8 @@ Here are some of the most popular and useful source code management tools which 
 
 [FOSSA](http://fossa.io/) – This is a commercial tool that automatically performs code dependency tracking, license compliance scanning in the background.
 
+[FOSSID](https://fossid.com) - FOSSID is a commercial tool for license and vulnerability scanning.  Rather than relying upon declared components and licenses, FOSSID uses a large database of projects and code fragments to scan for code snippets. This enables detection of copied/pasted code, or code where license declarations were not properly preserved. In particular, this is useful when auditing code received from a third party or when preparing to open source code that was originally developed for internal use only.
+
 [FOSSology](https://www.fossology.org/) – A Linux Foundation project, FOSSology is an open source license compliance software toolkit which can run license, copyright and export control scans from the command line. A database and web UI are also available to create compliance workflows.
 
 ![The Linux Foundation’s FOSSology compliance tool](/img/guides/tools-for-managing-open-source-programs3.png)

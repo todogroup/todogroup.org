@@ -149,6 +149,8 @@ Here are some of the most popular and useful source code management tools which 
 
 [Protecode Enterprise Analyzer](http://www.protecode.com/our-products/system-4/enterprise-analyzer/) – This commercial application is used to analyze and identify all code in any directory to determine code ownership and ensure open source license compliance based on predetermined internal policies.
 
+[REUSE](https://reuse.software/) – A free software tool to help adopt and check the application of licenses in a code repository. It is based on best practices, including the SPDX specification. It offers a badge API service to market the compliance.
+
 [scancode-toolkit](https://github.com/nexB/scancode-toolkit) – From nexB, the open source ScanCode suite of utilities scans code for licenses, copyright and dependencies to find, discover and inventory open source and third-party components used in your code.
 
 [SPDX](https://spdx.org/tools) – The Software Package Data Exchange (SPDX) specification is a standard format used to describe the components, licenses and copyrights associated with software packages. The SPDX standard aids compliance with free and open source software licenses by standardizing the way license information is shared between developers and companies. The SPDX specification is developed by the SPDX workgroup, which is hosted by The Linux Foundation. The group offers open source [tools](https://spdx.org/tools) to help users of SPDX documents.

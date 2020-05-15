@@ -221,6 +221,8 @@ The TODO Group also offers a [helpful list that adds other tools](https://GitHub
 
 [DCOB](https://github.com/chef/dcob) – A Developer Certificate of Origin Bot which helps to enforce developer certificate of origin sign-offs for each code change in a pull request. The DCOB sets the status for each accepted code change, as required by the [Developer Certificate of Origin](http://developercertificate.org/).
 
+[EasyCLA](https://lfcla.com/) - By the Linux Foundation to streamline the CLA process. It focusses on Linux Foundation projects, but projects outside the Linux Foundation are considered on a case-by-case basis. In addition to the typical CLA tooling, it enables whitelisting of corporate contributers. It integrates with GitHub pull requests.
+
 ### GitHub Management at Corporate Scale
 
 * [hubcommander](https://github.com/Netflix/hubcommander) - A Slack bot for GitHub organization management, HubCommander uses chat-ops – or conversation-driven development – to help manage GitHub projects. It creates a simple way to perform privileged GitHub organization management tasks without granting administrative or owner privileges to your GitHub organization members.

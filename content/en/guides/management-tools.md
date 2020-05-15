@@ -149,6 +149,8 @@ Here are some of the most popular and useful source code management tools which 
 
 [Protecode Enterprise Analyzer](http://www.protecode.com/our-products/system-4/enterprise-analyzer/) – This commercial application is used to analyze and identify all code in any directory to determine code ownership and ensure open source license compliance based on predetermined internal policies.
 
+[publiccode.yml](https://github.com/italia/publiccode.yml) - A machine-readable metadata description standard for public software and policy repositories that is easy to use both for developers and people with less technical background. It supports a variety of metadata e.g.: target audience, infrastructure dependencies, localized descriptions and images, legal information and contact information. Although developed for the public sector, it can be applied anywhere.
+
 [REUSE](https://reuse.software/) – A free software tool to help adopt and check the application of licenses in a code repository. It is based on best practices, including the SPDX specification. It offers a badge API service to market the compliance.
 
 [scancode-toolkit](https://github.com/nexB/scancode-toolkit) – From nexB, the open source ScanCode suite of utilities scans code for licenses, copyright and dependencies to find, discover and inventory open source and third-party components used in your code.

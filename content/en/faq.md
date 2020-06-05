@@ -46,7 +46,6 @@ help solve the problem of utilizing and releasing our own open source software.
 
 ## How can I stay up to date with TODO?
 
-Follow us on [GitHub](https://github.com/todogroup), on Twitter at
-[@todogroup](https://twitter.com/todogroup), and on
-[Facebook](https://facebook.com/todo). Press inquiries can be sent to
+Follow us on [GitHub](https://github.com/todogroup) or on Twitter at
+[@todogroup](https://twitter.com/todogroup). Press inquiries can be sent to
 <press@todogroup.org>. 

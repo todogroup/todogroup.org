@@ -7,7 +7,7 @@ permalink: /community/
 
 Join us on Slack to chat open source program management:
 
-<script async defer src="https://slack.todogroup.org/slackin.js?large"></script>
+{{< slackButton >}}
 
 # Public Mailing List
 
@@ -17,7 +17,7 @@ You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with a
 
 # Member Only Resources
 
-The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. 
+The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion.
 
 As a group, we also usually meet on a quarterly basis in person hosted at one of our member company sites.
 

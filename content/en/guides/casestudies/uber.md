@@ -4,7 +4,7 @@ title: Uber
 
 Uber is one of the best-known disruptors in the digital age. Its business model famously separated transportation services from the traditional underlying infrastructure with an app-based model offering on-demand and multimodal options. In many ways,  this transformation, and Uber itself, also mirror the creative and collaborative aspects of the open source community.
 
-> "Uber has been an open source software user since the beginning," said[ Brian Hsieh](https://www.linkedin.com/in/briankhsieh/), head of open source at Uber. “But over the years, Uber has also contributed to the community and created many popular projects like[ Jaeger](https://www.jaegertracing.io/),[ Horovod](https://github.com/horovod/horovod),[ ](https://kepler.gl/)[Ludwig](http://ludwig.ai)[, ](https://kepler.gl/)[kepler.gl](https://kepler.gl/),[ deck.gl](https://deck.gl/#/), and[ Pyro](https://pyro.ai/).”
+> "Uber has been an open source software user since the beginning," said [Brian Hsieh](https://www.linkedin.com/in/briankhsieh/), head of open source at Uber. “But over the years, Uber has also contributed to the community and created many popular projects like [Jaeger](https://www.jaegertracing.io/), [Horovod](https://github.com/horovod/horovod), [kepler.gl](https://kepler.gl/), [Ludwig](http://ludwig.ai), [deck.gl](https://deck.gl/), and [Pyro](https://pyro.ai/).”
 
 The relationship between Uber and open source has evolved over time, driving each other forward.
 

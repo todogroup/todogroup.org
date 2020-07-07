@@ -54,6 +54,8 @@
   url: https://github.com/indeedeng
 - name: Intel
   url: https://01.org/
+- name: Juniper	
+  url: https://github.com/juniper
 - name: Microsoft
   url: https://www.microsoft.com/en-us/openness
 - name: National Instruments

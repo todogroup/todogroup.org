@@ -20,14 +20,14 @@
   url: https://comcast.github.io/
 - name: Datadog
   url: https://github.com/DataDog
+- name: Dell Technologies
+  url: https://github.com/dell
 - name: Didi
   url: https://github.com/didi
 - name: Dropbox
   url: https://opensource.dropbox.com/
 - name: eBay
   url: http://ebay.github.io/
-- name: EMC
-  url: https://github.com/thecodeteam
 - name: Facebook
   url: https://code.facebook.com/projects/
 - name: Freddie Mac

@@ -10,6 +10,8 @@
   url: https://github.com/baidu
 - name: Bloomberg
   url: https://github.com/bloomberg
+- name: Bosch
+  url: https://www.bosch.com/
 - name: Box
   url: http://opensource.box.com/
 - name: Capital One
@@ -24,6 +26,8 @@
   url: https://github.com/dell
 - name: Didi
   url: https://github.com/didi
+- name: DigitalOcean
+  url: https://www.digitalocean.com/
 - name: Dropbox
   url: https://opensource.dropbox.com/
 - name: eBay
@@ -50,8 +54,6 @@
   url: https://github.com/indeedeng
 - name: Intel
   url: https://01.org/
-- name: Juniper
-  url: https://github.com/juniper
 - name: Microsoft
   url: https://www.microsoft.com/en-us/openness
 - name: National Instruments
@@ -106,3 +108,5 @@
   url: https://code.walmartlabs.com
 - name: Wipro
   url: https://github.com/WiproOpenSourcePractice
+- name: Xilinx 
+  url: https://www.xilinx.com/  

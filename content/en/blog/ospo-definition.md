@@ -1,7 +1,7 @@
 ---
-title: "Open Source Program Office (OSPO) Definition"
+title: "Announcing the Open Source Program Office (OSPO) Definition"
 author: todogroup
-date: 2020-08-11
+date: 2020-08-17
 ---
 
 The TODO Group is [over 5 years old](https://todogroup.org/blog/welcome/) and as an organization has brought together the brightest in the field of open source program management. We have produced a variety of open source program management [guides](https://todogroup.org/guides/), [tools](https://github.com/todogroup/repolinter), [surveys](https://github.com/todogroup/survey) and even an [awesome list](https://github.com/todogroup/awesome-oss-mgmt) to advance the practice.

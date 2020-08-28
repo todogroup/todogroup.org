@@ -1,5 +1,5 @@
 ---
-title: "Becoming a TODO Group Member as a Linux Foundation Associate Member"
+title: "How non-profits, governments, and universities can join the TODO Group"
 author: todogroup
 date: 2020-08-27
 ---

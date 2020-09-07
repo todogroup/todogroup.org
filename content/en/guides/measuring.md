@@ -174,7 +174,7 @@ It’s important to track how open source culture advances within your organizat
 
 Community advocacy is a fairly new, but increasingly popular, role in open source programs. You will often act as a liaison between your projects’ developer and adopter communities – representing the voice of external users building on your open source code and funneling information back to the product management team.
 
-This is an important role that ensures your products and services are benefiting from your open source communities,and thus that your open source program stays in line with the organization’s broader business strategy and objectives. Some metrics to track success in your advocacy include:
+This is an important role that ensures your products and services are benefiting from your open source communities, and thus that your open source program stays in line with the organization’s broader business strategy and objectives. Some metrics to track success in your advocacy include:
 
 * How many contributions are coming from outside the organization?
 * How many full-time contributors are outside your organization?

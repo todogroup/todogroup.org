@@ -246,7 +246,7 @@ Are you interested in more resources to help you set your strategy? Here are som
 
 ### Open Source Policy 
 
-[TODO Group Templates](http://contributor-covenant.org/)
+[TODO Group Templates](https://github.com/todogroup/policies)
 
 ### Open Source Strategy Blog
 

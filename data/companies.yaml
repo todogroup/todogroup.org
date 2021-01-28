@@ -32,6 +32,8 @@
   url: https://www.digitalocean.com/
 - name: Dropbox
   url: https://opensource.dropbox.com/
+- name: Deutsche Bahn 
+  url: https://www.dbsystel.de/dbsystel-en
 - name: eBay
   url: http://ebay.github.io/
 - name: Facebook
@@ -74,6 +76,8 @@
   url: https://www.codeaurora.org/
 - name: Red Hat
   url: https://community.redhat.com/
+- name: Rochester Institute of Technology
+  url: https://www.rit.edu/about-rit
 - name: Salesforce
   url: https://opensource.salesforce.com/
 - name: Samsung

@@ -36,6 +36,8 @@
   url: https://www.dbsystel.de/dbsystel-en
 - name: eBay
   url: http://ebay.github.io/
+- name: Elastic
+  url: http://elastic.co
 - name: Facebook
   url: https://code.facebook.com/projects/
 - name: Freddie Mac

@@ -64,6 +64,8 @@
   url: https://www.microsoft.com/en-us/openness
 - name: National Instruments
   url: https://github.com/ni
+- name: Netapp
+  url: https://netapp.com
 - name: Netflix
   url: https://netflix.github.io/
 - name: Paypal

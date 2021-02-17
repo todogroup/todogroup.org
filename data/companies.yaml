@@ -53,7 +53,7 @@
 - name: Huawei
   url: http://www1.huawei.com/en/about-huawei/Partner/openathuawei/index.htm
 - name: Khan Academy
-  url: IBM
+  url: https://www.khanacademy.org/
 - name: IBM
   url: http://ibm.github.io/
 - name: Indeed

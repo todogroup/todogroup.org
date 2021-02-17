@@ -145,7 +145,7 @@ Microsoft uses an Open Source Executive Council, which is similar to a review bo
 
 ### Legal
 
-Like every other function inside a company, legal teams must have a say in the operations of the open source program office to ensure compliance with laws, open source licensing agreements, and other legal details. Specific to open source, the legal team needs to be responsible for ensuring that a company can consume code internally and contribute back to projects with acceptable terms. Larger organizations should consider hiring or training a dedicated attorney to advise their open source program. But you could also use a part-time, knowledgable staff member or outside counsel. It is often helpful to work with an attorney who is knowledgeable and experienced with open source licensing and IP as it can be a specialized, and at times baffling, legal domain relative to commercial contracts or standards.
+Like every other function inside a company, legal teams must have a say in the operations of the open source program office to ensure compliance with laws, open source licensing agreements, and other legal details. Specific to open source, the legal team needs to be responsible for ensuring that a company can consume code internally and contribute back to projects with acceptable terms. Larger organizations should consider hiring or training a dedicated attorney to advise their open source program. But you could also use a part-time, knowledgeable staff member or outside counsel. It is often helpful to work with an attorney who is knowledgeable and experienced with open source licensing and IP as it can be a specialized, and at times baffling, legal domain relative to commercial contracts or standards.
 
 ### Compliance Team
 

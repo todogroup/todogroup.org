@@ -26,6 +26,7 @@ For open source program management best practices:
 * [Building Leadership in an Open Source Community](building-leadership)
 * [Setting an Open Source Strategy](strategy)
 * [Marketing Open Source Projects](marketing-open-source-projects)
+* [Building an Inclusive Open Source Community](diversity-inclusion)
 
 ## Open Source Program Case Studies
 

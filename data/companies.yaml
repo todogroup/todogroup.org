@@ -86,8 +86,6 @@
   url: https://opensource.salesforce.com/
 - name: Samsung
   url: https://blogs.s-osg.org/
-- name: Sandisk
-  url: https://www.sandisk.com/business/datacenter/products/flash-software/open-source
 - name: SAP
   url: https://github.com/sap
 - name: Sauce Labs
@@ -118,6 +116,8 @@
   url: https://github.com/vmware
 - name: WalmartLabs
   url: https://code.walmartlabs.com
+- name: Western Digital 
+  url: https://www.westerndigital.com
 - name: Wipro
   url: https://github.com/WiproOpenSourcePractice
 - name: Xilinx 

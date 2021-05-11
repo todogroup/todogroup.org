@@ -6,7 +6,7 @@ date: 2021-05-11
 
 The TODO Group would like announce the sharing of a modular OSPO 101 course:
 
-<img src="https://raw.githubusercontent.com/todogroup/ospo101/main/ospo101.svg">
+![OSPO 101](/img/ospo101.svg)
 
 All the content is modularized and licensed under CC-BY 4.0 for your usage:
 [https://github.com/todogroup/ospo101](https://github.com/todogroup/ospo101)

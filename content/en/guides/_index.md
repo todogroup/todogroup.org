@@ -28,6 +28,12 @@ For open source program management best practices:
 * [Marketing Open Source Projects](marketing-open-source-projects)
 * [Building an Inclusive Open Source Community](diversity-inclusion)
 
+## OSPO 101
+
+[OSPO 101](https://github.com/todogroup/ospo101) is a course on everything you need to know about open source program office management.
+
+It is intended to be a modularized so the content is reusable in a piecemeal fashion.
+
 ## Open Source Program Case Studies
 
 * [Autodesk](casestudies/autodesk)

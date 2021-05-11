@@ -32,6 +32,8 @@ For open source program management best practices:
 
 [OSPO 101](https://github.com/todogroup/ospo101) is a course on everything you need to know about open source program office management.
 
+![OSPO 101](/img/ospo101.svg)
+
 It is intended to be a modularized so the content is reusable in a piecemeal fashion.
 
 ## Open Source Program Case Studies

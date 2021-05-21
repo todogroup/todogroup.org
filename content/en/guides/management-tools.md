@@ -123,17 +123,11 @@ Here are some of the most popular and useful source code management tools which 
 
 **Source code scanning and license compliance**
 
-[Antepedia Reporter](http://www.antepedia.com/pages/tools.html) – A commercial, fee-based application from Antepedia, Reporter is a report-generation product which lets developers, project managers, legal advisors and others create license compliance audits and IP rights management reports about the open source, public and private components in your code base.
-
-[Black Duck Hub](https://www.blackducksoftware.com/products/hub) – The commercial Hub service scans code to identify all embedded open source components, and then automatically searches for known vulnerabilities for remediation. It can send alerts when new vulnerabilities are found in your code.
-
-[Black Duck Protex](https://www.blackducksoftware.com/products/protex) – Protex is a commercial, fee-based license compliance management tool from Black Duck which integrates with existing tools to automatically scan, identify and inventory open source software, while also enforcing license compliance and corporate policy requirements.
+[Black Duck Software Composition Analysis](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html) – Black Duck software composition analysis (SCA) by Synopsys helps teams manage the security, quality, and license compliance risks that come from the use of open source and third-party code in applications and containers.
 
 [Copyright review tools](https://wiki.debian.org/CopyrightReviewTools) – This collection of open source command line tools help make initial copyright file construction and subsequent review and update easier.
 
-[dep-checker](http://git.linuxfoundation.org/dep-checker.git/) – A free dependency checker tool from The Linux Foundation, dep-checker performs a complete analysis of linkages between code packages.
-
-[FlexNet Code Insight](https://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/flexnet-code-insight/) – Flexera, which acquired licensing compliance vendor Palamida in 2016, commercially offers FlexNet Code Insight to help automate corporate open source use among developers, legal teams and security staffers.
+[FlexNet Code Insight](https://www.revenera.com/protect/products/flexnet-code-insight.html) – Revenera offers FlexNet Code Insight to help automate corporate open source use among developers, legal teams and security staffers.
 
 [FOSSA](http://fossa.io/) – This is a commercial tool that automatically performs code dependency tracking, license compliance scanning in the background.
 
@@ -143,17 +137,11 @@ Here are some of the most popular and useful source code management tools which 
 
 ![The Linux Foundation’s FOSSology compliance tool](/img/guides/tools-for-managing-open-source-programs3.png)
 
-[janitor.git](http://git.linuxfoundation.org/janitor.git/) – Code Janitor is an open source tool that helps evaluate source code for compliance with open source licenses. From The Linux Foundation, [Code Janitor](https://www.linuxfoundation.org/sites/default/files/lf_foss_compliance_cjt.pdf) can be used with other products to check code.
-
-[LicenseFinder](https://github.com/pivotal/LicenseFinder) – An open source tool which detects the licenses of the code being used in your projects, compares those licenses against a user-defined whitelist and then provides an actionable report.
-
-[Protecode Enterprise Analyzer](http://www.protecode.com/our-products/system-4/enterprise-analyzer/) – This commercial application is used to analyze and identify all code in any directory to determine code ownership and ensure open source license compliance based on predetermined internal policies.
-
 [REUSE](https://reuse.software/) – A free software tool to help adopt and check the application of licenses in a code repository. It is based on best practices, including the SPDX specification. It offers a badge API service to market the compliance.
 
 [scancode-toolkit](https://github.com/nexB/scancode-toolkit) – From nexB, the open source ScanCode suite of utilities scans code for licenses, copyright and dependencies to find, discover and inventory open source and third-party components used in your code.
 
-[SPDX](https://spdx.org/tools) – The Software Package Data Exchange (SPDX) specification is a standard format used to describe the components, licenses and copyrights associated with software packages. The SPDX standard aids compliance with free and open source software licenses by standardizing the way license information is shared between developers and companies. The SPDX specification is developed by the SPDX workgroup, which is hosted by The Linux Foundation. The group offers open source [tools](https://spdx.org/tools) to help users of SPDX documents.
+[SPDX](https://spdx.dev/) – The Software Package Data Exchange (SPDX) specification is a standard format used to describe the components, licenses and copyrights associated with software packages. The SPDX standard aids compliance with free and open source software licenses by standardizing the way license information is shared between developers and companies. The SPDX specification is developed by the SPDX workgroup, which is hosted by The Linux Foundation. The group offers open source [tools](https://spdx.dev/tools) to help users of SPDX documents.
 
 [WhiteSource](https://www.whitesourcesoftware.com/) – Provides licensing, security, code quality and reporting analysis for managing open source components in real-time by automatically and continuously scanning dozens of open source repositories on a commercial basis.
 
@@ -171,11 +159,9 @@ Here are some of the most popular and useful source code management tools which 
 
 [Artifactory](https://www.jfrog.com/artifactory/) – Artifactory is a repository manager from JFrog which supports software packages created in any code language. It integrates with all major DevOps and continuous integration and continuous deployment tools. Artifactory is available as a commercial or as an open source tool.
 
-[Bintray](https://bintray.com/) – A commercial archiving tool from JFrog that allows companies to publish their code release archives to maintain storage for older and larger files.
+[Docker Hub](https://hub.docker.com/) – A cloud-based registry service which allows users to link to code repositories and build and test their images. Docker Hub is a centralized resource for container image discovery, distribution and change management, collaboration and workflow automation throughout the development pipeline.
 
-[Docker Hub](https://hub.docker.com/) – A cloud-based registry service which allows users to link to code repositories and build and test their images. It also stores manually-pushed images and links to [Docker Cloud](https://docs.docker.com/docker-cloud/) so users can deploy images to project hosts. Docker Hub is a centralized resource for container image discovery, distribution and change management, collaboration and workflow automation throughout the development pipeline.
-
-[github-release](https://github.com/aktau/github-release) – The open source, built in functionality part of GitHub which lets users [package and edit releases](https://help.github.com/articles/about-releases/) of projects on GitHub so they are available for use by other community members.
+[github-release](https://github.com/github-release/github-release) – The open source, built in functionality part of GitHub which lets users [package and edit releases](https://help.github.com/articles/about-releases/) of projects on GitHub so they are available for use by other community members.
 
 ## Tools for tracking project health
 
@@ -193,12 +179,8 @@ Some open source communities will have large groups of contributors, while other
 
 Here are some of the most popular and useful project statistics and project health tracking tools:
 
-* [CatWatch](https://github.com/zalando-incubator/catwatch) – CatWatch is an open source metrics dashboard from Zalando that fetches GitHub statistics for your GitHub accounts, processes and saves your GitHub data in a database. The data reveals the popularity of your open source projects, your most active contributors and other interesting statistics.
-* [Gander](https://github.com/paypal/Gander) – Gander is an open source dashboard which generates usable metrics for a range of open source projects in one quick look. Created by PayPal, Gander is designed for individuals who are responsible for running Open Source Program Offices or keeping track of multiple open source projects.
-* [GHCrawler](https://github.com/Microsoft/ghcrawler) – Created by Microsoft, GHCrawler is an open source GitHub API crawler that crawls a GitHub-hosted project and automatically tracks, retrieves, and stores its contents. GHCrawler is primarily intended for people trying to track sets of organizations and data repositories.
 * [Gittagstats](https://github.com/mcharleb/gittagstats) – Gittagstats is an open source tool which generates statistics reports from a set of tags for a Git repository. The tool was created by Qualcomm.
-* [GrimoireLab](https://grimoirelab.github.io) – GrimoireLab has a variety of open source tools to measure open source project statistics and visualize them, from git repositories, GitHub pull requests or Bugzilla tickets to mailing lists, Meetup groups or Slack channels. GrimoireLab is a project in [CHAOSS](https://chaoss.community), a collaborative group on open source development metrics.
-* [OSS-dashboard](https://github.com/amzn/oss-dashboard) – The Open Source Program Dashboard, which comes from Amazon, is a multi-function dashboard which can be used to view and monitor many GitHub organizations and or users at one time.
+* [GrimoireLab](https://chaoss.github.io/grimoirelab/) – GrimoireLab has a variety of open source tools to measure open source project statistics and visualize them, from git repositories, GitHub pull requests or Bugzilla tickets to mailing lists, Meetup groups or Slack channels. GrimoireLab is a project in [CHAOSS](https://chaoss.community), a collaborative group on open source development metrics.
 * [OSS Tracker](https://github.com/Netflix/osstracker) – OSS Tracker, from Netflix, collects data about a GitHub organization and aggregates it across all projects within that organization in a single user interface. All repositories are listed and metrics are combined for an organization, but community managers can also organize projects into functional areas and appoint administrators to assign management and engineering leads.
 
 > “The goal is to have the tools, along with transparent data and metrics-related information, which can be used to guide the organization.” – [Chris Aniszczyk](https://twitter.com/cra), COO of the Cloud Native Computing Foundation
@@ -207,7 +189,6 @@ The TODO Group also offers a [helpful list that adds other tools](https://GitHub
 
 ### For better code reviews:
 
-* [mention-bot](https://github.com/facebook/mention-bot) – Developed by Facebook, this tool automatically mentions potential reviewers for code contributions by community members to speed up the review process.
 * [PullApprove](https://about.pullapprove.com/) – Brings more formalization to code contributions – or pull requests – by improving code quality through peer-review, enforcing style guidelines, catching errors and providing security checks on code.
 * [sentinel](https://github.com/habitat-sh/sentinel) – A repository management bot which reviews and tests code contributions, builds a list of maintainers for the repository and communicates the status of a pull request with users.
 
@@ -243,8 +224,6 @@ For that developers can lean on tools they may already be using for other projec
 
 Communications can also be fostered through social media platforms, web portals, open source project repositories and other places where input, questions and discussions can be found and fostered.
 
-Other useful tools include [mention-bot](https://github.com/facebook/mention-bot) from Facebook, which can help get fast input turnaround on pull requests by automatically mentioning potential reviewers for reviews. This is especially appreciated when GitHub projects get too big for community members to subscribe to all of a project’s notifications.
-
 Then there’s [Slack](https://slack.com/), which is an online team project management and communications platform where users can access and share messages and files, organize workflows, perform searches for information and more. Slack can be configured to receive notifications for support requests, code check-ins, error logs and other tasks as well.
 
 And don’t forget your company’s public relations and marketing staff when it comes to shouting out your company’s participation and support of open source. Social media accounts with sites including Twitter, Reddit, Facebook, LinkedIn and others are important, as well as the use of internal and external blogs and websites. Customer Relationship Management (CRM) software, as well as email blasts and newsletters, can help companies keep customers and clients informed about their open source progress.
@@ -257,7 +236,7 @@ Large enterprises need many more capabilities, including things like identity ma
 
 That’s where specialized, automated tools often need to be built to handle tasks such as onboarding, offboarding, enforcing security policies and giving developers request access to repositories.
 
-Microsoft responded to its own unique requirements by building its own tools to handle many such tasks to streamline and improve its open source program. Microsoft has a [healthy presence on GitHub,](https://github.com/Microsoft) with some 1,345 repositories and involving about 3,580 developers to date.
+Microsoft responded to its own unique requirements by building its own tools to handle many such tasks to streamline and improve its open source program. Microsoft has a [healthy presence on GitHub,](https://github.com/Microsoft) with over 4,000 repositories and involving more than 4,500 developers to date.
 
 > “That management of your GitHub presence is something that as you scale, it becomes important. You get a GitHub organization, which is a collection of repositories, and then you get members and you have teams. Managing all of that stuff becomes a little bit complicated, especially if it starts to scale out to hundreds of repositories, hundreds of people and multiple organizations on GitHub.” – [Jeff McAffer](https://twitter.com/jeffmcaffer), Director of the Open Source Programs Office at Microsoft
 
@@ -279,7 +258,7 @@ Having the right tools is critical to empowering your company’s open innovatio
 
 ## Acknowledgements
 
-Contributors:
+The affiliations of the contributors are from when the article was originally published in 2019:
 
 * [Chris Aniszczyk](https://twitter.com/cra), COO of the Cloud Native Computing Foundation.
 * [Jeff McAffer](https://twitter.com/jeffmcaffer), Director of the Open Source Programs Office at Microsoft.

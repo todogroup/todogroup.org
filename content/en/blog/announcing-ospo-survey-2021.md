@@ -17,9 +17,9 @@ The survey will generate insights into the following areas, including:
 
 Also for the first time this year, we are offering the survey in Chinese and Japanese.
 
-Take Survey (EN): https://linuxfoundation.surveymonkey.com/r/OSPO21
-Take Survey (調査): https://linuxfoundation.surveymonkey.com/r/OSPO21?lang=ja
-Take Survey (民意调查): https://linuxfoundation.surveymonkey.com/r/OSPO21?lang=zh
+* Take Survey (EN): https://linuxfoundation.surveymonkey.com/r/OSPO21
+* Take Survey (調査): https://linuxfoundation.surveymonkey.com/r/OSPO21?lang=ja
+* Take Survey (民意调查): https://linuxfoundation.surveymonkey.com/r/OSPO21?lang=zh
 
 We will summarize the survey data and share the findings during [OSPOCon 2021](https://events.linuxfoundation.org/ospocon/). The summary report will be published and shared with previous survey results: https://github.com/todogroup/survey
 

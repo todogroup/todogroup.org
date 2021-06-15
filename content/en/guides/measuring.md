@@ -221,7 +221,7 @@ Facebook’s open source office frequently runs queries in the database and pick
 
 Users who do not have the time, permission, or ability to submit a pull request, but encounter problems with your code can submit their bugs and feature requests as an issue. The number of issues, and how they are addressed, can indicate your projects’ levels of user adoption as well as how responsive maintainers are to user needs.
 
-This number depends, of course on how issues are tracked. For a project that’s only using GitHub to track bugs, issues are probably going to stay open for a much shorter time than a project that’s using GitHub for issues that includes feature requests. These considerations drag down, or drag up, the issue age.
+This number depends, of course, on how issues are tracked. For a project that’s only using GitHub to track bugs, issues are probably going to stay open for a much shorter time than a project that’s using GitHub for issues that include feature requests. These considerations drag down or drag up the issues' age.
 
 ![Kubernetes issues opened and closed over time](/img/guides/measuring-your-open-source-program4.png)
 

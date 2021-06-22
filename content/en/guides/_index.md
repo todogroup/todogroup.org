@@ -47,7 +47,7 @@ It is intended to be a modularized so the content is reusable in a piecemeal fas
 * [National Instruments](casestudies/ni)
 * [Oath](casestudies/oath)
 * [RedHat](casestudies/redhat)
-* [RedHat](casestudies/rit)
+* [RIT](casestudies/rit)
 * [Salesforce](casestudies/salesforce)
 * [SAP](casestudies/sap)
 * [Uber](casestudies/uber)

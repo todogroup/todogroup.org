@@ -15,6 +15,7 @@ We've had many organizations approach TODO Group members asking for advice on ho
 * [National Instruments](ni)
 * [Oath](oath)
 * [Red Hat](redhat)
+* [RIT](rit)
 * [Salesforce](salesforce)
 * [SAP](sap)
 * [Uber](uber)

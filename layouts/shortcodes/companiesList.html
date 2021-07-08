@@ -1,12 +1,3 @@
-{{- $companies := .Site.Data.companies }}
-<ul>
-  {{- range $companies }}
-  {{- $logoName := lower (replace .name " " "_") }}
-  {{- $logoType := cond (eq .gif true) "gif" "svg" }}
-  <li>
-    <a href="{{ .url }}">
-      <img src="{{ printf "/img/logo_%s.%s" $logoName $logoType | absURL }}" alt="{{ .name }}" title="{{ .name }}">
-    </a>
-  </li>
-  {{- end }}
-</ul>
+<!-- Embed list of all Open Mainframe Project members -->  
+<iframe src="https://landscape.todogroup.org/card-mode?category=todo-group-member&embed=yes&style=borderless" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
+<script src="https://landscape.todogroup.org/iframeResizer.js"></script>

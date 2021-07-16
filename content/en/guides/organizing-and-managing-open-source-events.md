@@ -318,9 +318,9 @@ If you’re planning a virtual event, you’ll want to pay close attention to yo
 
 The results of the[ Linux Foundation’s platform comparisons](https://docs.google.com/presentation/d/1jGd0geh72Lxr0o3zV044K5yhXc6Q8tp4p8fhnnXJsqo/edit#slide=id.p3) are now freely available. You’ll want to check back periodically because this is a fluid document, Brown says. But here are samples of the results as of September 2020:
 
-![image alt text](image_0.jpg)
+![platform comparison](/img/guides/organizing-and-managing-open-source-events1.jpg)
 
-![image alt text](image_1.jpg)
+![speciality platfomr comparison](/img/guides/organizing-and-managing-open-source-events2.jpg)
 
  
 
@@ -771,3 +771,9 @@ Virtual events are a great growth facilitator. They also enable organizers to pr
 At the end of the day, events are living things, growing and dying, adapting and evolving through the years. Technologies change, audiences change, circumstances change, the needs of the event change, economics or pandemic changes, lots of things will always be shaping and reshaping how open source events are done. Accordingly, this document is also a living thing. Please check back regularly for updates.
 
 
+## Acknowledgements
+
+**Contributors to this guide:**
+
+* [Amye Scavarda](https://twitter.com/amye)
+* [Chris Aniszczyk](https://twitter.com/cra)

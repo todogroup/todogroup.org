@@ -2,7 +2,7 @@
 title: Organizing and Managing Open Source Events
 ---
 
-Open source events are popular as much for the networking opportunities as for the skill building exercises and knowledge sharing. Events run the gamut from single focused internal talks and multitrack corporate external events to the international Linux Foundation conferences. While decades of experience shape these events, today a global pandemic is driving a hard shift from physical to virtual venues. The change is likely permanent as virtual venues are unlikely to disappear once the novel coronavirus is curtailed or conquered. There are already hints that the future will see a rise of hybrid versions.
+Open source events are popular as much for the networking opportunities as for the skill building exercises and knowledge sharing. Events run the gamut from single focused internal talks and multitrack corporate external events to the international conferences. While decades of experience shape these events, today a global pandemic is driving a hard shift from physical to virtual venues. The change is likely permanent as virtual venues are unlikely to disappear once the novel coronavirus is curtailed or conquered. There are already hints that the future will see a rise of hybrid versions.
 
 Behind all of these events is an OSPO or small events team managing the details, gathering speakers and volunteers, promoting the benefits, and calling open source fans to attend. Those responsible are invisible when all goes right and wishing they were if things go wrong. In short, event management can be a thankless job. Through it all, they make everything happen no matter what minor glitches or major pandemics might plague them along the way.
 

@@ -237,6 +237,8 @@ Content, such as blog posts, tutorials, demos, whitepapers, and videos, also pla
 
 Direct marketing, such as emails and online advertising, is also important in external marketing as these enable you to proactively reach out to people who may not have otherwise heard about your project.  These can be used to raise awareness, or to promote a specific call to action. Be sure all messaging meets community guidelines and your marketing plan’s criteria.
 
+Another idea for marketing the project for free is SEO (Search Engine Optimization), you can optimize the project page itself or write article that you will optimize that will get visitors to your project. This is described in detail in the article [How to Promote your Open Source Project with SEO](https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b)
+
 ## Acknowledgements
 
 **Contributors to this guide:**
@@ -245,3 +247,4 @@ Direct marketing, such as emails and online advertising, is also important in ex
 * [Chris Aniszczyk](https://twitter.com/cra)
 * [Dawn Foster](https://twitter.com/geekygirldawn)
 * [Nithya Ruff](https://twitter.com/nithyaruff)
+* [Jakub T. Jankiewicz](https://twitter.com/jcubic)

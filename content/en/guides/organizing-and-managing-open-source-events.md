@@ -775,11 +775,11 @@ At the end of the day, events are living things, growing and dying, adapting and
 
 **Contributors to this guide:**
 
-* Alyssa Arvin
-* Angela Brown
+* [Alyssa Arvin](https://www.linkedin.com/in/alyssaarvin/)
+* [Angela Brown](https://www.linkedin.com/in/angelabrown3/)
 * [Amye Scavarda](https://twitter.com/amye)
 * [Chris Aniszczyk](https://twitter.com/cra)
-* Josh Simmons
-* Maria Cruz
-* Shilla Saebi
-* Teresa Terasaki
+* [Josh Simmons](https://www.linkedin.com/in/joshsimmons/)
+* [Maria Cruz](https://www.linkedin.com/in/macruzbar/)
+* [Shilla Saebi](https://www.linkedin.com/in/shilla-saebi-9a589633/)
+* [Teresa Terasaki](https://www.linkedin.com/in/teresa-terasaki-bb51a46a/)

@@ -775,5 +775,11 @@ At the end of the day, events are living things, growing and dying, adapting and
 
 **Contributors to this guide:**
 
+* Alyssa Arvin
+* Angela Brown
 * [Amye Scavarda](https://twitter.com/amye)
 * [Chris Aniszczyk](https://twitter.com/cra)
+* Josh Simmons
+* Maria Cruz
+* Shilla Saebi
+* Teresa Terasaki

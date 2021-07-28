@@ -27,6 +27,7 @@ For open source program management best practices:
 * [Setting an Open Source Strategy](strategy)
 * [Marketing Open Source Projects](marketing-open-source-projects)
 * [Building an Inclusive Open Source Community](diversity-inclusion)
+* [Organizing and Managing Open Source Events](organizing-and-managing-open-source-events)
 
 ## Open Source Program Office (OSPO) 101
 

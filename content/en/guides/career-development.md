@@ -43,7 +43,7 @@ This guide aims to assist OSPO leadership in advancing their careers and leverag
 
 ## Defining the scope of work for OSPO roles
 
-*"When I think about career development for my team, and this is true about anyone who's building an open source office within a company in general, I’m thinking about how can we be very intentional about either expanding or contracting the scope of our office in order to facilitate some of the other work that needs to be done,"* said **Will Norris, Open Source Lead at Twitter**
+*"When I think about career development for my team, and this is true about anyone who's building an open source office within a company in general, I’m thinking about how can we be very intentional about either expanding or contracting the scope of our office in order to facilitate some of the other work that needs to be done,"* said **Will Norris, Open Source Lead at Twitter. Formerly Open Source Lead at Google**
 
 Alongside the OSPO scope expanding, contracting or changing over time comes the added challenge in defining the scope of work in specific open source tasks when so much of it occurs outside of traditional job descriptions and even outside the organization itself. Examples include an engineer who is contributing code to an external project, or someone who's doing community management, or someone who's doing other kinds of things that are more externally focused.
 
@@ -93,7 +93,7 @@ True to open source roots and Red Hat’s culture, the company’s career guide 
 
 Organizational variances are common even though patterns in how most companies think about and manage open source are similar. For example, all companies must decide how to handle compliance with open source software distribution, code contributions and code releases. There are also security, talent recruitment, developer relations, and other functions that companies must assign to a team to ensure all goes well. 
 
-"There's all these different things that every company deals with. But the subset of those things that happen to fall within the open source office is what's different at every company," said Norris. Google’s OSPO headed by Will Norris is an example of a team focused on engineering and compliance. A separate team handles the program side at Google. 
+"There's all these different things that every company deals with. But the subset of those things that happen to fall within the open source office is what's different at every company," said Norris. Google’s OSPO is an example of a team focused on engineering and compliance. A separate team handles the program side at Google. 
 
 Norris said that while some companies prefer the compliance and legal side of open source to be generally handled by the legal team, Google has a legal team within its open source office. 
 

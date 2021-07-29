@@ -14,6 +14,11 @@ body {
   background-color: $color-background;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   padding: 0.5em 2em 0;
   transition: padding 0.5s;

@@ -9,9 +9,9 @@ Join us on Slack to chat open source program management:
 
 {{< slackButton >}}
 
-# Public Mailing List
+# Public TODO Discussions
 
-To discuss issues with the TODO Group you're welcome to join the [public mailing list](https://groups.google.com/forum/#!forum/todogroup).
+To discuss issues with the TODO Group you're welcome to open a new discussion at [OSPOlogy discussions](https://github.com/todogroup/ospology/discussions).
 
 You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with any questions.
 

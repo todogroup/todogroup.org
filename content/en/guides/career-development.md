@@ -14,7 +14,7 @@ The purpose of this guide is to help OSPO leaders build a sustainable and reward
 - [Integrating the unique with the standard](#integrating-the-unique-with-the-standard)
 - [Mapping Skill Categories](#mapping-skill-categories)
 - [Example: Mapping the Skills of a Community Manager](#example-mapping-the-skills-of-a-community-manager)
-- [Retaining and Promoting Your OSPO Professionals: Job Ladders](#retaining-and-promoting-your-OSPO-professionals-job-ladders)
+- [Retaining and Promoting Your OSPO Professionals: Job Ladders](#retaining-and-promoting-your-ospo-professionals-job-ladders)
 - [Guide reports on building their personal brand](#guide-reports-on-building-their-personal-brand)
 - [OSPO Leader Networking](#ospo-leader-networking)
 - [Mapping futures](#mapping-futures)

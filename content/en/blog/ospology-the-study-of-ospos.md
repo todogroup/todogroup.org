@@ -1,5 +1,5 @@
 ---
-Title: "OSPOlogy, the Study of OSPOs open to anyone"
+Title: "OSPOlogy, the Study of OSPOs open to everyone"
 author: todogroup
 date: 2021-08-01
 ---
@@ -25,7 +25,7 @@ We have achieved many milestones in the journey towards OSPO adoption. Some exam
 
 However, during the last months, there was also the need to have a place open to everyone outside the TODO group to share all this knowledge and discuss the status and trends of the industry. thanks to this feedback, we came up with two major goals:
 
-* Gather all OSPO trends from last days intro one single place
+* Gather all OSPO trends from last days into one single place
 * Provide enhanced support to OSPO specialists worldwide improving cross-organizational collaboration
 
 ## What can we get from OSPOlogy?

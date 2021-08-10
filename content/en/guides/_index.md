@@ -13,6 +13,7 @@ To build a successful open source program, start here:
 * [How to Create an Open Source Program](create-program)
 * [Measuring Your Open Source Program](measuring)
 * [Tools for Managing Your Open Source Program](management-tools)
+* [Managing Career Development within OSPOs](career-development)
 
 For open source program management best practices:
 
@@ -28,6 +29,7 @@ For open source program management best practices:
 * [Marketing Open Source Projects](marketing-open-source-projects)
 * [Building an Inclusive Open Source Community](diversity-inclusion)
 * [Organizing and Managing Open Source Events](organizing-and-managing-open-source-events)
+
 
 ## Open Source Program Office (OSPO) 101
 

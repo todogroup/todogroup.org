@@ -43,7 +43,7 @@ This guide aims to assist OSPO leadership in advancing their careers and leverag
 
 ## Defining the scope of work for OSPO roles
 
-*"When I think about career development for my team, and this is true about anyone who's building an open source office within a company in general, I’m thinking about how can we be very intentional about either expanding or contracting the scope of our office in order to facilitate some of the other work that needs to be done,"* said **Will Norris, Open Source Lead at Twitter. Formerly Open Source Lead at Google**
+*"When I think about career development for my team, and this is true about anyone who's building an open source office within a company in general, I’m thinking about how can we be very intentional about either expanding or contracting the scope of our office in order to facilitate some of the other work that needs to be done,"* said **Will Norris, Open Source Lead at Twitter. Formerly Open Source Engineering Manager at Google**
 
 Alongside the OSPO scope expanding, contracting or changing over time comes the added challenge in defining the scope of work in specific open source tasks when so much of it occurs outside of traditional job descriptions and even outside the organization itself. Examples include an engineer who is contributing code to an external project, or someone who's doing community management, or someone who's doing other kinds of things that are more externally focused.
 

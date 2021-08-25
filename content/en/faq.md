@@ -46,7 +46,7 @@ Yes. Everyone willing to contribute to improve OSPO education and adoption acros
 
 * OSPO Managers
 * OSPO initiatives
-* Industry parters 
+* Industry partners 
 * Foundations
 
 In order to keep a secure place to freely share sensitive information, the TODO Group offers TODO Member-only spaces. If you consider you meet [TODO Membership requirements](https://todogroup.org/join/), please complete the [membership application](https://joinnow.todogroup.org/).
@@ -90,7 +90,7 @@ What are the main TODO communication channels and how can the OSPO Community get
 
 
 
-* **Public meetings:** [Public meetings](https://community.linuxfoundation.org/todo-group/) are open to **everyone involved in the OSPO industry,** from TODO Members to external organizations, foundations or any other industry parters. The TODO Group currently hosts OSPOlogy as the general meeting, but we are expecting to add new working areas in the near future. Everyone is more than welcome to contribute to OSPOlogy planning, upcomming topics and guest proposals: https://github.com/todogroup/ospology/tree/main/meetings
+* **Public meetings:** [Public meetings](https://community.linuxfoundation.org/todo-group/) are open to **everyone involved in the OSPO industry,** from TODO Members to external organizations, foundations or any other industry partners. The TODO Group currently hosts OSPOlogy as the general meeting, but we are expecting to add new working areas in the near future. Everyone is more than welcome to contribute to OSPOlogy planning, upcomming topics and guest proposals: https://github.com/todogroup/ospology/tree/main/meetings
 
 * **Public TODO slack channel:** [TODO Slack](https://slack.todogroup.org/) channel is a great place to great place to introduce to the community and say hi!
 

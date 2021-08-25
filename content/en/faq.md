@@ -20,8 +20,8 @@ permalink: /faq/
 
 ## Whom is this group for?
 
-The primary purpose of this group is to bring together companies who run open
-source programs. We believe there are a number of challenges for companies who
+The primary purpose of this group is to bring together organizations who run open
+source programs. We believe there are a number of challenges for organizations who
 want to run open source projects and programs effectively. We discovered we had
 only rarely even shared our own experiences, and formed this group to help
 improve shared knowledge about running such programs.
@@ -32,17 +32,19 @@ There are lots of different ways in which open source is built, used, and
 released - and there are many foundations, groups, and communities for different
 aspects of this rich ecosystem. TODO is specifically intended as a forum for
 companies' open source program managers to come together. Members generally tend
-to represent companies who consider open source to be an adjunct their core
+to represent organizations who consider open source to be an adjunct their core
 business.
 
-## Which companies are participating?
+## Which organizations are participating?
 
 See the full [list of members](/members). If you would like to take part too,
 please [contact us](/join).
 
 ## Can I be part of the TODO Community without being an official TODO Member?
 
-Yes. Everyone willing to contribute to improve OSPO education and adoption across industries worldwide is more than welcome to join the community and take part of the public resources through our GitHub page: https://github.com/todogroup. TODO community members include, but are not restricted to:
+Yes, TODO Group resources are essentially like any other open source project.
+
+Everyone willing to contribute to improve OSPO education and adoption across industries worldwide is more than welcome to join the community and take part of the public resources through our GitHub page: https://github.com/todogroup. TODO community members include, but are not restricted to:
 
 * OSPO Managers
 * OSPO initiatives
@@ -84,11 +86,7 @@ We use a [TODO Kanban](https://github.com/todogroup/todogroup.org/projects/1)to 
 
 What are the main TODO communication channels and how can the OSPO Community get involved? The TODO Group currently support two work models:
 
-***
-
 ### Public communication channels
-
-
 
 * **Public meetings:** [Public meetings](https://community.linuxfoundation.org/todo-group/) are open to **everyone involved in the OSPO industry,** from TODO Members to external organizations, foundations or any other industry partners. The TODO Group currently hosts OSPOlogy as the general meeting, but we are expecting to add new working areas in the near future. Everyone is more than welcome to contribute to OSPOlogy planning, upcomming topics and guest proposals: https://github.com/todogroup/ospology/tree/main/meetings
 
@@ -99,15 +97,11 @@ What are the main TODO communication channels and how can the OSPO Community get
 * **OSPO Discussions:** If you're interested in OSPO related discussions, you can post questions on the TODO Group Slack and also https://github.com/todogroup/ospology/discussions
 
 
-
-
 ### Private communication channels
 
 * **Private meetings:** This space is mean for TODO members-only, to share OSPO knowledge in a private sensitive setting. If you are a TODO Member and would like to get involved in these meetings, please contact info@todogroup.org spceifying your membership info.
 
 * **Private TODO Mailing list:** This space is mean for TODO members-only, to share OSPO knowledge in a private sensitive setting.
-
-***
 
 ## How can I start getting involved in the TODO Community?
 
@@ -120,15 +114,15 @@ This is a list of the most useful places where newcommers can start getting invo
 
 ## How is the TODO Steering Commitee elected?
 
-The TODO Steering Committe sets the policy and strategic goals for TODO Group. The Steering Commitee is elected by the TODO Members on a yearly basis. We will soon announce more details about TODO Current steering Commitee members and roles at todogroup.org.
+The TODO Steering Committe sets the policy and strategic goals for TODO Group. The Steering Commitee is elected by the TODO Members on a yearly basis.
+https://github.com/todogroup/governance#todo-steering-committee-tsc
 
 ## Is the TODO Group a new open source foundation?
 
-No. We’re a group of companies with a common interest who have come together to
-help solve the problem of utilizing and releasing our own open source software.
+No. We’re a group of organizations with a common interest who have come together to help solve the problem of building open source programs.
 
 ## How can I stay up to date with TODO?
 
-Follow us on [GitHub](https://github.com/todogroup) or on Twitter at
-[@todogroup](https://twitter.com/todogroup). Press inquiries can be sent to
-<press@todogroup.org>. 
+Follow us on [GitHub](https://github.com/todogroup) or on Twitter at [@todogroup](https://twitter.com/todogroup). 
+
+Press inquiries can be sent to <pr@todogroup.org>. 

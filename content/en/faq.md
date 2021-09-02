@@ -8,7 +8,7 @@ permalink: /faq/
 - [Whom is this group for?](#whom-is-this-group-for)
 - [Should I join?](#should-i-join)
 - [Which companies are participating?](#which-companies-are-participating)
-- [Can I be part of the TODO Community without being an official TODO Member?](#can-i-be-part-of-the-todo-community-without-being-an-official-todo-member)
+- [Can I be part of the TODO Community without being a TODO Member?](#can-i-be-part-of-the-todo-community-without-being-a-todo-member)
 - [What are the benefits of being a TODO member?](#what-are-the-benefits-of-being-a-todo-member?)
 - [What deliverables can we expect to see from this group?](#what-deliverables-can-we-expect-to-see-from-this-group)
 - [Which are the main communication channels?](#which-are-the-main-communication-channels)
@@ -40,11 +40,11 @@ business.
 See the full [list of members](/members). If you would like to take part too,
 please [contact us](/join).
 
-## Can I be part of the TODO Community without being an official TODO Member?
+## Can I be part of the TODO Community without being a TODO Member?
 
 Yes, TODO Group resources are essentially like any other open source project.
 
-Everyone willing to contribute to improve OSPO education and adoption across industries worldwide is more than welcome to join the community and take part of the public resources through our GitHub page: https://github.com/todogroup. TODO community members include, but are not restricted to:
+Everyone willing to contribute to improve OSPO education and adoption across industries worldwide is more than welcome to join the community and take part of the public resources through our GitHub page: https://github.com/todogroup. TODO Community Members include, but are not restricted to:
 
 * OSPO Managers
 * OSPO initiatives

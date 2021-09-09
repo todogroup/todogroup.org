@@ -120,27 +120,27 @@ When partners or customers are deciding whether to utilize open source projects 
 
 * **Access to test infrastructure/environments:** Some open source applications require dedicated servers, specialist tools, automated quality control and/or security hardening. Dedicating resources to a paid and supported edition while starving resources for a free, community edition is a poor strategy, because free community editions often facilitate the first steps that potential customers will take. Ensure open source versions and any open source developers have access to the same tools, checks and automation that your staff developers or paid versions are run on. Parity across different versions and collaborators is key.
 
+* **Invest wisely in education:** open source education is critical to know where and hot to interact with the open source ecosystem in a healthy way.
+
+    * Training – Education and training offerings serve a virtuous cycle, where trained users advance the cause of your open source inventions.
+
+    * Certifications – Certification programs help users advertise their skillsets surrounding your inventions and boost their market value and your market value. Remember that you don’t just have to certify people with skillsets, either. Consider The Linux Foundation’s Core Infrastructure Initiative (CII) Badge Program. It includes a Best Practices Badge that can showcase an open source project's commitment to security, fostering trust.
+
+    * Mentorships and internships – Through mentorships and internships, you can foster a wider knowledge base surrounding your open source offerings, and you can create opportunities. Many prospective interns know that open source skills have value in the job market, and you may be able to find interns who are available for very reasonable terms.
+
+    * Hold events – An open source project has a great chance of growing its successful ecosystem if the whole community around it takes an active role. Events are fantastic ways to foster group participation.
+
+*"Look at how your community is interacting with itself, how new leadership is being grown and mentored, and how any pain points are evolving. As an example, Kubernetes right now has a pain point of very long review times on pull requests, so we're getting started building out a mentoring program to help mentor new reviewers. Through the mentoring program, we'll be able to track measurements and ideally see a decrease in the amount of time the review process takes."* – Sarah Novotny, FOSS strategy at Azure
+
+* **Give back:** There are substantial benefits to participating in the projects you use in your products and contributing upstream. If an open source project has made a positive difference for you and your organization, you can likely make a positive difference for it by contributing. This kind of give-and-take is an established practice throughout the open source arena. Just look at Red Hat and IBM, both of which are top contributors to Linux.
+
+
 
 ## 3. Track progress and make adjustments
 
 Of course, your effort to create a healthy, commercial ecosystem around open source is a moving target. You must keep the people overseeing your governance structure involved, and keep your community providing feedback. “Listen, measure and adjust,” is good advice on this front. The members of your community can provide extraordinarily good feedback on how to make needed improvements and reach more people. Remember that each community is different.
 
 *Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy. You could have a very small project that is extraordinarily healthy because it has half a dozen core contributors and a dozen people who are active but not maintainers. There might be healthy discussions, and pull requests might be handled in a speedy manner, and that might be an incredibly healthy community even though it's not going to have a million stars or forks on GitHub."* – Sarah Novotny, Open Source Wonk, Azure Office of the CTO
-
-The bottom line is that there is much more than code to adjust as you maintain your healthy open source ecosystem. Focus on outreach through training, events, and funding, putting your community first. Here are some important tenets to keep in mind:
-
-**Invest wisely in education.**
-
-* Training – Education and training offerings serve a virtuous cycle, where trained users advance the cause of your open source inventions.
-* Certifications – Certification programs help users advertise their skillsets surrounding your inventions and boost their market value and your market value. Remember that you don’t just have to certify people with skillsets, either. Consider The Linux Foundation’s Core Infrastructure Initiative (CII) Badge Program. It includes a Best Practices Badge that can showcase an open source project's commitment to security, fostering trust.
-* Mentorships and internships – Through mentorships and internships, you can foster a wider knowledge base surrounding your open source offerings, and you can create opportunities. Many prospective interns know that open source skills have value in the job market, and you may be able to find interns who are available for very reasonable terms.
-* Hold events – An open source project has a great chance of growing its successful ecosystem if the whole community around it takes an active role. Events are fantastic ways to foster group participation.
-
-*"Look at how your community is interacting with itself, how new leadership is being grown and mentored, and how any pain points are evolving. As an example, Kubernetes right now has a pain point of very long review times on pull requests, so we're getting started building out a mentoring program to help mentor new reviewers. Through the mentoring program, we'll be able to track measurements and ideally see a decrease in the amount of time the review process takes."* – Sarah Novotny, FOSS strategy at Azure
-
-**Give back**
-
-There are substantial benefits to participating in the projects you use in your products and contributing upstream. If an open source project has made a positive difference for you and your organization, you can likely make a positive difference for it by contributing. This kind of give-and-take is an established practice throughout the open source arena. Just look at Red Hat and IBM, both of which are top contributors to Linux.
 
 &nbsp;
  

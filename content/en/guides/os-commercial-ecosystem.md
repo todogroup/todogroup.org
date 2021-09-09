@@ -168,7 +168,12 @@ A close look at how Google’s Open Source Programs Office works show that the c
  
 *“An open source project has the best chance of growing into a successful ecosystem if the entire community around it takes an active role. This includes everyone from code committers, users, documentation writers, software vendors, platform vendors, and integrators.”* --Abby Kearns, Chief Technology Officer at Puppet
 
+## Acknowledgements
 
+Contributors to this guide:
+
+* Craig Northway
+* Ana Jimenez
 
 
 

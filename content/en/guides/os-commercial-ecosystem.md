@@ -120,7 +120,7 @@ When partners or customers are deciding whether to utilize open source projects 
 
 * **Access to test infrastructure/environments:** Some open source applications require dedicated servers, specialist tools, automated quality control and/or security hardening. Dedicating resources to a paid and supported edition while starving resources for a free, community edition is a poor strategy, because free community editions often facilitate the first steps that potential customers will take. Ensure open source versions and any open source developers have access to the same tools, checks and automation that your staff developers or paid versions are run on. Parity across different versions and collaborators is key.
 
-* **Invest wisely in education:** open source education is critical to know where and hot to interact with the open source ecosystem in a healthy way.
+* **Invest wisely in education:** open source education is critical to know where and how to interact with the open source ecosystem in a healthy way.
 
     * Training – Education and training offerings serve a virtuous cycle, where trained users advance the cause of your open source inventions.
 

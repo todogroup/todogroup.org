@@ -54,7 +54,7 @@ To build a healthy community around an open source project, developer training a
 
 "You need to give people ways to get involved with your projects that don't require them to have a Ph.D. or to have been working in a similar area for 25 years. You need ways for them to get involved quickly. That means that you need really good setup documentation, and it also means having active and healthy forums and responsive maintainers." Ian Varley, Software Architect, SalesForce.
 
-The [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as TODO Group at The Linux Foundation and Black Duck have extensive experience with setting inbound contribution guidelines. 
+The [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as TODO Group at The Linux Foundation have extensive experience with setting inbound contribution guidelines. 
 
 Cloud Foundry’s [Code of Conduct](https://www.cloudfoundry.org/code-of-conduct/) provides a strong example of how you can set out official guidelines for community members to follow. It specifies how community members can report incidents, what constitutes unacceptable behavior, and much more. 
  
@@ -174,7 +174,8 @@ Contributors to this guide:
 
 * Craig Northway
 * Ana Jimenez
-
+* Gergely Csatari 
+* Georg Kunz
 
 
 

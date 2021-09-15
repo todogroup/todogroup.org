@@ -66,7 +66,7 @@ Yes, the TODO Group welcomes any government institution willing to collaborate o
 Please, take a look to the [TODO Group Overview Presentation](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) to learn more about membership benefits.
 
 
-## As a university of academic institution, can I join the TODO Group?
+## As a university or academic institution, can I join the TODO Group?
 
 Yes, universities can join the TODO Group to collaborate on practices, tools, and other ways to run successful and effective open source programs, as well as to engage in discussions with experienced OSPO professionals.
 

@@ -10,6 +10,8 @@ permalink: /faq/
 - [Which companies are participating?](#which-companies-are-participating)
 - [Can I be part of the TODO Community without being a TODO Member?](#can-i-be-part-of-the-todo-community-without-being-a-todo-member)
 - [What are the benefits of being a TODO member?](#what-are-the-benefits-of-being-a-todo-member?)
+- [As a government institution, can I join the TODO Group?](#as-a-government-institution-can-i-join-the-todo-group)
+- [As a university of academic institution, can I join the TODO Group?](#as-a-university-of-academic-institution-can-i-join-the-todo-group)
 - [What deliverables can we expect to see from this group?](#what-deliverables-can-we-expect-to-see-from-this-group)
 - [Which are the main communication channels?](#which-are-the-main-communication-channels)
 - [How can I start getting involved in the Community?](#how-can-i-start-getting-involved-in-the-community)
@@ -56,6 +58,21 @@ In order to keep a secure place to freely share sensitive information, the TODO 
 ## What are the benefits of being a TODO member?
 
 Please take a look to the [TODO Group Overview Presentation](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) to learn more about membership benefits.
+
+## As a government institution, can I join the TODO Group?
+
+Yes, the TODO Group welcomes any government institution willing to collaborate on practices, tools, and other ways to run successful and effective open source programs, as well as to engage in discussions with experienced OSPO professionals.
+
+Please, take a look to the [TODO Group Overview Presentation](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) to learn more about membership benefits.
+
+
+## As a university of academic institution, can I join the TODO Group?
+
+Yes, universities can join the TODO Group to collaborate on practices, tools, and other ways to run successful and effective open source programs, as well as to engage in discussions with experienced OSPO professionals.
+
+OSPO professionals from universities such as [Rochester Institute of Technology (RIT)](https://www.rit.edu/research/open) or [University of California Santa Cruz](cross.ucsc.edu) have been TODO Members over the past years.
+
+Please, take a look to the [TODO Group Overview Presentation](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) to learn more about membership benefits.
 
 ## What deliverables can we expect to see from this group?
 

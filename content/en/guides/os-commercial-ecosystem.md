@@ -89,7 +89,7 @@ A downstream project with no ecosystem and community is not really leveraging th
 
 *“There are open source projects where external contributions are welcome, but the road maps and the governance of the projects are very much in the hands of a single company. Then there is truly community-driven open source. Which kind of projects are you working with?”* - Joe Beda, Co-Founder Kubernetes, Co-Founder and CTO, Heptio
 
-* **Foundations.** Foundations have had an enormous impact on the world of open source in recent years. Your organization can benefit from working with foundations ranging from The Linux Foundation to the Apache Foundation, and you may benefit from launching an open source-focused foundation. Understanding the role of open source foundations in fostering sustainable open source projects, and considering when and how to involve them, will help set you up for success.
+* **Foundations.** Foundations have had an enormous impact on the world of open source in recent years. Your organization can benefit from working with foundations ranging from The Linux Foundation to the Apache Software Foundation, and you may benefit from launching an open source-focused foundation. Understanding the role of open source foundations in fostering sustainable open source projects, and considering when and how to involve them, will help set you up for success.
 
 *“Foundations provide a lot of value. Without them it has historically been hard for a lot of very critical projects to get the funding they need to be well maintained. They help ensure a level playing field and they provide mechanisms for organizations to give back to open source projects without contributing developers directly.”* — Luke Faraone, Software Engineer, Dropbox
 

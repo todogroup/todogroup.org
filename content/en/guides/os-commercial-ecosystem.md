@@ -126,7 +126,7 @@ When partners or customers are deciding whether to utilize open source projects 
 
     * Certifications – Certification programs help users advertise their skillsets surrounding your inventions and boost their market value and your market value. Remember that you don’t just have to certify people with skillsets, either. Consider The Linux Foundation’s Core Infrastructure Initiative (CII) Badge Program. It includes a Best Practices Badge that can showcase an open source project's commitment to security, fostering trust.
 
-    * Mentorships and internships – Through mentorships and internships, you can foster a wider knowledge base surrounding your open source offerings, and you can create opportunities. Many prospective interns know that open source skills have value in the job market, and you may be able to find interns who are available for very reasonable terms.
+    * Mentorships and internships – Through mentorships and internships, you can foster a wider knowledge base surrounding your open source offerings, and you can create opportunities.
 
     * Hold events – An open source project has a great chance of growing its successful ecosystem if the whole community around it takes an active role. Events are fantastic ways to foster group participation.
 

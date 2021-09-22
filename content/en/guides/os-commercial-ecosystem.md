@@ -15,7 +15,7 @@ An open source project is successful when it has a thriving ecosystem of compani
 
 &nbsp;
 
-# Defining and creating a  sustainable open source commercial ecosystem
+# Defining and creating a sustainable open source commercial ecosystem
 
 Open Source Program Offices can interact with open source in two different ways: 
 

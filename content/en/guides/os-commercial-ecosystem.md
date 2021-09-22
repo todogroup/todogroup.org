@@ -176,6 +176,7 @@ Contributors to this guide:
 * Ana Jimenez
 * Gergely Csatari 
 * Georg Kunz
+* Bill Mulligan
 
 
 

@@ -77,7 +77,7 @@ As an open source software project grows, [a study shows](http://www.ifosslr.org
 
 ## Adherence to open source culture
 
-A downstream project with no ecosystem and community is not really leveraging the value of open source. An adherence to an open source culture is needed to succeed even .
+A downstream project with no ecosystem and community is not really leveraging the value of open source. An adherence to an open source culture is needed to succeed.
 
 *"One of the most important things when building an open source community is making sure that your own processes are open. The more transparent you can make your decision-making processes, the more of a sense of ownership your community will have. You also want to make sure that your process doesn't become a blocker. If your open source process for either inbound or outbound contributions is onerous, people will look to bypass the process or simply decide that contributing is too difficult.”* – Luke Faraone, Software Engineer, Dropbox
 

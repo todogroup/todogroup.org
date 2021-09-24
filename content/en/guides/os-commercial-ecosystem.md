@@ -2,7 +2,7 @@
 title: Creating an Open Source Commercial Ecosystem
 ---
 
-An open source project is successful when it has a thriving ecosystem of companies and products built around it.  So what exactly is an open source commercial ecosystem and how can organizations help create and support sustainable open source projects? There are concrete ways to create confidence in a project’s long-term viability, encourage companies to create commercial products and services on top of open source projects, and re-invest in them with contributions, content, and other resources. These practices for enabling ecosystem development help set your projects up for success.
+One way for an open source project to be successful is to have a thriving ecosystem of companies and products built around it.  So what exactly is an open source commercial ecosystem and how can organizations help create and support sustainable open source projects? There are concrete ways to create confidence in a project’s long-term viability, encourage companies to create commercial products and services on top of open source projects, and re-invest in them with contributions, content, and other resources. These practices for enabling ecosystem development help set your projects up for success.
 
 &nbsp;
 
@@ -23,7 +23,7 @@ Open Source Program Offices can interact with open source in two different ways:
 * Inbound processes: consuming open source projects
 
 
-When companies (and their OSPOs) work on a strategy to build their products and services on open source, they have an incentive to re-invest resources into those projects, which leads to the creation of open source commercial ecosystems. For projects to achieve this level of sustainability, companies must first have enough confidence in a project’s future that they are willing to build commercial dependencies on it.
+A critical element of any business or product strategy that includes the use of open source software is the reinvestment of resources into the projects on which that strategy relies. This can lead to the creation of open source commercial ecosystems, which contribute to the viability and long-term sustainability for those projects. However, before a company will invest resources it must first have confidence in a project's future prospects such that they're willing to build commercial dependencies upon it.
 
 While there are no guarantees that an open source project will be successful, there are ways to set it up for success through practices that help build commercial ecosystems around it. If you can accelerate this process, it speeds innovation, products get to market faster, and projects see faster adoption and use. It becomes a virtuous cycle as [described by Accel Partners investor Ping Li](https://www.slideshare.net/AccelPartners/the-rise-of-open-adoption-software-oas).
 

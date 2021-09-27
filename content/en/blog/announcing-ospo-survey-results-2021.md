@@ -19,6 +19,6 @@ The findings indicated there are many opportunities ahead to educate companies a
 * **Value of Open Source Participation:** 27% of survey participants said a company’s open source participation is at least very influential in their organization’s buying decisions.
 
 
-The TODO GRoup is committed to advancing the state of open source program management across the industry and will be performing this survey on an annual basis. We look forward to community feedback on this survey and how we can improve it in the future.
+The TODO Group is committed to advancing the state of open source program management across the industry and will be performing this survey on an annual basis. We look forward to community feedback on this survey and how we can improve it in the future.
 
 If you’re interested in starting an open source program or collaborating with your peers in open source program management, please consider joining the [TODO Group Community](https://todogroup.org/community/)

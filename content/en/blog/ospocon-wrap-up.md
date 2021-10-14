@@ -10,7 +10,7 @@ date: 2021-11-08
 
 OSPOCon has demonstrated to be a key networking space to learn and connect with OSPO professionals across organizations: Attendants were able to learn from open source leaders who shared their experiences on ways to establish and run an OSPO, the status of emerging open source initiatives raising within organizations across industries, as well as the evolution of OSPOs worldwide.
 
-Both conferences brought insightful conversations from Open Source Initiatives in banking, finance, automotive, ONGs, governments, hardware companies, and more, highlighting the [growing interest for OSPOS far beyond traditional tech companies](https://thenewstack.io/more-organizations-report-benefits-of-open-source-programs).
+Both conferences brought insightful conversations from Open Source Initiatives in banking, finance, automotive, NGOs, governments, hardware companies, and more, highlighting the [growing interest for OSPOS far beyond traditional tech companies](https://thenewstack.io/more-organizations-report-benefits-of-open-source-programs).
 
 &nbsp;
 

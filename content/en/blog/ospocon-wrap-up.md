@@ -1,7 +1,7 @@
 ---
 title: "Learnings from the first OSPO and Open Source for Organizations Conference"
 author: anajsana95
-date: 2021-11-08
+date: 2021-10-14
 ---
 *Leading figures from Open Source gathered at OSPOCon and OSPOCon Europe to discuss the new OSPO Era challenges and ways to help the Open Source movement*
 

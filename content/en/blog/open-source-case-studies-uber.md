@@ -19,7 +19,7 @@ The relationship between Uber and open source has evolved over time, driving eac
 
 Uber has a long history of contributing to open source projects. The company also has many active maintainers in the community. Since its earliest days, company developers contributed to PyTorch, TensorFlow, Kubeflow, OpenTracing, Cassandra, Chef, Arrow, Go, Buck, Kafka, Hive, Mesos, Redis, Swift, Gradle, Gym, Parquet, Presto, Spark, Kubernates, and more. The company’s first public project on GitHub was created in 2012, only three years after  Uber was founded. Far from its peak, the momentum behind Uber’s internal commitment to open source steamed ahead.
 
-> "Open sourcing deck.gl in 2015 was the start of a booming open source culture at Uber. It was another defining moment for Uber’s open source program when we open sourced Jaeger in 2016, and later [contributed it to the Cloud Native Computing Foundation](https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/) ([CNCF) ](https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/)in 2017," said Hsieh.
+> "Open sourcing deck.gl in 2015 was the start of a booming open source culture at Uber. It was another defining moment for Uber’s open source program when we open sourced Jaeger in 2016, and later [contributed it to the Cloud Native Computing Foundation](https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/) ([CNCF](https://www.cncf.io/blog/2017/09/13/cncf-hosts-jaeger/)) in 2017," said Hsieh.
 
 It was a defining moment in that it cemented Uber’s footprint in open source among the external community, even as it encouraged others at the company to consider the benefits of open sourcing their projects among developers internally.
 

@@ -13,6 +13,6 @@ The TODO Group launched a [new OSPO guide](https://todogroup.org/guides/os-comme
 * How to build an open source ecosystem
 * Example: Google Open Source Office
 
-TODO OSPO guides transfer the knowledge from a wide range of OSPO initiatives across organizations. Take a look at [*Creating Open Source Commercial Ecosystsems*](https://todogroup.org/guides/os-commercial-ecosystem/)  and learn from well-known senior OSPO leaders working at Dropbox, Google, or VMWare.
+TODO OSPO guides transfer the knowledge from a wide range of OSPO initiatives across organizations. Take a look at [*Creating Open Source Commercial Ecosystsems*](https://todogroup.org/guides/os-commercial-ecosystem/)  and learn from well-known senior OSPO leaders working at Dropbox, Google, and VMWare.
 
 

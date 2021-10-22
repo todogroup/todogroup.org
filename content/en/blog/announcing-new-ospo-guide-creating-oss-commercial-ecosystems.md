@@ -1,7 +1,7 @@
 ---
 title: "New OSPO Guide: Creating Open Source Commercial Ecosystems"
 author: todogroup
-date: 2021-10-14
+date: 2021-10-22
 ---
 
 A critical element of any business or product strategy that includes the use of open source software is the reinvestment of resources into the projects on which that strategy relies. This can lead to the creation of open source commercial ecosystems, which contribute to the viability and long-term sustainability for those projects. However, before a company will invest resources it must first have confidence in a project’s future prospects such that they’re willing to build commercial dependencies upon it.

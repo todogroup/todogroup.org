@@ -63,7 +63,7 @@ We can see a different set of layers within an OSPO initiative, that may help us
 
 Even though some of the OSPO activities are related to engaging with other open source projects, the most usual initial step is to work on a base layer about open source compliance, policies while paving the path to internal developer education, training, guides, documentation, and open source culture. Once these two layers are successfully accomplished, the OSPO can start to build engagement with the open source projects that matter to them, and start considering releasing their own projects as open source.
 
-![Source: Ana Jimenez Santamaria, https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos](/img/blog/ospolayers.png)
+![Source: Ana Jimenez Santamaria, https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos](/img/blog/ospolayers.jpg)
 
 # Moving your open-source initiative to the next level: OSPO accelerators
 

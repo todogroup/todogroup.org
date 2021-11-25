@@ -81,9 +81,7 @@ The sections below give the basic categories of tools that pretty much all open 
 
 Tools which automate processes are among the most important you will select and use for your company’s open source program. The tasks for such tools are broad, including automating procedures for contributor license agreements (CLAs), which are legal documents stating that a developer created the code and didn’t copy it from anywhere else illegally. Traditionally these kinds of agreements were done manually by printing out the agreements and then signing and faxing them in to comply. But in a world of email and instant communications, that’s crazy today. Instead, the process can be automated using bots that request electronic signatures and then track and handle the submissions.
 
-Other automation tools can tell you who exactly is contributing to your projects and can help
-
-remove procedural friction which slows down progress in projects as they get larger and scale to meet the needs of companies.
+Other automation tools can tell you who exactly is contributing to your projects and can help remove procedural friction which slows down progress in projects as they get larger and scale to meet the needs of companies.
 
 In Microsoft’s open source program office, where some 8,000 repositories are managed on GitHub involving some 11,000 contributors, about 40,000 internal requests came in to use open source in projects in 2016, according to the company. To manage those requests as well as the code that’s created and the code versions which are being updated,the company turns to tools which can automate the chaos. And because the code is likely being used in potentially hundreds of other projects, it must be tracked carefully so that if a security bug arises all software impacts can quickly be mapped out and fixed. At such a large scale, automation is critical and manual updates would be almost impossible.
 

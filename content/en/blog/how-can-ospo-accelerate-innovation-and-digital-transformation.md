@@ -26,14 +26,14 @@ OSPOs are designed to be the center of competency for an organization’s open s
 
 With more than 80% of modern application’s software components being open source, digital transformation is forcing more organizations to be open source forward and get involved with the open source ecosystem faster and securely.
 
-However, due to the open source complexity, companies across industries are in a race to build up their open source operations under an Open Source Program Office (AKA OSPO) to accelerate this process in a more structured, secure, and efficient way. According to TODO OSPO’s 2021 survey, almost 80% of respondents who already have an OSPO, said their open source program had a positive impact on their software practices, while more 63% of respondents planning to create an OSPO said that they are expecting to initiate the process within a year.
+However, due to the open source complexity, companies across industries are in a race to build up their open source operations under an Open Source Program Office (AKA OSPO) to accelerate this process in a more structured, secure, and efficient way. According to [TODO OSPO’s 2021 survey](https://github.com/todogroup/osposurvey/tree/master/2021), almost 80% of respondents who already have an OSPO, said their open source program had a positive impact on their software practices, while more 63% of respondents planning to create an OSPO said that they are expecting to initiate the process within a year.
 
 
-## OSPO benefits
+## OSPO Benefits
 
 One of the many reasons is to consider OSPOs as the strategic Ally to bring order into the organization’s open source operations. If you have an aligned and dedicated person or team working on this on a strategic level, is more likely to coordinate and communicate your goals in a more efficient way across teams (legal, engineering, etc) that can be translated into saving time on bringing open source adoption to the organization. In the race towards digital innovation powered by open source adoption, time means everything. 
 
-Open Source adoption usually faces different stages, from a beginner interaction to a more complex one. According to Ibrahim, the are four primary open source software strategies:
+Open Source adoption usually faces different stages, from a beginner interaction to a more complex one. According to one of the [OSPO acticle from Ibrahim Haddad](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/), the are four primary open source software strategies:
 
 * Consumption
 * Participation
@@ -44,11 +44,13 @@ Each strategy requires you to be successful at the previous strategy, and how fa
 
 ![Source: Ibrahim Haddad, https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/](/img/blog/opensourcepath.png)
 
+*[Source: Open Source Program Offices: The Primer on Organizational Structures, Roles and Responsibilities, and Challenges](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/)*
+
 As mentioned earlier, realizing that your organization is already using open source and finding ways to interact with this ecosystem, is no longer enough.  At this point, more and more companies are launching an OSPO to accelerate this process and have a strategic business alignment across divisions and open source activities.
 
-*Disclaimer: the name OSPO came as a common name to standardize the Open Source Strategic Initiatives within an organization, which means, an organization might have different ways to call an OSPO depending on their size, department, and company values. This GH Discussion shows other OSPO names adopted by organizations across industries.*
+*Disclaimer: the name OSPO came as a common name to standardize the Open Source Strategic Initiatives within an organization, which means, [an organization might have different ways to call an OSPO](https://github.com/todogroup/ospology/discussions/16) depending on their size, department, and company values. This GH Discussion shows other OSPO names adopted by organizations across industries.*
 
-# Pre-OSPO set up: Understanding the environment
+# Pre-OSPO Set Up: Understanding the Environment
 
 The same way we find different open source stages related to an organization’s open source involvement, OSPOs have their own journey as well. While there is a tendency to think that open source initiatives should also begin with external visibility in the open-source ecosystem, those community steps may not work until the organization asses a secure and supportive environment within their internal structure (it can be a hard task to try to build a community if there is no sense of community nor sense of security by the developers and high-level managers in the first place). 
 
@@ -56,24 +58,28 @@ The same way we find different open source stages related to an organization’s
 
 ![Source: Ana Jimenez Santamaria, https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos](/img/blog/ospoenvironments.png)
 
+*[Source: Building Bridges between ISPOs and OSPOs](https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos)*
+
 We can see a different set of layers within an OSPO initiative, that may help us understand better the different stages this initiative might consider to move forward and grow .
 
 
-## OSPO layers: Compliance, policies, and developer education
+## OSPO Layers: Compliance, Policies, and Developer Education
 
 Even though some of the OSPO activities are related to engaging with other open source projects, the most usual initial step is to work on a base layer about open source compliance, policies while paving the path to internal developer education, training, guides, documentation, and open source culture. Once these two layers are successfully accomplished, the OSPO can start to build engagement with the open source projects that matter to them, and start considering releasing their own projects as open source.
 
 ![Source: Ana Jimenez Santamaria, https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos](/img/blog/ospolayers.jpg)
 
-# Moving your open-source initiative to the next level: OSPO accelerators
+*[Source: Building Bridges between ISPOs and OSPOs](https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos)*
+
+# Moving your Open Source Initiative to the Next Level: OSPO Accelerators
 
 There are initiatives or communities that can help your organization to accelerate your open source initiative or OSPO in different ways. To explain this idea, let’s split them into two main groups:
 
-## In-house initiatives: re-purposing organization’s assets
+## 1) In-house Initiatives: Re-purposing Organization’s Assets
 
 Some of these accelerators can be already implemented within the organization. Learning how to effectively communicate with other teams, re-allocate resources and re-use content are the main ingredients needed to avoid replication and work on things that have been already implemented by others. 
 
-### Example: Building bridges with InnerSource
+### Example: Building Bridges with InnerSource
 
 There are some organizations that apply InnerSource to implement open source culture within an organization, due to the many benefits that this can imply. Usually, InneSource initiatives empower developer education and engagement using open source procedures in order to better collaborate and communicate across teams.
 
@@ -81,11 +87,15 @@ By looking at the lens of OSPOs, IS actions are at some point helping to build a
 
 ![Source: Ibrahim Haddad, https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/](/img/blog/ospocompetencies.png)
 
-## External initiatives: Neutral players and private organizations
+*[Source: Open Source Program Offices: The Primer on Organizational Structures, Roles and Responsibilities, and Challenges](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/)*
+
+## 2) External Initiatives: Neutral Players and Private Organizations
 
 Nowadays, an OSPO team or professional is not alone. External communities and initiatives that advocate for open source and/or OSPO standards, foster open source networking and education, and keep building resources for other OSPOs, can be your best ally in the race for digital transformation.
 
 ![Source: Ana Jimenez Santamaria, https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos](/img/blog/ospolevels.png)
+
+*[Source: Building Bridges between ISPOs and OSPOs](https://www.slideshare.net/AnaJimnezSantamara/building-bridges-between-ispos-and-ospos)*
 
 However, the wide variety of initiatives out there, which such different scopes and expertise, can become a frustration to new OSPOs trying to figure out where these initiatives can help them.
 
@@ -107,21 +117,22 @@ When using this segmentation for external OSPO accelerators, we should also cons
 
 *Disclaimer: The following segments are intended to frame the kind of initiatives and communities that organizations can find based on common OSPO industry needs. This is not a fixed group of segments and is open to suggestions and feedback.*
 
-# Building an OSPO infrastructure and network: OSPO Associates
+# Building an OSPO Infrastructure and Network: OSPO Associates
 
 The TODO group is an open group of organizations that want to collaborate on practices, tools, and other ways to run successful and effective open source projects. It’s a place where OSPO professionals can learn and build resources together focused on:
 
-Tooling: OSPO tooling initiated by the TODO Group community members.
-Network: Places to connect with experienced OSPO professionals and mentors
-Education: Resources & policy recommendations created by experienced professionals to keep learning about OSPOs
-Training: Course materials to train folks in OSPO management and implementation
-Research: Studies around open source and OSPOs.
+* Tooling: OSPO tooling initiated by the TODO Group community members.
+* Network: Places to connect with experienced OSPO professionals and mentors
+* Education: Resources & policy recommendations created by experienced professionals to keep learning about OSPOs
+* Training: Course materials to train folks in OSPO management and implementation
+* Research: Studies around open source and OSPOs.
 
 
-The TODO Group recently launched the OSPO Associates Program with the aim to work collaboratively across communities that are helping the OSPO movement to build the most comprehensive OSPO solutions infrastructure and network. If you would like to find new ways to collaborate across communities, you can learn more at: https://github.com/todogroup/governance/blob/master/OSPO-Associate-Program.md
+The TODO Group recently launched the OSPO Associate Program with the aim to work collaboratively across communities that are helping the OSPO movement to build the most comprehensive OSPO solutions infrastructure and network. Communities like [FINOS](https://www.finos.org/), [OpenChain](https://www.openchainproject.org/) or [LF Energy](https://www.lfenergy.org/) are getting involved. If you would like to find new ways to collaborate across communities, you can learn more at: https://github.com/todogroup/governance/blob/master/OSPO-Associate-Program.md
 
 
 ![Source: ospolandscape](/img/blog/landscape.png)
+*[Source: OSPO Landscape](https://landscape.todogroup.org/)*
 
 
 

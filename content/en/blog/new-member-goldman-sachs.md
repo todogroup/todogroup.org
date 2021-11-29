@@ -17,6 +17,6 @@ In August, Goldman Sachs formalized its commitment to open source and created an
 
 From the TODO Group, we hope to keep adding value to the OSPO community and TODO Members like Goldman Sachs and be the place to share tips around OSPO topics with other open source proffessionals worldwide.
 
-To learn more, you can take a look to the new post from Bella Wiseman and Rob Underwood and about [Goldman Sachs's OSPO and why they joined the TODO Group](https://developer.gs.com/blog/our-open-source-program-office-and-todo-group/)
+To learn more, you can take a look to the new post from Bella Wiseman and Rob Underwood: [Goldman Sachs's OSPO and why they joined the TODO Group](https://developer.gs.com/blog/our-open-source-program-office-and-todo-group/)
 
 

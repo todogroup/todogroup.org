@@ -1,5 +1,5 @@
 ---
-title: "A year in Review from TODO (and a look ahead)"
+title: "2021 Annual Report for TODO Group"
 author: todogroup
 date: 2021-12-21
 ---
@@ -19,7 +19,6 @@ This year, The TODO Group formalized its [strategic goals](https://github.com/to
 3. Create value for all members
 4. Foster community relationships
 5. Expand resources awareness
-
 
 These are some of the most remarkable milestones achieved during the year:
 
@@ -42,17 +41,17 @@ These Open Source Guides collect best practices from the leading companies engag
 
 Organizations across different sectors and regions joined the TODO Group as new members during the last months!
 
-* Goldman Sachs
 * Avanade
 * Banco Itau
-* Siemens
-* Porsche
-* Gitlab & JiHu
 * BMW
+* Cisco
+* CROSS
 * Ericsson
 * F5
-* CROSS
-* Cisco
+* Gitlab & JiHu
+* Goldman Sachs
+* Porsche
+* Siemens
 
 ![Source: OSPO Landscape](/img/blog/todomemberslandscape.png)
 
@@ -74,12 +73,11 @@ One of the new initiatives created in 2021 at TODO in order to ease the access t
 
 ![Source: OSPOlogy](/img/blog/ospologycover.png)
 
-
-* [August 4, 2021] How to start an OSPO with Bloomberg
-* [September 1, 2021] Mentoring and Talent Management within OS Ecosystems with US Bank
-* [October 13, 2021] The State of OSPOs in 2021 with LF
-* [November 17, 2021] Academic OSPOs with CHAOSS and RIT
-* [December 1, 2021] Governance in the Context of Compliance and Security with OpenChain
+* [August 4, 2021](https://community.linuxfoundation.org/events/details/lfhq-todo-group-presents-ospology-how-to-start-an-ospo-program/) How to start an OSPO with Bloomberg
+* [September 1, 2021](https://community.linuxfoundation.org/events/details/lfhq-todo-group-presents-ospology-mentoring-talent-management-within-open-source-ecosystems/) Mentoring and Talent Management within OS Ecosystems with US Bank
+* [October 13, 2021](https://community.linuxfoundation.org/events/details/lfhq-todo-group-presents-ospology-the-state-of-ospos-2021/) The State of OSPOs in 2021 with LF
+* [November 17, 2021](https://community.linuxfoundation.org/events/details/lfhq-todo-group-presents-academic-ospos-fostering-open-source-culture-at-universities/) Academic OSPOs with CHAOSS and RIT
+* [December 1, 2021](https://community.linuxfoundation.org/events/details/lfhq-todo-group-presents-ospology-governance-in-the-context-of-compliance-and-security/) Governance in the Context of Compliance and Security with OpenChain
 
 OSPOlogy is open to all, from folks just starting their OSPO journey to students to even seasoned OPSOers. If you would like to bring up a OSPO discussion, you can do so by just filling out the [OSPOlogy CFP](https://github.com/todogroup/ospology/issues/new/choose).
 
@@ -97,13 +95,12 @@ This was one of the goals that we couldn’t finish for this year (planning to d
 
 # What to expect from TODO in 2022
 
-
-OSPOs have been evolving over the years, and the tODO group has been always adapting to their demands. 2022 will bring a new TODO version (v.3) where we will keep building [quality OSPO resources](https://github.com/todogroup) and focusing on OSPO Governance, always backed up with data from previous research as well as the expertise from well-known OSPO Professionals worldwide.
+OSPOs have been evolving over the years, and the tODO group has been always adapting to their demands. 2022 will bring a new TODO version where we will keep building [quality OSPO resources](https://github.com/todogroup) and focusing on OSPO Governance, always backed up with data from previous research as well as the expertise from well-known OSPO Professionals worldwide.
 
 *FYI: The final [2022 strategic goals](https://github.com/todogroup/governance/blob/master/goals.md) version will be published in the TODO governance repo (reviewed and approved by the TODO Steering Committee in 2022).* 
 
 ![Source: TODO Website](/img/blog/todochallenges.png)
 
-Happy New year!
+Happy New Years and let's continue to professionalize OSPOs across the world!
 
 TODO Group

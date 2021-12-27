@@ -95,7 +95,7 @@ This was one of the goals that we couldn’t finish for this year (planning to d
 
 # What to expect from TODO in 2022
 
-OSPOs have been evolving over the years, and the tODO group has been always adapting to their demands. 2022 will bring a new TODO version where we will keep building [quality OSPO resources](https://github.com/todogroup) and focusing on OSPO Governance, always backed up with data from previous research as well as the expertise from well-known OSPO Professionals worldwide.
+OSPOs have been evolving over the years, and the TODO group has been always adapting to their demands. 2022 will bring a new TODO version where we will keep building [quality OSPO resources](https://github.com/todogroup) and focusing on OSPO Governance, always backed up with data from previous research as well as the expertise from well-known OSPO Professionals worldwide.
 
 *FYI: The final [2022 strategic goals](https://github.com/todogroup/governance/blob/master/goals.md) version will be published in the TODO governance repo (reviewed and approved by the TODO Steering Committee in 2022).* 
 

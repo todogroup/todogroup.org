@@ -48,13 +48,15 @@ We welcome you [to join us](/join) in an official fashion to take part of these 
 
 We elect members to the TODO Group Steering Committee every year. These members are charged with coordinating with the group’s Program Manager to manage day-to-day operations of the group, overseeing all business and marketing matters, helping to create working groups and helping to define the TODO Group community’s strategic goals. [Learn more.](https://github.com/todogroup/governance/blob/master/CHARTER.adoc)
 
-**Steering Commitee Members**
+[**Steering Commitee Members**](https://github.com/todogroup/governance#todo-steering-committee-tsc)
 
-* Dawn Foster
-* Ashley Wolf
-* Kevin P.Fleming
-* Stormy Peters
-* Stephen Jacobs
+- [Ashley Wolf](https://github.com/ashleywolf), GitHub
+- [Dawn Foster](https://github.com/geekygirldawn), VMware
+- [Shilla Saebi](https://github.com/shillasaebi), Comcast
+- [Stephen Augustus](https://github.com/justaugustus), Cisco
+- [Stephen Jacobs](https://github.com/itprofjacobs), RIT
+- [Thomas Steenbergen](https://github.com/tsteenbe), HERE Technologies
+- [VM (Vicky) Brasseur](https://github.com/vmbrasseur), Wipro
 
 &nbsp;
 

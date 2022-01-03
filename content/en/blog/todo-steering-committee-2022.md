@@ -17,8 +17,6 @@ Now that elections closed and results are published, we are proud to introduce t
 
 # Meet the Steering Commitee
 
-***
-
 Here is a short bio from each of the 2022 TODO Steering Committee representatives.
 
 ## Ashley Wolf - GitHub

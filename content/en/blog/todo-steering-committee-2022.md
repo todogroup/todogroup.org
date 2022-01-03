@@ -15,7 +15,6 @@ Now that elections closed and results are published, we are proud to introduce t
 * [Thomas Steenbergen](https://twitter.com/tsteenbe) - HERE Technologies
 * [VM (Vicky) Brasseur](https://twitter.com/vmbrasseur) - Wipro
 
-
 # Meet the Steering Commitee
 
 ***

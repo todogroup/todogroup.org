@@ -75,8 +75,8 @@ Thomas is a frequent speaker and panellist at various global open source confere
 
 
 ## Vicky Brasseur - Wipro
-**New Member**
 
+**New Member**
 
 VM (aka Vicky) spent most of her twenty-plus years in the tech industry leading software development departments and teams, providing corporate strategy, technical management, and leadership consulting for businesses, helping companies understand, use, release, and contribute to free and open source software in a way that’s good for both their bottom line and for the community.
 

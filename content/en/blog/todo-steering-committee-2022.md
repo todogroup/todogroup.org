@@ -54,7 +54,7 @@ Stephen is a Black engineering director and leader in open source communities. H
 
 For Kubernetes, he has co-founded transformational elements of the project, including the KEP (Kubernetes Enhancements Proposal) process, the Release Engineering subproject, and Working Group Naming. Stephen has also previously served as a chair for both SIG PM and SIG Azure. He continues his work in Kubernetes as a Steering Committee member and a Chair for SIG Release.
 
-Across the wider CNCF (Cloud Native Computing Foundation) ecosystem, Stephen has the pleasure of serving as a SIG Contributor Strategy Chair, and a maintainer for the Dex project. Previously, he was one of the Program Chairs for KubeCon / CloudNativeCon, the cloud native community’s flagship conference. He is a prolific contributor to CNCF projects, amongst the top 25 (as of writing) code/content committers, all-time.
+Across the wider CNCF (Cloud Native Computing Foundation) ecosystem, Stephen has the pleasure of serving as a TAG Contributor Strategy Chair, and a maintainer for the Dex project. Previously, he was one of the Program Chairs for KubeCon / CloudNativeCon, the cloud native community’s flagship conference. He is a prolific contributor to CNCF projects, amongst the top 25 (as of writing) code/content committers, all-time.
 
 In 2020, Stephen co-founded the Inclusive Naming Initiative, a cross-industry group dedicated to helping projects and companies make consistent, responsible choices to remove harmful language across codebases, standards, and documentation. He leads the Community/Open Source workstream and maintains the initiative’s infrastructure.
 

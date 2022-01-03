@@ -84,8 +84,6 @@ She is the author of Forge Your Future with Open Source, the first and only book
 
 Vicky has been a moderator and author for opensource.com, an author for Linux Journal, the Vice President of the Open Source Initiative, and is a frequent and popular speaker at free/open source conferences and events. She’s the proud winner of the Perl White Camel Award (2014), the O’Reilly Open Source Award (2016), and two Opensource.com Moderator’s Choice Awards (2018, 2019). She blogs about free/open source, business, and technical management at {anonymous => ‘hash’}
 
-
-
 # Big Thanks
 
 *** 

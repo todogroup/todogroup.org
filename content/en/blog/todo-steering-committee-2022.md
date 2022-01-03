@@ -47,8 +47,8 @@ From 2014-2017, she was nominated to serve as a member of the OpenStack User Com
 Most recently, Shilla started the Philadelphia Prometheus meetup group, and is helping with a series of internal Kubernetes training workshops at Comcast. She has authored several blog posts on open source technology and has spoken about cloud operations, diversity, and open source community building at many technology conferences around the globe
 
 ## Stephen Augustus - Cisco
-**New Member**
 
+**New Member**
 
 Stephen is a Black engineering director and leader in open source communities. He is Cisco’s first Head of Open Source, within the Emerging Technologies & Incubation division.
 

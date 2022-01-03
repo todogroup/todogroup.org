@@ -4,7 +4,7 @@ author: todogroup
 date: 2021-12-27
 ---
 
-TODO Steering Committee is represented by global Open Source leaders and OSPO professionals, coming from a diverse range of industries.
+TODO Steering Committee is composed of global Open Source leaders and OSPO professionals from a diverse range of industries.
 Now that elections closed and results are published, we are proud to introduce the new Steering Committee members for 2022:
 
 * [Ashley Wolf](https://twitter.com/Meta_Ashley) - GitHub

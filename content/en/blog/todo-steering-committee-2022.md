@@ -86,8 +86,6 @@ Vicky has been a moderator and author for opensource.com, an author for Linux Jo
 
 # Big Thanks
 
-*** 
-
 Last but not least, the TODO Group would like to extend a big 'thanks' to the outgoing TODO Members: Chris Aniszczyk , Duane O'Brien, Stormy Peters and Kevin P. Fleming.  Thanks to their guidance and expertise in OSPOs, they made outstanding contributions to the project governance and the community.
 
 If you wish to learn more about the Steering Commitee please check [TODO Governance repo](https://github.com/todogroup/governance).

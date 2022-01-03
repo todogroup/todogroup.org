@@ -23,7 +23,7 @@ Here is a short bio from each of the 2022 TODO Steering Committee representative
 
 **Returning Member**
 
-Ashley is a passionate advocate for open source. She is currently the Open Source Program Manager at GitHub. Prior to GitHub, she led the Yahoo (acquired by Verizon) open source program and worked in product management for a cybersecurity company. Ashley serves on steering committees for open source foundations and is an advisor for Built by Girls, an organization that prepares the next generation of female and non-binary leaders to step boldly into careers powered by technology. 
+Ashley is a passionate advocate for open source. She is currently the Open Source Program Manager at GitHub. Prior to GitHub, she led the Yahoo (acquired by Verizon) open source program and worked in product management for a cybersecurity company. Ashley serves on steering committees for open source foundations and is an advisor for Built by Girls, an organization that prepares the next generation of female and non-binary leaders to step boldly into careers powered by technology.
 
 ## Dawn Fowster - VMware
 

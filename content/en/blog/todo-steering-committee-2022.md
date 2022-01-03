@@ -60,7 +60,8 @@ Across the wider CNCF (Cloud Native Computing Foundation) ecosystem, Stephen has
 In 2020, Stephen co-founded the Inclusive Naming Initiative, a cross-industry group dedicated to helping projects and companies make consistent, responsible choices to remove harmful language across codebases, standards, and documentation. He leads the Community/Open Source workstream and maintains the initiative’s infrastructure.
 
 ## Stephen Jacobs - RIT University
-**Remaining Member**
+
+**Returning Member**
 
 Stephen Jacobs is a Professor at the Rochester Institute of Technology and Director of Open@RIT, the school's Open Programs Office. He led the design of their academic minor in Free and Open Source Software and Free Culture. His efforts in teaching FOSS courses began with an Honors Seminar in which students created educational games for the One Laptop per Child XO. His research activities in FOSS have been supported by the Ford Foundation, the Alfred P. Sloan Foundation, Red Hat, Inc and AT&T Inc.
 

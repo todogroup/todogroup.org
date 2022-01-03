@@ -61,7 +61,7 @@ languages:
   zh-CN:
     languageName: 汉語
     title:"// TODO: Talk openly, develop openly"
-    contentDir: content/ja
+    contentDir: content/zh-CN
     weight: 2
     description:「TODO: talk openly, develop openly (开放的探讨，开诚布公。)」
     longTitle:"TODO Group // TODO: Talk openly, develop openly"

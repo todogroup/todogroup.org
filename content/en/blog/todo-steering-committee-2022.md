@@ -10,7 +10,7 @@ Now that the 2021 election has been completed, we are proud to introduce the new
 * [Ashley Wolf](https://twitter.com/Meta_Ashley) - GitHub
 * [Dawn Foster](https://twitter.com/geekygirldawn) - VMware
 * [Shilla Saebi](https://twitter.com/ShillaSaebi) - Comcast
-* [Stephen Augustus](https://twitter.com/stephenaugustus) - Cisco
+* [Stephen Augustus](https://whois.auggie.dev/) - Cisco
 * [Stephen Jacobs](https://www.linkedin.com/in/itprofjacobs/) - RIT
 * [Thomas Steenbergen](https://twitter.com/tsteenbe) - HERE Technologies
 * [VM (Vicky) Brasseur](https://twitter.com/vmbrasseur) - Wipro

@@ -1,5 +1,5 @@
 ---
-title: "Meet the TODO Steering Committee in 2022"
+title: "Meet the 2022 TODO Steering Committee"
 author: todogroup
 date: 2021-12-27
 ---

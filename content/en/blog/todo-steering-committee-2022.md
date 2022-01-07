@@ -1,7 +1,7 @@
 ---
 title: "Meet the 2022 TODO Steering Committee"
 author: todogroup
-date: 2021-12-27
+date: 2022-01-03
 ---
 
 TODO Steering Committee is composed of global Open Source leaders and OSPO professionals from a diverse range of industries.

@@ -1,4 +1,6 @@
-# TODO Guides Contributing Guidelines
+---
+title: TODO Guides Contributing Guidelines
+---
 
 These Open Source Guides are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. 
 They collect best practices from the leading organizations engaged in open source development and aim to help your organization successfully 

@@ -18,7 +18,7 @@ There are many ways you can directly contribute to a TODO whitepapaer:
 
 **Idea submission:** 
 
-A request is submitted by opening an issue at TODO governance repo using the tag `whitepapaer`
+A request is submitted by opening an [issue at TODO governance repo](https://github.com/todogroup/governance/issues) using the tag `whitepapaer`
 
 **Steering Committee Review:** 
 
@@ -34,8 +34,7 @@ TODO PM creates a new repo that gather the whitepapaer content. Bi-weekly sync m
 
 **Publication process:**
 
-Once the final version for the whitepaper content is approved, TODO PM sends this to LF team to work on design and starts publication and promotion 
-process through the main TODO and LF communication channels.
+Once the final version for the whitepaper content is approved, TODO PM sends this to LF team to work on design and starts publication and promotion process through the main TODO and LF communication channels.
 
 ## 2. Contirbute to a WIP TODO Whitepaper
 
@@ -54,6 +53,6 @@ business pros and cons of using open source software.
 
 **Outbound OSS**
 
-A WIP Whitepaper maintain by the TODO European Chapter which content is being managed in a dedicated TODO Org repo. [Such repo](https://github.com/todogroup/outbound-oss) contains documentation and guidance for 
+A WIP Whitepaper maintained by the TODO European Chapter which content is being managed in a dedicated TODO Org repo. [This repo](https://github.com/todogroup/outbound-oss) contains documentation and guidance for 
 handling outbound OSS in organzations.
 

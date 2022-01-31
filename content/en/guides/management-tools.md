@@ -141,6 +141,8 @@ Here are some of the most popular and useful source code management tools which 
 
 [SPDX](https://spdx.dev/) – The Software Package Data Exchange (SPDX) specification is a standard format used to describe the components, licenses and copyrights associated with software packages. The SPDX standard aids compliance with free and open source software licenses by standardizing the way license information is shared between developers and companies. The SPDX specification is developed by the SPDX workgroup, which is hosted by The Linux Foundation. The group offers open source [tools](https://spdx.dev/tools) to help users of SPDX documents.
 
+[Vigiles](https://timesys.com/solutions/vigiles-vulnerability-management/) – Vigiles is a commercial Software Composition Analysis (SCA) and CVE monitoring tool optimized for embedded Linux and usable for all open source software. It gives you the complete process to track, triage, remediate, and document CVEs affecting your device.
+
 [WhiteSource](https://www.whitesourcesoftware.com/) – Provides licensing, security, code quality and reporting analysis for managing open source components in real-time by automatically and continuously scanning dozens of open source repositories on a commercial basis.
 
 ### Bug and issue tracking

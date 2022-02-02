@@ -26,7 +26,7 @@ of this guide, please follow the following steps:
 
 **Step One: Creation Process**
 
-* Open an issue using the `guide` tag: Please tell us about how this guide will benefit the OSPO Ecosystem and interested participants. 
+* Open an issue using the format `[TODO Guide] Add the Guide title here`: Please tell us about how this guide will benefit the OSPO Ecosystem and interested participants. 
 Also, we will ask about adding an initial draft of the proposed guide (this can be changed later). This issue is raised to the TODO 
 Community reaching for feedback and new contributors.
 

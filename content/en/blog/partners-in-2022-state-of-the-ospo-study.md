@@ -44,7 +44,7 @@ The project will be published under Creative Commons Attribution 4.0 license, an
 
 ## Contact
 
-hcarter@linuxfoundation.org
+If you are interested in becoming one of the parters for OSPO survey 2022, please send an email to hcarter@linuxfoundation.org to learn more.
 
 *** 
 

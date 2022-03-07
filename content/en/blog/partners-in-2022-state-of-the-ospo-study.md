@@ -50,11 +50,11 @@ hcarter@linuxfoundation.org
 
 ### Appendix A: Research project cover - example from DEI:
 
-![Source: example from DEI](/img/guides/cover-project-example.png)
+![Source: example from DEI](/img/blog/cover-project-example.png)
 
 ### Appendix B: Social Shareable - example from DEI launched in 2021:
 
-![Source: example Social Shareable](/img/guides/social-shareable-example.png)
+![Source: example Social Shareable](/img/blog/social-shareable-example.png)
 
 
 

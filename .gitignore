@@ -5,3 +5,4 @@ public/
 resources/
 static/css/style-*.css
 .sass-cache/
+.hugo_build.lock

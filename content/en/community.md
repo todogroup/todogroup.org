@@ -27,6 +27,8 @@ Are you new to our community? We invite you to join us on the different communic
 * [Europe Sync meetings](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
 * [Work Day Activities](https://github.com/todogroup/work-day-activities)
 
+{{< calendar >}}
+
 ## General Members Sync:
 
 Sometimes, there are community participants with an established OSPO or open source initiative who wish to become General Members. Touchpoint calls are the General Member Sync meetings.

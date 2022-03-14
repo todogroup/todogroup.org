@@ -3,20 +3,54 @@ title: "Community"
 permalink: /community/
 ---
 
-&nbsp;
 
+- [Communication channels](#communication-channels)
+- [Contribution guidelines](#contirbution-guidelines)
 - [TODO Community Resources](#todo-community-resources)
 - [TODO Steering Committee](#todo-steering-committee)
 - [TODO Chapters](#todo-chapters)
 
-&nbsp;
+# Communication channels
+
+Are you new to our community? We invite you to join us on the different communication Channels
+
+## Community:
+
+* [TODO Group Slack](https://slack.todogroup.org/)
+* [TODO Community Mailing List](https://docs.google.com/forms/d/e/1FAIpQLSeU0YGM_IJ6gY8E5IIiwXKD_FZi3kAVc4E9_-3dtTDyKMSjdA/viewform)
+* [OSPO Forum (GH Discussions)](https://github.com/todogroup/ospology/discussions)
+
+**TODO Chapters Communication Channels**
+
+* Europe Chapter: TODO Group Slack #chapter-europe
+* APAC Chapter: TBD
+
+# Meetings and calls
+## Community:
+
+* [OSPOlogy](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
+* [Europe Sync meetings])(https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
+* [Work Day Activities](https://github.com/todogroup/work-day-activities)
+
+## General Members Sync:
+
+Sometimes, there are community participants with an established OSPO or open source initiative who wish to become General Members. Touchpoint calls are the General Member Sync meetings.
+
+* Touchpoints
+
+# Contribution Guidelines
+
+* [OSPO Case Study Submission Guidelines](https://todogroup.org/guides/casestudies/todo-contribution-guidelines/)
+* [TODO Guides Contributing Guidelines](https://todogroup.org/guides/todo-guides-contribution-guidelines/)
+* [TODO Whitepaper Guidelines](https://todogroup.org/guides/whitepaper-guidelines/)
+
+## OSPOlogy CFP
+
+If you have a story to share, please add your topic to the following [CFP form](https://github.com/todogroup/ospology/issues/new/choose)
 
 # TODO Community Resources
 
-Are you new to our community? We invite you to join us on Slack to chat about open source program management:
-
-{{< slackButton >}}
-
+TODO resources are open to everyone and available at TODO Group GitHub repo under CC-BY 4.0 Licence. You can see all the TODO Community resources in the [TODO GH README ORG](https://github.com/todogroup#-discover-the-todo-resources-and-initiatives)
 
 ## OSPOlogy
 
@@ -35,14 +69,14 @@ To discuss issues with the TODO Group you're welcome to open a new discussion at
 You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with any questions.
 
 
-## TODO Member Resources
+## TODO General Member Resources
 
-The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion.
+The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. Important information is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
 
-We welcome you [to join us](/join) in an official fashion to take part of these discussions and F2F meetings.
+Please take a look to TODO General Member [Onboarding chacklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
 
+We welcome you [to join TODO as General Members](/join).
 
-&nbsp;
 
 # TODO Steering Committee
 
@@ -58,7 +92,7 @@ We elect members to the TODO Group Steering Committee every year. These members 
 - [Thomas Steenbergen](https://github.com/tsteenbe), HERE Technologies
 - [VM (Vicky) Brasseur](https://github.com/vmbrasseur), Wipro
 
-&nbsp;
+
 
 # TODO Chapters
 
@@ -66,7 +100,7 @@ We elect members to the TODO Group Steering Committee every year. These members 
 
 The TODO EU chapter was formed by TODO Members based in Europe. This chapter was created with the aim of working together to improve OSPO adoption and education within Europe and discuss with the broader community the challenges European organizations face when implementing an open source program.
 
-TODO EU Chapter Members organize public monthly sync meetings open to everyone. If you would like to participate, please send an email to info@todogroup.org  to get your invite.
+TODO EU Chapter Members organize public monthly sync meetings open to everyone. If you would like to participate, you can join the EMEA monthly Sync meetings [here](https://community.linuxfoundation.org/todo-group-europe/)
 
 
 

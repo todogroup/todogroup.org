@@ -2,19 +2,13 @@
 title: "Community"
 permalink: /community/
 ---
+If you are new to TODO Group Community, [this guide](https://github.com/todogroup/governance/blob/main/onboarding/community.md#todo-community-onboarding) should provide helpful onboarding resources.
 
-
-- [Communication channels](#communication-channels)
-- [Contribution guidelines](#contirbution-guidelines)
-- [TODO Community Resources](#todo-community-resources)
-- [TODO Steering Committee](#todo-steering-committee)
-- [TODO Chapters](#todo-chapters)
 
 # 💬 Communication channels
 
-Are you new to our community? We invite you to join us on the different communication Channels
+Are you new to our community? We invite you to join us on the different communication Channels:
 
-## Community:
 
 * [TODO Group Slack](https://slack.todogroup.org/)
 * [TODO Community Mailing List](https://docs.google.com/forms/d/e/1FAIpQLSeU0YGM_IJ6gY8E5IIiwXKD_FZi3kAVc4E9_-3dtTDyKMSjdA/viewform)
@@ -25,7 +19,8 @@ Are you new to our community? We invite you to join us on the different communic
 * Europe Chapter: TODO Group Slack #chapter-europe
 * APAC Chapter: TBD
 
-# Meetings and calls
+# 🙋 Meetings and calls
+
 ## Community:
 
 * [OSPOlogy](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
@@ -38,7 +33,7 @@ Sometimes, there are community participants with an established OSPO or open sou
 
 * Touchpoints
 
-# Contribution Guidelines
+# 📝 Contribution Guidelines
 
 * [OSPO Case Study Submission Guidelines](https://todogroup.org/guides/casestudies/todo-contribution-guidelines/)
 * [TODO Guides Contributing Guidelines](https://todogroup.org/guides/todo-guides-contribution-guidelines/)
@@ -48,7 +43,7 @@ Sometimes, there are community participants with an established OSPO or open sou
 
 If you have a story to share, please add your topic to the following [CFP form](https://github.com/todogroup/ospology/issues/new/choose)
 
-# TODO Community Resources
+# 📚 TODO Community Resources
 
 TODO resources are open to everyone and available at TODO Group GitHub repo under CC-BY 4.0 Licence. You can see all the TODO Community resources in the [TODO GH README ORG](https://github.com/todogroup#-discover-the-todo-resources-and-initiatives)
 
@@ -71,7 +66,7 @@ You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with a
 
 ## TODO General Member Resources
 
-The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. Important information is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
+The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
 
 Please take a look to TODO General Member [Onboarding chacklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
 
@@ -94,7 +89,7 @@ We elect members to the TODO Group Steering Committee every year. These members 
 
 
 
-# TODO Chapters
+# 🌏 TODO Chapters
 
 **TODO EU Chapter**
 

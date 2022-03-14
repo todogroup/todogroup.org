@@ -10,7 +10,7 @@ permalink: /community/
 - [TODO Steering Committee](#todo-steering-committee)
 - [TODO Chapters](#todo-chapters)
 
-# Communication channels
+# 💬 Communication channels
 
 Are you new to our community? We invite you to join us on the different communication Channels
 
@@ -29,7 +29,7 @@ Are you new to our community? We invite you to join us on the different communic
 ## Community:
 
 * [OSPOlogy](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
-* [Europe Sync meetings])(https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
+* [Europe Sync meetings](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
 * [Work Day Activities](https://github.com/todogroup/work-day-activities)
 
 ## General Members Sync:

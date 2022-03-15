@@ -31,7 +31,7 @@ Are you new to our community? We invite you to join us on the different communic
 
 ## General Members Sync:
 
-Sometimes, there are community participants with an established OSPO or open source initiative who wish to become General Members. Touchpoint calls are the [General Member](/members/) Sync meetings.
+Sometimes, there are community participants with an established OSPO or open source initiative who wish to become General Members. Touchpoint calls are the General Member Sync meetings.
 
 * Touchpoints
 
@@ -40,13 +40,16 @@ Sometimes, there are community participants with an established OSPO or open sou
 * [OSPO Case Study Submission Guidelines](https://todogroup.org/guides/casestudies/todo-contribution-guidelines/)
 * [TODO Guides Contributing Guidelines](https://todogroup.org/guides/todo-guides-contribution-guidelines/)
 * [TODO Whitepaper Guidelines](https://todogroup.org/guides/whitepaper-guidelines/)
-* [OSPOlogy CFP](https://github.com/todogroup/ospology/issues/new/choose)
+
+## OSPOlogy CFP
+
+If you have a story to share, please add your topic to the following [CFP form](https://github.com/todogroup/ospology/issues/new/choose)
 
 # 📚 TODO Community Resources
 
-TODO resources are open to everyone and available at TODO Group GitHub repo under CC-BY 4.0 Licence. You can see the TODO Community resources in the [TODO GH README ORG](https://github.com/todogroup#-discover-the-todo-resources-and-initiatives)
+TODO resources are open to everyone and available at TODO Group GitHub repo under CC-BY 4.0 Licence. You can see all the TODO Community resources in the [TODO GH README ORG](https://github.com/todogroup#-discover-the-todo-resources-and-initiatives)
 
-## OSPOlogy, the study of OSPOs
+## OSPOlogy
 
 If you’re new to TODO Group, or to OSPOs, we encourage you to join one of our upcoming OSPOlogy sessions. 
 
@@ -56,21 +59,23 @@ We also have regular [OSPOlogy discussions](https://github.com/todogroup/ospolog
 
 Remember to check out our [OSPO guides](https://todogroup.org/guides/) for more help getting your OSPO started or implementing best practices. If you have ideas for how we can better support you, [open a discussion](https://github.com/todogroup/ospology/discussions). We look forward to hearing from you! 
 
-## OSPO Forum
+## TODO Discussions
 
-To discuss issues with the TODO Group you're welcome to open a new discussion at [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
+To discuss issues with the TODO Group you're welcome to open a new discussion at [OSPOlogy discussions](https://github.com/todogroup/ospology/discussions).
+
+You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with any questions.
 
 
 ## TODO General Member Resources
 
-The [TODO General Members](/members) at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
+The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
 
 Please take a look to TODO General Member [Onboarding chacklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
 
-We welcome you [to join TODO as General Member](/join).
+We welcome you [to join TODO as General Members](/join).
 
 
-# 🧩 TODO Steering Committee
+# TODO Steering Committee
 
 We elect members to the TODO Group Steering Committee every year. These members are charged with coordinating with the group’s Program Manager to manage day-to-day operations of the group, overseeing all business and marketing matters, helping to create working groups and helping to define the TODO Group community’s strategic goals. [Learn more.](https://github.com/todogroup/governance/blob/master/CHARTER.adoc)
 
@@ -93,3 +98,8 @@ We elect members to the TODO Group Steering Committee every year. These members 
 The TODO EU chapter was formed by TODO Members based in Europe. This chapter was created with the aim of working together to improve OSPO adoption and education within Europe and discuss with the broader community the challenges European organizations face when implementing an open source program.
 
 TODO EU Chapter Members organize public monthly sync meetings open to everyone. If you would like to participate, you can join the EMEA monthly Sync meetings [here](https://community.linuxfoundation.org/todo-group-europe/)
+
+
+
+
+

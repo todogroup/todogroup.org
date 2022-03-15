@@ -2,11 +2,20 @@
 title: TODO guides
 ---
 
-These Open Source Guides are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. They collect best practices from the leading companies engaged in open source development, and aim to help your organization successfully implement and run an open source program office. We expect these guides to be living documents that evolve via community contributions.
+The TODO Group offers a set of OSPO Guides, personas, and Case Studies, as well as a Maturity Model, Annual Surveys, and OSPO 101 Course to help organizations advance in their OSPO journey. These OSPO resources are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. We expect these resources to be living documents that evolve via community contributions.
 
-For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
+* [The Evolution of the OSPO study](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO personas
 
-## Open Source Guides
+* TODO Guides: collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
+
+* [OSPO 101 Course](https://github.com/todogroup/ospo101): covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
+
+* [OSPO Annual Surveys](https://github.com/todogroup/osposurvey): The TODO Group is committed to running this survey on an annual basis moving forward and sharing the results with the wider community. Learn more here.
+
+* Case Studies: Practical Case Studies to learn from OSPOs or similar open source initiatives within organizations.
+
+
+## TODO Guides
 
 To build a successful open source program, start here:
 

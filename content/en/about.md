@@ -4,9 +4,16 @@ title: About
 
 # About the group
 
-Open Source initiatives within organizations faces many challenges, such as educating developers to good open source practices, building policies and infrastructure around the open source projects that matters to them, 
-ensuring high-quality and frequent releases, engaging with developer communities, and contributing back to other projects effectively. Organizations need some guidance to keep advancing in 
-their [OSPO Journey](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
+Open Source initiatives within organizations facee many challenges, such as: 
+
+* Educating developers to good open source practices
+* Building policies and infrastructure around the open source projects that matters to them
+* Ensuring high-quality and frequent releases
+* Engaging with developer communities
+* Contributing back to other projects effectively
+
+Overall, organizations need some guidance to start and keep advancing in 
+their [OSPO Journey](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf).
 
 The community and [General Members](../members) of this group are committed to working together in order to overcome these challenges. We will be sharing experiences, developing best
 practices, and working on common tooling. But we can’t do this alone. If you are willing to advance in your open source journey, we welcome you to [join the community](../community). 

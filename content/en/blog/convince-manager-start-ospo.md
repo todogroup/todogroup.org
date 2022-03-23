@@ -4,7 +4,7 @@ author: jlprat
 date: 2022-03-23
 ---
 
-_This time around we feature Josep PRat ([@jlprat](https://twitter.com/jlprat)) from [Aiven](https://aiven.io/) on how to convince your manager to start an OSPO at your company._
+_This time around we feature Josep Prat ([@jlprat](https://twitter.com/jlprat)) from [Aiven](https://aiven.io/) on how to convince your manager to start an OSPO at your company._
 
 Recently, I was asked by an ex-colleague to explain how they could convince management to create an OSPO at their company. This is a very interesting question, with several possible answers, that I think deserves a proper write down. Here’s my view on the matter:
 

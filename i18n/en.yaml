@@ -3,12 +3,14 @@ hero1:
 hero2:
   other: Develop openly
 hero3:
-  other: For organizations committed to open source.
+  other: For organizations committed to Open Source and Open Source Program Offices (OSPO).
 heroText:
   other: |
-    Does your organization release open source projects? Would you like to improve how you interact with the open source community to better manage and run your projects?
 
-    TODO is an open [group of organizations](../members) who want to collaborate on practices, tools, and other ways to run successful and effective open source projects and programs. [Read more](../about) about the group, or [contact us](../join) to get involved.
+    TODO is an open community of practitioners who aims to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. 
+    TODO Group is formed by its [Community](../community) participants and [General Members](../members).
+
+    [Read more](../about) about the group, join the [community](../community) or [become a supporter](../join) to get involved.
 footerText:
   other: |
     These resources were created in partnership with the TODO Group: the professional open source program networking group at The Linux Foundation. A special thank you to Pam Baker for writing assistance and the open source program managers who contributed their time and knowledge to making these comprehensive guides. Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware. To learn more, visit: [todogroup.org](http://todogroup.org/).

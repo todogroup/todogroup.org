@@ -4,7 +4,7 @@ title: About
 
 # About the group
 
-Open Source initiatives within organizations facee many challenges, such as: 
+Open Source initiatives within organizations face many challenges, such as: 
 
 * Educating developers to good open source practices
 * Building policies and infrastructure around the open source projects that matters to them

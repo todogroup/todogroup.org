@@ -1,5 +1,7 @@
 - name: Adobe
   url: https://www.adobe.com/
+- name: Aiven
+  url: https://www.aiven.io/
 - name: ARM
   url: https://developer.arm.com/open-source
 - name: Autodesk
@@ -32,7 +34,7 @@
   url: https://www.digitalocean.com/
 - name: Dropbox
   url: https://opensource.dropbox.com/
-- name: Deutsche Bahn 
+- name: Deutsche Bahn
   url: https://www.dbsystel.de/dbsystel-en
 - name: eBay
   url: http://ebay.github.io/
@@ -60,7 +62,7 @@
   url: https://github.com/indeedeng
 - name: Intel
   url: https://01.org/
-- name: Juniper	
+- name: Juniper
   url: https://github.com/juniper
 - name: Microsoft
   url: https://www.microsoft.com/en-us/openness
@@ -118,9 +120,9 @@
   url: https://github.com/vmware
 - name: WalmartLabs
   url: https://code.walmartlabs.com
-- name: Western Digital 
+- name: Western Digital
   url: https://www.westerndigital.com
 - name: Wipro
   url: https://github.com/WiproOpenSourcePractice
-- name: Xilinx 
-  url: https://www.xilinx.com/  
+- name: Xilinx
+  url: https://www.xilinx.com/

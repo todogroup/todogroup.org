@@ -4,6 +4,7 @@ permalink: /community/
 ---
 If you are new to TODO Group Community, [this guide](https://github.com/todogroup/governance/blob/main/onboarding/community.md#todo-community-onboarding) should provide helpful onboarding resources.
 
+[Edit this page on GitHub](https://github.com/todogroup/todogroup.org)
 
 # 💬 Communication channels
 
@@ -25,6 +26,7 @@ Are you new to our community? We invite you to join us on the different communic
 
 * [OSPOlogy](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
 * [Europe Sync meetings](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
+* [APAC Sync meetings](https://github.com/todogroup/ospology/discussions/67)
 * [Work Day Activities](https://github.com/todogroup/work-day-activities)
 
 {{< calendar >}}

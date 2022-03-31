@@ -10,7 +10,7 @@ If you are new to TODO Group Community, [this guide](https://github.com/todogrou
 Are you new to our community? We invite you to join us on the different communication Channels:
 
 
-* [TODO Group Slack](https://slack.todogroup.org/)
+* [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-169ok18cz-Pi6tpVHTeW9254d1FpkLew)
 * [TODO Community Mailing List](https://docs.google.com/forms/d/e/1FAIpQLSeU0YGM_IJ6gY8E5IIiwXKD_FZi3kAVc4E9_-3dtTDyKMSjdA/viewform)
 * [OSPO Forum (GH Discussions)](https://github.com/todogroup/ospology/discussions)
 
@@ -28,6 +28,16 @@ Are you new to our community? We invite you to join us on the different communic
 * [Work Day Activities](https://github.com/todogroup/work-day-activities)
 
 {{< calendar >}}
+
+
+📅 Public [link](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com&ctz=Europe%2FMadrid) to this calendar
+
+📥 Get this calendar in [iCal](https://calendar.google.com/calendar/ical/c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com/public/basic.ics) format
+
+📨 Have an event to add? Email info@todogroup.org.
+
+🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
+
 
 ## General Members Sync:
 

@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fe3c42f-494a-4377-9088-8a2d4aad9556/deploy-status)](https://app.netlify.com/sites/todogroup/deploys)
+
 # The TODO group website assets
 
 This repo houses the assets used to build the website for the [TODO Group](https://todogroup.org/) at https://todogroup.org.

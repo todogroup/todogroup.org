@@ -56,6 +56,7 @@ It is intended to be a modularized so the content is reusable in a piecemeal fas
 * [Facebook](casestudies/facebook)
 * [Microsoft](casestudies/microsoft)
 * [National Instruments](casestudies/ni)
+* [Porsche](casestudies/porsche)
 * [Oath](casestudies/oath)
 * [RedHat](casestudies/redhat)
 * [RIT](casestudies/rit)

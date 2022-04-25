@@ -9,6 +9,6 @@ permalink: /join/
 
 Every TODO Group General Member must agree and sign the [charter](https://github.com/todogroup/charter).
 
-If you're interested in joining and support TODO as General Member, please complete the [membership application](https://joinnow.todogroup.org/).
+If you're interested in joining and support TODO as General Member, please complete the [membership application](https://enrollment.lfx.linuxfoundation.org/?project=todogroup).
 
 *Note: To be a TODO Group General Member, you must be a [Linux Foundation member](https://www.linuxfoundation.org/members/join).*

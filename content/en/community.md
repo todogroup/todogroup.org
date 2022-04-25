@@ -82,7 +82,7 @@ You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with a
 
 The [members of this group](/members) of this group at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared with the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
 
-Please take a look at TODO General Member [Onboarding chacklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
+Please take a look at TODO General Member [Onboarding checklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
 
 We welcome you [to join TODO as General Members](/join).
 

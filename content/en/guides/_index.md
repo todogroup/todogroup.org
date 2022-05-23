@@ -1,17 +1,22 @@
 ---
-title: Guides and additional resources
+title: Guides and Resources
 ---
-The TODO Group offers a set of **OSPO Guides**, **OSPO Personas**, and **Case Studies**, as well as a **Maturity Model**, **Annual Surveys**, and **OSPO 101 Course**, to help organizations advance in their OSPO journey. These OSPO resources are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. We expect these resources to be living documents that evolve via community contributions.
+The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**, a **101 Course**, **Annual Surveys**, as well as **Case Studies**, to help organizations advance in their OSPO journey. These OSPO resources are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. We expect these resources to be living documents that evolve via community contributions.
 
-* [The Evolution of the OSPO study](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO personas. People can download the [PDF Version here](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
+* 🚀 [The Evolution of the OSPO study](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO personas. People can download the PDF version in multiple languages:
+    * [English](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
+    * [日本語](https://www.linuxfoundation.jp/wp-content/uploads//2022/05/LFResearch_OSPO_Report-jp.pdf)
+> *Translations are done via community contributions. Please send an email to info@todogroup.org to contribute to other translations*
 
-* **TODO OSPO Guides:** Collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
+* 📝 [TODO OSPO Guides](#ospo-guides): Collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
 
-* [OSPO 101 Course](https://github.com/todogroup/ospo101): Covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
+* 🧭 [OSPO Mind Map](https://ospomindmap.todogroup.org/): An interactive Mind Map that schemes the main Open Source program Office's responsibilities, roles, behavior and team size within the Ecosystem. Project can be found as part of [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap).
 
-* [OSPO Annual Surveys](https://github.com/todogroup/osposurvey): The TODO Group is committed to running this survey on an annual basis moving forward and sharing the results with the wider community. Learn more here.
+* 📚 [OSPO 101 Course](https://github.com/todogroup/ospo101): Covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
 
-* **Case Studies:** Practical Case Studies to learn from OSPOs or similar open source initiatives within organizations.
+* 📈 [OSPO Annual Surveys](https://github.com/todogroup/osposurvey): The TODO Group is committed to running this survey on an annual basis moving forward and sharing the results with the wider community. Learn more here.
+
+* 🔎 [Case Studies](#ospo-case-studies): Practical Case Studies to learn from OSPOs or similar open source initiatives within organizations.
 
 ## OSPO Guides
 
@@ -47,7 +52,7 @@ For open source program management best practices:
 
 It is intended to be a modularized so the content is reusable in a piecemeal fashion.
 
-## Open Source Program Case Studies
+## OSPO Case Studies
 
 * [Autodesk](casestudies/autodesk)
 * [Capital One](casestudies/capitalone)

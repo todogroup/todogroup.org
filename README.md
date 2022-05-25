@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fe3c42f-494a-4377-9088-8a2d4aad9556/deploy-status)](https://app.netlify.com/sites/todogroup/deploys)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Site](https://img.shields.io/badge/Static%20site-HUGO-%23FF00FF)](https://gohugo.io/)
+
 # The TODO group website assets
 
 This repo houses the assets used to build the website for the [TODO Group](https://todogroup.org/) at https://todogroup.org.

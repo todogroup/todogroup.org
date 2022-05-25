@@ -32,19 +32,19 @@ languages:
     footer:
     - title: Home
       link: /
-    - title: Blog
-      link: /blog
-    - title: Guides
-      link: /guides
     - title: About
       link: /about
-    - title: Community
+    - title: 📚 Guides & Resources
+      link: /guides
+    - title: 🙋 Community & Network
       link: /community
-    - title: Members
+    - title: 📝 Blog
+      link: /blog
+    - title: 💚 Members
       link: /members
-    - title: Join
+    - title: 👋 Join
       link: /join
-    - title: Q&A
+    - title: 💬 Q&A
       link: /faq
   ja:
     languageName: 日本語

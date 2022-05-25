@@ -1,5 +1,5 @@
 ---
-title: "Community"
+title: "Community & Network"
 permalink: /community/
 ---
 If you are new to TODO Group Community, [this guide](https://github.com/todogroup/governance/blob/main/onboarding/community.md#todo-community-onboarding) should provide helpful onboarding resources.
@@ -20,14 +20,41 @@ Are you new to our community? We invite you to join us on the different communic
 * Europe Chapter: TODO Group Slack #chapter-europe
 * APAC Chapter: TBD
 
-# 🙋 Meetings and calls
+# 🙋 Meetings and Conferences
 
-## Community:
+## Conferences
 
-* [OSPOlogy](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
-* [Europe Sync meetings](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly)
-* [APAC Sync meetings](https://github.com/todogroup/ospology/discussions/67)
-* [Work Day Activities](https://github.com/todogroup/work-day-activities)
+The global in-person & virtual conferences where those working in open source program offices (or [similar initiatives](https://github.com/todogroup/ospology/discussions/16)) in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face. 
+OSPOCon is presented by the TODO Group and The Linux Foundation and as part of OSSummit event series.
+
+**Upcoming Conferences**
+
+* `🌎 OSPOCon North America 2022:` [June 21-24](https://events.linuxfoundation.org/open-source-summit-north-america/about/ospocon/) • Austin, Texas 🇺🇸 & Virtual
+* `🌍 OSPOCon Europe 2022:` [September 13-16](https://events.linuxfoundation.org/open-source-summit-europe/about/ospocon/) • Dublin, Ireland 🇮🇪 & Virtual
+* `🌏 OSPOCon Japan 2022:` [December 5-6](https://events.linuxfoundation.org/open-source-summit-japan/about/ospocon/) • Yokohama, Japan 🇯🇵 & Virtual
+
+**Past Conferences**
+
+* OSPOCon North America 2021
+* OSPOCon Europe 2021
+    * [🍿 Recording sessions](https://www.youtube.com/watch?v=5ML8EaXV3Vk&list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU&ab_channel=TheLinuxFoundation)
+
+## Meetings & Calls
+
+### Community
+
+* Network & Learning Space
+
+    * **OSPOlogy:** [Global Community Meetings](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
+        * Submitt a [CFP](https://github.com/todogroup/ospology/issues/new/choose)
+    * **Europe Sync:** [Regional Calls](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly) part of TODO Europe Chapter
+    * **APAC Sync:** [Regional Calls](https://github.com/todogroup/ospology/discussions/67) part of TODO APAC Chapter
+
+* Contributor Space
+
+    * [Work Day Activities](https://github.com/todogroup/work-day-activities)
+        * EMEA & APAC
+        * AMER
 
 {{< calendar >}}
 
@@ -41,11 +68,12 @@ Are you new to our community? We invite you to join us on the different communic
 🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
 
 
-## General Members Sync:
+### General Members Sync:
 
 Sometimes, there are community participants with an established OSPO or open source initiative who wish to become General Members. Touchpoint calls are the General Member Sync meetings.
 
 * Touchpoints
+
 
 # 📝 Contribution Guidelines
 
@@ -80,14 +108,14 @@ You can also reach out to [info@todogroup.org](mailto:info@todogroup.org) with a
 
 ## TODO General Member Resources
 
-The [members of this group](/members) at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared to the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
+The [members of this group](/members) of this group at times share sensitive information and use a private mailing list for that type of discussion. Information shared in this channel is later anonymized and shared with the wider OSPO community via [OSPO Discussions](https://github.com/todogroup/ospology/discussions).
 
-Please take a look to TODO General Member [Onboarding chacklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
+Please take a look at TODO General Member [Onboarding checklist](https://github.com/todogroup/governance/blob/main/onboarding/general-member.md) to learn more
 
 We welcome you [to join TODO as General Members](/join).
 
 
-# TODO Steering Committee
+# 🧩 TODO Steering Committee
 
 We elect members to the TODO Group Steering Committee every year. These members are charged with coordinating with the group’s Program Manager to manage day-to-day operations of the group, overseeing all business and marketing matters, helping to create working groups and helping to define the TODO Group community’s strategic goals. [Learn more.](https://github.com/todogroup/governance/blob/master/CHARTER.adoc)
 

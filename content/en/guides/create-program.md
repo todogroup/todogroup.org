@@ -67,7 +67,7 @@ Google runs its open source program office in adherence to three important princ
 
 Much of its efforts to keep the open source ecosystem healthy involve hiring qualified and experienced engineers to work on projects, investing sizable amounts of the company’s money in the open source foundations, groups, and projects that need it, while also regularly sponsoring technology conferences which spread the gospel and usefulness of open source software creation.
 
-It also means developing and running programs like [Google’s Summer of Code](https://summerofcode.withgoogle.com/) which provides opportunities for students at accredited universities and colleges around the world to spend their summers creating code with help from mentors who provide training and guidance.
+It also means developing and running programs like [Google’s Summer of Code](https://summerofcode.withgoogle.com/) which provides opportunities for developers around the world to spend their summers creating code with help from mentors who provide training and guidance.
 
 For Google’s open source program office, the Summer of Code is an example of a program which provides direct benefits for its investments – a stream of potential future developers who can one day come to work for the company, armed with experience and some real-world knowledge of how it does open source development. In the open source world, that same strategy can benefit many other companies through similar open source program office investments in the communities in which they participate.
 

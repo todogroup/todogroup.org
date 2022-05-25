@@ -1,5 +1,5 @@
 ---
-title: "Community"
+title: "Community & Network"
 permalink: /community/
 ---
 If you are new to TODO Group Community, [this guide](https://github.com/todogroup/governance/blob/main/onboarding/community.md#todo-community-onboarding) should provide helpful onboarding resources.
@@ -27,7 +27,7 @@ Are you new to our community? We invite you to join us on the different communic
 The global in-person & virtual conferences where those working in open source program offices (or [similar initiatives](https://github.com/todogroup/ospology/discussions/16)) in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face. 
 OSPOCon is presented by the TODO Group and The Linux Foundation and as part of OSSummit event series.
 
-**Upcomming Conferences**
+**Upcoming Conferences**
 
 * `🌎 OSPOCon North America 2022:` [June 21-24](https://events.linuxfoundation.org/open-source-summit-north-america/about/ospocon/) • Austin, Texas 🇺🇸 & Virtual
 * `🌍 OSPOCon Europe 2022:` [September 13-16](https://events.linuxfoundation.org/open-source-summit-europe/about/ospocon/) • Dublin, Ireland 🇮🇪 & Virtual
@@ -37,6 +37,7 @@ OSPOCon is presented by the TODO Group and The Linux Foundation and as part of O
 
 * OSPOCon North America 2021
 * OSPOCon Europe 2021
+    * [🍿 Recording sessions](https://www.youtube.com/watch?v=5ML8EaXV3Vk&list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU&ab_channel=TheLinuxFoundation)
 
 ## Meetings & Calls
 

@@ -22,7 +22,7 @@ The panelists highlighted the importance of having a matrix of experts (e.g Pors
 
 🧭 **Consider *Lead by Example* a key goal for OSPOs to build trust and thus better adopt open source within the entire organization:**
 
-To build trust within the organization across its different teams, groups or departments, OSPO members should be actively participating in open source projects and communities and has no representation in the ecosystem.
+To build trust within the organization across its different teams, groups or departments, OSPO members should be actively participating in open source projects and communities and have representation in the ecosystem.
 
 For folks willing to listen to the full discussion, the recording session is available on the [LF Youtube channel](https://youtu.be/Z10mYttHWfA) and [landing page](https://linuxfoundation.org/webinars/ospos-in-action/).
 

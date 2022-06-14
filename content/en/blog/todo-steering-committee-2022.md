@@ -12,7 +12,7 @@ Now that the 2021 election has been completed, we are proud to introduce the new
 * [Shilla Saebi](https://twitter.com/ShillaSaebi) - Comcast
 * [Stephen Augustus](https://whois.auggie.dev/) - Cisco
 * [Stephen Jacobs](https://www.linkedin.com/in/itprofjacobs/) - RIT
-* [Thomas Steenbergen](https://twitter.com/tsteenbe) - HERE Technologies
+* [Thomas Steenbergen](https://github.com/tsteenbe) - EPAM
 * [VM (Vicky) Brasseur](https://twitter.com/vmbrasseur) - Wipro
 
 # Meet the Steering Commitee

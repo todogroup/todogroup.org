@@ -65,11 +65,11 @@ In 2020, Stephen co-founded the Inclusive Naming Initiative, a cross-industry gr
 
 Stephen Jacobs is a Professor at the Rochester Institute of Technology and Director of Open@RIT, the school's Open Programs Office. He led the design of their academic minor in Free and Open Source Software and Free Culture. His efforts in teaching FOSS courses began with an Honors Seminar in which students created educational games for the One Laptop per Child XO. His research activities in FOSS have been supported by the Ford Foundation, the Alfred P. Sloan Foundation, Red Hat, Inc and AT&T Inc.
 
-## Thomas Steenbergen - HERE Technologies
+## Thomas Steenbergen - EPAM
 
 **New Member**
 
-Thomas Steenbergen is the Head of Open Source at HERE Technologies with a background in various software technologies. He works with his core and extended teams to improve using and contributing to Open Source projects, and building open source communities. Thomas is also an active open source contributor for many years. He has been contributing to the SPDX specification for software bill of materials since 2015, helping to make it better match what developers find in code. Thomas work on open-sourced review tooling solutions within ClearlyDefined and OSS Review Toolkit projects, and also build wider open source communities as one of the co-founders of the European Chapter of the TODO group and the Open source Tooling Group.
+Thomas Steenbergen is the Head of Open Source at EPAM Systems with a background in various software technologies. He has been helping organizations manage their open source software and supply chain. Thomas is also an active open source contributor for many years. He has been contributing to the SPDX specification for software bill of materials for over 5 years, helping to make it better match what developers find in code and incorporate security vulnerabilities (lead Defects WG). As a core contributor to the OSS Review Toolkit (ORT), he enables highly automated compliance checks in CI/CD by providing easy, open-source & scalable tooling and to share results in open standard (SBoM) formats. He also builds wider open source communities as one of the co-founders of the European Chapter of the TODO group and the OpenChain Open Source Reference Tooling Work Group.
 
 Thomas is a frequent speaker and panellist at various global open source conferences and am always happy to start a conversation around anything open source. I’ve held a variety of technical lead roles over the past 15 years, and have worked in Netherlands, UK and Germany.
 

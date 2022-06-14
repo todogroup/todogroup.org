@@ -126,7 +126,7 @@ We elect members to the TODO Group Steering Committee every year. These members 
 - [Shilla Saebi](https://github.com/shillasaebi), Comcast
 - [Stephen Augustus](https://github.com/justaugustus), Cisco
 - [Stephen Jacobs](https://github.com/itprofjacobs), RIT
-- [Thomas Steenbergen](https://github.com/tsteenbe), HERE Technologies
+- [Thomas Steenbergen](https://github.com/tsteenbe), EPAM
 - [VM (Vicky) Brasseur](https://github.com/vmbrasseur), Wipro
 
 

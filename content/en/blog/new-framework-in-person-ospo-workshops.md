@@ -48,12 +48,12 @@ Participants may be asked to submit their topic before the workshop to accelerat
 * NETWORKING
 
 
-## Interested to becomeing a collaborator?
+## Interested to becoming a collaborator?
 
 We can't do this alone! If you are part of an open source community involved in OSPO-specific topics or an organization willing to help with the workshop planning, schedule and/or provide a space to kick off the first meet-up in Europe, we need your help. Please contact:
 
-Ana Jimenez ana@todogroup.org
-Thomas Steenbergen opensource@steenbe.nl
+* Ana Jimenez ana@todogroup.org
+* Thomas Steenbergen opensource@steenbe.nl
 
 *** 
 

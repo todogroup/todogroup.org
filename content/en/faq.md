@@ -15,7 +15,7 @@ permalink: /faq/
 - [What deliverables can we expect to see from this group?](#what-deliverables-can-we-expect-to-see-from-this-group)
 - [Which are the main communication channels?](#which-are-the-main-communication-channels)
 - [How can I start getting involved in the Community?](#how-can-i-start-getting-involved-in-the-community)
-- [How is the TODO Steering Commitee elected?](#how-is-the-todo-steering-commitee-elected)
+- [How is the TODO Steering Committee elected?](#how-is-the-todo-steering-commitee-elected)
 - [Is the TODO Group a new open source foundation?](#is-the-todo-group-a-new-open-source-foundation)
 - [How can I stay up to date with TODO?](#how-can-i-stay-up-to-date-with-todo)
 
@@ -83,7 +83,7 @@ Our plans include work such as:
 * Tooling & instrumentation that makes it easier to reach and maintain those standards
 * A directory of projects and initiatives from the community that meet some or all of those criteria
 
-TODO resources are open to everyone and available at (TODO Group GitHub repo)[https://github.com/todogroup] under `CC-BY 4.0 Licence`. We encourage people to share their knowledge and help growing this community by adding their contributions to the different TODO initiatives such as:
+TODO resources are open to everyone and available at [TODO Group GitHub repo](https://github.com/todogroup) under `CC-BY 4.0 Licence`. We encourage people to share their knowledge and help growing this community by adding their contributions to the different TODO initiatives such as:
 
 * [OSPOlogy public meetings](https://github.com/todogroup/ospology/tree/main/meetings)
 * [OSPO Discussions](https://github.com/todogroup/ospology/discussions)
@@ -105,9 +105,9 @@ What are the main TODO communication channels and how can the OSPO Community get
 
 ### Public communication channels
 
-* **Public meetings:** [Public meetings](https://community.linuxfoundation.org/todo-group/) are open to **everyone involved in the OSPO industry,** from TODO Members to external organizations, foundations or any other industry partners. The TODO Group currently hosts OSPOlogy as the general meeting, but we are expecting to add new working areas in the near future. Everyone is more than welcome to contribute to OSPOlogy planning, upcomming topics and guest proposals: https://github.com/todogroup/ospology/tree/main/meetings
+* **Public meetings:** [Public meetings](https://community.linuxfoundation.org/todo-group/) are open to **everyone involved in the OSPO industry,** from TODO Members to external organizations, foundations or any other industry partners. The TODO Group currently hosts OSPOlogy as the general meeting, but we are expecting to add new working areas in the near future. Everyone is more than welcome to contribute to OSPOlogy planning, upcoming topics and guest proposals: https://github.com/todogroup/ospology/tree/main/meetings
 
-* **Public TODO slack channel:** [TODO Slack](https://slack.todogroup.org/) channel is a great place to great place to introduce to the community and say hi!
+* **Public TODO slack channel:** [TODO Slack](https://slack.todogroup.org/) channel is a great place to introduce yourself to the community and say hi!
 
 * **OSPO Newsletters:** Stay up to date in Open Source Program Office (OSPO) trends: https://www.getrevue.co/profile/osponews
 
@@ -116,20 +116,20 @@ What are the main TODO communication channels and how can the OSPO Community get
 
 ### Private communication channels
 
-* **Private meetings:** This space is mean for TODO members-only, to share OSPO knowledge in a private sensitive setting. If you are a TODO Member and would like to get involved in these meetings, please contact info@todogroup.org spceifying your membership info.
+* **Private meetings:** This space is meant for TODO members-only, to share OSPO knowledge in a private sensitive setting. If you are a TODO Member and would like to get involved in these meetings, please contact [info@todogroup.org](mailto://info@todogroup.org) specifying your membership info.
 
-* **Private TODO Mailing list:** This space is mean for TODO members-only, to share OSPO knowledge in a private sensitive setting.
+* **Private TODO Mailing list:** This space is meant for TODO members-only, to share OSPO knowledge in a private sensitive setting.
 
 ## How can I start getting involved in the TODO Community?
 
-This is a list of the most useful places where newcommers can start getting involved with the community:
+This is a list of the most useful places where newcomers can start getting involved with the community:
 
 * [TODO Public Slack](https://slack.todogroup.org/) 
 * Monthly Community Meetings
 * [OSPO Discussions](https://github.com/todogroup/ospology/discussions)
 * [GitHub](https://github.com/todogroup)
 
-## How is the TODO Steering Commitee elected?
+## How is the TODO Steering Committee elected?
 
 The TODO Steering Committe sets the policy and strategic goals for TODO Group. The Steering Commitee is elected by the TODO Members on a yearly basis.
 https://github.com/todogroup/governance#todo-steering-committee-tsc

@@ -15,7 +15,7 @@ The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**,
     * [English](https://ospomindmap.todogroup.org/)
     * [日本語](https://ospomindmap.todogroup.org/jp)
     
-> *Translations are done via community contributions. Please send an email to info@todogroup.org to contribute to other translations*
+> *Translations are done via community contributions via [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap) *
 
 * 📚 [OSPO 101 Course](https://github.com/todogroup/ospo101): Covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
 

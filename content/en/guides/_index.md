@@ -10,7 +10,12 @@ The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**,
 
 * 📝 [TODO OSPO Guides](#ospo-guides): Collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
 
-* 🧭 [OSPO Mind Map](https://ospomindmap.todogroup.org/): An interactive Mind Map that schemes the main Open Source program Office's responsibilities, roles, behavior and team size within the Ecosystem. Project can be found as part of [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap).
+* 🧭 [OSPO Mind Map](https://ospomindmap.todogroup.org/): An interactive Mind Map that schemes the main Open Source program Office's responsibilities, roles, behavior and team size within the Ecosystem. Project can be found as part of [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap). People can find an interactive version in multiple languages:
+
+    * [English](https://ospomindmap.todogroup.org/)
+    * [日本語](https://ospomindmap.todogroup.org/jp)
+    
+> *Translations are done via community contributions. Please send an email to info@todogroup.org to contribute to other translations*
 
 * 📚 [OSPO 101 Course](https://github.com/todogroup/ospo101): Covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
 

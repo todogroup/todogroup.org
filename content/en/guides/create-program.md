@@ -1,5 +1,5 @@
 ---
-title: How to create an open source program
+title: How to create an open source program office
 ---
 
 A central open source program office is a designated place where open source is supported, nurtured, shared, explained, and grown inside a company. With such an office in place, businesses can establish and execute on their open source strategies in clear terms, giving their leaders, developers, marketers, and other staff the tools they need to make open source a success within their operations.

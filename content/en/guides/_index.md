@@ -34,6 +34,7 @@ To build successful Open Source Program Offices or similar Open Source initiativ
 
 For open source program management best practices:
 
+* 🆕 [Contirbuting and Launching open source projects](outbound-oss)
 * [Using Open Source Code](using-open-source)
 * [Participating in Open Source Communities](participating)
 * [Recruiting Open Source Developers](recruiting-developers)

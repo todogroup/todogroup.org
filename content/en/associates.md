@@ -3,7 +3,7 @@ title: "Associates"
 permalink: /associates/
 ---
 
-TODO Group community is open to all and is formed by its Community participants (including OSPO Associates) and General Members. Sometimes, there are community participants who wish to show their organization efforts on fostering OSPO adoption and enable the worldwide community of practitioners.
+TODO Group community is open to all and is formed by its Community participants (including OSPO Associates) and General Members. Sometimes, there are community participants who wish to show their organization efforts on fostering OSPO adoption and enabling the worldwide community of practitioners.
 
 * Community participants coming from an organization with an established OSPO or similar open source initiative can support TODO by becoming [General Members](https://todogroup.org/join/).
 
@@ -15,7 +15,7 @@ TODO Group community is open to all and is formed by its Community participants 
 
 The OSPO Associate is a TODO Program that aims to work collaboratively across communities that are helping the OSPO movement to build the most comprehensive OSPO solutions infrastructure and network.
 
-Entities decide to apply for OSPO Associate Program for many reasons, inlcuding:
+Entities decide to apply for OSPO Associate Program for many reasons, including:
 
 * Brand value in demonstrating their open source efforts to help the OSPO movement
 * Brand value in demonstrating their support to TODO mission and community
@@ -25,7 +25,7 @@ Entities decide to apply for OSPO Associate Program for many reasons, inlcuding:
 
 As an `OSPO Associate`, your organization needs to be focused on [OSPO-related topics](https://ospomindmap.todogroup.org/) and/or provide OSPO services & products. An OSPO Associate may not necessarily have an OSPO, but aims to collaborate with TODO to improve OSPO adoption and education, resources, and initiatives.
 
-Entities who can apply for OSPO Associate includes:
+Entities who can apply for OSPO Associate include:
 
 * Open Source Communities and or projects
 * Academia
@@ -33,9 +33,9 @@ Entities who can apply for OSPO Associate includes:
 * Non-governmental organizations (NGOs)
 * Non-profit Organizations (NPO)
 
-> Note: if your organization (e.g academia, goverment, NGO) has a formal and recognized open source startegy, center of exellence around open source or Open Source Program Office (OSPO), please consider [supporting and sponsoring TODO as General Member](https://todogroup.org/members/) to be entitled to General Member benefits.
+> Note: if your organization (e.g academia, government, NGO) has a formal and recognized open source strategy, center of excellence around open source or Open Source Program Office (OSPO), please consider [supporting and sponsoring TODO as General Member](https://todogroup.org/members/) to be entitled to General Member benefits.
 
-Being promoted as an `OSPO Associate`, means that your organization is committed to collaborate with other peers to enrich the OSPO resources, tools and services infrastructure and offer better assistance to OSPO.
+Being promoted as an `OSPO Associate`, means that your organization is committed to collaborating with other peers to enrich the OSPO resources, tools, and services infrastructure and offer better assistance to OSPO.
 
 **Requirements ➡️** Fulfill the [TODO OSPO Associate submission checklist](https://github.com/todogroup/ospolandscape/issues/new/choose)
 
@@ -45,7 +45,7 @@ Benefits include:
 
 * TODO OSPO Associate Badge
 * Appear at OSPO Landscape as [OSPO Associate](https://landscape.todogroup.org/card-mode?category=ospo-associate&grouping=category)
-* Promotion at TODO website and main communication channels (TODO mailing lists, newsletter and social media channels)
+* Promotion at TODO website and main communication channels (TODO mailing lists, newsletter, and social media channels)
 * Brand value in demonstrating an active commitment to the OSPO movement
 * Thanked at TODO conferences and initiatives
 * TODO support to co-create content
@@ -54,7 +54,7 @@ Benefits include:
 
 Requests will be done through [OSPO Landscape project](https://github.com/todogroup/ospolandscape). If you think your entity meet the criteria to be an OSPO Associate:
 
-(1) Open a new `TODO OSPO Associate - Request` [issue](https://github.com/todogroup/ospolandscape/issues/new/choose). Please, make sure you fulfil the pre-submission checklist and answer all the questions required within the issue.
+(1) Open a new `TODO OSPO Associate - Request` [issue](https://github.com/todogroup/ospolandscape/issues/new/choose). Please, make sure you fulfill the pre-submission checklist and answer all the questions required within the issue.
 
 (2) Wait until the TODO PM checks if the organization meets the criteria and approves / declines the request
 
@@ -71,4 +71,4 @@ There are a lot of initiatives & resources where an OSPO Associate can get invol
 If you would like to know where your specific project initiatives could fit in the TODO programs or would like to know more details, please contact ana@todogroup.org and she will schedule a Sync call to answer any questions.
 
 
-*Note: OSPO Associate Program is different from TODO Group General Membership and not entitled to genral member benefits.*
+*Note: OSPO Associate Program is different from TODO Group General Membership and not entitled to general member benefits.*

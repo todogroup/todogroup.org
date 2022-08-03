@@ -5,8 +5,6 @@ date: 2022-08-04
 ---
 
 
-# Top OSPO resources to explore in August
-
 At TODO we are taking a short break from our [monthly community calls](https://github.com/todogroup/ospology#-community) during August. The good news is that this might be a great chance to
 start learning something new from a community! These are some of the most popular resources powered by TODO, helpful sources of information to read 
 through and maybe be inspired by open source leaders involved in OSPOs.
@@ -32,9 +30,9 @@ An interactive OSPO Mind Map version can be found at:[https://ospomindmap.todogr
 Gathers different [OSPO and OS Policies](https://github.com/todogroup/policies) from various organizations such as eBay, GitLab, Google, 
 Linux Foundation, FINOS, Indeed, SUSE, United States Government Services Administration (GSA), Zalando, Yahoo, and more!
 
-## 4️⃣ OSS Tooling List for OSPOs
+## 4️⃣ OSS Management Tooling List
 
-This list identifies packages and projects that are found helpful for managing open source projects and offices in key areas such as:
+[This list](https://github.com/todogroup/awesome-ospo) identifies packages and projects that are found helpful for managing open source projects and offices in key areas such as:
 
 - Code Reviews
 - Continuous Integration / Continuous Delivery
@@ -53,8 +51,7 @@ This list identifies packages and projects that are found helpful for managing o
 
 ## 5️⃣ OSPO Jobs
 
-Contains a list of published job descriptions related to open source program office (OSPO) roles. People can use these examples when 
-creating a job description of your organization and to get a sense of the types of roles found in OSPOs.
+Contains a [list of published job descriptions related to open source program office (OSPO) roles](https://github.com/todogroup/job-descriptions). People can use these examples when creating a job description of your organization and to get a sense of the types of roles found in OSPOs.
 
 ## Bonus point: OSPONews
 

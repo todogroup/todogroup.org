@@ -210,7 +210,7 @@ This additional effort may hold organizations off to contribute small bug fixes 
 
 A DCO in contrast to a CLA is a much more lightweight procedure. It was introduced to enhance the confidence that contributions to the Linux kernel are made "legally correct" by the contributors. The [DCO version 1.1](https://developercertificate.org/) is used by many OSS projects.
 
-The main difference of a DCO compared to a CLA is, that a DCO is not a contract, it is a kind of attest of the specific contributor that they are entitled to submit a concrete contribution. All the effort which has to be spent to get a CLA signed and maintained is not needed. The only tasks which have to be carried out are:
+The main difference of a DCO compared to a CLA is, that a DCO is not a contract, it is a kind of attestation of the specific contributor that they are entitled to submit a concrete contribution. All the effort which has to be spent to get a CLA signed and maintained is not needed. The only tasks which have to be carried out are:
 
 * Evaluation of the DCO by the "Legal department"
 * Evaluation by the "IP department"

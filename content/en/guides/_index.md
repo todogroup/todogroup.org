@@ -3,9 +3,11 @@ title: Guides and Resources
 ---
 The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**, a **101 Course**, **Annual Surveys**, as well as **Case Studies**, to help organizations advance in their OSPO journey. These OSPO resources are developed by the TODO Group in collaboration with The Linux Foundation and the larger open source community. We expect these resources to be living documents that evolve via community contributions.
 
-* 🚀 [The Evolution of the OSPO study](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO personas. People can download the PDF version in multiple languages:
-    * [English](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
-    * [日本語](https://www.linuxfoundation.jp/wp-content/uploads//2022/05/LFResearch_OSPO_Report-ja3.pdf)
+* 🚀 OSPO Studies and Reports
+  * [A Deep Dive into Open Source Program Offices](https://www.linuxfoundation.org/tools/a-deep-dive-into-open-source-program-offices/) Includes OSPO characteristics, structures, roles, responsibilities, and challenges.
+  * [The Evolution of the OSPO](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO Archetypes. People can download the PDF version in multiple languages:
+      * [English](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
+      * [日本語](https://www.linuxfoundation.jp/wp-content/uploads//2022/05/LFResearch_OSPO_Report-ja3.pdf)
 > *Translations are done via community contributions. Please send an email to info@todogroup.org to contribute to other translations*
 
 * 📝 [TODO OSPO Guides](#ospo-guides): Collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).

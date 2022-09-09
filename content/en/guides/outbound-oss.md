@@ -2,6 +2,9 @@
 title: A Guide to Outbound Open Source Software
 ---
 
+> ⭐️ People can also download version 1.0 Guide as PDF [here](https://github.com/anajsana/todogroup.org/files/9534555/TODO_OutboundOSS_Report.pdf)
+
+
 - [Introduction](#introduction)
   * [Maturity levels](#maturity-levels)
   * [Motivation for open source contribution](#motivation-for-open-source-contribution)

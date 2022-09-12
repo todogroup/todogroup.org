@@ -226,7 +226,7 @@ Since the DCO version 1.1 is the "standard" the "Legal"- and "IP department" onl
 
 The more complex the business environment in which the code to publish was developed, the more stakeholders need to be involved. The picture below shows a procedure that involves all functions, even in a complex setup.
 
-![contributions](../img/template-contribs.png)
+![contributions](/img/guides/outbound-oss1.png)
 
 Abbreviations used:
 
@@ -245,7 +245,7 @@ The following approaches are suited for such developers:
 * Major to major release model
 * Full trust model
 
-![small-contributions](../img/small-contributions.png)
+![small-contributions](/img/guides/outbound-oss2.png)
 
 #### Small contributions model or trivial contributions
 
@@ -332,13 +332,13 @@ Launching a new OSS project is comparable to a product introduction and it is, a
 
 When thinking about to start an own OSS project there are several phases you should consider:
 
-![oss-projcet-process](../img/LaunchinOSSProject.PNG)
+![oss-projcet-process](/img/guides/outbound-oss-3.png)
 
 ## Project life cycle
 
 The life cycle of an open source project describes the stages in which the project evolves, from its conception to its retirement or end of life stage. Typically, a project originates to solve a specific problem. It may become obsolete either because the problem does not exist anymore or because other projects are better suited to solve the problem. The figure below shows the different stages an open source project may undergo.
 
-![Typical lifecycle of an open source project](../img/OSS-lifecycle.png)
+![Typical lifecycle of an open source project](/img/guides/outbound-oss4.png)
 
 ### Planning or Concept Phase
 

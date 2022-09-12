@@ -330,7 +330,7 @@ Launching a new OSS project is comparable to a product introduction and it is, a
 
 When thinking about to start an own OSS project there are several phases you should consider:
 
-![oss-projcet-process](/img/guides/outbound-oss-3.png)
+![oss-project-process](/img/guides/outbound-oss3.png)
 
 ## Project life cycle
 

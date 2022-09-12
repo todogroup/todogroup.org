@@ -14,13 +14,13 @@ title: A Guide to Outbound Open Source Software
     + [Attract, grow and retain talents](#attract-grow-and-retain-talents)
     + [Give back and keep open source sustainable](#give-back-and-keep-open-source-sustainable)
 - [How to contribute to OSS projects](#how-to-contribute-to-OSS-projects)
-  * [Define your open source goal and strategy](#define-your-open-source-goal-and-strategy)  
+  * [Define your open source goal and strategy](#define-your-open-source-goal-and-strategy)
   * [Establish open source guiding principles and processes](#establish-open-source-guiding-principles-and-processes)
     + [Guiding principle](#guiding-principles)
     + [Responsibility: decision rests with unit](#responsibility-decision-rests-with-unit)
     + [General structure and scope of the process](#general-structure-and-scope-of-the-process)
     + [Process for expressing company approval for contributions](#process-for-expressing-company-approval-for-contributions)
-  * [Contribution models](#contribution-models)    
+  * [Contribution models](#contribution-models)
 - [Starting open source projects](#starting-open-source-projects)
   * [Motivation](#motivation)
   * [Project life cycle](#project-life-cycle)
@@ -43,7 +43,7 @@ title: A Guide to Outbound Open Source Software
     + [Credential scanning](#credential-scanning)
     + [Quality criteria / CII Best Practices Badge Program](#quality-criteria-cii-best-practices-badge-program)
     + [Repository Linting](#repository-linting)
-  * [Build an open source metrics strategy when releasing to open source projects](#build-an-open-source-metrics-strategy-when-releasing-to-open-source-projects) 
+  * [Build an open source metrics strategy when releasing to open source projects](#build-an-open-source-metrics-strategy-when-releasing-to-open-source-projects)
 
 
 # Introduction
@@ -648,7 +648,7 @@ For further information about tools for tracking project health, check this dedi
 - CII = Core Infrastructure Initiative
 - CLA = Contributor License Agreement
 - CCLA = Corporate Contributor License Agreement
-- CHAOSS = Community Health Analytics Open Source Software 
+- CHAOSS = Community Health Analytics Open Source Software
 - CNCF = Cloud Native Computing Foundation
 - DCO = Developers Certificate of Origin
 - ECC = Export Control and Customs
@@ -680,7 +680,7 @@ For further information about tools for tracking project health, check this dedi
 * [CII Best Practices Badge (LF Core Infrastructure Initiative)](https://bestpractices.coreinfrastructure.org/en)
 * [DCO version 1.1](https://developercertificate.org/)
 * [ICLA](https://www.apache.org/licenses/icla.pdf)
-* [CCLA](https://www.apache.org/licenses/cla-corporate.pdf) 
+* [CCLA](https://www.apache.org/licenses/cla-corporate.pdf)
 * [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 
 # Appendix

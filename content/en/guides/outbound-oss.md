@@ -326,7 +326,7 @@ This can be achieved with mentoring, good practice guides, or trainings which co
 
 ## Motivation
 
-There are many good reasons to start own open source projects. See the [introduction](01-introduction.md#motivation-for-open-source-contribution) for some of the motivations for doing this.
+There are many good reasons to start own open source projects. See the [introduction](#motivation-for-open-source-contribution) for some of the motivations for doing this.
 
 Launching a new OSS project is comparable to a product introduction and it is, at first hand, a software development project - there is no difference to an internal software development project concerning planning, budget, staffing, testing etc. - the only difference is that everything happens in the public area. Be aware that publicly available source code is the “business card” of the organization to the software  ecosystem, and it is also the “business card” of its maintainers.
 
@@ -464,7 +464,7 @@ When running an open source project you need to decide how you are going to chec
 
 * **Contributor License Agreement (CLA)** - A CLA is an additional agreement between the contributor and the project which gives the project additional rights on top of the rights given by the license. If people contribute on behalf of a company, where the company holds the rights on the work of the contributor, the company has to sign the CLA. There is a variety of different CLAs in use, some mostly confirm the rights already given by the license, some give additional rights such as being able to release the code under a different license, for example when the code is also released under a proprietary license as part of a commercial offering. With a CLA, rights are collected at a central place, so changing the license, or rereleasing the code as part of a product with a different license, is possible. The asymmetry of the agreement, which gives the project more rights than its contributors, can impose a bigger barrier for contributions. Requiring a corporate CLA can also be an insurmountable barrier, especially for large corporations, because the effort and legal implications of checking and signing a CLA might outweigh the benefits of contributing.
 
-You should have a policy for which of these ways you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling. To get an impression about the additional effort and difficulties especially large corporations face you can check [contributions-to-existing-projects](./02-contributions-to-existing-projects.md#process-for-expressing-company-approval-for-contributions)
+You should have a policy for which of these ways you use when. "Inbound=Outbound" is a pragmatic way which can work for most projects. The DCO is a good way to make the contribution process more explicit, especially for larger projects with diverse contributors. The CLA makes contributions more difficult and requires additional administrational work and tooling. To get an impression about the additional effort and difficulties especially large corporations face you can check the section about [contributions to existing projects](#process-for-expressing-company-approval-for-contributions).
 
 ### Project governance
 

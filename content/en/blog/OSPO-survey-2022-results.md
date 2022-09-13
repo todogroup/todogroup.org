@@ -4,9 +4,10 @@ author: todogroup
 date: 2022-09-12
 ---
 
-The TODO Group is happy to announce the fourth annual Open Source Program Management Survey results that examines the prevalence  and outcomes of open source programs, including the key benefits and barriers to adoption. We have open sourced all of our survey results, raw data and graphics: https://github.com/todogroup/survey/tree/master/2022.
+The TODO Group is proud to announce the fifth annual Open Source Program Management Survey results that examines the prevalence and outcomes of open source programs, including the key benefits and barriers to adoption worldwide. We have open sourced all of our survey results, raw data and graphics in the dedicated repo: https://github.com/todogroup/survey/tree/master/2022.
 
-> ⭐️ People can also download the resport as PDF here
+> ⭐️ People can also [download the report as PDF](https://github.com/todogroup/todogroup.org/files/9557802/OSPOSurveyResults_2022.pdf)
+
 
 ## 🚀 Key Findings
 
@@ -61,18 +62,17 @@ used to gauge “community citizenship”. However, 55% of the study did not kno
 
 ## 🙏 Acknowledgements
 
-This report would not have been possible without the contributions of many individuals in our community. In particular, we thank all of our survey 
-partners who provided a combination of both funding and in-kind support to ensure the survey’s translation and widespread distribution.
+This report would not have been possible without the contributions of many individuals in our community. In particular, we thank all of our survey partners who provided a combination of both funding and in-kind support to ensure the survey’s translation and widespread distribution, including Vmware, Salesforce, api7.ai, Futurewei, Ovio, X-lab, FINOS, and LF Training and Certification.
 
-We also thank our awesome partners across the TODO community who gave us feedback and ideas to shape the 2022 survey (see individual feedback via OSPO Survey GH repo Issues and PR). 
-In addition, we thank those individuals and organizations who willingly distributed the survey, including InnerSource Commons, SustainOSS, LF Energy, 
-Open Forum Europe, and OpenChain.
+We also thank our awesome OSPO practitioners across the TODO community who gave us feedback and ideas to shape the 2022 survey (see individual feedback via OSPO Survey GH repo [Issues](https://github.com/todogroup/osposurvey/issues?q=is%3Aissue+is%3Aopen+label%3A%22community+feedback%22) and [PR](https://github.com/todogroup/osposurvey/pull/99)). 
+
+In addition, we thank those open source communities and organizations who willingly distributed the survey, including InnerSource Commons, SustainOSS, LF Energy, Open Forum Europe, and OpenChain.
 
 ## About TODO Group
 
 The TODO Group is committed to advancing the state of open source program management across the industry and will be performing this survey on an annual basis. 
-We look forward to community feedback on this survey and how we can improve it in the future.
+We look forward to get [community feedback](https://github.com/todogroup/osposurvey/issues) on this survey and how we can improve it in the future.
 
-If you’re interested in starting an open source program or collaborating with your peers in open source program management, please consider joining the [TODO Group Community](https://todogroup.org/community/)
+If you’re interested in starting an open source program or collaborating with your peers in open source program management, please consider joining the [TODO Group Community](https://todogroup.org/community/).
  
  

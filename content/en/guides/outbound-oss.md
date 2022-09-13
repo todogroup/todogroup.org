@@ -2,7 +2,8 @@
 title: A Guide to Outbound Open Source Software
 ---
 
-> ⭐️ People can also download version 1.0 Guide as PDF [here](https://github.com/todogroup/todogroup.org/files/9546077/TODO_OutboundOSS_Report_v4.pdf)
+> ⭐️ People can also download version 1.0 Guide as PDF [here](https://github.com/todogroup/todogroup.org/files/9560697/TODO_OutboundOSS_Report_v6.pdf)
+
 > 
 > ✍️ The TODO Community is grateful to receive corrections and suggestions for improvements via [this repo](https://github.com/todogroup/outbound-oss), which contains TODO guide’s updated documentation with the most recent version
 

@@ -46,7 +46,7 @@ OSPOCon is presented by the TODO Group and The Linux Foundation and as part of O
 * Network & Learning Space
 
     * **OSPOlogy:** [Global Community Meetings](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
-        * Submitt a [CFP](https://github.com/todogroup/ospology/issues/new/choose)
+        * Submit a [CFP](https://github.com/todogroup/ospology/issues/new/choose)
     * **Europe Sync:** [Regional Calls](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly) part of TODO Europe Chapter
     * **APAC Sync:** [Regional Calls](https://github.com/todogroup/ospology/discussions/67) part of TODO APAC Chapter
 

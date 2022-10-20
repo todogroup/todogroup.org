@@ -32,6 +32,8 @@ languages:
     footer:
     - title: Home
       link: /
+    - title: 🤝 Code of Conduct
+      link: https://github.com/todogroup/.github/blob/master/CODE_OF_CONDUCT.md
     - title: About
       link: /about
     - title: 📚 Guides & Resources

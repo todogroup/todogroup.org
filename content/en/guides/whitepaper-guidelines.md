@@ -5,7 +5,7 @@ title: TODO Whitepaper Guidelines
 The TODO Whitepapers inform about specific open source topics demanded by the OSPO community, in order to help the community 
 to understand an issue, provide more documentation, or solve a problem.
 
-# How to contirbute
+# How to contribute
 
 There are many ways you can directly contribute to a TODO whitepapaer:
 

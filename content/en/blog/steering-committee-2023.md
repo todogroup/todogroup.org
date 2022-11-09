@@ -4,14 +4,13 @@ author: todogroup
 date: 2022-11-08
 ---
 
-TODO Steering Committee is composed of global Open Source and OSPO practitioners from a 
-diverse range of industries. Candidate elections take place every year, and 2022 was no exception. 
-Keep reading to learn more about our new Steering Committee Members in TODO Project!
+TODO strategic goals and project governance is overseen by a Steering Committee elected on an annual basis. We are pleased to share that several individuals will be joining the TODO Steering Committee in 2023. Their addition will help to continue to TODO's mission in Open Source Program Office's public knowledge-sharing and adoption worldwide.
 
-## Steering Committee Mission and Responsibilities
 
-The mission of the Steering Committee at TODO is to define strategic goals and oversee project governance (e.g adopting and maintaining policies, rules, and project procedures) as well as review and approve new programs and initiatives that make use of the TODO Group name, logo, or branding. They meet monthly with the TODO Program Manager to coordinate and manage the day-to-day operations of the group that needs strategic assistance and resolution.
-If you want to learn more about the Steering Committee, please check out the TODO Governance repo.
+## 👋　Welcome to New Steering Committee Members
+
+TODO woudld like to congratulate and welcome to the Steering Committee three new members. We are grateful and excited to have this group of individuals join the board and bring their unique talents, expertise and perspectives in order to further TODO's vision of promoting a community and vendor-neutral space where Open Source Program Offices Best practices and resources are openly available, shared, and re-used to create knowledge. Below are bios of each of our newest members.
+
 
 ### Leslie Hawthorn
 An internationally known open source strategist and community engagement expert, Leslie Hawthorn has spent 
@@ -88,8 +87,9 @@ Congratulations to the new members and thank you to all the 2023 TODO Steering C
 
 ![steering-committee](/img/blog/steering-committee.png)
 
+## 💚　Farewell to Outgoing Steering Committee Members
+
 Last but not least, the TODO Group would like to extend a big ‘thanks’ to the outgoing Steering 
-Committee members: Dawn Foster, Stephen Jacobs and Stephen August. Thanks to their guidance and expertise in 
-OSPOs, they have made outstanding contributions to the project’s governance and the community.
+Committee members that served in 2022: Dawn Foster, Stephen Jacobs and Stephen August. Thanks to their guidance and expertise in OSPOs, they have made outstanding contributions to the project’s governance and the community.
 
 

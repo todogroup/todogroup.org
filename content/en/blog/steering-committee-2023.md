@@ -1,7 +1,7 @@
 ---
 title: "Meet the 2023 TODO Steering Committee"
 author: todogroup
-date: 2022-08-11
+date: 2022-11-08
 ---
 
 TODO Steering Committee is composed of global Open Source and OSPO practitioners from a 

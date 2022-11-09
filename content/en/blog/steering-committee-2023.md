@@ -4,12 +4,12 @@ author: todogroup
 date: 2022-11-08
 ---
 
-TODO strategic goals and project governance is overseen by a Steering Committee elected on an annual basis. We are pleased to share that several individuals will be joining the TODO Steering Committee in 2023. Their addition will help to continue to TODO's mission in Open Source Program Office's public knowledge-sharing and adoption worldwide.
+TODO strategic goals and project governance is overseen by a Steering Committee elected on an annual basis. We are pleased to share that several individuals will be joining the TODO Steering Committee in 2023. Their addition will help to continue to TODO's mission in Open Source Program Office's knowledge-sharing and adoption worldwide.
 
 
 ## 👋　Welcome to New Steering Committee Members
 
-TODO woudld like to congratulate and welcome to the Steering Committee three new members. We are grateful and excited to have this group of individuals join the board and bring their unique talents, expertise and perspectives in order to further TODO's vision of promoting a community and vendor-neutral space where Open Source Program Offices Best practices and resources are openly available, shared, and re-used to create knowledge. Below are bios of each of our newest members.
+TODO woudld like to congratulate and welcome to the Steering Committee three new members. We are grateful and excited to have this group of individuals join the board and bring their unique talents, expertise and perspectives in order to further TODO's vision of nurturing an open community and vendor-neutral space where Open Source Program Offices Best practices and resources are openly available, shared, and re-used to create knowledge. Bellow are bios of each of our newest members.
 
 
 ### Leslie Hawthorn
@@ -90,6 +90,12 @@ Congratulations to the new members and thank you to all the 2023 TODO Steering C
 ## 💚　Farewell to Outgoing Steering Committee Members
 
 Last but not least, the TODO Group would like to extend a big ‘thanks’ to the outgoing Steering 
-Committee members that served in 2022: Dawn Foster, Stephen Jacobs and Stephen August. Thanks to their guidance and expertise in OSPOs, they have made outstanding contributions to the project’s governance and the community.
+Committee members that served in 2022: 
+
+* Dawn Foster
+* Stephen Jacobs
+* Stephen August
+
+Thanks to their guidance and expertise in open source and OSPOs, they have made outstanding contributions to the project’s governance and the community.
 
 

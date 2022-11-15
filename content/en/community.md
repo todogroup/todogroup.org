@@ -23,15 +23,6 @@ Are you new to our community? We invite you to join us on the different communic
 * Europe Chapter: Slack channel #chapter-europe
 * APAC Chapter: Slack channel #chapter-apac
 
-# ⭐️ Structure
-
-| Brand | Audience | Purpose | Definition | Docs |
-| --- | --- | --- | --- |  --- |
-| OSPOlogy| Community | Adoption, Contribution and Network | Hosts the OSPO resources, regional chapters, contribution spaces and open community communication to discuss open source program offices| <li>[OSPOlogy Repo](https://github.com/todogroup/ospology)</li><li>#General slack</li><li>Community Mailing List</li> | 
-| OSPOCon | Community | Adoption and Network | here those working in open source program offices in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face | [Linux Foundation Events](https://events.linuxfoundation.org/) | 
-| TODO GH Project | Community | Adoption, Contribution and Network | All TODO resources and tools are open and free to use and contribute. Source code and content are hosted at TODO Group's GitHub Organization under CC-BY 4.0 Licence | [TODO GH Organization](https://github.com/todogroup) |
-| Touchpoint | General Members | Network | Private space for TODO Members to share sensitive information about their organizations. Information is later anonymized and shared with the wider OSPO community via [OSPOlogy Discussions](https://github.com/todogroup/ospology/discussions)| <li>Touchpoint calls</li><li>#private-generalmembers slack</li><li>General Member Mailing List</li> | 
-
 # 🙋 Meetings and Conferences
 
 ## Meetings & Calls
@@ -118,6 +109,17 @@ Please take a look at TODO General Member [Onboarding checklist](https://github.
 
 We welcome you [to join TODO as General Members](/join).
 
+# ⭐️ Structure
+
+***
+
+| 💚 Brand | 🙋‍♀️ Audience | 🎯 Purpose | 🔍 Definition | 📚Docs |
+| --- | --- | --- | --- |  --- |
+| **OSPOlogy**| Community | Adoption, Contribution and Network | Hosts the OSPO resources, regional chapters, contribution spaces and open community communication to discuss open source program offices| <li>[OSPOlogy Repo](https://github.com/todogroup/ospology)</li><li>#General slack</li><li>Community Mailing List</li> | 
+| **OSPOCon** | Community | Adoption and Network | here those working in open source program offices in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face | [Linux Foundation Events](https://events.linuxfoundation.org/) | 
+| **TODO GH Project** | Community | Adoption, Contribution and Network | All TODO resources and tools are open and free to use and contribute. Source code and content are hosted at TODO Group's GitHub Organization under CC-BY 4.0 Licence | [TODO GH Organization](https://github.com/todogroup) |
+| **Touchpoint** | General Members | Network | Private space for TODO Members to share sensitive information about their organizations. Information is later anonymized and shared with the wider OSPO community via [OSPOlogy Discussions](https://github.com/todogroup/ospology/discussions)| <li>Touchpoint calls</li><li>#private-generalmembers slack</li><li>General Member Mailing List</li> | 
+
 
 # 🧩 TODO Steering Committee
 
@@ -133,15 +135,6 @@ We elect members to the TODO Group Steering Committee every year. These members 
 - [Thomas Steenbergen](https://github.com/tsteenbe), EPAM
 - [VM (Vicky) Brasseur](https://github.com/vmbrasseur), Wipro
 
-
-
-# 🌏 TODO Chapters
-
-**TODO EU Chapter**
-
-The TODO EU chapter was formed by TODO Members based in Europe. This chapter was created with the aim of working together to improve OSPO adoption and education within Europe and discuss with the broader community the challenges European organizations face when implementing an open source program.
-
-TODO EU Chapter Members organize public monthly sync meetings open to everyone. If you would like to participate, you can join the EMEA monthly Sync meetings [here](https://community.linuxfoundation.org/todo-group-europe/)
 
 
 

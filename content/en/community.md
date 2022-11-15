@@ -113,7 +113,7 @@ We welcome you [to join TODO as General Members](/join).
 
 ***
 
-| 💚 Brand | 🙋‍♀️ Audience | 🎯 Purpose | 🔍 Definition | 📚Docs |
+| Brand | Audience | Purpose | Definition | Docs |
 | --- | --- | --- | --- |  --- |
 | **OSPOlogy**| Community | Adoption, Contribution and Network | Hosts the OSPO resources, regional chapters, contribution spaces and open community communication to discuss open source program offices| <li>[OSPOlogy Repo](https://github.com/todogroup/ospology)</li><li>#General slack</li><li>Community Mailing List</li> | 
 | **OSPOCon** | Community | Adoption and Network | here those working in open source program offices in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face | [Linux Foundation Events](https://events.linuxfoundation.org/) | 

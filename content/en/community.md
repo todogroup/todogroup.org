@@ -69,17 +69,19 @@ OSPOCon is presented by the TODO Group and The Linux Foundation and as part of O
 
 **Upcoming Conferences**
 
-* `🌏 OSPOCon Japan 2022:` [December 5-6](https://events.linuxfoundation.org/open-source-summit-japan/about/ospocon/) • Yokohama, Japan 🇯🇵 & Virtual
+* `OSPOCon Europe 2023:` [September 19-23](https://events.linuxfoundation.org/open-source-summit-europe/) • Bilbao, Spain & Virtual
 
 **Past Conferences**
 
+* OSPOCon Japan 2022
+    * [🍿 Recording sessions](https://youtu.be/McAy3_JiB08)
 * OSPOCon North America 2022
 * OSPOCon Europe 2022
 * OSPOCon North America 2021
 * OSPOCon Europe 2021
     * [🍿 Recording sessions](https://www.youtube.com/watch?v=5ML8EaXV3Vk&list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU&ab_channel=TheLinuxFoundation)
 
-## OSPOlogy CFP
+## OSPOlogy Webinars CFP
 
 If you have a story to share, please add your topic to the following [CFP form](https://github.com/todogroup/ospology/issues/new/choose)
 
@@ -111,14 +113,7 @@ We welcome you [to join TODO as General Members](/join).
 
 # ⭐️ Structure
 
-***
-
-| Brand | Audience | Purpose | Definition | Docs |
-| --- | --- | --- | --- |  --- |
-| **OSPOlogy**| Community | Adoption, Contribution and Network | Hosts the OSPO resources, regional chapters, contribution spaces and open community communication to discuss open source program offices| <li>[OSPOlogy Repo](https://github.com/todogroup/ospology)</li><li>#General slack</li><li>Community Mailing List</li> | 
-| **OSPOCon** | Community | Adoption and Network | here those working in open source program offices in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face | [Linux Foundation Events](https://events.linuxfoundation.org/) | 
-| **TODO GH Project** | Community | Adoption, Contribution and Network | All TODO resources and tools are open and free to use and contribute. Source code and content are hosted at TODO Group's GitHub Organization under CC-BY 4.0 Licence | [TODO GH Organization](https://github.com/todogroup) |
-| **Touchpoint** | General Members | Network | Private space for TODO Members to share sensitive information about their organizations. Information is later anonymized and shared with the wider OSPO community via [OSPOlogy Discussions](https://github.com/todogroup/ospology/discussions)| <li>Touchpoint calls</li><li>#private-generalmembers slack</li><li>General Member Mailing List</li> | 
+Learn more about TODO structure wiht [this mindmap](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md#todo-groups-structure)
 
 
 # 🧩 TODO Steering Committee
@@ -128,10 +123,10 @@ We elect members to the TODO Group Steering Committee every year. These members 
 [**Steering Commitee Members**](https://github.com/todogroup/governance#todo-steering-committee-tsc)
 
 - [Ashley Wolf](https://github.com/ashleywolf), GitHub
-- [Dawn Foster](https://github.com/geekygirldawn), VMware
+- [Leslie Hawthorn](), RedHat
 - [Shilla Saebi](https://github.com/shillasaebi), Comcast
-- [Stephen Augustus](https://github.com/justaugustus), Cisco
-- [Stephen Jacobs](https://github.com/itprofjacobs), RIT
+- [Annania Melaku](), F5 
+- [Georg Kunz](https://github.com/gkunz), Ericsson
 - [Thomas Steenbergen](https://github.com/tsteenbe), EPAM
 - [VM (Vicky) Brasseur](https://github.com/vmbrasseur), Wipro
 

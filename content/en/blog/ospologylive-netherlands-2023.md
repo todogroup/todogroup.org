@@ -1,7 +1,7 @@
 ---
 title: "Bringing local and global open source voices together in Netherlands"
 author: todogroup
-date: 2023-12-24
+date: 2023-01-24
 ---
 
 # Takeaways from the first OSPOlogyLive Share & Learn in 2023

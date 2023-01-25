@@ -11,7 +11,8 @@ was full of insightful discussions and contributions around open source strategy
 main blockers to open source adoption in the public sector, Open Source Program Office (OSPO) key metrics, 
 minimum viable OSPO pattern definition, and InnerSource best practices to ease open source adoption.*
 
-<img src="https://user-images.githubusercontent.com/43671777/214574039-7bb62b47-af3e-4275-b883-df1324315eca.jpg" width="380" height="300" />
+
+![ospologylivenetherlands-banner](https://user-images.githubusercontent.com/43671777/214576773-a0c9ae67-69e1-423f-92e3-2bb3d1181992.jpg)
 
 
 ## About OSPOlogyLive Share & Learn 
@@ -29,7 +30,7 @@ Sector. OSPOlogy co-organizers were formed by representatives from OpenChain, SP
 and TODO Group projects and communities.
 
 > “By building an open source ecosystem, we contribute to a digital and sustainable energy system in the future” 
-> - OSPO at Alliander
+> OSPO at Alliander
 
 ### Audience
 

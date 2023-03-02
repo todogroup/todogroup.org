@@ -69,10 +69,10 @@ Scope of OSPO Local Meetups:
 Here's what you need to do:
 
 * Be a representative from an open source community, project, or foundation involved in the OSPO movement (e.g., adoption, day-to-day operations, etc).
-* Submit an OSPO Associates request to use our logo brand in future OSPOlogyLive micro-conferences. You can find more information about the OSPO Associates program at todogroup.org/associates.
-* Wait for our OSPOlogyLive organizers to review and approve your request. Approval will happen if 2/3 of current OSPOlogy Live organizers approves.
+* Submit an [OSPO Associates request](https://github.com/todogroup/ospolandscape/issues/new/choose) to use the open source project's logo brand in future OSPOlogyLive micro-conferences. You can find more information about the OSPO Associates program at todogroup.org/associates.
+* Wait for the currecnt OSPOlogyLive organizers to review and approve your request. Approval will happen if 2/3 of current OSPOlogy Live organizers approves.
 
-## Conclussion
+## Conclusion
 
 We believe that these updates and resources will be valuable to all potential hosts and organizers, and we're excited to see what kind of amazing 
 micro-conferences will come out of OSPOlogyLive 2023. If you have any questions or feedback, please don't hesitate to reach out to us at ospologylive-organizers@lists.todogroup.org.

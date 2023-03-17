@@ -63,11 +63,11 @@ languages:
     - title: ガイド
       link: /guides
   zh-CN:
-    languageName: 汉語
+    languageName: 简体中文
     title:"// TODO: Talk openly, develop openly"
     contentDir: content/zh-CN
     weight: 2
-    description:「TODO: talk openly, develop openly (开放的探讨，开诚布公。)」
+    description:「TODO: talk openly, develop openly (开放交流，开放开发。)」
     longTitle:"TODO Group // TODO: Talk openly, develop openly"
     footer:
     - title: 企业开源

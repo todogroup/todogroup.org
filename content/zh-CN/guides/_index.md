@@ -32,27 +32,27 @@ TODO 小组提供了一个**成熟度模型**、一系列**指南**、一份**�
 
 要建立成功的开源项目办公室或类似开源计划，请从这里开始：
 
-* [如何建立开源计划](create-program)
-* [度量你的开源计划](measuring)
-* [开源计划的管理工具](management-tools)
-* [OSPO职业发展管理](career-development)
+* [如何建立开源计划](/guides/create-program)
+* [度量你的开源计划](/guides/measuring)
+* [开源计划的管理工具](/guides/management-tools)
+* [OSPO职业发展管理](/guides/career-development)
 
 开源项目管理最佳实践：
 
-* 🆕 [贡献和启动开源项目](outbound-oss)
-* [使用开源代码](using-open-source)
-* [参与开源社区](participating)
-* [招聘开源开发者](recruiting-developers)
-* [开始一个开源项目](starting)
-* [开源阅读清单](open-source-reading-list)
-* [提升开源开发影响力](impact)
-* [终止一个开源项目](shutting-down)
-* [建设开源社区领导力](building-leadership)
-* [制定开源战略](strategy)
-* [推广开源项目](marketing-open-source-projects)
-* [建立一个有包容性的开源社区](diversity-inclusion)
-* [组织和管理开源活动](organizing-and-managing-open-source-events)
-* [创建开源商业生态系统](os-commercial-ecosystem)
+* 🆕 [贡献和启动开源项目](/guides/outbound-oss)
+* [使用开源代码](/guides/using-open-source)
+* [参与开源社区](/guides/participating)
+* [招聘开源开发者](/guides/recruiting-developers)
+* [开始一个开源项目](/guides/starting)
+* [开源阅读清单](/guides/open-source-reading-list)
+* [提升开源开发影响力](/guides/impact)
+* [终止一个开源项目](/guides/shutting-down)
+* [建设开源社区领导力](/guides/building-leadership)
+* [制定开源战略](/guides/strategy)
+* [推广开源项目](/guides/marketing-open-source-projects)
+* [建立一个有包容性的开源社区](/guides/diversity-inclusion)
+* [组织和管理开源活动](/guides/organizing-and-managing-open-source-events)
+* [创建开源商业生态系统](/guides/os-commercial-ecosystem)
 
 
 ## Open Source Program Office (OSPO) 101
@@ -65,20 +65,20 @@ TODO 小组提供了一个**成熟度模型**、一系列**指南**、一份**�
 
 ## OSPO 案例研究
 
-* [Autodesk](casestudies/autodesk)
-* [Capital One](casestudies/capitalone)
-* [Comcast](casestudies/comcast)
-* [Dropbox](casestudies/dropbox)
-* [Facebook](casestudies/facebook)
-* [Microsoft](casestudies/microsoft)
-* [National Instruments](casestudies/ni)
-* [Porsche](casestudies/porsche)
-* [Oath](casestudies/oath)
+* [Autodesk](/guides/casestudies/autodesk)
+* [Capital One](/guides/casestudies/capitalone)
+* [Comcast](/guides/casestudies/comcast)
+* [Dropbox](/guides/casestudies/dropbox)
+* [Facebook](/guides/casestudies/facebook)
+* [Microsoft](/guides/casestudies/microsoft)
+* [National Instruments](/guides/casestudies/ni)
+* [Porsche](/guides/casestudies/porsche)
+* [Oath](/guides/casestudies/oath)
 * [RedHat](casestudies/redhat)
-* [RIT](casestudies/rit)
-* [Salesforce](casestudies/salesforce)
-* [SAP](casestudies/sap)
-* [Uber](casestudies/uber)
+* [RIT](/guides/casestudies/rit)
+* [Salesforce](/guides/casestudies/salesforce)
+* [SAP](/guides/casestudies/sap)
+* [Uber](/guides/casestudies/uber)
 
 如果你的开源办公室也希望增加一个案例研究，请发送一个提交请求！
 

@@ -1,7 +1,7 @@
 ---
 title: "New Study Highlights the Business Value of Open Source Program Offices"
 author: todogroup
-date: 2023-03-15
+date: 2023-03-27
 ---
 
 *Why are Open Source Program Offices (OSPOs) valuable from a business perspective?* That's the question addressed in the latest report from the TODO Group. 

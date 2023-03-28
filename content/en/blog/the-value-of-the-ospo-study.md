@@ -8,8 +8,8 @@ date: 2023-03-27
 The study explores the different value propositions of OSPOs and shares recommendations and provide insights that helps to to understand, measure, and communicate 
 their value to stakeholders, regulators, and other staff members within the organization. 
 
-It draws on perspectives from OSPO and open source leaders around the world and from 
-various industries and segments, to provide a comprehensive overview of the value of OSPOs.
+It draws on perspectives from OSPO and open source leaders from Europe, Asia, and North America in a variety of industries, 
+including two public universities.
 
 ![infographic](/img/blog/infographic-study-value-ospo.png)
 
@@ -17,3 +17,28 @@ The report covers several key areas, including the motivations behind establishi
 required for OSPOs (the different hats of the OSPO), the top KPIs that OSPOs measure (including sustaining contributors and project success), and the importance of OSPO sustainability and project health.
 
 If you're interested in learning more about the business value of OSPOs, we encourage you to read the full report. You can download it here: https://www.linuxfoundation.org/research/business-value-of-ospo
+
+## Acknowledgments
+
+* Carlos Maltzahn (University of California Santa Cruz OSPO)
+* Christine Abernathy (F5 OSPO)
+* Chris Xie (Futurewei OSPO)
+* Cornelius Schumacher (DB OSPO)
+* Duane O'Brein (Indeed OSPO)
+* Georg Kunz (Ericsson OSPO)
+* Hiro Fukuchi (Sony OSPO)
+* Jesus Gonzalez-Barahona (Universidad Rey Juan Carlos FOSS Office)
+* Josep Prat (Aiven OSPO)
+* Kimberly Craven (Red Hat OSPO)
+* Leslie Hawthorn (Red Hat OSPO)
+* Natalie Vlatko (Wayfair OSPO)
+* Per Ploug (Spotify OSPO)
+* Suzane Ambiel (VMWare OSPO)
+
+
+## Authors
+
+* Emily Omier, Positioning & Messaging Consultant, Emily Omier Consulting
+* Chris Aniszczyk, CTO, Cloud Native Computing Foundation
+* Ana Jiménez Santamaría, OSPO Program Manager, TODO Group
+

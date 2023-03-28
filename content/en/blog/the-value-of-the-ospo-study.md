@@ -9,7 +9,9 @@ The study explores the different value propositions of OSPOs and shares recommen
 their value to stakeholders, regulators, and other staff members within the organization. 
 
 It draws on perspectives from OSPO and open source leaders around the world and from 
-various industries, to provide a comprehensive overview of the value of OSPOs.
+various industries and segments, to provide a comprehensive overview of the value of OSPOs.
+
+![infographic](img/blog/infographic-study-value-ospo.png)
 
 The report covers several key areas, including the motivations behind establishing OSPOs, the primary challenges faced by OSPOs, the common skills 
 required for OSPOs (the different hats of the OSPO), the top KPIs that OSPOs measure (including sustaining contributors and project success), and the importance of OSPO sustainability and project health.

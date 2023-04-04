@@ -8,6 +8,7 @@ The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**,
   * [The Evolution of the OSPO](https://linuxfoundation.org/tools/the-evolution-of-the-open-source-program-office-ospo/): Includes an OSPO maturity model, practical implementation from noted OSPO programs across regions and sectors, and a set of OSPO Archetypes. People can download the PDF version in multiple languages:
       * [English](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)
       * [日本語](https://www.linuxfoundation.jp/wp-content/uploads//2022/05/LFResearch_OSPO_Report-ja3.pdf)
+      * [中文](https://openevangel.com/yidaoshi/the-evolution-of-the-ospo/content)
 > *Translations are done via community contributions. Please send an email to info@todogroup.org to contribute to other translations*
 
 * 📝 [TODO OSPO Guides](#ospo-guides): Collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
@@ -16,6 +17,7 @@ The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**,
 
     * [English](https://ospomindmap.todogroup.org/)
     * [日本語](https://ospomindmap.todogroup.org/jp)
+    * [中文](https://ospomindmap.todogroup.org/cn)
     
 > *Translations are done via community contributions via [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap)*
 

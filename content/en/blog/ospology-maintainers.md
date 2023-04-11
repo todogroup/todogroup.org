@@ -1,10 +1,12 @@
 ---
-title: "Introducing our new OSPOlogy Maintaner"
+title: "Introducing our new OSPOlogy Maintainer"
 author: todogroup
 date: 2023-04-10
 ---
 
 We are thrilled to announce a new maintainer of the OSPOlogy project. 
+
+![ospology-maintainer](/img/blog/ospology-maintainer-cover.png) 
 
 ## 📚 About OSPOlogy Repo
 

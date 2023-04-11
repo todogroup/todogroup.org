@@ -1,5 +1,5 @@
 ---
-title: "Introducing our new OSPOlogy Maintainer"
+title: "Introducing a New OSPOlogy Maintainer"
 author: todogroup
 date: 2023-04-10
 ---
@@ -15,14 +15,14 @@ communication to discuss the status of open source program offices across region
 like the [OSPO Book](https://github.com/todogroup/ospology/tree/main/ospo-book), [OSPO MindMap](https://ospomindmap.todogroup.org/), 
 [OSPONews](https://github.com/todogroup/ospology/tree/main/newsletter) or the [OSPO Model](https://github.com/todogroup/ospology/tree/main/ospo-model/en). We are excited about the future 
 of the OSPOlogy project and look forward to continuing to work together with the [OSPOlogy Contibutors](https://github.com/orgs/todogroup/teams/ospology-contributors), TODO Group Members, 
-OSPO Associates and wider open source communiy to promote open source education and best practices within organizations worldwide.
+OSPO Associates and wider open source community to promote open source education and best practices within organizations worldwide.
 
 ## 👋 Meet the Maintainer
 
-Sourav is a seasoned open source program manager, maintainer, and community builder. Currently leading the OpenPrivacyTech Initiative, 
+[Sourav](https://github.com/souravcipher) is a seasoned open source program manager, maintainer, and community builder. Currently leading the OpenPrivacyTech Initiative, 
 a nonprofit open source organization aimed at democratizing privacy tech and 
 privacy-enhancing technologies, Sourav has been an avid open source enthusiast and advocate of the open source movement since the 
-beginning of his tech journey. His passion for open source management and curiosity about OSPOs led him to join the TODO Group 
+beginning of his tech journey. His passion for open source management and curiosity about OSPOs led him to join the TODO 
 community. These days Sourav is contributing to the OSPOlogy project at TODO Group and the ISPO working group at InnerSource 
 Commons.
 

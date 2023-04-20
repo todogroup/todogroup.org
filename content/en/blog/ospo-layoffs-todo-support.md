@@ -4,7 +4,7 @@ author: todogroup
 date: 2023-04-19
 ---
 
-If you're one of the people affected by these layoffs, there are a couple of resources you should know about. 
+If you're one of the people affected by layoffs, there are a couple of resources you should know about. 
 The TODO community has specific channels and ways to keep people informed of the most recent job offerings 
 related to OSPOs and Open Source in organizations:
 

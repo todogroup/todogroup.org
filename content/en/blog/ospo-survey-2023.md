@@ -22,14 +22,14 @@ The main aim is to provide insight into:
 
 ## 🙋‍♀️ How to Participate
 
-The OSPO survey should take no more than 15 minutes of your time. The survey is available in English, Chinese, and Japanese. 
+The OSPO survey should take no more than 15 minutes of your time. The survey is available in English and will be soon translated in Chinese and Japanese. 
 Please participate now; we intend to close the survey in mid-July. Privacy and confidentiality are important to us. Neither participant names, nor their company names, will be published in the final results.
 
 To take the 2023 OSPO Survey, please click the button below:
 
 * [English](https://www.research.net/r/SD6K27F)
-* [Japanese]()
-* [Chinese]()
+* [Japanese]() - Soon
+* [Chinese]() - Soon
 
 
 

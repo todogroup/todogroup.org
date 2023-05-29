@@ -28,8 +28,8 @@ Please participate now; we intend to close the survey in mid-July. Privacy and c
 To take the 2023 OSPO Survey, please click the button below:
 
 * [English](https://www.research.net/r/SD6K27F)
-* [Japanese]() - Soon
-* [Chinese]() - Soon
+* [日本語](https://www.research.net/r/S95X7PD?lang=ja)
+* [中文](https://www.research.net/r/S95X7PD?lang=zh-tw)
 
 
 

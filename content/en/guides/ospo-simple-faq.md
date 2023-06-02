@@ -1,5 +1,5 @@
 ---
-title: Open Source Program Office (OSPO) Simple FAQ
+title: Open Source Program Office (OSPO) Easy FAQ
 ---
 
 The OSPO Simple FAQ (Work in Progress) addresses key aspects of establishing and running an Open Source Program Office (OSPO), clarifying fundamental concepts and offering practical insights. 

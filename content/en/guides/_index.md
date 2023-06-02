@@ -31,6 +31,7 @@ The TODO Group offers a **Maturity Model**, a set of **Guides**, a **Mind Map**,
 
 To build successful Open Source Program Offices or similar Open Source initiatives, start here:
 
+* 🆕 [OSPO Simple FAQ](ospo-simple-faq)
 * [How to Create an Open Source Program](create-program)
 * [Measuring Your Open Source Program](measuring)
 * [Tools for Managing Your Open Source Program](management-tools)

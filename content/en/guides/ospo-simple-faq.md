@@ -19,7 +19,7 @@ and the TODO Group. The original version is being documented in Japanese as part
 
 ## 📝 Documentation
 
-* [Download OSPO Simple FAQ in Japanese (Work in Progress)](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA.pdf)
+* [Download OSPO Easy FAQ in Japanese (Work in Progress)](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA.pdf)
 * [Download OSPO Simple FAQ in English (Work in Progress)](https://github.com/todogroup/todogroup.org/files/11635329/OSPO_SimpleQA_en.pdf)
 
 

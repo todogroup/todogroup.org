@@ -11,7 +11,7 @@ This FAQ aims to be a go-to resource for navigating the world of open source and
 
 ![source: ospo easy faq cover](/img/guides/easy-faq-ospo.png)
 
-The OSPO Simple FAQ is still a work in progress. The efforts are being made by members from the Japan OSPO Local Meetup in Japanese, with the support of [OpenChain](https://www.openchainproject.org/) Japan WG 
+The OSPO Easy FAQ is still a work in progress. The efforts are being made by members from the Japan OSPO Local Meetup in Japanese, with the support of [OpenChain](https://www.openchainproject.org/) Japan WG 
 and the TODO Group. The original version is being documented in Japanese as part of the bi-weekly OSPO Japan Local Meetups, and the activity is facilitated by Kiyoshi Owada.
 
 * To participate in the meetings, people can [join the online community platform](https://community.linuxfoundation.org/events/details/lfhq-ospo-local-meetup-japan-japanese-speaking-presents-9th-japan-ospo-local-meetup-supported-by-todo-group-and-openchain-japan-wg/)

@@ -34,6 +34,11 @@ This site is built using the [Hugo](https://gohugo.io) static site generator and
 brew install hugo
 ```
 
+You'll also need to pull in the theme:
+```
+git submodule update --init --recursive
+```
+
 ## Running the site locally
 
 If you want to edit the content of the site locally:

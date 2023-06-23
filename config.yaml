@@ -1,6 +1,7 @@
 baseURL: https://todogroup.org
 enableRobotsTXT: true
 contentDir: content/en
+theme: hugo-dot-org
 disableKinds:
 - RSS
 - taxonomy

@@ -2,6 +2,7 @@
 title: FAQ
 description: Frequently Asked Questions
 weight: 12
+aliases: /faq
 ---
 
 **Table of contents**

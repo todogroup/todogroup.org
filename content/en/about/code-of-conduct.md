@@ -2,6 +2,7 @@
 title: Code of Conduct
 description: Values that make TODO a welcoming and safe community
 weight: 10
+aliases: /code-of-conduct
 ---
 
 

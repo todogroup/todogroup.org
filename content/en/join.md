@@ -1,6 +1,5 @@
 ---
-title: "Join"
-permalink: /join/
+title: Join
 ---
 
 # Interested in joining the TODO Group as General Member?

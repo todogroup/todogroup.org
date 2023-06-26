@@ -1,5 +1,7 @@
 ---
-title: About
+title: About TODO Group
+description: The mission of the project and its community
+weight: 2
 ---
 
 # About the group

@@ -1,6 +1,7 @@
 ---
-title: "Associates"
-permalink: /associates/
+title: Associates
+description: Projects, communities & foundations supporting TODO and OSPO
+weight: 8
 ---
 
 TODO Group community is open to all and is formed by its Community participants (including OSPO Associates) and General Members. Sometimes, there are community participants who wish to show their organization efforts on fostering OSPO adoption and enabling the worldwide community of practitioners.

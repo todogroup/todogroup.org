@@ -1,6 +1,7 @@
 ---
-title: "Code of Conduct"
-permalink: /code-of-conduct/
+title: Code of Conduct
+description: Values that make TODO a welcoming and safe community
+weight: 10
 ---
 
 

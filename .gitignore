@@ -2,7 +2,7 @@
 data/assetHashes.json
 node_modules/
 public/
-resources/
+/resources/
 static/css/style-*.css
 .sass-cache/
 .hugo_build.lock

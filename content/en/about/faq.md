@@ -1,6 +1,7 @@
 ---
-title: "FAQ"
-permalink: /faq/
+title: FAQ
+description: Frequently Asked Questions
+weight: 12
 ---
 
 **Table of contents**

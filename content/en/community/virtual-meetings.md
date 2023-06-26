@@ -1,6 +1,7 @@
 ---
-title: "Community & Network"
-permalink: /community/
+title: Virtual Meetings
+description: Join OSPOlogy monthly webinars and working group meetings
+weight: 6
 ---
 
 [Edit this page on GitHub](https://github.com/todogroup/todogroup.org)

@@ -2,7 +2,7 @@
 title: Join
 ---
 
-# Interested in joining the TODO Group as General Member?
+## Interested in joining the TODO Group as General Member?
 
 [TODO Group Community](https://todogroup.org/community/) is open to all. Sometimes, there are community participants with an established OSPO or open source initiative who wish to become a General Member.
 

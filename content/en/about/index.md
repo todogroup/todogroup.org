@@ -4,8 +4,6 @@ description: The mission of the project and its community
 weight: 2
 ---
 
-# About the group
-
 Open Source initiatives within organizations face many challenges, such as: 
 
 * Educating developers to good open source practices

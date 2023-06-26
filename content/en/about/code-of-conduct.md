@@ -5,9 +5,6 @@ weight: 10
 aliases: /code-of-conduct
 ---
 
-
-# 📖 TODO Group Code of Conduct
-
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our

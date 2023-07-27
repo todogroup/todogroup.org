@@ -49,7 +49,7 @@ The responsibilities of a program office are varied. These include:
 
 For every company, the role of the open source program office will likely be custom-configured based on its business, products, and goals. There is no broad template for building an open source program that applies across all industries — or even across all companies in a single industry. That can make its creation a challenge, but you can learn lessons from other companies and bring them together to fit your own organization’s requirements.
 
-> “There isn’t a one size fits all model. I can’t stand up in front of a crowd and say, ’this is how you should do it,'” – [Jeff McAffer](https://twitter.com/jeffmcaffer), director of the [Open Source Programs Office at Microsoft](https://opensource.microsoft.com/resources/office).
+> “There isn’t a one size fits all model. I can’t stand up in front of a crowd and say, ’this is how you should do it,'” – [Jeff McAffer](https://twitter.com/jeffmcaffer), director of the [Open Source Programs Office at Microsoft](https://opensource.microsoft.com/program/).
 
 Microsoft has been working over the last several years to create and refine its own open source approach. With tens of thousands of employees in a wide range of business units, Microsoft’s dedicated open source program office works to assist developers, marketing teams and others who are engaging with open source for cloud services, hardware and software products, games, content, media, and other product lines. Each division requires different assistance based on its individual business models and engagement scenarios, making it impossible to serve them all with the same offerings.
 

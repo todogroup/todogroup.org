@@ -4,11 +4,7 @@ author: todogroup
 date: 2017-03-21
 ---
 
-Last month, the TODO Group led a track at the [Open Source Leadership Summit (OSLS)](http://events17.linuxfoundation.org/events/open-source-leadership-summit)
-which featured a variety of talks dedicated to open source program management:
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">via our track at <a href="https://twitter.com/hashtag/lfosls?src=hash">#lfosls</a>: &quot;Open source @ scale: 10,000 engineers and counting&quot; <a href="https://t.co/tG0BFJpCZj">https://t.co/tG0BFJpCZj</a> <a href="https://t.co/sGJYeWVsSm">pic.twitter.com/sGJYeWVsSm</a></p>&mdash; TODO Group (@todogroup) <a href="https://twitter.com/todogroup/status/835172058166349824">February 24, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+Last month, the TODO Group led a track at the [Open Source Leadership Summit (OSLS)](http://events17.linuxfoundation.org/events/open-source-leadership-summit) which featured a variety of talks dedicated to open source program management:
 
 Listed below are some of slides from the TODO track at the OSLS:
 

@@ -24,7 +24,6 @@ Please check the [TODO Guides Contributing Guidelines](https://todogroup.org/gui
 
 Please check the [TODO Whitepaper Guidelines](https://todogroup.org/guides/whitepaper-guidelines/)
 
-
 ## 🧩 Building the site
 
 This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [Netlify](https://netlify.com). In order to build the site, you'll need to install Hugo:
@@ -39,7 +38,13 @@ You'll also need to pull in the theme:
 git submodule update --init --recursive
 ```
 
+- which theme is used
+- how to update the theme
+- what files you should edit to customise the look
+
 ## Running the site locally
+
+TODO: Requires update as of 15th August 2023
 
 If you want to edit the content of the site locally:
 

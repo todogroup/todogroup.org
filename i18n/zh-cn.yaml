@@ -2,14 +2,35 @@ hero1:
   other: 开放交流
 hero2:
   other: 开放开发
-hero3:
-  other: 为了致力于开源和开源项目办公室（OSPO）的组织。
-heroText:
-  other: |
-    TODO 是一个面向从业者的开放社区，他们致力于创建和共享知识，在实践、工具和其他方式上进行合作，以成功有效地运行开源项目办公室或类似的开源计划。
-    TODO 小组由[社区](../community)参与者和[普通会员](../members)组成。 
-    [了解更多](../about) 小组信息, 请加入[社区](../community) 或 [成为支持者](../join) 参与其中。
-footerText:
-  other: |
-    这些资源是与TODO小组合作创建的，TODO小组是Linux基金会的专业开源项目网络小组。特别感谢Pam Baker的写作帮助，以及为制作这些全面指南贡献时间和知识的开源项目经理。参与公司包括 Autodesk、Comcast、Dropbox、Facebook、谷歌、英特尔、微软、网飞、Oath（雅虎+AOL）、Red Hat、Salesforce、三星和 VMware 。欲了解更多信息，请访问：[todogroup.org](http://todogroup.org/)。
-
+subhero:
+  other: 致致力于开源和开源项目办公室（OSPO）的组织。
+explainerText:
+  other: TODO是一个开放的实践者社区，旨在创建和分享知识，合作开展实践、工具，以及运行成功且有效的开源项目办公室或类似的开源倡议的其他方式。TODO团队由其[社区](../community)的参与者和[普通成员](../members)组成。
+explainerButton:
+  other: 关于我们
+sectionTitle:
+  other: 参与其中
+sectionTitle1:
+  other: 加入我们的社区
+sectionText1:
+  other: 开源项目办公室的实践者引领组织的开源采纳
+sectionButton1:
+  other: 加入社区
+sectionTitle2:
+  other: 成为OSPA助理
+sectionText2:
+  other: 支持TODO使命并帮助OSPO运动的开源社区、项目和基金会
+sectionButton2:
+  other: 参与其中
+sectionTitle3:
+  other: 成为普通成员
+sectionText3:
+  other: 支持TODO使命和OSPO采纳的致力于开源的组织
+sectionButton3:
+  other: 成为支持者
+landscapeTitle:
+  other: OSPO景观
+landscapeText:
+  other: OSPO景观绘制了OSPO生态系统，包括采纳组织和OSPO团队及组织内开源专业人员使用的工具
+landscapeButton:
+  other: 探索景观

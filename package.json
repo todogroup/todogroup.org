@@ -1,0 +1,33 @@
+{
+  "name": "dot-org-hugo-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none.js",
+  "scripts": {
+      "build": "hugo --theme=dot-org-hugo-theme",
+      "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+      "dev": "hugo serve --logLevel info --configDir=config --themesDir=../.. --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/cncf/dot-org-hugo-theme"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+      "url": "https://github.com/cncf/dot-org-hugo-theme/issues"
+  },
+  "homepage": "https://github.com/cncf/dot-org-hugo-theme#readme",
+  "dependencies": {
+      "autoprefixer": "^10.4.15",
+      "hugo-extended": "^0.117.0",
+      "netlify-cli": "^16.0.2",
+      "postcss": "^8.4.27",
+      "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+      "prettier": "^3.0.2",
+      "prettier-plugin-go-template": "^0.0.15"
+  }
+}

@@ -142,7 +142,9 @@ Simply put, open source is a community effort and anything you do that pulls you
 
 Becoming a leader in a collaborative environment requires considerable people skills and a willingness to see no work as beneath your rank.
 
-> “It is as simple as noticing that something needs to be done, and doing it – filing a bug, answering a question, offering to sit in the booth at a conference.” – Jeff Osier-Mixon, Open Source Community Manager at Intel, speaking at Open Source Leadership Summit 2017.
+> “It is as simple as noticing that something needs to be done, and doing it – filing a bug, answering a question, offering to sit in the booth at a conference.” 
+>
+> -– Jeff Osier-Mixon, Open Source Community Manager at Intel, speaking at Open Source Leadership Summit 2017.
 
 And, of course, it requires significant technical skills in open source and the audacity in boldly using them – but only after you’ve studied the lay of the land, understood the group dynamics, and done some of the dirty work yourself.
 

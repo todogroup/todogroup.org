@@ -1,8 +1,8 @@
 ---
 title: Managing Career Development within OSPOs
 ---
-> ⭐️ People can also download the guide infographic as PDF [here](https://github.com/todogroup/todogroup.org/files/9714409/managing.career.development.within.OSPOs.infographic-1-2.pdf)
 
+*People can also download the guide infographic as PDF [here](https://github.com/todogroup/todogroup.org/files/9714409/managing.career.development.within.OSPOs.infographic-1-2.pdf)*
 
 Open Source Program Offices (OSPO) provide distinct value for businesses. But it is the distinctive nature of the work that makes OSPO professionals appear highly specialized or their job role difficult to categorize into traditional role definitions. Further, the industry has a lack of consensus on job titles and job descriptions between OSPO professionals, community managers and developer relations professionals, with similar roles being more or less highly prized depending upon which business is doing the hiring. Combined, these issues can make recruiting junior professionals into OSPOs more challenging, and defining an upward career path for senior talent more of an art than a science. 
 

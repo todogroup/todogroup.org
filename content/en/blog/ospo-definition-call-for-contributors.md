@@ -22,6 +22,7 @@ Before the final merge and review from our Steering Committee, we welcome open s
 (PR) by requesting changes](https://github.com/todogroup/ospodefinition.org/pull/9) throughout the month of May.
 
 Thank you for your support in improving the OSPO definition and making it more inclusive and relevant to today's open source landscape.
+
 The [OSPO Definition](https://github.com/todogroup/ospodefinition.org) is available on GitHub under CC-BY-SA 4.0 and available for anyone to reference.
 
-> At the end of the day, each OSPO is custom-configured based on its particular organizational culture and goals.
+At the end of the day, each OSPO is custom-configured based on its particular organizational culture and goals.

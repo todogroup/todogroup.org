@@ -1,12 +1,9 @@
 ---
 title: "Learnings from the first OSPO and Open Source for Organizations Conference"
-author: anajsana95
+author: anajsana
 date: 2021-10-14
 ---
 *Leading figures from Open Source gathered at OSPOCon and OSPOCon Europe to discuss the new OSPO Era challenges and ways to help the Open Source movement*
-
-&nbsp;
-
 
 OSPOCon has demonstrated to be a key networking space to learn and connect with OSPO professionals across organizations: Attendants were able to learn from open source leaders who shared their experiences on ways to establish and run an OSPO, the status of emerging open source initiatives raising within organizations across industries, as well as the evolution of OSPOs worldwide.
 
@@ -14,7 +11,7 @@ Both conferences brought insightful conversations from Open Source Initiatives i
 
 &nbsp;
 
-![OSPOCon](/img/ospoconeurope.jpg)
+![OSPOCon](/img/blog/ospoconeurope.jpg)
 
 &nbsp;
 
@@ -30,9 +27,7 @@ Topics ranged from **ways to help medium and small companies to execute open sou
 
 OSPOCon offered a hybrid format (in-person and virtual experience) to attendants, as well as providing all the infrastructure to record the sessions and make them available on the Linux Foundation YouTube [channel](https://www.youtube.com/playlist?list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU).
 
-{{< youtube GwT6iUv-_Ks >}}
-
-&nbsp;
+{{< youtube_enhanced id="GwT6iUv-_Ks" >}}
 
 Event photos are also available under the Creative Commons license at [Flickr page](https://www.flickr.com/photos/linuxfoundation/albums/72157719919607836) and folks have also the opportunity to [view OSPOCon](https://events.linuxfoundation.org/ospocon/program/schedule/) and [OSPOCon Europe](https://events.linuxfoundation.org/ospocon-europe/program/schedule/) slides by clicking on the desired session.
 
@@ -54,7 +49,7 @@ TODO is an open group of 70+ organizations that want to collaborate on practices
 
 &nbsp;
 
-![OSPOCon](/img/ospo-pillars-todo.jpg)
+![OSPOCon](/img/blog/ospo-pillars-todo.jpg)
 
 
 &nbsp;
@@ -68,7 +63,7 @@ Let's keep building healthy and successful Open Source initiatives for organizat
 
 &nbsp;
 
-![OSPOCon](/img/ospoconeuropewrapup.jpg)
+![OSPOCon](/img/blog/ospoconeuropewrapup.jpg)
 
 
 

@@ -2,10 +2,9 @@
 title: A Guide to Outbound Open Source Software
 ---
 
-> ⭐️ People can also download version 1.0 Guide as PDF [here](https://github.com/todogroup/todogroup.org/files/9560697/TODO_OutboundOSS_Report_v6.pdf)
+People can also download version 1.0 Guide as PDF [here](https://github.com/todogroup/todogroup.org/files/9560697/TODO_OutboundOSS_Report_v6.pdf)
 
-> 
-> ✍️ The TODO Community is grateful to receive corrections and suggestions for improvements via [this repo](https://github.com/todogroup/outbound-oss), which contains TODO guide’s updated documentation with the most recent version
+The TODO Community is grateful to receive corrections and suggestions for improvements via [this repo](https://github.com/todogroup/outbound-oss), which contains TODO guide’s updated documentation with the most recent version
 
 - [Introduction](#introduction)
   * [Maturity levels](#maturity-levels)
@@ -45,7 +44,6 @@ title: A Guide to Outbound Open Source Software
     + [Quality criteria / CII Best Practices Badge Program](#quality-criteria--cii-best-practices-badge-program)
     + [Repository Linting](#repository-linting)
   * [Build an open source metrics strategy when releasing to open source projects](#build-an-open-source-metrics-strategy-when-releasing-to-open-source-projects)
-
 
 # Introduction
 
@@ -170,7 +168,7 @@ First of all, the copyright law requires it.
 
 For example, the German copyright act states in Section 69b:
 Authors in employment or service relationships
-> (1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
+(1) Where a computer program is created by an employee in the execution of his duties or following the instructions of his employer, the employer exclusively shall be entitled to exercise all economic rights in the computer program, unless otherwise agreed.
 
 Source: [German Copyright Act](https://dejure.org/gesetze/UrhG/69b.html)
 
@@ -197,14 +195,15 @@ Why is a CCLA causing additional effort in large organizations? Let's briefly lo
 
 * The CCLA is a contract - in many organizations the "four eyes principle" is implemented - a contract has to be signed by two persons, who have the right to sign contracts in the name of the organization - the required involvement of probably two more stakeholders requires additional effort in briefing them
 * Usually a CCLA covers not only the specific legal entity the contributor is working for, it also covers all affiliates:
-    > For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity
+    * For legal entities, the entity making a Contribution and all other entities that control, are controlled by, or are under common control with that entity are considered to be a single Contributor. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity
 * The CCLA includes besides the copyright grant a patent grant. This is fine, nevertheless inside the organization the "IP department" needs to be involved in the evaluation process of the CCLA and for the specific contribution the "IP department" need to sync with all affiliates
 * The CCLA needs to be analyzed by the "Legal department" of the organization.
 
 Some CCLAs require that the copyright of the contributions are assigned to the OSS project/Foundation. Copyright assignment is a topic which causes even more effort and might not be accepted at all.
 
 Besides the above-mentioned additional effort the CCLA adds additional "maintenance effort" to the organization, because it requires that the organization nominates all entitled contributors by name to the CCLA requiring party.
-> It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
+
+It is your responsibility to notify the Foundation when any change is required to the list of designated employees authorized to submit Contributions on behalf of the Corporation, or to the Corporation's Point of Contact with the Foundation.
 
 * The signed CCLA has to be made available inside the organization - This can be done via publishing the CCLA on the OSPOs website at a location which can be found easily be the employees (e.g., it might be useful to have a "top level page" named CCLAs, this page then contains a list of "signed CCLAs", a list of "CCLAs under evaluation", and a list of "denied CCLAs".)
 

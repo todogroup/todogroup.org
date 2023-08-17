@@ -2,15 +2,35 @@ hero1:
   other: Talk openly
 hero2:
   other: Develop openly
-hero3:
+subhero:
   other: For organizations committed to Open Source and Open Source Program Offices (OSPO).
-heroText:
-  other: |
-
-    TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. 
-    TODO Group is formed by its [Community](../community) participants and [General Members](../members).
-
-    [Read more](../about) about the group, join the [community](../community) or [become a supporter](../join) to get involved.
-footerText:
-  other: |
-    These resources were created in partnership with the TODO Group: the professional open source program networking group at The Linux Foundation. A special thank you to Pam Baker for writing assistance and the open source program managers who contributed their time and knowledge to making these comprehensive guides. Participating companies include Autodesk, Comcast, Dropbox, Facebook, Google, Intel, Microsoft, Netflix, Oath (Yahoo + AOL), Red Hat, Salesforce, Samsung and VMware. To learn more, visit: [todogroup.org](http://todogroup.org/).
+explainerText:
+  other: TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. TODO Group is formed by its [Community](/community/ambassadors/) participants and [General Members](/about/members/).
+explainerButton:
+  other: About us
+sectionTitle:
+  other: Get Involved
+sectionTitle1:
+  other: Join our community
+sectionText1:
+  other: Open Source Program Office practitioners leading open source adoption across organizations
+sectionButton1:
+  other: Join Community
+sectionTitle2:
+  other: Become an OSPA Associate
+sectionText2:
+  other: Open source communities, projects and foundations supporting the TODO mission and helping the OSPO movement
+sectionButton2:
+  other: Get Involved
+sectionTitle3:
+  other: Become a General Member
+sectionText3:
+  other: Organizations committed to open source supporting TODO mission and OSPO adoption
+sectionButton3:
+  other: Become a Supporter
+landscapeTitle:
+  other: OSPO Landscape
+landscapeText:
+  other: The OSPO landscape maps the OSPO Ecosystem, including adopter organizations and tooling used by OSPO teams and open source professionals within organizations
+landscapeButton:
+  other: Explore the landscape

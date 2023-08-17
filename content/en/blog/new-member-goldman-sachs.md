@@ -11,6 +11,7 @@ Goldman Sachs has been contributing to open source for nearly a decade, finding 
 In August, Goldman Sachs formalized its commitment to open source and created an Open Source Program Office (OSPO).
 
 > As we have seen work well at other companies, having a single team responsible for the open source strategy will allow us to accelerate and deepen our investment in open source.
+
 > Joining the TODO group will allow us to learn from and collaborate on open source tooling and processes with other organizations and companies, as well as provide us a way to learn from what others have put in place to support their internal and external developer communities.
 
 *Bella Wiseman and Rob Underwood, Goldman Sachs OSPO*

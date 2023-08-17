@@ -1,0 +1,31 @@
+######################## default configuration ####################
+# Your theme name
+theme: dot-org-hugo-theme
+# Title of your website (required).
+title: "TODO Group // TODO: Talk openly, develop openly"
+# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone: "America/Los_Angeles"
+
+######################## i18n ####################
+# Auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+hasCJKLanguage: true
+# Set default content directory for multilingual
+contentDir: content/en/
+# Set fallback if international version is not available
+defaultContentLanguage: en
+# Set the default language as the root rather than in folder i.e. don't use /en/
+defaultContentLanguageInSubdir: false
+
+######################## privacy & speed ####################
+# Enable do not track, no cookies on Video embeds
+privacy:
+  youtube:
+    privacyEnhanced: true
+  vimeo:
+    enableDNT: true
+
+disableKinds:
+- RSS
+
+permalinks:
+  case-studies: "/resources/case-studies/:slug/"

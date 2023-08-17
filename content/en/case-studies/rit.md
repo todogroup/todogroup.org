@@ -2,8 +2,6 @@
 title: RIT
 ---
 
-# Open@RIT
-
 The Birth of an Academic OSPO
 
 ## What is an Academic OSPO?

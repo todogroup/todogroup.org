@@ -2,7 +2,7 @@
 title: SAP
 ---
 
-# SAP: One of Open Source’s Best Kept Secrets
+## SAP: One of Open Source’s Best Kept Secrets
 
 SAP has been working with open source for decades and has now established an open source program office (OSPO) to further formalize the coordination of its open source activities and expand its engagement with the open source communities. "SAP was one of the first industry players to formally define processes for open source consumption and contribution," says Peter Giese, director of the Open Source Program Office.
 

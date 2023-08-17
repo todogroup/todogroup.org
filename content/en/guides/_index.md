@@ -17,37 +17,10 @@ It is intended to be a modularized so the content is reusable in a piecemeal fas
 
 The TODO Group is committed to running this survey on an annual basis moving forward and sharing the results with the wider community. View [OSPO Annual Surveys](https://github.com/todogroup/osposurvey).
 
-## OSPO Guides
-
-To build successful Open Source Program Offices or similar Open Source initiatives, start here:
-
-* 🆕 [OSPO Simple FAQ](ospo-simple-faq)
-* [How to Create an Open Source Program](create-program)
-* [Measuring Your Open Source Program](measuring)
-* [Tools for Managing Your Open Source Program](management-tools)
-* [Managing Career Development within OSPOs](career-development)
-
-For open source program management best practices:
-
-* 🆕 [Contributing and Launching open source projects](outbound-oss)
-* [Using Open Source Code](using-open-source)
-* [Participating in Open Source Communities](participating)
-* [Recruiting Open Source Developers](recruiting-developers)
-* [Starting an Open Source Project](starting)
-* [Open Source Reading List](open-source-reading-list)
-* [Improve Your Open Source Development Impact](impact)
-* [Shutting Down an Open Source Project](shutting-down)
-* [Building Leadership in an Open Source Community](building-leadership)
-* [Setting an Open Source Strategy](strategy)
-* [Marketing Open Source Projects](marketing-open-source-projects)
-* [Building an Inclusive Open Source Community](diversity-inclusion)
-* [Organizing and Managing Open Source Events](organizing-and-managing-open-source-events)
-* [Creating OS Commercial Ecosystems](os-commercial-ecosystem)
-
 ## License
 
 All content is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## OSPO Guides
 
-All guides in this directory:
+To build successful Open Source Program Offices, Open Source initiatives, and for open source program management best practices, start here:

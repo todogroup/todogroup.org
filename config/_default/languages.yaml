@@ -155,10 +155,10 @@ ja:
     ### calls to action ###
     main_cta:
       text: "参加"
-      link: "/join"
+      link: "/join/"
     footer_cta:
       text: "TODOに参加"
-      link: "/join"
+      link: "/join/"
     ### copyright (markdown can be used) ###
     copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved."
     github_edit: "このページをGitHubで編集"
@@ -184,10 +184,10 @@ zh-cn:
     ### calls to action ###
     main_cta:
       text: "加入"
-      link: "/join"
+      link: "/join/"
     footer_cta:
       text: "加入TODO"
-      link: "/join"
+      link: "/join/"
     ### copyright (markdown can be used) ###
     copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved."
     github_edit: "在GitHub上编辑此页面"
@@ -199,6 +199,6 @@ zh-cn:
       url: "/guides/"
       weight: 1
     - identifier: "case-studies"
-      name: "指南"
+      name: "案例研究"
       url: "/case-studies/"
-      weight: 1
+      weight: 2

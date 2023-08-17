@@ -1,0 +1,9 @@
+{{ $url := printf "/%s/" .Section }} <!-- Default to /section/ structure -->
+
+{{ if eq .Section "case-studies" }}
+    {{ $url = "/resources/case-studies/" }}
+{{ else if eq .Section "guides" }}
+    {{ $url = "/resources/guides/" }}
+{{ end }}
+
+<p class="breadcrumb"><a href="{{ $url }}">{{ .Section | humanize }}</a></p>

@@ -26,3 +26,4 @@ privacy:
 
 permalinks:
   case-studies: "/resources/case-studies/:slug/"
+  guides: "/resources/guides/:slug/"

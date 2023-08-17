@@ -24,8 +24,5 @@ privacy:
   vimeo:
     enableDNT: true
 
-disableKinds:
-- RSS
-
 permalinks:
   case-studies: "/resources/case-studies/:slug/"

@@ -25,7 +25,7 @@ social_links:
   landscape: "https://landscape.todogroup.org"
   linkedin: "https://www.linkedin.com/company/todo-group/"
   mastodon: ""
-  rss: ""
+  rss: "https://todogroup.org/index.xml"
   slack: "https://thetodogroup.slack.com"
   stackoverflow: ""
   threads: ""

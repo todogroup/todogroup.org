@@ -6,10 +6,11 @@
 /code-of-conduct/               /about/code-of-conduct/
 /associates/                    /about/associates/
 /faq/                           /about/faqs/
-/guides/                        /resources/guides/
 /guides/casestudies/            /resources/case-studies/
 /guides/casestudies/facebook/   /resources/case-studies/meta/
 /guides/casestudies/*           /resources/case-studies/:splat
+/guides/                        /resources/guides/
+/guides/*                       /resources/guides/:splat
 
-# Guides and Blog should work as before
+# Blog should work as before
 # Case studies were nested under guides

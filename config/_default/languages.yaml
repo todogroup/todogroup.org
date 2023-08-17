@@ -1,0 +1,204 @@
+en:
+  languageName: English
+  weight: 1
+  params:
+    title: "TODO Group // Talk openly, develop openly"
+    description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
+    ### accessibility ###
+    accessibility:
+      skip_text: "Skip to content"
+      help_text: ""
+      help_url: ""
+    ### calls to action ###
+    main_cta:
+      text: "Join"
+      link: "/join/"
+    footer_cta:
+      text: "Join TODO"
+      link: "/join/"
+    ### copyright (markdown can be used) ###
+    copyright: "Copyright &copy; {{< current_year >}} TODO Group. All Rights Reserved."
+    github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 1
+    - identifier: "about-us"
+      name: "About TODO Group"
+      url: "/about/about-us/"
+      weight: 1
+      post: "The mission of the project and its community"
+      parent: "about"
+    - identifier: "steering-committee"
+      name: "Steering Committee"
+      url: "/about/steering-committee/"
+      weight: 2
+      post: "The people who define TODO's goals and provide stewardship in the community"
+      parent: "about"
+    - identifier: "members"
+      name: "Members"
+      url: "/about/members/"
+      weight: 3
+      post: "The organizations supporting OSPO adoption worldwide"
+      parent: "about"
+    - identifier: "associates"
+      name: "Associates"
+      url: "/about/associates/"
+      weight: 4
+      post: "Projects, communities & foundations supporting TODO and OSPO"
+      parent: "about"
+    - identifier: "code-of-conduct"
+      name: "Code of Conduct"
+      url: "/about/code-of-conduct/"
+      weight: 5
+      post: "Values that make TODO  a welcoming and safe community"
+      parent: "about"
+    - identifier: "faq"
+      name: "Q&A"
+      url: "/about/faqs/"
+      weight: 6
+      post: "Frequently Asked Questions"
+      parent: "about"
+    - identifier: "resources"
+      name: "Resources"
+      url: "/resources/"
+      weight: 2
+    - identifier: "glossary"
+      name: "Glossary"
+      url: "/resources/glossary/"
+      weight: 1
+      post: "Common terms and definitions of OSPO"
+      parent: "resources"
+    - identifier: "studies"
+      name: "Studies"
+      url: "/resources/studies/"
+      weight: 2
+      post: "Maturity model, surveys, and reports to help your OSPO journey"
+      parent: "resources"
+    - identifier: "mindmap"
+      name: "MindMap"
+      url: "/resources/mindmap/"
+      weight: 3
+      post: "Responsibilities, roles, behavior, and team sizes within OSPOs"
+      parent: "resources"
+    - identifier: "training"
+      name: "Training Modules"
+      url: "/resources/training/"
+      weight: 4
+      post: "Free and open courses covering everything you need to know"
+      parent: "resources"
+    - identifier: "guides"
+      name: "Guides"
+      url: "/resources/guides/"
+      weight: 5
+      post: "Open source program management best practices for organizations"
+      parent: "resources"
+    - identifier: "case-studies"
+      name: "Case Studies"
+      url: "/resources/case-studies/"
+      weight: 6
+      post: "Real case studies showcasing the impact of OSPOs on organizations worldwide"
+      parent: "resources"
+    - identifier: "community"
+      name: "Community"
+      url: "/community/"
+      weight: 3
+    - identifier: "get-started"
+      name: "Get started"
+      url: "/community/get-started/"
+      weight: 1
+      post: "Helpful onboarding resources for the community and members"
+      parent: "community"
+    - identifier: "communication-channels"
+      name: "Communication Channels"
+      url: "/community/comms/"
+      weight: 2
+      post: "Engage with the community via TODO chat, forum, and mailing list"
+      parent: "community"
+    - identifier: "virtual-meetings"
+      name: "Virtual Meetings"
+      url: "/community/meetings/"
+      weight: 3
+      post: "Join OSPOlogy monthly webinars and working group meetings"
+      parent: "community"
+    - identifier: "events"
+      name: "Events"
+      url: "/community/events/"
+      weight: 4
+      post: "Explore events and roundtable meetings around the world"
+      parent: "community"
+    - identifier: "ambassadors"
+      name: "TODO Ambassadors"
+      url: "/community/ambassadors/"
+      weight: 5
+      post: "Experienced practitioners helping others get started in OSPO and TODO"
+      parent: "community"
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 4
+ja:
+  languageName: 日本語
+  contentDir: content/ja
+  weight: 2
+  params:
+    title: "TODO Group // Talk openly, develop openly"
+    description: "TODO: talk openly, develop openly (オープンに議論し、オープンに開発する). わたしたちは、協力することで、オープンソース プログラムのみならず、オープンソースのムーブメントへの貢献も、総合的に改善できると考えています。"
+    ### accessibility ###
+    accessibility:
+      skip_text: "コンテンツにスキップ"
+      help_text: ""
+      help_url: ""
+    ### calls to action ###
+    main_cta:
+      text: "参加"
+      link: "/join"
+    footer_cta:
+      text: "TODOに参加"
+      link: "/join"
+    ### copyright (markdown can be used) ###
+    copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved."
+    github_edit: "このページをGitHubで編集"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "guides"
+      name: "ガイド"
+      url: "/guides/"
+      weight: 1
+zh-cn:
+  languageName: 简体中文
+  contentDir: content/zh-CN
+  weight: 3
+  params:
+    title: "TODO Group // Talk openly, develop openly"
+    description: "TODO: talk openly, develop openly (开放交流，开放开发。)"
+    ### accessibility ###
+    accessibility:
+      skip_text: "跳至内容"
+      help_text: ""
+      help_url: ""
+    ### calls to action ###
+    main_cta:
+      text: "加入"
+      link: "/join"
+    footer_cta:
+      text: "加入TODO"
+      link: "/join"
+    ### copyright (markdown can be used) ###
+    copyright: "Copyright &copy; {{< current_year >}} Company Name. All Rights Reserved."
+    github_edit: "在GitHub上编辑此页面"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "guides"
+      name: "指南"
+      url: "/guides/"
+      weight: 1
+    - identifier: "case-studies"
+      name: "指南"
+      url: "/case-studies/"
+      weight: 1

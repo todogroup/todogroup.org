@@ -1,0 +1,9 @@
+# Netlify redirects from what the browser requests to what we serve
+/members             /about/members/
+/community/
+/members/
+/about/
+/code-of-conduct
+/members
+/associates
+/faq

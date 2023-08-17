@@ -1,6 +1,6 @@
 ---
 title: "How can OSPOs & collaboration accelerate innovation and digital transformation?"
-author: anajsana95
+author: anajsana
 date: 2021-11-24
 ---
 

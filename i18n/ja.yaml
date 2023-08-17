@@ -2,13 +2,35 @@ hero1:
   other: Talk openly
 hero2:
   other: Develop openly
-hero3:
+subhero:
   other: オープンソースに取り組むすべての企業のみなさんへ。
-heroText:
-  other: |
-    あなたの会社はオープンソース プロジェクトをリリースしていますか？オープンソース コミュニティとのやりとりを改善し、あなたのプロジェクトをよりよく運営しましょう。
-
-    TODOはオープンな企業集団であり、確実で効果的なオープンソースのプロジェクトやプログラムを実現するために、さまざまな手法やツールなどについて協力しあっています。グループの詳細については [こちらを参照してください](../about) 。また、参加については [こちらへお問い合わせください](../join) 。
-footerText:
-  other: |
-    これらのリソースは、Linux Foundation のプロフェッショナルなオープンソース ネットワーク グループであるTODO Groupと協力して作成されました。執筆を支援してくれたPam Baker氏、およびこの包括的なガイドの作成に時間と知識を提供してくださったオープン ソース プログラム マネージャーの皆様に感謝いたします。参加企業は次のとおりです。Autodesk、Comcast、Dropbox、Facebook、Google、Intel、Microsoft、Netflix、Oath (Yahoo + AOL)、Red Hat、Salesforce、Samsung、VMware。詳細については、[todogroup.org]（http://todogroup.org/）をご覧ください。
+explainerText:
+  other: TODOは、知識を創造・共有し、実践、ツール、その他の方法で成功的かつ効果的なオープンソースプログラムオフィスや同様のオープンソースイニシアティブを運営することを目指す実践者のオープンなコミュニティです。TODOグループは、[Community](../community)の参加者と[General Members](../members)によって形成されています。
+explainerButton:
+  other: 私たちについて
+sectionTitle:
+  other: 関与する
+sectionTitle1:
+  other: コミュニティに参加する
+sectionText1:
+  other: 組織全体でオープンソースの採用をリードするオープンソースプログラムオフィスの実践者
+sectionButton1:
+  other: コミュニティに参加
+sectionTitle2:
+  other: OSPAアソシエイトになる
+sectionText2:
+  other: TODOのミッションをサポートし、OSPOムーブメントを支援するオープンソースコミュニティ、プロジェクト、基盤
+sectionButton2:
+  other: 関与する
+sectionTitle3:
+  other: 一般メンバーになる
+sectionText3:
+  other: TODOのミッションとOSPO採用をサポートするオープンソースにコミットした組織
+sectionButton3:
+  other: サポーターになる
+landscapeTitle:
+  other: OSPOの風景
+landscapeText:
+  other: OSPOの風景は、OSPOチームや組織内のオープンソースの専門家が使用する採用者組織やツールをマッピングしたものです
+landscapeButton:
+  other: 風景を探索する

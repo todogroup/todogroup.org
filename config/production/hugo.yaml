@@ -1,0 +1,7 @@
+######################## production configuration ####################
+# The base URL of your site (required). This will be prepended to all relative URLs.
+baseURL: https://todogroup.org
+googleAnalytics: UA-54779798-1
+enableRobotsTXT: true
+build:
+  writeStats: true

@@ -40,7 +40,7 @@ Insights into the behavior and state of open source projects is critically impor
 
 The data enables deeper insights such as the [interactive programming language usage site](http://langpop.corger.nl/) shown below.
 
-![](/static/ght1.png)
+![](/img/blog/ght1.png)
 
 Microsoft has started working with the GHTorrent team to enable the use of this data more broadly. The first step was to ensure the [GHTorrent.org](http://ghtorrent.org) infrastructure is on solid ground.  It is now running on Azure sponsored machines with enough power to ensure smooth operation.  The next step, underway now, is to make the data widely available and consumable.  In addition to the current daily database dumps, they are working to both make all of the data immediately available as it arrives, and pump it all into [Azure Data Lake](https://azure.microsoft.com/en-us/solutions/data-lake/).  With the info in Data Lake, users can apply big data technology like Hadoop, HDFS, Spark, HBase and so on to develop the insights they need without having to make and manage their own copy of the ~10TB of data.  The team is also looking at enabling personal GHTorrents for more focused use on private repositories.
 

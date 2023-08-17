@@ -1,6 +1,6 @@
 ---
 title: "Learnings from the OSPO expert-led panel on open source strategy & innovation"
-author: anajsana95
+author: anajsana
 date: 2022-06-10
 ---
 

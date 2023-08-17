@@ -1,18 +1,79 @@
 {{ define "main" }}
-{{- $slackChannel := site.Params.slack.channel }}
-{{ $langs := site.Home.AllTranslations }}
-{{ $lang  := .Language}}
-<h1>{{ i18n "hero1" }}</h1>
-<h1>{{ i18n "hero2" }}</h1>
-<br />
-<h2>{{ i18n "hero3" }}</h2>
-{{ i18n "heroText" | markdownify }}
-<script async defer src="https://slack.{{ $slackChannel }}.org/slackin.js?large"></script>
-<br>
-<br>
-<!-- Embed OSPO landscape as a PNG -->
+  <div class="grid hero-grid">
+    <div class="hero-grid__col1">
+      <h1 class="title">
+        {{ i18n "hero1" }}<br /><span class="darker">{{ i18n "hero2" }}</span>
+      </h1>
 
-<a href="https://landscape.todogroup.org/">
-    <img src="https://landscape.todogroup.org/images/landscape.png" alt="https://landscape.todogroup.org/images/landscape.png" class="shrinkToFit transparent" width="818" height="492">
-</a>
+      <h2 class="subhero">{{ i18n "subhero" }}</h2>
+
+      <p class="shortened-width">{{ i18n "explainerText" | markdownify }}</p>
+
+      <a href="/about/about-us" class="button">{{ i18n "explainerButton" }}</a>
+    </div>
+
+    <div class="hero-grid__col2">
+      <img
+        src="{{ "img/home-teamwork.png" | relURL }}"
+        alt="People collaborating"
+        loading="eager"
+      />
+    </div>
+  </div>
+
+  <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
+
+  <div class="grid box-grid">
+    <div class="shadow-box">
+      <h2>{{ i18n "sectionTitle1" }}</h2>
+      <p>{{ i18n "sectionText1" | markdownify }}</p>
+      <a href="/community/comms/" class="button">{{ i18n "sectionButton1" }}</a>
+    </div>
+
+    <div class="shadow-box">
+      <h2>{{ i18n "sectionTitle2" }}</h2>
+      <p>{{ i18n "sectionText2" | markdownify }}</p>
+      <a href="/about/associates/" class="button">{{ i18n "sectionButton2" }}</a>
+    </div>
+
+    <div class="shadow-box">
+      <h2>{{ i18n "sectionTitle3" }}</h2>
+      <p>{{ i18n "sectionText3" | markdownify }}</p>
+      <a href="/about/members/" class="button">{{ i18n "sectionButton3" }}</a>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="grid landscape-grid">
+    <div class="landscape-grid__col1">
+      <a href="https://landscape.todogroup.org/">
+        <img
+          loading="lazy"
+          src="{{ "img/ospo-landscape-logo.svg" | relURL }}"
+          alt="{{ i18n "landscapeTitle" }}"
+        />
+      </a>
+      <p>{{ i18n "landscapeText" | markdownify }}</p>
+      <a href="https://landscape.todogroup.org/" class="button">{{ i18n "landscapeButton" }}</a>
+    </div>
+    <div class="landscape-grid__col2">
+      <div class="floating-effect">
+        <!-- Embed OSPO landscape as a PNG -->
+        <a
+          href="https://landscape.todogroup.org/"
+          alt="{{ i18n "landscapeTitle" }}"
+        >
+          <img
+            src="https://landscape.todogroup.org/images/landscape.png"
+            alt="{{ i18n "landscapeTitle" }}"
+            width="818"
+            height="492"
+            loading="lazy"
+            class="rounded-corners"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
 {{ end }}

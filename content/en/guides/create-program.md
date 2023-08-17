@@ -29,7 +29,9 @@ That’s where the creation of an open source program can be a major boon. By cr
 
 This can include setting code use, distribution, selection, auditing and other policies, as well as training developers, ensuring legal compliance and promoting and building community engagement. The office can also provide advocacy and communications about all things open source inside and outside the company.
 
-> “The open source program office is an [essential part of any modern company](https://opensource.com/business/16/5/whats-open-source-program-office) with a reasonably ambitious plan to influence various sectors of software ecosystems. If a company wants to increase its influence, clarify its open source messaging, maximize the clout of its projects, or increase the efficiency of its product development, a multifaceted approach to open source programs is essential.” – John Mark Walker, founder of the Open Source Entrepreneur Network (OSEN).
+> “The open source program office is an [essential part of any modern company](https://opensource.com/business/16/5/whats-open-source-program-office) with a reasonably ambitious plan to influence various sectors of software ecosystems. If a company wants to increase its influence, clarify its open source messaging, maximize the clout of its projects, or increase the efficiency of its product development, a multifaceted approach to open source programs is essential.” 
+>
+> -– John Mark Walker, founder of the Open Source Entrepreneur Network (OSEN).
 
 ## The role of the open source program office
 

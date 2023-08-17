@@ -1,48 +1,44 @@
-- github: amateurhuman
-  name: Chris Kelly
-  twitter: amateurhuman
-  company: GitHub
-- github: bkeepers
-  name: Brandon Keepers
-  twitter: bkeepers
-  company: GitHub
-- github: nzakas
-  name: Nicholas C. Zakas
-  twitter: slicknet
-  company: Box
-- github: bvanevery
-  name: Benjamin VanEvery
-  twitter: bvanevery
-  company: Box
-- github: gyehuda
-  name: Gil Yehuda
-  twitter: gyehuda
-  company: Verizon Media
-- github: dalmaer
-  name: Dion Almaer
-  twitter: dalmaer
-  company: Walmart Labs
-- github: caniszczyk
-  name: Chris Aniszczyk
-  twitter: cra
-  company: Twitter
-- github: gianugo
-  name: Gianugo Rabellino
-  twitter: gianugo
-  company: Microsoft
-- github: nruff
-  name: Nithya Ruff
-  twitter: nithyaruff
-  company: SanDisk
-- github: todogroup
-  name: The TODO Group
-  twitter: todogroup
-  company: The TODO Group
-- github: anajsana
-  name: Ana Jimenez Santamaria
-  twitter: anajsana95
-  company: The Linux Foudation
-- github: jlprat
+# blog author data, the key is github username.
+todogroup:
+  # name: The TODO Group
+  # twitter: todogroup
+jlprat:
   name: Josep Prat
   twitter: jlprat
   company: Aiven
+nruff:
+  name: Nithya Ruff
+  twitter: nithyaruff
+  company: SanDisk
+bvanevery:
+  name: Benjamin VanEvery
+  twitter: bvanevery
+  company: Box
+bkeepers:
+  name: Brandon Keepers
+  twitter: bkeepers
+  company: GitHub
+gianugo:
+  name: Gianugo Rabellino
+  twitter: gianugo
+  company: Microsoft
+caniszczyk:
+  name: Chris Aniszczyk
+  twitter: cra
+  company: CNCF
+gyehuda:
+  name: Gil Yehuda
+  twitter: gyehuda
+  company: Verizon Media
+dalmaer:
+  name: Dion Almaer
+  twitter: dalmaer
+  company: Walmart Labs
+nzakas:
+  name: Nicholas C. Zakas
+  twitter: slicknet
+  company: Box
+anajsana:
+  name: Ana Jimenez Santamaria
+  twitter: anajsana95
+  company: The Linux Foudation

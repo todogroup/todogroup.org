@@ -29,4 +29,4 @@ We invite everyone in the open source community who is interested in employee op
 to this initiative. Together, we can create a guide that will inspire more employees to get involved in open source projects, furthering the growth and innovation 
 of the open source community.
 
-> To learn more about this working group and its progress, please visit the [general documentation issue tracker](https://github.com/todogroup/todogroup.org/issues/288).
+To learn more about this working group and its progress, please visit the [general documentation issue tracker](https://github.com/todogroup/todogroup.org/issues/288).

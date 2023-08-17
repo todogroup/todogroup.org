@@ -1,0 +1,168 @@
+// Define SCSS variables. Copied from theme _variables.scss.
+$desktop-width: calc(1200px + 25px + 25px);
+$min-desktop: 1000px;
+$mobile-max: 999px;
+
+.page-home .content {
+    // Margins are bigger on home.
+    p {
+        margin-block-start: 30px;
+        margin-block-end: 30px;
+    }
+
+    .button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .darker {
+        color: var(--primary-700);
+    }
+    .subhero {
+        font-family: var(--rounded-font-family);
+        color: var(--text-color);
+        font-size: 20px;
+        max-width: 465px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: none;
+        border-left: 6px solid var(--primary-400);
+        padding-left: 20px;
+        margin-block-end: 50px;
+        @media (min-width: $min-desktop) {
+            margin-block-end: 60px;
+        }
+    }
+    .hero-grid {
+        h1 {
+            @media (min-width: $min-desktop) and (max-width: $desktop-width) {
+                font-size: 75px;
+            }
+            @media (min-width: $min-desktop) {
+                margin-block-end: 60px;
+            }
+        }
+        &__col1 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 9;
+            }
+            @media (min-width: 1000px) {
+                grid-column: span 7;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: span 6;
+            }
+        }
+        &__col2 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 9;
+            }
+            @media (min-width: 1000px) {
+                align-self: flex-end;
+                grid-column: 8 / -1;
+                padding-bottom: 42px;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: 7 / -1;
+            }
+        }
+        .button {
+            margin-bottom: 50px;
+            @media (min-width: $min-desktop) {
+                margin-bottom: 100px;
+            }
+        }
+
+        .shortened-width {
+            @media (min-width: $min-desktop) {
+                max-width: 90%;
+            }
+        }
+    }
+
+    .box-grid {
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        .shadow-box {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 6;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: span 4;
+            }
+            padding: 40px 24px;
+            border-radius: 10px;
+            background: var(--white);
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+            h2 {
+                margin-block-start: 0;
+                margin-block-end: 30px;
+            }
+        }
+    }
+
+    .landscape-grid {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        @media (min-width: 600px) {
+            gap: 50px;
+        }
+        &__col1 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 5;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: span 4;
+                padding-right: 50px;
+            }
+        }
+        &__col2 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 7;
+                align-self: flex-start;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: 5 / -1;
+            }
+        }
+    }
+
+    .floating-effect {
+        box-shadow: none;
+        position: relative;
+        display: block;
+        padding-bottom: 40px;
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 10px;
+            bottom: 60px;
+            background-color: transparent;
+            border-radius: 100px/50px;
+            box-shadow: 0 35px 30px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .rounded-corners {
+        border-radius: 10px;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 3%;
+    row-gap: 50px;
+}

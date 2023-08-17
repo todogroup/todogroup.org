@@ -19,7 +19,7 @@ TODO 小组提供了一个**成熟度模型**、一系列**指南**、一份**�
     * [English](https://ospomindmap.todogroup.org/)
     * [日本語](https://ospomindmap.todogroup.org/jp)
     * [简体中文](https://ospomindmap.todogroup.org/cn)
-    
+
 > *翻译工作由社区贡献者通过 [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap)贡献*
 
 * 📚 [OSPO 101 入门课程](https://github.com/todogroup/ospo101): 涵盖了有关开源项目办公室你需要了解的所有信息。课程材料是模块化的，可在GitHub上获得，并根据知识共享许可证进行许可，允许根据需要重新组合和重复使用。
@@ -64,21 +64,6 @@ TODO 小组提供了一个**成熟度模型**、一系列**指南**、一份**�
 因为该课程是模块化的，所以该内容可以逐个重复学习和使用。
 
 ## OSPO 案例研究
-
-* [Autodesk](/guides/casestudies/autodesk)
-* [Capital One](/guides/casestudies/capitalone)
-* [Comcast](/guides/casestudies/comcast)
-* [Dropbox](/guides/casestudies/dropbox)
-* [Facebook](/guides/casestudies/facebook)
-* [Microsoft](/guides/casestudies/microsoft)
-* [National Instruments](/guides/casestudies/ni)
-* [Porsche](/guides/casestudies/porsche)
-* [Oath](/guides/casestudies/oath)
-* [RedHat](casestudies/redhat)
-* [RIT](/guides/casestudies/rit)
-* [Salesforce](/guides/casestudies/salesforce)
-* [SAP](/guides/casestudies/sap)
-* [Uber](/guides/casestudies/uber)
 
 如果你的开源办公室也希望增加一个案例研究，请发送一个提交请求！
 

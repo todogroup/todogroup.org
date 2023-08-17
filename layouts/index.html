@@ -14,6 +14,8 @@
 
     <div class="hero-grid__col2">
       <img
+        width="400"
+        height="400"
         src="{{ "img/home-teamwork.png" | relURL }}"
         alt="People collaborating"
         loading="eager"
@@ -33,7 +35,9 @@
     <div class="shadow-box">
       <h2>{{ i18n "sectionTitle2" }}</h2>
       <p>{{ i18n "sectionText2" | markdownify }}</p>
-      <a href="/about/associates/" class="button">{{ i18n "sectionButton2" }}</a>
+      <a href="/about/associates/" class="button"
+        >{{ i18n "sectionButton2" }}</a
+      >
     </div>
 
     <div class="shadow-box">
@@ -49,13 +53,17 @@
     <div class="landscape-grid__col1">
       <a href="https://landscape.todogroup.org/">
         <img
+          width="300"
+          height="150"
           loading="lazy"
           src="{{ "img/ospo-landscape-logo.svg" | relURL }}"
           alt="{{ i18n "landscapeTitle" }}"
         />
       </a>
       <p>{{ i18n "landscapeText" | markdownify }}</p>
-      <a href="https://landscape.todogroup.org/" class="button">{{ i18n "landscapeButton" }}</a>
+      <a href="https://landscape.todogroup.org/" class="button"
+        >{{ i18n "landscapeButton" }}</a
+      >
     </div>
     <div class="landscape-grid__col2">
       <div class="floating-effect">

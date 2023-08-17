@@ -9,7 +9,7 @@ We collect best practices from the leading companies engaged in open source deve
 
 The [OSPO 101 Course](https://github.com/todogroup/ospo101) covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
 
-![OSPO 101](/img/ospo101.svg)
+{{< img src="/img/ospo101.svg" width="300" alt="OSPO 101 Logo">}}
 
 It is intended to be a modularized so the content is reusable in a piecemeal fashion.
 

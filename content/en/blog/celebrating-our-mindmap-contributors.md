@@ -14,25 +14,24 @@ We invite you to explore the new Chinese and Japanese interactive versions of th
 
 **[Chinese OSPO Mind Map](https://ospomindmap.todogroup.org/cn.html)**
 
-![screenshot](/img/blog/mindmap-chinese.png)
+{{< img src="/img/blog/mindmap-chinese.png" alt="Screenshot of the Chinese Mind map" >}}
 
 **[Japanese OSPO Mind Map](https://ospomindmap.todogroup.org/jp)**
 
-![screenshot](/img/blog/mindmap-japanese.png)
-
+{{< img src="/img/blog/mindmap-japanese.png" alt="Screenshot of the Japanese Mind map" >}}
 
 People can check out the merged PRs for these translations on the GitHub repository, which can be found at: https://github.com/todogroup/ospology/pull/150 and https://github.com/todogroup/ospology/pull/283.
 
 ## 🙋‍♀️ Contribute to OSPOlogy and the OSPO Mind Map Project
 
-Would you like to become a OSPO Mind Map contirbutor? Check the [OSPOlogy GitHub repo](https://github.com/todogroup/ospology) to learn how to become a one! 
+Would you like to become a OSPO Mind Map contirbutor? Check the [OSPOlogy GitHub repo](https://github.com/todogroup/ospology) to learn how to become a one!
 
 ## 🤗 Acknowledgments
 
 Last but not least, big thanks to all the OSPO Mind Map’s contributors and reviewers!
 
 * Ana Jiménez Santamaría
-* Annania Melaku 
+* Annania Melaku
 * Charles Eckel
 * Chris Yang
 * Gergely Csatari

@@ -3,4 +3,6 @@ title: Glossary
 url: "/resources/glossary/"
 ---
 
-Coming soon
+We have a Glossary resource
+
+https://ospoglossary.todogroup.org

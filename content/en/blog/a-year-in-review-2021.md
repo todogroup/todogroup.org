@@ -6,11 +6,11 @@ date: 2021-12-21
 
 In 2021, we’ve seen a growing number of organizations across all sizes and sectors (both private and public) investing in Open Source Programs more than ever. This blog post captures the 2021 TODO important milestones and OSPO trends in 2022.
 
-# Introduction
+## Introduction
 
 OSPO growth requires bigger efforts on education and support from the open-source communities. At TODO Group, we’ve been focused on continuing to expand OSPO adoption worldwide and providing support and guidance to the broader community, building new networking spaces such as [OSPOCon](https://events.linuxfoundation.org/ospocon/) or [OSPOlogy](https://www.linuxfoundation.org/blog/ospology-learnings-from-ospos-in-2021/), investing in OSPO research like our yearly Survey, or bringing monthly updates about OSPO trends through [OSPONews](https://www.getrevue.co/profile/osponews).
 
-# Strategic Goals and Milestones
+## Strategic Goals and Milestones
 
 This year, The TODO Group formalized its [strategic goals](https://github.com/todogroup/governance/blob/master/goals.md) published in the TODO governance repo:
 
@@ -55,7 +55,7 @@ Organizations across different sectors and regions joined the TODO Group as new 
 
 ![Source: OSPO Landscape](/img/blog/todomemberslandscape.png)
 
-## ✅ OSPOCon 2021 Series 
+## ✅ OSPOCon 2021 Series
 
 The TODO Group successfully run two [OSPOCon Events](https://events.linuxfoundation.org/ospocon/). One held in the states + virtually and the other in Europe. Despite travel restrictions this year, we feel grateful to see so many people coming from different sectors and regions willing to share their experiences in the first event of Open Source Program Offices: 2021 series had a total number of 108 CFP Submissions at OSPOCon and 52 CFP submissions at OSPOCon Europe.
 
@@ -67,7 +67,7 @@ The TODO Group successfully run two [OSPOCon Events](https://events.linuxfoundat
 
 In August, the TODO Group started a monthly newsletter on [OSPO news and trends](https://www.getrevue.co/profile/osponews), where people can contribute via the [TODO ospology repo](https://github.com/todogroup/ospology/tree/main/newsletter). Last month we reached the first 100 subscribers! Thank you, everyone!
 
-## ✅ OSPOlogy 2021 Series 
+## ✅ OSPOlogy 2021 Series
 
 One of the new initiatives created in 2021 at TODO in order to ease the access to more organizations across sectors to understand and adopt OSPOs by open and transparent networking has been OSPOlogy. The LF has just published a [blog article](https://www.linuxfoundation.org/blog/ospology-learnings-from-ospos-in-2021/) about the learnings from the presentations done during this year:
 
@@ -84,7 +84,7 @@ OSPOlogy is open to all, from folks just starting their OSPO journey to students
 
 ## ✅ Build relationships with other communities: OSPO Associates
 
-Open Source is a community of communities, and so is becoming the OSPO movement. This was the main motivator to create the OSPO Associate Program. Even though the program was launched two months ago, we have seen communities committed to OSPOs like FINOS, LF Energy, or OpenChain willing to build stronger relationships and collaborate on common resources and initiatives such as surveys, policy recommendations, and more. 
+Open Source is a community of communities, and so is becoming the OSPO movement. This was the main motivator to create the OSPO Associate Program. Even though the program was launched two months ago, we have seen communities committed to OSPOs like FINOS, LF Energy, or OpenChain willing to build stronger relationships and collaborate on common resources and initiatives such as surveys, policy recommendations, and more.
 
 ![Source: OSPO Landscape](/img/blog/ospoassociatelandscape.png)
 
@@ -93,11 +93,11 @@ Open Source is a community of communities, and so is becoming the OSPO movement.
 This was one of the goals that we couldn’t finish for this year (planning to do so by 2022). However, we got the chance to refine and improve the [TODO Community](https://todogroup.org/community/) and [FAQ](https://todogroup.org/faq/) section to ease the access to newcomers con community members.
 
 
-# What to expect from TODO in 2022
+## What to expect from TODO in 2022
 
 OSPOs have been evolving over the years, and the TODO group has been always adapting to their demands. 2022 will bring a new TODO version where we will keep building [quality OSPO resources](https://github.com/todogroup) and focusing on OSPO Governance, always backed up with data from previous research as well as the expertise from well-known OSPO Professionals worldwide.
 
-*FYI: The final [2022 strategic goals](https://github.com/todogroup/governance/blob/master/goals.md) version will be published in the TODO governance repo (reviewed and approved by the TODO Steering Committee in 2022).* 
+*FYI: The final [2022 strategic goals](https://github.com/todogroup/governance/blob/master/goals.md) version will be published in the TODO governance repo (reviewed and approved by the TODO Steering Committee in 2022).*
 
 ![Source: TODO Website](/img/blog/todochallenges.png)
 

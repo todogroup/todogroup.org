@@ -1,9 +1,15 @@
 # Netlify redirects from what the browser requests to what we serve
-/members             /about/members/
-/community/
-/members/
-/about/
-/code-of-conduct
-/members
-/associates
-/faq
+# 301 status is default
+/members/                       /about/members/
+/community/                     /community/get-started/
+/about/                         /about/about-us/
+/code-of-conduct/               /about/code-of-conduct/
+/associates/                    /about/associates/
+/faq/                           /about/faqs/
+/guides/                        /resources/guides/
+/guides/casestudies/            /resources/case-studies/
+/guides/casestudies/facebook/   /resources/case-studies/meta/
+/guides/casestudies/*           /resources/case-studies/:splat
+
+# Guides and Blog should work as before
+# Case studies were nested under guides

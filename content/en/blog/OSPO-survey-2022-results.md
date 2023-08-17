@@ -4,7 +4,7 @@ author: todogroup
 date: 2022-09-12
 ---
 
-The TODO Group is proud to announce the fifth annual Open Source Program Management Survey results that examines the prevalence and outcomes of open source programs, including the key benefits and barriers to adoption worldwide. We have open sourced all of our survey results, raw data and graphics in the dedicated repo: https://github.com/todogroup/survey/tree/master/2022.
+The TODO Group is proud to announce the fifth annual Open Source Program Management Survey results that examines the prevalence and outcomes of open source programs, including the key benefits and barriers to adoption worldwide. We have [open sourced all of our survey results, raw data and graphics in the dedicated repo](https://github.com/todogroup/survey/tree/master/2022).
 
 People can also [download the report as PDF](https://github.com/todogroup/todogroup.org/files/9557802/OSPOSurveyResults_2022.pdf)
 

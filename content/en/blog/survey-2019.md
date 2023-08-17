@@ -4,7 +4,7 @@ author: todogroup
 date: 2019-10-24
 ---
 
-The TODO Group is happy to announce the second annual Open Source Program Management Survey results that examines the prevalence and outcomes of open source programs among the Global Fortune 2000, including the key benefits and barriers to adoption. We have open sourced all of our survey results and graphics: https://github.com/todogroup/survey/tree/master/2019.
+The TODO Group is happy to announce the second annual Open Source Program Management Survey results that examines the prevalence and outcomes of open source programs among the Global Fortune 2000, including the key benefits and barriers to adoption. We have [open sourced all of our survey results and graphics](https://github.com/todogroup/survey/tree/master/2019).
 
 Key findings include:
 

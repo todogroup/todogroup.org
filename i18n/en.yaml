@@ -3,9 +3,9 @@ hero1:
 hero2:
   other: Develop openly
 subhero:
-  other: For organizations committed to Open Source and Open Source Program Offices (OSPO).
+  other: For organizations and practitioners committed to Open Source and Open Source Program Offices (OSPO).
 explainerText:
-  other: TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives. TODO Group is formed by its [Community](/community/ambassadors/) participants and [General Members](/about/members/).
+  other: TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices and similar Open Source initiatives. TODO Group is formed by its [Community](/community/ambassadors/) participants and ambassadors, OSPO Associates (/about/associates/) and [General Members](/about/members/).
 explainerButton:
   other: About us
 sectionTitle:
@@ -17,7 +17,7 @@ sectionText1:
 sectionButton1:
   other: Join Community
 sectionTitle2:
-  other: Become an OSPA Associate
+  other: Become an OSPO Associate
 sectionText2:
   other: Open source communities, projects and foundations supporting the TODO mission and helping the OSPO movement
 sectionButton2:

@@ -10,3 +10,5 @@ The [OSPO Mind Map](https://ospomindmap.todogroup.org/) - an interactive Mind Ma
 - [中文](https://ospomindmap.todogroup.org/cn)
     
 *Translations are done via community contributions via [OSPOlogy repo](https://github.com/todogroup/ospology/tree/main/ospo-mindmap)*
+
+{{< todo_mindmap >}}

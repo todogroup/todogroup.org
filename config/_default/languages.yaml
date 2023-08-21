@@ -50,16 +50,22 @@ en:
       weight: 4
       post: "Projects, communities & foundations supporting TODO and OSPO"
       parent: "about"
+    - identifier: "charter"
+      name: "Member Charter"
+      url: "/about/charter/"
+      weight: 6
+      post: "Charter of The TODO Group General Members (GM) and Steering Committee (SC)"
+      parent: "about"
     - identifier: "code-of-conduct"
       name: "Code of Conduct"
       url: "/about/code-of-conduct/"
-      weight: 5
+      weight: 7
       post: "Values that make TODO  a welcoming and safe community"
       parent: "about"
     - identifier: "faq"
       name: "Q&A"
       url: "/about/faqs/"
-      weight: 6
+      weight: 8
       post: "Frequently Asked Questions"
       parent: "about"
     - identifier: "resources"

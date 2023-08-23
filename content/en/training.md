@@ -8,7 +8,7 @@ The [OSPO 101 Course](https://github.com/todogroup/ospo101) covers everything yo
 
 It is intended to be a modularized so the content is reusable in a piecemeal fashion:
 
-*[ Open Source Introduction](https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module1)
+* [Open Source Introduction](https://github.com/todogroup/ospo-career-path/tree/main/OSPO-101/module1)
     * Introducing Open Source
     * A Short History of Open Source Software
     * Reasons to Use Open Source
@@ -34,7 +34,11 @@ It is intended to be a modularized so the content is reusable in a piecemeal fas
     * Understanding Upstream Open Source Projects
     * Effective Upstream Contribution Strategies
     * Upstream Development Practices
-* Creating Open Source Projects
+* [Creating Open Source Projects](https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md)
     * Open Source Project Creation Overview
     * New Project Preparations
     * Successful Project Launch & Sustainment
+
+    The OSPO 101 Course is part of a bigger initiative called OSPO Career Path, a set of open source, and free courses created by folks from the TODO community to support training inside the organization for people working in OSPOs and similar open source initiatives. Each course is intended to be modularized so the content is reusable in a piecemeal fashion.
+
+    {{< button link="https://github.com/todogroup/ospo-career-path" text="Explore Training Resources" >}} {{< button link="https://lists.todogroup.org/g/WG-ospo-career-path" text="Join the Working Group" >}}

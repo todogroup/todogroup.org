@@ -108,6 +108,12 @@ en:
       weight: 6
       post: "Real case studies showcasing the impact of OSPOs on organizations worldwide"
       parent: "resources"
+    - identifier: "artwork"
+      name: "Brand Guidebook"
+      url: "/resources/guidebook/"
+      weight: 7
+      post: "TODO Brand Guidebook and visual identity"
+      parent: "resources"
     - identifier: "community"
       name: "Community"
       url: "/community/"

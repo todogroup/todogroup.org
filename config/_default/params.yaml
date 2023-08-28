@@ -9,7 +9,7 @@ custom_css: []
 ######################## custom config ####################
 
 ### default social share image (can also be set per lang) ###
-images: ["/img/og.png"]
+images: ["/img/todo-social-share.png"]
 
 github:
   repo_url: "https://github.com/todogroup/todogroup.org/blob/main"

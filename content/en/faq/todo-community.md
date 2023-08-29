@@ -12,4 +12,4 @@ Everyone willing to contribute to improve OSPO education and adoption across ind
 * Industry partners 
 * Foundations
 
-In order to keep a secure place to freely share sensitive information, the TODO Group offers TODO Member-only spaces. If you consider you meet [TODO Membership requirements](/join/), please complete the [membership application](/join).
+Check TODO General Member Charter to learn more.

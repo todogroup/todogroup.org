@@ -1,6 +1,7 @@
 ---
-title: Which companies are participating?
+title: Which organizations are participating?
 weight: 30
 ---
 
-See the full [list of members](/members). If you would like to take part too, please [contact us](/join).
+See the full [list of General Members](/about/members) and [OSPO Associates](/about/associates/).
+

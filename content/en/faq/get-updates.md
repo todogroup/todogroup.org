@@ -3,6 +3,6 @@ title: How can I stay up to date with TODO?
 weight: 120
 ---
 
-Follow us on [GitHub](https://github.com/todogroup) or on Twitter at [@todogroup](https://twitter.com/todogroup). 
+The easist way is to [subscribe to OSPONews](https://ospo-news.ghost.io/) and follow us on [LinkedIn](https://www.linkedin.com/company/todo-group/)
 
-Press inquiries can be sent to <pr@todogroup.org>. 
+Inquiries can be sent to <info@todogroup.org>. 

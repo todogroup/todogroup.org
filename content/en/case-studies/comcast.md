@@ -1,5 +1,6 @@
 ---
 title: Comcast
+image: comcast.jpeg
 ---
 
 [Comcast](http://corporate.comcast.com/)’s involvement in open source was a gradual process that evolved over time. The company eventually created two open source program offices, one for the NBC business and another for the cable side of the business, which is the subject of this profile.

@@ -1,8 +1,17 @@
 {{ define "main" }}
   {{ .Content }}
-  <ul>
-    {{ range .Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  <div class="grid box-grid">
+    {{ range .Pages }}      
+      <div class="shadow-box">
+        <a href="{{ .Permalink }}">
+        {{ with .Params.image }}
+          <img src="/img/case-studies/{{ . }}" >
+        {{ else }}
+          <img src="/img/case-studies/autodesk.jpeg" >
+        {{ end }}
+        </a>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      </div>
     {{ end }}
-  </ul>
-{{ end }}
+  </div>
+  {{ end }}

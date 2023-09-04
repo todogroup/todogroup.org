@@ -1,5 +1,6 @@
 ---
 title: "Capital One"
+image: capital-one.jpg
 ---
 
 ## Lessons Learned on Our Open Source Journey at Capital One

@@ -1,5 +1,6 @@
 ---
 title: Autodesk
+image: autodesk.jpeg
 ---
 
 Autodesk is undergoing a company-wide shift to open source and inner source. And that’s on top of the culture change that both development methods require.

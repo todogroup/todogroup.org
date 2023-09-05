@@ -7,9 +7,4 @@ We collect best practices from the leading companies engaged in open source deve
 
 ## OSPO Guides
 
-To build successful Open Source Program Offices, Open Source initiatives, and for open source program management best practices, start here:
-
-
-## License
-
-All content is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+To build successful Open Source Program Offices, Open Source initiatives, and for open source program management best practices, start here. All content is licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -24,37 +24,47 @@ Please check the [TODO Guides Contributing Guidelines](https://todogroup.org/gui
 
 Please check the [TODO Whitepaper Guidelines](https://todogroup.org/guides/whitepaper-guidelines/)
 
-## 🧩 Building the site
+## 🧩 Editing the site
 
-This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [Netlify](https://netlify.com). In order to build the site, you'll need to install Hugo:
+This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [Netlify](https://netlify.com). The site uses the [Dot-Org Theme for Hugo](https://github.com/cncf/dot-org-hugo-theme) as a base and then has its own customisations.
+
+ In order to build or locally develop the website, you'll need to install [Hugo](https://gohugo.io) and [node.js](https://nodejs.org/en).
+
+ If you don't have them installed, you can install them via [brew.sh](https://brew.sh).
 
 ```bash
 # macOS
-brew install hugo
+brew install hugo node
 ```
 
-You'll also need to pull in the theme:
-```
+Then following these instructions:
+
+1. Clone this repo to a local directory on your computer.
+
+2. Navigate to the newly created directory, and pull in the theme:
+
+```bash
 git submodule update --init --recursive
 ```
 
-- which theme is used
-- how to update the theme
-- what files you should edit to customise the look
-
-## Running the site locally
-
-TODO: Requires update as of 15th August 2023
-
-If you want to edit the content of the site locally:
+3. Install dependencies:
 
 ```bash
-hugo server \
-  --disableFastRender \
-  --buildDrafts \
-  --buildFuture \
-  --ignoreCache
+npm install
 ```
 
-This will run the site on `localhost:1313`. Just navigate to http://localhost:1313 in your browser and you should see the site running.
+4. Build the site:
 
+```bash
+npm run build
+```
+
+5. Start the local server with live reload:
+
+```bash
+npm run start
+```
+
+This command should give an address you can visit on your local machine to see the local copy of your site. Typically this is `localhost:1313`. Just navigate to http://localhost:1313 in your browser and you should see the site running.
+
+If modifying the theme files, you should never edit the themem that is imported via Git Submodule, as otherwise the changes will be overwritten or lost the next time the theme is updated. Changes should be made in override files inside the root directory as this will override the theme directory. [Read docs](https://gohugo.io/getting-started/directory-structure/).

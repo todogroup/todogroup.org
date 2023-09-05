@@ -1,17 +1,19 @@
 {{ define "main" }}
   {{ .Content }}
   <div class="grid box-grid">
-    {{ range .Pages }}      
+    {{ range .Pages }}
+      {{ $title := .Title }}
+      {{ $image := .Params.image }}
       <div class="shadow-box">
-        <a href="{{ .Permalink }}">
-        {{ with .Params.image }}
-          <img src="/img/case-studies/{{ . }}" >
+        <a href="{{ .Permalink }}" aria-label="Go to {{ $title }} Case Study">
+        {{ with $image }}
+          <img src="/img/case-studies/{{ . }}" alt="{{ $title }} Case Study cover">
         {{ else }}
-          <img src="/img/case-studies/autodesk.jpeg" >
+          <img src="/img/case-studies/autodesk.jpeg" alt="Default Case Study cover">
         {{ end }}
         </a>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ .Permalink }}" aria-label="Read {{ $title }} Case Study">{{ $title }}</a></h2>
       </div>
     {{ end }}
   </div>
-  {{ end }}
+{{ end }}

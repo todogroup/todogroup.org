@@ -4,8 +4,6 @@ author: todogroup
 date: 2023-09-11
 ---
 
-**[January - August, 2023]**
-
 Over the past six months, the Steering Committee members have been
 diligently assisting the TODO project in its stewardship and strategic
 goals. This summary aims to provide a concise overview of all the topic
@@ -25,7 +23,7 @@ foster better collaboration with open source stakeholders and provide
 opportunities for both, individuals and organization's representatives,
 to become TODO supporters
 
--   [Here](https://github.com/todogroup/governance/blob/main/TODO-OSPO-Ambassador-Program.md)
+-   [Here](https://todogroup.org/about/charter/)
     people can read the mission, qualifications, and responsibilities of TODO General Members (Organizations)
  
 -   [Here](https://github.com/todogroup/governance/blob/main/OSPO-Associate-Program.md)

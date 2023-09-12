@@ -139,3 +139,16 @@ and review of OSPO Survey 2023 Results and Publication Planning**
 -   Establishing processes for SC nominations and future elections.
 
 -   Planning the review and publication of results from the OSPO Survey 2023.
+
+# Call For Candidates - Steering Committee 2024 Elections
+
+TODO is getting ready for the 2024 Steering Committee Elections that will be taking place in October 2023. The Steering Committee shall be elected for their expertise and contribution to the advancement of open source management and strategy within organizations. 
+
+In order to become an official candidate for 2024 and gather candidates' info to help others vote when the election opens, we have created [this application form](https://linuxfoundation.surveymonkey.com/r/8PWTGCT) that will close on September 30th.
+
+To become an official candidate, the person must:
+
+1. Be an active participant/contributor in TODO
+2. Complete the form before Sep 30th.
+
+Candidate’s info submitted in the form will be shared with General Members one week prior to the election starts (Oct 1st).

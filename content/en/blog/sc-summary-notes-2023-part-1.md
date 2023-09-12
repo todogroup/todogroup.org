@@ -13,7 +13,7 @@ disclosure, we include a summary of the monthly meeting notes taken.
 
 ## Steering Committee Achievements
 
-Update TODO Charters and Build Ambassador Program
+### Update TODO charters and build Ambassador Program
 
 After months of hard work and discussions, the Steering Committee has
 developed a new version of the TODO charters. The decision to make these
@@ -140,7 +140,7 @@ and review of OSPO Survey 2023 Results and Publication Planning**
 
 -   Planning the review and publication of results from the OSPO Survey 2023.
 
-# Call For Candidates - Steering Committee 2024 Elections
+## Call for candidates - Steering Committee 2024 elections
 
 TODO is getting ready for the 2024 Steering Committee Elections that will be taking place in October 2023. The Steering Committee shall be elected for their expertise and contribution to the advancement of open source management and strategy within organizations. 
 

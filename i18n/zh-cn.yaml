@@ -3,9 +3,9 @@ hero1:
 hero2:
   other: 开放开发
 subhero:
-  other: 致致力于开源和开源项目办公室（OSPO）的组织。
+  other: 面向致力于开源办公室（OSPO）的开源从业者。
 explainerText:
-  other: TODO是一个开放的实践者社区，旨在创建和分享知识，合作开展实践、工具，以及运行成功且有效的开源项目办公室或类似的开源倡议的其他方式。TODO团队由其[社区](../community)的参与者和[普通成员](../members)组成。
+  other: TODO 是一个开放的实践者社区，旨在创建和分享知识，在实践、工具和其他方式上进行协作，以成功、有效地运行开源办公室或类似的开源计划。TODO Group 由[社区](/community/ambassadors/)参与者和大使、[OSPO 准会员](/about/associates/)和[普通会员](/about/members/) 组成。
 explainerButton:
   other: 关于我们
 sectionTitle:
@@ -13,24 +13,24 @@ sectionTitle:
 sectionTitle1:
   other: 加入我们的社区
 sectionText1:
-  other: 开源项目办公室的实践者引领组织的开源采纳
+  other: 开源办公室的实践者领导跨组织的开源采纳
 sectionButton1:
   other: 加入社区
 sectionTitle2:
-  other: 成为OSPA助理
+  other: 成为 OSPO 准会员
 sectionText2:
-  other: 支持TODO使命并帮助OSPO运动的开源社区、项目和基金会
+  other: 支持 TODO 愿景并助力 OSPO 运动的开源社区、项目和基金会
 sectionButton2:
   other: 参与其中
 sectionTitle3:
-  other: 成为普通成员
+  other: 成为普通会员
 sectionText3:
-  other: 支持TODO使命和OSPO采纳的致力于开源的组织
+  other: 支持 TODO 愿景和 OSPO 采纳并致力于开源的组织
 sectionButton3:
   other: 成为支持者
 landscapeTitle:
-  other: OSPO景观
+  other: OSPO 全景图
 landscapeText:
-  other: OSPO景观绘制了OSPO生态系统，包括采纳组织和OSPO团队及组织内开源专业人员使用的工具
+  other: OSPO 全景图绘制了 OSPO 生态系统，包括采纳的组织和 OSPO 团队使用的工具，以及组织内的开源专业人员
 landscapeButton:
-  other: 探索景观
+  other: 探索全景图

@@ -3,7 +3,7 @@ title: TODO Ambassadors
 url: "/community/ambassadors/"
 ---
 
-TODO OSPO Ambassadors (TOAs) are official advocates within TODO helping the OSPO ecosystem
+TODO OSPO Ambassadors (TOAs) are official advocates within TODO helping the OSPO ecosystem.
 
 ## Responsibilities
 
@@ -28,9 +28,9 @@ Program requirements for becoming an official TODO OSPO Ambassador are:
   * An active leader in the TODO community with a minimum of 1 year of experience in:
     * Organizing events (virtual/in-person)
     * Speaking at events
-    * Mentoring others 
+    * Mentoring others
     * Creating content (e.g., blogs, videos, etc.)
-    
+
 ## Benefits
 
 As a TOA, you are also eligible for Ambassador specific benefits, such as:
@@ -41,7 +41,7 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 * Enjoy exclusive swag and giveaways
 * Receive a TODO OSPO Ambassadors Credly badge issued by the Linux Foundation
 
-## 🙋‍♀️ Frequent Asked Questions:
+## 🙋‍♀️ Frequently Asked Questions:
 ### What is the process for becoming an Ambassador?
 To become an Ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.
 ### Is the TODO OSPO Ambassador (TOAs) a paid position?

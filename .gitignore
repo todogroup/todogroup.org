@@ -6,3 +6,4 @@ public/
 static/css/style-*.css
 .sass-cache/
 .hugo_build.lock
+*.code-workspace

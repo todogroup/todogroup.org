@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="grid hero-grid">
+  <div class="columns hero-grid">
     <div class="hero-grid__col1">
       <h1 class="title">
         {{ i18n "hero1" }}<br /><span class="darker">{{ i18n "hero2" }}</span>
@@ -19,20 +19,21 @@
         src="{{ "img/home-teamwork.png" | relURL }}"
         alt="People collaborating"
         loading="eager"
+        decoding="async"
       />
     </div>
   </div>
 
   <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
 
-  <div class="grid box-grid">
-    <div class="shadow-box">
+  <div class="cards columns-3 box-grid">
+    <div class="card">
       <h2>{{ i18n "sectionTitle1" }}</h2>
       <p>{{ i18n "sectionText1" | markdownify }}</p>
       <a href="/community/get-started/" class="button">{{ i18n "sectionButton1" }}</a>
     </div>
 
-    <div class="shadow-box">
+    <div class="card">
       <h2>{{ i18n "sectionTitle2" }}</h2>
       <p>{{ i18n "sectionText2" | markdownify }}</p>
       <a href="/about/associates/" class="button"
@@ -40,7 +41,7 @@
       >
     </div>
 
-    <div class="shadow-box">
+    <div class="card">
       <h2>{{ i18n "sectionTitle3" }}</h2>
       <p>{{ i18n "sectionText3" | markdownify }}</p>
       <a href="/about/members/" class="button">{{ i18n "sectionButton3" }}</a>
@@ -49,7 +50,7 @@
 
   <hr />
 
-  <div class="grid landscape-grid">
+  <div class="columns landscape-grid">
     <div class="landscape-grid__col1">
       <a href="https://landscape.todogroup.org/">
         <img
@@ -58,6 +59,7 @@
           loading="lazy"
           src="{{ "img/ospo-landscape-logo.svg" | relURL }}"
           alt="{{ i18n "landscapeTitle" }}"
+          decoding="async"
         />
       </a>
       <p>{{ i18n "landscapeText" | markdownify }}</p>
@@ -79,6 +81,7 @@
             height="492"
             loading="lazy"
             class="rounded-corners"
+            decoding="async"
           />
         </a>
       </div>

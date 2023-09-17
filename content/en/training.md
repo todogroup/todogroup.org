@@ -39,6 +39,6 @@ It is intended to be a modularized so the content is reusable in a piecemeal fas
     * New Project Preparations
     * Successful Project Launch & Sustainment
 
-    The OSPO 101 Course is part of a bigger initiative called OSPO Career Path, a set of open source, and free courses created by folks from the TODO community to support training inside the organization for people working in OSPOs and similar open source initiatives. Each course is intended to be modularized so the content is reusable in a piecemeal fashion.
+The OSPO 101 Course is part of a bigger initiative called OSPO Career Path, a set of open source, and free courses created by folks from the TODO community to support training inside the organization for people working in OSPOs and similar open source initiatives. Each course is intended to be modularized so the content is reusable in a piecemeal fashion.
 
-    {{< button link="https://github.com/todogroup/ospo-career-path" text="Explore Training Resources" >}} {{< button link="https://lists.todogroup.org/g/WG-ospo-career-path" style="secondary" text="Join the Working Group" >}}
+{{< button link="https://github.com/todogroup/ospo-career-path" text="Explore Training Resources" >}} {{< button link="https://lists.todogroup.org/g/WG-ospo-career-path" style="secondary" text="Join the Working Group" >}}

@@ -11,7 +11,7 @@ Currently, we operate in two distinct formats: large global OSPO events under th
 {{< card >}}
 ## OSPOCon
 The global in-person & virtual conferences co-located at LF OSSummit related to open source
-management and strategy for organizations thorugh OSPOs.
+management and strategy for organizations with OSPOs as the vehicle to make open source and innovation happen.
 {{< spacer >}}
 [OSPOCon Europe 2023](https://events.linuxfoundation.org/open-source-summit-europe/)
 {{< /card >}}

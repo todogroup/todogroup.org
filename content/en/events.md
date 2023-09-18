@@ -3,21 +3,27 @@ title: Events
 url: "/community/events/"
 ---
 
-## Conferences
+TODO Group collaborates with open source projects and foundations to host in-person & hybrid events. These events unite a diverse range of stakeholders involved in open source, from industry leaders and open source project maintainers to policymakers dedicated to establishing efficient open source program offices within organizations.
 
-The global in-person & virtual conferences where those working in open source program offices (or [similar initiatives](https://github.com/todogroup/ospology/discussions/16)) in organizations that rely on open source technologies come together to learn and share best practices, experiences and tooling to overcome challenges they face.
-OSPOCon is presented by the TODO Group and The Linux Foundation and as part of OSSummit event series.
+Currently, we operate in two distinct formats: large global OSPO events under the OSPOCon brand, and regionally-focused micro-conferences under the OSPOlogyLive brand.
 
-**Upcoming Conferences**
+{{< cards count=2 >}}
+{{< card >}}
+## OSPOCon
+The global in-person & virtual conferences co-located at LF OSSummit related to open source
+management and strategy for organizations thorugh OSPOs.
+{{< spacer >}}
+[OSPOCon Europe 2023](https://events.linuxfoundation.org/open-source-summit-europe/)
+{{< /card >}}
+{{< card >}}
+## OSPOlogy Live Europe
+A 2 day micro-conference of expert-led panel discussions and roundtable sessions to gain insights into the latest trends and challenges related to open source for organizations across European countries.
+{{< spacer >}}
+[OSPOlogyLive Frankfurt](https://community.linuxfoundation.org/events/details/lfhq-ospology-european-chapter-presents-ospologylive-frankfurt/)
+{{< /card >}}
+{{< /cards >}}
 
-* OSPOCon Europe 2023: [September 19-23](https://events.linuxfoundation.org/open-source-summit-europe/) • Bilbao, Spain & Virtual
+### Past Events - Recorded Sessions
 
-**Past Conferences**
-
-* OSPOCon Japan 2022
-    * [Recorded sessions](https://youtu.be/McAy3_JiB08)
-* OSPOCon North America 2022
-* OSPOCon Europe 2022
-* OSPOCon North America 2021
-* OSPOCon Europe 2021
-    * [Recorded sessions](https://www.youtube.com/watch?v=5ML8EaXV3Vk&list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU&ab_channel=TheLinuxFoundation)
+* [OSPOCon Japan 2022](https://youtu.be/McAy3_JiB08)
+* [OSPOCon Europe 2021](https://www.youtube.com/watch?v=5ML8EaXV3Vk&list=PLbzoR-pLrL6q-dYnjrPbF5in7VR4-8-ZU&ab_channel=TheLinuxFoundation)

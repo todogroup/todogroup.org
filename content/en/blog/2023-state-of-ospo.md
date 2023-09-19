@@ -1,7 +1,7 @@
 ---
 title: "New Research Study Reveals the 2023 State of OSPO"
 author: todogroup
-date: 2023-09-19
+date: 2023-09-18
 ---
 
 The annual OSPO study examines the prevalence and outcomes of Open Source Progam Offices and similar OSS Initiatives across sectors, 

@@ -96,6 +96,8 @@ And if you are completely new to open source this is a good way to learn how pul
 * Read the README file
 * Read the CONTRIBUTING file
 * Look for the main communication channel and have a look at the archives to get an impression how the community communicates
+* Go to where the project is. This can include you needing to use communication and source control platforms that you might have opinions about but as a new contributor you will need to do the work to join their community.
+* If you have a question, first search issues/pull requests/message boards/FAQs first to see if others have already answered your question. If not, use the proper pathways to raise your question.
 * Have a look at closed issues and pull requests to learn how contributions work
 * Look for recordings of presentations of the project at conferences to learn more about the project and the people who speak about it
 
@@ -201,6 +203,7 @@ Contributors to this guide (in alphabetical order):
 * https://github.com/DavidPHirsch
 * https://github.com/DuaneOBrien
 * https://github.com/ildikov
+* https://github.com/jamesiri
 * https://github.com/jlprat
 * https://github.com/juliaferraioli
 * https://github.com/lucasgonze

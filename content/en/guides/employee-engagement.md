@@ -98,6 +98,32 @@ And if you are completely new to open source this is a good way to learn how pul
 * Have a look at closed issues and pull requests to learn how contributions work
 * Look for recordings of presentations of the project at conferences to learn more about the project and the people who speak about it
 
+## Principle 4: Continues by Participating.
+
+Once you have the basic knowledge about the project, including the community’s processes and communication tools and channels, you can start finding ways to get involved. This means to take small steps to introduce yourself, interact with established contributors and project maintainers, and then eventually find areas where you can contribute and help out.
+
+You should avoid proposing large changes to the project’s code base or documentation as a first act of participation. You need to build out a good relationship and trust with the project’s contributors first, through which you can ensure that your future contributions are in line with the project’s overall mission and goals.
+
+While many open source projects have good documentation and active communication channels to learn from, you might still have questions that you haven’t found the answers for. Asking questions on the mailing list or chat platform is a good way to get in touch with the community. Always make sure that you communicate clearly by sharing background to put your question or comment into context.
+
+If you spent a little bit of time deploying and trying out the project that you have been looking into, you already built up some good knowledge. Even as a newbie you might know the answer to somebody else’s question, or can contribute to help them figuring out a next step in what they are trying to do. Don’t be shy to chime in to the conversation and help somebody else.
+
+Prioritize to do reviews, code or documentation, because that is one of the best ways to learn about the project while performing a task that is always in need of more help and attention.
+
+Don’t be afraid to start participating in discussions if you have input to them, either a comment from your experience or a question that can help taking a conversation forward. It is a good way to show the community that you care about their project and would like to participate in maintaining and developing it further.
+
+Many projects maintain a list of bugs that are marked as ‘low hanging fruit’ or ‘easy to fix’ or something similar to these. Looking into fixing a few of these is another good way to learn and participate at the same time, while also helping the community. Triaging bugs is another good way to help out, if you don’t yet have enough knowledge to fix them.
+
+Starting to get involved in a community’s daily life will help you become part of the team. While you are participating in activities that may not be in direct interest of your employer, helping the community maintain the project always is! This will also build you the path to be able to create a voice for yourself in the community and drive the design and implementation of new features that you and your company need.
+
+Everyone has a different comfort level when it comes to participating in a new community, where you may not know anyone just yet. If speaking up at a meeting feels too intimidating, you can communicate through the mailing list or choose to do code reviews. Always be humble, and communicate clearly. If you let people know that you are new to the project and still learning, others will have a chance to help and guide you through the processes, until you become more established and knowledgable.
+
+### Suggested tactics for participating
+
+* If there is a community meeting, you can introduce yourself to the community and even ask if there is an area where they need help
+* You can participate in discussions on the mailing list or chat platform, both asking and answering questions
+* Do code and documentation reviews, that is an area where every community needs help at all times
+* Triage bugs or look for simpler issues to fix
 
 ## Principle 4: Has Transparent Motivations.
 

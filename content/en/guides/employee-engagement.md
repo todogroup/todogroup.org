@@ -8,7 +8,7 @@ So how do you interact with a community? How do you make sure you are respecting
 
 There are expectations and rules, there is culture and conventions. Not all of this is obvious. You will need to follow organization-internal rules and procedures. That is covered in another guide, the [Guide to Outbound Open Source Software](https://todogroup.org/guides/outbound-oss/). This guide here will focus on the organization-external perspective. To engage with the open source community in a respectful, transparent, and productive way, we call "authentic participation".
 
-Here we lay out the six principles of authentic participation:
+Here we lay out the seven principles of authentic participation:
 
 **Authentic participation...**
 
@@ -200,6 +200,7 @@ Contributors to this guide (in alphabetical order):
 * https://github.com/cornelius
 * https://github.com/DavidPHirsch
 * https://github.com/DuaneOBrien
+* https://github.com/ildikov
 * https://github.com/jlprat
 * https://github.com/juliaferraioli
 * https://github.com/lucasgonze

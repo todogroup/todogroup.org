@@ -126,7 +126,7 @@ Everyone has a different comfort level when it comes to participating in a new c
 * Do code and documentation reviews, that is an area where every community needs help at all times
 * Triage bugs or look for simpler issues to fix
 
-## Principle 4: Has Transparent Motivations.
+## Principle 5: Has Transparent Motivations.
 
 *Without a shared understanding of the motivations, it’s impossible to resolve differences of opinion effectively. No hidden motives.*
 

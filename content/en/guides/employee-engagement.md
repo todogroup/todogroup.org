@@ -121,6 +121,8 @@ Starting to get involved in a community’s daily life will help you become part
 
 Everyone has a different comfort level when it comes to participating in a new community, where you may not know anyone just yet. If speaking up at a meeting feels too intimidating, you can communicate through the mailing list or choose to do code reviews. Always be humble, and communicate clearly. If you let people know that you are new to the project and still learning, others will have a chance to help and guide you through the processes, until you become more established and knowledgable.
 
+Propose changes and show impact. It might not succeed on your first try. Iterate. Keep learning. Don't be angry if it feels that you are ignored or a suggestion is rejected. This can happen. Motivations differ. Don't make demands. This will burn up your credibility.
+
 ### Suggested tactics for participating
 
 * If there is a community meeting, you can introduce yourself to the community and even ask if there is an area where they need help
@@ -148,8 +150,10 @@ Some companies will have the expectation that they can steer an open source proj
 
 * Commit with your organization's email address when you are working on behalf of your organization
 * Put your affiliation on GitHub
+* Be conscious of which hat you are wearing at any given moment
 * Make it explicit in communication from which perspective you are speaking when recipients might not have this context
-
+* Be transparent when motivations or affiliations change
+* Be careful with using background channels. This can disrupt project communication because the project doesn't have the context.
 
 ## Principle 6: Enforces Respectful Behavior.
 

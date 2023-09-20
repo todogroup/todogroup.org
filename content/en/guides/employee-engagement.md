@@ -15,9 +15,10 @@ Here we lay out the six principles of authentic participation:
 * [Starts Early.](#principle-1-starts-early)
 * [Puts the Community First.](#principle-2-puts-the-community-first)
 * [Starts With Listening.](#principle-3-starts-with-listening)
-* [Has Transparent Motivations.](#principle-4-has-transparent-motivations)
-* [Enforces Respectful Behavior.](#principle-5-enforces-respectful-behavior)
-* [Ends Gracefully.](#principle-6-ends-gracefully)
+* [Continues by Participating.](#principle-4-continues-by-participating)
+* [Has Transparent Motivations.](#principle-5-has-transparent-motivations)
+* [Enforces Respectful Behavior.](#principle-6-enforces-respectful-behavior)
+* [Ends Gracefully.](#principle-7-ends-gracefully)
 
 
 ## Principle 1: Starts Early.

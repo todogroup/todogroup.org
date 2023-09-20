@@ -170,7 +170,7 @@ Also be aware that open source communities often have people from very diverse b
 * Don't write emails when angry
 
 
-## Principle 6: Ends Gracefully.
+## Principle 7: Ends Gracefully.
 
 *No sudden withdrawal of resources without notification and an exit plan. Clear documentation that would allow the community to pick up projects when a company decides to withdraw support.*
 

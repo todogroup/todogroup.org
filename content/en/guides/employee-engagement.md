@@ -149,7 +149,7 @@ Some companies will have the expectation that they can steer an open source proj
 * Make it explicit in communication from which perspective you are speaking when recipients might not have this context
 
 
-## Principle 5: Enforces Respectful Behavior.
+## Principle 6: Enforces Respectful Behavior.
 
 *Participants agree to adhere to community-established codes of conduct. Organizations commit to holding their participants accountable for their behavior.*
 

@@ -5,9 +5,9 @@ url: "/community/get-started/"
 
 ## STEP 1: Join the TODO Chat, Forum and OSPONews
 
-The easisest way to don't miss a thing on the latest trends in OSPOs, job positions, events and studies, is to [subscribe to the [monthly OSPO Newsletter](https://ospo-news.ghost.io/), powered by the open source platform, ghost.
+The easisest way to don't miss a thing on the latest trends in OSPOs, job positions, events and studies, is to [subscribe to the monthly OSPO Newsletter](https://ospo-news.ghost.io/), powered by the open source platform, Ghost.
 
-TODO uses slack for real-time chat. In there you will find our #general channel and many regional-focused and working groups focused channels within it ([check TODO group's community structure to learn more](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md)). We also have a [OSPO forum via GitHub Discussions](https://github.com/todogroup/ospology/discussions) where you can explore some of the conversations going on in the community.
+TODO uses [Slack](https://thetodogroup.slack.com/) for real-time chat. In there you will find our #general channel and many regional-focused and working groups focused channels within it ([check TODO group's community structure to learn more](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md)). We also have a [OSPO forum via GitHub Discussions](https://github.com/todogroup/ospology/discussions) where you can explore some of the conversations going on in the community.
 
 {{< spacer >}}
 

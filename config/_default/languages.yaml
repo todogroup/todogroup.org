@@ -1,9 +1,11 @@
 en:
   languageName: English
   weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms)."
+  title: "TODO Group // Talk openly, develop openly!!"
+  description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
   params:
-    title: "TODO Group // Talk openly, develop openly"
-    description: "TODO: talk openly, develop openly. We believe we can better improve our open source programs - and our contributions to the open source movement as a whole - by working together."
     ### accessibility ###
     accessibility:
       skip_text: "Skip to content"
@@ -16,8 +18,6 @@ en:
     footer_cta:
       text: "Join TODO"
       link: "/join/"
-    ### copyright (markdown can be used) ###
-    copyright: "Copyright &copy; {{< current_year >}} The Linux Foundation®. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms)."
     github_edit: "Edit this page on GitHub"
   ### example menu showing children ###
   menu:

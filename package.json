@@ -24,7 +24,7 @@
       "autoprefixer": "^10.4.15",
       "hugo-extended": "^0.117.0",
       "netlify-cli": "^16.0.2",
-      "postcss": "^8.4.27",
+      "postcss": "^8.4.31",
       "postcss-cli": "^10.1.0"
   },
   "devDependencies": {

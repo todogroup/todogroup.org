@@ -2,7 +2,7 @@
 title: 加入 TODO Group
 ---
 
-[TODO Group 社区](/community/) 面向所有人开放。有时，一些社区参与者已经建立了 OSPO 或开源计划，他们也希望成为普通会员。
+[TODO Group 社区](/community/)面向所有人开放。有时，一些社区参与者已经建立了 OSPO 或开源计划，他们也希望成为普通会员。
 
 ## 成为普通会员
 

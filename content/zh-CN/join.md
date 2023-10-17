@@ -16,4 +16,4 @@ title: 加入 TODO Group
 
 社区参与者来自关注 [OSPO 相关主题](https://ospomindmap.todogroup.org/)的实体，他们帮助 OSPO，但可能没有 OSPO，他们可以通过成为 [OSPO 合作伙伴](/associates)来支持 TODO。
 
-*注: OSPO 合作伙伴计划不同于 TODO Group 普通会员关系，不享有普通会员权益。 要了解 OSPO 合作伙伴权益，请 [阅读相关文档](https://github.com/todogroup/governance/blob/main/OSPO-Associate-Program.md)。*
+**注：OSPO 合作伙伴计划不同于 TODO Group 普通会员关系，不享有普通会员权益。要了解 OSPO 合作伙伴权益，请[阅读相关文档](https://github.com/todogroup/governance/blob/main/OSPO-Associate-Program.md)。**

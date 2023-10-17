@@ -8,7 +8,7 @@ title: 加入 TODO Group
 
 如果你有兴趣成为普通会员来加入并支持 TODO Group，请填写 [会员申请表](https://enrollment.lfx.linuxfoundation.org/?project=todogroup)。
 
-*注: 要成为 TODO Group 普通会员，必须先成为 [Linux 基金会会员](https://www.linuxfoundation.org/members/join)。*
+**注: 要成为 TODO Group 普通会员，必须先成为 [Linux 基金会会员](https://www.linuxfoundation.org/members/join)。**
 
 每一位 TODO Group 普通会员必须同意并签署 [章程](https://github.com/todogroup/charter)。
 

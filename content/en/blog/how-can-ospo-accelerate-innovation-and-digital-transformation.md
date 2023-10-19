@@ -1,5 +1,5 @@
 ---
-title: "How can OSPOs & collaboration accelerate innovation and digital transformation?"
+title: How can OSPOs & collaboration accelerate innovation and digital transformation?
 author: anajsana
 date: 2021-11-24
 ---
@@ -31,7 +31,7 @@ However, due to the open source complexity, companies across industries are in a
 
 ## OSPO Benefits
 
-One of the many reasons is to consider OSPOs as the strategic Ally to bring order into the organization’s open source operations. If you have an aligned and dedicated person or team working on this on a strategic level, is more likely to coordinate and communicate your goals in a more efficient way across teams (legal, engineering, etc) that can be translated into saving time on bringing open source adoption to the organization. In the race towards digital innovation powered by open source adoption, time means everything. 
+One of the many reasons is to consider OSPOs as the strategic Ally to bring order into the organization’s open source operations. If you have an aligned and dedicated person or team working on this on a strategic level, is more likely to coordinate and communicate your goals in a more efficient way across teams (legal, engineering, etc) that can be translated into saving time on bringing open source adoption to the organization. In the race towards digital innovation powered by open source adoption, time means everything.
 
 Open Source adoption usually faces different stages, from a beginner interaction to a more complex one. According to one of the [OSPO acticle from Ibrahim Haddad](https://www.linkedin.com/pulse/open-source-program-offices-primer-organizational-roles-haddad/), the are four primary open source software strategies:
 
@@ -52,7 +52,7 @@ As mentioned earlier, realizing that your organization is already using open sou
 
 # Pre-OSPO Set Up: Understanding the Environment
 
-The same way we find different open source stages related to an organization’s open source involvement, OSPOs have their own journey as well. While there is a tendency to think that open source initiatives should also begin with external visibility in the open-source ecosystem, those community steps may not work until the organization asses a secure and supportive environment within their internal structure (it can be a hard task to try to build a community if there is no sense of community nor sense of security by the developers and high-level managers in the first place). 
+The same way we find different open source stages related to an organization’s open source involvement, OSPOs have their own journey as well. While there is a tendency to think that open source initiatives should also begin with external visibility in the open-source ecosystem, those community steps may not work until the organization asses a secure and supportive environment within their internal structure (it can be a hard task to try to build a community if there is no sense of community nor sense of security by the developers and high-level managers in the first place).
 
 *Disclaimer: There might be companies that already meet those criteria and might be able to start working on external activities such as organization’s developer engagement across open source projects.*
 
@@ -77,7 +77,7 @@ There are initiatives or communities that can help your organization to accelera
 
 ## 1) In-house Initiatives: Re-purposing Organization’s Assets
 
-Some of these accelerators can be already implemented within the organization. Learning how to effectively communicate with other teams, re-allocate resources and re-use content are the main ingredients needed to avoid replication and work on things that have been already implemented by others. 
+Some of these accelerators can be already implemented within the organization. Learning how to effectively communicate with other teams, re-allocate resources and re-use content are the main ingredients needed to avoid replication and work on things that have been already implemented by others.
 
 ### Example: Building Bridges with InnerSource
 

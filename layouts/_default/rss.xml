@@ -1,0 +1,17 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>{{ .Site.Title }}</title>
+        <description>TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices and similar Open Source initiatives.</description>
+        <link>{{ .Site.BaseURL }}</link>
+        <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml" />
+        {{ range where .Site.RegularPages "Section" "eq" "blog" }}
+        <item>
+            <title>{{ .Title }}</title>
+            <guid>{{ .Permalink }}</guid>
+            <link>{{ .Permalink }}</link>
+            <description>{{ .Summary | replaceRE "&ldquo;" "\"" | replaceRE "&rdquo;" "\"" | replaceRE "&rsquo;" "'" | replaceRE "&mdash;" "—" | safeHTML }}</description>
+        </item>
+        {{ end }}
+    </channel>
+</rss>

@@ -35,8 +35,7 @@ Insights into the behavior and state of open source projects is critically impor
 
 [GHTorrent](http://ghtorrent.org) is an open source research project run by Georgios Gousios ([@gousiosg](https://github.com/gousiosg)) that archives all public GitHub events, all entities referenced from those events (transitively), and a set of links derived from these events and entities.  The data is stored in a combination of MySQL and MongoDB and goes back in time to 2012.  This is phenomenal resource for open source communities.  It is easy to get raw data on GitHub usage as @ghtorrent tweeted recently:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yesterday, Github got 10k new users, 43k new repos, 40k new issues, 27k new PRs, 84k new issue coments and 600k new commits <a href="https://twitter.com/hashtag/scale?src=hash">#scale</a></p>&mdash; GHTorrent (@ghtorrent) <a href="https://twitter.com/ghtorrent/status/692226721836306432">January 27, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet user="ghtorrent" id="692226721836306432" >}}
 
 The data enables deeper insights such as the [interactive programming language usage site](http://langpop.corger.nl/) shown below.
 

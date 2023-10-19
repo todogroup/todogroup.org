@@ -1,5 +1,5 @@
 ---
-title: "Goldman Sachs becomes a TODO Member"
+title: Goldman Sachs becomes a TODO Member
 author: todogroup
 date: 2021-11-29
 ---
@@ -7,7 +7,7 @@ date: 2021-11-29
 
 Goldman Sachs joins the TODO Group as part of launching an Open Source Program Office (OSPO), to accelerate its investment in open source and innovation.
 
-Goldman Sachs has been contributing to open source for nearly a decade, finding new ways to advance in their Open Source journey. 
+Goldman Sachs has been contributing to open source for nearly a decade, finding new ways to advance in their Open Source journey.
 In August, Goldman Sachs formalized its commitment to open source and created an Open Source Program Office (OSPO).
 
 > As we have seen work well at other companies, having a single team responsible for the open source strategy will allow us to accelerate and deepen our investment in open source.

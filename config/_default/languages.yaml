@@ -206,11 +206,39 @@ zh-cn:
   ### example menu showing children ###
   menu:
     main:
+    - identifier: "about"
+      name: "关于"
+      url: "/about/"
+      weight: 1
+    - identifier: "about-us"
+      name: "关于 TODO Group"
+      url: "/about/about-us/"
+      weight: 1
+      post: "项目的使命和社区"
+      parent: "about"
+    - identifier: "steering-committee"
+      name: "指导委员会"
+      url: "/about/steering-committee/"
+      weight: 2
+      post: "确定 TODO Group 的目标并在社区中提供管理与指导的人员"
+      parent: "about"
+    - identifier: "members"
+      name: "Members"
+      url: "/about/members/"
+      weight: 3
+      post: "支持在全球范围内采用 OSPO 的组织"
+      parent: "about"
+    - identifier: "associates"
+      name: "Associates"
+      url: "/about/associates/"
+      weight: 4
+      post: "支持 TODO 和 OSPO 的项目、社区和基金会"
+      parent: "about"
     - identifier: "guides"
       name: "指南"
       url: "/guides/"
-      weight: 1
+      weight: 2
     - identifier: "case-studies"
       name: "案例研究"
       url: "/case-studies/"
-      weight: 2
+      weight: 3

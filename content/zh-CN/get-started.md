@@ -3,9 +3,9 @@ title: 快速开始
 url: "/zh-cn/community/get-started/"
 ---
 
-## 第一步：加入 TODO 聊天、论坛和 OSPONews
+## 第一步：加入 TODO 聊天、论坛和 OSPO 通讯月刊
 
-要随时了解关于OSPO的最新动态、职位、活动和研究，最直接的方法是[订阅 OSPO 每月新闻简报](https://ospo-news.ghost.io/)。
+要随时了解关于OSPO的最新动态、职位、活动和研究，最直接的方法是[订阅 OSPO 通讯月刊](https://ospo-news.ghost.io/)。
 
 TODO 社区使用 [Slack](https://thetodogroup.slack.com/) 进行即时沟通。在那里，你可以找到我们的 `#general` 频道，以及其他许多按区域和工作组划分的频道（[点击查看 TODO Group 的社区结构以获取更多信息](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md)）。此外，我们还有一个 [GitHub Discussions 的 OSPO 论坛](https://github.com/todogroup/ospology/discussions)，你可以在那里查看社区中的热门话题和讨论。
 

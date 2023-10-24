@@ -229,7 +229,7 @@ zh-cn:
       post: "支持在全球范围内采用 OSPO 的组织"
       parent: "about"
     - identifier: "associates"
-      name: "Associates"
+      name: "伙伴"
       url: "/about/associates/"
       weight: 4
       post: "支持 TODO 和 OSPO 的项目、社区和基金会"

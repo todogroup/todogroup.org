@@ -242,3 +242,25 @@ zh-cn:
       name: "案例研究"
       url: "/case-studies/"
       weight: 3
+    - identifier: "resources"
+      name: "资源"
+      url: "/resources/"
+      weight: 2
+    - identifier: "glossary"
+      name: "术语表"
+      url: "/resources/glossary/"
+      weight: 1
+      post: "OSPO 的常用术语和定义"
+      parent: "resources"
+    - identifier: "studies"
+      name: "研究"
+      url: "/resources/studies/"
+      weight: 2
+      post: "成熟度模型、调查和报告，助您的 OSPO 之旅一臂之力"
+      parent: "resources"
+    - identifier: "mindmap"
+      name: "思维导图"
+      url: "/resources/mindmap/"
+      weight: 3
+      post: "OSPO 内部的责任、角色、行为和团队规模"
+      parent: "resources"

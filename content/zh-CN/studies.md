@@ -1,6 +1,6 @@
 ---
 title: 研究
-url: "/resources/studies/"
+url: "/zh-cn/resources/studies/"
 ---
 
   * [深入浅出OSPO](https://www.linuxfoundation.org/tools/a-deep-dive-into-open-source-program-offices/) 涉及到OSPO的特征、组织结构、角色、职责和挑战。

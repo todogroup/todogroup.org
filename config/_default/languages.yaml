@@ -223,13 +223,13 @@ zh-cn:
       post: "确定 TODO Group 的目标并在社区中提供管理与指导的人员"
       parent: "about"
     - identifier: "members"
-      name: "成员"
+      name: "普通会员"
       url: "/about/members/"
       weight: 3
       post: "支持在全球范围内采用 OSPO 的组织"
       parent: "about"
     - identifier: "associates"
-      name: "普通会员"
+      name: "合作伙伴"
       url: "/about/associates/"
       weight: 4
       post: "支持 TODO 和 OSPO 的项目、社区和基金会"

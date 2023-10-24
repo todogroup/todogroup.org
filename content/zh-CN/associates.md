@@ -5,15 +5,15 @@ url: "/zh-cn/about/associates/"
 
 TODO 小组社区向所有人开放，由社区参与者（包括 OSPO 合作伙伴）和普通会员组成。有时，一些社区参与者希望展示其组织在促进 OSPO 的采用和支持全球从业人员社区方面所做的努力。
 
-* 已经建立了 OSPO 或有类似开源项目的组织的社区成员，可以成为[普通会员](https://todogroup.org/join/)来支持 TODO Group。
+* 已经建立了 OSPO 或有类似开源项目的组织的社区成员，可以成为[普通会员](https://todogroup.org/join/)来支持 TODO 小组。
 
-* 那些**关注 [OSPO 相关议题](https://ospomindmap.todogroup.org/)并支持 OSPO，但自身可能并未设立 OSPO 的实体**，可以选择加入成为 [OSPO 合作伙伴](https://github.com/todogroup/governance/blob/main/OSPO-Associate-Program.md#-ways-you-can-support-todo)来支持 TODO Group。
+* 那些**关注 [OSPO 相关议题](https://ospomindmap.todogroup.org/)并支持 OSPO，但自身可能并未设立 OSPO 的实体**，可以选择加入成为 [OSPO 合作伙伴](https://github.com/todogroup/governance/blob/main/OSPO-Associate-Program.md#-ways-you-can-support-todo)来支持 TODO 小组。
 
 {{< todo_associates >}}
 
 ## 什么是 OSPO 合作伙伴计划和 OSPO 合作伙伴？
 
-OSPO 合作伙伴是 TODO Group 的一个项目，目标是与支持 OSPO 发展的各社区携手合作，共同打造最完善的 OSPO 解决方案平台和网络。
+OSPO 合作伙伴是 TODO 小组 的一个项目，目标是与支持 OSPO 发展的各社区携手合作，共同打造最完善的 OSPO 解决方案平台和网络。
 
 许多实体选择加入 OSPO 合作伙伴计划，其原因包括：
 
@@ -72,4 +72,4 @@ Netlify 会自动为您创建一个预览版本。请确认 logo 和相关信息
 
 如果您想了解您的项目是如何融入 TODO 的各种计划，或者希望获取更多相关信息，您可以联系 ana@todogroup.org，她会安排一个同步通话来回答任何问题。
 
-*注意：OSPO 合作伙伴计划与 TODO Group 的普通会员资格不同，并且没有普通会员的权益。*
+*注意：OSPO 合作伙伴计划与 TODO 小组 的普通会员资格不同，并且没有普通会员的权益。*

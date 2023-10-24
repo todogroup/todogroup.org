@@ -1,5 +1,5 @@
 ---
-title: Members
+title: 普通会员
 url: "/zh-cn/about/members/"
 ---
 

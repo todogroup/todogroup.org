@@ -13,6 +13,6 @@ url: /zh-cn/about/about-us/
 
 简而言之，各个组织在开始并持续深化他们的 [OSPO 之旅](https://linuxfoundation.org/wp-content/uploads/LFResearch_OSPO_Report.pdf)时都需要一定的引导。
 
-本团队的社区及 [General Members](../members) 都决心齐心协力，努力解决上述挑战。我们会交流心得，建立最佳方案，并共同开发工具。然而，我们无法单凭一己之力完成。若您希望在开源领域持续发展，欢迎[加入我们的社区](../community)。对于已经有了 OSPO 或其他类似开源活动的组织，也可[点击此处](../../join)支持我们，成为 General Members。
+本团队的社区及[普通会员](../members)都决心齐心协力，努力解决上述挑战。我们会交流心得，建立最佳方案，并共同开发工具。然而，我们无法单凭一己之力完成。若您希望在开源领域持续发展，欢迎[加入我们的社区](../community)。对于已经有了 OSPO 或其他类似开源活动的组织，也可[点击此处](../../join)支持我们，成为普通会员。
 
 {{< todo_presentation >}}

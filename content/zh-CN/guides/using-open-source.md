@@ -1,269 +1,268 @@
 ---
-title: Using open source code
+title: 如何使用开源代码
 ---
 
-One of the most important responsibilities of an open source program office is ensuring that your organization meets its legal obligations when integrating open source code with proprietary and third-party source code in your commercial products.
+一个开源项目的办公部门最主要的职责之一，是确保当你的组织把开源代码与商业产品的私有代码或第三方代码结合时，能满足法律规定。
 
-You need to establish guidelines on how developers can use open source code, and detailed processes to track where open source code is coming from, how it’s licensed, and where it ultimately ends up. This guide gets you started with a baseline compliance program for using, releasing, and distributing open source code.
+你们应当制定关于开发者如何正确使用开源代码的指引，并建立明确的程序来追踪开源代码的出处、授权方式及其最后的使用地。此指南提供了一个关于使用、发布及分发开源代码的基础合规流程的参考。
 
 **Contents**
 
-1. [Why track and review code](#why-track-and-review-code)
-2. [Compliance roles and responsibilities](#compliance-roles-and-responsibilities)
-3. [A simple policy for using open source code](#a-simple-policy-for-using-open-source-code)
-4. [Five-stage code review process](#5-stage-code-review-process)
-5. [What to do after v1.0](#what-to-do-after-v10)
-6. [Sample open source usage request form](#open-source-usage-request-form)
-7. [Final words](#final-words)
-8. [Architecture diagram template](#architecture-diagram-template)
+1. [为何要追踪和审查代码？](#为何要追踪和审查代码？)
+2. [合规的角色与职责](#合规的角色与职责)
+3. [开源代码使用的基本策略](#开源代码使用的基本策略)
+4. [五个阶段的代码审核流程](#五个阶段的代码审核流程)
+5. [在v1.0之后该怎么做](#在v10之后该怎么做)
+6. [开源使用申请表](#开源使用申请表)
+7. [结语](#结语)
+8. [架构图模板](#架构图模板)
 
-## Why track and review code?
+## 为何要追踪和审查代码？
 
-Simply stated, if your company isn’t tracking how and where its developers use open source code, you're at risk of non compliance with applicable open source licenses – this can be an expensive path to go through both in terms of legal fees and engineering time spent to correct the error. Ignoring your open source legal obligations also has repercussions for your company’s reputation in the open source community.
+简单说，如果贵公司未对开发人员如何及何处使用开源代码进行追踪，可能会违反开源许可证的相关规定，这可能导致高额的法律费用，同时也需花费工程师大量时间纠正。忽略开源的法律责任，还会影响贵公司在开源社区中的声誉。
 
-An open source program office helps centralize policies and decision-making around open source consumption, distribution, and release, tracks code provenance and use, and ensures the organization doesn’t run afoul of its compliance obligations.
+开源项目办公部门可以帮助统一关于开源的消费、分发与发布的政策和决策，追踪代码的来源及使用，并保证公司不违背合规责任。
 
-Ideally, your open source program includes a complete compliance program, developed with the help of your legal counsel. In this guide, we’ll cover one important aspect of your compliance program: your policy and processes for using, releasing, and distributing open source code.
+理想地情况下，您的开源方案应该包含一个完整的合规计划，这需要在法律顾问的指导下制定。在此指南里，我们会探讨合规计划的关键部分：关于使用、发布及分发开源代码的政策和程序。
 
-> “A well-designed open source compliance process should simultaneously ensure compliance with the terms of open source licenses and also help companies protect their own intellectual property and that of third-party suppliers from unintended disclosure and/or other consequences.” – [Ibrahim Haddad](https://twitter.com/ibrahimatlinux), Vice President of R&D and Head of the Open Source Group at Samsung Research America
+> “一个良好设计的开源合规流程，不仅确保满足开源许可的条款，还帮助企业守护自身与第三方供应商的知识产权，避免不必要的泄漏或其他后果。” - [Ibrahim Haddad](https://twitter.com/ibrahimatlinux)，三星美国研究部门的研发副总裁及开源团队主管
 
-There are several benefits companies can experience from maintaining an open source compliance program:
+维护开源合规程序对公司有多种益处：
 
-* **Gain a technical advantage.** Since compliant software portfolios are easier to service, test, upgrade, and maintain.
-* **Identify crucial pieces of open source code.** You’ll discover what code is in use across multiple products and parts of your organization, and/or are highly strategic and beneficial to your open source strategy.
-* **Demonstrate the costs and risks associated with using open source components.** This is easier to see when code goes through multiple rounds of review.
-* **Build community trust.** In the event of a compliance challenge, such a program can demonstrate an ongoing pattern of acting in good faith.
-* **Prepare for a possible acquisition, sale, or new product or service release.** This is a less common ways benefit, but compliance assurance is a mandatory practice before the completion of such transactions.
-* **Build credibility in the supply chain.** You can improve compliance across your software supply chain, dealing with OEMs and downstream vendors.
+* **技术上的优势**：合规的软件集更易于服务、测试、更新及维护。
+* **辨识开源代码的核心部分**：可以识别哪些代码在公司多个产品和部门中使用，及其对开源策略的策略性价值。
+* **显示与开源组件相关的成本与风险**：当代码经过多次审查时，这一点更为明显。
+* **树立社区信任**：在面对合规问题时，此类程序展示了一贯的善意行为。
+* **为潜在的收购、出售或新产品/服务的发布做好准备**：虽然这不常见，但在交易前的合规确认是必要的。
+* **在供应链中塑造良好信誉**：可增强软件供应链的合规性，与 OEM 和下游供应商合作。
 
-## Compliance roles and responsibilities
+## 合规的角色与职责
 
-Within your open source program you’ll want to create a designated open source compliance team that’s tasked with ensuring open source compliance.
+在贵公司的开源项目里，您可能需要组建一个专门的开源合规团队来确保一切合规。
 
-The core team, often called the auditing team or the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the Compliance Officer (who is typically the open source program manager).
+这个核心团队，常被称作审计团队或开源审查委员会（OSRB），是由工程和产品团队的代表、一名或多名法律顾问，以及合规负责人（通常是开源项目经理）所组成。
 
-Other individuals across multiple departments also contribute on an ongoing basis to your open source compliance efforts: documentation, supply chain, corporate development, IT, localization and the Open Source Executive Committee (OSEC) which oversees the overall open source strategy. But unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB.
+还有来自各个部门的人员会持续为开源合规工作提供支持，如：文档编写、供应链、企业拓展、IT、本地化及开源执行委员会（OSEC）等。OSEC 主要负责监督公司的整体开源策略。但不同于核心团队，这个扩展团队的成员在合规工作上只是兼职，这取决于他们从 OSRB 那里收到的任务。
 
-The OSRB is in charge of creating an open source compliance strategy and a set of processes that determine how a company will implement these rules on a daily basis. The strategy establishes what must be done to ensure compliance and offers a governing set of principles for how employees interact with open source software. It includes a formal process for the approval, acquisition, and use of open source, and a method for releasing software that contains open source or that’s licensed under an open source license.
+OSRB 的职责是制定开源合规策略和一系列的程序，确定公司如何在日常工作中遵循这些规定。这个策略明确了为了保持合规性必须采取的行动，并为员工与开源软件之间的互动制定了管理准则。其中包括了批准、获取和使用开源的正式程序，以及发布含有开源或基于开源许可的软件的方法。
 
-## A simple policy for using open source code
+## 开源代码使用的基本策略
 
-The usage policy is an essential component of any compliance program. This set of rules is included in your open source strategy document (you have one, right?) and made available to everyone for easy reference.
+使用政策是合规计划中的基石。这些规则应该被纳入您的开源策略文档（您应该已经有了这样的文档，是吧？）并让所有人都能方便地查阅。
 
-The usage policy ensures that any software (proprietary, third-party, or open source) that makes its way into the product base has been audited, reviewed, and approved. It also ensures that your company has a plan to fulfill the license obligations resulting from using the various software components, before your products make it to customers.
+使用政策确保加入到产品库中的任何软件（无论是专有的、第三方的还是开源的）都经过了审计、检查和批准。同时，它也确保在产品交付给客户之前，您的公司已经计划好满足由于使用各种软件组件而产生的许可证义务。
 
-There is no need to make a lengthy or complicated document. A good open source usage policy includes six simple rules:
+不必制定一份篇幅冗长或过于复杂的文件。一个有效的开源使用政策应包含以下六个简洁的规则：
 
-* Engineers must receive approval from the OSRB before integrating any open source code in a product.
-* Software received from third parties must be audited to identify any open source code included, which ensures license obligations can be fulfilled before a product ships.
-* All software and dependencies must be audited and reviewed, including all proprietary software components.
-* Products must fulfill open source licensing obligations prior to customer receipt.
-* Approval for using a given open source component in one product is not approval for another deployment, even if the open source component is the same.
-* All changed components must go through the approval process.
+* 在将任何开源代码集成到产品中之前，工程师必须得到 OSRB 的同意。
+* 从第三方获得的软件必须经过审计，以确定其中是否包含了任何开源代码，确保在产品交付前满足相关许可证的要求。
+* 所有软件及其依赖都应经过审计和检查，这包括所有的专有软件组件。
+* 在产品交付给客户之前，必须满足开源许可证的要求。
+* 在一个项目中得到批准使用某个开源组件，并不代表在另一个项目中也自动获得该组件的使用批准，哪怕这两个组件是完全相同的。
+* 任何经过修改的组件都必须再次经过审批流程。
 
-## 5-stage code review process
+## 五个阶段的代码审核流程
 
-Once you have a policy in place, you must plan and create a process that makes it easy to apply the policy. Your job is to grease the wheels for developer use of open source and contribution to open source projects.
+当你拥有了一套政策，接下来你需要策划并创建一个流程，使得按照这套政策操作变得简便。你的目标是让开发人员轻松使用开源代码并为开源项目做出贡献。
 
-> “If your code review process is overly burdensome, you’ll slow innovation or provide a good excuse for developers to circumvent the process completely.” – [Ibrahim Haddad](https://twitter.com/ibrahimatlinux), Vice President of R&D and Head of the Open Source Group at Samsung Research America
+> “如果你的代码审核流程太过繁琐，你就可能会妨碍创新，或者让开发人员找到借口去规避这一流程。” - [Ibrahim Haddad](https://twitter.com/ibrahimatlinux)，三星研究美国的研发副总裁兼开源组负责人
 
-The process begins by scanning the source code of the software package in question, then moves on to identifying and resolving any discovered issues, performing legal and architectural reviews, and making a decision regarding the usage approval.
+这一流程起始于对所选软件包的源代码进行扫描，接着是识别并处理可能出现的问题，进行法律和架构上的评审，最后决定是否批准其使用。
 
-The diagram described below illustrates a simplistic view of a compliance usage process. In reality, the process is much more iterative in nature. Keep in mind that these phases are for illustration purposes and may need to be modified depending on your company’s own needs and open source program configuration.
+下面描述的是一个简化的合规审核流程视图。实际上，这一流程会更加迭代。值得注意的是，这些步骤只是为了说明，根据公司的具体需求和开源项目的配置，可能需要进行适当调整。
 
-Let’s walk through each stage in the process.
+现在，让我们详细了解每一个阶段。
 
-### Stage 1: Source Code Scan
+### 阶段1：源代码检查
 
-In the source code scanning phase, all the source code is scanned using a specialized software tools (there are many commercial vendors that offer such tools in addition to a couple open source alternatives).
+在源代码检查阶段，我们使用专业软件工具扫描全部源代码。除了开源工具外，也有许多商业提供商提供这类工具。
 
-This phase typically kicks off when an engineer submits an online usage form. (See the link to the sample usage form and rules for using it, below.) The form includes all the information about the open source component in question, and specifies the location of the source code in the source code repository system.
+当工程师提交一个在线申请表格时，这个阶段通常就开始了。（详细的使用表单和规则，请查看下方链接。）这份表单会列出所有关于开源组件的详细信息，并标明源代码在代码仓库中的位置。
 
-The form submission automatically creates a compliance ticket in a system such as JIRA or Bugzilla and a source code scanning request will be sent to the designated auditing staff.
+提交表单后，会自动在 JIRA 或 Bugzilla 等系统中生成一个合规性任务，并向指定的审核人发送源代码检查请求。
 
-Periodic full platform scans should also take place every few weeks to ensure that no open source software component has been integrated into the platform without a corresponding form. If any was found, then a JIRA ticket is automatically issued and assigned to the auditing staff.
+每隔几周，我们还应进行一次全平台检查，确保没有任何未经申请的开源组件被集成到平台中。如果检查出有问题，系统会自动生成 JIRA 任务并分配给审核员。
 
-Some of the factors that can trigger a source code scan include:
+源代码检查可能会因以下原因被触发：
 
-* An incoming usage form, usually filled out by engineering staff.
-* A periodically scheduled full platform scan. Such scans are very useful for uncovering open source code that snuck into your software platform without a usage form.
-* Changes in a previously approved software component. In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.
-* Source code is received from a third-party software provider who may or may not have disclosed open source.
-* Source code is downloaded from the web with an unknown author and/or license, which may or may not have incorporated open source code.
-* A new proprietary software component enters the build system where engineering may or may not have borrowed open source code and used it in a proprietary software component.
+* 工程师提交的申请表。
+* 定期的全平台检查，这有助于找出未经申请就被引入的开源代码。
+* 之前批准的软件组件发生变更。有时，工程师会评估并用一个 OSS 组件的版本进行测试，但在有新版本发布后改用新版本。
+* 可能已经包含或尚未包含开源代码的第三方软件提供商的代码。
+* 从互联网下载的、其作者或许可不明确的代码，这些代码可能包含或不包含开源代码。
+* 新的私有软件组件被引入构建系统，这些组件可能使用了开源代码。
 
-After the code is scanned, the scanning tool produces a report that provides information on:
+检查完成后，工具会生成报告，内容包括：
 
-* Known software components in use, also known as the software Bill of Materials (BoM)
-* Licenses in effect, license texts, and summary of obligations
-* License conflicts to be verified by legal
-* File inventory
-* Identified files
-* Dependencies
-* Code matches
-* Files pending identification
-* Source code matches pending identification
+* 当前使用中的软件组件，亦称为软件物料清单（BoM）
+* 有效的许可证、许可证文本和相关义务概览
+* 需要法务确认的许可证问题
+* 文件列表
+* 已识别的文件
+* 代码依赖
+* 代码匹配项
+* 未识别的文件
+* 未识别的代码匹配项
 
-#### Note on Downloaded Open Source Packages
+#### 下载开源包的注意事项
 
-It is vital to archive open source packages downloaded from the web in their original form. These packages will be used in a later stage (prior to distribution) to verify and track any changes introduced to the source code by computing the difference between the original package and the modified package.
+保持从网络下载的开源包的原始状态是非常重要的。在后续阶段（分发前），我们会通过比对原始包与修改后的包的差异来确认和追踪对源代码的任何更改。
 
-If a third-party software provider uses open source, the product team integrating that code into the product must submit an open source usage form describing the open source to be used. If the third-party software provider only provides binaries, not source code, then the product team and/or the software supplier manager who manages the relationship with the third-party software provider must obtain a confirmation (for instance, a scan report) that there is no open source in the provided software.
+如果第三方软件提供商使用开源，将该代码集成到产品中的产品团队必须提交描述要使用的开源的开源使用表单。如果第三方软件提供商仅提供二进制文件，而不提供源代码，则产品团队或管理与第三方软件提供商关系的软件供应商经理必须获得确认（例如，扫描报告），确保提供的软件中没有开源成分。
 
-### Stage 2: Identification and Resolution
+### 阶段2：识别与处理
 
-In the identification and resolution phase, the auditing team inspects and resolves each file or snippet flagged by the scanning tool.
+在识别和处理阶段，审查团队仔细检视并处理扫描工具标注出的每个文件或代码段。
 
-For example, the scanning tool’s report can flag issues such as conflicting and incompatible licenses. If there are no issues, then the compliance office will move the compliance ticket forward to the legal review phase.
+例如，扫描工具的报告可能指出了如许可证之间的冲突和不兼容性等问题。如果一切正常，那么合规部门会将该审查任务推进到下一阶段，即法律评估阶段。
 
-If there are issues to be resolved, then the compliance officer creates subtasks within the compliance tickets and assigns them to the appropriate engineers to be resolved. In some cases, a code rework is needed; in other cases it may simply be a matter of clarification. The sub-tasks should include a description of the issue, a proposed solution to be implemented by engineering, and a specific timeline for completion.
+若存在待处理的问题，合规人员会在审查任务中新建子任务，并分配给合适的工程师去处理。在某些情况下，可能需要对代码进行修改或重写；而在其他情况下，可能只需要对某些部分进行明确或澄清。这些子任务应描述问题、提供给工程师的推荐处理方案以及明确的完成时限。
 
-The compliance officer may simply close the subtasks once all issues are resolved and pass the ticket along for legal review. Or they might first order a re-scan of the source code and generate a new scan report confirming that earlier issues do not exist anymore. Once they're satisfied that all issues are resolved, the compliance officer forwards the compliance ticket to a representative from the legal department for review and approval.
+当所有问题均已处理完毕，合规人员可以关闭相关子任务，并将主任务转交给法律部门继续审查。或者，他们可能会要求再次对源代码进行扫描，根据新的扫描报告确保之前的问题已被彻底解决。一旦确认所有问题都得到妥善处理，合规人员会将审查任务交给法律部门进行最后的评估和确认。
 
-In preparation for legal review, you should attach all licensing information related to the open source software to the compliance ticket, such as COPYING, README, LICENSE files, etc.
+进行法律评估时，应将所有与开源软件有关的许可信息附加到审查任务上，如 COPYING、README、LICENSE 等文件。
 
-### Stage 3: Legal Review
+### 第三阶段：法务评估
 
-In the legal review phase, the legal counsel (typically a member of the open source review board, or OSRB) reviews reports generated by the scanning tool, the license information of the software component, and any comments left in the compliance ticket by engineers and members of the auditing team.
+在法务评估阶段，法务团队（通常为开源评审委员会或OSRB的成员）会检查扫描工具生成的报告、软件组件的授权信息，以及工程师和审核团队在审查工单中提供的所有意见。
 
-When a compliance ticket reaches the legal review phase, it already contains:
+当审查工单进入法务评估阶段时，它已经包括了：
 
-* A source code scan report and confirmation that all the issues identified in the scanning phase have been resolved.
-* Copies of the license information attached to the ticket: typically, the compliance officer attaches the README, COPYING, and AUTHORS files available in the source code packages to the compliance ticket. Other than the license information, which for OSS components is usually available in a COPYING or a LICENSE file, you need to also capture copyright and attribution notices as well. This information will provide appropriate attributions in your product documentation.
-* Feedback from the compliance officer regarding the compliance ticket (concerns, additional questions, etc.).
-* Feedback from the engineering representative on the auditing team or from the engineer (package owner) who follows/maintains this package internally.
+* 源代码的扫描报告，以及确保在扫描阶段确定的所有问题都已得到解决的相关信息。
+* 附于工单上的许可信息副本：一般情况下，审查人员会把源代码包中的 README、COPYING 和 AUTHORS 文件附加到审查工单上。除了许可证信息，对于开源软件组件，常常需要从 COPYING 或 LICENSE 文件中获取，同时还需要记录版权和所有权声明。这些建议将在产品文档中提供适当的声明。
+* 审查人员对审查工单的意见（如需要关注的点、其他疑问等）。
+* 审查团队的工程代表或负责该软件包的工程师（软件包的所有者）的意见。
 
-The goal of this phase is to produce a legal opinion of compliance, and a decision on the incoming and outgoing license(s) for the software component in question. The incoming and outgoing licenses are in the plural form because in some cases, a software component can include source code available under different licenses. There are three possible outcomes at this stage:
+此阶段的目的是形成一个合法的建议，并对涉及的软件组件的许可证做出决策。这里提到的许可证可能有多种，因为在某些情况下，一个软件组件可能包含在多个许可证之下的源代码。在此阶段，存在三种可能的结论：
 
-#### No issues with compliance
+#### 没有合规问题
 
-If there are no issues with the licensing, the legal counsel would then decide on the incoming and outgoing licenses of the software component and forward the compliance ticket one step further in the process into the compliance architectural phase.
+如果许可证中没有问题，法务团队将决定软件组件的接受和分发许可证，并将审查工单推进到下一阶段：架构审核阶段。
 
-The incoming license is the license under which you received the software package. The outgoing license is the license under which you are licensing the software package. In some cases, when the incoming license is a permissive license that allows relicensing (e.g., BSD), companies will relicense that software under their own proprietary license. A more complex example would be a software component that includes proprietary source code, source code licensed under License-A, source code that is available under License-B, and source code available under License-C.During legal review, the legal counsel will need to decide on the incoming and outgoing license(s):
+接受的许可证是您在收到软件包时的许可证。分发的许可证是您在分发软件包时采用的许可证。在某些情况下，当接受的许可证是宽容性的并允许重新授权的许可证（例如，BSD）时，公司可能会选择在其自己的专有许可证下重新授权软件。更为复杂的情况是，一个软件组件包含了专有源代码、在许可证 A 下的源代码、在许可证 B 下的源代码和在许可证 C 下的源代码。在法务评估过程中，法务团队需要确定接受和分发的许可证：
 
-Incoming licenses= Proprietary License + License A + License B + License C
-Outgoing license(s) = ?
+接受的许可证 = 专有许可证 + 许可证 A + 许可证 B + 许可证 C
+分发的许可证 = ？
 
-#### Issues with compliance
+#### 合规冲突
 
-If a licensing issue is found, such as mixed source code with incompatible licenses, the legal counsel will flag these issues and reassign the compliance ticket in JIRA to engineering to rework the code.
+若出现许可证的冲突，例如混合源代码持有不同且不相容的许可证，法律团队会标出这些冲突，并在 JIRA 工单中将任务重新指定给工程团队来进行代码的修改或重构。
 
-For example, legal review may uncover that closely held intellectual property has been combined with an open source code package. Legal counsel will flag this and re-assign the compliance ticket to engineering to remove the proprietary source code from the open source component. In the event that engineering insists on keeping the proprietary source code in the open source component, the open source executive committee (OSEC) will have to release the proprietary source code under an open source license.
+举例来说，法务审查可能会发现，公司的保密知识产权与某个开源代码包进行了混合。在这种情况下，法务团队将会指出此问题，并将 JIRA 工单重新指定给工程团队，建议他们从开源组件中分离或移除保密的知识产权部分。如果工程团队决定保留这部分保密知识产权在开源组件中，那么开源执行委员会（OSEC）则需要考虑是否在开源许可证的条款下发布该部分的保密知识产权代码。
 
-#### Unclear issues with compliance
+#### 合规性方面存在不明确的问题
 
-In some cases, if the licensing information is not clear or if it is not available, the legal counsel or engineering staff members contacts the project maintainer or the open source developer to clarify the ambiguities and to confirm under which license that specific software component is licensed.
+有时，许可证的信息可能不明确或缺失。在这种情况下，法务团队或工程团队会主动联系项目的维护者或开源代码的开发者，以便澄清这些不明确的地方，并确定这一特定软件组件是基于哪种许可证进行授权的。
 
-### Stage 4: Architecture Review
+### 第四阶段：架构审核
 
-In the architecture review, the compliance officer and an engineering representative on the auditing team or open source review board perform an analysis of the interaction between the open source, proprietary, and third-party code. This is accomplished by examining an architectural diagram (see an example, below) that identifies:
+在架构审核阶段，合规人员与审计团队或开源审核委员会的工程代表对开源、私有和第三方代码的交互进行分析。这主要是通过查看一个架构图来完成的（以下为示例），图中标明了：
 
-* Open source components (used “as is” or modified)
-* Proprietary components
-* Components originating from third-party software providers
-* Component dependencies
-* Method of communication between the software components (TCP/IP, Linux socket, function API with static or dynamic         linking between the components)
-* Communication protocols
-* Other open source packages that the specific software component interacts with or depends on, especially if it is governed by a different open source license.
+* 开源组件（直接使用或经过修改）
+* 私有组件
+* 来自第三方软件供应商的组件
+* 组件间的依赖关系
+* 软件组件之间的交互方式（如 TCP/IP、Linux socket、静态或动态链接的函数 API 等）
+* 通讯协议
+* 特定软件组件与其交互或所依赖的其他开源包，特别是当这些包受不同的开源许可证约束时。
 
-The result of the architecture review is an analysis of the licensing obligations that may extend from open source to proprietary or third-party software components (and across open source components as well).
+架构审核的结果是分析可能存在的从开源到私有或第三方软件组件的许可义务（以及在开源组件之间的）。
 
-If the compliance officer discovers any issues, such as a proprietary software component linking to a GPL licensed component, the compliance officer forwards the compliance ticket to engineering for resolution. If there are no issues, then the compliance officer moves the ticket to the final stage in the approval process.
+若合规人员发现有问题，比如一个私有软件组件链接到了一个受 GPL 许可的组件，那么合规人员会将合规事项转交给工程部门解决。如无问题，合规人员则将事项推进至审批流程的下一阶段。
 
-### Stage 5: Final Review
+### 第五阶段：终审
 
-The final review is usually a face-to-face meeting of the auditing team or open source review board (OSRB) during which the team approves or rejects the usage of the software component.
+终审通常为审计团队或开源审核委员会（OSRB）的线下会议，会议中将决定批准或拒绝软件组件的使用。
 
-The team bases its decision on the complete compliance record of the software component, which includes the following:
+团队基于软件组件的详细合规记录来做决策，这些记录包括：
 
-* A source code scan report generated by the scanning tool.
-* The list of discovered issues, information on how they were resolved, and who verified that these issues were successfully resolved.
-* Architectural diagrams and information on how this software component interacts with other software components.
-* Legal opinion on compliance, and decision on incoming and outgoing licenses.
-* Dynamic and static linkage analysis, if applicable in an embedded environment (C/C++).
+* 由扫描工具输出的源代码扫描结果。
+* 已发现的问题列表、解决这些问题的详情，以及确认这些问题得到妥善处理的责任人。
+* 架构图以及该软件组件与其他软件组件之间的交互方式。
+* 对合规的法律建议以及关于接受和发放许可的决策。
+* 若适用于嵌入式环境（如C/C++），还包括动态和静态链接的分析。
 
-In most cases, if a software component reaches the final review, it will be approved unless a condition has presented itself (such as the software component is no longer in use). Once approved, the compliance officer will prepare the list of license obligations for the approved software component and pass it to appropriate departments for fulfillment. This can include:
+在大部分情况下，当软件组件到达终审阶段，除非有特殊原因（如该软件组件不再被采纳），它通常都会得到批准。一旦得到批准，合规人员将为这些批准的软件组件制定许可义务清单，并交给相关部门执行。这可能涉及：
 
-* Updating the software inventory to reflect that the specific OSS software component version x is approved for usage in product y, version z.
-* Issuing a ticket to the documentation team to update end user notices in the product documentation, to reflect that open source is being used in the product or service.
-* Triggering the distribution process before the product ships.
+* 更新软件库存，标明特定的 OSS 软件组件版本 x 已得到授权在产品 y 的版本 z 中使用。
+* 向文档团队提交任务单，更新产品文档中的终端用户通知，表明产品或服务中已使用开源软件。
+* 在产品出货前启动发行流程。
 
-The compliance officer tracks all open tickets and ensures their completion by the time the product ships or service launches.
+合规人员会追踪所有未完成的任务，并确保它们在产品发货或服务上线前完成。
 
-For a more detailed usage process and possible scenarios, see our ebook [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/).
+如需了解更详细的应用流程和可能的场景，请查阅我们的电子书[《企业中的开源合规》](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)。
 
-## What to do after v1.0
+## 在v1.0之后该怎么做
 
-Initial compliance, also called baseline compliance, happens when development starts, and continues until the release of the first version of the product. The compliance team identifies all open source code included in the software baseline, and drives all of the source components through the five-stage approval process outlined above.
+初始合规，也叫做基线合规，是从开发初期开始的，一直持续到产品的首个版本发布。合规团队会识别出软件基线中的所有开源代码，并确保所有的源代码组件都经过了前述的五个阶段的审查。
 
-> “It’s important to remember that open source compliance doesn’t stop with version 1.0.” – [Ibrahim Haddad](https://twitter.com/ibrahimatlinux), Vice President of R&D and Head of the Open Source Group at Samsung Research America
+> “需要明确的是，开源合规并不在1.0版本时就结束了。” - [Ibrahim Haddad](https://twitter.com/ibrahimatlinux)，三星研究美国的研发副总裁以及开源团队负责人
 
-You will also need to develop an incremental compliance process to check in on the source code once the product ships. This process starts when development begins on a new branch that includes additional features and/or bug fixes.
+您还需构建一个增量合规流程，用于产品上线后的源代码审查。这一流程从新的开发分支开始，该分支可能包含新功能或者修复的 bugs。
 
-Incremental compliance is the process by which compliance is maintained when product features are added to the baseline version 1.0. Incremental compliance requires a comparatively smaller effort as opposed to the efforts involved in establishing baseline compliance. But several challenges can arise. You must correctly identify the source code that changed between version 1.0 and version 1.1, and verify compliance on the delta between the releases:
+增量合规即在将新功能加入到基线版本1.0的过程中，持续进行合规检查。与建立初始合规相比，增量合规需要的努力相对较少。但可能会遇到一些挑战。您需要精确地鉴定版本 1.0 和版本 1.1 之间源代码的变化，并确保版本差异中的合规：
 
-* New software components may have been introduced.
-* Existing software components may have been retired.
-* Existing software components may have been upgraded to a newer version.
-* The license on a software component may have changed between versions.
-* Existing software components may have code changes involving bug fixes or changes to functionality and architecture.
+* 可能加入了新的软件组件。
+* 有些现有软件组件可能被移除了。
+* 现有的软件组件或许升级到了新的版本。
+* 在各个版本中，软件组件的许可可能发生了改变。
+* 现有的软件组件可能有代码的变化，可能是错误修复、功能增加或架构上的调整。
 
-The obvious question is: How can we keep track of all of these changes? The answer is simple: a bill of material difference tool (BOM diff tool). Given the BOM for product v1.1 and the BOM for v1.0, we compute the delta and the output of the tool is the following:
+一个显而易见的问题是：我们如何追踪所有的这些变动？答案是：物料清单差异工具（BOM 差异工具）。给定产品 v1.1 的 BOM 和 v1.0 的 BOM，工具会计算其差异，输出如下：
 
-* Names of new software components added in v1.1
-* Names of updated software components
-* Names of retired software components
+* 在 v1.1 中新加入的软件组件名称。
+* 被更新的软件组件名称。
+* 被移除的软件组件名称。
 
-With this information in hand, achieving incremental compliance becomes a relatively easy task:
+有了这些信息后，进行增量合规变得相对简单：
 
-* Enter new software components into the five-phase usage approval process.
-* Compute a line-by-line diff of the source code in changed software components, and decide if you want to scan the source code again or rely on the previous scan.
-* Update the software registry by removing the software components that are not used anymore.
+* 将新的软件组件引入到前述的五阶段审查过程中。
+* 计算变更的软件组件的源代码差异，并决定是否需要重新进行代码扫描或者依赖之前的扫描结果。
+* 更新软件清单，移除不再使用的软件组件。
 
-The diagram described below provides an overview of the incremental compliance process. The BOM file for each product release is stored on the build server. The BOM diff tool takes two BOM files as input, each corresponding to a different product release, and computes the delta to produce a list of changes as previously discussed.
+下文提到的图表描述了增量合规流程的概览。每个产品版本的 BOM 文件都会存储在构建服务器上。BOM 差异工具接收两个 BOM 文件作为输入，每个都代表一个不同的产品版本，然后计算其差异，生成上述的变更列表。
 
-At this point, the compliance officer will create new compliance tickets for all new software components in the release, update compliance tickets where source code has changed and possibly re-pass them through the process, and finally update the software registry to remove retired software components from the approved list.
+此时，合规人员会为版本中所有新的软件组件建立新的合规工单，更新那些源代码有变更的工单，可能再次引导它们经过审查流程，并最后更新软件清单，移除已批准列表中被移除的软件组件。
 
-### Open source usage request form
+### 开源使用申请表
 
-Completing the open source usage request form is an important step when developers bring open source software into your company, and should be taken very seriously.
+当开发人员希望将开源软件引入到公司项目中，填写开源使用申请表单是一个关键流程，这需要被高度重视。
 
-Developers fill out the online form requesting approval to use a given open source component. The form comprises several questions that will provide necessary information for the auditing team or open source review board, allowing it to approve or disapprove the usage of the proposed open source component.
+开发人员可以在线提交此表单，以申请使用某个特定的开源组件。表单中涉及多个问题，这些问题的目的是为审计小组或开源审查组提供决策所需的信息，以确定是否批准所提议的开源组件的使用。
 
-The table in the sample form available [here](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_approval.pdf) highlights the information requested in an open source usage request form. Usually, these values are chosen from a pull-down menu to make the data entry efficient.
+[此链接](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_approval.pdf)提供了一个示例表单，其中详细列出了在开源使用申请中需要的信息。一般情况下，这些信息都是通过下拉菜单进行选择的，以便快速和准确地填写。
 
-There are several rules governing the OSRB usage form, for instance:
+关于 OSRB 使用的表单，有以下几点规定：
 
-* The form applies only to the usage of open source in a specific product and in a specific context. It is not a general approval of the open source component for all use cases in all products.
-* The form is the basis of audit activity and provides information the review team needs to verify if the implementation is consistent with the usage plan expressed in the form, and with the audit and architectural review results.
-* The form must be updated and re-submitted whenever the usage plans for that specific open source component changes.
-* The auditing team or review board must approve the form before engineering integrates the open source into the product build.
-* The open source executive committee must approve the usage of any open source package where licensing terms require granting a patent license or patent non-assertion.
+* 该表单仅针对于特定产品在特定场景下的开源使用。它并不是针对所有产品的开源组件进行一般性的批准。
+* 该表单是审计流程的基础，它提供了审查小组所需的全部信息，以确保实际的应用方式与在表单中描述的用途、审计结果和架构评审结果相匹配。
+* 如果某一开源组件的使用方式发生变更，必须重新填写并提交表单。
+* 在将开源代码融合到产品开发流程之前，审计小组或审查组必须先对此表单进行批准。
+* 对于任何需要获得专利授权或专利无异议的开源包，必须得到开源执行委员会的批准后才能使用。
 
-## Final words
+## 结语
 
-Open source compliance is an essential part of the software development process. If you use open source software in your product(s) and you do not have a solid compliance program, then you should consider this guide as a call to action.
+开源合规在软件开发中占据了重要的位置。如果你在产品中运用了开源软件，但缺乏健全的合规流程，那么你应该把此指南当作一个行动启示。
 
-At its core, open source compliance consists of a set of actions that control the intake and distribution of open source used in commercial products. The result of compliance due diligence is an identification of all open source used in the product (components and snippets) and a plan to meet the license obligations. For a detailed guide to open source compliance download our free ebook, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/) by Ibrahim Haddad.
+从本质上说，开源合规涉及一套控制措施，旨在管理商业产品中开源内容的引入和发布。合规的核心目标是识别产品中所使用的所有开源内容（包括组件和代码片段）并制定满足许可要求的策略。想要更深入地了解开源合规，推荐下载我们提供的免费电子书，《企业开源合规指南》（[Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)），作者是 Ibrahim Haddad。
 
-## Architecture diagram template
+## 架构图模板
 
-An architectural diagram, used in the architecture review phase of the open source review process, illustrates the interactions between the various software components in an example platform. An example template architectural diagram, available [here](https://www.linuxfoundation.org/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G6.png), shows the following:
+在开源审查流程中的架构审查环节，我们会使用架构图来呈现示例平台上各软件组件间的交互关系。您可以在[这里](https://www.linuxfoundation.org/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G6.png)查看一个示例的架构图模板，该图展示了：
 
-* Module dependencies
-* Proprietary components
-* Open source components (modified versus as-is)
-* Dynamic versus static linking
-* Kernel space versus user space
-* Shared header files
-* Communication protocols
-* Other open source components that the software component in question interacts or depends on, especially if it is governed by a different open source license
+* 模块的依赖关系
+* 专有组件
+* 开源组件（包括已修改和未修改的）
+* 动态和静态的链接
+* 内核空间与用户空间
+* 共享的头文件
+* 通讯协议
+* 与该软件组件交互或依赖的其他开源组件，特别是当这些组件受到不同开源许可的约束时
 
-## Acknowledgements
+## 鸣谢
 
-Contributors:
+以下是对本项目的贡献者表示感谢：
 
 **![](https://www.linuxfoundation.org/wp-content/uploads/2017/09/thumb_ibrahim.png)
 Ibrahim Haddad**
-VP of R&D and Head of the Open Source Group
-Samsung Research America
+他是三星研究美洲部门的研发副总裁以及开源团队的主管。

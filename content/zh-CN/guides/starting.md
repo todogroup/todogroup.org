@@ -245,7 +245,7 @@ noAcknowledgments: true
 
 现在，这种模式已经变得很常见，因为很多公司和组织都意识到，他们面临的技术挑战远远超过他们单独能够应对的。于是，他们看到了与其他公司合作，在供应商中立的、对公众利益有益的联合项目中，来解决他们面临的技术问题的价值。
 
-例如，开源项目 [Hyperledger](https://www.hyperledger.org/) 是由 Linux Foundation 主导的合作努力，目标是推进各种行业的区块链技术。还有 [Cloud Native Computing Foundation](https://www.cncf.io/)，它关注创建适用于现代私有和公共云的开源软件。这些大型项目不仅吸引了企业提供开发者参与，而且也获得了大量资金支持来帮助推广和发展这些技术。
+例如，开源项目 [Hyperledger](https://www.hyperledger.org/) 是由 Linux Foundation 主导的协作项目，目标是推进各种行业的区块链技术。还有 [Cloud Native Computing Foundation](https://www.cncf.io/)，它关注创建适用于现代私有和公共云的开源软件。这些大型项目不仅吸引了企业提供开发者参与，而且也获得了大量资金支持来帮助推广和发展这些技术。
 
 ### 结语
 

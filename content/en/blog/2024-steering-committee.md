@@ -13,14 +13,17 @@ The TODO Steering Committee is responsible for providing guidance and stewardshi
 project's direction, step up yearly strategic goals, as well as structuring and facilitating 
 collaboration among its contributors, general members, associates, and ambassadors.
 
-> The 2024 Steering Committee keeps its diversity formed by representatives from OSPOs established on
+> The 2024 Steering Committee keeps their diversity formed by representatives from OSPOs established on
 > a wide variety of sectors. It's great to see for the first time representation from
 > the Finance and European Automotive sectors.
 >
-> Also, as a European Citizen based in EU,
-> I'm personally thrilled to see more engagement by our general member representatives from
-> European-based organizations and TODO contributors taking governing positions
-> in the project. I look forward to a great year ahead and working with all of you!
+> Also, as a European citizen, I'm personally thrilled to find more engagement by our
+> general member representatives from European-based organizations and TODO contributors taking governing positions
+> in the project. In the upcoming years, I would love to see ways to encourage participation
+> and representation of OSPO practitioners from non-Europe / non-North America organizations too, such as
+> our TODO individual contributors and general members from Asia -including Japan or China- or LATAM countries.
+>
+> I look forward to a great year ahead and working with all of you!
 >
 > *Ana Jiménez Santamaría - Project Manager, TODO Group*
 
@@ -28,7 +31,7 @@ collaboration among its contributors, general members, associates, and ambassado
 
 Meet our new SC members whose term will begin on January 1, 2024
 
-### BRITTANY ISTENES
+### Brittany Istenes
 
 OSPO Strategist - Brittany has led advisory councils, open source ambassador programs, open source 
 contributions, InnerSource initiatives and all the gray areas in between at scale within large companies.
@@ -98,7 +101,7 @@ about helping companies participate in the open source community.
 
 The final Steering Committee that will be formed in 2024 is composed of the following members:
 
-* @Ashley Wolf (GitHub)
+* Ashley Wolf (GitHub)
 * Stephen Augustus (Cisco)
 * Nik Peters (Porsche)
 * Brittany Istenes (Fannie Mae)
@@ -109,7 +112,7 @@ The final Steering Committee that will be formed in 2024 is composed of the foll
 ![generalmemebrs2024todo](https://github.com/todogroup/todogroup.org/assets/43671777/0a4cfd31-89fb-49d6-a38b-797f4c20c40f)
 
 
-## Big thanks to our 2023 Members
+## Big Thanks to our 2023 Members
 
 Last but not least, we would like to congratulate those members who served in 2023. Their commitment and 
 contributions to the project are invaluable. You can learn more about all the achievements they have made 

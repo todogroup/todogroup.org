@@ -10,18 +10,18 @@ Stephen Augustus from Cisco (returning), Nik Peters from Porsche (new) and appoi
 Brittany Istenes from Fannie Mae (new).
 
 The TODO Steering Committee is responsible for providing guidance and stewardship to TODO 
-project's direction, step up yearly strategic goals, as well as structuring and facilitating 
+project's direction, set up yearly strategic goals, as well as structuring and facilitating 
 collaboration among its contributors, general members, associates, and ambassadors.
 
 > The 2024 Steering Committee keeps their diversity formed by representatives from OSPOs established on
-> a wide variety of sectors. It's great to see for the first time representation from
-> the Finance and European Automotive sectors.
+> a wide variety of sectors. It's great to see representation from
+> the Finance and European Automotive sectors for the first time .
 >
 > Also, as a European citizen, I'm personally thrilled to find more engagement by our
 > general member representatives from European-based organizations and TODO contributors taking governing positions
-> in the project. In the upcoming years, I would love to see ways to encourage participation
+> in the project. In the upcoming years, I would love to explore ways to encourage participation
 > and representation of OSPO practitioners from non-Europe / non-North America organizations too, such as
-> our TODO individual contributors and general members from Asia -including Japan or China- or LATAM countries.
+> our TODO individual contributors and general members from the active OSPO Local communities in Asia -including Japan or China-.
 >
 > I look forward to a great year ahead and working with all of you!
 >

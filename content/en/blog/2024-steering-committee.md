@@ -5,7 +5,7 @@ date: 2023-12-02
 ---
 
 We are excited to announce the composition of 2024 Steering Committee (SC) on the Linux Foundation's
-TODO Group project. The 2023 SC includes elected members: Ashley Wolf from GitHub (returning), 
+TODO Group project. The 2024 SC includes elected members: Ashley Wolf from GitHub (returning), 
 Stephen Augustus from Cisco (returning), Nik Peters from Porsche (new) and appointed members: 
 Brittany Istenes from Fannie Mae (new).
 

@@ -42,10 +42,7 @@ we creating the best products for our customers, but doing so in a way that is b
 secure and more innovative within the FinTech world.
 
 > The TODO group should not only serve as a reference guide for OSPOs but should also expand its
-> influence within enterprises as anwhole. While we heavily adopt OSPO and its processes, many others
-> do not. Many want tonget started but are unsure of how or where to begin. I believe that by becoming
-> a member of the steering committee, I can leverage my skills to connect with other groups, rejuvenate
-> the community, and attract more individuals and companies.
+> influence within enterprises as a whole. While many enterprises heavily adopt OSPO principles, OSS best practices and processes, many others do not. Organizations want to get started with OSS but are unsure of how or where to begin.  With that being said, I believe that by becoming a member of the steering committee, I can leverage my skills to connect with other groups, rejuvenate the community, and attract more individuals and companies to our mission.
 >
 > Brittany Istenes
 

@@ -17,7 +17,7 @@ practices within organizations.
 
 
 We have open sourced all of our survey results and graphics in the dedicated 
-[repo]((https://github.com/todogroup/osposurvey/tree/main/2023). Raw survey data, screening and filtering 
+[repo](https://github.com/todogroup/osposurvey/tree/main/2023). Raw survey data, screening and filtering 
 criteria used, and frequency charts for each question in the survey can be also found at data.world/thelinuxfoundation.
 
 Download the full report as [PDF](https://github.com/todogroup/todogroup.org/files/12641293/STATE_OSPO_2023.pdf)

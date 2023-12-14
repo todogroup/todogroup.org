@@ -41,6 +41,14 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 * Enjoy exclusive swag and giveaways
 * Receive a TODO OSPO Ambassadors Credly badge issued by the Linux Foundation
 
+## Meet our Ambassadors!
+
+| Name | Organization | Location | Local Efforts |
+| --- | --- | --- | --- |
+| Masayuki Kuwata | Sony | Japan | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
+| Gergely Csatári | Nokia | Finland | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
+| José Rodrigez Roa | Cuemby | Colombia | Coming Soon |
+
 ## 🙋‍♀️ Frequently Asked Questions:
 ### What is the process for becoming an Ambassador?
 To become an Ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.

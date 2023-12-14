@@ -45,9 +45,9 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 
 | Name | Organization | Location | Local Efforts |
 | --- | --- | --- | --- |
-| Masayuki Kuwata | Sony | Japan | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
-| Gergely Csatári | Nokia | Finland | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
-| José Rodrigez Roa | Cuemby | Colombia | Coming Soon |
+| Masayuki Kuwata | Sony | Japan 🇯🇵 | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
+| Gergely Csatári | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
+| José Rodrigez Roa | Cuemby | Colombia 🇨🇴 | Coming Soon |
 
 ## 🙋‍♀️ Frequently Asked Questions:
 ### What is the process for becoming an Ambassador?

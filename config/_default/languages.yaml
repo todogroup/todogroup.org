@@ -148,6 +148,12 @@ en:
       weight: 5
       post: "Experienced practitioners helping others get started in OSPO and TODO"
       parent: "community"
+    - identifier: "osponews"
+      name: "OSPONews"
+      url: "/community/osponews/"
+      weight: 6
+      post: "The monthly OSPO newsletter"
+      parent: "community"
     - identifier: "blog"
       name: "Blog"
       url: "/blog/"

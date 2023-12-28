@@ -25,7 +25,7 @@ Subscribe for updates, event info, webinars, and the latest community news:
 {{< /column >}}
 {{< column >}}
 - [OSPO Newsletter 11](https://github.com/todogroup/ospology/blob/main/newsletter/2022-05-31.md)
-- [OSPO Newsletter 12](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-12/)
+- [OSPO Newsletter 12](https://github.com/todogroup/ospology/blob/main/newsletter/2022-06-28.md)
 - [OSPO Newsletter 13](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-13/)
 - [OSPO Newsletter 14](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-14/)
 - [OSPO Newsletter 15](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-15/)

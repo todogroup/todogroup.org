@@ -17,7 +17,7 @@ Subscribe for updates, event info, webinars, and the latest community news:
 - [OSPO Newsletter 3](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-3/)
 - [OSPO Newsletter 4](https://github.com/todogroup/ospology/blob/main/newsletter/2021-10-26.md)
 - [OSPO Newsletter 5](https://github.com/todogroup/ospology/blob/main/newsletter/2021-11-30.md)
-- [OSPO Newsletter 6](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-6/)
+- [OSPO Newsletter 6](https://github.com/todogroup/ospology/blob/main/newsletter/2021-12-28.md)
 - [OSPO Newsletter 7](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-7/)
 - [OSPO Newsletter 8](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-8/)
 - [OSPO Newsletter 9](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-9/)

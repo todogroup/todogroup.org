@@ -12,7 +12,7 @@ Subscribe for updates, event info, webinars, and the latest community news:
 
 {{< columns >}}
 {{< column >}}
-- [OSPO Newsletter 1](https://ospo-news.ghost.io/ospo-news-from-the-todo-group/)
+- [OSPO Newsletter 1](https://github.com/todogroup/ospology/blob/main/newsletter/2021-07-26.md)
 - [OSPO Newsletter 2](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-2/)
 - [OSPO Newsletter 3](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-3/)
 - [OSPO Newsletter 4](https://ospo-news.ghost.io/ospo-news-from-the-todo-group-issue-4/)

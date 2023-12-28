@@ -33,7 +33,7 @@ Subscribe for updates, event info, webinars, and the latest community news:
 - [OSPO Newsletter 17](https://github.com/todogroup/ospology/blob/main/newsletter/2022-11-29.md)
 - [OSPO Newsletter 18](https://github.com/todogroup/ospology/blob/main/newsletter/2022-12-30.md)
 - [OSPO Newsletter 19](https://github.com/todogroup/ospology/blob/main/newsletter/2023-01-31.md)
-- [OSPO Newsletter 20](https://ospo-news.ghost.io/ospo-newsletter-20/)
+- [OSPO Newsletter 20](https://github.com/todogroup/ospology/blob/main/newsletter/2023-02-27.md)
 {{< /column >}}
 {{< column >}}
 - [OSPO Newsletter 21](https://ospo-news.ghost.io/osponews-from-the-todo-group-issue-21/)

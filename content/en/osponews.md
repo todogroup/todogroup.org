@@ -42,7 +42,7 @@ Subscribe for updates, event info, webinars, and the latest community news:
 - [OSPO Newsletter 24](https://github.com/todogroup/ospology/blob/main/newsletter/2023-07-25.md)
 - [OSPO Newsletter 25](https://github.com/todogroup/ospology/blob/main/newsletter/2023-08-29.md)
 - [OSPO Newsletter 26](https://github.com/todogroup/ospology/blob/main/newsletter/2023-10-02.md)
-- [OSPO Newsletter 27](https://github.com/todogroup/ospology/blob/main/newsletter/2023-10-31.md
+- [OSPO Newsletter 27](https://github.com/todogroup/ospology/blob/main/newsletter/2023-10-31.md)
 - [OSPO Newsletter 28](https://email.linuxfoundation.org/osponews-issue28)
 {{< /column >}}
 {{< /columns >}}

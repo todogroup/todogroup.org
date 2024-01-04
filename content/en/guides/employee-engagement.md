@@ -17,7 +17,7 @@ Here we lay out the seven principles of authentic participation:
 * [Starts With Listening.](#principle-3-starts-with-listening)
 * [Continues by Participating.](#principle-4-continues-by-participating)
 * [Has Transparent Motivations.](#principle-5-has-transparent-motivations)
-* [Enforces Respectful Behavior.](#principle-6-enforces-respectful-behavior)
+* [Promotes Respectful Behavior.](#principle-6-promotes-respectful-behavior)
 * [Ends Gracefully.](#principle-7-ends-gracefully)
 
 
@@ -155,7 +155,7 @@ Some companies will have the expectation that they can steer an open source proj
 * Be transparent when motivations or affiliations change
 * Be careful with using background channels. This can disrupt project communication because the project doesn't have the context.
 
-## Principle 6: Enforces Respectful Behavior.
+## Principle 6: Promotes Respectful Behavior.
 
 *Participants agree to adhere to community-established codes of conduct. Organizations commit to holding their participants accountable for their behavior.*
 

@@ -13,7 +13,7 @@ During the past last contributor's call in 2023, a few action items were defined
 
 * Created, reviewed, and merged a few PRs in the past weeks to align the content, provide a better sense of a unified narrative, and connect the sections through the various [chapters](https://ospobook.todogroup.org/toc/) created so far.
 * Included the [acknowledgment section](https://ospobook.todogroup.org/07-chapter/) from the working repo on the website.
-* Changed the [footer](https://ospobook.todogroup.org/) text and image so the OSPOlogy logo shows instead and points to the working repo.
+* Changed the [footer](https://ospobook.todogroup.org/) text and default logo.
 
 ## What’s next? - 2024 Roadmap
 

@@ -4,8 +4,8 @@ author: todogroup
 date: 2024-01-04
 ---
 
-With the start of the new year, the TDOO community would like to provide a quick recap of the latest updates on the collaborative effort: the OSPO Book project. This blog post 
-aims to share the Roadmap, milestones, and next contributor's call details in 2024.
+With the start of the new year, the TODO community would like to provide a quick recap of the latest updates on the collaborative effort: the OSPO Book project. 
+This blog post aims to share the roadmap, milestones, and essential information for the contributor's call meeting series in 2024
 
 ## What has been done?
 

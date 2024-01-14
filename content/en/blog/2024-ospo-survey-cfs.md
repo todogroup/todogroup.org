@@ -26,11 +26,11 @@ By supporting the OSPO Survey, you and your organization will:
 * Sustain the longest and largest open source survey that is specifically developed to analyze the evolution of OSPO roles across organizations.
 * Generate and gather data and insights about OSPO trends and future developments across sectors and regions to inform decision-making.
 
-## How can I become a sponsor in this research?
+## How can my organization become a sponsor in this research?
 We are seeking help from organizations to continue this study, generate a statistically significant survey sample, and maximize the impact of this research. 
 Sponsor benefits include:
 * Logo placement on front cover of report;
-* Company bio and social media links on back page of report;
+* Organization bio and social media links on back page of report;
 * Branding recognition in survey announcement and other shareables;
 * Opportunity to suggest questions and topics during survey instrument development;
 * Opportunity to suggest a segmentation (e.g., region, industry, sector, etc.) of interest for deeper analysis;

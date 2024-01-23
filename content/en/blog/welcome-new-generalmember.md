@@ -1,5 +1,5 @@
 ---
-title: "TODO Welcomes China Academy for Information and Communications Technology as new General Member"
+title: "TODO Welcomes CAICT as new General Member"
 author: todogroup
 date: 2024-01-18
 ---

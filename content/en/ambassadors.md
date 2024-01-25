@@ -3,7 +3,9 @@ title: TODO Ambassadors
 url: "/community/ambassadors/"
 ---
 
+{{< intro >}}
 TODO OSPO Ambassadors (TOAs) are official advocates within TODO helping the OSPO ecosystem.
+{{< /intro >}}
 
 ## Responsibilities
 

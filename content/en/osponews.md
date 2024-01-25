@@ -3,7 +3,9 @@ title: OSPO News
 url: "/community/osponews/"
 ---
 
+{{< intro >}}
 Subscribe for updates, event info, webinars, and the latest community news:
+{{< /intro >}}
 {{< spacer 20 >}}
 {{< todo_newsletter_form >}}
 {{< spacer 20 >}}

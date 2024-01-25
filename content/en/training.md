@@ -2,7 +2,10 @@
 title: Training Modules
 url: "/resources/training/"
 ---
+
+{{< intro >}}
 The [OSPO 101 Course](https://github.com/todogroup/ospo101) covers everything you need to know about Open Source Program Offices. The course materials are modular, available on GitHub, and licensed under a Creative Commons license, allowing them to be remixed and reused as needed.
+{{< /intro >}}
 
 {{< img src="/img/ospo101.svg" width="300" alt="OSPO 101 Logo">}}
 

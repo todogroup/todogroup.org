@@ -3,7 +3,9 @@ title: Associates
 url: "/about/associates/"
 ---
 
+{{< intro >}}
 TODO Group community is open to all and is formed by its Community participants (including OSPO Associates) and General Members. Sometimes, there are community participants who wish to show their organization efforts on fostering OSPO adoption and enabling the worldwide community of practitioners.
+{{< /intro >}}
 
 * Community participants coming from an organization with an established OSPO or similar open source initiative can support TODO by becoming [General Members](https://todogroup.org/join/).
 

@@ -8,3 +8,4 @@ static/css/style-*.css
 .hugo_build.lock
 *.code-workspace
 static/pagefind
+hugo_stats.json

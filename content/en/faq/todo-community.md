@@ -1,6 +1,7 @@
 ---
 title: Can I be part of the TODO Community without being a TODO Member?
 weight: 40
+noindex: true
 ---
 
 Yes, TODO Group resources are essentially like any other open source project.

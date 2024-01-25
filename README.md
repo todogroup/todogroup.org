@@ -67,6 +67,13 @@ npm run build
 npm run start
 ```
 
+## Other npm commands for working with a local instance
+
+- `npm run dev:start` - Starts the local dev environment using exampleSite
+- `npm run dev:start:with-pagefind` - Starts the local dev environment using exampleSite with working pagefind search
+- `npm run dev:build` - Builds the site using exampleSite
+
+
 This command should give an address you can visit on your local machine to see the local copy of your site. Typically this is `localhost:1313`. Just navigate to http://localhost:1313 in your browser and you should see the site running.
 
 If modifying the theme files, you should never edit the themem that is imported via Git Submodule, as otherwise the changes will be overwritten or lost the next time the theme is updated. Changes should be made in override files inside the root directory as this will override the theme directory. [Read docs](https://gohugo.io/getting-started/directory-structure/).

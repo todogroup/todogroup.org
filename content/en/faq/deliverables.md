@@ -1,6 +1,7 @@
 ---
 title: What deliverables can we expect to see from this project?
 weight: 80
+noindex: true
 ---
 
 Our plans include work such as:

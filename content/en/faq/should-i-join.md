@@ -1,6 +1,7 @@
 ---
 title: Should I join?
 weight: 20
+noindex: true
 ---
 
 TODO is specifically intended as a space for organizations' open source program practitioners to come together, but also for people committed to open source willing to learn and get practical knowledge on open soruce program offices and open source initiatives.

@@ -6,7 +6,10 @@
   "scripts": {
       "build": "hugo --theme=dot-org-hugo-theme",
       "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
-      "dev": "hugo serve --logLevel info --configDir=config --themesDir=../.. --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+      "dev": "npm run dev:start",
+      "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+      "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
+      "dev:build": "hugo --theme=dot-org-hugo-theme",
       "pulltheme": "git submodule update --remote"
   },
   "repository": {

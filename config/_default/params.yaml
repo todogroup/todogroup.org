@@ -33,3 +33,8 @@ social_links:
   twitter: ""
   x: "https://twitter.com/todogroup"
   youtube: "https://youtube.com/@ospology"
+
+# Makes the header sticky on tall screens
+sticky_header: true
+# Enable search in header UI
+show_search: true

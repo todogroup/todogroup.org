@@ -2,7 +2,9 @@
 title: Join TODO Group
 ---
 
+{{< intro >}}
 The [TODO Group Community](/community/) is open to all. Sometimes, there are community participants with an established OSPO or open source initiatives who wish to become a General Member.
+{{< /intro >}}
 
 ## Become a General Member
 

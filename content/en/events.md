@@ -3,7 +3,9 @@ title: Events
 url: "/community/events/"
 ---
 
+{{< intro >}}
 TODO Group collaborates with open source projects and foundations to host in-person & hybrid events. These events unite a diverse range of stakeholders involved in open source, from industry leaders and open source project maintainers to policymakers dedicated to establishing efficient open source program offices within organizations.
+{{< /intro >}}
 
 Currently, we operate in two distinct formats: large global OSPO events under the OSPOCon brand, and regionally-focused micro-conferences under the OSPOlogyLive brand.
 

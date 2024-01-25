@@ -3,7 +3,9 @@ title: Guides and Resources
 url: "/resources/guides/"
 ---
 
+{{< intro >}}
 We collect best practices from the leading companies engaged in open source development and aim to help your organization successfully implement and run an open source program office. For guides tailored to individual contributors, we recommend GitHub’s [community guides](https://github.com/github/opensource.guide).
+{{< /intro >}}
 
 ## OSPO Guides
 

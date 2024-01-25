@@ -16,7 +16,7 @@ production-build:
 	git submodule update --init --recursive
 	hugo \
 		--minify
-	npx -y pagefind --site public"
+	npx -y pagefind --site public
 
 preview-build:
 	git submodule update --init --recursive
@@ -25,4 +25,4 @@ preview-build:
 		--buildDrafts \
 		--buildFuture \
 		--minify
-	npx -y pagefind --site public"
+	npx -y pagefind --site public

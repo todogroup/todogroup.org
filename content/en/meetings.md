@@ -39,6 +39,13 @@ There are currently 3 active working groups on concrete areas of focus:
 * [Working repo](https://github.com/todogroup/ospo-career-path)
 * Moderated by: Ana
 
+### OpenChain AI Compliance - Lead by OpenChain
+
+* Strategic Goals: Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain
+* [Meeting Notes archive](https://lists.openchainproject.org/g/ai/messages)
+* Communication Channels: [Mailing List](https://lists.openchainproject.org/g/ai)
+* Moderated by: Shane
+
 {{< spacer 40 >}}
 
 ## Calendar

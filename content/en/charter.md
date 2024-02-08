@@ -146,7 +146,7 @@ information, please visit the [TODO Group community & network page](https://todo
 
         11. Elections shall be run using the Condorcet-IRV method
             through the Cornell online service
-            (<http://civs.cs.cornell.edu/>). The methodology or service
+            [Cornell online service](http://civs.cs.cornell.edu/). The methodology or service
             used in future elections may be changed via a five (5)
             member approval vote of current members of the committee at
             that time.

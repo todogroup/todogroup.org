@@ -4,9 +4,9 @@ author: todogroup
 date: 2024-02-22
 ---
 
-The development of Open Source Program Offices (OSPOs) represents a pivotal transformation in how organizations manage technology stack across the supply chain. 
+The establishment of Open Source Program Offices (OSPOs) represents a pivotal transformation in how organizations manage technology stack across the supply chain. 
 Open Source leaders from Porsche and Sony have significantly contributed to the [OSPO Book Project](https://ospobook.todogroup.org) by [sharing their OSPO Best Practices](https://ospobook.todogroup.org/use-cases/). 
-We aim their stories tp help elevate open source adn technical matters to align with business objectives and challenges, by showcasing their unique approaches to integrating open source operations within 
+We aim their stories to help elevate open source adn technical matters to align with business objectives and challenges, by showcasing their unique approaches to integrating open source operations within 
 their organizational strategies and business units.
 
 ## Porsche: Anchoring Open Source in Porsche's Software Strategy
@@ -31,8 +31,6 @@ Sony aims to foster a culture of collaboration and openness, encouraging a more 
 {{< button link="https://ospobook.todogroup.org/use-cases/" text="Learn about Sony Use Case" >}}
 
 ## About the OSPO Book Project
-
-If you'd like to learn more about the OSPO book, we recommend reading this article about its [2024 roadmap and ways you can contribute to the project](https://todogroup.org/blog/ospo-book-2024-roadmap/). 
 
 The OSPO Book now features [over 20 contributors from diverse fields and sectors](https://ospobook.todogroup.org/07-chapter/). This initiative and the community sustaining it aims to:
 

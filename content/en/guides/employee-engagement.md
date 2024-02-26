@@ -54,7 +54,7 @@ By following the principle of *Start Early* you avoid the bad pattern of someone
 
 ## Principle 2: Put the Community First.
 
-*Balance the interests of everyone and seek alignment. If you are not sure, put the interests of the community first. This will have the better long-term results. Engage as an individual but remember that you represent your organization and its interests. Never forget that open source is a collaborative effort and that the collective holds the timeline.*
+*Balance the interests of everyone and seek alignment. If you are not sure, put the interests of the community first. This will have the better long-term results. Engage as individual but keep your affiliation and the interests of your organization in mind. Never forget that open source is a collaborative effort and that the collective holds the timeline.*
 
 Open Source is about building in communities. Once you start contributing to a project you become part of its community. Open Source is a collaborative effort and gives better results than working in isolation.
 
@@ -115,7 +115,7 @@ If you have spent a little bit of time deploying and trying out the project you 
 
 Prioritize giving reviews on code or documentation. People value this activity and it is a good way to learn about the project.
 
-Do participate in discussions if you have helpful information to share. Sharing your experience or asking a clarifying question can help move the conversation forward. It is also a good way to show the community that you care about their project and would like to participate in maintaining and developing it further.
+Don't be afraid to participate in discussions if you have helpful information to share. Sharing your experience or asking a clarifying question can help move the conversation forward. It is also a good way to show the community that you care about their project and would like to participate in maintaining and developing it further.
 
 Many projects maintain a list of bugs that are marked as ‘low hanging fruit’ or ‘easy to fix’ or something similar. Looking into fixing a few of these is another good way to learn and participate in helping the community. Triaging bugs is another good way to help out if you don’t yet have enough knowledge to fix them.
 
@@ -171,7 +171,7 @@ In addition to codes of conduct each community has its preferred way of communic
 
 Be aware that open source communities often have people from very diverse backgrounds who come from different cultures and speak different languages. This can be hard to notice when using written communication channels which don't contain much context. Postel's law is a useful guide: "Be conservative in what you do, be liberal in what you accept from others". 
 
-### Tips for demonstrating respectful behavior
+### Tips for promoting respectful behavior
 
 * Read the project's Code of Conduct and follow it.
 * Don't assume bad intent when it just could be a misunderstanding.

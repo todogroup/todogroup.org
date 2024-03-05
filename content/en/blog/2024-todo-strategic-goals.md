@@ -33,7 +33,8 @@ AI compliance best practices, inviting speakers from related communities and all
 ## Adoption and Project Sustainability
 
 TODO Group Steering Committee aims to find ways to integrate OSPO day-to-day operations into broader organizational strategies and execution plans, enhancing their recognition as a key component of business success.
-Establish Office Hours dedicated to Strategic Value Initiative
+
+### Establish Office Hours dedicated to Strategic Value Initiative
 
 Update the way Touchpoint calls operate. Work on an improved framework to make touchpoint calls to become a space where:
 
@@ -44,7 +45,7 @@ Update the way Touchpoint calls operate. Work on an improved framework to make t
 
 The TODO Group Steering Committee aims to help in the creation of pathways for students and professionals to validate their open source developer skills within an enterprise setup.
 
-Develop a certification exam for an Open Source Certified Developer in Enterprise Context
+### Develop a certification exam for an Open Source Certified Developer in Enterprise Context
 
 - Build content for an exam designed for developers working in enterprises and students aspiring to work in enterprise environments with a focus on open source software (OSS) usage and contribution.
 - Work closely with LF Training to develop the initial Minimum Viable Product (MVP) for the certification course. Get Steering Committee member's approval and review of exam questions.

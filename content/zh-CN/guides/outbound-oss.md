@@ -310,7 +310,7 @@ The procedure described in the following is designed to ensure that the company 
 * Provide transparency to the decision makers on what and how much of the companies' code and IP will be affected by the publication
 * 向决策者提供提供透明度，说明公司的那些代码和知识产权将受到发布的影响，以及影响程度。
 * All the contributions shall be made with the “company”-email (similar for the GitHub activity) so that all contributions of the company can be identified easily
-* 所有贡献应该使用“公司”邮箱进行（ Github 活动也类似），以便轻松识别公司的所有贡献。
+* 所有贡献应该使用“公司”邮箱进行（ GitHub 活动也类似），以便轻松识别公司的所有贡献。
 * Respect the rules and customs of the OSS ecosystem and of the target OSS project
 * 尊重开源生态系统和目标开源项目的规则和惯例
 

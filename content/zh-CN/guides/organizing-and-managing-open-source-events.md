@@ -1,14 +1,18 @@
 ---
-title: Organizing and Managing Open Source Events
+标题: 组织与管理开源活动
 ---
 
 Open source events are popular as much for the networking opportunities as for the skill building exercises and knowledge sharing. Events run the gamut from single focused internal talks and multitrack corporate external events to the international conferences. While decades of experience shape these events, today a global pandemic is driving a hard shift from physical to virtual venues. The change is likely permanent as virtual venues are unlikely to disappear once the novel coronavirus is curtailed or conquered. There are already hints that the future will see a rise of hybrid versions.
+开源活动因其提供的社交机会、技能建设和知识分享而广受欢迎。开源活动有许多形式，包括单一聚焦的内部讲座、企业多方向外部活动。到各类国际会议。尽管这些开源活动是由几十年的经验塑造的，但当下的全球疫情正在推动活动形式从实体场所向虚拟场所的刚性转变。这种变化很可能是永久的，即使新冠病毒得到控制或消除，虚拟场所也不太可能消失。已经有迹象表明，未来将会出现线上线下混合的开源活动。
 
 Behind all of these events is an OSPO or small events team managing the details, gathering speakers and volunteers, promoting the benefits, and calling open source fans to attend. Those responsible are invisible when all goes right and wishing they were if things go wrong. In short, event management can be a thankless job. Through it all, they make everything happen no matter what minor glitches or major pandemics might plague them along the way.
+在所有这些活动的背后，都有一个开源项目办公室（OSPO）或一个小型活动团队在管理细节，聚集演讲者和志愿者，推广开源收益，并召集开源爱好者参加。当一切开源活动顺利进行时，OSPO或活动团队的负责人是隐身幕后的，而如果出了问题，他们会希望自己也是在幕后的。简而言之，开源活动管理可能是一项不被感谢的工作。尽管如此，无论开源活动管理者遇到什么小问题或大型疫情，他们都会让各种开源活动蓬勃发生。
 
 The purpose of this guide is to help OSPOs and open source event team members pull off successful open source events through the sharing of experience and resources of those who have done so before and during the Covid-19 pandemic. This guide is meant to be a living document in that it is expected to be updated as the challenges of this time continue to unfold new obstacles and opportunities for event managers.
+本指南的目的是帮助OSPO和开源活动团队成员，通过分享在新冠疫情之前和期间管理开源活动的经验和资源，让开源活动能继续成功举办。本指南旨在成为一份持续更新的活跃文档，把当下的挑战延伸到新的阻碍点和机遇，供开源活动管理者参考。
 
 **Table of Contents**
+**目录**
 
 - [Guide Description](#guide-description)
 - [Intro](#intro)
@@ -21,6 +25,7 @@ The purpose of this guide is to help OSPOs and open source event team members pu
 - [Lessons Learned](#lessons-learned)
 
 ## Guide Description
+## 开源活动指南
 
 This how-to guide addresses opportunities and obstacles as well as issues and resolutions common to physical and virtual venues, for both internal and external audiences. Further, several specific issues, potential resolutions or mitigations, and ideas unique to each of those venues and audiences are discussed separately. This format was chosen to better enable the reader to review and choose tactics and strategies as befitting their own event, available resources, and end goals for organizers and attendees.
 
@@ -29,6 +34,7 @@ Resources are provided as separate addendums. For example, the attached budding 
 Readers are encouraged to check back for updates to the guide and resource addendums regularly.
 
 ## Intro
+## 开源活动介绍
 
 Open source events are educational and networking hubs for the benefit of specific or at-large open source communities. Whether intimate or gigantic, these events are essential to the growth of the open source movement, of individual careers and professional reputations, and the growth of specific open source projects.
 
@@ -57,6 +63,7 @@ Most open source event organizers have funny tales and war stories to share. But
  
 
 ## Open source event types
+## 开源活动类型
 
 There are four general categories for open source events. The first two are determined by venue: physical or virtual. The remaining two are determined by audience: internal (company employees and partners) or external (open to people employed outside of the event organizer).
 
@@ -89,6 +96,7 @@ Beyond these general categories, are myriad subcategories of event types. Most a
 Regardless of the type of open source event you’re currently planning, virtual will reign supreme in venues for as long as the pandemic lasts and will probably remain a strong option afterwards. While most organizations are learning how to host a virtual event on the fly, shared experiences are beginning to reveal some good guidance.  
 
 ## 4 key elements in virtual open source events
+## 线上开源活动的四个关键元素
 
 Pivoting to virtual open source events is a smart and natural move during the Covid-19 pandemic. But that is not to say it was an easy move to make.
 
@@ -143,6 +151,7 @@ Diversity outreach is important in efforts aimed at building broader interest an
 
 
 ## Finding a theme or event focus
+## 找到开源活动主题或焦点
 
 The first step is to determine the theme or focus of the event as that will guide everything that follows in event planning.
 
@@ -171,6 +180,7 @@ Ultimately, the event’s topic or theme is its purpose. Therefore, is must be h
 *"Most recently we've been focusing on events aimed at building our internal open source community,"* said Simmons.
 
 ## Choosing a venue
+## 选择开源活动场所
 
 Choosing a venue has always been largely driven by strategy than exotic locales.
 
@@ -210,7 +220,7 @@ The Wi-Fi issue is easy to miss on the planning end and hard to ignore at the ev
 
 
 ## Organizing the event
-
+## 组织开源活动
  
 
 An open source event succeeds or fails on details. Organizing every element, no matter how small, is thereby crucial, no matter what the venue is. Most successful event organizers have a plan or a checklist they follow to make sure details are not overlooked.
@@ -633,7 +643,7 @@ There are also followup activities that can help your brand benefit from its eff
  
 
 ## Marketing an open source event
-
+## 开源活动营销宣传
  
 
 Marketing is the key to success for any event, regardless of venue. Marketing tactics will vary according to size and type of event and the goals the organizers intend to achieve.
@@ -693,6 +703,7 @@ However you choose to market your event, be assured that the appetite for more i
  
 
 ## Lessons Learned
+## 经验教训
 
 To the credit of the TODO group, open source communities and organizations, and open source fans, events have continued on despite the challenges. It’s only natural that such an open group would open source the lessons learned so far too:
 
@@ -772,8 +783,10 @@ At the end of the day, events are living things, growing and dying, adapting and
 
 
 ## Acknowledgements
+## 致谢
 
 **Contributors to this guide:**
+**本指南文档作者**
 
 * [Alyssa Arvin](https://www.linkedin.com/in/alyssaarvin/)
 * [Angela Brown](https://www.linkedin.com/in/angelabrown3/)

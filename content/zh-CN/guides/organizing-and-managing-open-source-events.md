@@ -28,10 +28,14 @@ The purpose of this guide is to help OSPOs and open source event team members pu
 ## 开源活动指南
 
 This how-to guide addresses opportunities and obstacles as well as issues and resolutions common to physical and virtual venues, for both internal and external audiences. Further, several specific issues, potential resolutions or mitigations, and ideas unique to each of those venues and audiences are discussed separately. This format was chosen to better enable the reader to review and choose tactics and strategies as befitting their own event, available resources, and end goals for organizers and attendees.
+开源活动指南覆盖了线上和线下场所、内部和外部受众场景下常见的机遇和阻碍、问题和解决方案。此外还分别讨论了针对这些场所和受众的一些特定问题、可能的解决方案或缓解措施，以及特定思考。选择这种形式是为了让读者更好评估选择策略与战术，从而令自己的开源活动、已有资源以及组织者参与者的最终目标都获得收益。
 
-Resources are provided as separate addendums. For example, the attached budding speakers list was jointly formed and seeded by the people, companies, and the Linux Foundation who collaborated to build this guide. This approach is meant to enable others to also collaborate in building and strengthening these resources over time.
+Resources are provided as separate addendums. For example, the attached  speakers list was jointly formed and seeded by the people, companies, and the Linux Foundation who collaborated to build this guide. This approach is meant to enable others to also collaborate in building and strengthening these resources over time.
+开源活动的可用资源以单独的附录形式提供。例如，附录中的新兴演讲者列表方法，是由开源管理人员、公司以及Linux基金会共同编制策划的。这种协作方法旨在使其他人也能够随着时间积累，共同构建和完善这些资源。
 
 Readers are encouraged to check back for updates to the guide and resource addendums regularly.
+欢迎读者您定期查看本指南和资源附录的更新。
+
 
 ## Intro
 ## 开源活动介绍
@@ -262,7 +266,7 @@ You may think virtual events would be exempt from such concerns, but they aren�
  
 
 **Finding and selecting speakers**
-
+**寻找和遴选演讲者**
  
 
 First, align speaker selection with specific goals. Closely consider your goals for the event. But you may also want to reach towards your company’s overarching goals as well as those of open source communities. This is no time to think small.

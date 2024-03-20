@@ -13,7 +13,8 @@ There are two kinds of Touchpoints every month, happening on different days and 
 - TODO General Member Touchpoints - NA (Fridays)
 
 ### Next Thursday Touchpoint
-The Agenda for our next Thursday Touchpint call is already live and people can start [adding their discussion topics](https://docs.google.com/document/d/1r2ZdH2WmA8qZAtR8AxbR108NxgK3-_3ksISSoUWmyDg/edit?usp=sharing) during the open office hours!
+
+#### ⭐️ Security Management, OSPO functions in AI and more ⭐️ 
 
 📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
 🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Lumi (Aiven)

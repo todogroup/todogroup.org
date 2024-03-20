@@ -5,15 +5,15 @@ url: "/community/meetings/"
 
 ## Learning Space
 
-Touchpoints meetings serve as a vendor-neutral space to discuss challenges and opportunities for Open Source Program Offices (OSPOs). We invite guests to discuss projects and initiatives key for opensource management and operations, and help elevate their value within their organizations.
+Touchpoints meetings serve as a vendor-neutral space to discuss challenges and opportunities for Open Source Program Offices (OSPOs). We invite guests to discuss projects and initiatives key for open source management and operations, and help elevate their value within their organizations.
 
 There are two kinds of Touchpoints every month, happening on different days and at varying cadences and times, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules:
 
-- TODO General Member and OSPOlogy Touchpoints Europe (Thursdays)
-- TODO General Member Touchpoints (Fridays)
+- TODO General Member and OSPOlogy Touchpoints - Europe & Asia (Thursdays)
+- TODO General Member Touchpoints - NA (Fridays)
 
 ### Next Thursday Touchpoint
-The Agenda for our next Thursday Touchpint call (Europe / Asia) is already live and people can start adding their discussion topics during the open office hours!
+The Agenda for our next Thursday Touchpint call is already live and people can start [adding their discussion topics](https://docs.google.com/document/d/1r2ZdH2WmA8qZAtR8AxbR108NxgK3-_3ksISSoUWmyDg/edit?usp=sharing) during the open office hours!
 
 📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
 🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Lumi (Aiven)

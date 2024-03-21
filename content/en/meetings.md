@@ -5,21 +5,16 @@ url: "/community/meetings/"
 
 ## Learning Space
 
-Touchpoint meetings serve as a vendor-neutral space to discuss day-to-day challenges and develop best practices for people managing open source operations and strategy (AKA Open Source Program Offices) to integrate into the organization's overall infrastructure. 
-
-We invite guests to deliver a brief presentation, followed by a Q&A session. Guests include:
+Touchpoint meetings serve as a vendor-neutral space to discuss day-to-day challenges and develop best practices for people managing open source operations and strategy (AKA Open Source Program Offices) to integrate into the organization's overall infrastructure. We invite guests to deliver a brief presentation, followed by a Q&A session. Guests include:
 
 - Representatives from open source projects and initiatives: including independent maintainers, core contributors and project managers
 - Representatives from Foundations: including General managers, CTOs, and community managers from small to large ecosystems like the Cloud Native Computing Foundation, Open Source Security Foundation, OpenChain, InnerSource Commons, LF Energy, CHAOSS, LF AI & Data Foundation, and more
 - Organization's stakeholders: including C-level managers like CTOs
 - Members of an OSPO: including open source ambassadors, developer relations professionals, project managers or directors
 
-These meetings offer an opportunity for those involved in open source within their organizations to discuss and develop best practices through shared knowledge. This collective effort helps them articulate the value of their work and the advantages of integrating open source into the organization's infrastructure and operations to stakeholders.
+This collective effort help people to articulate the value of the OSPO work and gather insights to better integrate open source into the organization's infrastructure, worker's culture and operations.
 
-There are two kinds of Touchpoints every month, happening on different days and at varying cadences and times, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules:
-
-- TODO General Member and OSPOlogy Touchpoints - Europe & Asia (Thursdays)
-- TODO General Member Touchpoints - NA (Fridays)
+There are two kinds of Touchpoints every month, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules.
 
 ### Next Thursday Touchpoint
 

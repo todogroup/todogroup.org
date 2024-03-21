@@ -25,9 +25,10 @@ There are two kinds of Touchpoints every month, happening on different days and 
 
 #### ⭐️ Security Management, OSPO functions in AI and more ⭐️ 
 
-📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
-🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Lumi (Aiven)
-👩‍💻 Link to the call: Check our public calendar [here](https://todogroup.org/community/meetings/#calendar) or scroll down 👇
+- 📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
+- 🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Georg Kunz (Ericsson), Lumi (Aiven)
+- 👩‍💻 Link to the call: Check our public calendar [here](https://todogroup.org/community/meetings/#calendar) or scroll down 👇
+  
 📝 [Agenda](https://github.com/todogroup/ospology/discussions/443)
 
 - Updates on EU Policies by LF Europe

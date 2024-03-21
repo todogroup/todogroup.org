@@ -1207,7 +1207,7 @@ Repository linters are tools that check in an automated way if repositories adhe
 
 However, which criteria they check is company-specific and thus, they normally provide the possibility to configure rules (as JSON file, for example, as the [repolinter of the TODO Group](https://github.com/todogroup/repolinter) does). To retrieve the necessary data to execute these checks, the APIs of the Git provider (GitHub.com, GitLab.com, Bitbucket.org etc.) is used. The result of the check is typically provided in a UI. Another option is to automatically create issues in the corresponding repository if checks fail. Typical usage scenarios for such a linter include:
 
-然而，它们检查的标准因公司而异，因此，它们通常提供配置规则的可能性（例如，作为JSON文件，正如 TODO Group 的 [repolinter](https://github.com/todogroup/repolinter)所做的那样）。为了获取执行这些检查所需的数据，会使用Git提供商（如 GitHub.com、GitLab.com、Bitbucket.org 等）的 API。检查结果通常会在用户界面上提供。如果检查失败，另一种选择是在相应的仓库中自动创建问题。此类审查器的典型使用场景包括：
+然而，它们检查的标准因公司而异，因此，它们通常提供配置规则的可能性（例如，作为 JSON 文件，正如 TODO Group 的 [repolinter](https://github.com/todogroup/repolinter)所做的那样）。为了获取执行这些检查所需的数据，会使用 Git 提供商（如 GitHub.com、GitLab.com、Bitbucket.org 等）的 API。检查结果通常会在用户界面上提供。如果检查失败，另一种选择是在相应的仓库中自动创建问题。此类审查器的典型使用场景包括：
 
 * Check for guideline compliance before a repository is published
 * 在代码仓库公开前，检查是否符合指南要求

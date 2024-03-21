@@ -55,7 +55,7 @@ There are currently three (3) active working groups and one (1) in a maintenance
 * Strategic Goals: Define a set of principles on how OSPO teams can provide guidance on how to participate in open source communities; Publish the *Employee OS Engagement* Guide in 2023
 * [Meeting Notes archive](https://docs.google.com/document/d/1BGytvxaTn1R503ntlpeAylNkVLZ79rQ_PI87UHt7b1E/edit)
 * Communication Channel: TODO Slack #wg-employee-engagement-guide channel
-* [Working repo]()https://github.com/todogroup/todogroup.org/pull/384
+* [Working repo](https://github.com/todogroup/todogroup.org/blob/main/content/en/guides/employee-engagement.md)
 * Moderated by: Alyssa, Cornelius and Josep
 
 ### CHAOSS OSPO Metrics - Lead by CHAOSS

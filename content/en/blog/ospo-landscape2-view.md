@@ -11,7 +11,7 @@ including adopter organizations and tooling useful for an OSPO day-to-day operat
 
 If you are part of an OSPO and notice that your organization is not currently listed as an adopter on our landscape, we warmly invite you to make your presence known. 
 You can do this by submitting an [issue](https://github.com/todogroup/ospolandscape/issues) or [pull request](https://github.com/todogroup/ospolandscape/pulls) in the OSPO 
-landscape GitHub repository. This is an excellent strategy for ensuring your organization gains recognition and helping more organizations accurately gauge adoption size and importance.
+landscape GitHub repository. This is an excellent way for ensuring your organization gains recognition as OSPO adopter and help more organizations accurately gauge adoption size and importance.
 
 ![adopters](https://github.com/todogroup/todogroup.org/assets/43671777/e8f0d0b8-777a-48db-b06d-8aa9a38ffcc7)
 

@@ -4,7 +4,7 @@ author: todogroup
 date: 2024-03-22
 ---
 
-The OSPO Lanscape has migrated to [lanscape2](https://github.com/cncf/landscape2). This enhancement is designed to offer a more user-friendly experience for navigating the vast world of open source program offices (OSPO),
+The OSPO Lanscape has migrated to [landscape2](https://github.com/cncf/landscape2). This enhancement is designed to offer a more user-friendly experience for navigating the vast world of open source program offices (OSPO),
 including adopter organizations and tooling useful for an OSPO day-to-day operations (e.g. automation on security checks, license scanning tools, developer burnout, etc). Check out the new view at landscape.todogroup.org!
 
 ## For organizations Not Yet Featured as OSPO adopters

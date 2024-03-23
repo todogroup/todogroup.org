@@ -1,240 +1,256 @@
 ---
-title: Recruiting open source developers
+title: 招聘开源开发者
 ---
 
-Experienced open source developers are in short supply. To attract top talent, companies have to do more than hire a recruiter or place an ad on a popular job site.
+有经验的开源开发人员非常短缺，供不应求。为了吸引顶尖人才，公司不仅仅雇佣招聘人员或在热门招聘网站上发布广告，还需要更多的举措。
 
-Your open source program can become one of your most effective recruiting tools. This guide covers how organizations can recruit developers, or build internal talent, by building an open source culture, contributing to open source communities, and creating open source projects.
+你的开源计划可以成为你最有效的招聘工具之一。本指南涵盖了组织如何通过建立开源文化、为开源社区做出贡献以及创建开源项目来招募开发人员或建立内部人才。
 
-**Table of Contents**
+**目录**
+- [为什么你需要一个招聘策略](#为什么你需要一个招聘策略)
+- [开源作为招聘工具](#开源作为招聘工具)
+- [开源留任面临的挑战](#开源留任面临的挑战)
+  - [一种新的招聘理念](#一种新的招聘理念)
+- [何时进行招聘而不是培训](#何时进行招聘而不是培训)
+  - [招聘已经具备经验的开发人员](#招聘已经具备经验的开发人员)
+  - [培训开发人员参与开源](#培训开发人员参与开源)
+- [招聘开源开发人员的五种策略](#招聘开源开发人员的五种策略)
+  - [1. 参与并在开源项目中培养领导力](#1-参与并在开源项目中培养领导力)
+  - [2. 创建内部开源文化。](#2-创建内部开源文化)
+  - [3. 参加并支持开源活动](#3-参加并支持开源活动)
+  - [4. 将开源纳入工作描述中](#4-将开源纳入工作描述中)
+  - [5. 投资培训 - 从内部培养人才](#5-投资培训---从内部培养人才)
+- [致谢](#致谢)
 
-- [Why you need a recruitment strategy](#why-you-need-a-recruitment-strategy)
-- [Open source as a recruitment tool](#open-source-as-a-recruitment-tool)
-- [Challenges to open source retention](#challenges-to-open-source-retention)
-- [When to recruit vs. train](#when-to-recruit-vs-train)
-- [Five strategies for recruiting open source developers](#five-strategies-for-recruiting-open-source-developers)
-- [Acknowledgements](#acknowledgements)
+## 为什么你需要一个招聘策略
 
-## Why you need a recruitment strategy
+开发人员短缺的情况已经有充分的文献记录了。根据最新的Cloud Foundry报告，仅在美国就有25万软件开发人员职位，还有50万需要技术技能但尚未填补的职位。他们预测未来十年内无法填补的开发人员职位数量将达到100万。
 
-The growing shortage of developers is well documented. According to a recent Cloud Foundry report, there are a quarter-million job openings for software developers in the U.S. alone and half a million unfilled jobs that require tech skills. And they're forecasting the number of unfillable developer jobs to reach one million within the next decade.
+**满足全球需求的技术人员是有短缺的** 
+强烈同意 18% 
+有些同意 18%
 
-**There is no shortage of skilled developers to meet global demand**
-Strongly 18%
-Somewhat 18%
+**现在或不久将来将会出现人才短缺** 
+强烈同意 34% 
+有些同意 30%
 
-**There is now or will soon be a shortage of skilled developers**
-Strongly 34%
-Somewhat 30%
+**我的公司在雇佣所需技术人员方面没有问题** 
+强烈同意 20% 
+有些同意 23%
 
-**My company has no problem hiring the skilled developers we need**
-Strongly 20%
-Somewhat 23%
+**我的公司正在雇佣到具备所需技术开发人员的艰难时期** 
+强烈同意 27% 
+有些同意 30%
 
-**My company has a hard time hiring developers with the required skills**
-Strongly 27%
-Somewhat 30%
+开源开发人员——也就是具有重要开源经验的开发人员——是这一人才群体的一个子集。他们同样需求量巨大，而且，因为由于开源社区的分布式特性，他们常常远程工作，所以更为稀缺。这意味着你在与全球公司竞争同一批人才。
 
-Open source developers – that is, developers with significant open source experience – are a subset of this population. They are also in great demand, and even more rare because they often work remotely due to the distributed nature of open source communities. That means you're competing with companies all over the globe for the same pool of talent.
+正如预期的那样，随着公司之间为吸引和留住人才激烈竞争，结果是薪资水平稳步攀升。根据最近的一份报告，目前平均开发人员薪资为104,425美元。根据同一份[报告](http://www.arcgis.com/apps/MapJournal/index.html?appid=b1c59eaadfd945a68a59724a59dbf7b1)，仅有八分之一的美国高中（13.2%）提供AP(编者记：Advanced Placement高级学位课程)计算机科学课程，因此开发人员短缺问题的缓解不太可能在短期内出现。
 
-As expected, the result has been a steady climb in pay as companies fiercely compete to attract and retain talent. The current average developer salary is $104,425, according to one recent report. Given that only one in eight U.S. high schools (13.2%) offer AP computer science classes, according to this same [report](http://www.arcgis.com/apps/MapJournal/index.html?appid=b1c59eaadfd945a68a59724a59dbf7b1), relief for the developer shortage isn’t likely to appear anytime soon.
-Skilled open source developers can command a premium. Eighty-nine percent of hiring managers surveyed for the [2017 Open Source Jobs Report](https://www.linuxfoundation.org/publications/open-source-jobs-report-2017/) cite difficulty in finding the right open source skills and expertise. The Jobs Report also found that 60 percent of hiring managers are seeking to hire open source talent, and half are looking for candidates holding certifications.
+具有技能的开源开发人员可以获得高额薪资。根据[2017年开源工作报告](https://www.linuxfoundation.org/publications/open-source-jobs-report-2017/)对89%的招聘经理进行的调查，他们表示很难找到合适的拥有开源技能和专业知识的人员。该职场报告还发现，60%的招聘经理正在寻找雇佣开源人才，而有一半的经理在寻找持有认证的候选人。
 
-This means the salary climb will likely continue over the foreseeable future, fueled by competitive necessity.
+这意味着薪资水平的上涨在可预见的未来很可能会继续，并由竞争的必要性一直推动。
 
-> “There is a myth about engineers that they don’t care much about money. They care about working on cool tech; they care about learning and growing. These are all true but let’s be real, if you want to get people in the door, you need to create economic incentive. If you're not paying people well, they're not going to want to come to your company.” – [Camille Fournier](https://www.linkedin.com/in/camille-fournier-9011812/), Managing Director and head of Platform Engineering at Two Sigma and author of The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change, at [Open Source Leadership Summit](http://events.linuxfoundation.org/events/open-source-leadership-summit)
+>　“有一个关于工程师的神话，即他们对金钱不太关心。他们关心的是参与到酷炫的技术中去；他们关心学习和成长。这些都是真实的，但让我们面对现实吧，如果你想要吸引人才，你需要创造经济激励。如果你付给人们的薪水不高，他们是不会愿意来你的公司的。” — [Camille Fournier](https://www.linkedin.com/in/camille-fournier-9011812/)，Two Sigma公司的平台工程总监兼《The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change》的作者，在[Open Source Leadership Summit](http://events.linuxfoundation.org/events/open-source-leadership-summit)如是上说。
 
-So while the first step in any developer recruitment strategy is sufficient economic incentive, it is only the opening bid. This is where your open source program comes in. It can help with recruiting open source developers of all skill levels.
+因此，任何开发者招聘策略的第一步都是提供足够的经济激励，但这只是开端。这是你的开源计划开起的地方。它可以帮助招募各种技能水平的开源开发人员。
 
-Filling the talent pipeline will be important for meeting your open source objectives, including your ability to contribute strategically to the open source projects you depend on, as well as grow your own open source technologies and communities. But you need a strategy, a set of processes, and goals in order to achieve this.
+填补人才储备对于实现你的开源目标至关重要，包括你对依赖的开源项目战略性地做出贡献的能力，以及发展自己的开源技术和社区能力。但是，你需要一套策略、一系列流程和目标来实现这一点。
 
-## Open source as a recruitment tool
 
-Before we dive into recruitment strategies, let’s talk about why open source participation can be an effective recruitment tool, as well as some of the challenges it presents to retaining top talent (see the next section).
+## 开源作为招聘工具
 
-Effective recruitment appeals to developer motivation. If you understand what attracts developers to work for you, and on your open source projects (and open source, in general) you can structure your strategies in a way that appeals to them.
+在我们深入探讨招聘策略之前，让我们谈谈为什么参与开源可以成为一种有效的招聘工具，以及它给留住顶尖人才带来的一些挑战（见下一节）。
 
-Camille Fournier says engineers want three things: rewards, respect, and purpose.
+有效的招聘可以吸引开发者。如果你了解是什么吸引开发者为你工作和参与你的开源项目（包括一般的开源工作）的话，你就可以设计出吸引他们的策略。
 
-* **Rewards:** Everything from salary to benefits and perks.
-* **Respect:** This is less tangible, but no less real, and is often pinned to professional recognition.
-* **Purpose:** A highly visible, challenging, and measurable goal. Without it, respect and recognition cannot exist.
+Camille Fournier指出工程师需要三样东西：回报、尊重和目的。
 
-> “Money is important, but it functions as a representation of recognition, not value. This is why a hedge fund manager can get a $6 million bonus and quit in a huff because they expected $8 million. It is also why a personal note from a project’s leaders goes so far, or a mention in a blog. Don’t get me wrong, the money is important as well, but if we think of it as recognition we can separate the monetary value from the emotional value.” – Jeff Osier-Mixon, Open Source Community Manager at Intel Corporation
+* **回报:** 从薪水到福利和特权等各种奖励。
+* **尊重:** 这种东西不太具体，但同样真实，通常与专业认可挂钩。
+* **目的:** 一个高度可见、具有挑战性和可衡量的目标。缺乏它，尊重和认可就无法存在。
 
-Interestingly, when companies pay developers to work in open source communities it feeds all three needs. And companies increasingly see the value of paying developers to contribute upstream, for multiple reasons.
 
-There are many open source projects where employers aim to make specific contributions that advance their own work and products. If approached correctly, such contributions can earn their developers, and by extension, the employer, respect within the community. Developers also raise their visibility within the community by making solid contributions which leads to future job opportunities with companies that also benefit from their work.
+> “金钱很重要，但它是对认可的一种代表，而不是价值。这就是为什么一个对冲基金经理可以拿到600万美元的奖金然后愤然辞职，因为他们期望拿到800万美元。这也是为什么项目负责人的个人便签或者博客中的一篇一旦提及它就能够产生如此大的影响。不要误解我，金钱也同样重要，但如果我们把它看作是认可，我们就可以把货币价值和情感价值分开。” — Jeff Osier-Mixon，英特尔公司的开源社区经理
 
-However, merely offering time on the clock and company resources for developers to contribute to open source projects and communities isn’t enough to attract and retain top talent, either. Employers must have a complete strategy in place and it has to center on open source transformation – from tools and culture, to your whole philosophy and approach to development.
 
-> “We seek to create a working environment that talent wants to be part of. Our engineers know that they work in an open source friendly environment where they are supported and encouraged to work with the open source communities that are relevant to their work.” – [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), Senior Director of Open Source at Oath (Yahoo + AOL)
+有趣的是，当公司支付开发人员参与开源社区工作时，这满足了所有的三个需求。而且，出于多种原因，公司越来越意识到开发人员贡献上游项目的价值。
 
-## Challenges to open source retention
+有许多开源项目，雇主旨在进行特别贡献，以推动他们自己的工作和产品。如果正确对待，这样的贡献可以使他们的开发人员，进而是雇主，在社区中赢得尊重。通过做出扎实的贡献，开发人员还可以提高他们在社区中的知名度，从而获得未来的工作机遇。这些工作机会是来自与他们工作相关的公司。
 
-One of the biggest challenges with open source recruiting is that open source projects transcend company boundaries. Developers work on their projects, first and foremost, and can easily move between employers that will pay them to work on the same project.
+然而，仅仅提供时间和公司资源让开发人员贡献给开源项目和社区并不足以吸引和留住顶尖人才。雇主必须制定一个完整的策略，并且这个策略必须以开源转型为核心，从工具和文化，到整个开发理念和方法。
 
-This speaks to the motivations of developers who contribute to open source. Money or a certain job title isn’t the end goal. Their career path is fluid and driven by a continuous search for professional development and personal fulfillment – dubbed “respect” by Fournier and “recognition” by Osier-Mixon. According to the latest Open Source Jobs Report, open source developers say the best thing about their job is the ability to work on interesting projects, collaborate with a global community, and work on cutting-edge technology challenges.
 
-A fluid labor pool is also just a natural result of working in the open. Contributors’ work is highly visible, not only to the people working on the project, but potential employers who see their GitHub activity as a public resume. This works to your advantage as a recruiter, but also against you as an employer.
+> “我们努力创造一个有吸引力的工作环境，让人才愿意成为其中一员。我们的工程师知道他们在一个开源友好的环境中工作，在这里他们得到支持和鼓励，去与他们工作相关的开源社区合作。” — [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/)，Oath（雅虎 + 雅虎通）的开源高级总监
 
-> “Open source becomes a double-edged sword for HR organizations and engineering organizations when they're hiring. You want to become a place where people are free to be open and contribute to open source and to make themselves more valuable as individuals. Usually the pushback you’ll get from companies is ‘if they make themselves so appealing, they can get poached.’ My response is – yes, absolutely – which is why having an open culture that they want to continue to work in is so critical.” – [Guy Martin](https://www.linkedin.com/in/guywmartin/), Director of Open at Autodesk (Open@ADSK)
+## 开源留任面临的挑战
 
-This reality is often disconcerting to the more structured corporate world which is better attuned to reaping a return on its investments – particularly in people – and commonly regards developers as interchangeable.
+开源招聘面临的最大挑战之一是开源项目超越了公司界限。开发人员首先专注于他们的项目，并且可以轻松地在不同雇主之间移动，受聘工作在相同的开源项目上。
 
-### A new hiring philosophy
+这反映了开发者参与开源贡献的动机。金钱或特定的职位并不是最终目标。他们的职业道路是流动的，对专业发展和个人成就的持续追求在驱动着它，这被Fournier称为“尊重”，而被Osier-Mixon称为“认可”。根据最新的开源工作报告，开源开发人员表示，工作中最好的事情是有机会参与到有趣的项目里、与全球社区合作，并解决前沿技术挑战。
 
-It’s important to turn this thinking on its head by understanding that open source developers contribute to your company’s success at multiple levels. They contribute on the company’s behalf to outside projects that you consider strategic to your business strategy and product development. And they contribute to your own open source projects.
+一个流动的劳动力池也是在开放式工作中的自然结果。贡献者的工作非常可见，不仅对项目中的人员，而且对潜在的雇主也是的。他们将贡献者的GitHub活动视为公开简历。这对作为招聘人员的你是有利的，但同时也对作为雇主的你是不利的。
 
-Attracting and retaining developers to your open source projects is equally important to doing so for employment at your company. The goal is to maintain and nourish each project’s commercial ecosystem which just happens to exist both inside and outside your company.
+> “对于招聘人事部和工程部门来说，当他们在招聘时，开源变成了一把双刃剑。你希望自己的组织成为这么地方，人们在那里，自由开发并且愿意为开源做出贡献，以便提升个人自身价值。通常公司的反对意见是‘如果他们变得如此吸引人，他们就会被挖走。’我的回应是——是的，绝对是的——这就是为什么拥有一个他们愿意继续工作的开放文化是如此关键。” — [Guy Martin](https://www.linkedin.com/in/guywmartin/)，Autodesk的开放总监（Open@ADSK）
 
-Cannibalizing the open source community for the sake of adding talent to your payroll is self-defeating. Yet, recruiting from open source communities is often a necessity because that is where one finds experienced developers for that project. The key is in supporting their work within and without company boundaries.
+这种现实通常让更加结构化的企业世界感到不安，他们更擅长获取对其投资的回报，特别是在人员方面投资回报。他们通常将开发人员视为可以互换的。
 
-> “We really want to make sure that the top contributors in the world are contributing to our projects. If they work for us that’s great. If they're working for somebody else that’s also great because when we work together as a project the success of the project is our shared success.” – [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), Senior Director of Open Source at Oath (Yahoo + AOL)
+### 一种新的招聘理念
 
-This shift in philosophy around talent acquisition and retention is part of the culture shift that happens within an organization when it undergoes open source transformation.
+重要的是要颠覆这种思维方式，认识到开源开发人员在多个层面上为公司的成功做出了贡献。代表着公司，他们为你的业务战略和产品开发中至关重要的外部项目做出贡献。同时，他们也为你自己的开源项目做出了贡献。
 
-Perhaps the biggest surprise to employers is that the unique nature of open source developers and their movement between companies in a single project is as beneficial to their various employers as it is to the developers.
+吸引和留住开发人员参与你的开源项目,与在你的公司就业同样重要。目标是维护和培育每个项目的商业生态系统，这个生态系统恰好在你的公司内部和外部都存在。
 
-> “In the Yocto Project, several developers and at least two members of the governance have worked on YP from more than one company. Because of this, they tend to be much more focused on the project’s value to the rest of the world, as opposed to making a product valuable to the company who makes it in a proprietary environment.” – [Jeff Osier-Mixon](https://www.linkedin.com/in/jefro/), Open Source Community Manager at Intel Corporation
+把人才招聘到公司因而消耗开源社区的人才资源其实是自毁的行为。但是，从开源社区招募人才通常也是必要的，因为那里才能找到为该项目提供有经验的开发人员。关键在于在如何在公司边界内外支持他们的工作。
 
-## When to recruit vs. train
+> “我们真的希望确保世界顶级的贡献者为我们的项目做出贡献。如果他们为我们工作，那很棒。如果他们为其他公司工作，那也很好，因为当我们共同为一个项目工作时，项目的成功就是我们共同的成功。” — [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/)，Oath（雅虎 + 雅虎通）的开源高级总监
 
-Your hiring and retention strategy is most meaningful to your company and its developers when it addresses both internal and external talent. But this guide is focused on strategies for recruiting developers that you employ.
+这种在人才获取和留存方面的理念转变，是组织在进行开源转型时，发生文化转变的一部分。
 
-Different companies incorporate the ebb and flow of developers coming and leaving their employ into their hiring and retention strategies in different ways. For example, some companies offer more training and project exposure in order to attract more developers, while others prefer a less structured approach to developer support.
+也许对雇主来说最大的惊喜是，开源开发人员的独特性以及他们在一个项目中的不同公司之间流动特性，如给他们本身同样带来益处，也给不同的雇主受益匪浅。
 
-> “We try to hire people with experience in open source. So we do more occasional course-correction than we do formal training in open source processes. However, all developers run into open source questions. Were motivated to help them succeed because their success is our success. We're here to help the projects as well as the people on the projects.” – [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), Senior Director of Open Source at Oath (Yahoo + AOL)
+> “在Yocto项目中，有几位开发人员和至少两位治理成员曾经在多家公司为YP工作过。因此，他们更加关注项目对世界其他地方的价值，而不是将产品在专有环境中的价值归于制造它的公司。” — [Jeff Osier-Mixon](https://www.linkedin.com/in/jefro/)，英特尔公司的开源社区经理
 
-Regardless of your strategy, there are two basic approaches to building open source talent within your organization: Recruit and train.
+## 何时进行招聘而不是培训
 
-### Recruit established developers
+当你的招聘和留聘策略同时解决了内部和外部人才问题时，它是对公司和开发人员都最有意义的。但是本指南着重于你的雇用策略，以便招聘你想的人才。
 
-Recruiting established developers must be part of your plan. It takes time for any developer to establish relationships in a project and gain influence. But on projects your company deems critical, any delays in effecting project direction can lead to some serious issues in the project’s usability in an employer’s internal projects.
+不同的公司以不同的方式将开发人员的流动纳入其招聘和留职策略中。例如，一些公司提供更多的培训和项目经验，以吸引更多的开发人员，而另一些公司则更倾向于不太结构化组织方式支持开发人员。
 
-If you're trying to quickly gain influence in an open source community where the developers you employ haven’t contributed, or don’t have much sway, hiring someone who is already skilled and influential in that project may be your only option to meet an immediate need.
+> “我们试图招聘有开源经验的人。因此，我们更多地进行偶尔的纠正，而不是进行正式的开源流程培训。然而，所有的开发人员都会遇到开源问题。我们的动机是帮助他们成功，因为他们的成功也是我们的成功。我们在这里既要帮助项目，也要帮助项目中的人员。” — Gil Yehuda，Oath（雅虎 + 雅虎通）的开源高级总监
 
-> “Domain expertise and leadership in open source can sometimes take quite a long time at established companies. You need to put training together and start working with people in the company to begin to groom them for that kind of leadership. But, sometimes initially you've got to bootstrap by hiring people who are already leaders in those communities.” – [Guy Martin](https://www.linkedin.com/in/guywmartin/), Director of Open at Autodesk (Open@ADSK)
+无论你的策略是什么，构建组织内的开源人才有两种基本方法：招聘和培训。
 
-Or maybe you already employ a top developer on a key project, who then moves on to another opportunity and there isn’t sufficient time available to groom someone to take their place. Remember that influence follows the person, and not the company they work for.
+### 招聘已经具备经验的开发人员
 
-Experienced open source developers can also help to develop your internal open source culture and open source community leadership. A smart strategy identifies all the benefits you're looking to gain from hiring top talent, and includes tactics for meeting those needs.
+招募具备经验的开发人员必须成为你的计划的一部分。任何开发人员都需要时间在项目里建立关系和获得影响力。但是在公司认为关键的项目上，任何项目方向受到延迟影响都可能导致该项目在雇主内部对应项目的可用性出现严重问题。
 
-Many hiring managers say successful recruiting is anchored more to word of mouth than to marketing. While traditional recruiters are still used, human resources and recruiting teams are looking beyond the traditional places for developers. Best practices include searching projects on GitHub and projects that your company already uses to find and approach top contributors who may be interested in a new opportunity or who can suggest someone who is.
+如果你想在一个开源社区中快速获得影响力，而你雇用的开发人员尚未做出贡献，或者没有太大的影响力，那么雇佣一个在该项目中已经具备技能和影响力的人可能是你唯一的选择，以满足及时需求。
 
-Once you've identified great or even good developers working internally or externally in project communities that are important to you, ask for their wish list of co-workers and target those people for recruitment too.
+> “在成熟的公司中，开源的领域专业知识和领导力有时需要相当长的时间才能获得。你需要组织培训，并开始与公司内的人员合作，开始培养他们成为那种领导人。但是，有时你必须通过雇佣那些已经是这些社区的先锋人来启动。” — [Guy Martin](https://www.linkedin.com/in/guywmartin/)，Autodesk公司的开放总监（Open@ADSK）
 
-### Train developers on open source
+或者也许你已经雇用了一个关键项目的顶尖开发人员，但他们又找到了另一个机会，而没有足够的时间来培养其他人来接替他们的位置。记住，影响力跟随着人，而不是他们所在公司。
 
-Companies are often frustrated in their efforts to recruit top open source developers mostly because there are so few available and they're all in high demand. But there are other reasons companies have trouble recruiting established open source developers. A company that’s new to open source may have less appeal, for example.
+经验丰富的开源开发人员还可以帮助发展你内部的开源文化和开源社区领导力。一个明智的策略可以甄别出你想从雇佣顶尖人才中获得的所有好处，并包含满足这些需求的策略。
 
-In the ongoing search for some relief from the talent shortage, employers turn to growing their own talent pool internally. Certainly, training programs are crucial in filling skill gaps and grooming candidates for succession plans should you lose key developers. Training is also a welcomed perk for developers seeking to improve their skills in open source.
+许多招聘经理表示，成功的招聘更多地依赖口碑而不是营销。虽然仍然使用传统的招聘人员，但人力资源和招聘团队正在超越传统的招聘渠道来寻找开发人员。最佳实践包括在GitHub上搜索项目和公司已经使用的项目，以找到并接触可能对新机会感兴趣的顶级贡献者，或者能够推荐适合的人选。
 
-Developers who are users or consumers of a project, are the logical candidates for the next generation of maintainers. But you will also want to spend time training developers who show an interest or eagerness in contributing to open source. It pays to cultivate this next level of developers and include them in the open source decision-making process.
+一旦你确定了那些社区项目中对你重要的开发人员，不论是内部的还是外部的，就询问他们对同事的愿望清单，并将愿望清单里的这些人列为招聘目标。
 
-Developers gain respect and recognition through their technical contributions to open source projects and their leadership in open source communities. But those are not the only places they can build serious cred.
+### 培训开发人员参与开源
 
-Working alongside great developers in high-visibility positions and projects is a big score, too. Such opportunities are a top draw at companies where very experienced, well known, and talented engineers are plentiful.
+公司在招募顶尖开源开发人员方面通常感到沮丧，主要是因为这样的开发人员数量太少，而且他们都被高度需求。但是公司在招募已经成熟开源开发人员时遇到困难还有其他原因。例如，对于刚刚接触开源的公司，他们可能缺乏吸引力。
 
-**Informal, on-the-job training** with top developers can be kickstarted or supplemented by more formal programs as well.
+在持续寻求缓解人才短缺的过程中，雇主们将目光转向内部培养自己的人才库。培训计划无疑既填补技能差距又培养候选人，以便在重要开发人员离职时有成功继任计划。它是两者中至关重要的一环。对于那些希望提升开源技能的开发人员来说，培训也是一个受欢迎的福利。
 
-**Mentorships** are a good way to build in more structure, without too much additional overhead. Senior and more experienced developers help junior and less experienced ones in resolving technical problems as needed and aid with training in open source methodology and open source culture.
+那些作为项目的用户或消费者的开发人员，是下一代维护者的合适候选人。但你也应该花时间培训那些对参与开源贡献表现出兴趣或热情的开发人员。培养这一级别的开发人员并将他们纳入开源决策过程是值得的。
 
-**Apprenticeships** up the ante a bit with more structured, daily training exposure with top developers in closer supervision.
+开发人员通过他们对开源项目的技术贡献以及他们在开源社区中的领导地位获得尊重和认可。但这并不是他们建立严肃信誉的唯一途径。
 
-**8 Steps to Open Source Development Impact in and for Your Enterprise**
+在高可见度的职位和项目中，与顶尖开发人员共事也是一个重要的机会。在那些拥有经验丰富、知名度高和才华横溢工程师的公司，这样的机会有最大的吸引力。
 
-1. Hire key developers and maintainers from the open source projects that are important to you.
-2. Allow your developers working on products to spend a certain % of their time contributing upstream.
-3. Set up a mentorship program where senior and more experienced developers guide junior, less experienced ones.
-4. Develop and offer both technical and open source methodology training to your developers.
-5. Participate in open source events. Send your developers and support them in presenting their work.
-6. Provide proper IT infrastructure that will allow your developers to communicate and work with the global open source community without any challenges.
-7. Set up an internal system to track the contributions of your developers and measure their impact.
-8. Internally, plan on contributing and focus on areas that are useful to more than one business unit/product line.
+与顶尖开发人员进行的**非正式的在职培训**可以通过更正式的培训计划来加强或补充。
 
-## Five strategies for recruiting open source developers
+**导师制度** 是一种很好的方法，可以增加更多的组织结构，而不需要太多额外的开销。资深和经验丰富的开发人员帮助初级和经验较少的开发人员解决技术问题，并协助他们在开源方法和开源文化方面进行培训。
 
-Participating in open source communities is the first, and most important thing you can do to attract open source developers. This is how your organization gains visibility, and credibility, in open source communities.
+**学徒制度**稍微加大了投入，通过与顶尖开发人员进行更有结构的、每日的培训接触，并在更密切的监督下进行。
 
-But the most effective recruitment strategies aim toward a more complete open source transformation by adopting the tools, practices, and culture that open source developers are familiar with and desire.
+**在企业内对开源开发有影响的8个步骤**
 
-> “A lot of how you recruit should center on thinking consciously about how you change the perception of the open source community on what your company is about.” – [Guy Martin](https://www.linkedin.com/in/guywmartin/), Director of Open at Autodesk (Open@ADSK)
+1.  从对你重要的开源项目中招聘关键开发人员和维护者。
+2.  允许你的开发人员在产品开发中花费一定百分比的时间向上游做出贡献。
+3.  设立导师计划，让资深和经验丰富的开发人员指导初级和经验较少的开发人员。
+4.  为你的开发人员提供技术和开源方法论培训。
+5.  参加开源活动。派遣你的开发人员，并支持他们展示他们的工作。
+6.  提供适当的IT基础设施，使你的开发人员能够与全球开源社区进行沟通和合作，没有任何障碍。
+7.  建立一个内部系统，跟踪你的开发人员的贡献并衡量他们的影响。
+8.  在内部，计划参与贡献，并关注对多个业务单位/产品线有用的领域。
 
-> “When companies establish open source practices they send a big message saying that we're serious about open source and that we want to invest in it.” – [Nithya Ruff](https://twitter.com/nithyaruff), Senior Director Open Source Practice at Comcast
+## 招聘开源开发人员的五种策略
 
-Showcasing the work your company is doing in its own open source projects is vitally important since developers cite their ability to work on interesting projects as the most effective way that recruiters can get their attention.
+参与开源社区是吸引开源开发人员的第一要素，也是最重要的事情。这是你的组织在开源社区中获得可见度和信誉的途径。
 
-Taken as a whole, these five key strategies will not only help with hiring and retaining talented developers, but also help support your overall investment in open source for business strategy.
+但最有效的招聘策略是朝着更完整的开源转型方向努力，采用开源开发人员熟悉并期望的工具、实践和文化。
 
-### 1. Participate and grow leadership in open source projects
+> “你招聘的很多方式都应该集中在有意识地思考如何改变开源社区对你公司的认知。” — [Guy Martin](https://www.linkedin.com/in/guywmartin/)，Autodesk公司的开放总监（Open@ADSK）
 
-**Take a strategic approach.** Target projects your company works with now and/or may soon. Joining and/or increasing current participation in open source projects makes your company more visible and more attractive to developers who are already skilled and working in that space. Recruiting from this group can result in a mutually perfect match.
+> “当公司建立开源实践时，他们传递了一个重要的信息，表明我们对开源非常认真，并且我们希望在其中投资。” — [Nithya Ruff](https://twitter.com/nithyaruff)，Comcast公司的开源实践高级总监
 
-Participating in projects that match your future needs may help you get ahead in acquiring talent for your next projects. For example, lots of companies are investing in cloud based technologies, high-scale data analytics, and machine learning, If you want to attract developers in those areas, you’ll want to position your company as a meaningful participant in those open source ecosystems now.
+展示公司在自己的开源项目中所做的工作非常重要，因为开发人员表示，能够参与有趣的项目是招聘人员吸引他们注意力的最有效方式。
 
-> “You can’t throw a stone more than five feet in cloud and not hit something that’s in open source. We absolutely have to have open source talent in the company to drive what we're trying to do moving forward.” – [Guy Martin](https://www.linkedin.com/in/guywmartin/), Director of Open at Autodesk (Open@ADSK)
+总的来说，这五种关键策略不仅有助于招聘和留住有才华的开发人员，还有助于支持你在业务战略中对开源的整体投资。
 
-The situation is similar in high-scale big data analytics. For example, Hadoop, the centerpiece of the big data revolution, and something Yahoo knows a lot about given its role in helping birth it. Yahoo, now a part of Oath, is renowned for its work in other high-scale computing projects, and attracts developers who are interested in developing their big data skills.
+### 1. 参与并在开源项目中培养领导力
 
-Companies can attract developers who are looking to up their game in a particular technology by establishing themselves as a desirable destination for open source developers. Startups, even those in stealth mode, can work on public open source projects to establish their cred and influence and attract talent even before they reveal their product offering. Developers have choices in open source, so you need to make your company attractive for the talent to apply.
+**采取战略性方案** 瞄准你的公司目前正在使用或可能很快会使用的项目。加入并/或增加对开源项目的当前参与度，使你的公司在这些已经在该领域具备了技能并正在工作的开发人员眼中更加可见和有吸引力。从这个群体中招聘可以实现双方的完美匹配。
 
-Participating in open source projects takes a good understanding of community dynamics and a bit of experience. Influential maintainers in open source communities have those skills and use them well. Recruiting them, if you can, will help you build your internal open source culture and attract other top-notch developers. You’ll also want to learn from these skilled developers and develop internal guidance so that you can help other open source developers you hire or train to succeed in becoming influential in open source communities too.
+参与符合你未来需求的项目可能有助于在获取下一个项目的人才方面处于领先地位。例如，许多公司正在投资云技术、大规模数据分析和机器学习，如果你想吸引那些领域的开发人员，你需要现在就将你的公司定位为，这些开源生态系统中的有意义参与者。
 
-> “For those who have never really worked on open source projects or with open source communities, we help them through the process of understanding all the things they shouldn’t do, all the things that can get them in trouble legally and communally, and all the things they should do, like how to work with people at other companies who are working on the same project but with slightly different goals, basically how to manage an external community.” – [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), Senior Director of Open Source at Oath (Yahoo + AOL)
+> “你不能扔一块超过5英尺远的石头，却不能在开源领域里什么都没砸到。我们公司绝对必须拥有开源人才，来推动我们未来的发展。” — [Guy Martin](https://www.linkedin.com/in/guywmartin/)，Autodesk公司的开放总监（Open@ADSK）
+> 
 
-Earning respect and building leadership as a corporate participant in open source takes more than one person. To pass the test of time, your company will need to show real commitment beyond one person’s own passion. Your single most passionate open source leader could leave at any time, and you'd have to start over from scratch. So make it a team priority to get involved and stay involved as a company.
+在高规模大数据分析领域的情况也类似。例如，Hadoop是大数据革命的核心，对于这一领域，雅虎拥有丰富的经验，因为它在帮助催生这一技术中扮演了重要角色。雅虎因其在其他高规模计算项目中的工作而闻名，现在是Oath的一部分了，并吸引了那些对发展大数据技能感兴趣的开发人员。
 
-**Contribute meaningfully.** This means you need to commit to contributing significant work rather than just going through the paces. Connecting their open source contributions to their work deliverables rather than letting it be a job perk will keep your developers’ focused on work, while earning them recognition in the community and attracting more developers to your company at the same time. The good news is that your contributions also steer the open source projects in the direction your company needs. Not only does this help your developers gain visibility and attract more talent, you are helping ensure that the open source projects you rely upon will support your future technical direction. That’s the beauty of open source.
+通过给开源开发人员建立一个理想的目的地，公司能够吸引那些希望在特定技术领域提升自己的开发人员。初创公司，即使是处于隐秘模式的公司，也可以在公开的开源项目上开展工作，以建立自己的信誉和影响力，甚至在揭示产品之前吸引人才。在开源中，开发人员有多种选择，因此你需要使你的公司对人才具有吸引力。
 
-**Pay developers to contribute and set aside time to work on open source.** Because your success is tied directly to the success of projects and developers, the best strategy is to ensure the success of all by making time for contributions a job priority. Be specific and nail the time availability down. Guy Martin says he and Ibrahim Haddad, back when they started the open source group at Samsung, “were jokingly called the 50% tyrants” because of their strict enforcement of developers spending 50% of their paid working hours on upstream contributions. Yes, it’s that important. Schedule time for it accordingly.
+参与开源项目需要对社区动态有良好的理解和一些经验。在开源社区中具有影响力的维护者具备这些技能，并且能够善加利用。如果可能的话，招募他们将有助于建立你内部的开源文化，并吸引到其他顶尖开发人员。你也想向这些有经验的开发人员学习，并制定内部指导，以便你能够帮助你雇佣或培训其他开源开发人员，成功使他们成为开源社区中的重要人物。
 
-**Open source your own code, create small pilot projects, and iterate on success.** In order to have influence in shaping a project, you must build leadership. In order to build leadership, you must lead by example. You lead and build trust by making your own code open source, creating small pilot projects and iterating on your successes. If your code and projects are interesting, they’ll attract developers to your company on their own. Even if your code and projects aren’t quite the stuff of legends, you earn a following by proving your worth to the community overall.
+> “对于那些从未真正参与过开源项目或与开源社区合作过的人，我们帮助他们了解所有不应该做的事情，所有可能在法律和社区方面给他们带来麻烦的事情，以及所有应该做的事情，比如如何与其他公司的人合作，他们正在开发同一项目，但目标略有不同，基本上是如何管理外部社区。” — [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/)，Oath（雅虎 + AOL）公司的开源高级总监
 
-> “If you are a company like Salesforce, it’s not always obvious to engineers why they might want to work for your company. They don’t use your product, and they don’t necessarily see what you do, but they take a look at your open source projects and say ‘Hey, it looks like this company is actually involved in a lot of really neat stuff.’ It’s kind of a window for them to see the great engineering that’s going on inside of the company that they otherwise wouldn’t be able to see.” – [Ian Varley](https://www.linkedin.com/in/ianvarley/), Software Architect at Salesforce
+在开源社区中作为企业参与者，赢得尊重和建立领导地位需要的人远多于一个。为了能经受住时间的考验，你的公司需要展现出超越个人热情的真正承诺。你唯一最热情的开源领导者随时可能离开，一旦离开，你就必须从零开始。因此，将参与开源作为团队优先事项并且是公司级别地持久做下去。
 
-### 2. Create an internal open source culture.
+**有意义地做出贡献。** 这意味着你需要承诺做出重要的工作，而不仅仅是敷衍了事。将他们的开源贡献与工作成果联系起来，而不是让它成为一种工作福利。这将使你的开发人员专注于工作，同时在社区中赢得认可，并吸引更多开发人员加入你的公司。好消息是，你的贡献也引导着开源项目朝着你公司需要的方向发展。这不仅帮助你的开发人员获得更多的关注并为公司吸引更多的人才，还帮助确保你依赖的开源项目将支持你未来的技术方向。这就是开源的美妙之处。
 
-**Tools and practices.** An open source culture can feel alien to the corporate world, but efforts to build it are not futile. In the corporate world, project teams are not usually open to allowing developers from other teams contribute code since it can disrupt their development cadence. Open source projects are usually more receptive to outside help and manage two versions of their code, one that is more stable and one that is open to constant activity. If you can adapt your projects to the open source processes internally, you’ll be able to succeed in external open source projects, where that flexibility is a must.
+**为开发人员提供报酬并留出时间来参与开源项目**。 因为你的成功直接与项目和开发人员的成功相关联，所以最好的策略是通过把留出贡献时间作为第一要务，来确保所有的成功。要具体并确切地确定时间可用性。Guy Martin说，他和Ibrahim Haddad在他们创立三星的开源团队时，“曾被戏称为50%的专制者”，因为他们严格执行开发人员将50%的工作时间用于上游贡献。是的，这是非常重要的。相应地安排时间。
 
-The tools open source developers use are different, too, and generally require a different infrastructure or platform. Developing an IT infrastructure that enables developers to communicate and work with the global open source community without any bottlenecks or problems is an important first step. Collaboration is at the heart of all things open source.
 
-**Incentives and rewards.** As mentioned earlier in this guide, open source developers are motivated by rewards, respect, and purpose. A competitive salary will get them in the door, but to retain them, make sure they are recognized for their contributions to open source.
+**开源你自己的代码，创建小型试点项目，并在成功的基础上进行迭代。** 要在塑造项目方面产生影响力，你必须建立领导力。为了建立领导力，你必须以身作则。通过使自己的代码开源、创建小型试点项目并在成功的基础上进行迭代，你领导并建立信任。如果你的代码和项目有趣，它们将自动吸引开发人员来到你的公司。即使你的代码和项目还不是传奇般的存在，通过向整个社区证明自己的价值，你也会赢得追随者。
 
-This respect should be earned, but once achieved, it must be consistently present. You’ll want to build that into your recruitment and retention strategy. Since word of mouth is key to recruitment, this is a good place to fan all the goodness developers will talk about amongst themselves.
 
-Last but not least, as Camille Fournier said in her talk, “ship often.” Open source developers like to see their work in production, to feel the thrill of finishing something and marking it done. Build your strategy and processes so that developers have a purpose and can see the effects of their work often. Mix challenging work with less taxing work to prevent exhaustion but keep interest high at the same time.
+> "如果你是像Salesforce这样的公司，工程师们为什么要来你公司工作并不总是显而易见。他们不使用你的产品，也不一定了解你的业务，但他们看到你的开源项目，会说‘嘿，看起来这个公司实际上参与了很多非常棒的工作。’ 这对他们来说是一个窗口，让他们看到公司内部正在进行的出色工程，否则他们可能看不到。” — [Ian Varley](https://www.linkedin.com/in/ianvarley/)，Salesforce的软件架构师
 
-### 3. Attend and support open source events
+### 2. 创建内部开源文化。
 
-**Send developers to present at conferences and events.** While there is no doubt that good code and community leadership builds a reputation that attracts talent, recruitment efforts must go beyond this level of developer engagement. Ask good developers in the company to attract more good developers through strategic networking, speaking engagements at conferences, and collaborating with others on open source projects.
+**工具和实践。** 开源文化在企业世界中可能感觉陌生，但努力构建它并非徒劳无功。在企业世界中，项目团队通常不愿意允许来自其他团队的开发人员贡献代码，因为这可能会干扰他们的开发节奏。而开源项目通常更愿意接受外部帮助，并管理两个版本的代码，一个是更稳定的版本，另一个是开放给持续活动的版本。如果你能够在内部调整你的项目以适应开源流程，那么你就能够在外部的开源项目中取得成功，而在那里这种灵活性是必不可少的。
 
-Much like you train developers to code in public, help them present in public. They can use the event to test an idea and to announce a new open source project. The people they meet will be more likely to adopt your projects if they hear about them from the developers who wrote the code. This way, you can attract future contributors and future new hires.
+开源开发人员使用的工具也不同，并且通常需要不同的基础设施或平台。开发一个能够让开发人员与全球开源社区进行沟通和合作而没有瓶颈和问题的IT基础设施是重要的第一步。协作是所有开源事务的核心。
 
-**Sponsor and/or set up a booth at open source events.** Developers come to conferences to hear about new developments, interesting projects, and cool companies. Since they're all ears, shouldn’t you pick up the megaphone? Sponsoring an event and setting up a booth are two ways to clearly showcase your company, its support of the open source community, and developer opportunities to the very people you hope to recruit.
+**激励和奖励。** 正如本指南前面提到的，开源开发人员受到奖励、尊重和目标的激励。有竞争力的薪水能够吸引他们进入公司，但为了留住他们，请确保认可他们在开源项目中的贡献。
 
-**Host a hackathon.** By all accounts, challenging projects are the top attraction for highly skilled, experienced open source developers. Hackathons are fun challenges packed with rewards (be those cash prizes or bragging rights), so they're a perfect addition to your recruitment efforts. Besides, you have the added benefit of evaluating their work first hand.
+这种尊重应该是通过努力赢得的，但一旦获得，就必须始终如一地存在。你会希望将这一点纳入你的招聘和留任策略中。口口相传对于招聘至关重要，开源是一个很好的地方，激励着开发人员之间互相交流一切好处。
 
-### 4. Incorporate open source into job descriptions
+最后但同样重要的是，正如Camille Fournier在她的演讲中所说，“经常发布”。开源开发人员喜欢看到他们的工作投入到生产中，感受到完成某事并将其标记为完成的激动。制定你的策略和流程，让开发人员有一个目标，并经常看到他们工作的效果。在挑战性工作和较轻松的工作之间进行混合，以防止筋疲力尽，但同时保持高度的兴趣。
 
-Open source is at the heart of almost all technologies now, therefore it should be a part of most technology job descriptions. Tell prospective candidates if the role expects them to contribute to or manage open source projects.
+### 3. 参加并支持开源活动
 
-These days, many developers are looking to build their open source skills. They’ll want jobs that give them experience, or that leverage the experience they already have. Show them you are serious about open source and you’ll get people who can help maintain, contribute to, or even be committers on your most important projects. If the role has an open source element to it, say so upfront. Given that so much technology is based on open source these days, most of your tech roles should have something about open source in it.
+**派遣开发人员到各类会议和活动做演讲。** 尽管毫无疑问，优秀的代码和社区领导力可以建立声誉，吸引人才，但招聘工作必须超越开发人员项目深入的水平。我们还需要邀请公司中的优秀开发人员通过战略性的人脉网络、在会议上的演讲以及与他人合作的开源项目来吸引更多优秀的开发人员。
 
-### 5. Invest in training – build talent from within
+就像你训练开发人员在公共场合编码一样，也请帮助他们在公共场合做演讲。他们可以利用活动来测试一个想法并宣布一个新的开源项目。如果人们能从编写代码的开发人员那里听到有关项目的信息，那么他们更有可能采用你的项目。这样，你就可以吸引未来的贡献者和未来的新员工。
 
-Given the growing shortage of experienced open source developers, you’ll need to invest in training programs to strengthen and update the skills of in-house talent. You’ll also want to use training to proactively groom successors for key project contributors so natural attrition and turnover doesn’t harm your company.
+**赞助并/或在开源活动上设立展台。** 开发人员参加会议是为了了解新的发展、有趣的项目和酷炫的公司。既然他们洗耳恭听，你为什么不大声宣传呢？赞助一个活动并设立展台表达了两种目的：一向你希望招聘的人清楚地展示你的公司，二是它对开源社区的支持以及给到开发人员机会。
 
-There are a variety of ways to incorporate training programs, from offering sessions designed to address specific open source concerns, such as license compliance, contribution processes and code mirroring, to apprenticeships where developers work alongside more experienced open source developers, to mentorships that provide help on sticky communal problems. You can structure any of these formally or informally. Either way, it’s important to have ongoing training programs always in place.
 
-For additional ideas on recruiting and retention strategies, see the predecessor to this guide, [How to Recruit and Hire Open Source Developers](https://www.linux.com/publications/how-recruit-and-hire-open-source-developers) from 2015.
+**举办黑客马拉松。** 从各方面来看，具有挑战性的项目是吸引高技能、经验丰富的开源开发人员的最主要因素。黑客马拉松是充满有趣的挑战并带有奖励（无论是现金奖还是炫耀权），因此它们是你招聘工作的完美补充。此外，你还可以通过这种方式直接评估他们的工作。
 
-## Acknowledgements
+### 4. 将开源纳入工作描述中
 
-Contributors:
+开源现在几乎是所有技术的核心，因此它应该是大多数技术工作描述的一部分。如果这个角色期望他们贡献或管理开源项目，请告诉潜在候选人这点。
 
-* Jeff Olser-Mixon, Open Source Community Manager (Intel Corporation)
-* Gil Yehuda, Senior Director, Open Source (Oath)
-* Guy Martin, Director, Open at Autodesk (Autodesk)
-* Nithya Ruff, Senior Director, Open Source Practice (Comcast)
-* Ian Varley, Software Architect (Salesforce)
+如今，许多开发人员希望建立自己的开源技能。他们希望能够在工作中获得经验，或者利用他们已经拥有的经验。向他们展示你对开源的认真态度，你将吸引人才来帮助维护、工作在你的项目上，甚至成为你最重要项目的贡献者。如果这个角色涉及到开源方面，那么请提前说明。鉴于如今许多技术都基于开源，你大部分的技术职位都应该涉及到开源内容。
+
+### 5. 投资培训 - 从内部培养人才
+
+鉴于经验丰富的开源开发人员日益短缺，你需要投资培训项目，以加强和更新内部人才的技能。你还需要利用培训积极地培养关键项目贡献者的接班人，这样自然的离职和人员流动就不会对你的公司造成损害。
+
+有多种方式可以纳入培训计划，从提供旨在解决特定开源问题的课程，例如许可合规性、贡献流程和代码镜像，到与经验丰富的开源开发人员并肩工作的学徒制，再到为解决共同问题提供帮助的导师制。你可以组织任何形式的,正式或非正式的。无论采取何种方式，重要的是要始终保持持续的培训计划。
+
+对于招聘和留住开源开发人员的额外策略，了解2015年的指南[《如何招募和聘请开源开发人员》](https://www.linux.com/publications/how-recruit-and-hire-open-source-developers)。
+
+## 致谢
+  
+贡献者：
+
+- Jeff Olser-Mixon，开源社区经理（英特尔公司）
+- Gil Yehuda，高级总监，开源（Oath）
+- Guy Martin，开放主任（Autodesk）
+- Nithya Ruff，高级总监，开源实践（Comcast）
+- Ian Varley，软件架构师（Salesforce）

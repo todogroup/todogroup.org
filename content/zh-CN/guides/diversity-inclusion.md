@@ -66,61 +66,104 @@ Open source communities come under risk if the pool of contributors and maintain
 如果贡献者和维护者的数量没有保持在健康的水平，开源社区将面临风险，这可能会导致[开源倦怠](https://opensource.com/article/19/11/burnout-open-source-communities)。
 
 > "I'm concerned about the fact that a lot of our projects are going to be very under-resourced. Many projects that a lot of us care about have one or two developers only, and a lot of us are becoming older and gray haired," said [Nithya Ruff](https://www.linkedin.com/in/nithyaruff/), senior director, Open Source Practice at Comcast and a member of the Board of Directors at The Linux Foundation. “As we age, I'm concerned that, in our passing on the knowledge or expanding the contributor community and key projects such that we can sustain those projects, and the only way we can change that is if we open the doors and we do apprenticeships and mentorships and we actually pass the knowledge on and teach people and not just stay with, ‘Ah, it's me, and it'll die when I leave.’" But there’s more at stake than talent pipelines, succession plans, and the success of open source communities. “The other concern is as newer and newer industries get involved in additional transformation and start using open source, it's as much about scaling and welcoming new industries into open source,” says Ruff. “Open source needs to evolve and change and embrace new industries and new people into this and be able to codify and share the culture with them and not just stay static.”
-> “我关心的是，我们的很多项目都将面临着资源不足的情况。我们很多人关心的许多项目都只有一个或者两个开发人员，而我们中的很多人正在逐渐老去。”康卡斯特（Comcast）开源实践高级总监、Linux 基金会董事会成员尼提亚·拉夫（Nithya Ruff）说道。
+
+> “我关心的是，我们的很多项目都将面临着资源不足的情况。我们很多人关心的许多项目都只有一个或者两个开发人员，而我们中的很多人正在逐渐老去。”康卡斯特（Comcast）开源实践高级总监、Linux 基金会董事会成员[尼提亚·拉夫](https://www.linkedin.com/in/nithyaruff/)（Nithya Ruff）说道。“随着我们年龄的增长，我担心的是，在我们传播知识或扩大贡献者社区以及维持关键项目的可持续性方面会出现问题，而改变这种现状的唯一方法是敞开大门，开展学徒和导师制，真正的传播知识，教授他人，而不是停留在“啊哈，这只有我能做，我离开后他就会消亡””。但这不仅仅是人才梯队、继任计划以及开源社区的成功。“另一个担忧是，随着越来越多新兴行业参与到转型过程中并开始使用开源，这同样需要扩大开源规模并且欢迎新的行业加入开源，”拉夫（Ruff）表示。“开源需要不断演进、改变和拥抱新的产业和新人，并能够与他们指定和共享文化，而不是停滞不前。”
 
 The following tips and guidelines are aimed to help increase the levels of diversity and inclusion within open source communities, with the recognition that each community’s culture is unique. We recognize this is a shared journey, and additional input is always welcomed.
 
+下面的建议和指南旨在帮助提升开源社区内的多元性和包容性水平，同时认识到每个社区的文化是独一无二的。我们深知这是一段共同前行的旅程，并且始终欢迎更多意见。
+
 In summary, the challenges in open source communities are:
 
+总之，开源社区中的挑战包括：
+
 * Rude and unwelcoming behavior in projects drive away contributors
+* 项目中粗鲁和不友好的行为迫使贡献者离开
 
 * Open source communities have fewer tools for changing culture than organizations
+* 相对于组织，开源社区用于改变文化方面的工具较少。
 
 * English as a primary language can be a barrier to non-native speakers
+* 英语作为主要语言对非母语者来说可能是一个障碍。
+
+
+* 参与会议和面对面会议对经济困难的人来说可能无法实现。
 
 * Travel to conferences and face-to-face meetings may be unavailable to economically disadvantaged people
+* 技术领域的多样性差距总体上限制了开源社区中多样化贡献者的人群规模。
 
 * Diversity disparity in technology overall limits the pool of diverse contributors to open source communities
+* 曾经塑造早期开源社区项目的文化正在
 
 * The culture that shaped initial open source community efforts is changing, including the value seen in the freedom that open source licenses provide
+* 塑造早期开源社区活动的文化正在改变,包括开源许可提供的自由所体现的价值的变化。 
 
 ### Using a Data-driven Approach
+### 使用数据驱动的方法
 
 As management consultant Peter Drucker put it: "If you can’t measure it, you can’t improve it." Metrics provide us with insights and best practices to help us succeed—and adjust where needed. This is true in diversity and inclusion efforts as well. Data can help guide us as we strive to increase the levels of diversity and inclusion within our open source communities.
 
+正如管理顾问彼得·德鲁克（Peter Drucker）所说：“如果你不能衡量它，你就不能提升它。”指标为我们提供了见解和最佳实践，帮助我们取得成功，以及必要时进行调整。当我们努力提升开源社区的多元化和包容性水平时，数据可以提供帮助指导。
+
 You may want to start by determining specific community D&I goals from the outset and then measuring your community’s progress against those goals.
+
+您可能需要在一开始时，确定具体的社区多元性和包容性（D&I）目标，然后再根据这些目标衡量社区的进展情况。
 
 For tips and best practices, the [CHAOSS Project’s Diversity & Inclusion Working Group](https://github.com/chaoss/wg-diversity-inclusion), a group strongly rooted in [Mozilla research](https://opensource.com/article/17/9/diversity-and-inclusion-innovation) is a great starting point. This group aims at [bringing together experiences](https://thenewstack.io/how-chaoss-di-can-help-diversity-in-the-open-source-community/) with measuring diversity and inclusion consistently across open source communities , as was done in the [OpenStack Gender Diversity Report](http://superuser.openstack.org/articles/bitergia-intel-report/), and advancing best practices. The group has compiled [dimensions of diversity and inclusion](https://github.com/chaoss/wg-diversity-inclusion/blob/master/demographic-data) that can be used across seven [focus areas of metrics](https://github.com/chaoss/wg-diversity-inclusion#metrics-focus-areas), and uses a [goal-question-metric approach](https://www.cs.umd.edu/users/mvz/handouts/gqm.pdf) to guide the development of metrics. The diversity and inclusion focus areas include:
 
+对于建议和最佳实践，[CHAOSS 项目的多元化和包容性工作组（CHAOSS Project’s Diversity & Inclusion Working Group）](https://github.com/chaoss/wg-diversity-inclusion)是一个绝佳的起点，该组深深植根于 [Mozilla 研究](https://opensource.com/article/17/9/diversity-and-inclusion-innovation)之上。该工作组旨在汇聚开源社区中一致衡量多元化和包容性的[经验](https://thenewstack.io/how-chaoss-di-can-help-diversity-in-the-open-source-community/)，正如在 [OpenStack 性别多样性报告](http://superuser.openstack.org/articles/bitergia-intel-report/)所做的那样，并推动最佳实践发展。该工作组已经汇编了[多样性和包容性的维度](https://github.com/chaoss/wg-diversity-inclusion/blob/master/demographic-data)，这些维度可以在七个[指标的关键领域](https://github.com/chaoss/wg-diversity-inclusion#metrics-focus-areas)中应用，并使用[目标-问题-指标方法](https://www.cs.umd.edu/users/mvz/handouts/gqm.pdf)来指导指标的发展。多元化和多样性关键领域包括：
+
 * Event Diversity: How well are events set up to include diverse people? 
+* 活动多元化：活动的设置是否有利于吸引多元化的人群参与？
 
 * Contributions: What is the diversity of the contributions within a community, and how are these different contributions valued?
+* 贡献：社区内贡献的多元化怎么样，以及这些不同的贡献是如何被评价的？
 
 * Communication Inclusivity: How diverse and inclusive is the communication among existing and potential contributors?
+* 沟通的包容性：现有的和潜在的贡献者之间沟通的多元化和包容性是怎样的？
 
 * Recognition of Good Work: How is ‘good work’ recognized and rewarded in a way that is inclusive? 
+* 对优秀工作的认可：如何以包容性的方式认可和奖励“优秀工作”。
 
 * Leadership: Is leadership appropriately designed for inclusion, and how well is the group functioning? 
+* 领导力：领导层是否适当的为包容性进行了设计，以及团队是如何运作的？
 
 * Governance: How well are components of governance setup to enforce standards for inclusion? 
+* 治理：治理的各个组成部分在执行包容性标准方面的效果如何？
 
 * Project and Community: How well are interfaces for community engagement, like project repositories and community design, setup for diverse people, perspectives and goals?
+* 项目和社区：项目仓库和社区设计等社区参与界面，在为多样化人群、观点和目标设置方面，做得如何？
 
 You can also look to other open source communities for inspiration.
 
+你还可以从其他开源社区中寻求灵感。
+
 > "People across the TODO group membership are doing some really amazing things in terms of how they demonstrate support for inclusion in their projects as well as in their Open Source Program Offices (OSPOs) and in how they interact with the community," said Nithya Ruff.  “Perhaps capturing those best practices across the communities and aggregating and curating may be a good approach to take. One example is diversity scholarship sponsorships. A lot of us build healthy objectives into our own projects and sponsor events that are around diversity, so that's one approach that would be good to take.”
+
+>  Nithya Ruff 表示，“TODO 小组的成员们在他们的项目中、开源办公室（OSPOs）以及他们与社区的互动中，都在以令人惊叹的方式展示着对包容性的支持。”“也许将这些社区的最佳实践进行汇总和整理会是一个不错的方法。一个例子就是设定多元化奖学金赞助。我们中的很多人都在我们的项目中设定了健康的目标，并赞助与多样性相关的活动，因此，这会是一个值得采纳的方法。”
 
 Some good examples of diversity data reports exist and you can use those as templates for what data to look for and measure. You might want to start reviewing those listed on [Open Diversity Data](http://opendiversitydata.org/).
 
+已经存在一些多元化数据报告的优秀样例，你可以以这些样例作为模板来了解需要查和衡量需要哪些数据。你可以从查阅[ Open Diversity Data](http://opendiversitydata.org/) 列出的样例开始。
+
 Beware of relying on "vanity metrics" that can make a community appear healthier than it really is. Vanity metrics skew results most often by measuring a less diverse group with another group that is more diverse to artificially inflate diversity numbers of the first group. An example in the corporate world would be to measure diversity by the numbers in the entire engineering department, which contains engineers and administrative assistants, rather than measuring diversity solely within the engineering job title.
+
+当心依赖于“虚荣指标”，它们会让社区看起来比实际更加多元化。虚荣指标通常通过将一个多元化较低的人群与一个多元化较高的人群进行比较来扭曲结果，从而人为地夸大第一个群体的多元化数字。企业领域的例子就是用整个工程部门的人数来衡量多样性，该部门既包含工程师也包含行政助理，而不是仅仅衡量工程师职位的内部多样性。
 
 To help avoid accidental vanity measurements and get the true measure of progress, consider the following guidelines listed on the [ProjectInclude.org website](http://projectinclude.org/measuring_progress#existing-diversity-data-reports).
 
+为避免出现意外的虚荣度量，并且获得真正的进展度量标准，可以参考以下列举在[ ProjectInclude.org](http://projectinclude.org/measuring_progress#existing-diversity-data-reports) 网站的指南。
+
 ### Inclusion: Retaining Diverse Contributors
+### 包容性：保留多元化的贡献者
 
 While diversity focuses on bringing underrepresented people into a community, inclusion is about making people feel welcome and supported within that community. Building inclusive communities is a good first step to ensure that all contributors can participate to their fullest potential within a community. Without an inclusive community, you risk diverse contributors not participating for long, and leaving your community for others that are more welcoming and appreciative of their contributions. 
 
+尽管多元化注重于将代表性不足的人群吸纳进社区，包容性则是让人们在社区内感到受欢迎和得到支持。建立包容性的社区是确保所有贡献者能在社区内充分发挥潜力的良好第一步。如果没有包容性的社区，你将面临多元化的贡献者不会长期参与，以及离开你的社区，转而投向那些更欢迎和欣赏他们贡献的其他社区的风险。
+
 Possible solutions all stem from one goal succinctly stated by the Node.js Inclusivity Working Group in the [code of conduct](https://github.com/nodejs/inclusivity/blob/master/CODE_OF_CONDUCT.md): "Increasing inclusivity means making the project a safe and friendly place for people from diverse backgrounds."
+
+可能的解决方案都源于 Node.js 包容性工作组在[行为准则](https://github.com/nodejs/inclusivity/blob/master/CODE_OF_CONDUCT.md)中简明扼要地提出的一个目标：“提高包容性意味着让项目成为来自不同背景的人们的安全友好之地。”
 
 The most successful approaches to making the community safe and friendly are sustained efforts. Approaches initiated and maintained consistently work more effectively than sporadic efforts with little follow-through. It is also important to guard against waning commitment after the initial rush of enthusiasm.
 

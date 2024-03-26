@@ -4,6 +4,8 @@ weight: 80
 noindex: true
 ---
 
+XXXXXX
+
 Our plans include work such as:
 
 * Sharing best practices for running open source programs and initiatives within organizations

@@ -1,5 +1,5 @@
 ---
-title: Whom is this group for?
+title: このグループの目的と対象者は誰ですか??
 weight: 10
 noindex: true
 ---

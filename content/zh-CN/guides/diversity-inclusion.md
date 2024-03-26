@@ -167,47 +167,83 @@ Possible solutions all stem from one goal succinctly stated by the Node.js Inclu
 
 The most successful approaches to making the community safe and friendly are sustained efforts. Approaches initiated and maintained consistently work more effectively than sporadic efforts with little follow-through. It is also important to guard against waning commitment after the initial rush of enthusiasm.
 
+使社区变得安全和友好的最成功方法是持续的努力。从一开始就持续不断地努力的方法比偶尔且没有后续跟进的努力更有效果。还需要警惕在最初的热情消退后，承诺的减弱。
+
 The important thing—whether in beginning to build an inclusive community or in improving one—is that the intent be obviously authentic and sincere rather than begrudging and shallow. While the goal is to build-in inclusiveness to the degree that it becomes an ingrained norm, this does not happen by accident. It takes substantial effort to build a community where all feel secure and openness is ubiquitous.
+
+无论是开始建设一个包容性的社区，还是改善已有社区，其重要之处在于，其意图必须明显表现出真诚而非勉强和肤浅。虽然目标是建立包容性到成为根深蒂固的规范程度，但这并非偶然。要建立一个所有人都感到安全和开放无处不在的社区，需要付出大量的努力。
 
 Here are recommendations to build and maintain inclusiveness:
 
+这里有一些关于建设和维持包容性的建议：
+
 **Make it easy to contribute.** Some great starting points for newcomers include documentation and tutorials—they help bring newcomers up to speed quickly and participate in a way that fits more smoothly with the group. Small, defined tasks both clarify project needs and broaden the number of people contributing to filling those needs. These tasks could be marked as "good-first-issue" for discoverability and more experienced community members should be prepared to leave the tasks open while being ready to mentor anyone who attempts them.
+
+**使贡献变得容易。** 对新人来说，一些好的起点包括文献和教程——它们能帮助新人迅速提升能力，并以一种更平滑的方式参与小组。一些明确且较小规模的任务既可以明确项目的需求，又可以扩大参与满足这些需求的人数。这些任务可以标记为“适合初学者的好问题”，以便于发现，同时，经验丰富的社区成员应当准备好保持这些任务开放，同时准备好指导任何尝试它们的人。
 
 **Recognize all contributions.** While code is the center of any community, it’s not the only necessary task. "You can attract a more diverse set of perspectives and opinions when you count contributions that are not just code," says [Guy Martin](https://www.linkedin.com/in/guywmartin/), director at Open@ADSK (Autodesk). “When you count answering questions, when you count contributing documentation, when you count people who are working on outreach, people working on design and technical writing for the documentation—these are ways to widen the scope of what you're looking at in terms of what's a contribution.” The challenge is recognizing contributions that are not logged in collaboration tools (e.g., code repositories, mailing lists, forums) such as community management, event organizing, marketing, and outreach.
 
+**承认所有贡献。** 尽管代码是任何社区的中心，但并不是唯一必要的任务。Open@ADSK（Autodesk）的总监 [Guy Martin](https://www.linkedin.com/in/guywmartin/) 表示：“当你不仅统计代码方面的贡献时，你就可以吸引更多不同观点和意见的人。”“当你计算回答问题、贡献文档、进行对外联络、从事文档的设计和技术写作等工作的次数时，你就能扩大你眼中贡献的范畴。”挑战在于认可那些没有在协作工具（例如代码库、邮件列表、论坛）中记录的贡献，比如社区管理、活动组织、市场营销和对外联络等。
+
 **Create an accepting culture.** While it is important to have common goals in the community, conformity in thinking is the antithesis of creativity and innovation. But, speaking out and offering new ideas can be nerve-wracking for anyone. You can [create a welcoming culture](https://opensource.guide/building-community/) where new ideas and new ways of thinking or doing things is accepted, whether it is coming from an established community member or a newcomer, using these principles:
+
+**营造包容的文化氛围。** 尽管在社区中拥有共同的目标很重要，但是思维上的一致性是创造力和创新性的反面。然而，对于任何人来说，发表观点，提出新想法都可能是令人紧张的。你可以通过以下原则来[营造欢迎文化](https://opensource.guide/building-community/)，让新想法和新的思维方式以及做事方法都能被接受，无论他们是资深社区成员还是新手。
 
 **Welcome newcomers.** Make a point for community leaders and members to reach out and welcome newcomers as soon as they arrive.
 
+**欢迎新人。** 让社区领导和成员引起重视，在新成员一到就主动与他们联系，表示欢迎。
+
 **Set expectations**. Make it known how members are expected to receive and treat newcomers. Also set expectations on accepting more contributions and ideas from existing members who may have previously been discouraged from participating.
+
+**设定期望。** 明确成员们应当如何接待新成员。同时，也要设定期望，让之前因受打击而未积极参与的现有成员能够接受更多的贡献和想法。
 
 **Don’t accept bad behavior and speak out when it happens.** Make bullying, name calling, stereotyping, humiliation and other negative behavior taboo in the community. When these behaviors are unwelcome, individuals will have to communicate with more thought and sensitivity. And really, it’s just asking everyone to act civilly as they would anywhere else. Modeling tactful behavior in calling out bad behaviors also helps resolve issues.  
 
+**不接受不良行为，发生时要大胆说出。**在社区中，应当禁止欺凌，侮辱，刻板印象、羞辱和其他负面行为。当这些行为是不受欢迎的，人们将不得不更加周到和敏感的方式进行交流。事实上，这只是要求每个人像在其他任何地方一样，表现得有礼貌。以巧妙的方式指出不良行为也将有助于解决问题。
+
 **Listen.** Accepting begins with listening and so does issue resolution. Sometimes misunderstandings happen, especially where language and cultural differences exist. It’s important to sort these out before anyone reacts to anything. Active listening also means listen to everyone with an open mind. Don’t discount ideas or complaints – or accept excuses -- out of hand. Look into issues and search for solutions. Then look again for ways to ensure the environment isn’t fostering such behaviors elsewhere in the community.
+
+**倾听。** 接纳始于倾听，问题解决也是。有时误解会发生，尤其是语言和文化差异存在。在任何人对任何事做出回应前，整理这些非常重要。积极倾听也意味着以开放的心态倾听每个人的意见。不要轻易否定想法或投诉，也不要轻易接受借口。要正视问题并且搜寻解决方案。然后再次寻找方法，确保社区其他地方的环境下不会助长此类行为。
 
 **Be kind.** Even old timers in the community will feel more relaxed and respected when kindness prevails. Newcomers will feel even more so. However, inclusiveness is more than just good manners. People can still be mistreated without voices being raised or threats made directly. You can combat this with sustained and expressed emphasis on kindness and professional courtesies. 
 
+**要友善。**当友善成为主流时，即使是社区中的老成员也将感到更加轻松和受到尊重。新成员更是如此。然而，包容性不仅仅是礼貌问题。即使没有提高嗓门或者直接发出威胁，人们仍然可能会受到不公正对待。你可以通过持续强调友善和专业礼仪来应对这一问题。
+
 **Adopt a code of conduct and enforce it**. In reality, bad behavior does happen in open source communities, whether or not it is intentional. Situations can get heated and communications may fall short of professional standards. Small acts of misconduct can easily escalate in an online community and harm project participants or [the project itself](http://writing.jan.io/2015/11/20/sustainable-open-source.html). A Code of Conduct (CoC) is a social contract that encourages good behavior and discourages bad behavior in a community. A CoC helps address these issues and how they are to be resolved. It isn’t always easy to get all members of a community to accept a CoC, but it’s almost impossible to take steps to make and maintain a healthy, diverse and inclusive community without a CoC that can be, and is, enforced. Here is [a good template](https://www.contributor-covenant.org/) to use, along with a great [blog](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415) describing an example of an enforcement workflow.
 
+**制定行为准则并且执行它。**事实上，不良行为确实在开源社区中发生，无论是否故意。情况可能会变得紧张，沟通可能达不到专业标准。在线社区中，轻微的不当行为很容易升级，并且伤害项目的参与者们或者[项目本身](http://writing.jan.io/2015/11/20/sustainable-open-source.html)。行为准则（CoC）是社区中的一种社会契约，它鼓励良好的行为并阻止不良行为。行为准则有助于解决这些问题，并指出如何解决这些问题。尽管让社区的所有成员接受行为准则并不容易，但如果没有可以执行且确实执行的行为准则，几乎不可能采取措施建立和维护一个健康、多元化和包容性的社区。这里有一个[好的模板](http://writing.jan.io/2015/11/20/sustainable-open-source.html)可供使用，还有一篇精彩的[博客](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415)描述了一个执行工作流程的例子。
+
 A CoC addresses these types of issues:
+行为准则解决以下几类问题：
 
 * when people disagree about a very contentious issue
+* 当人们在一个非常有争议的问题上存在分歧
 
 * when someone checks in code that breaks an important feature
+* 当有人提交的代码破坏了重要功能时
 
 * when people join a project midstream and lack context about an old issue
+* 当人们在中途加入项目，并且缺乏对老问题的背景了解时
 
 * when people are unclear in their communication style
+* 当人们对他们的交流风格不清楚时
 
 * when language and culture cause people to misunderstand
+* 当语言和文化导致人们产生误解时
 
 * when someone feels the need to leave the community
+* 当有人感觉需要离开社区时
 
 * when insults, threatening words or unwanted sexual attention occurs
+* 当出现侮辱、威胁性语言或者不受欢迎的性注意时
 
 "Some people think the Code of Conduct is there to weed out people or to police online behaviors," says [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), senior director of Open Source at Verizon Media. “I think Codes of Conduct are more method for reminding all people to act with respect, even when things are stressing the community. A project leader can point to the code before something unravels into a fight, and that’s better than waiting for a complaint to be issued.”
 
+Verizon Media 的开源部门的高级主管 [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/)表示：“有些人认为行为准则就是为了淘汰人或者监管在线行为，”。“我认为行为准则更多的是一种提醒所有人保持尊重的方法，即便是在社区压力重重的时候。项目负责人可以在事情演变成争吵之前引用该准则，这总比等着投诉来得更好。”
+
 It’s also wise to have an escalation path, or workflow, in place beforehand so that you’re prepared to enforce the Code of Conduct. Additionally, being clear on who is involved in [decisions](https://github.com/mozilla/diversity/blob/00f56b3c9c182a23a070e2bc523dcad6896bb34b/code-of-conduct-enforcement/investigation/working-group/role-groups.md) on that pathway will save time, and reduce complexity. With an escalation path and decision-making framework in place, problems can be addressed quickly and uniformly without generating disruptive chaos. "We can't prevent harassment or abuse from happening, but we can enforce the consequences and protect the community from a downward spiral," says Gil Yehuda. “A prepared workflow means we can react quickly when there's a report. We’ll then run a review process offline, and report back to the community indicating there was an issue, and that we request that the issue is not discussed on the community forum,” Yehuda explained.
+
+
 
 **5. Consider ways to make your project more accessible.** Focus on enabling internationalization within your projects. Specifically, take steps to break the language barrier, which will improve D&I contributions. Make all your documentation, tools, and official communication channels fully accessible to people with disabilities. The effect on your community will be very similar to breaking the language barrier. Improving the contributing experience for the most difficult cases improves the experience for everyone. A few ‘small start’ suggestions may include providing transcriptions and/or subtitles if you use YouTube, translating documentation into multiple languages, and live streaming your events. To put focus on these inclusion issues and formalize their status, a community may adopt [a tag for inclusion bugs](https://medium.com/@sunnydeveloper/squash-inclusion-bugs-982a3e5ee29d).
 

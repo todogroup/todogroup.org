@@ -1,5 +1,5 @@
 ---
-title: Should I join?
+title: 参加した方が良いでしょうか?
 weight: 20
 noindex: true
 ---

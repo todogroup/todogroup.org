@@ -4,4 +4,4 @@ weight: 30
 noindex: true
 ---
 
-完全な [一般メンバーのリスト](/about/members) と [OSPOアソシエイト](/about/associates/) をご覧ください。
+[一般メンバーのリスト](/about/members) と [OSPOアソシエイト](/about/associates/) をご覧ください。

@@ -243,42 +243,73 @@ Verizon Media 的开源部门的高级主管 [Gil Yehuda](https://www.linkedin.c
 
 It’s also wise to have an escalation path, or workflow, in place beforehand so that you’re prepared to enforce the Code of Conduct. Additionally, being clear on who is involved in [decisions](https://github.com/mozilla/diversity/blob/00f56b3c9c182a23a070e2bc523dcad6896bb34b/code-of-conduct-enforcement/investigation/working-group/role-groups.md) on that pathway will save time, and reduce complexity. With an escalation path and decision-making framework in place, problems can be addressed quickly and uniformly without generating disruptive chaos. "We can't prevent harassment or abuse from happening, but we can enforce the consequences and protect the community from a downward spiral," says Gil Yehuda. “A prepared workflow means we can react quickly when there's a report. We’ll then run a review process offline, and report back to the community indicating there was an issue, and that we request that the issue is not discussed on the community forum,” Yehuda explained.
 
+提前做好升级路径或者工作流程也很明智，这样你就能够为执行行为准则做好准备。此外，明确谁将参与该路径上的[决策](https://github.com/mozilla/diversity/blob/00f56b3c9c182a23a070e2bc523dcad6896bb34b/code-of-conduct-enforcement/investigation/working-group/role-groups.md)，将节省时间并减少复杂性。有了升级路径和决策框架到位，问题能够被迅速和一致性的解决，而不会产生破坏性的混乱。吉尔·叶胡达（Gil Yehuda）说道：“我们无法阻止骚扰或者虐待行为的发生，但是我们可以强制执行后果并保护社区免于走下坡路。”“预先准备好的工作流程意味着当收到举报时，我们能够快速做出反应。我们会在先线下开展审核流程，并且向社区报告存在问题，并请求不要再社区论坛上讨论这个问题。” Yehuda 解释道。
 
+**Consider ways to make your project more accessible.** Focus on enabling internationalization within your projects. Specifically, take steps to break the language barrier, which will improve D&I contributions. Make all your documentation, tools, and official communication channels fully accessible to people with disabilities. The effect on your community will be very similar to breaking the language barrier. Improving the contributing experience for the most difficult cases improves the experience for everyone. A few ‘small start’ suggestions may include providing transcriptions and/or subtitles if you use YouTube, translating documentation into multiple languages, and live streaming your events. To put focus on these inclusion issues and formalize their status, a community may adopt [a tag for inclusion bugs](https://medium.com/@sunnydeveloper/squash-inclusion-bugs-982a3e5ee29d).
 
-**5. Consider ways to make your project more accessible.** Focus on enabling internationalization within your projects. Specifically, take steps to break the language barrier, which will improve D&I contributions. Make all your documentation, tools, and official communication channels fully accessible to people with disabilities. The effect on your community will be very similar to breaking the language barrier. Improving the contributing experience for the most difficult cases improves the experience for everyone. A few ‘small start’ suggestions may include providing transcriptions and/or subtitles if you use YouTube, translating documentation into multiple languages, and live streaming your events. To put focus on these inclusion issues and formalize their status, a community may adopt [a tag for inclusion bugs](https://medium.com/@sunnydeveloper/squash-inclusion-bugs-982a3e5ee29d).
+**考虑如何让你的项目更易访问的方法。** 在项目中注重国际化。具体而言，采取措施打破语言障碍，这将有助于改善多元化和包容性的贡献。让所有文档、工具以及官方通讯渠道可以让残障人士访问。这对你的社区的影响将类似于打破语言障碍。改善最困难案例的贡献体验也将改善所有人的体验。一些“从小处着手”的建议可能包括：如果你使用 Youtube 发布内容，可以提供文字转录和/或字幕，将文档翻译成多种语言，以及直播你的活动。为了关注这些包容性问题并使其地位正式化，社区可以采取[包容性漏洞标记](https://medium.com/@sunnydeveloper/squash-inclusion-bugs-982a3e5ee29d)。
 
 ### Attracting Diverse Contributors
+### 吸引多元化贡献者
 
 When you’re ready to turn your attention to recruiting diverse contributors into your open source community, here are some guidelines to get you started.
 
+当你准备好将注意力转向为你的开源社区招募多元化贡献者时，以下是一些可供你入门的参考指南。
+
 **1. Set goals and measure against them.** You have to know what you’re aiming for if you’re ever going to hit the target. Name your goals and put tracking and metrics in place so you can manage your progress. As noted earlier, the CHAOSS Project’s Diversity & Inclusion Working Group can be a useful resource.
+
+**1. 设定目标并加以衡量。**如果你想要实现目标，就必须知道自己的目标是什么。明确你的目标，并落实追踪和衡量标准，以便你可以管理你的进展。正如前面提到的，CHAOSS 项目的多元化和包容性工作组可以作为一个有用的资源。
 
 **2. Include goals for diversity in project documentation**. But don’t stop there. Communicate goals and actions to the community and ask them to assist.
 
+**2. 在项目文档中包含多元化的目标**。但是不能止步于此。与社区成员沟通目标和行动，并且向他们寻求帮助。
+
 **3. Create a working group to proactively broaden the project’s appeal.** A good example of such a group is [The Node.js Inclusivity Working Group](https://github.com/nodejs/inclusivity), which "exists to improve inclusivity and diversity in the Node.js project and surrounding community." Another great example is the [OpenStack Diversity Working Group.](https://wiki.openstack.org/wiki/Diversity)
+
+**3. 创建一个工作小组来积极主动的扩大项目的吸引力。** 这样一个工作小组的优秀的例子是[Node.js 包容性工作小组](https://github.com/nodejs/inclusivity)，它“存在是为了提升 Node.js 项目和周边社区的包容性和多元化。”另一额优秀的案例是 [OpenStack 多元化工作小组。](https://wiki.openstack.org/wiki/Diversity)
 
 **4. Set diversity and inclusion goals/initiatives for events.** Work your networks to identify and invite individuals to your event as speakers and panelists who fit your diversity goals. Recruit advisors from diverse backgrounds to help you communicate in a way that speaks to the people you have the hardest time attracting to your event. Communicate diversity and inclusion expectations from the first call for participation to the closing remarks at the event. Check out this [30-minute presentation by Christopher Neugebauer, Josh Simmons, Sam Kitajima-Kimbrel](https://www.youtube.com/watch?v=C7ZhMnfUKIA) as an inspiration to running an inclusion-first event.
 
+**4. 为活动设定多元化和包容性目标/倡议。** 利用你的关系网络，找到并邀请符合你多元化目标的个人作为你活动的演讲者或者座谈小组成员。招募来自不同背景的顾问，以帮助你以最能吸引难以参加你活动的演讲者的方式进行沟通。从首次发布参与到活动闭幕，都要传达多元化和包容性的期盼。观看[克里斯托弗·诺伊格鲍尔（Christopher Neugebauer）、乔希·西蒙斯（Josh Simmons）和山姆·基塔吉马-金布雷尔（Sam Kitajima-Kimbrel）的30分钟演讲](https://www.youtube.com/watch?v=C7ZhMnfUKIA)，作为举办以包容性为首的活动的灵感来源。
+
 **5. Connect with other community managers to share best practices/ ideas.** The bigger open source community is your community too. Reach out to other community managers to learn what they’ve done that has worked, and to [share your own ideas and experiences in D&I](https://groups.google.com/forum/#!forum/diversity--inclusion-in-open-source).
+
+**5. 联系与其他社区管理者分享最佳实践/想法。** 规模更大的开源社区也是你的社区。你可以联系其他社区的管理者，学习他们的成功做法，也可以[分享自己在多元性和包容性方面的想法和经验](https://groups.google.com/forum/#!forum/diversity--inclusion-in-open-source)。
 
 **6. Be proactive about reaching outside of your network.** You might consider supporting existing efforts or creating new groups outside your network that people from other networks can join in too.
 
+**6. 积极主动的扩展你的关系网络。** 你可能考虑继续支持现有的倡导工作，或者创建关系之外的新小组，使来自其他网络的人也可以加入。
+
 **7. Request that project leadership attend diversity training**. Diversity training is different than sensitivity training. Sensitivity training is centered on awareness of one’s own prejudices and the sensitivity of others. Diversity and inclusion training "focuses on providing the knowledge, skills, and tools for working with diverse teams to enhance performance and impact the bottom line. This type of training is a key component of a diversity and inclusion plan,"[according to](https://www.kparksconsulting.com/tips-moving-sensitivity-training-to-inclusion-business/) K. Parks Consulting. This type of training will better equip you for the quest ahead. For example, the CNCF requires all of its community event speakers to attend [inclusive speaker orientation training](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/).
 
+**7. 要求项目负责人参加多元化的培训**。多元化的培训不同于敏感性培训。敏感性培训以认识自己的偏见和他人的敏感性为中心。多元化和包容性训练“注重于为多样化团队提供知识、技能和工具来提升业绩和影响最终结果。这种类型的训练时多元化和包容性计划的关键组成部分，”[根据](https://www.kparksconsulting.com/tips-moving-sensitivity-training-to-inclusion-business/) K.Parks Consulting 表示。这种类型的训练将更好地装备你探索未来。例如，云原生计算基金会（CNCF）要求所有社区活动演讲者参加[包容性演讲者定向培训](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)。
+
 ### Other Recommendations
+### 其他推荐
 
 Research and information abounds to spark ideas and guide your progress. And you are not alone in this quest—many others are working on improving their communities too and are open to sharing and exchanging ideas. Further, the number of established programs you can join and support are growing every day. The fruits of those efforts will benefit the open source community at large, as well as your community. Here are a few other programs and steps that you might want to consider:
 
+有大量的研究和信息可以激发你的想法和指导你进步。而且你并不孤单——许多其他人也在努力改善他们的社区，并且乐于分享和交流想法。此外，你可以参与和支持的已成立的项目数量每天都在增长。这些努力的果实将在很大程度上有益于开源社区，以及你的社区。下面有一些你可能需要考虑的其他项目和步骤：
+
 * Participate in internship programs to grow diversity, such as [Summer of Code](https://summerofcode.withgoogle.com/) and[Outreachy](https://www.outreachy.org/) or run your own, e.g., through [CommunityBridge](https://communitybridge.org/).
+* 参与实习项目来增加多元化，例如 [Summer of Code](https://summerofcode.withgoogle.com/) 和 [Outreachy](https://www.outreachy.org/) 或者开展你自己的活动，例如，通过 [CommunityBridge](https://communitybridge.org/)。
 
 * Provide transparency reports around D&I. The "Gender Diversity in the OpenStack Community" [report](https://superuser.openstack.org/articles/2018-gender-diversity-report/) is one good example.
+* 提供关于多元化和包容性的透明报告。“OpenStack 社区性别多元化”[报告](https://superuser.openstack.org/articles/2018-gender-diversity-report/)就是一个优秀的例子。
 
 * Offer travel and training scholarships for project related events. Many foundations offer diversity scholarships and travel programs, including the Linux Foundation, Cloud Native Computing Foundation and OpenStack Foundation.
+* 为项目相关的活动提供差旅和培训费用。许多基金会提供多元化奖学金和培训项目，包括 Linux 基金会，云原生计算基金会和 OpenStack 基金会。
 
 * Start proactively outreaching for diverse speakers. To get you started, here’s [a list of female tech speakers and organizers](https://github.com/fempire/women-tech-speakers-organizers) on GitHub. Another connection to find women speakers is @CallbackWomen, a Twitter account for women who are tech speakers.
+* 开始积极主动地接触多元化演讲者。为帮助你入门，这里是 GitHub 上的[女性技术演讲者和组织列表](https://github.com/fempire/women-tech-speakers-organizers)。寻找女性演讲者的另一个途径是关注 @CallbackWomen，这是一个为技术领域女性演讲者设置的推特账号。
 
 All of the above are the lessons learned and insights gained so far. No doubt there will be many more. Feel free to add your thoughts, ideas, lists and programs as well.
 
+以上所述都是我至今为止所学到的经验和洞见。毫无疑问，未来还将更多。欢迎你也来分享你的想法、观点、清单和计划。
+
 ## Acknowledgements
+## 致谢
 
 We would like to thank Amye Scaravada, Chris Aniszczyk, Daniel Izquierdo, Emma Irwin, Georg Link, Gil Yehuda,  Leslie Hawthorn, Matt Germonprez, Nicole Huesman and Nithya Ruff for their contributions to this guide.
+
+我们感谢 Amye Scaravada、Chris Aniszczyk、Daniel Izquierdo、Emma Irwin、Georg Link、Gil Yehuda、Leslie Hawthorn、Matt Germonprez、Nicole Huesman 和 Nithya Ruff 对本指南所做的贡献。

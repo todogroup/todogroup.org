@@ -2,13 +2,13 @@
 title: Employee Open Source Engagement
 ---
 
-This guide is for people who are making open source contributions as part of their work for their employer. 
+This guide is for people who are making open source contributions as part of their work for their employer.
 
-Working directly with an open source project can be a great way to create value for everyone. Some of the people who can benefit are: you, your employer, the open source project, and users of the project. Before you start to interact with an open source project you should consider some of the challenges as well as the benefits. This will help you to be successful and avoid problems like conflict or failure. 
+Working directly with an open source project can be a great way to create value for everyone. Some of the people who can benefit are: you, your employer, the open source project, and users of the project. Before you start to interact with an open source project you should consider some of the challenges as well as the benefits. This will help you to be successful and avoid problems like conflict or failure.
 
 This guide will help you to understand how to interact with a community, how to make sure you are respecting the needs of all participants, and how to make sure that your participation is valuable.
 
- Note: As you are working on behalf of your employer you will already have some rules that they expect you to follow. We will not cover that in this guide, but you can read our other guide for more information - [Guide to Outbound Open Source Software](https://todogroup.org/guides/outbound-oss/). 
+ Note: As you are working on behalf of your employer you will already have some rules that they expect you to follow. We will not cover that in this guide, but you can read our other guide for more information - [Guide to Outbound Open Source Software](https://todogroup.org/guides/outbound-oss/).
 
 In every project there are expectations and rules, there are culture and conventions. It can take time to become aware of what these are, as they may not be obvious immediately. We recommend that you engage with open source communities in a respectful, transparent, and productive way. We call this *Authentic Participation*.
 
@@ -79,7 +79,7 @@ One important fact of working in a collaborative way is that the collective hold
 
 ## Principle 3: Start With Listening.
 
-*Start with listening and learning about the project, its people and its culture. There usually is a lot of documentation and public archives of communication which will give you a very good idea of how the community works. Make use of this opportunity. Don't introduce yourself to a project as somebody who knows it all. *
+*Start with listening and learning about the project, its people and its culture. There usually is a lot of documentation and public archives of communication which will give you a very good idea of how the community works. Make use of this opportunity. Don't introduce yourself to a project as somebody who knows it all.*
 
 When your company asks you to get into an open source project that is new to you, you should take time to understand how the project functions. Read the contributing document if there is one (or if there is no contributing document you can find out how the project works and create a Contributing document as your first contribution to the community).
 
@@ -169,7 +169,7 @@ If you do not follow the guidelines there will be consequences for both your rep
 
 In addition to codes of conduct each community has its preferred way of communication and ways of engaging in discussion. Take time to understand how each community prefers to be engaged and follow their ways.
 
-Be aware that open source communities often have people from very diverse backgrounds who come from different cultures and speak different languages. This can be hard to notice when using written communication channels which don't contain much context. Postel's law is a useful guide: "Be conservative in what you do, be liberal in what you accept from others". 
+Be aware that open source communities often have people from very diverse backgrounds who come from different cultures and speak different languages. This can be hard to notice when using written communication channels which don't contain much context. Postel's law is a useful guide: "Be conservative in what you do, be liberal in what you accept from others".
 
 ### Tips for promoting respectful behavior
 
@@ -180,7 +180,7 @@ Be aware that open source communities often have people from very diverse backgr
 
 ## Principle 7: End Gracefully.
 
-* Don't withdraw resources suddenly. Instead, give proper notification and share an exit plan. Provide clear documentation that will allow the community to pick up projects when your company decides to withdraw its support.*
+*Don't withdraw resources suddenly. Instead, give proper notification and share an exit plan. Provide clear documentation that will allow the community to pick up projects when your company decides to withdraw its support.*
 
 People remember how you leave a project. Your open source endings influence how you enter your next project, whether you return to the same project or enter a new one. It can be disruptive when well-meaning open source contributors just disappear, leaving silence and questions behind them.
 

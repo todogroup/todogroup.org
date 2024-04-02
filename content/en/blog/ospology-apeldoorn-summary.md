@@ -1,7 +1,7 @@
 ---
 title: "OSPOlogyLive Apeldoorn: Insights from The Dutch Tax Administration"
 author: todogroup
-date: 2023-03-15
+date: 2024-04-01
 ---
 
 OSPOlogyLive Apeldoorn set the stage for an exchange of insights in open source management and day-to-day operations. 

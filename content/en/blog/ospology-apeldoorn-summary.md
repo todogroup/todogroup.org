@@ -13,7 +13,7 @@ challenges, and solutions in real-time, paving the way for actionable insights a
 
 
 Participants ranged from government bodies representatives like the Ministry of Health, Welfare and Sport, the Ministry of the Interior and Kingdom Relations, and the Ministry of Infrastructure and Water Management, to
-institutions such as TNO and SURF, as well as foundations and non-profits, including the Linux Foundation Europe, Foundation for Public Code, Python Foundation and Apache Foundation. 
+institutions such as TNO and SURF, as well as foundations and non-profits, including the Linux Foundation Europe, InnerSoruce Commons, Foundation for Public Code, Python Foundation and Apache Foundation. 
 
 ## Knowledge Archive Resources
 

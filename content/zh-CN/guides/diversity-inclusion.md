@@ -1,15 +1,18 @@
 ---
 title: Building an Inclusive Open Source Community
+---
+
+---
 标题: 打造一个包容性的开源社区
 ---
 
 Diversity and inclusion are vital to the future of open source communities . Projects grow and thrive -- and perform better technically and economically – when contributors with diverse perspectives, experiences, and skill sets participate. Open source communities seek to be open; this means they want everyone in the community who wants to contribute to feel welcome to do so regardless of gender, gender identity, sexual orientation, disability, race, ethnicity, age, religion, class origin, regional origin, educational background, political affiliation, or economic status. Open source communities can apply best practices to their communities that promote inclusiveness and diversity. To address these critical issues takes the strength of the collective community. Together, we can increase awareness, and subsequently address the representation gap—to benefit us all.
 
-多样性和包容性对开源社区的未来至关重要。当具有不同视角、经验和技能集的贡献者参与进来时，项目才会发展壮大，同时在技术和经济方面表现得更出色。开源社区力求开放;这意味着他们想要社区中任何想要做出贡献的人都受到欢迎，无论其性别、性别认同、性取向、残疾、种族、民族、年龄、宗教、阶级出身、地域出身、教育背景、政治派别或者经济地位。开源社区可以在其社区中采用最佳实践来促进包容性和多样性。解决这些关键问题需要整个社区的力量。齐心协力，我们可以提高认识，进而解决代表性不足的问题，让所有人从中受益。
+多元化和包容性对开源社区的未来至关重要。当具有不同视角、经验和技能集的贡献者参与进来时，项目才会发展壮大，同时在技术和经济方面表现得更出色。开源社区力求开放;这意味着他们想要社区中任何想要做出贡献的人都受到欢迎，无论其性别、性别认同、性取向、残疾、种族、民族、年龄、宗教、阶级出身、地域出身、教育背景、政治派别或者经济地位。开源社区可以在其社区中采用最佳实践来促进包容性和多元化。解决这些关键问题需要整个社区的力量。齐心协力，我们可以提高认识，进而解决代表性不足的问题，让所有人从中受益。
 
 This guide outlines why and how to build a diverse and inclusive community of individual contributors and project leadership. You’ll learn how to frame a project for inclusiveness; how to set goals and measure progress; how to protect your community from bad actors; and gain tactics for increasing diversity.
 
-该指南概述了为何以及如何构建一个由个人贡献者和项目领导层组成的多元化和包容性的。你将学习如何为项目制定包容性框架；如何设定目标并衡量进展；如何保护您的社区免受不良行为者的侵害；以及获得增加多样性的策略。
+该指南概述了为何以及如何构建一个由个人贡献者和项目领导层组成的多元化和包容性的。你将学习如何为项目制定包容性框架；如何设定目标并衡量进展；如何保护您的社区免受不良行为者的侵害；以及获得增加多元化的策略。
 
 ### Diversity and inclusion are important
 ### 多元化和包容性非常重要
@@ -20,7 +23,7 @@ Diversity and Inclusion (D&I) align with the ethos of open source communities. O
 
 A 2017 McKinsey & Company [report](https://www.mckinsey.com/business-functions/organization/our-insights/delivering-through-diversity?cid=soc-web) found that companies in the top quartile for gender diversity on their executive teams were 15% more likely to deliver above-average profitability than those in the bottom quartile, while those with ethnic and cultural diversity were 33% more likely to outperform. The reverse is also true: "The penalty for not being diverse on both measures persists," according to the report. Companies in the bottom quartile on both gender and ethnic diversity “are more likely to underperform their industry peers on profitability.” They underperformed by 29% in 2017, the McKinsey analysts found.
 
-麦肯锡公司在 2017 年发布的一份[报告](https://www.mckinsey.com/business-functions/organization/our-insights/delivering-through-diversity?cid=soc-web)中发现，执行团队中性别多样性最高的前 25% 的公司比后 25% 的公司高出 15% 的可能性获得平均水平之上的盈利，而种族和文化多元化高的比那些种族和文化多元化低的公司高出 33% 的可能性表现出色。报告还指出，情况相反的情况也成立：“在这两个方面缺乏多元化都会带来负面影响”。 在性别和种族多样性处于后 25% 的公司“更有可能在盈利能力方面逊色于业内同行”。麦肯锡分析师发现，他们在 2017 年的业绩低于行业平均水平 29%。
+麦肯锡公司（Mckinsey & Company）在 2017 年发布的一份[报告](https://www.mckinsey.com/business-functions/organization/our-insights/delivering-through-diversity?cid=soc-web)中发现，执行团队中性别多样性最高的前 25% 的公司比后 25% 的公司高出 15% 的可能性获得平均水平之上的盈利，而种族和文化多元化高的比那些种族和文化多元化低的公司高出 33% 的可能性表现出色。报告还指出，情况相反的情况也成立：“在这两个指标缺乏多元化都会带来负面影响”。 在性别和种族多样性处于后 25% 的公司“更有可能在盈利能力方面逊色于业内同行”。麦肯锡分析师发现，他们在 2017 年的业绩低于行业平均水平 29%。
 
 Evidence also points to greater levels of diversity leading to higher levels of innovation. "We wanted to know whether companies with policies encouraging the promotion and retention of a diverse workforce – in terms of gender, race and sexual orientation – also perform better at developing innovative products and services. The short answer is that they do," [said Richard Warr, co-author of a research report](https://news.ncsu.edu/2018/01/diversity-boosts-innovation-2018/) and head of the Department of Business Management in NC State’s Poole College of Management. “To be clear, we found that there is a causative link – it’s not just a correlation,” Warr says. “And the finding extends across a broad range of industry sectors.” These findings are consistent with a [2004 University of Michigan Study](http://vserver1.cscs.lsa.umich.edu/~spage/pnas.pdf) that revealed that groups of diverse problem solvers can outperform groups of high-ability problem solvers.
 
@@ -214,6 +217,7 @@ Here are recommendations to build and maintain inclusiveness:
 **制定行为准则并且执行它。**事实上，不良行为确实在开源社区中发生，无论是否故意。情况可能会变得紧张，沟通可能达不到专业标准。在线社区中，轻微的不当行为很容易升级，并且伤害项目的参与者们或者[项目本身](http://writing.jan.io/2015/11/20/sustainable-open-source.html)。行为准则（CoC）是社区中的一种社会契约，它鼓励良好的行为并阻止不良行为。行为准则有助于解决这些问题，并指出如何解决这些问题。尽管让社区的所有成员接受行为准则并不容易，但如果没有可以执行且确实执行的行为准则，几乎不可能采取措施建立和维护一个健康、多元化和包容性的社区。这里有一个[好的模板](http://writing.jan.io/2015/11/20/sustainable-open-source.html)可供使用，还有一篇精彩的[博客](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415)描述了一个执行工作流程的例子。
 
 A CoC addresses these types of issues:
+
 行为准则解决以下几类问题：
 
 * when people disagree about a very contentious issue
@@ -278,11 +282,11 @@ When you’re ready to turn your attention to recruiting diverse contributors in
 
 **6. Be proactive about reaching outside of your network.** You might consider supporting existing efforts or creating new groups outside your network that people from other networks can join in too.
 
-**6. 积极主动的扩展你的关系网络。** 你可能考虑继续支持现有的倡导工作，或者创建关系之外的新小组，使来自其他网络的人也可以加入。
+**6. 积极主动的扩展你的关系网络。** 你可能考虑继续支持现有的倡导工作，或者创建关系网之外的新小组，使来自其他网络的人也可以加入。
 
 **7. Request that project leadership attend diversity training**. Diversity training is different than sensitivity training. Sensitivity training is centered on awareness of one’s own prejudices and the sensitivity of others. Diversity and inclusion training "focuses on providing the knowledge, skills, and tools for working with diverse teams to enhance performance and impact the bottom line. This type of training is a key component of a diversity and inclusion plan,"[according to](https://www.kparksconsulting.com/tips-moving-sensitivity-training-to-inclusion-business/) K. Parks Consulting. This type of training will better equip you for the quest ahead. For example, the CNCF requires all of its community event speakers to attend [inclusive speaker orientation training](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/).
 
-**7. 要求项目负责人参加多元化的培训**。多元化的培训不同于敏感性培训。敏感性培训以认识自己的偏见和他人的敏感性为中心。多元化和包容性训练“注重于为多样化团队提供知识、技能和工具来提升业绩和影响最终结果。这种类型的训练时多元化和包容性计划的关键组成部分，”[根据](https://www.kparksconsulting.com/tips-moving-sensitivity-training-to-inclusion-business/) K.Parks Consulting 表示。这种类型的训练将更好地装备你探索未来。例如，云原生计算基金会（CNCF）要求所有社区活动演讲者参加[包容性演讲者定向培训](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)。
+**7. 要求项目负责人参加多元化的培训**。多元化的培训不同于敏感性培训。敏感性培训以认识自己的偏见和他人的敏感性为中心。多元化和包容性训练“注重于为多样化团队提供知识、技能和生产工具来提升业绩和影响最终结果。这种类型的训练时多元化和包容性计划的关键组成部分，”[根据](https://www.kparksconsulting.com/tips-moving-sensitivity-training-to-inclusion-business/) K.Parks Consulting 表示。这种类型的训练将更好地装备你探索未来。例如，云原生计算基金会（CNCF）要求所有社区活动演讲者参加[包容性演讲者定向培训](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)。
 
 ### Other Recommendations
 ### 其他推荐

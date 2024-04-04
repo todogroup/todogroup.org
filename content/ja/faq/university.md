@@ -8,4 +8,4 @@ noindex: true
 
 例えば、 [ロチェスター工科大学 (RIT)](https://www.rit.edu/research/open) or [カリフォルニア大学サンタクルーズ校](cross.ucsc.edu) などの大学からのOSPO専門家が過去数年間にわたりTODOのメンバーとなっています。
 
-[TODOグループの概要プレゼンテーション](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) をご覧いただくことで、メンバーシップの利点について詳しく学ぶことができます。
+[TODO Group Overview presentation](https://docs.google.com/presentation/d/1p4dhx0Dg8fZDO8yzp7nWC2r5WHyVH-jjSQM59lkKLdo/edit?usp=sharing) をご覧いただくことで、メンバーシップの利点について詳しく学ぶことができます。

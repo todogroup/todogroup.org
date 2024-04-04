@@ -4,4 +4,4 @@ weight: 90
 noindex: true
 ---
 
-私たちのチャネル [communication channel](/community/comms/)にアクセスしてください。詳細についてはページをご覧ください。
+私たちの [communication channel](/community/comms/)ページにアクセスしてください。詳細についてはページをご覧ください。

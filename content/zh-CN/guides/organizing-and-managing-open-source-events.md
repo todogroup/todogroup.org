@@ -41,26 +41,49 @@ Readers are encouraged to check back for updates to the guide and resource adden
 ## 开源活动介绍
 
 Open source events are educational and networking hubs for the benefit of specific or at-large open source communities. Whether intimate or gigantic, these events are essential to the growth of the open source movement, of individual careers and professional reputations, and the growth of specific open source projects.
+开源活动是特定或大型开源社区的教育和社交中心。无论规模大小，这些活动对于开源运动的发展、个人职业生涯和行业声誉的提升，以及特定开源项目的增长都至关重要。
 
 It is easy to think of open source events as similar to planning, organizing and promoting other technology events. While there are some similarities overall, open source events are in a category of their own.  
+开源活动很容易和其他技术活动的规划、组织和推广做类比。虽然总体上有一些相似之处，但开源活动实际上是属于自身特有的一个类别。
 
 > "Honestly, there are a lot of differences. A traditional tech event is more about strategic alliances and partnerships and how can you help me and how can I help you, but all for more of a capitalistic purpose, as it were," – Angela Brown, senior vice president and General Manager of Events at [the Linux Foundation](https://www.linuxfoundation.org/).
+> “坦白说，有很多不同之处。传统的技术活动更多的是关于战略联盟和合作关系，以及你如何能帮助我，我如何能帮助你，但所有这些更多是出于资本主义经济的目的，”—— Angela Brown 活动高级副总裁兼总经理，[Linux基金会](https://www.linuxfoundation.org/)。
 
 *"By its very nature, the open-source community is deeply passionate about what they do, and very passionate about open-source. That passion extends into everything,"* - added Brown, who has worked on tech events for other companies since 1994. She joined the Linux Foundation in 2007 after the organization arose from the merger of the previous open-source Development Labs and Free Standards Group. Linux Foundation events began to take shape almost immediately.
+"就其本质而言，开源社区对他们所做的事情，以及对开源本身，都有深深的热情。这种热情延伸到一切之中，" - Brown补充说。自1994年以来，她在其他公司为技术活动工作。她于2007年加入Linux基金会，基金会是由开源开发实验室和自由标准组织合并后建立，其下的开源活动立即就开始形成。
+
+Open source events are educational and networking hubs for the benefit of specific or at-large open source communities. Whether intimate or gigantic, these events are essential to the growth of the open source movement, of individual careers and professional reputations, and the growth of specific open source projects.
+开源活动是特定或大型开源社区的教育和网络中心。无论规模大小，这些活动对于开源运动的发展、个人职业生涯和专业声誉的提升，以及特定开源项目的增长都至关重要。
+
+It is easy to think of open source events as similar to planning, organizing and promoting other technology events. While there are some similarities overall, open source events are in a category of their own.
+我们很容易将开源活动与规划、组织和推广其他技术活动相类比。虽然总体上有一些相似之处，但开源活动实际上是属于自己的一个类别。
+
+"Honestly, there are a lot of differences. A traditional tech event is more about strategic alliances and partnerships and how can you help me and how can I help you, but all for more of a capitalistic purpose, as it were," – Angela Brown, senior vice president and General Manager of Events at [the Linux Foundation]
+“坦白说，有很多不同之处。传统的技术活动更多的是关于战略联盟和伙伴关系，以及你如何能帮助我，我如何能帮助你，但所有这些都更多的是出于资本主义的目的，”—— Angela Brown，[Linux基金会]的活动高级副总裁兼总经理。
+
+"By its very nature, the open-source community is deeply passionate about what they do, and very passionate about open-source. That passion extends into everything,"* - added Brown, who has worked on tech events for other companies since 1994. She joined the Linux Foundation in 2007 after the organization arose from the merger of the previous open-source Development Labs and Free Standards Group. Linux Foundation events began to take shape almost immediately.
+"就其本质而言，开源社区对他们所做的事情，以及对开源本身，都有深深的热情。这种热情延伸到一切之中，" - Brown补充说。自1994年以来，她在其他公司为技术活动工作。在开源开发实验室和自由标准组合并后形成的Linux基金会中，她于2007年加入。Linux基金会的活动几乎立即开始形成。
 
 The good news is there is a long laundry list of event management skills that are easily transferable from tech events to open source events. However, failing to keep key differences in mind can set your event up for failure from the start.
+好消息是，从技术活动转向开源活动，有一长串的活动管理技能可以便利引入。然而，若忽视技术活动和开源活动的关键差异，可能会使你的开源活动从一开始就注定失败。
 
 *"When you realize what those motivations are, it does infer and change how you are actually going to create an event,"* - Brown explained.
+*"当你了解到这些动机是什么时，它确实会引导并改变你如何真实地创建活动，"* - Brown解释说。
 
 Those motivation differences also create some interesting, and often misunderstood conference feedback.
+动机之间的差异也会带来有趣和常常会被误解的活动反馈。
 
 For one thing, open source programmers are passionate so they are quick to approach organizers at conferences to report what’s wrong or what could be improved. These encounters can sound like harsh judgments and complaints, but they usually are not.
+举个例子，开源程序员会非常积极，他们会很快联系开源活动组织者告知发生了什么差错或需要改进，这些情况好像有点像苛刻的批评或抱怨，但通常并非如此。
 
 *"It’s what they do: find bugs and fix them. That's how we can iterate and make events better. It doesn't mean that people don't actually enjoy the events, but it definitely was funny. I had a hard time with that at the beginning,"* - laughs Brown.
+*"这就是他们的工作：找出错误并修复它们。这就是我们如何迭代并改进开源活动的方式。这并不意味着人们不喜欢这些活动，但这确实很有趣。我刚开始时对此有点困惑，"* Brown笑着说。
 
 There are marked differences in OSPO and event teams charged with supporting open source as well. Team history, skill sets, and aims and goals can vary widely.
+不同OSPO和开源支撑团队之间的差异有被记录下来，团队历史、技能情况、开源活动目标等会有广泛的差异。
 
 Most open source event organizers have funny tales and war stories to share. But not all of them came to the task by the same path. Some, like the Salesforce team, picked up the responsibility just before a pandemic locked them down.
+大多数开源活动组织者会分享有趣和战斗的故事。这些故事会有不同的发生路径，例如Saleforce团队，他们在因新冠疫情的封锁之前紧急认领了开源活动的任务。
 
 *"In the world of open source we want to make sure people know we’re just starting to dip our toes into these events that are very specific to open source, but we have done quite a few,"* - said Alyssa Arvin who worked in engineering marketing at Salesforce for seven years before moving to [its OSPO](https://opensource.salesforce.com/) in December – roughly a month before the novel coronavirus went viral on a pandemic scale.
 

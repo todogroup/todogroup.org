@@ -86,41 +86,54 @@ Most open source event organizers have funny tales and war stories to share. But
 大多数开源活动组织者会分享有趣和战斗的故事。这些故事会有不同的发生路径，例如Saleforce团队，他们在因新冠疫情的封锁之前紧急认领了开源活动的任务。
 
 *"In the world of open source we want to make sure people know we’re just starting to dip our toes into these events that are very specific to open source, but we have done quite a few,"* - said Alyssa Arvin who worked in engineering marketing at Salesforce for seven years before moving to [its OSPO](https://opensource.salesforce.com/) in December – roughly a month before the novel coronavirus went viral on a pandemic scale.
-
+*"在开源世界中，我们希望让人们知道我们刚刚开始涉足这些非常特定的开源活动，但我们已经完成了相当多的工作，"* - Alyssa Arvin说，她在Salesforce公司的工程营销部门工作了七年，然后在新冠疫情全球爆发前一个月的的12月份，转到了该公司的[OSPO](https://opensource.salesforce.com/)开源办公室。
  
 
 ## Open source event types
 ## 开源活动类型
 
 There are four general categories for open source events. The first two are determined by venue: physical or virtual. The remaining two are determined by audience: internal (company employees and partners) or external (open to people employed outside of the event organizer).
+开源活动总体上分为四类。前两类由场地区分：线下和线上。剩下两类由参与者区分：内部参与（公司员工和合作伙伴）和外部参与（向开源活动企业以外的人员开放）。
 
 Event types can also be categorized by purpose or goal.
-
+开源活动类型也可以用活动目的来区分。
  
 
 > "There are events that we're doing to cultivate a community internally. There are events that we're trying to do to appreciate the external communities that we rely on. And then there are the events that we're doing to support the Open Source Projects that come out of Salesforce" – Joshua Simmons, formerly a senior strategist in Salesforce’s OSPO.
+"我们有些开源活动是为了培育内部社区。我们正在尝试的活动还包括答谢我们依赖的外部社区。以及，我们还有支持从Salesforce走出去的开源项目而举行开源活动" - Joshua Simmons，Salesforce公司前OSPO的高级策略师。
 
 Many organizations have experience in conducting open source events in physical venues, whether those are onsite or off, or for an internal or external audience.
+很多机构会组织线下场所的开源活动，其类型包括在自身办公楼内部或办公楼之外、只有机构内部人员参与或有外部人员参与。
 
 > "The process is pretty similar for internal and external events, other than the marketing piece," – Shilla Saebi, Open Source Program Manager at [Comcast](https://comcast.github.io/).
+> “内部人员参与和有外部人员参与的开源活动，其组织流程非常相似，和营销类活动不同” - Shilla Saebi，[Comcast](https://comcast.github.io/)公司开源项目经理。
 
 However, virtual events are significantly different and completely new to many organizations who soon discovered they would need to learn how on the fly.
+然而，线上的开源活动会有显著差异，对许多机构来说是全新经历，它们需要学习如何经营。
 
 > "Physical events and virtual events have different advantages and limitations. Physical events can create an in-person emotional experience but not everyone in the world is able to attend due to location or related travel cost. On the other hand, virtual events are scalable. They have an easy entry point," – Teresa Terasaki, Brand Experience & Events and Program Manager, Open Source Community at [Google Open Source].
+> "线下和线上活动有各自的优点和局限性。线下活动可以带来私人的情感体验，但由于地点或旅行成本，不是全世界每个人都能参加。另一方面，线上活动是可扩展的。它们具有便利入口，" - Teresa Terasaki，[Google开源社区](https://opensource.google/)品牌体验和活动及项目经理。
 
 Among the main advantages to a physical event are the social interactions, networking opportunities and a new environment in which to spur innovation and collaboration with others. These happen to also be the greatest weaknesses in virtual events.
+线下活动的主要优点包括社交互动、建立交际网络，以及激发创新和他人合作的新环境。这些恰好也是线上活动的最大弱点。
 
 Among the main advantages of a virtual event are increased safety during a pandemic, scalability, affordability, accessibility, and no travel or other associated costs. But virtual events have downsides too.
+线上活动的主要优点包括疫情期间的安全性、可扩展性、可承受的活动成本、可访问性、无旅行相关开支等。但线上活动也有不足。
 
 > "In recent months, we’ve seen a significant increase in participation at virtual events. Virtual events are able to reach new geographies and enable people who wouldn’t normally be able to join to attend traditional, in-person events. But they aren’t able to provide intensive in-person experience like physical events do," – María Cruz, Program Manager, Community Engagement at [Google](https://opensource.google/).
+> "近几个月，我们看到线上活动的参与度显著增加。线上活动能够覆盖新的地理区域，使通常无法参加传统现场活动的人有机会参与。但是，它们无法提供像线下活动那样的深度现场体验，" - María Cruz，[Google开源社区](https://opensource.google/)项目经理和社区参与人员。
 
 Beyond these general categories, are myriad subcategories of event types. Most are determined by topic, but others are categorized by time or intensity.
+在这些常见开源活动类别之外，还有许许多多更细分的活动类型。主要通过活动主题区分，也有通过举办时长和活动密集度来区分。
 
 *"Events like sprints for projects come to mind. For example, sprints on the Python language orbit around every Python conference. They hold several days of sprints, both for people who are core to the project to make headway while they have the good fortune of being in the same physical space with each other. But also, as an onramp to new contributors,"* said Josh Simmons, former open source strategist for [Salesforce](https://opensource.salesforce.com/). He also previously served as President of Salesforce’s Open Source Initiative.
+*"我想到的开源活动就是为开源项目进行的敏捷冲刺。例如，围绕每一次Python会议都会有关于Python语言的敏捷冲刺。在为期数天的敏捷冲刺中，既能让开源项目关键人物非常难得地在同一实体空间共同协作取得进展。同时也让新贡献者找到切入点，"* [Salesforce](https://opensource.salesforce.com/)的前开源策略师Josh Simmons说。他之前还担任过Salesforce的开源倡议的主席。
 
 *"Sprints are going to be an important one to look into at some point. You might want to make sure it's on your radar."*
+*“敏捷冲刺将是你在某个时刻需要关注的重要事项。你可能需要确保它在你的关注范围内”*
 
-Regardless of the type of open source event you’re currently planning, virtual will reign supreme in venues for as long as the pandemic lasts and will probably remain a strong option afterwards. While most organizations are learning how to host a virtual event on the fly, shared experiences are beginning to reveal some good guidance.  
+Regardless of the type of open source event you’re currently planning, virtual will reign supreme in venues for as long as the pandemic lasts and will probably remain a strong option afterwards. While most organizations are learning how to host a virtual event on the fly, shared experiences are beginning to reveal some good guidance.
+无论你当前正在筹划的开源活动是何种类型，只要疫情持续，线上活动将在场地选择上占据主导地位，并可能在之后仍然是一个强有力的选项。大多数机构正在学习如何组织线上开源活动，共享的活动经验将会带来良好指引。
 
 ## 4 key elements in virtual open source events
 ## 线上开源活动的四个关键元素

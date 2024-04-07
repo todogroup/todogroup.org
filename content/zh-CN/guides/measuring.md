@@ -1,5 +1,5 @@
 ---
-title: Measuring your open source program's success；测试
+title: Measuring your open source program's success；++
 ---
 
 Open source program managers must demonstrate the ROI of their efforts. This guide provides an overview of some of the standard ways that organizations evaluate their open source programs, projects, and contributions.

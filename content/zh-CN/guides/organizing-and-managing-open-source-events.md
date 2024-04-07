@@ -139,18 +139,25 @@ Regardless of the type of open source event you’re currently planning, virtual
 ## 线上开源活动的四个关键元素
 
 Pivoting to virtual open source events is a smart and natural move during the Covid-19 pandemic. But that is not to say it was an easy move to make.
+新冠疫情期间的开源活动需要有智能化和自然顺畅的转型，这不是一件容易的事情。
 
 *"First we had to negotiate out of all of the contracts we had this year. It was a lot to contend with because if a local government bans large gatherings, for example, then you've got force majeure in your favor. But just being in a pandemic doesn't free you from the contract,"* said Brown.
+*“首先，我们必须退出今年我们签订的所有开源活动合同。这涉及很多艰难工作，举例说地方政府禁止大型集会，那么你就有了受制于不可抗力的理由。但是，仅仅因为处于新冠疫情之中，并不能让你免于履行合同。”* Brown说到。
 
 *"It quickly then became necessary to research virtual event platforms and try to figure out which ones really meet our needs. But perhaps the biggest challenge was in rolling those out and trying to create the same type of attendee experience as in physical events, which to be quite honest, you can't create the same thing. Right? So, you move on to planning an entirely new and hopefully just as engaging experience,"* Brown added.
+*"很快，我们就必须开始研究线上活动平台，并试图找出哪些平台真正满足我们的需求。但可能最大的挑战在于推出这些线上活动，并试图创造与线下活动相同类型的参与体验，坦白说，你无法创造出完全相同的体验，对吧？所以，你需要转向规划一种全新的，希望同样吸引人的体验。"* Brown补充到。
 
 But the stress endured by teams scrambling to make virtual work is not for naught.
+但是，努力组织线上开源活动的团队其经受的压力并非毫无价值。
 
 *"This is an opportunity to think outside the box including platform, format, content, timing, and interactivity. We can also reach audience groups that you don’t normally reach at in-person events,"* said Terasaki.
+*“这是一个跳出固有框架来思考的机会，包括平台、形式、内容、时机以及互动性。我们还能触及那些在线下面对面活动中通常难以接触到的受众群体。”* - Terasaki 指出。
 
 Teams should get comfortable with planning open source events as they’re likely to still be in use far after the pandemic rush subsides. However, virtual events are also likely to evolve.
+开源活动组织团队应该习惯活动策划工作，它们将会在疫情消退后仍长期持续。但是线上活动可能会发生演变。
 
 *"Considering the level of innovation in accessibility for remote participation, and the positive impact it has on the event’s reach, there is a chance that events transform to a hybrid format. This would imply that an event can both be in-person and virtual: while some participants will gather in the same venue, there could be a portion of the speakers presenting virtually, with some attendees joining remotely as well,"* said Cruz.
+*“考虑到远程便利接入参与的创新水平及其对开源活动覆盖范围产生的积极影响，未来的开源活动有可能转变为混合模式。这意味着一场活动可以同时是线下和线上的：一方面，部分参与者会在同一场地聚集；另一方面，部分演讲者可能通过线上方式展示内容，同时也有部分参会者在线远程参加。”*，Cruz 说。
 
 **Event focus**
 

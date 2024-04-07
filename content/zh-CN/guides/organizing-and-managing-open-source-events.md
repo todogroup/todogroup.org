@@ -160,26 +160,37 @@ Teams should get comfortable with planning open source events as they’re likel
 *“考虑到远程便利接入参与的创新水平及其对开源活动覆盖范围产生的积极影响，未来的开源活动有可能转变为混合模式。这意味着一场活动可以同时是线下和线上的：一方面，部分参与者会在同一场地聚集；另一方面，部分演讲者可能通过线上方式展示内容，同时也有部分参会者在线远程参加。”*，Cruz 说。
 
 **Event focus**
+**开源活动聚焦点**
 
 Deciding the focus of your event is the first and most important step as it sets the scale, tone, and pace for the rest of the event planning.
+决定开源活动的聚焦点是活动组织的第一步也是最重要工作，它设定了开源活动的规模、基调和其他活动规划工作的节奏。
 
 *"First, figure out what your purpose is and why you are gathering people together. Who are you looking to gather together, and how do dates and timing work for that group? There are so many events out there, or there have been so many events out there already. How is yours different and why would people want to attend? These are questions to ask yourself and team,"* says Brown.
+*“首先，确定你的目标和召集人们聚集在一起的原因。你希望召集哪些人，以及对于这群人来说，选择什么样的日期和时间最为合适？业界正在举办和曾经举办的活动数不胜数。你的活动有何差异，为何人们想要参加？这些都是你和团队需要回答的问题。”* Brown 说。
 
 In short, make sure you’re bringing an event with value to a group that will value the information.
+简而言之，请确保你要举办的活动能为重视这些知识信息的群体带来价值。
 
 Once you know the purpose and the intended audience, you’ll be able to quickly determine other parameters, such as the type of virtual venue technologies you will need.
+当你知道开源活动的目的和目标受众，你就能快速决定其他的活动参数，例如线上会场所需的技术形式。
 
 **Funding: registration fees and sponsorships**
+**活动经费：报名费和赞助费**
 
 Registration and sponsorship fees are typical funding sources for physical open source events, but these may be harder to muster for virtual events. Traditionally, open source events fare better if registration fees are low as that tends to bring in larger attendance numbers. Sponsorships cover many if not all of the costs at many events, or at least any shortfall from lowering the registration fees.
+报名费和赞助费通常是线下开源活动常见的经费来源，但对于线上活动来说，筹集这类费用可能会更加困难。传统上，开源活动若能保持较低的报名费用，则往往能够吸引更多参会者，因为低费用有利于提高参与度。在许多活动中，赞助商提供的赞助可以覆盖大部分甚至全部成本，至少能够弥补因降低报名费而造成的资金缺口。
 
 While many organizers are not seeking to profit from an event, most would like to cover their costs if for no other reason than to offer more events to the community.
+虽然很多开源活动组织者不期望从活动中获利，但出于至少能够为社区提供更多活动这一考虑，大多数人都希望能收回成本。
 
 *"A lot of that comes down to why a sponsor would sponsor that event in the first place. That varies. For some events like Linux Kernel Summit, for example, which is annual meeting of 80 to 90 people, where the Linux story evolves, and the core kernel developers sit down and decide what's going to happen with future release cycles. Sponsors pay good money to get a seat at the table at that event. That is really the only benefit they care about,"* says Brown.
+*“很多问题归结为赞助商为什么会赞助开源活动。这因情况而异。例如，像Linux Kernel Summit这样的活动，这是一个每年举行的80到90人的会议，在那里，Linux的故事在演进，重要的内核开发人员坐下来决定未来发布周期的内容。赞助商愿意花大价钱在那个活动中获得一个席位。这实际上是他们唯一关心的收益。”*，Brown说。
 
 *"Whereas another event like Linux Plumbers Conference attracts developers who are working in all of the core subsystems of the Linux kernel, that so many companies and organizations depend on. A lot of companies sponsor that event, not because of the individual benefits that they find in a sponsorship perspective, but simply because they know it is important to support the community. It benefits everybody. But then you have other events like KubeCon, where it is a lead gen thing,"* Brown added.
+*“而像另一个Linux Plumbers Conference活动吸引了在Linux内核所有核心子系统中工作的开发者，这是许多公司和机构所依赖的。许多公司赞助这个活动，不是出于从赞助中获得具体好处，而仅仅是因为他们知道支持社区是重要的。这对每个人都有好处。但是还有像KubeCon这样的其他活动，那里是一个培育潜在客户的场所。”*，Brown补充到。
 
 Virtual events incur costs too and organizers must decide whether to pay them or seek funding elsewhere. Consider that given the long dry spell in open source events and conferences, there is pent up demand now among sponsors and open source recruiters who are effectively cut off from much of the open source community. Finding a way to involve sponsors in virtual events helps restore the full circle of open source relationships.
+线上开源活动同样会产生成本，组织者必须决定是否自行承担成本，还是寻求其他经费来源。考虑到开源活动和会议经历了长时间的空白期，当前赞助商和开源招聘者中存在因为被切断与开源社区联系而带来的积压需求。寻找一种方式让赞助商参与到线上活动，有助于恢复开源协作关系的运转。
 
 **Code of conduct**
 

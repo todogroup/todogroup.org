@@ -4,7 +4,7 @@ url: "/about/steering-committee/"
 ---
 
 {{< intro >}}
-We elect members to the TODO Group Steering Committee every year. These members collaborate with the group’s Project Manager to manage daily operations, ensuring that TODO initiatives align with the TODO mission. They develop project processes and documentation, advise on marketing matters, 
+We elect members to the TODO Group Steering Committee every year. These members collaborate with TODO Group’s Project Manager to manage daily operations, ensuring that TODO initiatives align with the TODO mission. They develop project processes and documentation, advise on marketing matters, 
 provide resolutions for community requests, and help define the strategic goals of the TODO Group community. [See our charter.](https://github.com/todogroup/governance/blob/main/GM-SC-CHARTER.adoc)
 {{< /intro >}}
 

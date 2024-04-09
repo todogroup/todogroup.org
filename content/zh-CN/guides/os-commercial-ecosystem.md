@@ -6,17 +6,17 @@ One way for an open source project to be successful is to have a thriving ecosys
 
 **Table of Contents**
 
-* [Defining and creating a sustainable open source commercial ecosystem](#defining-and-creating-a-sustainable-open-source-commercial-ecosystem)
-* [Ingredients of open source ecosystem success](#ingredients-of-open-source-ecosystem-success)
-  * [Building community/ growing contributions](#building-community-growing-contributions)
-  * [Instill confidence for commercial adoption](#instill-confidence-for-commercial-adoption)
-  * [Adherence to open source culture](#adherence-to-open-source-culture)
-* [How to build an open source ecosystem](#how-to-build-an-open-source-ecosystem)
-  * [1. Establish a healthy governance system](#1-establish-a-healthy-governance-system)
-  * [2. Evaluate resources](#2-evaluate-resources)
-  * [3. Track progress and make adjustments](#3-track-progress-and-make-adjustments)
-* [Example: Google Open Source Office](#example-google-open-source-office)
-  * [Acknowledgements](#acknowledgements)
+- [Defining and creating a sustainable open source commercial ecosystem](#defining-and-creating-a-sustainable-open-source-commercial-ecosystem)
+- [Ingredients of open source ecosystem success](#ingredients-of-open-source-ecosystem-success)
+  - [Building community/ growing contributions](#building-community-growing-contributions)
+  - [Instill confidence for commercial adoption](#instill-confidence-for-commercial-adoption)
+  - [Adherence to open source culture](#adherence-to-open-source-culture)
+- [How to build an open source ecosystem](#how-to-build-an-open-source-ecosystem)
+  - [1. Establish a healthy governance system](#1-establish-a-healthy-governance-system)
+  - [2. Evaluate resources](#2-evaluate-resources)
+  - [3. Track progress and make adjustments](#3-track-progress-and-make-adjustments)
+- [Example: Google Open Source Office](#example-google-open-source-office)
+  - [Acknowledgements](#acknowledgements)
 
 ## Defining and creating a sustainable open source commercial ecosystem
 

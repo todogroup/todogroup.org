@@ -1,7 +1,7 @@
 ---
 title: "Help Shape the 2024 OSPO Survey: Call for Community Feedback"
 author: todogroup
-date: 2024-04-9
+date: 2024-04-09
 ---
 
 As with previous years, TODO Group is inviting community feedback to ensure the 2024 survey accurately captures the varied needs and challenges of the OSPO community. 

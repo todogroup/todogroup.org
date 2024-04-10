@@ -104,7 +104,7 @@ The final Steering Committee that will be formed in 2024 is composed of the foll
 * Brittany Istenes (Fannie Mae)
 * Georg Kunz (Ericsson)
 * Leslie Hawthorn (RedHat)
-* Annania Melaku (F5)
+* Annania Melaku (NGINX)
 
 ![generalmemebrs2024todo](https://github.com/todogroup/todogroup.org/assets/43671777/0a4cfd31-89fb-49d6-a38b-797f4c20c40f)
 

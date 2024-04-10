@@ -1,178 +1,305 @@
 ---
-title: Creating an Open Source Commercial Ecosystem
+title: 创建一个开源商业生态体系
 ---
 
-One way for an open source project to be successful is to have a thriving ecosystem of companies and products built around it.  So what exactly is an open source commercial ecosystem and how can organizations help create and support sustainable open source projects? There are concrete ways to create confidence in a project’s long-term viability, encourage companies to create commercial products and services on top of open source projects, and re-invest in them with contributions, content, and other resources. These practices for enabling ecosystem development help set your projects up for success.
+成功的开源项目通常围绕着一个繁荣的公司和产品生态体系构建。
+那么，什么是开源商业生态体系，以及如何帮助创建和支持可持续的开源项目呢？
+本书探讨了一些方法可以树立对项目长期可行性的信心，鼓励公司在开源项目的基础上构建商业产品和服务，
+并通过贡献、内容和其他资源重新投资于开源项目，从而促进整个生态体系的发展。
 
-**Table of Contents**
+**目录**
 
-* [Defining and creating a sustainable open source commercial ecosystem](#defining-and-creating-a-sustainable-open-source-commercial-ecosystem)
-* [Ingredients of open source ecosystem success](#ingredients-of-open-source-ecosystem-success)
-  * [Building community/ growing contributions](#building-community-growing-contributions)
-  * [Instill confidence for commercial adoption](#instill-confidence-for-commercial-adoption)
-  * [Adherence to open source culture](#adherence-to-open-source-culture)
-* [How to build an open source ecosystem](#how-to-build-an-open-source-ecosystem)
-  * [1. Establish a healthy governance system](#1-establish-a-healthy-governance-system)
-  * [2. Evaluate resources](#2-evaluate-resources)
-  * [3. Track progress and make adjustments](#3-track-progress-and-make-adjustments)
-* [Example: Google Open Source Office](#example-google-open-source-office)
-  * [Acknowledgements](#acknowledgements)
+* [定义和创建可持续的开源商业生态体系](#定义和创建可持续的开源商业生态体系)
+* [开源生态体系成功的要素](#开源生态体系成功的要素)
+  * [建立社区/增加贡献](#建立社区增加贡献)
+  * [增强商业采用的信心](#增强商业采用的信心)
+  * [遵循开源文化](#遵循开源文化)
+* [如何构建开源生态体系](#如何构建开源生态体系)
+  * [1. 建立健康的治理体系](#1-建立健康的治理体系)
+  * [2. 评估资源](#2-评估资源)
+  * [3. 跟踪进展并进行调整](#3-跟踪进展并进行调整)
+* [示例：Google开源办公室](#示例google-开源办公室)
+  * [致谢](#致谢)
+
+## 定义和创建可持续的开源商业生态体系
 
-## Defining and creating a sustainable open source commercial ecosystem
+开源项目办公室（OSPO）可以通过两种不同的方式与开源社区互动：
 
-Open Source Program Offices can interact with open source in two different ways:
+* 出站：对现有开源项目做贡献，或发布新的开源项目
+* 入站：借鉴当前的一些开源项目
 
-* Outbound processes: contributing to existing or releasing new open source projects
-* Inbound processes: consuming open source projects
+任何包含使用开源软件的商业或产品策略都需要将资源重新投资到该策略所依赖的项目中。
+这可以促成开源商业生态体系的形成，为这些项目的可行性和长期可持续性做出贡献。
+然而，在公司投入资源之前，必须先对项目的未来前景有信心，愿意在其之上建立商业依赖关系。
 
-A critical element of any business or product strategy that includes the use of open source software is the reinvestment of resources into the projects on which that strategy relies. This can lead to the creation of open source commercial ecosystems, which contribute to the viability and long-term sustainability for those projects. However, before a company will invest resources it must first have confidence in a project's future prospects such that they're willing to build commercial dependencies upon it.
+虽然无法保证开源项目一定能成功，但可以通过一些做法来为其成功铺平道路，帮助其周围建立商业生态体系。
+如果能加快这个过程，就能加速创新，让产品上市更快，让项目被人更快的采用。
+正如 [Accel Partners 的投资者李平所描述的那样](https://www.slideshare.net/AccelPartners/the-rise-of-open-adoption-software-oas)，这将形成一个良性循环。
+
+李平确定了项目、产品和利润三个可持续性阶段。
 
-While there are no guarantees that an open source project will be successful, there are ways to set it up for success through practices that help build commercial ecosystems around it. If you can accelerate this process, it speeds innovation, products get to market faster, and projects see faster adoption and use. It becomes a virtuous cycle as [described by Accel Partners investor Ping Li](https://www.slideshare.net/AccelPartners/the-rise-of-open-adoption-software-oas).
+* **项目。** 创建一个真正有用、目标明确的项目并建立强大的社区是创建繁荣生态体系的第一步。
+  可以通过从头开始创建一个伟大的发明、分叉一个现有的发明或重新利用一个现有项目来实现这一目标。
+  你知道广受欢迎的 OpenStack 云平台最初是 NASA 内部使用的开源项目吗？
+  同样，广受欢迎的 Kubernetes 编排工具是从 Google 的内部开源项目演变而来的。
+  创建、Fork 和重新利用都可以引起对项目的强烈需求。
+
+* **产品。** 就在几年前，开源领域包括许多纯粹主义者，他们对任何关于产品化和商业化开源创作的讨论都不屑一顾。
+  现在情况已经发生了巨大的变化。像 Red Hat 这样的公司通过为开源软件提供强化支持建立了数十亿美元的业务，
+  而像 OpenStack 这样的平台则催生了像 Mirantis 这样的强大公司。
+  现在许多开源项目通常提供一个社区版，辅以全面支持的商业版。可以将这看作是从项目到产品的转变。
+
+* **利润。** 利润是各个公司追求的目标，而开源创作可以通过从项目到产品再到利润的良性循环来实现可持续发展。
+  为开源发明建立利润模型可能需要创造力。像 Red Hat 为其企业 Linux 和许多其他开源产品提供的关键支持一样，
+  最有利可图的路径是提供关键任务支持吗？像 Android 生态体系中的与硬件制造商合作的许可费或利润模型呢？
+  比如可以对服务收费，而不对软件本身收费，可以接受捐赠的资金、众筹捐款等实现开源利润。
+
+一旦开源创作通过上述三个阶段取得了进展，商业依赖和重新投资推动的良性循环就完成了。
+此时，项目已经达到了稳定的社区开发状态，有众多开发者参与其中，有人来修复 bug 并进行安全更新，这就可以形成有利可图的合作伙伴关系等等。
+
+商业依赖导致用户的增加，用户购买解决方案产生利润，利润增加了投资社区的资源。
+健康的社区还可以促进项目之间的合作和交流，从而提高质量。
+
+## 开源生态体系成功的要素
+
+在追求开源创作的最佳生态体系中，首要任务是创建解决问题的独特代码。
+例如，OpenStack 帮助了无数组织将资源集中在云中，从而降低了内部存储和计算资源的成本。
+同样，网络功能虚拟化（NFV）技术帮助电信公司减少了对昂贵专有组件的依赖。
+
+一旦解决问题的创作存在，就可以专注于建立社区和贡献、增强商业采用的信心和遵循开源文化。
+
+### 建立社区/增加贡献
+
+要在开源项目周围建立一个健康的社区，关键是开发人员培训和招募，
+以及[定义入站贡献的指南](https://opensource.guide/how-to-contribute/)和纪律性的开发实践，
+如版本管理、构建和测试自动化、文档、贡献的入口和问题和修订的跟踪。
 
-Li has identified three phases of sustainability to focus on Project, Product, and Profit.
+> 你需要为人们提供参与你的项目的方式，而这些方式不需要他们拥有博士学位或在类似领域工作了 25 年。
+> 你需要为他们提供快速参与的方式。这意味着你需要真正好的设置文档，还意味着你需要有活跃和健康的论坛和负责任的维护者。
+>
+> – Ian Varley, Salesforce 软件架构师
 
-* **Project.** Creating a truly useful, purpose-driven project with a strong community, is step number one in creating a thriving ecosystem.  This can be achieved by creating a great invention from the ground up, by forking an existing invention, or by repurposing an existing project. Did you know that the wildly popular OpenStack cloud platform was originally an in-house open source creation that NASA used? Likewise, the hugely popular Kubernetes orchestration tool evolved from an in-house open source project at Google. Creating, forking, and repurposing can all lead to strong demand for projects.
+[Contributor Covenant](http://contributor-covenant.org/)是一个可靠的行为准则和贡献者指南文件，
+被包括 Kubernetes、Rails 和 Swift 在内的 [40000 多个开源项目](http://contributor-covenant.org/adopters/)使用。
+同样，像 Linux 基金会的 TODO Group 这样的组织在设置入站贡献指南方面有丰富的经验。
+
+Cloud Foundry 的[行为准则](https://www.cloudfoundry.org/code-of-conduct/)提供了一个很好的例子，
+展示了如何为社区成员制定官方准则。它详细说明了社区成员如何报告事件，什么行为算是不可接受的，等等。
 
-* **Product.** Only a few years ago, the open source arena included many purists who looked down on any talk of productizing and commercializing open source creations. That has changed, big time. Companies like Red Hat have built billion dollar businesses by complementing open source software with hardened support, and platforms like OpenStack have given birth to powerful companies like Mirantis. It has become a norm for many open source projects to be offered in one community edition that is complemented by a fully supported commercial edition. Think of this as going from project to product.
+### 增强商业采用的信心
 
-* **Profit.** Profit is the brass ring for businesses everywhere, and an open source creation can complete the virtuous cycle of sustainability by advancing from Project to Product to Profit. Building a profit model for an open source invention can require creativity. Does the most profitable path lie in providing mission-critical support, as Red Hat does for its Enterprise Linux and many other open source offerings? Does it lie in seeking licensing fees or profit models based on working with hardware manufacturers, as seen in the Android ecosystem? Can an acquisition provide a profitable business model for an invention? Other profit models for open source are built around charging fees for services but not software, donation-based funding, and crowdsourced donations.
+随着一个开源软件项目的发展，[一项研究显示](http://www.ifosslr.org/ifosslr/article/view/64)，它会达到一个拐点，
+此时企业希望参与进来，但对于该开源项目的知识产权制度（或缺乏制度）可能不太放心。
+以下做法有助于增强那些可能在边缘徘徊、等待承诺的公司的信心。
+
+* **知识产权和商标管理。**
+  开源许可证和政策以及商标可以对一个项目是否实现商业采用产生巨大影响。
+  有许多[免费资源](https://www.linux.com/news/free-tools-driving-open-source-project-success)可用于管理这些。
+
+* **独立治理。**
+  对于某个成长阶段的项目来说，建立独立治理和中立的项目资产变得至关重要。
+  请记住，至关重要的是将能够提供项目商业和法律治理的合格人员纳入进来，以及能够提供技术治理的人员。
+  例如，具有技术技能的人可能对入站贡献指南有一定的了解，而具有商业资质的人可能有资格制定商标方面的政策。
 
-Once an open source creation has progressed through the three phases above, the virtuous cycle, driven by commercial dependency and reinvestment, is completed. At this point, the project has reached a steady-state of robust community development, bug fixes, and security updates are optimized through the many eyeballs on a project, lucrative partnerships can be formed, and much more.
+  > “在促进健康的商业生态体系时，要对项目的治理有一个清晰的愿景，明确该项目的组成部分和不是组成部分。
+  > 要有一套明确的接口，作为商业生态体系可以连接或附着到项目的地方。在开始开发生态体系时，你希望公司在与你合作时感到安全。”
+  >
+  > – Sarah Novotny, Azure FOSS 战略部
+
+* **支持、安全和可靠的代码和基础设施。**
+  Red Hat 因为为开源软件提供强化支持而获得了多少好处？非常多。
+  除了审核代码以确保可靠性和安全性之外，还要提供支持，并利用社区论坛等资源。
+  像 Black Duck 等许多公司还提供开源安全性和可靠性审计服务。
+
+* **公关和营销支持。**
+  你的项目是否有博客？是否有营销和公关计划？
+  围绕项目创建自己的内容，并通过在开源活动中进行演讲以及与媒体和市场营销的联系来补充这一努力，可以让你的项目被人们所讨论和采用。
+  与专有软件产品相比，许多商业开源项目的转化率（通过下载者中购买某些东西的百分比）并不高，因此低成本且可扩展的营销功能对盈利至关重要。
+
+* **创建强大的客户反馈循环。**
+  问问成功的商业人士他们如何看待客户，他们会说客户至上。
+  这是一个商业原则，在技术文化中可能并不强调。确保提供直接的客户反馈途径并鼓励反馈。
+  论坛可以提供丰富的客户反馈。回答来自各个渠道的客户问题，从论坛到电话支持。
 
-Commercial dependency results in users, users buy solutions that generate profit, and profits increase resources to invest back in the community. A healthy community can also encourage partnerships and cross-pollination between projects that improve quality.
+### 遵循开源文化
 
-## Ingredients of open source ecosystem success
+一个没有生态体系和社区的下游项目实际上没有充分利用开源的价值。遵循开源文化是成功的关键。
 
-Creating unique code that solves a problem is job number one in pursuing the optimal ecosystem for an open source creation. For example, OpenStack has helped countless organizations centralize resources in the cloud, resulting in cost reductions for in-house storage and compute resources. Likewise, Network Function Virtualization (NFV) technology is helping telecommunications companies reduce their reliance on costly proprietary components in their technology stacks.
+> 在构建开源社区时最重要的一点是确保你自己的流程是开放的。
+> 你的决策过程越透明，你的社区就会越有归属感。你还需要确保你的流程不会成为一个阻碍因素。
+> 如果你的开源流程无论是入站还是出站的贡献都过于繁琐，人们会尝试绕过这个流程，或者干脆认为贡献太困难。
+>
+> – Luke Faraone, Dropbox 软件工程师
 
-Once the problem-solving creation exists, focus can be placed on building community and contributions, instilling confidence for commercial adoption, and adherence to open source culture.
+* **平衡控制和开放性。**
+  许多用户更喜欢开源软件而不是专有软件，仅仅是因为专有软件通常带有成本和控制。
+  在围绕开源项目创建商业战略时，您必须平衡控制产品某些方面（例如，支持的程度），与开放性（例如是否提供免费的社区版，可以作为商业版的入口）。
+  此外，请记住，项目创始人在项目的控制方面随着时间的推移往往比起初时要少。
 
-### Building community/ growing contributions
+  > 随着开源项目的发展，你需要找到一种方式来建立一个信任的圈子，让你能够委托给其他人，相信他们能够做出决策。
+  > 这个转变是困难的。一开始，你有一个小项目，创始人对项目的所有事情都了如指掌，并且在某种程度上拥有完全的控制权。
+  > 然后，项目变成了社区驱动，没有一个单一的人或团队拥有完全的控制权。
+  >
+  > – Joe Beda, Kubernetes 联合创始人，Heptio 联合创始人兼首席技术官
+
+* **透明度。**
+  透明度的概念长期以来一直是开源文化的核心。毕竟，直接进入代码仓库不需要开放和透明吗？
+  然而，透明度对于大多数企业来说并不是一个核心原则。事实上，有些企业竭尽全力将内部信息和资产严格保密。
+  在制定基于开源的商业成功策略时，评估透明度的好处。许多人会欣赏以商业为导向的透明度，就像他们欣赏代码的透明度一样。
 
-To build a healthy community around an open source project, developer training and recruitment are key, as are [defining guidelines for inbound contributions](https://opensource.guide/how-to-contribute/), and disciplined development practices such as version management, build and test automation, documentation, on-ramps for contribution, and tracking issues and revisions.
-
-> You need to give people ways to get involved with your projects that don't require them to have a Ph.D. or to have been working in a similar area for 25 years. You need ways for them to get involved quickly. That means that you need really good setup documentation, and it also means having active and healthy forums and responsive maintainers.
-> – Ian Varley, Software Architect, SalesForce.
-
-The [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as TODO Group at The Linux Foundation have extensive experience with setting inbound contribution guidelines.
-
-Cloud Foundry’s [Code of Conduct](https://www.cloudfoundry.org/code-of-conduct/) provides a strong example of how you can set out official guidelines for community members to follow. It specifies how community members can report incidents, what constitutes unacceptable behavior, and much more.
-
-### Instill confidence for commercial adoption
-
-As an open source software project grows, [a study shows](http://www.ifosslr.org/ifosslr/article/view/64) it reaches an inflection point at which corporations want to participate, but aren’t necessarily comfortable with the intellectual property regime (or lack thereof) in the open source project. These practices help instill confidence in companies that may be hanging out on the fringes, waiting to commit to the project.
-
-* **IP and trademark management.** Open source licenses and policies, along with trademarks, can have a huge impact on whether a project achieves commercial adoption. There are many [free resources](https://www.linux.com/news/free-tools-driving-open-source-project-success) available for managing these.
-
-* **Independent governance.** For projects at a certain stage of growth, it becomes critically important to establish independent governance and neutral project assets. Remember that it is critical to involve people who are qualified to supply business and legal governance of projects as well as people who can supply technical governance. For example, a person with technical skills may have an understanding of Inbound Contribution Guidelines, while a person with business credentials might be qualified to set policies regarding trademarks.
-
-  > “In fostering a healthy commercial ecosystem, have a clear vision of how your project is governed, specifying what is and isn't a part of the particular project. Have a clear set of interfaces functioning as places where your commercial ecosystem can plug in, or attach to the project. As you start developing an ecosystem, you want companies to feel safe in the work that they are doing with you.
-  > – Sarah Novotny, FOSS strategy Azure
-
-* **Supported, secure, and reliable code and infrastructure.** How much benefit has Red Hat derived from offering hardened support for open source software? A huge amount. In addition to auditing your code for reliability and security, focus on offering support and leverage community support options such as forums. Many firms, such as Black Duck, also offer open source security and reliability audits.
-
-* PR and marketing support. Does your project have a blog and is there a plan surrounding it for marketing and public relations? Creating your own content around your project and complementing that effort with presentations at open source events as well as outreach to the media along with marketing can get your project talked about, and adopted. Many commercial open source projects experience conversion ratios (as measured by the percentage of downloaders who buy something) that are not high when compared to proprietary software products, so low-cost and very scalable marketing functions are key to profitability.
-
-* Create strong customer feedback loops. Ask successful business people how they view customers and they will say that the customer comes first. That’s a business tenet that may or may not be emphasized in a technical culture. Ensure that you offer direct ways to get customer feedback and encourage it. Forums can provide rich customer feedback. Answer customers across every channel you can, ranging from forums to telephone support.
-
-### Adherence to open source culture
-
-A downstream project with no ecosystem and community is not really leveraging the value of open source. An adherence to an open source culture is needed to succeed.
-
-  > One of the most important things when building an open source community is making sure that your own processes are open. The more transparent you can make your decision-making processes, the more of a sense of ownership your community will have. You also want to make sure that your process doesn't become a blocker. If your open source process for either inbound or outbound contributions is onerous, people will look to bypass the process or simply decide that contributing is too difficult.
-  > – Luke Faraone, Software Engineer, Dropbox
-
-* **Balance control and openness.** Open source software is widely preferred by many users over proprietary offerings simply because proprietary software has traditionally carried with it costs and controls. In creating a commercial strategy surrounding an open source project, you must balance the value of controlling certain aspects of your offering (for example, how much support comes with it), with openness (such as whether you offer a free community edition that can serve as an on-ramp to a commercial edition). Also, keep in mind that project founders can exert much less control over their project over time than they did at the start.
-
-  > As open source projects grow, you need to find a way to actually have a circle of trust that lets you delegate to other people, trusting them to make decisions. That ends up being a difficult transition. At first, you have a small project where the founders understand everything that's going on and have, to some degree, total control. Then, the project becomes community-driven and there's no single person or group that has total control.
-  > – Joe Beda, Co-Founder of Kubernetes, Co-Founder and CTO of Heptio
-
-* **Transparency.** The concept of transparency has long been central to open source culture. After all, doesn’t being able to dive directly into a code repository require openness and transparency? However, transparency is not necessarily a central tenet for most businesses. In fact, some businesses go to great lengths to keep internal information and assets strictly internal. Evaluate the benefits of transparency as you craft a strategy for commercial success based on open source. Many people will appreciate business-focused transparency just as they appreciate code transparency.
-
-  > There are open source projects where external contributions are welcome, but the road maps and the governance of the projects are very much in the hands of a single company. Then there is truly community-driven open source. Which kind of projects are you working with?
-  > – Joe Beda, Co-Founder Kubernetes, Co-Founder and CTO, Heptio
-
-* **Foundations.** Foundations have had an enormous impact on the world of open source in recent years. Your organization can benefit from working with foundations ranging from The Linux Foundation to the Apache Software Foundation, and you may benefit from launching an open source-focused foundation. Understanding the role of open source foundations in fostering sustainable open source projects, and considering when and how to involve them, will help set you up for success.
-
-  > Foundations provide a lot of value. Without them it has historically been hard for a lot of very critical projects to get the funding they need to be well maintained. They help ensure a level playing field and they provide mechanisms for organizations to give back to open source projects without contributing developers directly.
-  > — Luke Faraone, Software Engineer, Dropbox
-
-## How to build an open source ecosystem
-
-To build out open source ecosystems around your projects, you must focus on the following: governance; resources needed to use an OS project as a commercial dependency; tracking progress and making adjustments. Let’s look into each of these and the value they can bring to your commercial ecosystem strategy.
-
-### 1. Establish a healthy governance system
-
-It is essential to create a neutral structure that makes it easy for competitors to participate, and you should also consider whether external stakeholders should participate in the governance process. Your ecosystem is at its healthiest when governance is independent and receiving diverse contributions.
-
-If you oversee the technical governance of your project, you may be far less qualified to make decisions regarding support, trademarking, or licensing. Likewise, you must separate technical and financial decision-making. Some of the best technical advancements take place in environments where moonshots are encouraged. Encourage technical contributors to aim for moonshots, and separate decision-makers can evaluate whether they are financially feasible.
-
-> One of the things that we've tried to engender in the Kubernetes community is the idea of a project over people or company. What's good for the project is a separate question from what's good for the companies that are involved with the project. When you end up with open source projects that are too tightly tied to a single company, really sticky issues can arise.
-> – Joe Beda, Co-Founder of Kubernetes, and Co-Founder and CTO of Heptio
-
-### 2. Evaluate resources
-
-When partners or customers are deciding whether to utilize open source projects in their businesses, there are certain different resources they might evaluate or consider:
-
-* **Security policies:** Vulnerability management is a key concern customers or partners may have. You will need to ensure you have all the necessary infrastructure and a policy on [how to respond when vulnerabilities are found across both any commercial version or open source product](https://opensource.googleblog.com/2021/02/a-new-resource-for-coordinated-vulnerability-disclosure-in-open-source-projects.html). Open source cannot be second on security to paid customers, it is not a way to differentiate your commercial offering.
-
-* **Legal policies:** The costs for legal resources pertaining to open source projects can be high, but it is also worth keeping in mind that free legal resources exist. The Software Freedom Law Center (SFLC) has a set of very good online resources on how open source licenses and copyrights work, and much more. The SFLC authors are attorneys who were part of creating popular open source licenses and more. Don’t make the mistake of assuming that a free edition of a project needs no legal protections or forethought regarding licensing.
-
-* **Community management:** The community is often the strongest asset a successful open source project can have, and investing resources in growing a healthy community is a best practice. Often, an enthusiastic community grows from a beloved, free edition of a project, and therefore it is a mistake to invest only in community growth for a commercial edition.
-
-> Look at how your community is interacting with itself, how new leadership is being grown and mentored, and how any pain points are evolving. As an example, Kubernetes right now has a pain point of very long review times on pull requests, so we're getting started building out a mentoring program to help mentor new reviewers. Through the mentoring program, we'll be able to track measurements and ideally see a decrease in the amount of time the review process takes.
-> – Sarah Novotny, FOSS strategy at Azure
-
-* **Access to test infrastructure/environments:** Some open source applications require dedicated servers, specialist tools, automated quality control and/or security hardening. Dedicating resources to a paid and supported edition while starving resources for a free, community edition is a poor strategy, because free community editions often facilitate the first steps that potential customers will take. Ensure open source versions and any open source developers have access to the same tools, checks and automation that your staff developers or paid versions are run on. Parity across different versions and collaborators is key.
-
-* **Invest wisely in education:** open source education is critical to know where and how to interact with the open source ecosystem in a healthy way.
-
-  * Training – Education and training offerings serve a virtuous cycle, where trained users advance the cause of your open source inventions.
-
-  * Certifications – Certification programs help users advertise their skillsets surrounding your inventions and boost their market value and your market value. Remember that you don’t just have to certify people with skillsets, either. Consider The Linux Foundation’s Core Infrastructure Initiative (CII) Badge Program. It includes a Best Practices Badge that can showcase an open source project's commitment to security, fostering trust.
-
-  * Mentorships and internships – Through mentorships and internships, you can foster a wider knowledge base surrounding your open source offerings, and you can create opportunities.
-
-  * Hold events – An open source project has a great chance of growing its successful ecosystem if the whole community around it takes an active role. Events are fantastic ways to foster group participation.
-
-* **Give back:** There are substantial benefits to participating in the projects you use in your products and contributing upstream. If an open source project has made a positive difference for you and your organization, you can likely make a positive difference for it by contributing. This kind of give-and-take is an established practice throughout the open source arena. Just look at Red Hat and IBM, both of which are top contributors to Linux.
-
-### 3. Track progress and make adjustments
-
-Of course, your effort to create a healthy, commercial ecosystem around open source is a moving target. You must keep the people overseeing your governance structure involved, and keep your community providing feedback. “Listen, measure and adjust,” is good advice on this front. The members of your community can provide extraordinarily good feedback on how to make needed improvements and reach more people. Remember that each community is different.
-
-> Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy. You could have a very small project that is extraordinarily healthy because it has half a dozen core contributors and a dozen people who are active but not maintainers. There might be healthy discussions, and pull requests might be handled in a speedy manner, and that might be an incredibly healthy community even though it's not going to have a million stars or forks on GitHub.
-> – Sarah Novotny, Open Source Wonk, Azure Office of the CTO
-
-## Example: Google Open Source Office
-
-Many companies have built out successful open source program offices. The trend started in the technology industry as big players like IBM and Oracle realized that open source was seriously influencing the software ecosystem, but now companies of all stripes run open source programs. For example, Walmart Labs and Netflix have flourishing,[highly structured open source programs](https://www.linux.com/blog/learn/chapter/open-source-management/2017/5/enterprise-open-source-programs-concept-reality) and regularly contribute projects to the community. Open source programs are ubiquitous because open source is ubiquitous. In fact, according to the [Future of Open Source Survey](https://www.blackducksoftware.com/2016-future-of-open-source) from Black Duck and North Bridge, a mere three percent of respondents, most of them from enterprises, said they don't use any open source tools or platforms.
-
-Among open source programs, Google’s is perhaps the most widely imitated of all. Google releases a lot of open source contributions, and company leaders are very frank about saying that the company gets business benefits from the ensuing community participation. Just witness the momentum that Android and Kubernetes have gained through community development and contributions. [In a story on open source programs](https://opensource.com/business/16/9/google-open-source-program-office), John Mark Walker, the Director of Capital One's Open Source Program Office, noted the following:
-
-> Technology vendors have no choice—collaborate or die. They can willfully disregard trends as long as they want, but ultimately it's to their detriment. They would do well to borrow a few pages from Google and other [TODO Group](http://todogroup.org) participants and take a holistic approach to open source ecosystems: Which ones are of strategic importance, and how can participation help go to market more quickly with new products and services? And for an extra dash of magic, Google has shown that embracing a mission outside of a company's primary product focus yields results as well.
-
-That couldn’t be more true, and this advice extends beyond just technology vendors. All companies could learn valuable lessons from Google’s open source program. Recently, Google [launched a new home](https://opensource.google.com) for its open source projects, processes, and initiatives. The site runs deep and has several avenues that are worth observing for anyone who wants to create a commercial ecosystem around open source.
-
-The Google site features a directory of open source projects and a Community section that provides a good look at how training, events, and other efforts can harness energy from an open source community. However, the real crown jewel if you want to create a commercial ecosystem around open source projects is a section called [Docs](https://opensource.google.com/docs/), which is billed as “our internal documentation for how we do open source at Google." From open source contributors and developers to companies implementing open source programs, this section of Google’s site has a motherlode of tested and hardened information. There are three primary sections of Docs:
-
-* Creating covers how Google developers release code that they've written, either in the form of a new project or as a patch to an external project.
-* Using explains how Google brings open source code into the company and uses it. It delves into maintaining license compliance, and more.
-* Growing describes some of the programs Google runs inside and outside the company to support open source communities.
-
-According to Will Norris, former software engineer at Google's Open Source Programs Office: "These docs explain [the process we followed for releasing](https://opensource.google.com/docs/releasing/) new open-source projects, [submitting patches](https://opensource.google.com/docs/patching/) to others' projects, and [how we manage the open-source code that we bring into the company](https://opensource.google.com/docs/thirdparty/) and use ourselves. But in addition to the how, it outlines [why we do things the way we do, such as why we only use code under certain licenses](https://opensource.google.com/docs/using/license/) or why [we require contributor license agreements](https://opensource.google.com/docs/cla/policy/) for all patches we receive."
-
-> Google has released excellent open source process documentation, essentially laying out their internal policies and procedures. Their description of their internal ownership model is definitely instructive. I also highly recommend Karl Fogel's Producing Open-Source Software book, available online under a Creative Commons license.
-> – Luke Faraone, Software Engineer, Dropbox
-
-A close look at how Google’s Open Source Programs Office works show that the company places substantial emphasis on community diversity and diverse programs that advance its open source communities. The concept of community is very much worth focusing on as you seek to build a healthy commercial ecosystem around open source.
-
-> An open source project has the best chance of growing into a successful ecosystem if the entire community around it takes an active role. This includes everyone from code committers, users, documentation writers, software vendors, platform vendors, and integrators.
-> – Abby Kearns, Chief Technology Officer at Puppet
-
-### Acknowledgements
-
-Contributors to this guide:
+  > 有些开源项目欢迎外部贡献，但项目的路线图和治理在很大程度上掌握在一家公司手中。
+  > 然后还有真正以社区驱动的开源项目。你正在与哪种类型的项目合作？
+  >
+  > – Joe Beda, Kubernetes 联合创始人，Heptio 联合创始人兼首席技术官
+
+* **基金会。**
+  近年来，基金会对开源世界产生了巨大影响。
+  你的组织可以通过与从 Linux 基金会到 Apache 软件基金会等基金会合作，受益于基金会的工作，并可能受益于成立一个专注于开源的基金会。
+  了解开源基金会在促进可持续开源项目方面的作用，以及何时以及如何参与其中，将有助于为成功打下基础。
+
+  > 基金会提供了很多价值。没有它们，很多非常重要的项目历来很难获得它们需要的资金以进行良好的维护。
+  > 它们有助于确保公平竞争，并为组织提供了向开源项目回馈而不是直接贡献开发者的机制。
+  >
+  > — Luke Faraone, Dropbox 软件工程师
+
+## 如何构建开源生态体系
+
+要围绕你的项目构建开源生态体系，你必须关注以下几点：治理；
+将开源项目作为商业依赖所需的资源；跟踪进展并进行调整。
+让我们分别看看这些内容和它们对你的商业生态体系战略所带来的价值。
+
+### 1. 建立健康的治理体系
+
+创建一个中立的结构，使竞争对手易于参与，并考虑是否应该让外部利益相关者参与治理过程，这是至关重要的。
+当治理是独立的并接受多样化的贡献时，你的生态体系才能最健康。
+
+如果你负责项目的技术治理，那么在支持、商标管理或许可方面做决策时，你的资质很可能较低。
+同样，你必须分开技术决策和财务决策。一些最好的技术进展发生在鼓励大胆尝试的环境中。
+鼓励技术贡献者追求大胆的目标，而独立的决策者可以评估它们是否在财务上可行。
+
+> 我们在 Kubernetes 社区中尝试培养的一个最重要的思想是，项目优先于人或公司。
+> 对于项目来说什么是好的与参与项目的公司的利益无关。
+> 当你的开源项目与单一公司过于紧密地联系在一起时，可能会出现非常棘手的问题。
+>
+> – Joe Beda, Kubernetes 联合创始人，Heptio 联合创始人兼首席技术官
+
+### 2. 评估资源
+
+当合作伙伴或客户决定是否在他们的业务中使用开源项目时，他们可能会评估或考虑以下不同的资源：
+
+* **安全策略：** 漏洞管理是客户或合作伙伴可能关注的一个关键问题。
+  你需要确保具备所有必要的基础设施和一个政策，
+  以[应对商业版或开源产品中发现的漏洞](https://opensource.googleblog.com/2021/02/a-new-resource-for-coordinated-vulnerability-disclosure-in-open-source-projects.html)。
+  开源不能在安全性上次于付费客户，这不能成为区分你的商业产品的方式。
+
+* **法律政策：** 与开源项目相关的法律资源的成本可能很高，但也要记住存在免费的法律资源。
+  软件自由法律中心（SFLC）提供了一系列关于开源许可证和版权的很好的在线资源，还有更多。
+  SFLC 的作者是创建流行的开源许可证等的律师。不要错误地认为免费版项目不需要法律保护或关于许可方面的预先考虑。
+
+* **社区管理：** 社区往往是一个成功的开源项目最强大的资产，投入资源来建设一个健康的社区是一个最佳实践。
+  通常，一个充满热情的社区从一个受人喜爱的免费社区版项目中发展而来，因此，仅仅为商业版投资社区增长是一个错误的策略。
+
+> 看看你的社区是如何互动的，新的领导者是如何成长和指导的，痛点是如何演变的。
+> 例如，Kubernetes 目前的一个痛点是拉取请求的审核时间非常长，所以我们开始建立一个指导计划来帮助指导新的审阅者。
+> 通过指导计划，我们将能够跟踪测量，并希望看到审查过程所需的时间减少。
+>
+> – Sarah Novotny, Azure FOSS 战略部
+
+* **访问测试基础设施/环境：**
+  一些开源应用程序需要专用服务器、专业工具、自动化质量控制和/或安全加固。
+  在资源被用于付费和支持版本的同时剥夺免费的社区版本的资源是一个糟糕的策略，因为免费的社区版本通常为潜在客户的第一步提供了机会。
+  确保开源版本和任何开源开发人员都可以访问与你的员工开发人员或付费版本运行的相同工具、检查和自动化。不同版本和合作者之间的平等是关键。
+
+* **明智投资教育：** 对于健康的方式了解在开源生态体系中何时何地以及如何与之互动，开源教育至关重要。
+
+  * 培训 - 教育和培训提供了一个良性循环，受过培训的用户推动了你的开源创作的进展。
+
+  * 认证 - 认证计划帮助用户宣传他们在你的创作周围的技能，并提高他们的市场价值和你的市场价值。
+    记住，你不仅可以认证具有技能的人。考虑一下 Linux 基金会的核心基础设施倡议（CII）徽章计划。
+    其中包括一个最佳实践徽章，可以展示一个开源项目对安全性的承诺，建立信任。
+
+  * 导师制和实习计划 - 通过导师制和实习计划，你可以培养与你的开源产品相关的更广泛的知识库，并创造机会。
+
+  * 举办活动 - 如果整个社区都积极参与，那么一个开源项目在成功生态体系中增长的机会就很大。活动是促进群体参与的绝佳方式。
+
+* **回馈：** 参与你在产品中使用的项目并向上游贡献的好处是巨大的。
+  如果一个开源项目对你和你的组织产生了积极影响，你可能也可以通过贡献对其产生积极影响。
+  这种给予和接受是开源领域的一种实践。只需看看 Red Hat 和 IBM，它们都是 Linux 的主要贡献者。
+
+### 3. 跟踪进展并进行调整
+
+当然，你在开源周围建立一个健康的商业生态体系的努力是一个不断变化的目标。
+你必须让负责治理结构的人参与进来，并让你的社区提供反馈。
+“倾听、衡量和调整”是在这方面的一个很好的建议。
+你的社区成员可以就如何进行必要的改进和吸引更多人提供非常好的反馈。
+请记住，每个社区都是不同的。
+
+> 为你与之合作的每个社区找到适当的度量标准。
+> 我倾向于根据特定社区的痛点找到一些度量标准，并努力改变这些度量标准以取得更好的效果。
+> 没有一个神奇的评估方法，如果你查看六个度量标准，从拉取请求到贡献者数量，你会突然宣布你的社区和生态体系是健康的。
+> 你可能有一个非常小的项目，但它非常健康，因为它有六个核心贡献者和十几个活跃但不是维护者的人。
+> 可能有很好的讨论，并且拉取请求可能会迅速处理，这可能是一个非常健康的社区，即使它在GitHub上没有一百万个星星或分支。
+>
+> – Sarah Novotny, Azure CTO 办公室的开源专家
+
+## 示例：Google 开源办公室
+
+许多公司已经建立了成功的开源项目办公室。
+这种趋势始于技术行业，因为 IBM 和 Oracle 等大公司意识到开源严重影响了软件生态体系，但现在，各行各业的公司都在运行开源项目。
+例如，Walmart Labs 和 Netflix 拥有蓬勃发展、[高度结构化的开源计划](https://www.linux.com/blog/learn/chapter/open-source-management/2017/5/enterprise-open-source-programs-concept-reality)，
+并定期向社区贡献项目。开源项目办公室无处不在，因为开源无处不在。事实上，根据 Black Duck 和 North Bridge 的
+[Future of Open Source Survey](https://www.blackducksoftware.com/2016-future-of-open-source)，
+仅有三个百分点的受访者（其中大多数来自企业）表示他们不使用任何开源工具或平台。
+
+在开源项目中，Google 的开源项目办公室也许是最被广泛模仿的。
+Google 发布了大量的开源贡献，并且公司领导人非常坦率地表示，公司从随之而来的社区参与中获得了商业利益。
+只需看看 Android 和 Kubernetes 通过社区开发和贡献获得的势头。
+[在一篇关于开源计划的文章中](https://opensource.com/business/16/9/google-open-source-program-office)，
+Capital One 的开源项目办公室主任 John Mark Walker 指出：
+
+> 技术供应商别无选择——合作还是退出。
+> 他们可以自愿忽视趋势，但最终会对他们不利。
+> 他们最好从 Google 和其他 [TODO Group](http://todogroup.org) 的参与者那里借鉴一些方法，
+> 以及采取一种全面的开源生态体系方法：哪些项目具有战略重要性，参与如何帮助更快地推出新产品和服务？
+> 而且对于额外的魔力，Google 还显示出接受公司主要产品关注之外的使命也会产生结果。
+
+这一点再真实不过了，这些建议不仅适用于技术供应商，所有公司都可以从 Google 的开源项目中学到宝贵的经验。
+最近，Google 为其开源项目、流程和倡议[推出了一个新的主页](https://opensource.google.com)。
+这个网站非常详尽，并提供了几个途径，对于任何想在开源项目周围创建商业生态体系的人来说都值得关注。
+
+Google 的网站提供了一个开源项目目录和一个社区部分，很好地展示了培训、活动和其他努力如何从开源社区中获得能量。
+然而，如果你想围绕开源项目创建一个商业生态体系，最重要的是[写好文档](https://opensource.google.com/docs/)，
+这被称为“我们在 Google 内部如何处理开源事项的文档”。
+从开源贡献者和开发人员到实施开源项目的公司，Google 网站上有一大堆经过测试和验证的文档。文档要包含三个部分：
+
+* 创建部分介绍了 Googl e开发人员如何发布他们编写的代码，无论是以新项目的形式还是作为对外部项目的补丁。
+* 使用部分解释了 Google 如何将开源代码引入公司并使用它。它深入探讨了维护许可合规性等内容。
+* 成长部分描述了 Google 在公司内外运行的一些支持开源社区的计划。
+
+根据 Google 开源项目办公室的前软件工程师 Will Norris 的说法：
+“这些文档解释了[我们发布新的开源项目的过程](https://opensource.google.com/docs/releasing/)，
+[提交补丁](https://opensource.google.com/docs/patching/)给其他项目的过程，
+以及[我们如何管理引入公司内部的开源代码](https://opensource.google.com/docs/thirdparty/)。
+除了如何做的过程，它还概述了[为什么要以这种方式做事，比如为什么我们只使用特定许可证的代码](https://opensource.google.com/docs/using/license/)，
+或者[为什么我们要求所有收到的补丁都需要贡献者许可协议](https://opensource.google.com/docs/cla/policy/)。”
+
+> Google 发布了优秀的开源流程文档，实际上是在阐述他们的内部政策和程序。
+> 他们关于内部所有权模型的描述绝对是有指导意义的。
+> 我也非常推荐在网上以 Creative Commons 许可证发布的 Karl Fogel 编写的《Producing Open-Source Software》一书。
+>
+> – Luke Faraone, Dropbox 软件工程师
+
+深入了解 Google 的开源项目办公室的工作方式表明，该公司非常注重社区多样性和推进其开源社区的各种多样化计划。
+关注社区的概念在你努力构建一个围绕开源的健康商业生态体系时是非常值得关注的。
+
+> 一个开源项目只有整个社区都积极参与，它才有最好的机会变成一个成功的生态体系。
+> 这包括代码提交者、用户、文档编写者、软件供应商、平台供应商和集成商等每个人。
+>
+> – Abby Kearns, Puppet 首席技术官
+
+### 致谢
+
+感谢本书的各位贡献者：
 
 * Craig Northway
 * Ana Jimenez

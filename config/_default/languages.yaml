@@ -187,6 +187,10 @@ ja:
       name: "ガイド"
       url: "/guides/"
       weight: 1
+    - identifier: "faq"
+      name: "よくある質問"
+      url: "/faqs/"
+      weight: 2
 zh-cn:
   languageName: 简体中文
   contentDir: content/zh-CN

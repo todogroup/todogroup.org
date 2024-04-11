@@ -9,7 +9,7 @@ TODO Group collaborates with open source projects and foundations to host in-per
 
 Currently, we operate in two distinct formats: large global OSPO events under the OSPOCon brand, and regionally-focused micro-conferences under the OSPOlogyLive brand.
 
-{{< cards count=2 >}}
+{{< cards count=3 >}}
 {{< card >}}
 ## OSPOCon
 The global in-person & virtual conferences co-located at LF OSSummit related to open source
@@ -22,6 +22,12 @@ management and strategy for organizations with OSPOs as the vehicle to make open
 A 2 day micro-conference of expert-led panel discussions and roundtable sessions to gain insights into the latest trends and challenges related to open source for organizations across European countries.
 {{< spacer >}}
 [OSPOlogyLive Frankfurt](https://community.linuxfoundation.org/events/details/lfhq-ospology-european-chapter-presents-ospologylive-frankfurt/)
+{{< /card >}}
+{{< card >}}
+## OSPO Local Meetups
+Regular hybrid or in-person meetings organized by TODO Ambassadors. Active chapters include: China, Japan, Finland and LATAM (Colombia and México)
+{{< spacer >}}
+[Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) / [China](https://community.linuxfoundation.org/ospo-local-meetup-china-zh-cn-speaking/) / [Finland](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) / [LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/)
 {{< /card >}}
 {{< /cards >}}
 

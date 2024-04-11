@@ -11,7 +11,7 @@ noindex: true
 * これらの基準の達成と維持を容易にするツールと測定方法
 * これらの基準の一部あるいはすべてを満たすコミュニティのプロジェクトとイニシアチブのディレクトリ
 
-TODOのリソースは、誰にでも公開されており、Creative Commons Attribution 4.0 International Licence (non-code contirbutions) あるいは Apache License, Version 2.0 (code contirbutions) に基づいて [TODO Group GitHub repo](https://github.com/todogroup) で利用できます。私達は、人々が知識を共有し、次のような様々な TODO イニシアチブに貢献することで、このコミュニティの成長に貢献することを奨励します。
+TODOのリソースは、誰にでも公開されており、Creative Commons Attribution 4.0 International Licence (non-code contirbutions) あるいは Apache License, Version 2.0 (code contirbutions)に基づいて[TODO Group GitHub repo](https://github.com/todogroup)で利用できます。私達は、人々が知識を共有し、次のような様々なTODOイニシアチブに貢献することで、このコミュニティの成長に貢献することを奨励します。
 
 * [OSPOlogy Panel Discussions](https://github.com/todogroup/ospology/tree/main/meetings)
 * [OSPO Book](https://github.com/todogroup/ospology/tree/main/ospo-book)

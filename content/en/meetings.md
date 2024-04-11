@@ -98,4 +98,4 @@ There are currently three (3) active working groups and one (1) in a maintenance
 
 🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
 
-{{< todo_community_calendar >}}
+{{< todo_community_calendars >}}

@@ -18,24 +18,29 @@ There are two kinds of Touchpoints every month, with content being cross-shared 
 
 ### Next Thursday Touchpoint
 
-#### ⭐️ Security Management, OSPO functions in AI and more ⭐️ 
+#### ⭐️ Open Source Software Composition Analysis Tools, OSPO functions in AI and more ⭐️ 
 
-- 📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
-- 🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Georg Kunz (Ericsson), Lumi (Aiven)
-- 👩‍💻 Link to the call: Check our public calendar [here](https://todogroup.org/community/meetings/#calendar) or scroll down 👇
+- 📆 Date: April, Thursday 25th - 2:00 to 3:00 pm CEST
+- 🙋‍♀️ Guests: Mirko (LF Europe), (SCANOSS), Lumi (Aiven)
   
 📝 [Agenda](https://github.com/todogroup/ospology/discussions/443)
 
 - Updates on EU Policies by LF Europe
-- Q&A Session: Deep Dive on Security management with OpenSSF
-- Q&A Session: Aligning OSPO Functions with Emerging Needs in AI and Security 
+- Q&A Session: TBD
+- Q&A Session:TBD
 - TODO Group Open Work Hours!
 
 
 ### Next Friday Touchpoint
 
-📆 Date: April, Friday 12 - 5:30 to 6:30 pm CET
+#### ⭐️ OSPO metrics tooling, InnerSource integration and more ⭐️
 
+📆 Date: April, Friday 12 - 5:30 to 6:30 pm CET
+📝 [Agenda](https://github.com/todogroup/ospology/discussions/464)
+
+### Past Meeting Notes - Touchpoint calls
+
+- [2024 notes](https://github.com/todogroup/ospology/discussions?discussions_q=is%3Aopen+label%3A%22Meeting+Notes%22)
 
 ### Past Recordings - OSPOlogy Webinars 2023 and 2022 
 
@@ -101,7 +106,7 @@ There are currently three (3) active working groups and one (1) in a maintenance
 
 ## Other Calendars of Interest
 
-TODO is one of the pillars of the 'open source management and operations best practices' ecosystem at the Linux Foundation. We work with sister projects like SPDX (Software Bill Of Material automation tooling and best practices), OpenSSF (Security best practices, training and tools), OpenChain (Process Management Standards) and CHAOSS (Project / Community health and sustainability metrics) to help drive forward business management of open source. For more info, visit the [LF Management & Best Practices Portal](https://www.linuxfoundation.org/projects/management) is where communities of “Best Practice” converge. 
+TODO is one of the pillars of the *open source management and operations best practices* ecosystem at the Linux Foundation. We work with sister projects like SPDX (Software Bill Of Material automation tooling and best practices), OpenSSF (Security best practices, training and tools), OpenChain (Process Management Standards), FINOS (best practices for financial services) and CHAOSS (Project / Community health and sustainability metrics). For more info, visit the [LF Management & Best Practices Portal](https://www.linuxfoundation.org/projects/management), where communities of *Best Practice* converge. 
 
 Bellow, people can find the OpenSSF, OpenChain, and CHAOSS Calendars
 

@@ -97,5 +97,12 @@ There are currently three (3) active working groups and one (1) in a maintenance
 📨 Have an event to add? Email info@todogroup.org.
 
 🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
+{{< todo_community_calendar >}}
+
+## Other Calendars of Interest
+
+TODO is one of the pillars of the 'open source management and operations best practices' ecosystem at the Linux Foundation. We work with sister projects like SPDX (Software Bill Of Material automation tooling and best practices), OpenSSF (Security best practices, training and tools), OpenChain (Process Management Standards) and CHAOSS (Project / Community health and sustainability metrics) to help drive forward business management of open source. For more info, visit the [LF Management & Best Practices Portal](https://www.linuxfoundation.org/projects/management) is where communities of “Best Practice” converge. 
+
+Bellow, people can find the OpenSSF, OpenChain, and CHAOSS Calendars
 
 {{< todo_community_calendars >}}

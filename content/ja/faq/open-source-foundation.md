@@ -1,5 +1,5 @@
 ---
-title: TODOグループは新しいオープンソース財団ですか?
+title: TODOグループは新しいオープンソース財団ですか？
 weight: 110
 noindex: true
 ---

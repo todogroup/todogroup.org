@@ -1,7 +1,7 @@
 ---
-title: 参加している組織はどれですか？
+title: どのような組織が参加していますか？
 weight: 30
 noindex: true
 ---
 
-[一般メンバーのリスト](/about/members) と [OSPOアソシエイト](/about/associates/) をご覧ください。
+[Members](/about/members)と[Associates](/about/associates/)の完全なリストをご覧ください。

@@ -5,22 +5,62 @@ url: "/community/meetings/"
 
 ## Learning Space
 
-* **OSPOlogy Panel Disucssions:** [Global Community Meetings](https://github.com/todogroup/ospology/tree/main/meetings#ospology-monthly-meetings)
+Touchpoint meetings serve as a vendor-neutral space to discuss day-to-day challenges and develop best practices for people managing open source operations and strategy (AKA Open Source Program Offices) to integrate into the organization's overall infrastructure. We invite guests to deliver a brief presentation, followed by a Q&A session. Guests include:
+
+- Representatives from open source projects and initiatives: including independent maintainers, core contributors and project managers
+- Representatives from Foundations: including General managers, CTOs, and community managers from small to large ecosystems like the Cloud Native Computing Foundation, Open Source Security Foundation, OpenChain, InnerSource Commons, LF Energy, CHAOSS, LF AI & Data Foundation, and more
+- Organization's stakeholders: including C-level managers like CTOs
+- Members of an OSPO: including open source ambassadors, developer relations professionals, project managers or directors
+
+This collective effort help people to articulate the value of the OSPO work and gather insights to better integrate open source into the organization's infrastructure, worker's culture and operations.
+
+There are two kinds of Touchpoints every month, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules.
+
+### Next Thursday Touchpoint
+
+#### ⭐️ Security Management, OSPO functions in AI and more ⭐️ 
+
+- 📆 Date: March, Thursday 28th - 2:00 to 3:00 pm CET
+- 🙋‍♀️ Guests: Mirko (LF Europe), Dana Wang (OpenSSF), Georg Kunz (Ericsson), Lumi (Aiven)
+- 👩‍💻 Link to the call: Check our public calendar [here](https://todogroup.org/community/meetings/#calendar) or scroll down 👇
+  
+📝 [Agenda](https://github.com/todogroup/ospology/discussions/443)
+
+- Updates on EU Policies by LF Europe
+- Q&A Session: Deep Dive on Security management with OpenSSF
+- Q&A Session: Aligning OSPO Functions with Emerging Needs in AI and Security 
+- TODO Group Open Work Hours!
+
+
+### Next Friday Touchpoint
+
+📆 Date: April, Friday 12 - 5:30 to 6:30 pm CET
+
+
+### Past Recordings - OSPOlogy Webinars 2023 and 2022 
+
+- [🏛 OSPOs & Transition Paths for Regulated Environments](https://youtu.be/2QopYZbo3EQ?si=QH_W6OezScIj3Uh7)
+- [🌻 OSPOs Fostering FOSS Sustainability Through Collaborative Funding](https://youtu.be/BgLfrEg9A8o?si=SvbKNwFNDrZMqAf0)
+- [⚠️ Layoffs and Hiring Freezes in OSPOs: Challenges and Open Issues](https://youtu.be/XuPqvqWgD_A?si=cvqrGLsahT-KDMgH)
+- [🏛 A Legal Guide to Open Works in Public Administration from Xunta de Galicia OSPO](https://youtu.be/sXw9kGVitZk?si=L-itD9lW8gsOKv0o)
+- [🧩 Lessons Learned from Ant Group OSPO](https://youtu.be/RuiRYmm2q7E?si=HBDQajKNqDMcTaOP)
+- [🧩 How organizations manage change for open source adoption with OSPOs](https://youtu.be/ZO4Zz-aLVVQ?si=Nx1l_jD9Q-jQWPoE)
+- [OSPOlogy 2022 List](https://www.youtube.com/playlist?list=PLiBMylMTGpOKGo7I5Uh5f3XZLt41VllS5)
+
     * Submit a [CFP](https://github.com/todogroup/ospology/issues/new/choose)
-* **OSPOlogy Europe Sync:** [Regional Calls](https://github.com/todogroup/ospology#todo-eu-chapter-sync-meetings-monthly) part of TODO Europe Chapter
 
 {{< spacer 40 >}}
 
 ## Contributor Space
 
-There are currently 3 active working groups on concrete areas of focus:
+There are currently three (3) active working groups and one (1) in a maintenance phase on concrete areas of focus:
 
-### Employee Engagement Guide
+### Employee Engagement Guide - Maintenance Phase
 
 * Strategic Goals: Define a set of principles on how OSPO teams can provide guidance on how to participate in open source communities; Publish the *Employee OS Engagement* Guide in 2023
 * [Meeting Notes archive](https://docs.google.com/document/d/1BGytvxaTn1R503ntlpeAylNkVLZ79rQ_PI87UHt7b1E/edit)
 * Communication Channel: TODO Slack #wg-employee-engagement-guide channel
-* [Working repo]()https://github.com/todogroup/todogroup.org/pull/384
+* [Working repo](https://github.com/todogroup/todogroup.org/blob/main/content/en/guides/employee-engagement.md)
 * Moderated by: Alyssa, Cornelius and Josep
 
 ### CHAOSS OSPO Metrics - Lead by CHAOSS

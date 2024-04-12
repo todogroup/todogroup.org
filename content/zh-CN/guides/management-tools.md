@@ -1,5 +1,5 @@
 ---
-title: Tools for managing open source programs
+title: 管理开源项目的工具
 ---
 
 The road to strategic use of open source starts with a carefully planned, organized, and empowered open source program office to guide and manage its creation, distribution, and use. But, that’s just a first step. To get such an office underway and running smoothly, you need the right tools. These mission-critical tools will be used to track goals and metrics in departments from engineering and legal to executive leadership, PR and marketing to HR, and give each of these functions all the resources they need to gather data, provide snapshots of performance, and manage the daily use of open source within your company.
@@ -10,12 +10,25 @@ This guide provides details and scenarios for how to get your open source tool c
 
 - [Why you need special tools for open source program management](#why-you-need-special-tools-for-open-source-program-management)
 - [How to select and plan your tools](#how-to-select-and-plan-your-tools)
+  - [Leverage existing tools](#leverage-existing-tools)
+  - [Create a dashboard](#create-a-dashboard)
 - [Elements of a basic toolset](#elements-of-a-basic-toolset)
+  - [Automate processes](#automate-processes)
+  - [Manage critical tasks](#manage-critical-tasks)
+  - [Source code management](#source-code-management)
+  - [License compliance](#license-compliance)
 - [Tools for managing source code](#tools-for-managing-source-code)
+  - [Bug and issue tracking](#bug-and-issue-tracking)
+  - [Archiving and release management](#archiving-and-release-management)
 - [Tools for tracking project health](#tools-for-tracking-project-health)
+  - [For better code reviews:](#for-better-code-reviews)
+  - [For Contributor License Agreements](#for-contributor-license-agreements)
+  - [GitHub Management at Corporate Scale](#github-management-at-corporate-scale)
+  - [Project Quality](#project-quality)
 - [Tools for communications and collaboration](#tools-for-communications-and-collaboration)
 - [Tools for corporate-scale GitHub management](#tools-for-corporate-scale-github-management)
 - [Final words](#final-words)
+- [Acknowledgements](#acknowledgements)
 
 ## Why you need special tools for open source program management
 

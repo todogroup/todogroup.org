@@ -131,7 +131,7 @@ en:
       post: "Engage with the community via TODO chat, forum, and mailing list"
       parent: "community"
     - identifier: "virtual-meetings"
-      name: "Virtual Meetings"
+      name: "Meetings and Calendar"
       url: "/community/meetings/"
       weight: 3
       post: "Join OSPOlogy monthly webinars and working group meetings"

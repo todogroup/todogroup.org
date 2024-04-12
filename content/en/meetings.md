@@ -49,10 +49,10 @@ There are currently three (3) active working groups on concrete areas of focus:
 | | [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | OpenChain AI Compliance | 
 | --- | --- | --- | --- |
 | Scope |Build a body of knowledge to better understand the role of OSPOs, and share guides and best practices for effectively establishing and managing open source operations | Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs | Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain |
-| Meeting Notes | <a href="https://lists.todogroup.org/g/WG-ospo-book-project/messages">Notes</a> | <a href="https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing">Notes</a>| <a href="https://lists.openchainproject.org/g/ai/messages">Notes</a> |
-| Working Repo | <a href="https://github.com/todogroup/ospology/tree/main/ospo-book">Working repo</a> | <a href="https://github.com/chaoss/wg-ospo">Working repo</a> | Na| 
-| Communication Channels | <a href="https://lists.todogroup.org/g/WG-ospo-book-project">Mailing List</a> | TODO Slack `#wg-ospometrics-chaoss`| <a href="https://lists.openchainproject.org/g/ai">Mailing List</a> |
-| Moderators & Chairs | <a href="https://github.com/todogroup/ospology/tree/main/ospo-book#%EF%B8%8F-project-teams">Chairs</a> | Matt and Gary | Shane |
+| Meeting Notes | [Notes](https://lists.todogroup.org/g/WG-ospo-book-project/messages) | [Notes](https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing)| [Notes](https://lists.openchainproject.org/g/ai/messages) |
+| Working Repo | [Working repo](https://github.com/todogroup/ospology/tree/main/ospo-book) | [Working repo](https://github.com/chaoss/wg-osp) | Na | 
+| Communication Channels | [Mailing List](https://lists.todogroup.org/g/WG-ospo-book-project) | TODO Slack `#wg-ospometrics-chaoss`| [Mailing List](https://lists.openchainproject.org/g/a) |
+| Moderators & Chairs | [Chairs](https://github.com/todogroup/ospology/tree/main/ospo-book#%EF%B8%8F-project-team) | Matt and Gary | Shane |
 
 {{< spacer 40 >}}
 

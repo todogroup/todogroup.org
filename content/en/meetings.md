@@ -57,7 +57,6 @@ There are currently three (3) active working groups on concrete areas of focus:
 {{< spacer 40 >}}
 
 ## Calendar
-### Using Coordinated Universal Time (UTC) 
 
 📅 [Public link](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com&ctz=Europe%2FMadrid) to this calendar
 

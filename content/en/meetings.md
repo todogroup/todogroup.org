@@ -16,27 +16,13 @@ This collective effort help people to articulate the value of the OSPO work and 
 
 There are two kinds of Touchpoints every month, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules.
 
-### Next Thursday Touchpoint
-
-#### ⭐️ Open Source Software Composition Analysis Tools, OSPO functions in AI and more ⭐️ 
-
-- 📆 Date: April, Thursday 25th - 2:00 to 3:00 pm CEST
-- 🙋‍♀️ Guests: Mirko (LF Europe), (SCANOSS), Lumi (Aiven)
-  
-📝 [Agenda](https://github.com/todogroup/ospology/discussions/443)
-
-- Updates on EU Policies by LF Europe
-- Q&A Session: TBD
-- Q&A Session:TBD
-- TODO Group Open Work Hours!
-
-
-### Next Friday Touchpoint
-
-#### ⭐️ OSPO metrics tooling, InnerSource integration and more ⭐️
-
-📆 Date: April, Friday 12 - 5:30 to 6:30 pm CET
-📝 [Agenda](https://github.com/todogroup/ospology/discussions/464)
+|  | Next Thursday Touchpoint| Next Friday Touchpoint|
+| --- | --- | --- |
+| Theme ⭐️ | Open Source Software Composition Analysis Tools, OSPO functions in AI and more | OSPO metrics tooling, InnerSource integration and more | 
+| Date 📆 | April, Thursday 25th - 2:00 to 3:00 pm CEST | April, Friday 12 - 5:30 to 6:30 pm CEST | 
+| Guests 🙋‍♀️ | Mirko (LF Europe), (SCANOSS), Lumi (Aiven) | | 
+| Agenda 📝 |[Thursday Agenda](https://github.com/todogroup/ospology/discussions/443) | [Friday Agenda](https://github.com/todogroup/ospology/discussions/464) | 
+| Attendees 👩‍💻| Broader OSPO / TODO Community and General Members | General Members |
 
 ### Past Meeting Notes - Touchpoint calls
 
@@ -58,48 +44,20 @@ There are two kinds of Touchpoints every month, with content being cross-shared 
 
 ## Contributor Space
 
-There are currently three (3) active working groups and one (1) in a maintenance phase on concrete areas of focus:
+There are currently three (3) active working groups on concrete areas of focus:
 
-### Employee Engagement Guide - Maintenance Phase
-
-* Strategic Goals: Define a set of principles on how OSPO teams can provide guidance on how to participate in open source communities; Publish the *Employee OS Engagement* Guide in 2023
-* [Meeting Notes archive](https://docs.google.com/document/d/1BGytvxaTn1R503ntlpeAylNkVLZ79rQ_PI87UHt7b1E/edit)
-* Communication Channel: TODO Slack #wg-employee-engagement-guide channel
-* [Working repo](https://github.com/todogroup/todogroup.org/blob/main/content/en/guides/employee-engagement.md)
-* Moderated by: Alyssa, Cornelius and Josep
-
-### CHAOSS OSPO Metrics - Lead by CHAOSS
-
-* Strategic Goals: Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs
-* [Meeting Notes archive](https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing)
-* Communication Channel: TODO Slack #wg-employee-engagement-guide channel
-* [Working repo](https://github.com/chaoss/wg-ospo) 
-* Moderated by: Matt and Ana 
-
-### OSPO Career Path & Training
-
-* Strategic Goals: Build an OSPO Career Path composed by different modules on open source strategy, project governance, compliance and community engagement from beginner to advanced.
-* [Meeting Notes archive](https://lists.todogroup.org/g/WG-ospo-career-path/messages)
-* Communication Channels: [Mailing List](https://lists.todogroup.org/g/WG-ospo-career-path) and TODO Slack #wg-ecareer-path channel
-* [Working repo](https://github.com/todogroup/ospo-career-path)
-* Moderated by: Ana
-
-### OpenChain AI Compliance - Lead by OpenChain
-
-* Strategic Goals: Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain
-* [Meeting Notes archive](https://lists.openchainproject.org/g/ai/messages)
-* Communication Channels: [Mailing List](https://lists.openchainproject.org/g/ai)
-* Moderated by: Shane
+| [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | OpenChain AI Compliance | 
+| --- | --- | --- |
+| <ul><li>Scope: Build a body of knowledge to better understand the role of OSPOs, and share guides and best practices for effectively establishing and managing open source operations</li><li><a href="https://lists.todogroup.org/g/WG-ospo-book-project/messages">Meeting Notes archive</a></li><li>Communication Channels: <a href="https://lists.todogroup.org/g/WG-ospo-book-project">Mailing List</a> and TODO Slack #project-ospobook channel</li><li><a href="https://github.com/todogroup/ospology/tree/main/ospo-book">Working repo</a></li><li>Moderated by: <a href="https://github.com/todogroup/ospology/tree/main/ospo-book#%EF%B8%8F-project-teams">Chairs</a></li></ul>| <ul><li>Scope: Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs</li><li><a href="https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing">Meeting Notes archive</a></li><li>Communication Channel: TODO Slack #wg-employee-engagement-guide channel</li><li><a href="https://github.com/chaoss/wg-ospo">Working repo</a></li><li>Moderated by: Matt and Gary</li></ul>| <ul><li>Scope: Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain</li><li><a href="https://lists.openchainproject.org/g/ai/messages">Meeting Notes archive</a></li><li>Communication Channels: <a href="https://lists.openchainproject.org/g/ai">Mailing List</a></li><li>Moderated by: Shane</li></ul> |
 
 {{< spacer 40 >}}
 
 ## Calendar
+### Using Coordinated Universal Time (UTC) 
 
 📅 [Public link](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com&ctz=Europe%2FMadrid) to this calendar
 
 📥 Get this calendar in [iCal](https://calendar.google.com/calendar/ical/c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com/public/basic.ics) format
-
-📨 Have an event to add? Email info@todogroup.org.
 
 🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
 {{< todo_community_calendar >}}

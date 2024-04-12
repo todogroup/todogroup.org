@@ -46,9 +46,13 @@ There are two kinds of Touchpoints every month, with content being cross-shared 
 
 There are currently three (3) active working groups on concrete areas of focus:
 
-| [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | OpenChain AI Compliance | 
-| --- | --- | --- |
-| <ul><li>Scope: Build a body of knowledge to better understand the role of OSPOs, and share guides and best practices for effectively establishing and managing open source operations</li><li><a href="https://lists.todogroup.org/g/WG-ospo-book-project/messages">Meeting Notes archive</a></li><li>Communication Channels: <a href="https://lists.todogroup.org/g/WG-ospo-book-project">Mailing List</a> and TODO Slack #project-ospobook channel</li><li><a href="https://github.com/todogroup/ospology/tree/main/ospo-book">Working repo</a></li><li>Moderated by: <a href="https://github.com/todogroup/ospology/tree/main/ospo-book#%EF%B8%8F-project-teams">Chairs</a></li></ul>| <ul><li>Scope: Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs</li><li><a href="https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing">Meeting Notes archive</a></li><li>Communication Channel: TODO Slack #wg-employee-engagement-guide channel</li><li><a href="https://github.com/chaoss/wg-ospo">Working repo</a></li><li>Moderated by: Matt and Gary</li></ul>| <ul><li>Scope: Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain</li><li><a href="https://lists.openchainproject.org/g/ai/messages">Meeting Notes archive</a></li><li>Communication Channels: <a href="https://lists.openchainproject.org/g/ai">Mailing List</a></li><li>Moderated by: Shane</li></ul> |
+| | [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | OpenChain AI Compliance | 
+| --- | --- | --- | --- |
+| Scope |Build a body of knowledge to better understand the role of OSPOs, and share guides and best practices for effectively establishing and managing open source operations | Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs | Open discussions about AI compliance programs and ways to build trust in the open source AI supply chain |
+| Meeting Notes | <a href="https://lists.todogroup.org/g/WG-ospo-book-project/messages">Notes</a> | <a href="https://docs.google.com/document/d/1Bf6a1Ywi4m0Ywo4vuBBp3Q9_AA_QKbWf99WxAqRbpMw/edit?usp=sharing">Notes</a>| <a href="https://lists.openchainproject.org/g/ai/messages">Notes</a> |
+| Working Repo | <a href="https://github.com/todogroup/ospology/tree/main/ospo-book">Working repo</a> | <a href="https://github.com/chaoss/wg-ospo">Working repo</a> | Na| 
+| Communication Channels | <a href="https://lists.todogroup.org/g/WG-ospo-book-project">Mailing List</a> | TODO Slack `#wg-ospometrics-chaoss`| <a href="https://lists.openchainproject.org/g/ai">Mailing List</a> |
+| Moderators & Chairs | <a href="https://github.com/todogroup/ospology/tree/main/ospo-book#%EF%B8%8F-project-teams">Chairs</a> | Matt and Gary | Shane |
 
 {{< spacer 40 >}}
 

@@ -1,6 +1,6 @@
 ---
 title: よくある質問
-url: "/faqs/"
+url: "/ja/faqs/"
 ---
 
 {{< intro >}}

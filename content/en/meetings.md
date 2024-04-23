@@ -20,8 +20,8 @@ There are two kinds of Touchpoints every month, with content being cross-shared 
 | --- | --- | --- |
 | Theme ⭐️ | Open Source Software Composition Analysis Tools, OSPO functions in AI and more | OSPO metrics tooling, InnerSource integration and more | 
 | Date 📆 | April, Thursday 25th - 2:00 to 3:00 pm CEST | April, Friday 12 - 5:30 to 6:30 pm CEST | 
-| Guests 🙋‍♀️ | Mirko (LF Europe), (SCANOSS), Lumi (Aiven) | | 
-| Agenda 📝 |[Thursday Agenda](https://github.com/todogroup/ospology/discussions/443) | [Friday Agenda](https://github.com/todogroup/ospology/discussions/464) | 
+| Guests 🙋‍♀️ | Mirko (LF Europe), Julian (SCANOSS), Lumi | | 
+| Agenda 📝 |[Thursday Agenda](https://github.com/todogroup/ospology/discussions/466) | [Friday Agenda](https://github.com/todogroup/ospology/discussions/464) | 
 | Attendees 👩‍💻| Broader OSPO / TODO Community and General Members | General Members |
 
 ### Past Meeting Notes - Touchpoint calls

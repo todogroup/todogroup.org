@@ -193,18 +193,25 @@ Virtual events incur costs too and organizers must decide whether to pay them or
 线上开源活动同样会产生成本，组织者必须决定是否自行承担成本，还是寻求其他经费来源。考虑到开源活动和会议经历了长时间的空白期，当前赞助商和开源招聘者中存在因为被切断与开源社区联系而带来的积压需求。寻找一种方式让赞助商参与到线上活动，有助于恢复开源协作关系的运转。
 
 **Code of conduct**
+**行为准则**
 
 It comes as no surprise to anyone that a code of conduct is just as imperative for online behavior as it is in real world events. However, your current standby code of conduct may need some revamping to ensure all the virtual bases are covered. Be sure to comb through it carefully before deeming it the official rule of the venue.
+人们不会惊讶于线上活动的行为准则和现实世界活动一样重要。然而，你现有的行为准则可能需要一些修订，以确保覆盖所有的线上活动场景，在确认它成为活动场所的正式行为准则前，一定要仔细检查。
 
 *"It's not just about having the code of conduct, it's about knowing how to actually execute on it,"* said Brown.
+*“这不仅仅是拥有行为准则，更是如何真正执行这些准则”*，Brown说。
 
 **Diversity**
+**多样性**
 
 Diversity outreach is important in efforts aimed at building broader interest and participation in open source and open source projects, and to increase event attendance.
+拓展多样性是构建开源项目更广泛的利益方和参与者的重要环节，也能提升开源活动的参与人数。
 
 *"Tech has a representation problem, period. And Open Source requires someone to have volunteer time, basically to contribute. That is sort of the proxy for privilege. So we end up with Open Source having an even bigger diversity in representation problem than tech itself does,"* Simmons said.
+*“科技行业毋庸置疑有从业者代表性问题。而开源领域需要有人自愿花时间，基本上是只做贡献，这个迫切的是开源领域特权的体现。所以我们认为开源比起科技行业有更迫切的多样化代表性问题”*， Simmons说。
 
 *"We have to do a lot to intentionally overcome that. We proactively look for speakers with name recognition but also if the speaker can be a woman, great. If it can be person of color, all the better. If they can be a gender minority, fantastic. We're trying to both tap into people with name recognition as well as people who can be role models,"* added Simmons.
+*“我们必需有意识地做很多工作来克服这个问题。我们积极寻找有知名度的演讲者，但如果演讲者是女性，那非常好。如果是有色人种，那就更好。如果是性别少数群体，那就太棒了。我们在努力吸引知名人士以及可以成为榜样的人物”*，Simmons补充到。
 
 
 

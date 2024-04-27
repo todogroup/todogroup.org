@@ -240,26 +240,34 @@ For example, if Salesforce aims for 40 people to volunteer at this event and 50 
 例如，Saleforce计划需要40位志愿者参加开源活动，有50位员工报名，那么就能知道开源活动的兴趣度很高。但若只有15位员工报名，*”那么开源活动的规划可能未到最佳，或者我们没有正确地宣传推广，我们会相应调整其策略和规划。通过度量指标可以帮助我们发现最佳的开源活动主题“,* Arvin说。
 
 Comcast uses polls to narrow their event topics.
-Comcast公司使用问卷调查来收窄其开源活动主题。
+Comcast公司使用投票来收窄其开源活动主题。
 
 Saebi says she reaches out to the community with a quick survey or a poll in the Slack channel to ask, *"’Hey, we're thinking about doing a conference. What topics are exciting to you? And then do you also have any speakers that you'd like to recommend?’ All they have to do is choose their top topics from our list."*
+Saebi说她会用Slack channel里面的快速调查或投票来访谈开源社区，*“你好，我们想组织一次会议，什么话题会让你感到兴奋，有没推荐的演讲者”，被访谈者需要做的是从我们的主题列表里选择他们最关注的那些*。
 
 Do not be afraid to consider a target audience as an event theme too. A lot of mutual good can come from helping different groups find opportunities and overcome challenges in open source.
+不要害怕把目标参与者作为活动主题。在开源世界帮助不同群体发现机遇和克服挑战，会带来参与者和开源世界的相互收益。
 
 *"We have events that focus on our employee resource group. Examples include a project for the LGBT community, one for women in technology, and another called BOLDforce for our Black, African American community. People are really excited and waiting for these events,"* said Arvin.
+*“我们举办过聚焦内部员工群体的开源活动。其他例子包括面向LGBT社区、科技行业的女性群体、美国黑人社区的BOLDforce活动等。人们对这些活动非常兴奋和充满期待”*，Arvin说。
 
 Ultimately, the event’s topic or theme is its purpose. Therefore, is must be highly focused and clearly articulated.
+归根到底，开源活动的主题就是其目标，需要高度聚焦和清晰表达。
 
 *"Most recently we've been focusing on events aimed at building our internal open source community,"* said Simmons.
+*“最近我们聚焦在构建内部开源社区的系列活动”*，Simmons说。
 
 ## Choosing a venue
 ## 选择开源活动场所
 
 Choosing a venue has always been largely driven by strategy than exotic locales.
+选择开源活动场地更多是由活动策略决定，而不是异域风情的地点。
 
 *"The Linux Foundation gets a ton of requests to hold events in India, in Africa in different countries in South America, a lot of emerging countries where there's a lot of potential for future open-sourced community members,"* said Brown.
+*“Linux基金会收到很多来自印度、非洲、南美洲不同国家的开源活动举办请求，这些新兴国家有很大的未来开源社区拓展可能性”*，Brown说。
 
 *"But there's the economics of it to consider too. Events are not cheap to hold and we can't be everywhere. But we don't want to limit the opportunities or potential from these emerging areas or other areas that we simply can't be in. So we think that virtual events gives us an opportunity to reach a larger, more diverse audience around the world, which is huge,"* Brown explained.
+*“但是我们也需要考虑经济因素。举办活动并不便宜，我们不能在每个地方都举办活动。但我们也不想限制这些新兴地区或者我们无法到达地区的机会和潜力。所以，我们认为线上活动给了我们一个机会，让我们能够接触到世界各地更广泛更多元的受众，这是非常重要的优势”*，Brown解释到。
 
 Because of the global pandemic, many event organizers are having to pivot from physical conferences and events to virtual ones. However, an eventual return to events in the physical world are also in the plans, as are budding ideas for hybrid events that blend virtual and physical activities.
 

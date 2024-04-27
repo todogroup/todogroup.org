@@ -208,7 +208,7 @@ Diversity outreach is important in efforts aimed at building broader interest an
 拓展多样性是构建开源项目更广泛的利益方和参与者的重要环节，也能提升开源活动的参与人数。
 
 *"Tech has a representation problem, period. And Open Source requires someone to have volunteer time, basically to contribute. That is sort of the proxy for privilege. So we end up with Open Source having an even bigger diversity in representation problem than tech itself does,"* Simmons said.
-*“科技行业毋庸置疑有从业者代表性问题。而开源领域需要有人自愿花时间，基本上是只做贡献，这个迫切的是开源领域特权的体现。所以我们认为开源比起科技行业有更迫切的多样化代表性问题”*， Simmons说。
+*“科技行业毋庸置疑有从业者代表性问题。而开源领域需要有人自愿花时间，基本上是只做贡献，这个是开源领域特权的体现。所以我们认为开源比起科技行业有更迫切的多样化代表性问题”*， Simmons说。
 
 *"We have to do a lot to intentionally overcome that. We proactively look for speakers with name recognition but also if the speaker can be a woman, great. If it can be person of color, all the better. If they can be a gender minority, fantastic. We're trying to both tap into people with name recognition as well as people who can be role models,"* added Simmons.
 *“我们必需有意识地做很多工作来克服这个问题。我们积极寻找有知名度的演讲者，但如果演讲者是女性，那非常好。如果是有色人种，那就更好。如果是性别少数群体，那就太棒了。我们在努力吸引知名人士以及可以成为榜样的人物”*，Simmons补充到。
@@ -219,20 +219,28 @@ Diversity outreach is important in efforts aimed at building broader interest an
 ## 找到开源活动主题或焦点
 
 The first step is to determine the theme or focus of the event as that will guide everything that follows in event planning.
+开源活动的第一步是决定其主题或焦点，这会引导后续的全部规划。
 
 *"At the core, you have to decide what the purpose is of the event and who you plan on being there. That will in turn define where the event should be, what kind of venue it should be in, what the setup should be, and how you are going to market it,"* said Brown.
+*“究其核心，你需要决定开源活动的目标和计划参加的人员，这会反过来影响会议地点和场所的选择，场所的布置，以及你如何进行营销推广”*，Brown说。
 
 Theme and expected attendee size affect the event’s setting and tone. There are events where the purpose is to include and attract more people. Conversely, there are some events where the headcount does not matter, for example, a hackfest or a technical forum. *"At that point, it is really about creating an environment where people can come and all they have to focus on is getting the work done that they came to accomplish with other people. And hopefully having a good time while they are doing it,"* Brown added.
+开源活动的主题和预期的参与者规模，会影响活动的设置和基调。有些活动的目的是容纳和吸引更多的人。相反，有些活动并不关注人数，例如黑客马拉松或技术论坛。*“在那种情况下，真正重要的是创造一个环境，人们可以来到这里，他们唯一需要关注的是与其他参与者一起完成工作，也希望他们在过程中享受愉快时光”*，Brown补充说。
 
 However, deciding the purpose of the event can be a tough call. Gauging topic interests can be measured in several ways, but it still may come down to an educated guess. 
+然而，确定开源活动的目标是一个困难的事情。评估开源话题的兴趣度有好几种方式，但需要有根据的猜测。
 
 Among other things, Salesforce uses its Volunteer Time Off (VTO) program, which is an internal program focused on giving back to the open source community, to judge event interest.
+此外，Saleforce使用志愿者休假（VTO, Volunteer Time Off）的回馈开源社区内部方案，来度量开源活动的兴趣度。
 
 *"So much of this is trial and error. Like all Open Source program offices, we are trying to figure this out. We also try to tie it to exact metrics such as the number of volunteer hours we get. Just to see if this is something that is of interest to people,"* said Alyssa Arvin, Senior Program Manager, Open Source at Salesforce.
+*“该方案大部分是用于试错，和所有OSPO开源办公室一样，我们在努力找到解决方案。我们也尝试使用志愿工作小时数作为精准指标，度量人们参与开源活动的兴趣度”*，Saleforce开源项目高级经理Alyssa Arvin说。
 
 For example, if Salesforce aims for 40 people to volunteer at this event and 50 employees sign up, they know interest in the event is high. However, if only 15 employees volunteered then *"okay, this might not be the best event. Or maybe we weren't marketing it correctly. So we adjust our event strategy and plan too. Having metrics helps us find a hit topic or theme for the event,"* said Arvin.
+例如，Saleforce计划需要40位志愿者参加开源活动，有50位员工报名，那么就能知道开源活动的兴趣度很高。但若只有15位员工报名，*”那么开源活动的规划可能未到最佳，或者我们没有正确地宣传推广，我们会相应调整其策略和规划。通过度量指标可以帮助我们发现最佳的开源活动主题“,* Arvin说。
 
 Comcast uses polls to narrow their event topics.
+Comcast公司使用问卷调查来收窄其开源活动主题。
 
 Saebi says she reaches out to the community with a quick survey or a poll in the Slack channel to ask, *"’Hey, we're thinking about doing a conference. What topics are exciting to you? And then do you also have any speakers that you'd like to recommend?’ All they have to do is choose their top topics from our list."*
 

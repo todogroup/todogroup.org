@@ -270,26 +270,37 @@ Choosing a venue has always been largely driven by strategy than exotic locales.
 *“但是我们也需要考虑经济因素。举办活动并不便宜，我们不能在每个地方都举办活动。但我们也不想限制这些新兴地区或者我们无法到达地区的机会和潜力。所以，我们认为线上活动给了我们一个机会，让我们能够接触到世界各地更广泛更多元的受众，这是非常重要的优势”*，Brown解释到。
 
 Because of the global pandemic, many event organizers are having to pivot from physical conferences and events to virtual ones. However, an eventual return to events in the physical world are also in the plans, as are budding ideas for hybrid events that blend virtual and physical activities.
+由于全球疫情的影响，许多开源活动组织者不得不从线下会议和活动转向线上形式。然而，未来最终回归实体世界举办活动也在计划之中，与此同时将虚拟与实体活动相结合的混合型活动理念也正在萌生中。
 
 *"Which format to choose depends on the open source project goals. Virtual events can be very valuable in reaching new geographies and transitioning to a virtual only connection is more seamless than with physical events. So in the future there will be a combination of both formats"* said Terasaki.
+*“采用哪种开源活动形式取决于其目标。线上活动在拓展新的地理区域时非常有价值，与线下活动相比，过渡到完全的线下活动可以更无缝。所以，未来的开源活动会是线上线下两种形式的结合。”*，Terasaki说。
 
 Sometimes the budget or other factors dictate the venue options.
+有时预算或其他因素决定了开源活动场地的选择。
 
 "Sometimes if budgets are looking good for the year, for this year, for example, with pandemic, probably not, everything's going to be virtual, but for previous years, we've done internal events even externally at nice little venues. It just depends on the event and it could be an internal venue as well," said Saebi.
+“有时候，若一年的开源活动预算良好，不过今年由于疫情原因预算不足导致所有活动都使用线上方式，但疫情前的年份，我们甚至会把内部活动放到舒适的外部场所举办。这取决于活动的具体情况，也可能在内部场所举行”， Saebi说。
 
 There are distinct pros and cons for each venue.
+线上和线下的开源活动各自有优缺点。
 
 For example, "virtual events open up more opportunities for people who have geographic restrictions or economic challenges to participate in physical events. We saw people from 82 countries attend a recent virtual event. This is roughly 50% more countries represented than in-person events," said Terasaki.
+例如，“线上开源活动相比线下活动，为地理或经济情况限制的人们提供了更多机会。我们最近的一次线上活动，参加者来自82个国家，差不多比面对面的线下活动多了50%。”， Terasaki说。
 
 Comcast has also seen greater attendance at virtual events.
+Comcast公司的线上开源活动也有更多的参与者。
 
 *"We did a talk on InnerSource internally and it went really well. We had, I think, 170 people show up, which is great. It's more than what we would have had in person,"* said Saebi.
+*“我们举办了一次内部开源的对谈活动，非常成功。我认为有170人参加，这太好了。这比我们线下活动的参加人数更多。”*，Saebi说。
 
 *"We're testing, experimenting, and learning. We have been breaking it up because people are getting Zoom exhaustion and conference call exhaustion and video chat exhaustion. We're trying to avoid doing the traditional eight-hour days. We're breaking it up and starting small, but so far so good."*
+*”我们正在测试、试验和学习。我们对开源活动进行拆分，因为人们已经对Zoom会议、电话会议和视频聊天感到疲惫不堪。我们正努力避免进行传统的八小时全天会议，而是将其拆分成更小的部分，从简短的会议开始，目前来看效果还不错“*。
 
 Google also found shorter formats work better in virtual events.
+谷歌公司也发现线上开源活动短时长的形式效果更佳。
 
 *"At small online developer events, past experience taught us that we lose approximately 30% of the audience every 60 min. Getting attention from the audience for a longer period of time at virtual events tends to be difficult. Shorter format is usually preferable. Look at[ Flutter Day 2020 playlist](https://www.youtube.com/watch?v=9dEQSyfcBYs&list=PLjxrf2q8roU1rBlI9vz01K2324nzIhYgp) to see some examples of short presentations showcased during an event,"* said Cruz.
+*“就小型的开发者在线开源活动来说，我们以往的经验是每过60分钟就会减少30%的参与者。在长时间的线上活动中保持参与者的关注度是一个困难的事情。可以参考[Flutter Day 2020 playlist](https://www.youtube.com/watch?v=9dEQSyfcBYs&list=PLjxrf2q8roU1rBlI9vz01K2324nzIhYgp)开源活动上的短时长演讲案例”*， Cruz说。
 
 Physical venues are a different arrangement entirely. There are different venues around the world for different types and sizes of meetings. But the building isn’t the only consideration.
 

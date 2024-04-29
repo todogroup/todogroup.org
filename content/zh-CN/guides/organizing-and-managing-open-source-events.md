@@ -303,12 +303,16 @@ Google also found shorter formats work better in virtual events.
 *“就小型的开发者在线开源活动来说，我们以往的经验是每过60分钟就会减少30%的参与者。在长时间的线上活动中保持参与者的关注度是一个困难的事情。可以参考[Flutter Day 2020 playlist](https://www.youtube.com/watch?v=9dEQSyfcBYs&list=PLjxrf2q8roU1rBlI9vz01K2324nzIhYgp)开源活动上的短时长演讲案例”*， Cruz说。
 
 Physical venues are a different arrangement entirely. There are different venues around the world for different types and sizes of meetings. But the building isn’t the only consideration.
+线下实体场所是完全不同的另一种形式。全球的开源活动会议会有不同的场所类型和规模，但场所建筑本身不是唯一的考虑。
 
 *"Reliable Wi-Fi is critical. We use our own network company now that we bring with us. But even today, most of the Wi-Fi and internet in venues is actually run by the companies that traditionally do not understand the bandwidth drain that our community will take, or the fact that they're going to be walking around with three different devices on them that are all pulling from the bandwidth at the same time,"* said Brown.
+*“可靠的WiFi很重要。我们会带上和使用自己的网络服务商。但就算在今天，大多数开源活动场所的互联网WiFi的服务商，它们不了解我们开源社区对网络带宽的需求，以及社区人员的上网场景，他们会带着三个同时上网的不同设备，在会议场所到处走动。”*， Brown说。
 
 The Wi-Fi issue is easy to miss on the planning end and hard to ignore at the event.
+WiFi问题是开源活动规划时很容易被忽视，但活动举行时很难不被关注的问题。
 
 *"The venue tells you everything is fine, and they can totally support 100 people. But you really want to be looking at 3 times that. Again, it depends on what the people are going to be doing at the event but whatever that is, there's a lot of bandwidth drain,"* Brown added.
+*“会议场所人员告诉你说一起都已完备，可以承载百人规模。但你会考虑3倍的网络负载。再说明一次，这取决于活动参与人员会做什么，不管怎样都会涉及很大的网络负载”*， Brown补充到。
 
 
 ## Organizing the event

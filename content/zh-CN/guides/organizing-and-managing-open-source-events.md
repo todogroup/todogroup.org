@@ -320,40 +320,52 @@ WiFi问题是开源活动规划时很容易被忽视，但活动举行时很难�
  
 
 An open source event succeeds or fails on details. Organizing every element, no matter how small, is thereby crucial, no matter what the venue is. Most successful event organizers have a plan or a checklist they follow to make sure details are not overlooked.
+开源活动的成败在于细节。规划好每个活动元素，无论多细微也好，是重要的工作，和线上线下活动的场所无关。大多数成功的开源活动组织者会有一个他们遵循的活动计划或检测清单，确保不会遗漏细节事项。
 
 Salesforce works with a template they call a program plan wherein the company identifies the overarching goals and maps out specific paths. The questions asked internally to flesh out the planning include:
+Saleforce采用一种称为“项目计划”的模板来进行工作，在这个模板中，公司会确定总体目标并规划出具体路径。为了充实计划内容，内部会提出以下的问题：
 
 * Who are we going to engage with?
+* 我们要让谁参与 ？
 
 * How is it going to be publicized?
+* 如何公布开源活动？
 
 * What is our follow-up strategy?
+* 后续的跟进策略是什么？
 
 * What is our pre-event strategy?
+* 开源活动事前的策略是什么？
 
 * What metrics do we need to use? The number of attendee or engagement levels on social media, something else?
+* 我们需要哪些开源活动指标？参与者人数、参与者在社交媒体的级别、还是其他别的指标？
 
 Below are tips for planning details you may want to add to your own event planner, or use to build one.
+以下是开源活动规划细节的建议，你可以用来规划或实施你的开源活动。
 
 **Selecting a date**
+**选择开源活动日期**
 
 Both internal and external events can easily overlap with other events which will negatively affect your event’s success. Selecting a date to enhance your odds for success is therefore of prime importance.
+内外部的开源活动活动都可能与其他事件时间上冲突，会对你的活动成功产生负面影响。因此，选择一个有利于成功的日期至关重要。
 
 *"We have an open source events calendar in our organization that our team manages and updates. All the big open source conferences are on the calendar, and others too, because you don’t want there to be a scheduling  conflict with your event, but neither do you want to burn people out by stacking conferences too close together,"* said Saebi.
-
+*“我们内部有一个由我们团队管理和更新的开源活动日历。所有大型的开源会议都会记录在这个日历上，以及其他一些活动，这样做的目的是为了避免你的活动与其他活动在时间上冲突，同时也不想因为会议安排过于密集使参与者感到疲惫。”*， Saebi说。
  
 
 *"I try to schedule our conferences in a slower month and in the middle of the week so people are home and free to enjoy their weekends,"* she added.
-
+*“我尽量把会议安排在较轻松的月份和周中举办，让参与者可以在家里享受他们的周末时间”*， 她补充到。
  
 
 Watch out for overlaps with local events unrelated to open source too, as well as for local occurrences ranging from planned strikes and protests to holiday observances.
-
+另也需要关注开源活动和本地非开源相关活动的可能冲突，例如本地的罢工、游行和节假日庆祝等。
  
 
 *"If you plan an event in Germany, for example, and it's a national holiday, even if all of your attendees are coming from outside of Germany and have no problem going to the event on that day, it's going to be very difficult to get the support from the local venue and vendors that you need, or all the restaurants might be closed, or taxis might not be running, etc,"* warned Brown.
+*“举个例子，你规划了在德国举办一个开源活动并碰上国家节日，就算活动参与者全部来自德国以外并且在当天正常到达会场，会碰到诸多难题包括无法获得会场和活动供应商的服务、餐厅全部关门、出租车停止服务等等”*， Brown警告说。
 
 You may think virtual events would be exempt from such concerns, but they aren’t. Holiday observances can still affect attendance and the availability of vendor support in everything from technical support to the mailing of welcome gifts or other swag.
+你可能觉得线上活动会避开这些问题，但并非如此。节假日的庆祝仍然会影响活动参与情况，影响从技术支持到邮寄会议周边礼物等供应商服务。
 
  
 

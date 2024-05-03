@@ -544,53 +544,60 @@ Just be careful to think your choices through to avoid pitfalls. For example, do
  
 
 "One time, I got the speakers really nice gift baskets which included mugs and fruit and all kinds of nice goodies. But the speakers couldn’t fit those in their carry-ons. I felt so bad. So, if you're buying a gift for people who are traveling, make sure that it's something they can travel with," said Saebi.
-
+“有一次，我为演讲者准备了一个非常好的礼品包，里面有马克杯、水果和很不错的美食。但演讲者没法把礼品包塞进旅行行李。我感到非常遗憾。所以，如果你要为旅行的人们准备礼物，要确保这些礼物是可以在旅途中携带。”， Saebi说。
  
 
 Think back to swag and gifts you’ve received or seen at other conferences. That’s likely to help you come up with good ideas for yours.
-
+回想一下你曾经收到过或见过的会议周边和礼物，这会帮助你想出好主意。
  
 
 For example, Saebi says that one of the best gifts she received at a conference, she’s still using today. *"I've been using it through the quarantine as well, it was from the Linux Foundation for the Open Source Summit, North America. I want to say either, I think Los Angeles maybe, or maybe Vancouver, but it's a cutting board that looks like a surfboard. It's amazing. So yeah, I think personalized gifts like that are really nice,"* she said.
-
+例如，Saebi说她收到过的最好礼物，直到现在还在使用。*“我在疫情期间都在使用它，它是来自Linux基金会北美开源峰会的礼物，我记得可能在洛杉矶或温哥华，它是一个像冲浪板的砧板。非常棒。所以，我觉得个性化的礼物是很不错的主意。”*，她说。
  
 
 Before shopping for gifts, make sure to make a list of everyone who should receive something, and then buy a few extras for volunteers who join last minute or people you may have initially overlooked, like moderators or an emcee.
-
+采购礼物之前，需要准备一个所有接受礼物的人员的名单，然后再增补一些给坚持到最后的志愿者，或你可能开始时忘记的人们，例如主持人或协调人等。
  
 
 Recognitions can take the form of gifts or public shoutouts. Often, organizers choose to do both.
-
+开源活动的表彰可以采用礼物或公众宣传的形式，组织者通常会两个都使用。
  
 
 *"I usually do include recognitions in the beginning and at the end of the event. But those should be personalized too. For example, some people are shy and they don't like public attention. So I don't say, "Hey, stand up, wave your hands." Some of them would say they hate that experience. And so, I think just calling their name out is good enough,"* said Saebi.  
-
+*“我通常会在活动的开始和结束时进行表彰。但这些表彰也应该是个性化的。例如，有些人很害羞，他们不喜欢公众场合被关注。所以我不会说，'嘿，站起来，挥挥你的手。'有些人会说他们讨厌那样的经历。所以，我认为只是叫出他们的名字就足够好了。”*， Saebi说。
  
 
 Often volunteer are given matching tee- shirts with the event logo on them if it's a big external event. Stickers, even general open source stickers, are a big hit with volunteers and attendees. Both stickers and tee shirts are often on a table for the taking by attendees and volunteers, so you may want to add something a little extra just for volunteers.
-
+通常，如果是大型的外部活动，志愿者会被给予印有活动logo的配套T恤。贴纸，即使是通用的开源贴纸，都非常受志愿者和与会者的欢迎。贴纸和T恤往往会摆放在桌子上，让与会者和志愿者自由取用，所以你可能会希望为志愿者额外添加一些礼物。
  
 
 And, it’s perfectly ok to regift swag too. After all, spreading the word of other conferences, communities and projects is entirely the point of stickers and swag, so feel free to spread it around.
-
+另外，再次使用周边礼物是非常可行的。贴纸和周边礼物的目的就是为了推广其他开源会议、社区和项目。所以，请自由分发它们。
  
 
 *"I always take other swag as well from other open source conferences, especially for our internal events because not everybody has the opportunity to go to let's say Open Source Summit, North America. So in that case, Nithya, myself, and members of our team, we always have extra swag and extra stickers to offer later,"* said Shilla Saebi.
-
+*“我总是从其他开源会议那里获取一些周边礼物，特别是对于我们的内部活动，因为并不是每个人都有机会去参加例如北美开源峰会这样的活动。所以在这种情况下，Nithya，我以及我们团队的成员总是有额外的周边礼物和贴纸可以后续提供。”*， Shilla Saebi说。
 
 **Registration**
+**活动注册**
 
 Registration fees continue to be a vexing issue.
+活动注册费始终是一个麻烦的问题。
 
 *"Most of our events have been free. We may have done one where it was external facing and we charged a small fee and we noticed that it was harder to get people to register. But charging a fee helps reduce no shows so it’s a difficult decision,"* said Saebi.
+*“我们的大多数活动都是免费的。我们可能做过一次面向外部的活动，我们收取了少量费用，我们注意到这个更难让人们注册。但是收费有助于减少未出席的情况，所以这是一个困难的决定。”*， Saebi说。
 
 Comparing your event with similar events is often a good way to measure market expectation and response.
+把你的开源活动与类似的活动做比对，这常常是一个度量市场期望和市场反应的好方法。
 
 *"We very much look at what everyone else is charging. Like most folks who are planning open-source events, we’re trying to cover the cost of the event rather than make money on it,"* said Brown.
+*“我们非常关注其他人的收费情况。和大多数开会活动规划者一样，我们只是想收回活动成本而不是从中获利”*， Brown说。
 
 While traditional tech events charge up to $4,000 or even more for people to attend an event, open source events rarely command similarly high fees.
+虽然传统的技术活动会向参会者收取多达4000美元的会费，开源活动极少会收取高额费用。
 
 *"In the US, companies understand the value of a developer going to a conference, so they often fund several conferences throughout the year. But there are still a lot of countries where that's not true and developers have to foot the bill on their own,"* said Brown.
+*“”在美国，企业认可开发者参加会议的价值，企业会资助一年内几个会议的费用。但始终有很多国家不是如此，开发者需要自行支付会议费用。*， Brown说。
 
 *"China and Japan are both great examples where we simply can't charge the same registration fees there. We have to be very careful where we hold events because developers do not get travel budgets to go to events. They barely get any money to go to attend an event or a registration fee. You really have to think about what that local market will actually bear too,"* said Brown.
 

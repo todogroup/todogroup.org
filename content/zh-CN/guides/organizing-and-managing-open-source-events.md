@@ -600,67 +600,88 @@ While traditional tech events charge up to $4,000 or even more for people to att
 *“”在美国，企业认可开发者参加会议的价值，企业会资助一年内几个会议的费用。但始终有很多国家不是如此，开发者需要自行支付会议费用。*， Brown说。
 
 *"China and Japan are both great examples where we simply can't charge the same registration fees there. We have to be very careful where we hold events because developers do not get travel budgets to go to events. They barely get any money to go to attend an event or a registration fee. You really have to think about what that local market will actually bear too,"* said Brown.
+*“中国和日本都是很好的例子，我们无法在那里收取相同的注册费。我们必须非常小心地选择举办活动的地方，因为开发者并没有去参加活动的旅行预算。他们几乎没有任何钱去参加一个开源活动或支付注册费。你真的必须考虑到当地市场究竟能承受多少。”*， Brown说。
 
 Economic cycles also affect what can be charged for registration and sponsorships. There are other considerations to how to handle registrations as well, such as GDPR and privacy policies. Compliance with the various privacy regulations must be maintained in the registration process and everything that occurs afterward.
+经济周期也影响了注册和赞助所能收取的费用。关于如何处理注册，还有其他的考虑因素，比如GDPR和隐私政策。在注册过程和后续发生的所有事情中，都必须遵守各种隐私规定。
 
 *"You really want to be careful of that in your registration. Let people know you're going to be sharing their contact information, because you're legally obligated to do so. It is important to get the right verbiage in there, especially if you're going to have sponsors that you're giving any information to,"* said Brown.
+*“在你的注册流程中，你真的要小心这一点。让人们知道你将分享他们的联系信息，因为你有法律义务这样做。将正确的服务协议写入其中是非常重要的，尤其是当你有赞助商并会向它们提供任何信息。”*， Brown说。
 
 Be sure to print any materials you’ll need from marketing and directional signage to banners and attendee handouts a month or more ahead of the event. Typically, attendee materials, including event stickers, are distributed at registration.
+确保在活动开始前一个月或更早就打印出你需要的任何材料，从营销、会场方向指引、会场横幅到参与者手册。通常，包括活动贴纸在内的参与者材料，会在注册时发放。
 
 *"We put stickers on all the tables that people are sitting at, stickers for the actual event,"* said Saebi. *“Make sure to get the pronouns of your speakers. And ideally you should perhaps even ask for pronouns when people are checking in to the conference. If you have pronoun stickers like she, her, they, them, that'll be nice to add on the sticker table as well.”*
+*"我们在所有人们坐的桌子上贴上了贴纸，这些贴纸是为实际活动制作的，"Saebi说。"确保获取你的演讲者的称谓词。理想情况下，你甚至应该在人们签到参加会议时询问称谓词。如果你有她，她，他们，他们这样的代词贴纸，那么在贴纸桌上添加这些会很好。"*
 
 Registration desks also have swag readily available as well as name tags, lanyards and other event items. These can also be used in virtual events in various ways from standard pics or avatars, to a variety of gamification options.
-
+登记台上还准备好了周边礼品，以及姓名卡片、挂绳和其他活动物品。类似这样的各种方式也可以使用在线上活动，从标准照片或虚拟头像，到各种游戏化选项。
 
 **Hashtags**
-
+**社交话题标签**
 
 Social media is as strong as ever in promoting and recording events. A well-chosen hashtag is therefore essential to your efforts.
-
+社交媒体一直以来是推广记录开源活动的强有力手段。因此一个精心选取的社交话题标签对你的工作很重要。
  
 
 Typically, hashtags are set up prior to the event and generally plastered everywhere during the event.
-
+典型情况下，社交话题标签要早于开源活动之前就设计好，并在活动期间尽量到处张贴展示。
  
 
 *"The hashtag is really helpful because if I have a unique hashtag on Twitter for a certain event, I can actually go back and look at all the tweets from three years ago or two years ago from that event. And you can keep that same hashtag going for future events, or however you want to do it. But it's nice and useful thing to have,"* said Saebi.
-
+*“社交话题标签真的很有帮助，因为如果我在Twitter上为某个特定的活动设定了一个独一无二的话题标签，我实际上可以回去查看该活动三年前或两年前的所有推文。你也可以将同一个话题标签用于未来的活动，或者按你想要的任何方式去使用。拥有社交话题标签是很好也是有用的。”*， Saebi说。
  
 
 *"And it gives people a platform or idea or an area to go. I know a lot of people congregate on Twitter. I also make sure to tell the speakers to put their Twitter handles on their slides. They don't have to, it's just a suggestion in case people want to reach out to them,"* Saebi added.
+*“社交媒体给了人们一个可以使用的平台、想法和交流的地方。我知道很多人会聚在Twitter上。我也会确保告诉演讲者将他们的Twitter账号放在他们的幻灯片上。他们不必一定要这样做，只是一个建议，以便人们想要联系他们”*， Saebi补充到。
 
 **Side events and break planning**
+**附加活动和休息间歇规划**
 
 It’s general knowledge that neither speakers nor attendees are keen on early morning events and talks. What may not be so generally known is that fact holds true for virtual events as well. People may be attending from home, but their early mornings tend to be a bit frantic, especially if there are kids to get to school and pets to walk.
+通常而言，演讲者和参与者都不怎么喜欢早晨的活动和讲座。可能并不是每个人都知道，这同样适用于线上活动。人们可能是在家里参加活动，但他们的早晨往往会有些紧张，特别是如果有需要送去学校的孩子或需要遛的宠物。
 
 *"Now I start at 9:30 AM or 10:00 AM, and then we leave 30 minutes or an hour in the morning for people to congregate and eat breakfast. I think 9:00 AM start time may work as well. But I usually do 9:30 or 10. Considering that we do after events too at physical events, it can be really exhausting on people to be on for 12 or 14 hours that day,"* said Saebi.
+*“我现在通常会在9:30或10:00开始开源活动，在早晨留下30分钟或一个小时让人们聚集并吃早餐。我想9:00的开始时间可能也是可以的。但是我通常是9:30或者10点开始。考虑到我们在线下实体活动结束后还有会后活动，让人们在那一天工作12或14小时会非常疲惫。”*， Saebi说。
 
 Don’t drag the day on too long for virtual events either.
+不要把线上活动的时长也拉得太长。
 
 *"It's one thing to get someone to attend a virtual event, but what's your dwell time going to be? How long is someone going to stick around? That's the big question that we are trying to figure out because what that looks like in this first round of virtual events that we do is going to help us decide what we do with the ones after that. But there are related questions too such as is a full day just too long and we need to break these up into couple hour increments a day and do them for more days or do something entirely different,"* said Brown.
+*“吸引人们参加线上活动是一回事，但是他们会待多久呢？他会坚持多久？这是我们正在努力弄清楚的一个重大问题，因为我们在首轮线上活动中的这种情况，将帮助我们决定如何规划之后的活动。但是还有一些相关的问题，比如一整天是否太长，我们是否需要将这些活动分拆为每天几个小时的增量方式，并且持续更多的天数，或者完全另辟蹊径”*， Brown说。
 
 The length of events matters significantly. Based on surveys and feedback, Comcast found that neither speakers or attendees like one hour talks.
+开源活动的时间长度非常重要。基于调查和反馈，Comcast公司发现演讲者和参与者都不喜欢一小时以上的对话。
 
 *"Those are too long. I try to do shorter talks. If it's a keynote, we can do 30 minutes, maybe 35 minutes max. But typically, the talks are 25 to 30 minutes, keep them short and sweet,"* said Saebi.
+*“那些议程太长了。我尽量安排较短的演讲。如果是主题演讲，我们会安排30分钟或最长35分钟。但典型的演讲是25-30分钟，让它们保持简短和愉悦。”*， Saebi说。
 
 Similarly, Comcast found that talks need to be short in virtual events as well.
+Comcast公司也同样发现在线活动的演讲也应该保持简短。
 
 *"People are getting Zoom exhaustion and conference call exhaustion and video chat exhaustion. We're trying to avoid doing eight-hour days. We're breaking up talks into much smaller sessions over more days but shorter hours per day,"* said Saebi.
+*“人们对Zoom会议、电话会议、视频对话感到疲惫不堪。我们尽量避免一天8小时的活动时长，我们会把演讲拆分为更短小的多个环节，采用多天但每天时长更小的安排”*， Saebi说。
 
 It’s a common problem for all event organizers on the moment, but it probably bodes well for events post-pandemic.
+这对当下所有的活动组织者都是一个常见问题，但疫情之后应该会有好的未来前景。
 
  "There's a huge challenge because one, people are stuck at home. You could argue that they will have no problem sitting in front of their computer all day at a conference. But the flip side of that is people are tired of being stuck at home. As things open up, people just want to get out of the house and experience some semblance of normal life again," said Brown.
+ “这是一个巨大的挑战，首先，人们被困在家里。你可以说他们在计算机前参加全天的会议没有问题。但是，另一方面，人们已经厌倦了待在家里。随着疫情逐步开放，人们只想出门，再次体验一些正常生活的样子。”， Brown说。
 
 Socializing and networking have always been big draws at conferences. That’s why breaks should remain frequent and certainly placed between every talk. In physical events this allows for the always popular and beneficial hallway track. Most organizers are still struggling to create a similar experience in virtual events. However, experiments are currently underway.
+社交和联络在会议中始终是一大亮点。这就是为什么应该频繁地休息，并确保在每一场演讲对谈之间都有休息。在线下实体活动中，这为广受欢迎且有益的走廊交谈提供了可能。大多数线上虚拟活动组织者仍在努力创造类似体验。然而目前尚在实验中。
 
 *"I recently went to the InnerSource Commons event where they had virtual breakout rooms. You could actually be moved into another Zoom room with other folks and just kind of relax and have a more chill conversation and then go back to the main conference when you want. I thought that was really good,"* said Saebi.
+*“我最近参加了InnerSource Commons活动，他们设有虚拟小组讨论室。你实际上可以和其他人一起转到另一个Zoom房间，放松下来，进行更轻松的交谈，然后在你想要的时候返回主会议。我认为那真的很好，”*， Saebi说。
 
 Evening events are common at physical venues. These can last from 30 minutes to a couple hours and can be anything from mixers to dinners, but they always have a social and networking vibe. Distributing virtual or physical drink tickets, usually limited at two per person, controls the cost and limits excessive drinking as it reinforces the code of conduct. Tickets are good for alcoholic drinks but other drinks as well such as water, coffees, juices, and sodas.
+线下实体场所通常会有晚间活动。这些活动可以持续从30分钟到几个小时，可以是任何形式，比如社交聚会或晚宴，但它们总是带有社交和联络的氛围。分发虚拟或实体的饮品票，通常每人限制两张，既可以控制成本又可以限制过度饮酒，保证行为规范。饮品票不仅可以换取酒精饮料，还可以换取其他饮料，如水、咖啡、果汁和苏打水。
 
 Other questions organizers will need to answer in advance include whether the event should be private and if so does it need a passcode. Do you need to send invitations or will an announcement on Slack or social media work as well or better?
+组织者需要提前回答的其他问题，包括活动是否应该是私密的，如果是的话是否需要密码。你需要发送邀请吗，在Slack或社交媒体上的通知是否同样或更好地起作用？
 
 **Code of Conduct**
-
+**行为规范**
 
 The Code of conduct remains critically important to any event, physical or virtual.
 

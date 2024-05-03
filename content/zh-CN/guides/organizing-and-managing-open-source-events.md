@@ -681,72 +681,73 @@ Other questions organizers will need to answer in advance include whether the ev
 组织者需要提前回答的其他问题，包括活动是否应该是私密的，如果是的话是否需要密码。你需要发送邀请吗，在Slack或社交媒体上的通知是否同样或更好地起作用？
 
 **Code of Conduct**
-**行为规范**
+**行为准则**
 
 The Code of conduct remains critically important to any event, physical or virtual.
-
+行为准则是任何活动的关键，无分线下和线上。
  
 
 *"I'm proud to say we're one of the first open-source organizations and events that had one at their events," says Brown. She says the Linux Foundation’s code of conduct is freely available in the creative commons license and “anyone may pull from it.”*  
-
+*"我很自豪地说，我们是最早在活动中定义行为准则的开源组织之一，" Brown说，Linux基金会的行为准则通过CC创意共享许可协议中自由获取，“任何人都可以拉取使用”*
  
 
 However, just having a code of conduct alone is not enough. It is important to distribute your code of conduct before and during events and regularly point people to it.
-
+然而，仅仅有行为准则还不足够。在开源活动之前和活动期间分发活动准则，并定期引导人员，这是非常重要的。
  
 
 *"We put it out at registration on a banner, it's very easy to find on our website. It goes out on our email communications. We mention on the keynote stage. You also need to make sure that whoever is running your conference knows how to address any code of conduct issues that come up,"* said Brown.
-
+*“我们在活动注册时把行为准则放在了横幅上，它在我们的网站上非常容易找到。在我们的电子邮件沟通中被发出。我们在主题演讲中提及它。你还需要确保会议负责人知道如何处理任何行为准则问题，”*， Brown说。
  
 
 Comcast uses its own existing code of conduct for internal events. And uses a template to compose one for external events. Other organizations do similarly.
-
+Comcast公司在内部活动中使用已有的行为准则，在外部活动则使用一个行为准则的编排模板。其他公司也类似。
 
 **Food and drinks planning**
-
+**食物和饮品规划**
 
 
 Food and drinks are part of the necessary planning in physical events. If the event is internal and held on company grounds, food and drink options are often limited to what the company’s selected caterer offers. However, there are a few planning tricks that can make that easier to arrange.
-
+食物和饮品是线下实体活动必要的规划之一。如果活动是内部的，并且在公司的场地内进行，食物和饮料的选择通常仅限于公司选择的餐饮服务商提供的。然而，有一些规划技巧可以使这变得更容易安排。
  
 
 *"I place an order through the catering company for the maximum for our internal venue, which is 300 people. And then I ask how late I can adjust the order. Typically caterers will give you two weeks which is great because by then you’ll have a much better idea how many people are expected to attend that event,"* said Saebi.
-
+*“我通过餐饮公司预订我们内部场地最高人数的食物，也就是300人。然后我询问我能多晚调整订单。一般情况下，餐饮公司会给你两周的时间，这很好，因为到那时你会对预计有多少人参加那个活动有更好的了解”*， Saebi说。
  
 
 *"I learned that little trick from wedding planning, because that's how it was for our wedding. So I started asking the same thing for conferences and discovered that I don't have to have the exact number today, as long as they give me the date of when they need it by,"* Saebi added.
-
+*“我从婚礼策划中学到了这个小窍门，因为我们的婚礼就是这样的。所以我开始在组织会议时问同样的问题，然后我发现我并不需要在今天就给出确切的人数，只要他们告诉我需要确切人数的日期就可以了。”*， Saebi补充到。
  
 
 Besides a headcount, you’ll need to consider varying dietary needs such as diabetic, gluten-free, vegan, vegetarian, kosher, and keto diets. Coffee, tea, diet drinks, sodas, and water should be plentiful and available all day.
-
+除了要统计人头外，你还需要考虑各种不同的饮食需求，比如糖尿病饮食、无麸质食品、纯素食、素食、犹太食品和生酮饮食。咖啡、茶、低热量饮料、碳酸饮料和水应该充足，并且全天都可以提供。
  
 
 This is also an area where you may need a volunteer to lend a hand.
-
+这也是你需要志愿者支持的地方。
  
 
 *"Assign one person to be the contact for the caterer. All they have to do is answer their phone when the caterer calls and let them in the venue. Everything else, including the bill, is taken care of in advance, so the only additional thing the volunteer might need to do is maybe guide the caterers to where they need to go,"* said Saebi.
-
+*“指定一人作为餐饮服务商的联系人。他们要做的就是在餐饮服务商打电话时接听，并让他们进入场地。其他所有事项，包括账单，都会提前处理好，所以志愿者可能需要做的唯一额外事情，就是可能需要引导餐饮服务商到他们需要去的地方，”*， Saebi说。
  
 
 Once the menu is decided, make it known to attendees when and where the food is, and what’s on the various available menus. If you’re not serving lunch or dinner, offer a list of nearby restaurants and cafes so attendees can easily see their options.
-
+一旦菜单确定下来，就要让与会者知道餐厅的开放时间和地点，以及各种可选菜单上有什么。如果你没有提供午餐或晚餐，可以提供附近餐厅和咖啡店的列表，这样与会者就可以轻松看到他们的可选项。
  
 
 Food and drinks for evening events must also be based on a range of dietary restrictions. Mixers can rely on light appetizers only while dinners may contain several courses and menu options. Dining and drinking venues within walking distance of the event venue or hotels generally work best as it simplifies transportation issues.  
-
+晚间活动的食物和饮料也必须基于各种饮食限制。酒会可以仅以轻食为主，晚餐则可能包含多个菜式和菜单选项。餐饮场与活动场地或酒店在步行距离之内通常效果最好，这样可以简化交通问题。
  
 
 However, the pandemic may have permanently changed how food is served in future physical events, at least during the event itself.
-
+然而，疫情可能永久改变未来线下实体活动的餐食服务，至少在活动期间。
  
 
 *"Communal food may shift to grab-and-go, pre-packed boxes moving forward instead of buffets,"* said Cruz.
-
+*“可共享的食物，可能转向即取即走的形式、预先包装好的餐盒取代以往的自助餐。”*， Cruz说。
  
 
 In virtual events, food and drink are choices made by the individual attendee. The alternative is to offer digital credits with food delivery apps so attendees can have a meal or respite together in a casual Zoom or other platform networking room.
+线上虚拟活动中，餐饮是每位与会者自行完成。可选的替代方案是提供食品配送app的数字积分，这样参与者可以在轻松的Zoom会议或其他平台的社交空间里一起用餐或休息
 
 **Followups**
 

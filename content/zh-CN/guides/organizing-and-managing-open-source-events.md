@@ -374,67 +374,69 @@ You may think virtual events would be exempt from such concerns, but they aren�
  
 
 First, align speaker selection with specific goals. Closely consider your goals for the event. But you may also want to reach towards your company’s overarching goals as well as those of open source communities. This is no time to think small.
-
+首先，将演讲者的选拔与具体目标相匹配。仔细考量开源活动的目标，但同时也应着眼于公司整体目标以及开源社区的目标。此时不宜局限于小格局的思考。
  
 
 Consider speakers within your organization too. But finding speakers from outside of your organization doesn’t have to be any more of a daunting task than finding them internally.
-
+也要考虑组织内部的演讲者，但从组织外部找到演讲者并不一定比从内部找到他们更加困难。
  
 
 *"I find many of our speakers from past Open Source Summit events and the Cloud Native Computing Foundation (CNCF) speakers bureau, but those speakers are mostly related to CNCF projects. I think it would be a fantastic idea for everyone to contribute to building and updating a Linux Foundation speaker’s bureau,"* said Saebi, who also keeps a database of speakers that contains notable external speakers, and speakers across Comcast.
+*“我发现我们的许多演讲者都是来自过去的开源峰会活动以及云原生计算基金会（CNCF）的演讲者团队，但这些演讲者大多与CNCF项目相关。我认为每个人都能去贡献并且更新一个Linux基金会的演讲者团队，这会是个很棒的主意。”*， Sarbi说，她保留了一个外部知名演讲者以及Comcast内部演讲者的数据库。
 
  
 
 Other sources to look to for possible speakers for your event include paypercall.io, which Saebi finds "extremely helpful in finding speakers, especially those in open source." And, of course, social media such as LinkedIn and Twitter.
-
+寻找你的开源活动演讲者的另一来源包括 paypercall.io 网站，Saebi评价“对寻找演讲者极其有用，尤其是在开源领域”。当然，社交媒体如LinkedIn和Twitter也一样。
  
 
 *"I have a list that I created on Twitter. I would recommend other folks to create lists as well, but they're also more than welcome to subscribe to my list. It is called ‘open source speakers’ and it's three words,"* said Saebi. Saebi says she too looks to underrepresented groups in open source to help her find speakers. For example, she may ask women she knows in open source for recommendations on potential  women speakers.
-
+*“我在Twitter上创建了一个列表，我建议其他人也创建类似的列表，但更期待他们订阅我的列表。这个列表叫做‘开源演讲者’，就是这三个英文单词”*， Saebi说。 Saebi还说到她会去开源领域缺少代表性的群体里寻找演讲者，例如，她会咨询开源领域的女性以获得推荐的女性演讲者。
  
 
  
 **Developing internal speakers**
-
+**培养内部演讲者**
  
 
 Also consider speakers for your event based on your organization’s internal needs to develop and encourage a new and deeper bench of brand ambassadors.
-
+也要考虑基于你所在组织的内部需求，培养和激励新的更有板凳深度的品牌宣传大使。
  
 
 *"Internal events are a safe environment of your peers. So, we try to find people who have never given a talk before and give them this larger practice round because there's anywhere between one and three hundred people dialing into it. That gives them the confidence to go and submit to an external conference,"* said Arvin.
-
+*“内部活动是一个由你的同事营造的安全环境。因此，我们试图找到那些从未发表过演讲的人，并给他们这个更大的实践机会，因为有一到三百人会参与这个活动。这给了他们参与外部会议的信心”*， Arvin说。
  
 
 There are ways to add to the comfort and pacing of those new to speaking, and for more seasoned speakers too who may be feeling the wear and tear of many virtual events and far too many Zoom sessions.
-
+有一些方法可以增加初次演讲者的舒适度和节奏掌握，同时也适用在那些经验丰富的演讲者，他们可能因参加了许多虚拟活动和过多的Zoom会议而感到疲惫不堪。
  
 
 *"We pre-record the presentation, then we can add captions to make our events accessible. In that way, presenters can also focus on live Q&A on the day of,"* said Cruz.
-
+*“我们提早录制好演讲，并添加字幕以让开源活动对参与者更友好。通过这种方式，演讲者也可以更聚焦在当天的现场问答”*， Cruz说。
  
 
 Just keep in mind that you may need more than a presenter, particularly for virtual events.
-
+需记住你需要的不止是演讲者，特别是线上开源活动。
  
 
 *"Moderators are needed more than ever. We recruit seasoned speakers for the moderator’s role, then presenters can focus on their presentation and live Q&A,"* said Terasaki.
-
+*“主持人协调人的需求现在更为迫切。我们聘用了资深演讲者来担任这个角色，活动演讲者就可以更聚焦在他们的演讲本身和现场问答”*， Terasaki说。
  
 
 **Choosing platforms**
-
+**选择线上平台**
  
 
 If you’re planning a virtual event, you’ll want to pay close attention to your platform options because they vary significantly in many important ways.
-
+如果你在规划线上开源活动，你将要关注你的线上平台的功能选项，因为它们有很多重要的差异。
  
 
 *"We did a virtual event platform comparison of 65 different platforms and a lot of these were simply about content delivery. And obviously, for Linux Foundation events, we're looking for something different than that,"* said Brown.
-
+*“”我们比对了65个不同的线上活动平台，很多只是简单的内容发送。显然对Linux基金会来说，我们需要寻找另一种平台*， Brown说。
  
 
 The results of the[ Linux Foundation’s platform comparisons](https://docs.google.com/presentation/d/1jGd0geh72Lxr0o3zV044K5yhXc6Q8tp4p8fhnnXJsqo/edit#slide=id.p3) are now freely available. You’ll want to check back periodically because this is a fluid document, Brown says. But here are samples of the results as of September 2020:
+Linux基金会线上平台比对的结果 [ Linux Foundation’s platform comparisons](https://docs.google.com/presentation/d/1jGd0geh72Lxr0o3zV044K5yhXc6Q8tp4p8fhnnXJsqo/edit#slide=id.p3) ，现在可以免费查看，你需要定期查看这个结果因为这是个动态文档，Brown说。这里是截至2020年9月的一些结果：
 
 ![platform comparison](/img/guides/organizing-and-managing-open-source-events1.jpg)
 
@@ -443,45 +445,51 @@ The results of the[ Linux Foundation’s platform comparisons](https://docs.goog
  
 
 The Linux Foundation is also journaling their organizers’ experience with each platform after an event to give members a more detailed accounting of successes and failures. You can find that in[ blog posts](https://events.linuxfoundation.org/2020/06/03/success-with-qiqochat/) on the events landing page.
-
+Linux基金会也记录了开源活动组织者们使用线上平台后的成功失败经验，你可以在这个开源活动页面查看 [ blog posts](https://events.linuxfoundation.org/2020/06/03/success-with-qiqochat/)
  
 
 Google looks for a specific set of features and functionalities, as well.
+谷歌在寻找专门的线上平台特性和功能。
+
 
 *"We value compliance, safety, diversity, Inclusion, and accessibility. We try to pay extra attention to that and adjust the environment for online events. Do we have captions? Does the recording platform have a function for speakers to change font size for speaker notes?, etc,"* said Terasaki.
-
+*“我们重视合规、安全、多元化、包容性、以及易用性。我们在开源线上活动中致力于这些目标并调整活动环境。我们有演讲字幕吗？录制平台能让演讲者调整脚注字体吗？如此等等”*， Terasaki说。
  
 
 *"Choosing the right event platform is the key for success. A great user interface with multiple engagement tools and functions that attendees are looking for at virtual events is imperative,"* Terasaki added.
+*“选择正确的平台是成功的关键。优秀的用户界面、多种接入工具以及参与者需要的功能，是线上开源活动的关键”*， Terasaki补充到。
 
  
 
 Events held in physical venues also require careful attention to apps and networking platforms. Some of the options are flexible enough to successfully pull off cross-over duties between virtual and physical, which may make them useful going forward with blended venues.
-
+线下活动同样需要关注app和社交平台。有些可选产品提供足够的灵活性，让线上线下的交叉活动都能成功开展，让产品在后续的混合场景下更为有用。
  
 
 *"MeetingPlay started as a networking app. They have done a very good job of pivoting to be a virtual event platform. That's one that we've been really happy with,"* says Brown.
-
+*“MeetingPlay最早是一个社交app，他们成功地转型为线上活动平台，这是我们非常满意的产品”*， Brown说。
  
 
 *"For physical events, we do have some options we like for networking and to facilitate people meeting each other at events. One that we use is an app called Brella, which is really a networking app, but it's not a full-blown event app that we would keep a schedule on and do push notifications. It's really just for networking and it has an event matchmaking feature on it,"* Brown explained.
-
+*“对于实体活动，我们确实有一些喜欢的产品选项，为参与者提供现场的认识聚会能力。我们使用的一个app叫Brella，它实质上是一款社交应用而不是一个功能全面的活动管理应用，我们不会在上面安排日程或推送通知。Brella主要用于社交并提供一个活动现场人员匹配的功能，”*， Brown解释到。
  
 
 Make sure your expectations and goals are aligned when deciding to use these types of apps.
-
+在决策使用这些app时需要确保匹配你的期望和目标。
  
 
 *"For example, in an Open Source Summit, I'd say probably only 15% or 20% of people actually like using Brella or any other app, but the people who are using it, get huge value out of it,"* says Brown.
+*“例如在一个开源峰会中，我估计只有15%或20%的人真正会用 Brella或其他app，但使用的人会充分利用其功能”*， Brown说。
+
 
 **Soliciting volunteers**
+**征集志愿者**
 
 Start by identifying the tasks, dates and times you need volunteers to help out.
-
+首先，确定你需要志愿者帮忙的任务、日期和时间
  
 
 *"You can't do this by yourself, you have to have volunteers to help with this initiative. I look for ‘day of’ volunteers as well as folks who want to help with some of the organizing, but mostly ‘day of’ is the most important,"* said Saebi.
-
+*“你不能一个人完成任务，你必须有志愿者来帮助这个活动。我寻找‘活动当天’的志愿者以及有意愿提供一些组织工作帮助的人，但最重要的主要是‘活动当天’的志愿者。”*， Saebi说。
  
 
 *"A few things to check that your ‘day of’ volunteers can help you with is, will there be a check-in station for when your conference attendees arrive? And there should be,"* Saebi added.

@@ -482,7 +482,7 @@ Make sure your expectations and goals are aligned when deciding to use these typ
 
 
 **Soliciting volunteers**
-**征集志愿者**
+**招募志愿者**
 
 Start by identifying the tasks, dates and times you need volunteers to help out.
 首先，确定你需要志愿者帮忙的任务、日期和时间
@@ -493,51 +493,54 @@ Start by identifying the tasks, dates and times you need volunteers to help out.
  
 
 *"A few things to check that your ‘day of’ volunteers can help you with is, will there be a check-in station for when your conference attendees arrive? And there should be,"* Saebi added.
-
+*“几个可以为你确认‘活动当天’志愿者能帮助你的事情，会场是否有参与者到达时的登记站，这个应该有”*， Saebi补充到。
  
 
 Soliciting volunteers for a physical or a virtual event can be challenging. But there are several ways one can be successful in the endeavor. Take for example, how Salesforce manages and encourages volunteerism.
-
+为线下和线上开源活动招募志愿者会有一定挑战，这个努力过程中有几种成功的方法，Saleforce公司管理和激励志愿者的实践可以作为案例。
  
 
 Volunteer Time Off is a formal program at Salesforce. It begins on the first day of employment when, as part of their on-boarding, new employees often go to volunteer somewhere with their on-boarding class. Volunteering is thus established early on as both the spirit of the company culture and as an ongoing job expectation.
-
+志愿者假期是Saleforce公司的正式制度。这从员工的第一天上班就开始了，作为入职的一部分，新员工通常会和他们的入职班级一起去某个地方做志愿者工作。因此，从一开始，志愿服务就被确立为公司文化的精神和持续的工作期望。
  
 
 *"Volunteering is really a core part of our business and that's well enshrined in company programs and well supported. So, we thought let's tap into that to help people make those first contributors to Open Source. To help them get over that hump of the initial barrier of having never contributed to Open Source before in such a way that we are both raising awareness of our reliance on Open Source and on Open Source’s reliance on volunteers,"* said Simmons.
-
+*“志愿服务真的是我们业务的核心部分，这在公司的制度中得到了很好的体现和支持。所以，我们想，让我们利用这一点来帮助人们成为开源项目的第一批贡献者。帮助他们克服从未为开源项目做过贡献的初期障碍，同时我们也在提高对我们依赖开源项目，以及开源项目依赖志愿者的意识。”*， Simmons说。
  
 
 It turns out that Volunteer Time Off is an excellent source for volunteers for open source events as well.
-
+志愿者假期的结果证明了它也是开源活动志愿者的一个最佳来源。
  
 
 *"So much of this is trial and error. Like all Open Source program offices are trying to figure this out. We also try to tie volunteer hours to exact metrics to see if the event or topic is something that is of interest to people,"* said Arvin.
-
+*“开源活动大部分都是一个试错过程。所有的OSPO开源项目办公室都在试图解决这个问题。我们也尝试将志愿者的工作时间与明确的指标相关联，以判断开源活动或主题是否引起人们的兴趣"。”*， Arvin说。
  
 
 She cited an example of how volunteer metrics translate to a broader interest in an open source event. For example, if the Salesforce OSPO aims for 40 people to volunteer at an event and end ups getting 50, then the company has a strong indication that people are interested in the topic or event. But if just 15 volunteers responded instead, then that is a strong indication that the event isn’t a good draw or that the marketing may be off target.
+她举了一个例子，说明如何将志愿者的数据转化为对开源活动的更广泛的兴趣。例如，如果Salesforce OSPO目标是在一个活动中招募40位志愿服务，结果50人报名，那么公司就能收到人们对这个主题或活动感兴趣的强烈信号。但若只有15名志愿者报名，那么也是个强烈信号，说明该活动可能并不吸引人，或者活动宣传可能偏离了目标。
+
 
 *"Having those metrics also gives us a baseline of what our employees are interested in doing. And it tells us what is working in spreading the word of Open Source,"* Arvin said.
+*“这些指标是我们公司员工其工作兴趣的基线，它告诉我们开源领域的传播中什么是有效的”*， Arvin说。
 
 **Gifts, swag and acknowledgments**
-
+**礼物、周边和致谢**
 
 
 Gifts, swag, and acknowledgments remain important elements in event planning. Generally, they are used to reward, thank, and incentivize speakers, volunteers, attendees, sponsors, and communities.
-
+礼物、周边和致谢仍然是开源活动规划的重要元素。它们通常用于回馈、感谢和激励演讲者、志愿者、参与者、赞助商和社区。
  
 
 It was wise to order these items early as traditionally it takes longer than you’d think to have the items made and delivered on time. Early orders also give you a chance to have changes made if something is wrong with the order or a vendor fails to follow through. But given recent cutbacks in the U.S. Postal Service and the extraordinary workloads other carriers are dealing with during a pandemic, it’s wise to order even earlier than normal.
-
+提前订购这些物品是明智的，因为通常制作和准时交付这些物品需要的时间比你想象的要长。提前订购也让你有机会在订单出错或供应商未能完成订单时进行修改。但是，考虑到美国邮政服务近期的削减，以及其他承运人在疫情期间面临的巨大工作负荷，比正常情况更早的预订是明智之举。
  
 
 And, yes, you can give gifts, swag, and acknowledgements in virtual events too. Some of these can even be digital such as a month of a TV or video streaming service, or credits on riding services like Uber or Lyft. Credits on food services such as Instacart or UberEATS is another idea. Of course, many event organizers also send traditional gifts, particularly to speakers and volunteers.  Your budget will affect your gift and swag choices too.
-
+当然，你也可以在线上活动中送出礼物、周边和致谢。其中一些甚至可以是数字化的，例如一个月的电视或视频流媒体服务，或者Uber或Lyft之类的网约车服务积分。Instacart或UberEATS之类的食品服务的积分也是一个选择。当然，许多活动组织者也会发送传统的礼品，特别是给发言者和志愿者。你的预算也会影响你的礼品和周边的选择。
  
 
 Just be careful to think your choices through to avoid pitfalls. For example, don’t give credits to digital services unless you’re sure those services are available locally for speakers, volunteers, or other giftees. There are also other things to consider, depending on location and other factors.
-
+请谨慎地思考你的选择，以避免陷阱。例如，除非你确定演讲者、志愿者或其他接受礼物的人的所在地可以使用数字服务礼物，否则不要赠送这些数字服务的积分。还有其他事情需要考虑，具体取决于地理位置和其他因素。
  
 
 "One time, I got the speakers really nice gift baskets which included mugs and fruit and all kinds of nice goodies. But the speakers couldn’t fit those in their carry-ons. I felt so bad. So, if you're buying a gift for people who are traveling, make sure that it's something they can travel with," said Saebi.

@@ -750,42 +750,44 @@ In virtual events, food and drink are choices made by the individual attendee. T
 线上虚拟活动中，餐饮是每位与会者自行完成。可选的替代方案是提供食品配送app的数字积分，这样参与者可以在轻松的Zoom会议或其他平台的社交空间里一起用餐或休息
 
 **Followups**
-
+**活动后续跟进**
 
 While patterns were set, trends made, and playbooks refined before the pandemic, everything was upended after the pandemic hit and will likely change again once the pandemic subsides. This makes followup evaluations all the more crucial in adapting and improving the function, performance, and attendance in future events.
-
+虽然在疫情之前已经设定了开源活动模式，形成了趋势，优化了活动脚本，但在疫情爆发之后所有这些都被打乱了，在疫情消退后可能还会再次改变。这使得后续的评估在适应和改进未来活动的能力、表现和参与度等方面变得至关重要。
  
 
 Post-event surveys are a steadfast measure on everything from speaker performance to event relevance and the general enjoyment factor. Typically, the results are used by organizers for future event planning, but not always. Positive remarks are often shared with the speakers who earned them. And positive comments about the event are often used in marketing materials for future versions of the same event.
-
+活动结束后的调查是一个可靠的衡量标准，涵盖从演讲者的表现到活动的相关性，以及常用的愉悦度指标。通常，调查结果会被组织者用于未来的活动策划，但也不尽然如此。积极的评价往往会反馈给赢得这些评价的演讲者。而关于活动的正面评论也常被用于未来同类活动的营销宣传材料中。
  
 
 Further, snippets or full videos of speakers are sometimes shared with speakers for inclusion in their own work portfolios, on YouTube, and to market future events.
-
+此外，活动演讲的片段或完整视频，有时会分享给演讲者用于纳入他们自己的作品集，放到YouTube，以及为后续活动做营销推广。
  
 
 Comcast, like many companies, has a tight policy around making and sharing videos of speakers at events. Speaker consent is one of the top requirements. Costs are another determining factor. Even so, videos are only shared internally with "strict guard rails around anything requiring legal compliance."
-
+Comcast公司和许多公司一样，有严谨的政策来制作和分享演讲者的会议演讲视频。演讲者的同意是首要前提之一，成本是另一个决策因素。即便如此，这些视频在“需要法律规管的内容必须严格管控”场景下只能内部使用。
  
 
 *"If the venue has AV options and if they are not that expensive, we'll ask them to record it and then we can post it on our open source program office website. We’ve also recorded some ourselves, taken pictures ourselves, and hired a photographer sometimes as well,"* said Saebi.
-
+*“如果活动场地有音视频录制设备，而且价格不是那么高，我们会要求他们录制下来，然后我们可以在我们的开源项目办公室网站上发布。我们也会自己录制一些，自己拍摄图片，有时也会雇佣摄影师”*， Saebi说。
  
 
 Following up to thank the volunteers is also essential. Consider sending thank you cards and notes, or even small gifts. Adding the results of their efforts- such as growth in attendance or accolades from attendees -- to the thank you notes is also a good touch.
-
+答谢志愿者也是活动后续跟进的重要环节。可以考虑发出致谢卡片和感谢信，甚至小礼物。在感谢信中加入志愿者的工作成果也是一个很好的做法，例如活动参与者数量、参与者的赞誉等。
  
 
 Followup activities can also be used to extend the experience between events and encourage further engagement.
-
+活动后续跟进工作也能用在多个活动之间的经验分享，鼓励更多参与。
  
 
 *"We do try to make sure that people leave with something tangible to do. For example, we may make some suggestions on how attendees can find a project to work on after the event, such as after Tech Talks, the Open Source Tech Talks and the volunteer events,"* said Simmons.  *“We also suggest places to go to get support. Ultimately, we want to make sure they feel strong and empowered coming out of those events.”*
+*“我们在努力确保让人们参加完会议有具体的事项可以做，例如，我们建议参与者可以在会后找一个可投入工作的项目，包括会后的技术讲座、开源技术讲座、志愿者活动等”*， Simmons说，*“我们也推荐一些可提供支持的地点。总而言之，我们希望参与者在参加完会议感觉到力量和被赋能。”*
 
 There are also followup activities that can help your brand benefit from its efforts in providing useful events.
+有些跟进工作可以为你的品牌带来收益，它们可以提供后续的有价值活动。
 
 *"We're very careful about not spamming people but we do send one email that offers more information on different points of interest with links to our Open Source page, our blog, highlights from the booth, and information about any demos that we shared for any of the external events,"* said Arvin.
-
+*“我们非常注意不滥发邮件给人们，但我们确实会发送一封电子邮件，提供覆盖不同兴趣点的更多信息，包含我们的开源页面、博客、展台亮点，以及我们在外部活动中分享的演示信息等链接。”*， Arvin说。
  
 
  
@@ -795,28 +797,32 @@ There are also followup activities that can help your brand benefit from its eff
  
 
 Marketing is the key to success for any event, regardless of venue. Marketing tactics will vary according to size and type of event and the goals the organizers intend to achieve.
-
+营销宣传是所有开源活动的关键，无分活动场所。其策略会根据活动规模、组织者希望达成的目标而变化。
  
 
 However, below are some marketing tips, strategies, and tactics that tend to work out well for many events.
-
+但是，如下的营销推广指引、战略和技巧可适用于许多活动并行之有效。
  
 
 **1) Leverage social media:** Publicize events on social media channels because messages there can be shared more broadly than to the number of people you have on a mailing list. Consider buying ads on Google, Facebook, and others too.
-
+**1） 利用好社交媒体：** 把开源活动公布在社交媒体，因为相比你的邮件列表可以被更广泛地分享传播。也可以考虑购买谷歌、Facebook等广告。
  
 
 **2) Email campaigns work well:** Mailing lists fuel email campaigns. When cultivated and maintained carefully mailing lists can extend the reach beyond the lists of attendees from past events. Typically, the email schedule for a n email campaign is:
-
+**2）邮件宣传行之有效** 邮件列表为活动宣传提供火力。精心培育和维护的邮件列表可以延伸到比以往活动的参与者更远。通常来说，邮件营销的执行计划是：
  
 
 a.     Announce an upcoming event
+a.     发布一个即将开始的活动
 
 b.     Push for submissions
+b.     推动提交活动注册
 
 c.      Reminder for the approaching deadline for submissions
+c.      提醒活动注册的截止日
 
 d.     Announce the keynotes
+d.     发布主题演讲
 
 e.     Announce the event schedule
 

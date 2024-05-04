@@ -952,7 +952,7 @@ At the end of the day, events are living things, growing and dying, adapting and
 ## 致谢
 
 **Contributors to this guide:**
-**本指南文档作者**
+**本指南贡献者**
 
 * [Alyssa Arvin](https://www.linkedin.com/in/alyssaarvin/)
 * [Angela Brown](https://www.linkedin.com/in/angelabrown3/)

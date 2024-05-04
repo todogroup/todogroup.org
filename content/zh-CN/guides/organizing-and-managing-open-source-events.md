@@ -825,116 +825,128 @@ d.     Announce the keynotes
 d.     发布主题演讲
 
 e.     Announce the event schedule
+e.     发布活动计划
 
 f.     Communicate highlights of various aspects of the event
+f.     传达开源活动各个方面的亮点
 
 g.     Communicate opportunities for networking, socializing, and nearby attractions
+g.     告知人脉交流和社交的活动机会，附近的景点
 
 h.     Event followup emails
-
+h.     活动后续跟进邮件
  
 
 **3) Lean in on the power of word of mouth:** Reach out to open source communities who will have an affinity for the topic or the event and to local open source groups to spread the word, help build audience numbers, and attract volunteers.
-
+**3）利用口口相传的力量：** 接触对主题或活动有认同感的开源社区，以及当地的开源团体，传播信息，帮助扩大观众群体，吸引志愿者
  
 
 *"If you're in, for example, Austin and you're holding a local event for primarily the Austin open-source community, there are a ton of companies locally that you can reach out to. Whether that is companies like Home Depot or IBM that have big open-source development centers there, or whether it's reaching out to the local tech and open-source organizations of which there are a lot,"* said Brown.
-
+*“举个例子，如果你在奥斯汀，你正在为奥斯汀主要的开源社区举办一个本地活动，那么你可以联系到许多本地的公司。无论是像 Home Depot 或 IBM 这样在那里设有大型开源开发中心的公司，还是向数量众多的本地科技和开源组织发出邀请”*， Brown说。
  
 
 **4) Create media partnerships:** Ideas on ways to leverage media partnerships include being added to their calendar of events, an exchange of results or services, advertise their and your events on the respective websites, ask for press coverage of the event for additional promotion for it, develop educational opportunities for the community, and other mutually beneficial activities that grow both audiences.
-
+**4）建立媒体合作** 利用媒体合作的思路建议包括，将你的活动添加到他们的活动日程中，交换活动结果或服务，在各自的网站上宣传他们和你的活动，请求对活动的新闻报道以获取额外的宣传机会，促成社区的教育机会，以及其他可以让双方受众都获得增长的互利活动
  
 
 **5) Cross-promote two or more events:** *"I met with the team that runs our engineering Tech Talks and asked for their assistance ahead of time. They put it on all of the channels where they promote their Tech Talks. Anything basically where they announce and promote upcoming events, they included my event as if it were one of their Tech Talks. But then we had to narrow it down some since they have quite a large following who are interested in other things,"* said Arvin.
-
+**5）跨多个活动的宣传推广：** *“我提前与负责我们工程技术讲座的团队会面，并请求他们的帮助。他们把我的活动放在他们推广技术讲座的所有渠道上。基本上他们在任何公告和推广即将举办的活动的地方，都把我的活动当作他们的技术讲座之一来包括进去。但是后来我们必须把范围缩小一些，因为他们有很多关注其他事情的粉丝。”*， Arvin说。
  
 
 **6) Target open source groups:** Post announcements and information on places such as the Open Source back channel and the Open Source chatter, which is to say your intranet system. Also, tag various Open Source specific projects, for example, The Python Group. Further, ask speakers to share it with their teams, their chatter page and their Slack group as well.
+**6）聚焦开源人群：** 在开源后台频道和开源聊天频道等地方发布活动公告和信息，也就是你的 Intranet 内部网络。此外，给各种特定的开源项目打标签，例如，Python Group。更进一步，请求演讲者把信息分享给他们的团队，他们的聊天页面和他们的Slack群组。
 
 However you choose to market your event, be assured that the appetite for more information and more opportunities to network has never waned despite current circumstances and challenges.
-
+无论你选择哪些活动营销推广策略，你要确信对开源活动信息和机会的渴望一直不会衰减，不管当前情况和挑战会是怎样。
  
 
 ## Lessons Learned
 ## 经验教训
 
 To the credit of the TODO group, open source communities and organizations, and open source fans, events have continued on despite the challenges. It’s only natural that such an open group would open source the lessons learned so far too:
+得益于TODO group，开源社区和开源组织，以及开源粉丝们的努力，尽管面临挑战，开源活动仍在持续进行。对这样一个开放的团体来说，将迄今为止的经验教训开源出来也是理所当然的：
 
 **1) Project sprints are increasingly of interest:** Sprints for projects are becoming increasingly popular. For example, a sprint for The Python Language is common at Python conferences. Typically, there are several days of sprints. Some are designed to accelerate headway from people who are core to the project while they are in the same physical space with each other. But some are onramps for new contributors, keeping a vital pipeline filled. And some are introductory and ideal for newcomers.
-
+**1）项目冲刺（Project Sprint）越来越受关注** 项目的冲刺正在变得越来越受欢迎。例如，Python语言的项目冲刺在Python会议上很常见。通常，项目冲刺会持续几天。有些冲刺旨在让同一物理空间中的项目核心人员加快进展。但些冲刺是为新晋的贡献者提供的主路径的入口，保持重要的人员流水线的畅通。还有些冲刺对新来者来说是介绍性的，非常适合他们。"
  
 
 Consider using sprints as satellite events to your conference to build feeders for projects and languages you support and need support in. But be forewarned, it is not as easy to do as it sounds.
-
+可以考虑将冲刺作为你的会议的卫星活动，建立开源项目和开发语言的能力供应通道，这些开源项目和开发语言是你负责支持并需要支持的。但预先警告一下，这并不像听起来那么容易。
  
 
 *"We tried and didn't work as well because Salesforce has so many different programming languages, and every team is using a different one. When we tried to make it too specific events, even those outside of Open Source, generally aren't as successful internally. The lesson is that sprints and events can be too narrow,"* said Arvin.
-
+*“我们尝试过但效果不理想，因为Salesforce使用了许多不同的编程语言，每个团队都使用不同的语言。当我们尝试过于特定的活动时，即使是开源领域之外的活动，一般在内部也没那么成功。这个教训是冲刺和活动不能过于狭窄。”*， Arvin说。
  
 
 **2) One day conferences tend to be a hit:** Take for example, Salesforce’s one day event planned for 50 people in San Francisco at an offsite venue. that we held it at. More than 50 people showed up and stayed the entire day. The talks were by Salesforce and other companies. Marketing was mostly grassroots with most of the messaging targeting the local community and inviting local speakers.
-
+**2）：单天会议会很受欢迎** 例如，Salesforce在旧金山的一个非工作场地计划了一天的活动，预计有50人参加。结果有超过50人出席并停留了一整天。演讲人员来自Salesforce和其他公司。营销推广主要是草根式的，大部分信息是针对本地社区，并邀请本地演讲者。
  
 
 *"It ended up being a huge success. We had really positive feedback around it and people stayed the whole day. It is always a win when you don't lose people halfway through the event,"* said Arvin.
-
+*“这最后变成巨大的成功。我们得到非常正面的反馈，人们在那里呆了一整天。当你的活动进行到一半仍未有人离开时，这就是成功。”*， Arvin说。
  
 
 **3) Maintain bonds for your projects:** Did you lose your maintainer or are they about to leave to work somewhere else?  Project contributors are bound to have a lot of questions you’ll need to answer to keep momentum going.  
-
+**3） 维护你的项目人脉纽带：**你曾失去过你的项目维护者（maintainer）或他们准备去其他地方工作吗？项目贡献者必然会有许多问题，你需要回答这些问题以推进项目。
  
 
 *"I think it's important to call that out. And not just in the sense of the specific instance and how that ended up being useful for the project because we had the maintainer who was moving on. But because I think that speaks to a broader theme of the importance of events,"* said Simmons.  
-
+*“我认为强调这一点很重要。并不仅仅是在具体案例下，或者因为我们让项目维护者继续工作而让项目得益。而是因为我认为这涉及到一个更广泛的主题，即开源活动的重要性。”*， Simmons说。
  
 
 "Especially when there's change coming with a project. Whether that's a change in the leadership or change in how it's organized, or a big new release. There are communities that have formed organically around these projects and everybody has their own stake and sense of ownership. So when a project hits a point where there's something big happening, that raises a lot of questions for other participants. Events can be an extremely useful forum for helping people address the fear of the uncertainty and organize around what's coming next," Simmons added.
-
+“特别是当项目即将发生变化时。无论这些变化是项目管理层的变动，组织方式的变化，还是一个重大的新版本发布。这些项目周围自然形成了社区，每个人都有自己的权益和归属感。因此，当一个项目即将发送重大事件时，这会引发其他参与者的许多疑问。开源活动可以是一个极其有用的交流平台，帮助人们克服对不确定性的恐惧，并组织起来应对即将发生的事情”，Simmons补充到。
  
 
 **4) Pivot whenever and wherever you need to:** It’s ok to pivot. Especially now when everyone is focused on adapting to a new reality. Don’t hesitate. Pivot and move on is the new fail fast.
-
+**4）在需要时就执行转型：** 项目转型是一个正常的事情。特别是所有人都关注新形势转型的时刻。不要犹豫，转型和继续前进是新的快速试错。
  
 
-"If you're not getting traction, or you're not getting support from the organization, or the content is off or you can’t find good speakers, or whatever the case may be that points to a likely fail for the event you had in mind, then pivot. If you're not getting support it doesn't mean it's not an important event, or that it doesn't need to happen. It just means it isn’t working right now," said Arvin.  
+"If you're not getting traction, or you're not getting support from the organization, or the content is off or you can’t find good speakers, or whatever the case may be that points to a likely fail for the event you had in mind, then pivot. If you're not getting support it doesn't mean it's not an important event, or that it doesn't need to happen. It just means it isn’t working right now," said Arvin.
+“如果你没有获得关注，或者没有得到组织的支持，或者内容不合适，或者你找不到好的演讲者，或者是各种情况表明你设想的活动很可能会失败，那么就转变方向。如果你没有得到支持，并不意味着这不是一个重要的活动，或者不需要举办。这只说明现在它暂时行不通。”， Arvin说。
 
 "It's okay if the end result doesn't look like the original event you had in mind. It can evolve throughout the process. And even with successful events that we've done in the past, the second one is going to look different and so is the third and fourth. We’re always going to be changing and adapting. And that's okay," Arvin added.
-
+“如果最终的活动结果看起来与你最初设想的不同也没关系。它可以在整个过程中不断演进。即便是我们过去举办的成功活动，第二次举办时也会有所不同，第三次、第四次也是如此。我们总是在不断变化和适应。这是正常的。”， Arvin补充到。
  
 
 **5) Curate documentation to encourage event spread:**. For example, Salesforce curates documentation on how to guides and other material on events so that smaller groups can run events on their own. Salesforce is also looking at open sourcing some of these documents to the larger community as well. But event organizers still are standing by to give advice and otherwise assist as needed.
-
+**5）整理文档并鼓励开源活动推广：** 例如，Salesforce整理了关于开源活动指引和相关的文档，以便较小的团体可以自行举办活动。Salesforce也在考虑将这些文档的一部分开源给更大的社区。但是，开源活动组织者仍然随时待命，提供建议和必要的协助。
  
 
 "I'm both a web developer and a community organizer and one of the things that I have come to learn, and I wish I had realized this earlier, was how hungry communities are for this kind of support," said Simmons.
-
+“我既是web开发者也是社区组织者，有一个我逐渐了解并后悔没一早知晓的事情，就是开源社区非常需要这类帮助。”， Simmons说。
  
 
 "Communities may not even know that they need support from event planners and organizers. But when we show up and we offer our support, I think they quickly realize that events are just as complicated in software but in very different ways. Then they are eager to be here to work with us," said Simmons.
-
+“开源社区可能不知道他们需要来自活动规划者组织者的帮助。但当我们展示并提供帮助时，我认为他们马上意识到开源活动的复杂度和软件一样，其复杂方式还非常不同。然后他们就热切希望来这里和我们一起工作”， Simmons说。
  
 
 **6) Blended events will be the new virtual:** Virtual events were forced to scale on the heels of a pandemic. But they are likely with us forever now, either in their pure state or as part of new, blended events. 
+**6） 新的线上开源活动将会是混合模式：** 线上虚拟开源活动在疫情期间被迫规模增长。但它们可能将一直存在，不管是纯线上模式还是新型的线上线下混合模式。
 
 One of the biggest advantages to virtual events is scale: organizers can reach much larger audiences located anywhere with an internet connection. That’s great because one of the biggest goals in open source is to grow communities and projects. 
+线上虚拟开源活动的最大优点之一是其覆盖规模：组织者可以触达更广泛的受众，他们可以在任何地方需要有互联网接入。这很棒因为开源的最大目标之一就是拓展社区和项目。
 
 *"We need to get more people trained to be the next generation of developers. Frankly we're in need of more developers now. And it's not just developers, right? It's community leaders, it's program office managers, as every company is now going to open-source as the norm, we all know that there are a ton of things that go along with that. Legal and compliance and governance and all of these things,"* said Brown.
+*“我们需要培训更多的人成为下一代开发者。坦白说，我们现在需要更多的开发者。而且不仅仅是开发者，对吧？还包括社区领袖、开源项目办公室经理，因为现在每家公司都将开源作为常态，我们都知道这其中涉及许多事务，如法律、合规、治理等等。”*，Brown说 
 
 Virtual events are a great growth facilitator. They also enable organizers to produce an event for less money and attendees to spend less money to attend. But that’s not to say that virtual events can out deliver physical events on every important touchstone.
+线上虚拟活动是优秀的开源拓展方式。他们让活动组织者用更少的成本举办活动，让参与者省掉很多参会费用。但这不表示线上虚拟活动在所有重要指标上都优于线下实体活动。
 
 *"When we look forward, now, we're seeing a strong opportunity for something hybrid. Where we can use the virtual side to bring something to a much larger group of people. That's going to provide a huge impact and benefit for attendees and hopefully help them through their careers and into the open-source community,"* Brown said.
-
+*“当我们现在展望未来时，我们看到很强的线上线下混合的趋势。我们可以利用线上虚拟方式，将活动内容带给更广泛的人群。这将为参与者带来巨大的影响和收益，希望能帮助他们的职业生涯，并融入开源社区。”*，Brown说。
  
 
 **So, what might a hybrid event look like?**
+**那么，混合开源活动会是怎样**
 
 *"We'll start with the virtual event and move over to our physical event, which is great, because we don't want our physical events to be an echo chamber. We've seen value come out of virtual and physical events, which is the silver lining of how we can use the virtual events to expand the region of the physical one in a hybrid model,"* said Brown.
+*“我们将从线上虚拟活动开始，然后过渡到我们的线下实体活动，这是非常好的，因为我们不希望我们的实体活动成为只有一种声音的回音室。我们已经看到虚拟和实体活动带来的价值，这是我们使用混合模式虚拟活动来扩展实体活动范围的希望所在。”*，Brown说。
 
  
 
 At the end of the day, events are living things, growing and dying, adapting and evolving through the years. Technologies change, audiences change, circumstances change, the needs of the event change, economics or pandemic changes, lots of things will always be shaping and reshaping how open source events are done. Accordingly, this document is also a living thing. Please check back regularly for updates.
-
+归根结底，开源活动就像生命体一样，年复一年地生长、消亡、适应和进化。技术在变，观众在变，环境在变，活动的需求在变，经济和疫情也在变，许多因素将不断地塑造和重塑开源活动的举办方式。因此，本文档也是一个生命体。请定期回来查看更新。
 
 ## Acknowledgements
 ## 致谢

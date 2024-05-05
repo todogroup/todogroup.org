@@ -12,20 +12,32 @@ The purpose of this guide is to help OSPOs and open source event team members pu
 本指南的目的是帮助OSPO和开源活动团队成员，通过分享在新冠疫情之前和期间管理开源活动的经验和资源，让开源活动能继续成功举办。本指南旨在成为一份持续更新的活跃文档，把当下的挑战延伸到新的阻碍点和机遇，供开源活动管理者参考。
 
 **Table of Contents**
-**目录**
 
 - [Guide Description](#guide-description)
 - [Intro](#intro)
 - [Open Source event types](#open-source-event-types)
 - [4 key elements in virtual open source events](#4-key-elements-in-virtual-open-source-events)
-- [Finding a theme or event focus](#finding-a-theme-or-event-focus)
+- [找到开源活动主题或焦点](#找到开源活动主题或焦点)
 - [Choosing a venue](#choosing-a-venue)
 - [Organizing the event](#organizing-the-event)
 - [Marketing an open source event](#marketing-an-open-source-event)
 - [Lessons Learned](#lessons-learned)
 
+**目录**
+
+- [开源活动指南说明](#开源活动指南说明)
+- [开源活动介绍](#开源活动介绍)
+- [开源活动类型](#开源活动类型)
+- [线上开源活动的四个关键元素](#线上开源活动的四个关键元素)
+- [Finding a theme or event focus](#finding-a-theme-or-event-focus)
+- [选择开源活动场所](#选择开源活动场所)
+- [组织开源活动](#组织开源活动)
+- [开源活动营销宣传](#开源活动营销宣传)
+- [经验教训](#经验教训)
+
+
 ## Guide Description
-## 开源活动指南
+## 开源活动指南说明
 
 This how-to guide addresses opportunities and obstacles as well as issues and resolutions common to physical and virtual venues, for both internal and external audiences. Further, several specific issues, potential resolutions or mitigations, and ideas unique to each of those venues and audiences are discussed separately. This format was chosen to better enable the reader to review and choose tactics and strategies as befitting their own event, available resources, and end goals for organizers and attendees.
 开源活动指南覆盖了线上和线下场所、内部和外部受众场景下常见的机遇和阻碍、问题和解决方案。此外还分别讨论了针对这些场所和受众的一些特定问题、可能的解决方案或缓解措施，以及特定思考。选择这种形式是为了让读者更好评估选择策略与战术，从而令自己的开源活动、已有资源以及组织者参与者的最终目标都获得收益。

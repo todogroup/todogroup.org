@@ -34,11 +34,17 @@ The purpose of this guide is to help OSPO leaders build a sustainable and reward
 - [Mapping Skill Categories](#mapping-skill-categories)
 - [映射技能类别](#映射技能类别)
 - [Example: Mapping the Skills of a Community Manager](#example-mapping-the-skills-of-a-community-manager)
+- [示例：映射社区管理者的技能](#示例映射社区管理者的技能)
 - [Retaining and Promoting Your OSPO Professionals: Job Ladders](#retaining-and-promoting-your-ospo-professionals-job-ladders)
+- [保留和提升您的 OSPO 专业人员：职业阶梯](#保留和提升您的-ospo-专业人员职业阶梯)
 - [Guide reports on building their personal brand](#guide-reports-on-building-their-personal-brand)
+- [建立个人品牌的指导报告](#建立个人品牌的指导报告)
 - [OSPO Leader Networking](#ospo-leader-networking)
+- [OSPO 领导者的网络建立](#ospo-领导者的网络建立)
 - [Mapping futures](#mapping-futures)
+- [未来规划](#未来规划)
 - [Acknowledgements](#acknowledgements)
+- [致谢](#致谢)
 
 
 
@@ -236,102 +242,196 @@ Senior leaders need to help their reports recognize how their skills and daily w
 
 *"We classify all of our OSPO staff as technical program managers because that's a well-understood skill set in technical organizations and because our OSPO lives in engineering. And so there are CDs of steps within that, from PM-1 all the way to PM-6, which is like a senior director,"* said **Nithya Ruff, Executive Director, OSPO at Comcast.**
 
+**Comcast 开源项目办公室的执行董事 Nithya Ruff 说道，** *我们将所有 OSPO 员工归类为技术项目经理，因为这是一个在技术组织中广为人知的技能组合，而且我们的 OSPO 扎根于工程领域。因此，在这个分类中有一系列等级，从 PM-1 到 PM-6,相当于高级主管。*
+
 Indeed, Ruff advocates for OSPOs to report to the CTO or the SVP of engineering, rather than to marketing or legal.
+
+确实，Ruff 主张 OSPO 应当向首席技术官（CTO）或者高级副总裁（SVP）汇报工作，而不是向营销部或者法务部。
 
 *"OSPOs should have a very high reporting structure because it's a pretty big cultural change and you cannot do that without having support from the top. It must be a strategic and important initiative for the company. Having that kind of air cover is important,"* said Ruff. 
 
+Ruff 说道：*“OSPO 应该有非常高的报告结构，因为这是一个相当大的文化改变，如果没有来自高层的支持，你就无法完成它。它必须是公司的一个战略和重要的倡议。拥有这样的空中掩护是非常重要的。”*
+
 In any case, the first step is breaking down the skills an OSPO staff member uses in their daily functions and fitting those into well understood skill buckets in other company departments or divisions.
+
+无论如何，第一步是分解 OSPO 员工在日常工作中使用的技能，并将这些技能归入公司其他部门或者分部的已熟知技能范畴。
 
 *"From there, employees can work with their managers to grow their skills in domains that support OSPOs service work within the company while deepening their own expertise in a particular area,"* said **Leslie Hawthorn, Senior Principal Technical Program Manager, Open Source Program Office, Office of the CTO at Red Hat.**
 
+“之后，员工可以与他们的经理合作，提升支持 OSPO 在公司内部服务工作的技能，同时深化自己在特定领域的专业知识。”Red Hat 首席技术官办公室开源计划办公室高级首席技术项目经理 Leslie Hawthorn 表示。
+
 ## Example: Mapping the Skills of a Community Manager
+## 示例：映射社区管理者的技能
 
 Job titles at Comcast are closely equated to more traditional roles in engineering to assist in identifying skill sets in easily recognizable terms. The succession steps are also similar. For example OSPO staff are classified as technical program managers and progress on a scale starting at entry level PM-1 and ending at PM-6, the equivalent of a senior director.
 
+Comcast 的职位名称与工程领域的传统的角色密切相关，有助于以易于识别的属于确定技能组合。继任步骤也类似。例如，OSPO 员工被归类为技术项目经理，并在从初级 PM-1 到高级 PM-6 的等级制度中晋升，相当于高级主管。
+
 *"We can pass people through that route but unless there are big divisions in a company where you can say, okay, you can go be the OSPO leader in division A, then it's very hard to find a role for yourself beyond just being at that top end of your community manager role or top end of your compliance manager role,"* said Ruff. 
+
+Ruff 说：“我们可以通过这条路径培养人才，但除非公司内部存在大的部门划分，比如可以说，好的，你可以去 A 部门担任 OSPO 负责人，否则，除了担任社区经理或合规经理等职位的高级职位之外，很难找到更合适的角色定位。”
 
 Internally, the job title is always program manager at Comcast and closely tied to engineering roles, but externally the titles are aligned with other OSPOs, according to Ruff. The external titles are commonly community managers, compliance managers, or devrel, which is short for developer relations. 
 
+据 Ruff 介绍，在 Comcast 内部，该职位名称始终是项目经理，与工程角色密切相关，但在外部，该职位名称与其他 OSPO 保持一致。外部职位名称通常为社区经理、合规经理或者技术布道师，后者是开发者关系的简称。
+
 *"It is important to parse the newer title of dev rel out and determine what it means to OSPOs and in terms of traditional role counterparts. Is it the same or different as a community manager? Can the OSPO charter be broadened to include developer relations or to help developers be more effective on different fronts, not just on open source? What about DevOps and agile and other things of that nature? Can the OSPO expand its capacity to fit all that and to encourage the growth of those skillsets too?"* asked Ruff.
+
+*“重要的是解析出 dev rel 这个新职位名称，并确定它对 OSPO 以及传统角色的对应者意味着什么。它与社区经理的职位是否相同或不同？OSPO 的章程是否可以扩大，以包含开发者关系或帮助开发者在多个方面提高有效性，而不仅仅是开源方面？那么 DevOps、敏捷开发和其他的东西呢？OSPO 是否能够扩大其能力来适应所有这些，并鼓励这些技能集的发展？”* Ruff 问道。
 
 For the moment, many companies employ community managers to focus on program management for their open source activities. The tasks for each community manager vary from organization to organization, but the work falls into well understood skill buckets.
 
+目前，许多公司都雇佣社区经理来专注于其开源活动的项目管理。每个社区经理的工作任务因组织而异，但他们的工作都可以归入一些列为人熟知的技能内别。
+
 1. **Product Management, Marketing and Sales:** Product management requires knowledge, use and management of metrics, user feedback and feature requests, and bridge building between power users and developers for product improvement and innovation. Product marketing requires raising overall awareness of the project, developing and implementing content strategy (blogs, social media, YouTube videos, etc), and measuring reach and engagement. These are the same skills used by many Community Management professionals in managing and promoting an open source project.
+
+1. **项目管理，市场营销和销售：** 项目管理需要知道、运用和管理各种指标、用户反馈和功能需求，并在高级用户和开发人员之间建立桥梁，以推动产品改进和创新。产品营销需要提高整个项目的知名度，制定并执行内容策略（博客，社交媒体，YouTube 视频等），并衡量影响力和参与度。这些技能也是许多社区管理专业人士在管理和推广开源项目时所使用的。
 
 Community management professionals also use skills similar to those used in product sales. These professionals are "selling" a very discerning audience on the nature and virtues of the project and the reasons their “prospect” should contribute to or use this project rather than another. Many community management professionals must be successful at collecting leads at events, ensuring their presentations and content comes across as genuinely educational rather than as a blatant sales pitch, and that their one-on-one relationships are supportive of deal flow, be that deal onboarding a new contributor or executing a new sales contract. 
 
+社区管理专业人士也使用与那些在产品销售中相似的技能。这些专业人士正在向一群非常挑剔的受众“推销”项目的本质和优点，以及他们的“潜在客户”为何应该为此项目而不是其他项目做出贡献或使用此项目的原因。许多社区管理专业人士必须在活动中成功收集线索，确保他们的展示和内容能够真正传达出教育的意涵，而非明显的销售宣传，并确保他们的一对一关系能够支持交易流程，无论是接纳新的贡献者还是执行新的销售合同。
+
 2. **Strategic Partner Management:** Open source communities may include many volunteers, but that doesn’t mean they don’t function on business principles. Corporate partners are an important part of a project’s success, and they expect mutual benefit. Community management pros must be attuned to the goals of corporate partners and how they align with the goals of the community as well as with other corporate partners. Management issues can be delicate to handle but they also must be resolved to the benefit of all and not just a few. Preferably without losing a partner or sponsor. 
+
+2. **战略合作伙伴管理：** 开源社区可能包含许多志愿者，但是这并不意味着他们不按照商业原则运作。企业合作伙伴是项目成功的重要组成部分，他们期待互惠互利。社区管理专业人士必须关注企业合作伙伴的目标，以及它们与社区目标以及其他企业合作伙伴的目标之间的默契程度。管理问题可能需要小心处理，但也必须解决，以使所有人受益，而不仅仅是少数人。最好是在不失去合作伙伴或者赞助商的情况下解决。
 
 3. **Evangelism and Sponsor Relations:** Evangelism differs from sales in that it is focused on promoting the community and the work of others rather than directly on the project. It involves, among other things, developing coordinated community and project messaging, determining the best means to get the messaging distributed internally and externally, and actively promoting the work of other people and organizations who are advocating for the project. Managing sponsor relations to aid with fundraising for project activities or an affiliated Foundation is a top priority. This requires a near-constant external sponsorship search to support events and a pressing need to develop protocols and policies to determine which sponsors are most appropriate.
 
-4. **Field Enablement and Support:** Many community management professionals also provide support for project members ranging from technical assistance to dispute resolutions. A big part of most community management professionals’ duties is resolving conflicts between the various volunteer members. This requires both policy-making skills and conflict resolution skills. Further, new members need to be onboarded, welcomed, and encouraged so that they stay interested and contribute to the community in meaningful ways. Talent recruitment and retention are also important functions to ensure the community thrives and the project gains market respect and broad support. 
+3. **宣传与赞助关系：** 宣传与销售不同，它侧重于推广社区和他人的工作，而不是直接推销项目。它包括但不限于制定协调的社区和项目信息传递、确定最佳的内部和外部信息传递方式，以及积极推动为项目发声的其他个人和组织的工作。管理赞助关系以帮助筹集项目活动或附属基金会的资金是头等大事。这需要进行近乎持续的寻求外部赞助，以支持活动，并迫切需要制定协议和政策，确定哪些赞助商最合适。
+
+3. **Field Enablement and Support:** Many community management professionals also provide support for project members ranging from technical assistance to dispute resolutions. A big part of most community management professionals’ duties is resolving conflicts between the various volunteer members. This requires both policy-making skills and conflict resolution skills. Further, new members need to be onboarded, welcomed, and encouraged so that they stay interested and contribute to the community in meaningful ways. Talent recruitment and retention are also important functions to ensure the community thrives and the project gains market respect and broad support. 
+
+3. **现场赋能和支持：** 许多社区经理专业人员还为项目成员提供支撑， 范围从技术支持到纠纷解决。社区管理专业人员的一个重要职责就是解决不同志愿者之间的冲突。这既要求制定政策的技能，也需要解决冲突的技能。此外，新成员需要得到入职指导、欢迎和鼓励，以至于他们能够保持兴趣并以有意义的方式为社区做出贡献。人才招聘和留任也是确保社区蓬勃发展、项目赢得市场尊重和广泛支持的重要职能。
 
 Community managers also provide field support as technical experts for customers. Further, they develop processes designed to provide educational services to Solution Architects and solicit code contributions from customers. These skills are currently in high demand in every organization.
 
+社区经理也作为技术专家为客户们提供现场支持。此外，他们还制定流程，旨在为解决方案架构师提供教育服务，并从客户们那里请求代码贡献。这些技能目前在每个组织都很受欢迎。
+
 Documentation is essential to the success of any project. The skills necessary to provide or oversee documentation include writing, vetting, distribution, and delineating corporate value versus community value within the documentation.  Community management professionals may also find themselves to be proficient editors and good at finding and recruiting writers to focus on documentation. 
 
-5. **Finance and Budgeting:** Most community managers are responsible for budgets that cover everything from convening events to T&E (travel and expenses) for the talks they give at conferences. Budgets must be balanced and allocated fairly. Some examples of tough budget provisioning are determining how to reimburse community contributors globally, maximizing return on spend for marketing and other activities, and maintaining a financial cushion to enable a fast response to opportunities as warranted. 
+文档对于任何项目额成功都至关重要。提供或监督文档所需要的技能包括撰写、审核、分发和在文档中界定企业价值和社区价值的区别。社区管理专业人士可能也会发现自己擅长编辑，并擅长寻找和招募专注于文档编写的作者。
+
+4. **Finance and Budgeting:** Most community managers are responsible for budgets that cover everything from convening events to T&E (travel and expenses) for the talks they give at conferences. Budgets must be balanced and allocated fairly. Some examples of tough budget provisioning are determining how to reimburse community contributors globally, maximizing return on spend for marketing and other activities, and maintaining a financial cushion to enable a fast response to opportunities as warranted. 
+
+4. **财务和预算：** 大多数社区经理负责涵盖从召开活动到在会议上发表演讲的差旅与费用（T&E）等各方面的预算。预算必须平衡和公平分配。一些预算配置的困难例子包括确定如何全球范围内对社区贡献者进行报销、最大化营销和其他活动的支出回报，并保持财务储备以便根据情况快速应对机会。
 
 The various professional roles in community management entail some or all of these functions and skills. Yet their skills are rarely itemized so that they can be recognized, developed and promoted separately as noted accomplishments worthy of job advancement. By itemizing these skills and experiences, the resulting buckets labeled with traditional job roles will give each report a very good idea where their strengths and weaknesses lay, and where their preferences are in particular task categories. 
 
+社区管理中的各种专业角色涉及一些或所有这些职能和技能。然而，他们的技能很少被列明，以便能够被认可、发展和单独推广为值得职业发展的成就。通过逐项列明这些技能和经验，以传统职位角色标记的结果将使每个报告者非常清楚地了解自己的优势和劣势所在，以及他们在特定任务类别中的偏好。
+
 This information will go far in selecting and directing a path aimed at progressing up the career ladder. It will also be valuable to the OSPO senior leader looking to build out a job ladder for those in their organization. 
 
+这些信息将在选择和指导职业发展路径方面大有裨益。对于希望为组织中的成员建立职业晋升路径的开源项目办公室（OSPO）高级领导者来说，这也将是非常有价值的。
+
 ## Retaining and Promoting Your OSPO Professionals: Job Ladders
+## 保留和提升您的 OSPO 专业人员：职业阶梯
 
 OSPO staff are in high demand. Yet it is often easier for them to change employers in order to advance their careers than to move ahead where they are. While such career moves are understandable, they are counterproductive for the organizations that are left behind.
 
+OSPO 的员工需求量很大。然而，对于他们来说，更容易通过换雇主来推动自己的职业发展，而不是在原来的地方取得进步。虽然这样的职业转变可以理解，但对于留下的组织来说却是适得其反的。
+
 *"A lot of us tend to circulate in the industry. That’s because currently the main way to grow is to move to a position of open source program office leader in another company, typically one that is just beginning to start their open source office. And that's a great jump because then you become the leader and you start your own team,"* said Ruff.
+
+*“我们很多人倾向于在行业内流动。这是因为目前成长的主要途径是转移到另一家公司担任开放源代码项目办公室负责人的职位，通常是一家刚开始建立开放源代码办公室的公司。这是一个很大的进步，因为这样你就成为了领导者，可以组建自己的团队，”* Ruff 说道。
 
 Ultimately it is the companies that offer the highest rungs in the career ladder that tend to net big talent. 
 
+最终，能够提供职业阶梯上最高层的公司往往能吸引到顶尖人才。
+
 *"In my case, I came in as a senior director and then was promoted to executive director, and then the next path becomes vice-president and chief open source officer,"* Ruff explained.
+
+Ruff 解释道：*“在我的情况下，我最初是作为高级总监加入的，然后晋升为执行总监，接下来的职业发展路径是副总裁兼首席开源官。”*
 
 But most organizations, a chief open source officer or a VP type of role isn’t merited. More often the top positions are director or senior director roles. 
 
+但是，在大多数组织，担任首席开源官或者副总裁级别的职位并不常见。通常见的是总监或者高级总监的职位。
+
 *"You can also broaden these roles to take on open source standards, or join other open innovation work at universities or at other research projects that the company invests in externally. That then becomes a nice meaty role,"* says Ruff. 
+
+Ruff 说道：*“你还可以扩大这些职位的范围，涉及开源标准，或者参与公司在外部投资的其他开放创新工作，比如大学或者其他研究项目。这样你就可以担任一个非常丰富多彩的角色。”*
 
 *"I believe that at Microsoft, legal counsel has open source standards as well as open source work under the same umbrella. So I can see that kind of consolidating becoming a broader charter for the open-source program office,"* Ruff added.
 
+Ruff 补充道：*“我相信在微软，法律顾问负责制定开源标准以及开源工作，统一归属于同一个部门。因此，我可以看到这种整合会成为开源项目办公室更广泛职责的一部分。”*
+
 But even when OSPO professionals do move to a new organization, opportunities to advance to executive director, VP or Chief Open Source Officer are few. 
+
+即使 OSPO 专业人员转到新的组织，晋升为执行总监，副总裁或者首席开源官的机会也很少。
 
 *"I've seen OSPO members go on to become executive directors at foundations like Guy Martin did. He went from being an OSPO leader at Autodesk to being an executive director at Oasis Open. And Shubhra Kar went from Samsung to the Linux Foundation. Those are the two routes I've seen work, but I haven't seen anything else beyond those,"* said Ruff. 
 
+Ruff 说道：*“我见过 OSPO 成员进入基金会担任执行总监，就像 Guy Martin 所做的那样。他从 Autodesk 的 OSPO 负责人转到了 Oasis Open 担任执行总监。Shubhra Kar 从三星转到了 Linux 基金会。这是我见过行之有效的两条路线，但除此之外我没有看到其他情况。”*
+
 ## Guide reports on building their personal brand
+## 建立个人品牌的指导报告
 
 It’s no secret that open source professionals are in high demand across industries. But that doesn’t mean individuals or their projects can necessarily prosper without active and sustained promotion.
 
+众所周知，开源专业人员在各行各业都备受青睐。但这并不意味着个人或他们的项目可以在没有积极和持续的推广的情况下取得成功。
+
 In order to gain the recognition and visibility needed for opportunities to find any given individual – or for that individual to promote themselves to higher opportunities, they must actively promote their personal brand. 
+
+为了获得所需的认可和曝光，以便为个人找到机会，或者让个人向更高的机会推销自己，他们必须积极推广自己的个人品牌。
 
 The returns from OSPO leaders guiding reports on how to build their brand are equally strong for the team, project, and company too. When OSPO leaders actively and visibly demonstrate an interest in their reports’ career development, individual and team morale and performance improve significantly. As reports become more recognizable and respected brands, the project’s brand rises too. 
 
+对 OSPO 领导指导下属如何建立品牌的报告的回报，同样对团队、项目和公司也是巨大的。当 OSPO 领导积极可见地表现出对下属职业发展的关注时，个人和团队的士气和业绩会显著提高。随着下属成为更受认可和尊重的品牌，项目的品牌也会提升。
+
 Further, a large part of any project’s success is attributable to its ability to attract and retain developers and other professionals. Having professionals on your staff with highly visible and respected personal brands will go far in attracting more talent to your project. 
+
+此外，任何项目成功的很大一部分归功于其吸引和留住开发人员和其他专业人员的能力。拥有个人品牌高度可见且备受尊重的专业人员将大大有助于吸引更多人才加入项目。
 
 OSPO leaders can also lighten their own workloads and multiply project and company branding efforts by sending their reports out on speaking opportunities and for public appearances representing the company. By actively assisting reports in building a strong public persona, OSPO leaders ensure everyone wins. 
 
+OSPO 领导还可以通过为下属安排演讲机会和公开露面代表公司，减轻自己的工作负担，并增加项目和公司的品牌推广力度。通过积极帮助下属建立强大的公众形象，OSPO 领导确保每个人都是赢家。
+
 ## OSPO Leader Networking
+## OSPO 领导者的网络建立
 
 Successful OSPO leaders network with their peers to promote themselves, mentor other leaders, and discover new ways to support their own reports. The TODO Group is "the great watering hole for OSPO leaders and frankly all OSPO members," said Ruff.
 
+成功的 OSPO 领导者与同行建立网络，推广自己，指导其他领导者，并发现支持自己下属的新方法。TODO 小组是“所有 OSPO 领导者，事实上是所有 OSPO 成员的大型聚集地”，Ruff说道。
+
 The focus in this type of networking is on common issues, challenges, and successes. Competitors not only work together, they seek out such opportunities to advance their own projects in the most efficient way possible. Open source competencies are viewed as separate and apart from core intellectual property (IP) or protected IP. 
+
+这种类型的网络建立侧重于共同的问题、挑战和成功经验。竞争对手不仅合作，还寻求这样的机会，以最高效的方式推动自己的项目发展。开放源代码的能力被视为与核心知识产权（IP）或受保护的知识产权分开。
 
 *"Just recently, three or four OSPOs came to me wanting to compare notes. Disney, one of our competitors, asked to compare notes on our respective OSPOs. Verizon Media, another competitor, did the same. And so did JP Morgan Chase & Co and Office Depot, both of which were just setting up their OSPOs. We're happy to mentor and support them."* said Ruff. 
 
+*“就在最近，有三四个 OSPO 来找我想要交换意见。迪士尼，我们的竞争对手之一，要求比较我们各自的OSPO情况。另一个竞争对手，Verizon Media 也是如此。JP 摩根大通和Office Depot 也是，他们两家公司都刚刚建立了自己的 OSPO。我们很乐意指导和支持他们。”* Ruff说道。
+
 *"I think that's wonderful. And we were very candid with each other because there is nothing secret about it and we want them to succeed. We want this whole industry of media and entertainment to succeed"* Ruff added. 
 
+“我认为这很棒。我们彼此非常坦诚，因为这并不是什么秘密，我们希望他们成功。我们希望整个媒体和娱乐行业都能取得成功。” Ruff 补充道。
+
 ## Mapping futures
+## 未来规划
 
 OSPOs win on several fronts when they crystalize career paths for staff. Skill sets within the office expand making it possible to do more with more, even if the head count doesn’t grow too. Employee experience improves dramatically which in turn improves both recruitment and retention rates. Professional networks grow larger and stronger as more reports come into their own leadership roles later. Succession plans become easier tasks. Organizations benefit from expanding and maturing skill sets as they move forward with their open source projects and plans.
 
+当 OSPO 为员工明确规划职业道路时，它们在多个方面都能取得成功。办公室内的技能组合得以扩展，即使人员数量不增加，也可以做更多的事情。员工的经验显著提高，这进而提高了招聘和留住员工的比率。专业网络随着更多的下属晋升到领导职位而变得更大更强。继任计划变得更加容易。随着他们推进开源项目和计划的步伐，组织受益于扩展和成熟的技能组合。
+
 When OSPO managers take the time and make the effort to shape clear career paths for their staff, everyone wins.
 
+当 OSPO 经理花时间和精力为员工制定清晰的职业道路时，每个人都会受益。
+
 ## Acknowledgements
+## 致谢
 
 **Contributors to this guide:**
+**本指南的贡献者**
 
 * [Amye Scavarda](https://twitter.com/amye)
+* [Amye Scavarda](https://twitter.com/amye)
+* [Chris Aniszczyk](https://twitter.com/cra)
 * [Chris Aniszczyk](https://twitter.com/cra)
 * [Will Norris](https://www.linkedin.com/in/willnorris/)
+* [Will Norris](https://www.linkedin.com/in/willnorris/)
+* [Leslie Hawthorn](https://www.linkedin.com/in/lesliehawthorn/)
 * [Leslie Hawthorn](https://www.linkedin.com/in/lesliehawthorn/)
 * [Deborah Byant](https://www.linkedin.com/in/opengovernment/)
+* [Deborah Byant](https://www.linkedin.com/in/opengovernment/)
 * [Nithya Ruff](https://www.linkedin.com/in/nithyaruff/)
+* [Nithya Ruff](https://www.linkedin.com/in/nithyaruff/)
+* [Greg Back](https://www.linkedin.com/in/gregback/)
 * [Greg Back](https://www.linkedin.com/in/gregback/)

@@ -2,25 +2,16 @@
 title: 管理开源项目的工具
 ---
 
-The road to strategic use of open source starts with a carefully planned, organized, and empowered open source program office to guide and manage its creation, distribution, and use. But, that’s just a first step. To get such an office underway and running smoothly, you need the right tools. These mission-critical tools will be used to track goals and metrics in departments from engineering and legal to executive leadership, PR and marketing to HR, and give each of these functions all the resources they need to gather data, provide snapshots of performance, and manage the daily use of open source within your company.
-
 开源项目工具的战略应用之路始于一个精心策划、组织有序、有实权的开源项目办公室，用以指导和管理其创建、分发和使用（开源项目）。但这只是第一步。要让这样的办公室运转顺畅，你需要正确的工具。这些至关重要的工具将用于跟踪目标和指标，涉及从工程和法务到执行领导、公关和市场营销，再到人力资源等部门，并为每个功能提供所需的所有资源，以收集数据、提供绩效快照，并管理公司内部对开源的日常使用
-
-This guide provides details and scenarios for how to get your open source tool collection started, including information about the most important tools to use to track and manage your open source projects. Many of the tools have been created and open-sourced by The Linux Foundation and other leaders in the field, providing free and easy access for your projects. You’ll also find an example dashboard setup, which combines information from multiple tools for central review.
 
 本指南提供了关于如何开始构建您的开源工具集的详细信息和场景，包括了解用于跟踪和管理您的开源项目的最重要工具的信息。许多工具是由Linux基金会和其他行业领先者创建并开源的，为您的项目提供了免费和便捷的访问。您还将找到一个示例仪表板设置，该设置将来自多个工具的信息汇总进行集中审查。
 
 **Table of Contents**
 
-- [Why you need special tools for open source program management](#why-you-need-special-tools-for-open-source-program-management)
 - [为什么您需要特殊的工具来管理开源项目](#为什么您需要特殊的工具来管理开源项目)
-- [How to select and plan your tools](#how-to-select-and-plan-your-tools)
 - [如何选择和规划您的工具](#如何选择和规划您的工具)
-  - [Leverage existing tools](#leverage-existing-tools)
   - [利用现有工具](#利用现有工具)
-  - [Create a dashboard](#create-a-dashboard)
   - [创建仪表板](#创建仪表板)
-- [Elements of a basic toolset](#elements-of-a-basic-toolset)
 - [基本工具集的要素](#基本工具集的要素)
   - [Automate processes](#automate-processes)
   - [自动化流程](#自动化流程)
@@ -55,22 +46,6 @@ This guide provides details and scenarios for how to get your open source tool c
 - [Acknowledgements](#acknowledgements)
 - [致谢](#致谢)
 
-## Why you need special tools for open source program management
-
-Once your open source program office is up and running, it’s time to collect the right software tools that will allow your development teams to manage, track, guide, and advance their open source projects, consumption, contributions, and releases.
-
-These tools are critical because using open source for business strategy requires its own methodologies and processes which are very different than those needed when using and releasing proprietary software. Open source tools allow companies to do a myriad of tasks:
-
-* Provide a workplace for collaboration and code building.
-* Manage project health.
-* Automate critical and repeatable tasks such as code review and tracking and license compliance.
-* Generate data to prove ROI for your program office and open source strategy, in general.
-* Oversee project quality and to make sure that guard rails are in place if issues arise.
-
-Having the right, targeted tools as you begin your open source journey will also make jobs easier for developers and other employees, will provide better insight to results, and will become the basis for successful collaboration and communication of a company’s open source projects.
-
-> “If you have more than 100 code repositories or 100 people that you're trying to manage, you really can’t have someone doing it manually with spreadsheets anymore. Obviously, people still do it that way. But it starts to become ad hoc and laborious. That’s where tools come into play. They allow you to scale.” – [Jeff McAffer](https://twitter.com/jeffmcaffer), Director of the Open Source Programs Office at Microsoft
-
 ## 为什么您需要特殊的工具来管理开源项目
 
 一旦您的开源项目办公室开始运作，就该收集合适的软件工具，让您的开发团队能够管理、跟踪、指导和推进他们的开源项目、消费、贡献和发布。
@@ -86,26 +61,6 @@ Having the right, targeted tools as you begin your open source journey will also
 在开启您的开源之旅时拥有正确、针对性的工具也会让开发人员和其他员工的工作更轻松，为结果提供更好的洞察力，并成为公司开源项目成功合作和沟通的基础。
 
 > “如果您有超过100个代码仓库或100名需要管理的人员，您真的不能再让人用电子表格手动管理了。虽然，人们仍然会这样做。但这开始变得临时和繁琐。这就是工具发挥作用的地方。它们让您能够扩展规模。” – [Jeff McAffer](https://twitter.com/jeffmcaffer)，微软开源项目办公室主任
-
-## How to select and plan your tools
-
-Most of the early discussions about which open source tools are needed by a company will depend on its business, products, and services and how it serves its customers and employees. As the planning process and strategy map are developed by its open source program office, tools can be chosen to integrate the company’s goals, processes and infrastructure.
-
-Ultimately, the only way to know which tools you will need is to understand what you want to do with open source.
-
-Below are the basic steps for choosing the tools you’ll need for managing your open source program office:
-
-1. Get buy-in and selection preferences from developers and community members. To accomplish this, you’ll want to conduct detailed discussions with developers and community members. They can describe what tools have been or would work best for them. Take those recommendations and requests very seriously. Listen to the people who are going to get you to your goal. They have most likely been using many of these tools already, so benefit from their experiences.
-2. Understand necessary software dependencies and integrations for business-critical applications. This means understanding and knowing which open source software your business depends on so you can stay up to date with security issues and ensure software continuity.
-3. Research existing tools and decide what you can use as-is, or build out to suit your needs. Don’t start from scratch for every tool. See what is out there and being used in the open source communities you are in and get advice and feedback about those tools. Linger in online development communities to see what works and ask for recommendations and advice. Ask questions at open source conferences, talk to fellow developers in Birds-of-a-Feather sessions, and learn from others who are already doing what you want to do.
-
-Once selected, the tools must then be implemented, which requires several additional steps:
-
-1. Create an internal infrastructure to support, manage, and use the tools. Through your newly-formed open source program office, designate someone to maintain and build the internal infrastructure that will distribute the tools through an online internal portal where they are kept and organized into tasks and features. In this tool portal you can make the tools available to all developers or restrict them to specific users through authentications and permissions based on their jobs and requirements.
-2. Provide training plans for employees who will use the tools. Just getting the tools isn’t enough. Now you have to be sure that your developers know how to use them and are mastering their capabilities. This is where training programs, whether online, in classrooms or in small lunchtime group settings, will be important to reap the benefits of their use. Ask your developers which learning methods work best for them and let them choose how they want to learn.
-3. Ensure the tools are centrally visible in your organization. Make it easy for developers to find and use them, preferably integrated into any existing developer dashboards that track development progress. Again, this is where the internal tool portal is going to help your company organize and distribute the critical tools for your operations.
-
-Implementation is helpful to keep in mind as you are choosing your tools, as this may also affect your decision. A tool with a steep learning curve, for example, may require more training.
 
 ## 如何选择和规划您的工具
 
@@ -127,17 +82,6 @@ Implementation is helpful to keep in mind as you are choosing your tools, as thi
   
 在选择工具时，考虑到实施也是有帮助的，因为这也可能影响您的决策。例如，一个学习曲线陡峭的工具可能需要更多的培训。
 
-### Leverage existing tools
-
-After you have a good idea of what your team needs to meet your organization’s open source goals and the possible limitations of your own dependencies and infrastructure, the first step is to explore and learn about existing tools that are ready-built and available for you today. Since most are open source tools themselves, if they don’t meet your exact needs at the start, your development teams can contact the builders of the tools to see if they can collaborate and contribute to take the tools in new directions by adding features.
-
-Ironically, many open source program offices don’t always reuse the tools developed by others, or collaborate with other companies to work on the tools they require to manage their open source programs. Often, they want to do that, but many businesses, including Facebook and Microsoft, already have existing tool suites which were in place before collaboration really became a discussion topic. Because they already have their tool sets and have made those investments, they seem to have less desire to adopt those of other companies.
-
-That’s where companies that are just starting to build out their own open source programs have a significant advantage. Since they are now establishing their own open source program offices and diving into open source, they don’t have to be bothered with such limitations.
-
-Instead, they can wisely take advantage of the experiences and successes of others and build their open source toolboxes using the proven tools created by companies which led the way in recent years. The Linux Foundation’s open source industry organization, the [TODO Group](http://todogroup.org/) (Talk Openly Develop Openly), collects a list of these tools in this document.
-
-5.22 审阅到这里。
 ### 利用现有工具
 
 一旦您对团队需要满足组织开源目标的工具有了清晰的想法，以及自身依赖和基础设施的可能限制，第一步就是探索并了解已经构建好并可供您使用的现有工具。由于大多数工具本身都是开源的，如果它们起初不符合您的确切需求，您的开发团队可以联系工具的构建者，看看他们是否可以合作并贡献，通过添加功能将工具引入新方向。
@@ -148,25 +92,11 @@ Instead, they can wisely take advantage of the experiences and successes of othe
 
 相反，他们可以明智地利用他人的经验和成功，并使用近年来由领先的公司创建的经过验证的工具来构建他们的开源工具箱。Linux基金会的开源行业组织，[TODO Group](http://todogroup.org/)（开放谈论，开放开发），在本文档中收集了这些工具的列表。
 
-### Create a dashboard
-
-Along with the proper tools, companies should also incorporate central dashboards which allow them to monitor and track their open source projects and development in real time. Many companies likely have such dashboards for existing development work and applications and may be able to integrate the existing dashboards with their open source work. If not, they should create or adopt new dashboards to improve the management of their open source deployments.
-
-> “On dashboards, there are many ways to create them, and it’s really an art in terms of how companies want to display development-related information. Some people build these fancy screens with rotating dashboards, but the key thing is to have a central location**, preferably co-located with your existing dev dashboards,** where people can go to learn more about open source project health, metrics, and so on.” – [Chris Aniszczyk](https://twitter.com/cra), COO of the Cloud Native Computing Foundation.
-
 ### 创建仪表板
 
-除了合适的工具之外，公司还应该结合中央仪表板，允许他们实时监控和跟踪其开源项目和开发。许多公司可能已经有了这样的仪表板用于现有的开发工作和应用程序，并且可能能够将现有的仪表板与他们的开源工作集成起来。如果没有，他们应该创建或采用新的仪表板来改进他们的开源部署管理。
+除了合适的工具之外，公司还应该结合中央仪表板，允许他们实时监控和跟踪其开源项目和开发。许多公司可能已经有了这样的仪表板用于现有的开发工作和应用程序，并且可能将现有的仪表板与他们的开源工作集成起来。如果没有，他们应该创建或采用新的仪表板来改进他们的开源部署管理。
 
->“关于仪表板，有许多创建它们的方式，从公司想要如何显示与开发相关的信息的角度来看，这真的是一种艺术。有些人构建这些带有旋转仪表板的花哨屏幕，但关键是要有一个中心位置，最好与您现有的开发仪表板共同位置，人们可以前去了解更多关于开源项目健康状况、指标等信息。” – Chris Aniszczyk，云原生计算基金会COO。
-
-## Elements of a basic toolset
-
-The abundance of tools available for managing and reporting on open source projects can quickly become overwhelming. If your open source program is just getting started, it helps to focus your research on just a few of the basic tools that you’ll need to get up and running.
-
-Then as your program grows and you’ve gained more experience using these tools, you can start to adopt new tools to help you automate and streamline your processes as the need arises. Remember that you want the tools you choose to complement and support your internal culture and processes – not lead them.
-
-The sections below give the basic categories of tools that pretty much all open source programs use on a daily basis. This is a good way to organize your research.
+>“关于仪表板，有许多创建它们的方式，从公司想要如何显示与开发相关的信息的角度来看，这真的是一种艺术。有些人构建这些带有旋转仪表板的花哨屏幕，但关键是要有一个中心位置，最好与您现有的开发仪表板共同位置，人们可以前去了解更多关于开源项目健康状况、指标等信息。” – [Chris Aniszczyk](https://twitter.com/cra)，云原生计算基金会COO。
 
 ## 基本工具集的要素
 

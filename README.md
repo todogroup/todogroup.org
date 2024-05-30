@@ -75,7 +75,7 @@ npm run start
 
 ### To run in docker
 
-As memtioned above, fork and clone this repository, run `git submodule`, then run following:
+As mentioned above, fork and clone this repository, run `git submodule update --init --recursive`, then run following:
 
 ```bash
 ./run-hugo-in-docker.sh

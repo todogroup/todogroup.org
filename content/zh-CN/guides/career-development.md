@@ -20,6 +20,102 @@ The purpose of this guide is to help OSPO leaders build a sustainable and reward
 
 ![career-development-infographic](/static/img/guides/career-development-infographic.png)
 
+OSPO Career Trailmap
+OSPO职业路线图
+
+This trailmap helps organizations build a sustainable and rewarding OSPO career path for their employees, helping them gather depth of skills in particular areas so they’re well prepared to develop their careers in more than one area of the business.
+
+这个路线图帮助组织为他们的员工建立一个可持续和有回报的OSPO职业路径，包括帮助他们在特定领域获得深入的技能，以便他们能够在业务的多个领域中发展自己的职业。
+
+Get started into OSPO!
+Join TODO/OSPO Community
+https://todogroup.org/community/
+
+开始加入OSPO！
+加入TODO / OSPO社区
+https://todogroup.org/community/
+
+Explore OSPO Resources
+https://todogroup.org/guides/
+
+探索OSPO资源
+https://todogroup.org/guides/
+
+OSPO Training
+https://github.com/todogroup/ospo101
+
+OSPO培训
+https://github.com/todogroup/ospo101
+
+What is TODO Group?
+
+什么是TODO Group？
+
+TODO Group is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices or similar Open Source initiatives.
+
+TODO Group是一个开放的实践者社区，旨在创建和分享知识，合作实践、工具以及其他运行成功且有效的开源程序办公室或类似开源计划的方法。
+
+Read more about the group, join the community or become a supporter to get involved.
+
+阅读更多关于该组织的信息，加入社区或成为支持者以参与其中。
+
+Network with Peers:
+
+与同行网络：
+
+Successful OSPO leaders network with their peers to promote themselves, mentor other leaders, and discover new ways to support their own reports.
+
+成功的OSPO领导者与他们的同行进行网络交流，以推广自己，指导其他领导者，并发现新的方法来支持他们的报告。
+
+Retain and Promote:
+
+保留和提升：
+
+Those organizations that offer the highest rungs in the career ladder are the ones that tend to net big talent.
+
+那些在职业阶梯上提供最高层次的组织往往能够吸引到大人才。
+
+Map Skill Categories:
+
+技能类别映射：
+
+Break down the skills an OSPO staff member uses in their daily functions and fitting those into well understood skill buckets in other company departments or divisions.
+
+将OSPO员工在日常工作中使用的技能分解，并将其纳入其他公司部门或部门内公认的技能类别中。
+
+Mix Unique with Standard:
+
+将独特与标准混合：
+
+Organizational variances are common even though patterns in how most companies think about and manage open source are similar.
+
+尽管大多数公司在思考和管理开源方面的模式类似，但组织差异是常见的。
+
+Refit Existing Career Ladders:
+
+重新配置现有的职业阶梯：
+
+For instance, refit the organization’s engineering career ladder to reflect similar skills for community managers. Once a career ladder is complete for the OSPO team and people were promoted accordingly, other departments with open source talent showed interest in it too.
+
+例如，重新配置组织的工程职业阶梯，以反映社区管理者的类似技能。一旦为OSPO团队完成了职业阶梯，并且人们相应地得到了提升，其他有开源人才的部门也对此表现出了兴趣。
+
+Define the Scope of Work:
+
+定义工作的范围：
+
+Be intentional about either expanding or contracting the scope of your office in order to facilitate the work that needs to be done.
+
+有意地扩展或收缩您的办公室的工作范围，以便促进需要完成的工作。
+
+Build Personal Brand:
+
+建立个人品牌：
+
+Guiding reports on how to build an OSPO brand are equally strong for the team, project, and organization.
+
+关于如何建立强大的OSPO品牌的指导报告对于团队、项目和组织同样重要。
+
+
 **Table of Contents**
 
 - [标题：OSPOs团队的职业发展管理](#标题ospos团队的职业发展管理)

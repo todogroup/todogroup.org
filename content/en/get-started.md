@@ -7,11 +7,11 @@ url: "/community/get-started/"
 
 The easiest way to stay updated on the latest trends in OSPOs, job positions, events, and studies is to [subscribe to the monthly OSPO Newsletter](../osponews/).
 
-TODO uses [Slack](https://thetodogroup.slack.com/) for real-time communication and conversations are governed under [Chatham House Rules](https://www.chathamhouse.org/about-us/chatham-house-rule). Within Slack, you'll find our `#general` channel, along with various regional and working group-focused channels ([learn more about TODO group's community structure](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md)). Conversations in these chat channels are also anonymized and mirrored in the [OSPO forum via GitHub Discussions](https://github.com/todogroup/ospology/discussions).
+TODO uses [Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2l8r9czoi-vY8kYerIXGnBTmJFnApSLQ) for real-time communication and conversations are governed under [Chatham House Rules](https://www.chathamhouse.org/about-us/chatham-house-rule). Within Slack, you'll find our `#general` channel, along with various regional and working group-focused channels ([learn more about TODO group's community structure](https://github.com/todogroup/governance/blob/main/TODO%20Structure/structure-mindmap.md)). Conversations in these chat channels are also anonymized and mirrored in the [OSPO forum via GitHub Discussions](https://github.com/todogroup/ospology/discussions).
 
 Additionally, we offer [groups.io community mailing list](https://lists.todogroup.org/g/community). Joining this list will enable you to receive invitations to our monthly meetings and stay informed about important updates within the community.
 
-{{< button link="../osponews/" text="Subscribe to OSPONews" >}} {{< button link="https://thetodogroup.slack.com/" style="secondary" text="Join TODO Chat" >}} {{< button link="https://lists.todogroup.org/g/community" text="Join Community Mailing List" >}}
+{{< button link="../osponews/" text="Subscribe to OSPONews" >}} {{< button link="https://join.slack.com/t/thetodogroup/shared_invite/zt-2l8r9czoi-vY8kYerIXGnBTmJFnApSLQ" style="secondary" text="Join TODO Chat" >}} {{< button link="https://lists.todogroup.org/g/community" text="Join Community Mailing List" >}}
 
 {{< spacer >}}
 

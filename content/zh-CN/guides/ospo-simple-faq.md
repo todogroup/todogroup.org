@@ -11,7 +11,6 @@ title: 开源项目办公室（OSPO）简单的常见问题解答
 
 ![source: ospo easy faq cover](/static/img/guides/easy-faq-ospo.png)
 
-and the TODO Group. The original version is being documented in Japanese as part of the bi-weekly OSPO Japan Local Meetups, and the activity is facilitated by Kiyoshi Owada.
 
 易懂的 OSPO 常见问题解答（OSPO Easy FAQ）目前仍在进展中。该项目由日本 OSPO 当地见面会成员使用日语编写，并得到了 [OpenChain](https://www.openchainproject.org/) 日本工作组和 TODO Group 的支持。原始版本以日语的形式在每两周一次的日本 OSPO 当地见面会上进行记录，此活动由小和田喜代志先生主持。
 
@@ -21,5 +20,5 @@ and the TODO Group. The original version is being documented in Japanese as part
 
 ## 📝 文档
 
-* [下载日语的 OSPO 易懂常见问题解答（进展中）](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA.pdf)
-* [下载英语的 OSPO 易懂常见问题解答（进展中）](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA_en.pdf)
+* [下载日语的 OSPO 简易常见问题解答（进展中）](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA.pdf)
+* [下载英语的 OSPO 简易常见问题解答（进展中）](https://github.com/todogroup/todogroup.org/files/11635143/OSPO_SimpleQA_en.pdf)

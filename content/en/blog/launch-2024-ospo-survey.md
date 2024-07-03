@@ -1,5 +1,5 @@
 ---
-title: "Accepting responses: 2024 Open Source Management and OSPO Survey"
+title: "Accepting Responses - 2024 Open Source Management & OSPO Survey"
 author: todogroup
 date: 2024-07-02
 ---

@@ -2,8 +2,14 @@
 title: Open Source Program Office (OSPO) Easy FAQ
 ---
 
+---
+标题：开源项目办公室 （OSPO）快问快答
+---
+
 The OSPO Easy FAQ (Work in Progress) addresses key aspects of establishing and running an Open Source Program Office (OSPO), clarifying fundamental concepts and offering practical insights. 
 This FAQ aims to be a go-to resource for navigating the world of open source and building a framework for compliance, strategy, governance, and community within companies.
+
+
 
 Please note this aims to be a living document that will be regularly updated to reflect the ongoing progress of the OSPO Simple FAQ
 

@@ -4,7 +4,7 @@ command = "make production-build"
 
 [build.environment]
 NODE_VERSION = "18.14.0"
-HUGO_VERSION = "0.115.4"
+HUGO_VERSION = "0.126.1"
 
 [context.deploy-preview]
 command = "make preview-build"

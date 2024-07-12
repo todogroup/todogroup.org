@@ -1,270 +1,288 @@
 ---
-title: Setting an Open Source Strategy
+title: 制定开源战略
 ---
 
-# Setting an Open Source Strategy
+# 制定开源战略
 
-The majority of companies that use open source do not necessarily understand the benefits to their organization and do not have a strategy aligned with their business needs. Furthermore, only about half of these companies report practicing basic open source management, such as community development, code maintenance, and the like, according to the latest [Future of Open Source survey](https://www.slideshare.net/blackducksoftware/2016-future-of-open-source-survey-results).
+大多数使用开源的公司不一定了解开源对其组织的好处，也并没有与其业务需求一致的战略。此外，根据最新的[开源的未来调查](https://www.slideshare.net/blackducksoftware/2016-future-of-open-source-survey-results)，这些公司中只有大约一半声明在实践基本的开源管理，例如社区开发，代码维护等。
 
-Creating and documenting an open source strategy is an essential first step to realizing ROI with open source as open source can have a positive or negative effect across several dimensions related to an organization: strategic/business, operational, technological and financial. Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation. 
+创建和记录开源战略是实现开源投资回报比（ROI）的重要第一步，因为开源可以在与组织相关的多个方面产生积极或消极的影响：战略/业务，运营，技术和财务。你的开源战略可以将管理、参与和创建开源软件的计划与其所服务的业务目标关联起来。这可以开放许多机会并促进创新。
 
-## Why create a business strategy?
+## 为什么要创建开源战略？
 
-Formalizing your organization’s approach to open source management and strategy creates guidelines that boost efficiency and minimize risks. Whether or not you have set a business strategy around your open source efforts, you likely already know that this is important.
+正规化你的组织在开源管理及战略的方式，从而创建提升效率和最小化风险的指导原则。无论你是否已经围绕你的开源工作制定了相应的业务战略，您很可能已经知道这一点非常重要。
 
-The critical first step in increasing your open source investment is to create a strategy document that involves defining what open source means to your organization and creating a shared taxonomy. This will help you maximize the benefits your organization gets from open source, while keeping you out of trouble that can arise from mistakes such as picking the wrong licenses or failing to maintain code properly. Your strategy document can:
+增加开源投资的关键第一步是创建一个战略文档，其中包括定义开源对您的组织意味着什么，并创建一个共享的分类。这将帮助您最大限度地利用您的组织从开源中获得的好处，同时让你远离可能因错误（如选择错误的许可证或未能正确维护代码）而引起的麻烦。您的开源战略文档可以：
 
-* Get leaders excited and involved
-* Obtain buy-in at various levels within the company, especially at executive level
-* Facilitate decision-making in diffuse, multi-departmental organizations
-* Help individuals and inventors make better decisions
-* Help build a healthy community around inventions
-* Explain your company’s approach to open source and business models and support of its use
-* Clarify where your company invests in community-driven, external R&D and where your company will focus on its value added differentiation
+* 让领导层兴奋并参与进来
+* 获得公司的各个层面，特别是高层的认同
+* 促进分散的多部门组织的决策
+* 帮助个人和创造者做出更好的决策
+* 帮助围绕创造构建一个健康的社区
+* 阐释你的公司参与开源的方式及商业模式，以及对其使用的支持
+* 明确你的公司在哪些方面投资于社区驱动、外部研发，以及将侧重于哪些方面的增值差异化
 
-> "If you do not start with that high-level consensus, driving agreement on the details of the policy and on investments in the process tends to be very hard, if not impossible."* *- *Ibrahim Haddad, Vice President of R&D and the Head of the Open Source Lab at Samsung, in his book[ Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)[.](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/)
+>  “如果你不从高层的共识开始，推动达成关于策略和投资细节的共识这一过程就会变得非常困难，如果不是不可能的话。”.**-*Ibrahim Haddad，三星研发副总裁兼开源实验室负责人在他的书 [《企业中的开源合规](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)[》](https://www.linuxfoundation.org/compliance-and-security/2018/12/open-source-compliance-in-the-enterprise/) 中提到。
 
-## Your open source strategy document
+## 你的开源战略文档
 
-Let’s start with the end goal first, and then explain how to get there. Your goal is to detail your open source strategy in a document that everyone from engineering and legal, to marketing and the C-suite can reference. This strategy document will help your team understand the business objectives behind your open source program, ensure better decision-making, and minimize risks.
+让我们先从最终目标开始，然后解释如何实现目标。你的目标是在一个文档中详细说明你的开源战略，从而能让不同角色的每个人（从研发、法务，到营销和管理高层CXO）都可以参考。本战略文档将帮助您的团队了解您的开源项目背后的业务目标，确保更好的决策，并将风险降至最低。
 
-> "At Salesforce, we have internal documents that we circulate to our engineering team, providing strategic guidance and encouragement around open source. These encourage the creation and use of open source, letting them know in no uncertain terms that the strategic leaders at the company are fully behind it. Additionally, if there are certain kinds of licenses we don't want engineers using, or other open source guidelines for them, our internal documents need to be explicit."* – [Ian Varley](https://www.linkedin.com/in/ianvarley/), Software Architect at Salesforce.
+>“在Salesforce，我们向我们的研发团队分发内部文档，提供关于开源的战略指导和导向。这些导向鼓励开源的创建和使用，让他们毫不含糊地知道，且公司的战略领导者完全支持它。此外，如果我们不希望研发人员使用某些类型的开源许可证，或有其它的一些开源指南，都需要在我们的内部文档中明确。” —— [Ian Varley](https://www.linkedin.com/in/ianvarley/),  Salesforce的软件架构师。
 
-At a minimum, the document should:
+文档中至少应：
 
-* Explain your company’s approach to open source and the purpose behind the document. What does success look like for your company and what’s the role of open source in achieving that?
+* 说明贵公司的开源路线以及文档背后的目的。对于您的公司来说，成功是什么样子的？开源在实现这一目标中的作用是什么？
 
-> "In Autodesk's case, the reason behind our new open source approach was to make a move to cloud technologies because of how we're shifting our product focus to integrate even more closely in a cloud environment. The realization follows that if you go to cloud, basically all of that's built on open source, so you've got to ramp up your open source strategy."* -  [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at  [Autodesk](https://autodesk.github.io) (Open@ADSK).
+>“在Autodesk的案例中，我们新的开源路线背后的原因是向云技术转移，因为我们正在转移我们的产品重点，以便在云环境中进行更紧密的集成。如果你转向云，基本上所有这些都是基于开源的，因此你必须加强你的开源战略。” —— [Guy Martin](https://www.linkin.com/in/guywmartin/),[Autodesk](https://autodesk.github.io)的开源负责人(Open@ADSK)。
 
-* Specify how you want developers to consume open source **code**:
-   * What if code comes into one of your products from a project with a different licensing setup?
-   * What acceptance, rejection, and exception policies should developers follow?
-   * What is your organization’s overall stance toward open source development?
-   * A good strategy document provides explicit answers to these kinds of questions.
-* Specify how you want developers to contribute code to open source projects, **and identify projects that are critical to your business strategy**. (And encourage them to contribute!)
-   * What if a developer wants to contribute code from one open source project to the one you are working on but the two projects have different licenses?
-   * How can your contributions to open source serve a virtuous cycle, so that your projects benefit from contributions in turn? These considerations are part of defining strategic contributions.
+   
+* 指定你希望开发人员如何使用开源**代码**：
+  * 如果代码从具有不同的开源许可证的项目进入到你的某个产品中，该怎么办？
+  * 开发人员应该遵循哪些接受、拒绝和例外策略？
+  * 你的组织对开源的总体立场是什么？
+  * 一个好的策略文档可以为这些问题提供明确的答案。
+  
+* 指定您希望开发人员如何为开源项目贡献代码，**确定对您的业务战略至关重要的项目**。（并鼓励他们贡献!）
+  * 如果开发人员想将一个开源项目的代码贡献到你正在投入的开源项目中，但这两个项目的开源许可证不同，该怎么办？
+  * 你对开源的贡献如何实现良性循环，从而让你的项目能从贡献中受益？这些考虑是定义战略性贡献的一部分。
 
-> "If you are relying on an open source project heavily for your product and you don't have a seat at the table in terms of leadership and strategy for that project, your business is at risk." - Guy Martin, Autodesk.
+>“如果你的产品严重依赖某个开源项目，而您在该项目的领导力和战略方面没有话语权，你的业务将面临风险。”——Guy Martin，Autodesk。
 
-* Provide guidelines for making new decisions, and encourage program buy-in and commitment:
-   * Should business governance of open source be separated from technical governance?
-   * How can you make employees champions for open source?
-   * A good strategy document provides answers and should also clarify your organization’s overall stance toward developing with and around open source.
-* Align your business objectives and management directives:
-   * Which types of open source projects directly align with your business goals?
-* Lay out a usage policy and trademark that fits your code and concepts:
-   * Branding an open source project properly is as important as branding any invention, and there should be no questions about usage policies.
-* Provide specifics on open source best practices:
-   * Successful open source projects have rich developer communities and are often productized in commercial products that profit businesses.
-   * Which specific practices can best foster this kind of sustainable ecosystem?
-* Answer questions as they evolve over time. A good open source policy document should include a FAQ, and answers to common questions should be provided continuously in the FAQ over time.
+* 为制定新的决策提供指导，鼓励项目接受和承诺：
+   * 开源的业务治理是否应该与技术治理分开？
+   * 如何让员工成为开源的拥护者？
+   *  一个好的战略文档提供了答案，并且还应该阐明你的组织对使用和围绕开源进行开发的总体立场。
+   
+* 对齐你的业务目标和管理导向：
+   * 哪些类型的开源项目可以直接匹配你的业务目标？
+   * 列出符合你的代码和理念的使用策略和商标：
+   * 适当地给开源项目打品牌和给任何创造打品牌一样重要，且不应该有关于使用策略的问题。
+   
+* 提供关于开源最佳实践的详细信息：
+   * 成功的开源项目拥有丰富的开发者社区，并且往往能被产品化为商业产品进而为企业带来利润。
+   * 哪些具体实践可以最好地促进这种可持续的生态系统？
+   * 随着时间的推移回答问题。一个好的开源政策文档应该包含一个常见问答FAQ，并且随着时间的推移，常见问题的解答应该在FAQ中持续的刷新和提供。
 
-> "FAQs are highly tuned to the questions users and developers actually ask — as opposed to the questions you might have expected them to ask, and therefore, a well-maintained FAQ tends to give those who consult it exactly what they're looking for. Good FAQs are not written, they are grown. They are by definition reactive documents, evolving over time in response to the questions people ask." *-- Karl Fogel, [Producing Open Source Software](http://producingoss.com/).
+>“FAQ高度关注用户和开发人员实际提出的问题——而不是你可能期望他们提出的问题，因此，一个维护良好的FAQ往往会给咨询者提供他们想要的东西。好的FAQ不是写出来的，而是成长起来的。它们是反应式文档，随着时间的推移，随着人们提出的问题而不断发展。”—— Karl Fogel, [生产开放软件](http://produceoss.com/)。
 
-## How to create an open source strategy
 
-The first step in crafting an open source strategy is to decide who should be involved in setting the strategy. This means not only deciding which internal business partners should be involved but deciding whether external strategic help and resources should be sought.
+## 如何创建一个开源战略
 
-**External resources**
+制定开源战略的第一步是决定谁应该参与制定战略。这意味着不仅要决定哪些内部业务合作伙伴应该参与进来，还要决定是否应该寻求外部战略帮助和资源。
 
-There are many external resources that can help you flesh out your open source strategy, and the good news is that many of them are free. The Linux Foundation offers extensive [educational resources](https://www.linux.com/learn/training) that can help you usher in the right strategy, and books like [Best Practices for Commercial Use of Open Source Software](http://www.amazon.com/Best-Practices-commercial-source-software/dp/3738619097/ref=asap_bc?ie=UTF8) can provide guidance.
 
-The [Open Source Guide](https://opensource.guide) produced by GitHub also contains many resources on helping you build or contribute to an open source community.
+**外部资源**
 
-Google open sourced its [open source policy documentation](https://opensource.google.com/docs/) and it can serve as a create template to create your own internal policies.
+有许多外部资源可以帮助你充实你的开源策略，好消息是它们中的许多都是免费的。Linux基金会提供了广泛的[教育资源](https://www.linux.com/learn/training)，可以帮助您引入正确的策略，以及诸如 [《开源软件商业使用的最佳实践》](http://www.amazon.com/Best-Practices-commercial-source-software/dp/3738619097/ref=asap_bc?ie=UTF8) 等书籍也可以提供指导。
 
-[InnerSource Commons](https://paypal.github.io/InnerSourceCommons/), specializes in helping companies pursue open source principles and practices as well as exchange ideas for internal, proprietary software and infrastructure development.
+GitHub出品的 [开源指南](https://opensource.guide) 也包含了许多可以帮助你构建或贡献开源社区的资源。
 
-Another excellent resource for open source strategy is a blog called [Changelog](https://changelog.com/). It includes a podcast that covers a lot of different open source topics, called "[Request for Commits](https://changelog.com/rfc)." The podcast tackles everything from the human side of creating open source software to questions about business models and strategy. 
+谷歌开源了它的 [开源策略文档](https://opensource.google.com/docs/) ，它可以作为一个创建模板来创建你自己的内部策略。
 
-Note that many companies inside and outside the technology industry have very sophisticated open source programs. You can, and should, learn from them. The way they approach open source differs according to their own needs, but you can choose and adapt the practices and strategies that fit your business best. The [TODO Group](http://todogroup.org) at The Linux Foundation was created to bring these companies together to share and evolve best practices. TODO also offers a set of [free open source policies and templates](https://github.com/todogroup/policies) on GitHub that you can use and contribute to.
+[InnerSource Commons](https://paypal.github.io/InnerSourceCommons/)，专门帮助公司实现开源原则和实践，以及交流关于内部专有软件和基础设施开发的想法。
 
-General Electric might not be the first company that you think of when it comes to moving the open source needle, but GE is a powerful player in open source. GE Software has an "Industrial[ Dojo](http://cloudfoundry.org/dojo/index.html)" – run in collaboration with the[ Cloud Foundry Foundation](http://cloudfoundry.org/about/index.html) – to strengthen its efforts to solve the world’s biggest industrial challenges. GE derives benefits from the partners it works with in these efforts, and vice versa.
+另一个关于开源策略的优秀资源是一个名为[Changelog](https://changelog.com/)的博客。它包括一个涵盖了许多不同的开源话题、名叫“[提交请求](https://changelog.com/rfc)”的播客。这个播客覆盖了从创建开源软件的人性方面到商业模式和战略问题的所有问题。
 
-Among other organizations that have rolled out professional, in-house programs focused on advancing open source and commercializing tools, Netflix is a true standout. It is well worth visiting visit the company’s[ Open Source Software Center](https://netflix.github.io/). Netflix has contributed many useful tools and applications to the open source community, ranging from[ machine learning and orchestration applications](http://techblog.netflix.com/2016_05_01_archive.html) to utilities that run on its platform, many of which have been tested and hardened at scale. Netflix, in turn, gets contributions that help its platform run more efficiently, and its open source endeavors have opened doors to various partnerships.
+请注意，技术行业内外的许多公司都有非常复杂的开源项目。你可以，也应该向他们学习。基于他们自身的需求，他们参与开源的方式有所不同，但是你可以选择和采用最适合你的业务的实践和策略。Linux基金会的 [TODO Group](http://todogroup.org) 的创建是就为了将这些公司聚集在一起，分享和发展最佳实践。TODO还在GitHub上提供了一套[免费开源策略和模板](https://github.com/todogroup/polices)，你可以使用及贡献。
 
-## Internal resources
+说到开源先锋，通用电气可能不是你第一个想到的公司，但通用电气是开源领域的强力玩家。通用电气软件有一个“工业[Dojo](http://cloudfoundry.org/dojo/index.html)”——与 [Cloud Foundry基金会](http://cloudfoundry.org/about/index.html) 合作运行——为了强化其在解决世界上最大的工业挑战的力量。通用电气从与其合作伙伴的协作中获得收益，反之亦然。
 
-While these types of external resources can provide critical guidance and serve as a benchmark for your own strategy, internal collaboration is key in setting your open source business strategy. Your open source strategy should be tailored to your own unique business model, and the people within your own company are the best source of information. Additionally, you need to include all the stakeholders to reach consensus to ensure that everyone is on the same page and invested in seeing the efforts succeed. For example, it is important to involve executive leadership in the collaborative process.
+在其他已经开展专业的、自研的用于推进开源和商业化工具的组织中，Netflix是一个真正的突出者。非常值得参观该公司的[开源软件中心](https://netflix.github.io/)。Netflix为开源社区贡献了许多有用的工具和应用，从[机器学习和编排应用](http://techblog.netflix.com/2016_05_01_archive.html) 到在其平台上运行的应用，其中许多工具和应用都经过了大规模测试和加固。反过来，Netflix获得的贡献有助于其平台更高效地运行，同时其开源努力也为各种合作关系打开了大门。
 
-Creation of an open source program can be invaluable at this point. The TODO Group’s open source guide titled [Creating an Open Source Program](https://www.linuxfoundation.org/resources/open-source-guides/creating-an-open-source-program/) states: "By creating an open source program office, businesses can enable, streamline and organize the use of open source in ways that tie it directly to a company’s long-term business plans. An open source program office is designed to be the center of the universe for a company’s open source operations and structure, helping to bring all the needed components together."
 
-An open source program office can help determine policies for code use, distribution, selection, auditing, and more. It can also provide guidance for training developers, ensuring legal compliance, and building community engagement. According to the guide, "The office can also provide advocacy and communications about all things open source inside and outside the company."
+## 内部资源
 
-> "The only way you get hearts and minds (to advance your open source strategy) is to find the people in the individual teams that are willing to be proactive." - [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at  [Autodesk](https://autodesk.github.io) (Open@ADSK).
+虽然这些类型的外部资源可以提供关键的指引，并作为你自己的战略的基准，但内部协作是制定你的开源业务战略的关键。你的开源战略应该根据你自己独特的商业模式量身定做，而你自己公司里的人是最好的信息来源。此外，您需要卷入所有利益相关者来达成共识，以确保每个人都意见一致、并为看到工作取得成功而投入。例如，让高层领导参与协作过程是很重要的。
 
-When choosing internal staffers to help set strategy, remember that it is critical to involve people who are qualified to supply business and legal governance of projects as well as people who can supply technical governance. For example, an employee with technical skills may have an understanding of current open source practices and might be qualified to set policies such as Inbound Contribution Guidelines, while a person with business credentials might be more qualified to set policies regarding trademarks. Conversely, an employee with legal qualifications is best for defining licensing policies. And, of course, it is essential to identify stakeholders who have true passion for open source. Considerations for open source program office structure and discussion of the various management roles are detailed in the [open source guide mentioned previously.](https://www.linuxfoundation.org/resources/open-source-guides/creating-an-open-source-program/)
+在这一点上，创建一个开源项目是无价的。TODO Group的开源指南 [《创建一个开源项目》](https://www.linuxfoundation.org/resources/open-source-guides/creating-an-open-source-program/)  指出："通过创建开源项目办公室OSPO，企业可以是能、简化和组织开源的使用，并使其直接与公司的长期业务计划挂钩。开源项目办公室旨在成为公司开源运营和组织架构的中心，帮助将所有需要的组件凝聚在一起。
 
-How can you engage all of your stakeholders? Start by talking and, crucially, listening to what’s working and what isn’t. The way you engage will depend on what works for your company and its existing culture. But it always pays to do the research before you dive into the strategy.
+开源项目办公室可以帮助制定代码使用、分发、选择、审计等方面的政策。它还可以为培训开发者、确保法务合规性和建立社区参与提供指导。根据该指南，“办公室还提供在公司内外有关开源的推广宣传和交流。”
 
-When Guy Martin first started as the open source director at Autodesk, he asked his boss for two lists: "I said, I'd like a list of people who believe in what you're trying to do with (open source) and why you hired me in this initiative. And I want a list of people who either flat-out don't believe it's going to work or who may be on the fence." Then Martin talked to everyone on those two lists. The detractors helped identify where the stumbling blocks were going to be for their business. And the champions were the people he approached to help him build the program.
+>“你获得人心（推进开源战略）的唯一方法就是在各个团队中找到那些愿意主动出击的人。” —— [Guy Martin](https://www.linkedin.com/in/guywmartin/), [Autodesk](https://autodesk.github.io) 开源负责人(Open@ADSK)。
 
-## Key considerations
+ 
+在选择内部员工帮助制定战略时，请记住，关键是要让有资格提供项目业务和法律治理的人员以及能够提供技术治理的人员参与进来。例如，具有技术技能的员工可能了解当前的开源实践，有资格来制定例如“入站贡献准则”的策略，而具有商业资格的人员可能更有资格制定有关商标的策略；对应的，具有法律资格的员工最适合定义开源许可策略。当然，识别对开源抱有真正热情的利益相关者是至关重要的。关于开源项目办公室的架构及各种管理角色探讨的内容在[前面提到的开源指南](https://www.linuxfoundation.org/resources/open-source-guides/creating-an-open-source-program/)中有详细说明。
 
-We’ve touched on the critical components of your strategy document and how to go about creating it. Now, here are two really important considerations in creating your strategy: governance and sustainability. 
+如何让所有的利益相关者参与进来？从交谈开始，最重要的是，倾听什么有效，什么无效。你参与的方式将取决于哪种方式对你所在的公司及其现有文化有效。但在你深入战略之前，先做研究总是有好处的。
 
-These concepts will set the philosophical framework for your program, determine how it runs, and ultimately help determine how/whether you can maximize your open source strategy.
+Guy Martin刚开始担任Autodesk的开源负责人时，他向老板要了两份名单：“我说，我想要一份名单，上面写着相信你要做的事情（开源）的人，以及你为什么在这个项目中雇佣我。我还要一份名单，上面要么是坚决不相信这项计划会奏效的人，要么是持观望态度的人。"然后Martin和这两个名单上的每个人都进行了交流。诋毁者帮助确定了他们业务的绊脚石在哪里，而他接触到的拥护者们帮助他建立这个项目。
 
-### Consideration 1: Governance
 
-Before you set an open source strategy, you’ll likely have many disparate processes in place -- across teams and departments, product teams and IT, etc. -- to consume code or contribute upstream. Getting standardized governance in place is key to streamlining and optimizing processes, which makes it easier for developers to participate. It also helps get everyone on the same page and provides the foundation for measuring progress toward your goals and reducing risk. If everyone is following the same policies and processes, it’s much easier to pinpoint and address any roadblocks that may be happening.
+## 关键注意事项
 
-> "I didn't want a 10-week process with 500 pages of documentation for a 5-line bug fix, so I worked with legal to create a streamlined workflow that an engineer could accomplish in a reasonable amount of time." - [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at  [Autodesk](https://autodesk.github.io) (Open@ADSK).
+我们已经介绍了战略文档的关键组成部分以及如何创建战略文档。在制定战略时有两个非常重要的考虑因素：治理和可持续性。
 
-Your strategy should be very specific about open source governance within your organization and outside it. Proper governance requires specific policies and processes, but should also guide the culture that surrounds the building, deployment, and maintenance of open source software. In particular, open source culture is geared toward transparency, openness, and encouraging participation from diverse contributors.
+这些概念将为你的项目建立哲学框架，决定它如何运行，并最终帮助决定如何/是否可以最大化你的开源策略。
 
-> "There are open source projects where external contributions are welcome, but the road maps and the governance of the projects are very much in the hands of a single company. Then there is truly community-driven open source. Which kind of projects are you working with?" - [Joe Beda](https://twitter.com/jbeda), co-founder of Kubernetes at Google and co-founder and CTO at Heptio.
+### 注意事项1：治理
 
-Governance can help minimize risks. For example, many developers are comfortable acquiring open source tools online and integrating them with existing code, platforms and applications. However, allowing them to do so without any formal acquisition process in place means courting significant risks ranging from security risks to legal risks. Likewise, open source licenses and policies can have a huge impact on an organization’s control over technology and intellectual property portfolios. In addition, for open source projects that also have commercial editions, it is worth considering whether external stakeholders should be involved in governance.
+在你制定开源策略之前，你可能会有许多不同的流程——跨团队和部门、产品团队和IT等——来使用代码或贡献上游。获得标准化的治理是简化和优化流程的关键，可以使得开发人更容易地参与。它还有助于让每个人都在同一页面上，并为衡量实现目标和降低风险的进展提供基础。如果每个人都遵循相同的策略和流程，则更容易查明和解决可能发生的任何障碍。
 
-Having an internal governance structure which closely maps external open source community structures also streamline the "context switch" of your developers when working on projects directed towards internal efforts as compared to external contributions. It also eases the transition when an internal project is eventually open sourced, since the developers are already working in that governance mode.
+>“我不希望为了一个5行的bug修复代码而花费10周的时间和500页的文档，所以我和法务合作，创建了一个简化的工作流程，让工程师可以在合理的时间内完成。” —— [Guy Martin](https://www.linkedin.com/in/guywmartin/), [Autodesk](https://autodesk.github.io) 开源负责人(Open@ADSK)。
 
-> "One of the things that we've tried to engender in the Kubernetes community is the idea of project over people or company. What's good for the project is a separate question from what's good for the companies that are involved with the project. When you end up with open source projects that are too tightly tied to a single company, really sticky issues can arise." – Joe Beda, Heptio.
+你的策略应该非常具体地覆盖你所在组织内外的开源治理。正确的治理需要具体的策略和过程，但也应该指导围绕构建、部署和维护开源软件的文化。特别是，开源文化是面向透明，开放，并鼓励来自多元化的贡献者的参与。
 
-### Consideration 2: Sustainability
+> 有一些开源项目欢迎外部贡献，但项目的路线图和治理在很大程度上掌握在一家公司手中。还有一种是真正的社区驱动的开源。“你在做什么类型的项目？” —— [Joe Beda](https://twitter.com/jbeda)， Kubernetes项目联合创始人，Heptio联合创始人及CTO。
 
-A key driver to succeeding with your open source program is building a strategy around encouraging other companies to take dependencies on your open source projects. Long-term, sustainable projects arise from feature-rich developer communities whose code is productized in commercial products that profit businesses which in turn reinvest back into the projects. The goal is to enable a virtuous projects build products that generate profits that get reinvested back into the project community lifecycle.
+治理可以帮助将风险降至最低。例如，许多开发人员乐于在线获取开源工具，并将其与现有代码、平台和应用集成。然而允许他们在没有任何正式获取流程的情况下这样做，意味着面临从安全风险到法律风险等重大风险。同样，开源许可证和策略也会对组织对技术和知识产权组合的控制产生巨大影响。此外，对于同样拥有商业版的开源项目，是否应该让外部利益相关者参与治理也是值得考虑的。
 
-Partnerships, contributor agreements and commercial dependencies can drive a virtuous cycle of commercial and community engagement based on accepted governance and IP models. An intelligently defined open source program can help drive all of these. What is your organization’s policy toward sharing and monetizing open source inventions and driving partnerships and commercial dependencies? 
+与外部贡献相比，拥有与外部开源社区结构紧密对应的内部治理架构，也可以简化你的开发人员在处理面向内部工作的项目时的“上下文切换”。当一个内部项目最终开源时，这样也简化了过渡，因为开发人员已经在这种治理模式下工作。
 
-For example, many open source tools are offered in free editions online but also exist in fee-based, supported instances, and it is common for outside contributors to advance platforms and applications that are offered commercially. It is wise to define in your strategy document exactly how such editions differ and how control is exerted over them, keeping in mind that levels of control can vary widely over time.
+>“我们在Kubernetes社区中尝试的一件事是项目优先于人或公司的理念。什么对项目有好处是一个独立的问题（相比什么对参与项目的公司有好处）。当你遇到与一家公司过于紧密捆绑的开源项目时，真正棘手的问题可能会出现。” —— [Joe Beda](https://twitter.com/jbeda)， Heptio。
 
-## Other components
 
-Beyond the critical elements of your strategy discussed earlier, there are many other policies to lay out in your strategy document. The good news is that there are free guidelines from trusted external sources that you can take advantage of.
+### 注意事项2：可持续性
 
-For example, Synopsys offers a useful four-pillar set of guidelines for setting your open source strategy:
+你的开源项目取得成功的一个关键驱动力是制定一个围绕鼓励其他公司依赖你的开源项目的策略。长期的、可持续的项目产生于功能丰富的开发者社区，这些社区的代码产品化为商业产品，商业产品获利并反向再投资到项目中。目标是使能一个良性的项目构建产生利润的产品，并将利润再投资到项目社区生命周期中。
 
-* Define strategy for building open source platforms and applications
-* Define strategy for building with open source, such as integrating existing products and services with open source tools
-* Define strategy for building for open source community, such as encouraging contributions to and involvement with existing projects
-* Define strategy for building on open source, including internal replatforming or application rollouts based on open source
+伙伴关系、贡献者协议和商业依存关系可以推动基于公认的治理和知识产权模型的商业和社区参与的良性循环。一个被明智地定义的开源项目可以帮助推动所有这些。你的组织在分享开源创造并将其货币化以及推动合作关系和商业依赖方面的策略是什么？
 
-In addition to these strategic pillars and guidelines on governance, here are some other key components to include in your strategy document:
+例如，许多开源工具在线提供免费版，但也存在收费的、受支持的实例，外部贡献者推进商业提供的平台和应用是很常见的。明智的做法是在您的战略文档中，准确地定义这些版本的差异以及将如何对它们施加控制，记住控制水平可能会随着时间的推移而变化。
 
-* Goals. Define your goals for your business strategy and how open source can drive achievement of your goals. For example, many companies are currently transforming their platform infrastructure by moving to open cloud platforms such as OpenStack. In many cases, this is because they studied the ROI they could get by moving infrastructure to the cloud, determined what levels of vendor lock-in they could avoid, and set goals for specific financial milestones they want to achieve. 
 
-Build a holistic set of goals for your strategy document, with metrics for achievement. Among metrics to track, consider reporting on increases in upstream contributions, cuts to development costs, and increases in recruitment of maintainers. In addition to these metrics, your inventory of business objectives and goals should provide specifics on open source leadership milestones, and project security and performance advancements. Also, though, keep in mind that there are no magic metrics.
+## 其它
 
-> "Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one, magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy. " – [Sarah Novotny](https://twitter.com/sarahnovotny), Kubernetes community program manager at Google.
 
-* **Management Plan** Once your strategy document includes specific goals, ensure that it also sets out specific actions to achieve your open source business objectives, and assign roles and responsibilities for tracking progress. The most important part is to get buy in for your executive management chain. 
+除了前面讨论的战略的关键要素之外，还有许多其他策略可以在战略文档中列出。好消息是有一些来自可信赖的外部资源的免费指引可以利用。
 
-* **Provide specific KPIs (Key Performance Indicators)** for tracking the achievement of goals.
+例如，Synopsys提供了一套有用的开源战略制定四支柱指导准则：
 
-* **Policies and processes.** In addition to licensing and rules for accepting contributions and outside code, managing policies and processes is key. The TODO (Talk Openly Develop Openly) Group at The Linux Foundation offers [free open source policy examples and templates](https://github.com/todogroup/policies) on GitHub.
+* 定义构建开源平台和应用的策略
+* 定义使用开源的策略，例如将现有产品和服务与开源工具集成
+* 定义开源社区建设的策略，例如鼓励对现有开源项目的贡献和参与
+* 定义基于开源的构建策略，包括基于开源的内部平台改造或应用部署
 
-* **Partnerships and acquisitions.** Partnerships and acquisitions are key parts of a successful open source business strategy. Your strategy document should be specific about goals in these areas, and should lay out key strategic partnerships that your organization may have with other organizations such as TODO, The Cloud Foundry Foundation, and more.
+除了这些战略支柱和治理指导方针外，以下是您的战略文档中需要包含的其他一些关键组件：
 
-* **Patents and IP.** Patent rights and intellectual property guidelines can have an enormous impact on how inventions are used, and in many cases commercially leveraged. Your strategy document should be specific about your patents, rules pertaining to patents, and your IP guidelines. If your organization has a separate IP strategy, ensure that your open source strategy is aligned with it.
+* **目标**：定义你的业务战略的目标，以及开源如何推动实现你的目标。例如，许多公司目前正在通过迁移到OpenStack等开放云平台来改造其平台基础架构。在许多情况下，这是因为他们研究了通过将基础设施迁移到云可以获得的投资回报ROI，确定了他们可以在多大程度上避免供应商锁定，并为他们想要实现的特定财务里程碑设定了目标。
 
-* **Foundations and sponsorships.** Open source foundations and other nonprofit organizations have had an enormous impact on the world of open source in recent years. Your organization can benefit from working with foundations ranging from The Linux Foundation to the Eclipse Foundation to the Apache Software Foundation, and you may even benefit from launching an open source-focused foundation. Your strategy document should supply any existing partnerships and plans for working with foundations.
+为您的战略文档建立一套完整的目标，并提供实现的度量指标。
+在要跟踪的指标中，考虑报告上游贡献的增加、研发成本的削减以及维护者招聘的增加。除了这些指标之外，你的业务目标清单还应该提供关于开源领导力里程碑、项目安全性和性能提升的细节。不过，也要牢记世界上没有魔力指标。
 
-> "Foundations provide a lot of value. Without them, it has historically been hard for a lot of very critical projects to get the funding they need to be well maintained. They help ensure a level playing field and they provide mechanisms for organizations to give back to open source projects without contributing developers directly." — [Luke Faraone](https://twitter.com/lfaraone), software engineer at [Dropbox](https://opensource.dropbox.com/).
+>“查找您正在参与的每个社区的度量指标。我倾向于根据一个特定的社区所感受到的痛苦来寻找度量标准，然后试图改变这些度量标准。并不存在一个神奇的评估，假设你只要盯紧张六个指标（从拉取请求PR到贡献者数量）然后就可以突然宣布你的社区和生态是健康的。” —— [Sarah Novotny](https://twitter.com/sarahnovotny)，谷歌Kubernetes社区项目经理
 
-* **Inbound Contribution Guidelines/Metrics.** Your strategy can derive enormous benefits from inbound contributions (see our section on considerations for sustainability.) Your strategy document should provide both guidelines and metrics for contributions.
+* **管理计划**：一旦你的战略文件包含了具体的目标，确保它也列出了实现你的开源业务目标的具体行动，并分配角色和责任来跟踪进展。最重要的部分是得到你的高层们的认可。
 
-You don’t have to build your policies in this area from the ground up; the [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as The TODO Group, The Linux Foundation, and Synopsys have extensive experience with setting inbound contribution guidelines. 
+* **提供特定的KPI（关键绩效指标）**：用于跟踪目标的实现情况。
 
-A good inbound contribution strategy also includes carefully documenting your APIs — always a best practice. OpenAPI has emerged as the industry standard for describing RESTful APIs. 
+* **策略和流程**：除了开源许可证和接受贡献和外部代码的规则之外，管理策略和流程也是关键。Linux基金会的TODO（Talk Openly Develop Openly:开放的讨论、开放的开发）Group在GitHub上提供了 [开源策略样例及模板](https://github.com/todogroup/policies) 。
 
-> "One of the most important things when building an open source community is making sure that your own processes are open. The more transparent you can make your decision-making processes, the more of a sense of ownership your community will have. You also want to make sure that your process doesn't become a blocker. If your open source process for either inbound or outbound contributions is onerous, people will look to bypass the process or simply decide that contributing is too difficult." – [Luke Faraone](https://twitter.com/lfaraone), software engineer, [Dropbox](https://opensource.dropbox.com/)
+* **合作和收购**：合作和收购是一个成功的开源业务战略的关键部分。你的战略文档应该明确这些领域的目标，并应该列出你的组织可能与其他组织（如TODO、Cloud Foundry基金会等）建立的重要战略伙伴关系。
 
-> "You need to give people ways to get involved with your projects that don't require them to have a PhD or to have been working in a similar area for 25 years. You need ways for them to get involved quickly. That means that you need really good setup documentation, and it also means having active and healthy forums."- [Ian Varley](https://www.linkedin.com/in/ianvarley/), software architect at Salesforce.
+* **专利和知识产权**：专利和知识产权指引可以对开源的使用方式产生巨大的影响，特别是在许多情况下设计到商业化应用时。你的战略文档应该具体说明你的专利、与专利相关的规则以及你的知识产权指引。如果你的组织有单独的知识产权战略，请确保你的开源战略与之保持一致。
 
-## When and how much to invest: determining ROI
+* **基金会和赞助**：近年来，开源基金会和其他非营利组织对开源世界产生了巨大的影响。你的组织可以从与Linux基金会、Eclipse基金会、Apache软件基金会等基金会的合作中受益，您甚至可以从启动一个以开源为中心的基金会中受益。你的战略文件应该提供任何已有的合作关系以及与基金会合作的计划。
 
-There is no way to wave a magic wand and find the exact benefit you will get from your open source program, but there are guidelines for how to approach it. You must consider how return of investment (ROI) relates to your strategy. The bottom line is that the return on investment that you can derive from your open source strategy should be considered from numerous angles. 
+>“基金会提供了很多价值。没有它们，历史上很多非常关键的项目都很难获得所需的资金。它们有助于确保一个平等的竞争环境，并为组织提供了一种使其能够在不直接贡献开发者的情况下也能回馈开源项目的机制。“ —— [Luke Faraone](https://twitter.com/lfaraone)，[Dropbox](https://opensource.dropbox.com/)软件工程师
 
-First, you must weigh the benefits of open source with the risks and costs of managing it. [A free, joint white paper](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf) (PDF) from Novica and OpenLogic provides many specific ways to calculate open source ROI and strategize around it. For example, the following graphic from the white paper shows that the duration of project development has a profound impact on various elements of ROI calculation, ranging from licensing expenses to IT/Services expenses:
 
-![Credit: Novica, OpenLogic](/img/guides/strategy1.jpg)
+* **入站贡献准则/度量指标**：你的战略可以从入站贡献中获得巨大的收益（请参阅我们关于可持续性考虑因素的部分）。你的战略文档应该为贡献提供指导方针和衡量标准。
 
-As you go about calculating ROI, keep the following guidelines in mind:
+您不需要从头开始制定相关策略； [贡献者契约](http://contributor-covenant.org/) 是一个坚如磐石的行为规则和贡献者规则文档，被 [超过4万个开源项目](http://contributor-covenant.org/adopters/)(包括Kubernetes、Rails和Swift) 。同样，TODO Group、Linux基金会和Synopsys等组织在设置入站贡献规则方面也有丰富的经验。
 
-* **Calculate the benefits in cost savings.** Of course, a key metric to evaluate in determining the benefits of your open source strategy is calculating cost reduction. Evaluate both cost savings from open source deployments and open source inventions, taking into account savings on licensing fees, hardware, support, and more. 
+一个好的入站贡献策略还包括仔细记录你的API（这也一直是最佳实践）。OpenAPI已经成为描述RESTful API的行业标准。
 
-Support is a major cost center for many organizations, and if you can reduce costs for support, you can reap big financial benefits. Likewise, what specific hardware and licensing costs might you eliminate by, say, moving to open source platforms ranging from Linux to OpenStack? In the case of open cloud platforms, for example, storage and compute resources in the cloud can entirely eliminate the need for many such resources in-house. Also keep in mind that although "free" open source software may not have the same licensing fees as proprietary software, it comes with a development cost involved in contributing upstream, integrating it with other offerings, and more.
+>“在构建开源社区时最重要的一件事就是确保你自己的流程是开放的。你的决策流程越透明，你的社区就越有主人翁意识。你也要确保你的流程不会成为阻碍者。如果你的开源流程(无论是入站贡献还是出站贡献)是繁重的，人们会希望绕过这个流程，或者只是认为贡献太难了。” —— [Luke Faraone](https://twitter.com/lfaraone)，[Dropbox](https://opensource.dropbox.com/)软件工程师
 
-* **Calculate the benefits by reach and conversion**. By tracking the reach of open source projects you create, you can gather useful information, and in some cases gauge conversion for your organization’s products and services. Package managers such as npm and RubyGems.org can be used to distribute open source projects, subsequently allowing you to track downloads. Many organizations put their projects on GitHub, where the "Traffic" page can detail how many times a project has been cloned and much more. These metrics can aid brand awareness around your projects, likeliness to gain contributors, and more.
+>“你需要给人们提供方法来参与你的项目，而不需要他们拥有博士学位或在相关领域有25年工作经验。你需要的是让他们快速地参与进来，这意味着你需要非常好的启动文档，以及要有活跃、健康的论坛。”-[Ian Varley](https://www.linkin.com/in/ianvarley/),Salesforce的软件架构师。
 
-* **Do an operational risk assessment.** The Open Web Application Security Project (OWASP) recently added "using components with known vulnerabilities" to its top 10 list of risks, and open source software can introduce vulnerabilities in some cases. An open source software security audit gives you visibility into the components and the vulnerabilities within your code. Black Duck [performs these](https://www.blackducksoftware.com/on-demand/open-source-security-audit), and tools such as [Wireshark](http://www.wireshark.org/) and [Nikto](https://cirt.net/nikto2/) can identify vulnerabilities and problems.
 
-* **Avoid legal risk.** Operational risk and legal risk are different, but assessing both is important. Legal risks around open source can include costs from legal actions surrounding using the wrong license, costs from merging code between projects that have disparate licences, and more.  
+## 何时投资及投资的金额：确定ROI
 
-The [Open Source Definition](http://www.opensource.org/docs/osd) is where you should start to understand how open source projects should be licensed, and what actually qualifies as open source. It's also good to review[ Open Standards requirements](http://opensource.org/osr). 
+没有办法能让你一挥魔杖就看清可以从你的开源项目中获得的确切好处，但有关于如何实现它的指引。你必须考虑投资回报率（ROI）与你的战略之间的关系。底线是，你应该从多个角度来考虑可以从你的开源战略中获得的投资回报。
 
-You must also assess what kinds of licenses your projects should have. The Software Freedom Law Center (SFLC) offers[a set of online resources on how open source licenses and copyrights work, and much more](http://www.softwarefreedom.org/resources/2008/foss-primer.html). And, a simplified matrix of license features can be found at [Choosealicense.com](http://choosealicense.com/). 
+首先，您必须权衡开源的好处与管理它的风险和成本。来自Novaica和OpenLogic的 [白皮书《开源投资回报比ROI：实现开源软件的财务承诺》](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf) (PDF) 提供了许多计算开源的ROI并围绕其制定战略的具体方法。例如，以下来自白皮书的图表显示，项目开发的持续时间对ROI计算的各种要素（从许可费用到IT/服务费用）有着深远的影响：
 
-You’ll also want to consider the costs and benefits of license compliance. The cost of not complying with an open source license may be steep and involve lawsuits. The Linux Foundation’s[ Open Compliance program](https://compliance.linuxfoundation.org/) offers several resources including [publications](https://compliance.linuxfoundation.org/references/compliance-related-publications), [training materials](https://www.openchainproject.org/curriculum), and a [free training course](https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/compliance-basics-for-developers) for developers. (You can also see our guide on [Using Open Source Code](https://www.linuxfoundation.org/resources/open-source-guides/using-open-source-code/) which outlines a baseline compliance program.)
 
-Legal issues should, of course, be assessed by your own legal personnel. The SFLC authors are attorneys who were part of creating popular open source licenses. It's also an excellent idea to keep up with current and archived editions of the[ International Free and Open Source Software Law Review.](http://www.ifosslr.org/ifosslr)
+![作者: Novica, OpenLogic](/img/guides/strategy1.jpg)
 
-## Deciding where to invest
+在计算ROI时，请记住以下准则：
 
-Investing in open source can be approached from numerous angles, including leveraging in-house resources and external ones. Keep in mind that devoting developer resources to open source and upstream contributions are part of investing in open source.  It is important to understand how incoming and outgoing code and projects are arriving and being distributed. 
+* **计算来自成本节省的收益**：在确定开源策略的好处时，需要评估的一个关键指标是计算成本节省。评估开源部署和开源开发带来的成本节省，同时考虑许可费、硬件、支持等方面等。
 
-**Identify which open source projects are critical to delivering products or services.** Once a company understands its IP portfolio and the open source contributions its developers want to make, it can work to ensure its developers are empowered to make those contributions.
+对于许多组织来说，支持是一个主要的成本中心，如果你能够降低支持成本，您就可以获得巨大的财务收益。同样，通过迁移到Linux及OpenStack等开源平台，你可以消除哪些具体的硬件和许可成本？例如在开放云平台的情况下，云中的存储和计算资源可以完全消除许多内部对此类资源的需求。但一定要记住，尽管“免费”的开源软件可能没有与专有软件相同的许可费用，但它也会产生开发成本，包括贡献上游、与其他产品集成等等。
 
-**Conduct an internal audit**. Have you acquired open source tools and platforms through acquisitions and are you getting the maximum benefits from them? Assess this in your audit.
+* **按到达率和转化率计算收益**：通过跟踪你创建的开源项目的进展，你可以收集有用的信息，在某些情况下，还可以衡量你的组织的产品和服务的转化率。报管理器（npm和RubyGems.org等）可用于分发开源项目，之后也允许你跟踪下载。许多组织将他们的项目放在GitHub上，在GitHub上的“流量”页面可以详细看到一个项目被克隆了多少次等等。这些指标可以帮助你的项目的品牌知名度、获得贡献者的可能性等等。
 
-**Identify which internal projects you could open source.**
+* **做运营风险评估**：开放式Web 应用程序安全项目(OWASP) 最近将“使用具有已知漏洞的组件”列入其十大风险列表，开源软件在某些情况下可能引入漏洞。开源软件安全审计 让你可以查看代码中的组件和漏洞。黑鸭[可以执行评估](https://www.blackducksoftware.com/on-demand/open-source-security-audit)，[Wireshark](http://www.wireshark.org/) 和[Nikto](https://cirt.net/nikto2/) 等工具可以识别漏洞和问题。
 
-You can also structure good ways to identify open source projects that either exist in-house at your organization or should exist. For example, many Silicon Valley companies have internal competitions and hackathon events that offer employees top prizes for their best open source inventions. Through these, companies ranging from PayPal to Google have employee-invented open source creations built into their own fabric and product portfolios.
+ 
+* **避免法律风险**：运营风险和法律风险是不同的，但评估两者都很重要。围绕开源的法律风险可以包括使用错误许可证的法律诉讼成本，具有不兼容的开源许可协议项目的代码合入成本等。 
 
-> "One great thing that happens during a hackathon is the power of recombination -- of inventors saying ‘I know one way to do this, and over here is another project that aids that process, and I can put these things together.’ If everything is closed source, the problem is that you have a lot fewer building blocks to work with. By contrast, the world is your oyster with open source. You have so many more building blocks available to you." – [Ian Varley](https://www.linkedin.com/in/ianvarley/), software architect at Salesforce.
+[开源定义](http://www.opensource.org/docs/osd) 是你应该开始了解开源项目应该如何许可，以及什么是真正的开源的地方。也可以查看[ 开放标准要求](http://opensource.org/osr)。
 
-Next, turn to external resources to help pinpoint projects that you’re not yet using or participating in, but that may have a business benefit. There is tremendous leverage in choosing the right open source projects and communities at the outset. Selecting strategically important projects for focus is critical.
+你还必须评估你的项目应该采用哪些类型的开源许可证。软件自由法律中心（SFLC）提供了[一套关于开源许可证和版权如何运作的在线资源](http://www.softwarefreedom.org/resources/2008/foss-primer.html)。此外，还可以在[Choosealicense.com](http://choosealicense.com/)上找到开源许可证特点的简化列表。
 
-**Partner with other organizations**. They can help you choose the best projects to get involved with and identify what projects they are reaping benefits from. And there are several independent organizations that can help. The Linux Foundation, TODO Group, Innersource Commons and Open Source Initiative can all provide guidance.
+你还需要考虑开源许可证合规的成本和好处。不遵守开源许可证的成本可能很高，并涉及诉讼。Linux基金会的[开源合规计划](https://compliance.linuxfoundation.org/) 提供了多种资源，包括[出版物](https://compliance.linuxfoundation.org/references/compliance-related-publications)、[培训资料](https://www.openchainproject.org/curriculum)、以及为开发者提供的[免费培训课程](https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/compliance-basics-for-developers) 。（你还可以查看我们的[ 使用开源代码](https://www.linuxfoundation.org/resources/open-source-guides/using-open-source-code/) 指南，其中有合规基础的概述。)
 
-**Examine which projects other organizations in your industry contribute to.** They can steer you toward the right projects to get involved with. For example, many telecoms are reaping big benefits from open Network Functions Virtualization (NFV) technology that can eliminate historically proprietary components in telecom technology stacks. Some of these companies work with The Linux Foundation on NFV initiatives and there are several [working groups](https://wiki.openstack.org/wiki/TelcoWorkingGroup) that focus on NFV. These industry-focused working groups can provide you with valuable guidance. 
+法律问题当然应该由你自己的法律专家来评估。SFLC的作者们是那些参与了主流开源许可证的律师们。参考最新的以及历史版本的[ 国际自由和开源软件法律评论](http://www.ifosslr.org/ifosslr)也是一个很好的办法。
 
-Are you interested in more resources to help you set your strategy? Here are some excellent ones:
 
-### Measuring Open Source ROI
+## 决定投资方向
 
-[Open Source Return on Investment](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf)
+投资开源可以从多个角度进行，包括利用内部资源和外部资源。请记住将开发者资源投入到开源和上游贡献是投资开源的一部分。理解进入和输出的代码以及项目是如何产生及分发非常重要。
 
-### Launching Successful Open Source Projects
+**识别哪些开源项目对交付产品或服务至关重要**：一旦一家公司了解了其知识产权组合以及其开发者希望做出的开源贡献，它就可以努力来保障其开发者有能力做出这些贡献。
 
-[The Linux Foundation on Starting Successful Projects](http://event.lvl3.on24.com/event/14/07/58/6/rt/1/documents/resourceList1493819210084/how_to_start_a_successful_open_source_project.pdf)
+**进行内部审计**：你是否通过收购获得了开源工具和平台，你是否从中获得了最大化的收益？在你的审计中对此进行评估。
 
-### Legal Resources
+**确定哪些内部项目可以开源**
 
-* [International Free and Open Source Software Law Review.](http://www.ifosslr.org/ifosslr)
-* [Open Compliance program](https://compliance.linuxfoundation.org/)
+你还可以采用好的方法来识别在你的组织内部存在或应该存在的开源项目。例如，许多硅谷公司都有内部竞赛和黑客马拉松活动，为员工的中最好的开源创造提供大奖。通过这些方法，从PayPal到谷歌等公司都将员工的开源创造内置到自己的架构和产品组合中。
 
-### Licensing
+>“在黑客马拉松中发生的意见伟大的事就是重组的力量——开发者说‘我知道有一个方法来实现这个，这里有另一个项目来帮助这个过程，而我可以把这些东西组合在一起。’如果所有东西都是闭源的，那么问题是你可以使用的构建模块就会少很多。相比之下，有了开源意味着世界尽在你的掌握之中，你有更多的构建模块可供你使用。” —— [Ian Varley](https://www.linkedin.com/in/ianvarley/)，Salesforce软件架构师。
+
+然后，借助外部资源来帮助确定你尚未使用或参与、但可能具有业务利益的项目。在一开始就选择正确的开源项目和社区具有巨大的影响力。选择具有重要战略意义的项目来作为重点至关重要。
+
+**与其他组织合作**：它们可以帮助你选择最好的项目来参与，并识别它们从哪些项目中获得收益。有几个独立的组织可以提供帮助，Linux基金会、TODO Group、Innersource Commons和OSI都可以提供指导。
+
+**检查你所在行业的其他组织为哪些项目做出了贡献**：它们可以引导你去参与正确的项目。例如，许多电信企业正在从开放式网络功能虚拟化（NFV）技术中获得巨大收益，该技术可以消除电信技术堆栈中的历史专有组件。其中一些公司与Linux基金会合作开展NFV计划，还有几个专注于NFV的[工作组](https://wiki.openstack.org/wiki/TelcoWorkingGroup)。这些专注于行业的工作组可以为你提供有价值的指引。
+
+对更多的能帮助你建立战略的资源感兴趣？下面是一些优质资源：
+
+### 衡量开源ROI
+
+[开源的投资回报比ROI](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf)
+
+### 启动成功的开源项目
+
+[Linux基金会：启动成功的开源项目](http://event.lvl3.on24.com/event/14/07/58/6/rt/1/documents/resourceList1493819210084/how_to_start_a_successful_open_source_project.pdf)
+
+### 法务资源
+
+* [国际自由和开源软件法律评论](http://www.ifosslr.org/ifosslr)
+* [开源合规计划](https://compliance.linuxfoundation.org/)
+
+### Licensing开源许可证
 
 [Choosealicense.com](http://choosealicense.com/)
 
-### Contributor Code of Conduct
+### 贡献者行为准则
 
 [The Contributor Covenant](http://contributor-covenant.org/)
 
-### Open Source Policy 
+### 开源策略 
 
-[TODO Group Templates](https://github.com/todogroup/policies)
+[TODO Group模板](https://github.com/todogroup/policies)
 
-### Open Source Strategy Blog
+### 开源战略博客
 
 [Changelog](https://changelog.com/)
 
-### Open Source Strategy Podcast
+### 开源战略播客
 
-[Request for Commits](https://changelog.com/rfc)
+[提交请求](https://changelog.com/rfc)
 
-## Acknowledgements
+## 致谢
 
-Contributors:
+贡献者:
 
-* [Andrew Aitken](https://www.linkedin.com/in/opensourcestrategy/), Global Open Source Practice Leader, Wipro
-* [Chris Aniszczyk](https://twitter.com/cra), CTO, CNCF
-* [Joe Beda](https://twitter.com/jbeda), co-founder of Kubernetes at Google and co-founder and CTO at Heptio
-* [Luke Faraone](https://twitter.com/lfaraone), software engineer at Dropbox
-* [Jim Jagielski](https://twitter.com/jimjag/), Open Source Chief at Consensys
-* [Guy Martin](https://www.linkedin.com/in/guywmartin/), director of Open at Autodesk (Open@ADSK)
-* [Sarah Novotny](https://twitter.com/sarahnovotny), Kubernetes community program manager at Google
-* [Ian Varley](https://www.linkedin.com/in/ianvarley/), software architect at Salesforce
+* [Andrew Aitken](https://www.linkedin.com/in/opensourcestrategy/)，全球开源实践领导者，Wipro
+* [Chris Aniszczyk](https://twitter.com/cra)，CNCF 基金会CTO
+* [Joe Beda](https://twitter.com/jbeda)， Kubernetes项目联合创始人，Heptio联合创始人及CTO
+* [Luke Faraone](https://twitter.com/lfaraone)，Dropbox软件工程师
+* [Jim Jagielski](https://twitter.com/jimjag/)，Consensys开源总监
+* [Guy Martin](https://www.linkedin.com/in/guywmartin/)，Open at Autodesk开源负责人
+* [Sarah Novotny](https://twitter.com/sarahnovotny)，谷歌Kubernetes社区项目经理
+* [Ian Varley](https://www.linkedin.com/in/ianvarley/)，Salesforce软件架构师

@@ -9,8 +9,7 @@
       "dev": "npm run dev:start",
       "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
       "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
-      "dev:build": "hugo --theme=dot-org-hugo-theme",
-      "pulltheme": "git submodule update --remote"
+      "dev:build": "hugo --theme=dot-org-hugo-theme"
   },
   "repository": {
       "type": "git",
@@ -24,14 +23,14 @@
   },
   "homepage": "https://github.com/cncf/dot-org-hugo-theme#readme",
   "dependencies": {
-      "autoprefixer": "^10.4.15",
-      "hugo-extended": "^0.117.0",
-      "netlify-cli": "^16.0.2",
-      "postcss": "^8.4.27",
-      "postcss-cli": "^10.1.0"
+      "autoprefixer": "^10.4.16",
+      "hugo-extended": "^0.126.0",
+      "netlify-cli": "^17",
+      "postcss": "^8.4.31",
+      "postcss-cli": "^11"
   },
   "devDependencies": {
-      "prettier": "^3.0.2",
+      "prettier": "^3.0.3",
       "prettier-plugin-go-template": "^0.0.15"
   }
 }

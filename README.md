@@ -8,7 +8,7 @@ This repo houses the assets used to build the website for the [TODO Group](https
 
 ## 📝 Adding Resources
 
-TODO Group operates through different working groups and initiatives, each of them with their unique [contribution guidelines and communication channels](https://todogroup.org/community/meetings/). 
+TODO Group operates through different working groups and initiatives, each of them with their unique [contribution guidelines and communication channels](https://todogroup.org/community/meetings/).
 
 We encourage people to [join the community](https://todogroup.org/community/get-started/) and get started with contributions to the different TODO initiatives:
 
@@ -76,4 +76,22 @@ npm run start
 
 This command should give an address you can visit on your local machine to see the local copy of your site. Typically this is `localhost:1313`. Just navigate to http://localhost:1313 in your browser and you should see the site running.
 
-If modifying the theme files, you should never edit the themem that is imported via Git Submodule, as otherwise the changes will be overwritten or lost the next time the theme is updated. Changes should be made in override files inside the root directory as this will override the theme directory. [Read docs](https://gohugo.io/getting-started/directory-structure/).
+If modifying the theme files, you should never edit the theme that is imported via Git Submodule, as otherwise the changes will be overwritten or lost the next time the theme is updated. Changes should be made in override files inside the root directory as this will override the theme directory. [Read docs](https://gohugo.io/getting-started/directory-structure/).
+
+## Updating the theme
+
+Some brief notes on how to update the theme:
+
+From the site root:
+
+```
+git submodule init
+git submodule update
+cd themes/dot-org-hugo-theme
+git fetch
+git checkout main
+git pull origin main
+cd ../..
+git add themes/dot-org-hugo-theme
+git commit -m "Updated submodule to the latest version of dot-org-hugo-theme" -s
+```

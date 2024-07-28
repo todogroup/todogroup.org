@@ -42,7 +42,7 @@ title: 创建开源项目办公室指南
 
 开源项目办公室的职责是多种多样的。这些职责包括：
 
-* 清晰地传达开源策略给到公司内部和外部
+* 清晰地传达开源战略给到公司内部和外部
 * 拥有并监督策略的执行（参见我们关于制定商业开源策略的指南）
 * 协助开源在商业产品和服务中的有效使用
 * 确保向开源社区发布高质量和及时更新的代码
@@ -62,7 +62,7 @@ title: 创建开源项目办公室指南
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/creating-an-open-source-program1.png)
 
-## 案例：谷歌开源项目
+## 案例：谷歌开源计划
 
 自1998年公司成立以来，谷歌开源的使用一直是其使命和成功的核心部分，开源项目办公室的角色非常广泛。根据办公室经理 Will Norris 的说法，该办公室于 2004 年成立，主要是为了遵守合规要求，了解和组织开源许可证和代码的使用。那时的谷歌规模较小，参与了广泛的开源项目和代码使用，但当时并没有许多正式的合规流程。随着公司不断发展，这种缺乏合规性和组织的情况必须改变。Norris 说，他在办公室工作了四年，最初作为软件工程师，2016 年 9 月成为其经理。
 
@@ -245,7 +245,7 @@ Red Hat有一个独特的政策，即在大多数情况下，默认将新创建�
 
 > “激怒我们的开源社区朋友将是毁灭性的。这是我们绝对不愿意做的事情，因为我们关心这个社区，我们是其中的一员。对于那些刚接触开源的公司，我认为他们往往没有意识到这一点的重要性。” – [Will Norris](https://twitter.com/willnorris?lang=en)，谷歌开源办公室经理。
 
-## 最后
+## 结束语
 
 当公司决定创建一个开源项目办公室时，有很多工作要做，也有许多因素需要考虑，但其价值很可能会超过为此付出的努力。在整个过程中，找到合适的领导者来推动项目办公室的工作是取得成功的关键步骤。
 
@@ -265,4 +265,4 @@ https://github.com/todogroup/job-descriptions
 * [Jeff McAffer](https://twitter.com/jeffmcaffer), [微软开源项目办公室](https://opensource.microsoft.com/resources/office)总监
 * [Will Norris](https://twitter.com/willnorris?lang=en), 谷歌开源办公室经理
 * [Andrew Spyker](https://twitter.com/aspyker), Netflix 容器云经理
-* [Remy DeCausemaker](https://twitter.com/Remy_D), 开源负责, [Spotify](https://twitter.com/SpotifyEng)
+* [Remy DeCausemaker](https://twitter.com/Remy_D), 开源负责人, [Spotify](https://twitter.com/SpotifyEng)

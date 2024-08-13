@@ -1,6 +1,5 @@
-
 ---
-title：度量开源办公室的成功
+title: 度量开源办公室的成功
 ---
 
 
@@ -300,7 +299,7 @@ Facebook的开源办公室经常在数据库中运行查询，并挑选出开启
 ## 致谢
 贡献者：
 
-* [Christine Abernathy](https://twitter.com/abernathyca)，Facebook的开源开发者倡导者。
+* [Christine Abernathy](https://twitter.com/abernathyca)，Facebook的开源开发者布道师。
 * [Chris Aniszczyk](https://twitter.com/cra)，云原生计算基金会的首席运营官。
 * [Joe Beda](https://twitter.com/jbeda)，Google Kubernetes的创始工程师，以及Heptio的联合创始人兼首席技术官。
 * [Sarah Novotny](https://twitter.com/sarahnovotny)，Google的Kubernetes社区经理。

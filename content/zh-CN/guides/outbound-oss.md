@@ -240,7 +240,7 @@ DCO 与 CLA 相比主要的区别在于，DCA 不是一份合同，而是一种�
 
 发布已开发的代码所处的业务环境越复杂，涉及的利益相关者就越多。下图展示了一个涉及所有职能的程序，即使在复杂的情况下也能适用。
 
-![contributions](/static/img/guides/outbound-oss1-t.png)
+![contributions](/img/guides/outbound-oss1-t.png)
 
 使用的缩写
 
@@ -259,7 +259,7 @@ DCO 与 CLA 相比主要的区别在于，DCA 不是一份合同，而是一种�
 * 主要版本到主要版本的发布模式
 * 完全信任模式
 
-![small-contributions](/static/img/guides/outbound-oss2-t.png)
+![small-contributions](/img/guides/outbound-oss2-t.png)
 
 #### 小型贡献模式或者微贡献模式
 
@@ -344,13 +344,13 @@ DCO 与 CLA 相比主要的区别在于，DCA 不是一份合同，而是一种�
 
 当考虑启动自己的开源项目时，这里有几个阶段你应当考虑：
 
-![oss-project-process](/static/img/guides/outbound-oss3-t.png)
+![oss-project-process](/img/guides/outbound-oss3-t.png)
 
 ## 项目生命周期
 
 开源项目的生命周期描述了项目从构思到退役或者生命周期结束阶段的演变过程。通常，一个项目是为了解决某个特定的问题而产生的。它可能会因为问题不在存在或因为其他项目更适合解决该问题而变得过时。下面的图展示了开源软件项目可能经历的不同阶段。
 
-![Typical lifecycle of an open source project](/static/img/guides/outbound-oss4-t.png)
+![Typical lifecycle of an open source project](/img/guides/outbound-oss4-t.png)
 
 ### 规划或者构思阶段
 

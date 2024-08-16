@@ -51,7 +51,7 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 | Gergely Csatári | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
 | Zhiqiang Yu | China Mobile, LF APAC | China 🇨🇳 | OSPO Local Meetup China |
 | Li Jiansheng | LF APAC | China 🇨🇳 | OSPO Local Meetup China |
-| Hitomi | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| Hitomi Mizugaki| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
 | Angel Ramirez | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
 | Jose Rodrigez Roa | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
 

@@ -73,6 +73,13 @@ npm run start
 - `npm run dev:start:with-pagefind` - Starts the local dev environment using exampleSite with working pagefind search
 - `npm run dev:build` - Builds the site using exampleSite
 
+### To run in docker
+
+As mentioned above, fork and clone this repository, run `git submodule update --init --recursive`, then run following:
+
+```bash
+./run-hugo-in-docker.sh
+```
 
 This command should give an address you can visit on your local machine to see the local copy of your site. Typically this is `localhost:1313`. Just navigate to http://localhost:1313 in your browser and you should see the site running.
 

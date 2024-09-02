@@ -53,9 +53,9 @@ Principles of Authentic Participation for Corporate Contributors - Cornelius Sch
 
 ### Open Collaboration Academia and Enterprises:
 
-- Collaboration with Universities and Enterprises OSPO: What’s Next? - Sayeed Choudhury, CMU; Clare Dillon, Lero/CURIOSS; Jonas van den Bogaard, Alliander; Natali Vlatko, CISCO; Ana Jiménez, LF; John Whelan
+- Collaboration with Universities and Enterprises OSPO: What’s Next? - Sayeed Choudhury, CMU; Clare Dillon, Lero/CURIOSS; Jonas van den Bogaard, Alliander; Natali Vlatko, CISCO; Ana Jiménez, LF; John Whelan, Trinity College Dublin
 
-> Note: Most of this Bird of a Feather session is interactive and seeks audience participation to learn from industry and academia about the value of academic research across sectors. The session will include the sharing of practical use cases and a group discussion. Brought to you by CURIOSS and TODO.
+> Note: Most of this Bird of a Feather session is interactive and seeks audience participation to learn from industry and academia about the value of academic research across sectors. The session will include the sharing of practical use cases and a group discussion. Brought to you by CURIOSS and TODO OSPO Communities.
 
 Check the full schedule [here](https://osseu2024.sched.com/overview/type/OSPOCon)
 

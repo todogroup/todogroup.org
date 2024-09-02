@@ -7,8 +7,7 @@ date: 2024-09-01
 With over 25 diverse tracks, [OSSummit Europe in Vienna](https://events.linuxfoundation.org/open-source-summit-europe/program/schedule/) promises to be a cornerstone event for the open source 
 community, technology leaders and policymakers. The Summit offers a wealth of knowledge, but with so much happening simultaneously, it’s easy to miss the sessions that could offer the most value. 
 
-This post highlights some of the key tracks that resonate most with the activities of open source management professionals. Whether you’re overseeing open source processes in your organization or 
-leading OSPO efforts, this guide will help you navigate the summit with purpose and focus.
+This post highlights some of the key tracks that resonate most with the activities of open source management professionals: Operations Management Summit, OSPOCon and Open Source in the Public Sector
 
 ![ossummitviennabanner-2024](https://github.com/user-attachments/assets/29d3e97f-83e4-488b-a1b3-53a4ba6b65a3)
 

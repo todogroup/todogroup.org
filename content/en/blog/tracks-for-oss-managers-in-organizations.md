@@ -1,5 +1,5 @@
 ---
-title: "Must-Attend Tracks for Open Source Managers in Organizations - OSSummit Vienna 204"
+title: "Must-Attend Tracks for Open Source Managers in Organizations - OSSummit Vienna 2024"
 author: todogroup
 date: 2024-09-01
 ---

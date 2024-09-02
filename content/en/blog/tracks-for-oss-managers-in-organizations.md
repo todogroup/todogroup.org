@@ -27,7 +27,7 @@ What's Happening in Japan? - the Current Situation of SBOM - Ayumi Watanabe, Hit
 - Exploration of Compliance Governance Based on Operating Systems - Zheng Zhenyu & Mei Xiangru, Huawei Room
 Open Source Compliance Management - Removing the Thorn from Your Company's Side - Eleftheria Stefanaki & Jimmy Ahlberg, Ericsson 
 
-Check the full schedule here: https://osseu2024.sched.com/overview/type/Operations+Management+Summit 
+Check the full schedule [here](https://osseu2024.sched.com/overview/type/Operations+Management+Summit) 
 
 ## Day 2 - OSPOCon Track (Industry, Academia, and Government Day)
 
@@ -57,7 +57,7 @@ Principles of Authentic Participation for Corporate Contributors - Cornelius Sch
 
 > Note: Most of this Bird of a Feather session is interactive and seeks audience participation to learn from industry and academia about the value of academic research across sectors. The session will include the sharing of practical use cases and a group discussion. Brought to you by CURIOSS and TODO.
 
-Check the full schedule here: https://osseu2024.sched.com/overview/type/OSPOCon 
+Check the full schedule [here](https://osseu2024.sched.com/overview/type/OSPOCon)
 
 
 ## Day 3 - OSPOCon Track (Industry and Academia Day)

@@ -1,58 +1,56 @@
 ---
-title: TODO Whitepaper Guidelines
+title: TODO 白皮书指南
 ---
 
-The TODO Whitepapers inform about specific open source topics demanded by the OSPO community, in order to help the community 
-to understand an issue, provide more documentation, or solve a problem.
+TODO 白皮书介绍了 OSPO 社区要求的特定开源主题，以帮助社区了解问题、提供更多文档或解决问题。
 
-# How to contribute
+# 如何贡献
 
-There are many ways you can directly contribute to a TODO whitepapaer:
+您可以通过多种方式直接为 TODO 白皮书做出贡献：
 
-* 1. Feature a new TODO Whitepapaer
-* 2. Contirbute to a WIP TODO Whitepaper
-* 3. Fix editorial inconsistencies or inaccuracies from existing Whitepapaers
-* 4. Translate Whitepapaers into other languages
+* 1. 推出新的 TODO 白皮书
+* 2. 为进行中的 TODO 白皮书做出贡献
+* 3. 修复现有白皮书中的编辑不一致或不准确之处
+* 4. 将白皮书翻译为其他语言
 
-## 1. Feature a new TODO Whitepapaer
+## 1. 推出新的 TODO 白皮书
 
-**Idea submission:** 
+**想法提交：** 
 
-A request is submitted by opening an [issue at TODO governance repo](https://github.com/todogroup/governance/issues) using the tag `whitepapaer`
+[在 TODO governance 仓库新建问题](https://github.com/todogroup/governance/issues) 并使用标签 `whitepapaer` ，以提出你的想法。
 
-**Steering Committee Review:** 
+**指导委员会评审：** 
 
-The TODO Steering Committee reviews the proposal
+TODO 指导委员会评审该提案。
 
-**Community feedback:** 
+**社区反馈：** 
 
-The issue is shared to the TODO Community asking for feedback and interested contributors.
+分享该提案到 TODO 社区，寻求反馈和感兴趣的贡献者。
 
-**Creation proces:**
+**创建流程：**
 
-TODO PM creates a new repo that gather the whitepapaer content. Bi-weekly sync meetigns can be requested to review whitepapaer's evolution.
+TODO PM 创建一个新仓库来收集白皮书内容。可以要求每两周一次的同步会议来回顾白皮书的进展。
 
-**Publication process:**
+**发布流程：**
 
-Once the final version for the whitepaper content is approved, TODO PM sends this to LF team to work on design and starts publication and promotion process through the main TODO and LF communication channels.
+一旦白皮书内容的最终版本获得批准，TODO PM 会将其发送给 LF 团队进行设计，并通过 TODO 和 LF 主要沟通渠道开始发布和推广流程。
 
-## 2. Contirbute to a WIP TODO Whitepaper
+## 2. 为进行中的 TODO 白皮书做出贡献
 
-Bellow is a list of current WIP Whitepapaers and their dedicated repos. Please check the `CONTRIBUTING.md` file on each repo to learn more.
+以下是当前进行中的白皮书作者及其专用软件仓库的列表。请查看每个软件仓库的 `CONTRIBUTING.md` 文件了解更多信息。
 
-* [Outbound OSS Whitepaper](https://github.com/todogroup/outbound-oss)
+* [对外开源白皮书](https://github.com/todogroup/outbound-oss)
 
-# Examples
+# 示例
 
-Bellow is a list of published and WIP TODO Whitepapers:
+以下是已发布和待发布的 TODO 白皮书列表：
 
-**Why Open Source Matters to your Enterprise**
+**为什么开源对企业至关重要**
 
-[This paper](https://www.linuxfoundation.org/tools/todo-group-why-open-source-matters-to-your-enterprise/), published by the European Chapter of the TODO Group, aims to provide a balanced and quick overview of the 
-business pros and cons of using open source software.
+[本论文](https://www.linuxfoundation.org/tools/todo-group-why-open-source-matters-to-your-enterprise/) 由 TODO Group 欧洲分会出版，旨在均衡、快速地概述使用开源软件的商业利弊。
 
-**Outbound OSS**
+**对外开源**
 
-A WIP Whitepaper maintained by the TODO European Chapter which content is being managed in a dedicated TODO Org repo. [This repo](https://github.com/todogroup/outbound-oss) contains documentation and guidance for 
-handling outbound OSS in organzations.
+A WIP Whitepaper maintained by the TODO European Chapter which content is being managed in a dedicated TODO Org repo. [This repo](https://github.com/todogroup/outbound-oss) contains documentation and guidance for handling outbound OSS in organzations.
+由 TODO Group 欧洲分会维护的进行中的白皮书，其内容由专门的 TODO 组织仓库管理。[此仓库](https://github.com/todogroup/outbound-oss)包含在组织中处理对外开源软件的文档和指南。
 

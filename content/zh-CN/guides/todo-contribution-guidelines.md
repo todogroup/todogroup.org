@@ -1,67 +1,66 @@
 ---
-title: Open Source Program Office Case Study Guidelines
+title: 开源项目办公室案例指南
 ---
 
-The TODO OSPO Case Study initiative features real-world use cases and the impact OSPO Programs and open source are having on an organization.
-OSPO Use Cases build narratives around open source organization’s journey that includes Open Source Program Office highlighted activities, organizational structure,
-best practices, goals, and success stories, showcasing rganizations as leaders in the OSPO and open source management ecosystem.
+TODO OSPO案例计划聚焦于真实世界里的实践案例以及OSPO/开源对具体组织的影响。OSPO案例围绕开源组织的历程构建叙述，其中包括开源项目办公室OSPO的重点活动、组织结构、最佳实践、目标和成功案例，展示这些组织在OSPO和开源管理生态中的领导者地位。
 
-## Requirements
 
-**Who can be featured in an OSPO Case Study?**
+## 案例要求
 
-As a rule, OSPO case studies feature:
+**谁可以成为OSPO案例？**
 
-* Private and public organizations running an OSPO or an open source initiative
-* TODO Members
+原则上，OSPO案例需满足：
 
-All case studies must demonstrate at least one tangible business impact of OSPOs or open source management within the
-organization and/or the open source ecosystem. Examples from published case studies include:
+* 运行一个OSPO或一个开源计划的私营及公共组织
+* TODO成员
 
-* Compliance, legal, and developer education
-* Evangelizing Open Source Culture and Usage
-* Hosting Open Source Projects
-* Growing Open Source Communities
-* Improving leadership and becoming a decision-making partner
-* OSPO or Open Source management Best practices (e.g tooling, documentation, etc)
+所有案例必须展示至少一个开源项目办公室或开源管理在组织和/或开源生态内的有形的业务影响，来自已发布案例的参考包括：
+* 合规遵从、法务，和开发者赋能
+* 传播开源文化及使用
+* 托管开源项目
+* 发展扩大开源社区
+* 提升领导力，成为决策伙伴
+* OSPO或开源管理最佳实践（例如工具、文档等）
 
-## OSPO Case Study Process
-OSPO case studies follow a self-service model with editorial support and guidance provided by TODO Group and the Linux Foundation.
 
-The self-service follows a five-step process:
+## OSPO案例流程
+OSPO案例遵循自助服务模式（TODO Group和Linux基金会提供编辑支持和指导）。
 
-**1. Proposal**
+自助服务遵循五步流程：
 
-Organizations submit a case study proposal via a Github Issue form
+**1.提案**
 
-IMPORTANT: This form is still in work in progress. Meanwhile, interested participants, please open an [issue](https://github.com/todogroup/todogroup.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22use+case%22) using the 'use case' tag providing a description.
+组织通过Github Issue表单来提交案例提案
 
-**2. Review**
-* TODO steering committee team reviews proposal within 30 working days
-* If the proposal meets the criteria, the TODO PM sends a case study pack to the contact info provided
-* If the proposal doesn’t meet the criteria, TODO Program Manager will provide feedback and the organization is invited to resubmit.
+重要提示：此表单仍在运作中。同时，有兴趣的参与者，请使用“use case”标签来新建一个[issue](https://github.com/todogroup/todogroup.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22use+case%22) 来提供案例的描述及说明。
 
-**3. Creation**
+**2.评审**
+* TODO指导委员会团队在30个工作日内评审提案
+* 如果提案符合标准，TODO项目经理会将一个案例包发送给提案中提供的联系人
+* 如果提案不符合标准，TODO项目经理将提供反馈，并邀请组织重新提交。
 
-Primary contact writes a case study following the required style documented in the case study pack
+**3.撰写**
 
-**4. Editing**
-* TODO Group reviews the case study and makes any necessary edits as suggestions
-* Edits are based on the style guide.
-* Primary contact is welcome to make further edits or additions to the case study
-* Primary contact confirms when the draft is final and manages any approval processes
+主要联系人按照案例包中记录的指定样式来撰写案例
 
-**5. Publishing**
-* TODO and LF prepare the case study for publication
-* Primary Contact will receive a preview link, to view the case study before it goes live.
-* Case Study is published to todogroup.org and OSPO guide
-* Promotion cycle begins
+**4.编辑**
+* TODO Group评审案例，并根据建议进行必要的编辑
+* 编辑以风格指南为基础
+* 欢迎主要联系人对案例进行进一步编辑或添加
+* 主要联系人确认何时是终稿，并管理任何审批流程
 
-**6. Promotion**
-* Case studies are published on todogorup.org. TODO Group and LF market the case studies online, through social media, blog promotion, and the TODO OSPO newsletter.
+**5.发布**
+* TODO和LF基金会准备发布案例
+* 主要联系人将收到一个预览链接，以便在案例上线前查看该案例
+* 案例被发布到todogroup.org和OSPO指南
+* 推广周期开始
 
-## To get started
+**6.推广**
+*案例被发布在todogorup.org上，TODO Group和LF通过社交媒体、博客推广和TODO OSPO newsletter邮件来在线推广案例。
 
-Propose a case study and send it to the team directly by opening a [issue](https://github.com/todogroup/todogroup.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22use+case%22) using the use case tag
 
-If you have any questions or feedback about the OSPO Case Study initiative, please send an email to info@todogroup.io.
+## 开始行动吧
+
+提议一个案例，并通过使用“use case”标签来新建一个[issue](https://github.com/todogroup/todogroup.org/issues?q=is%3Aissue+is%3Aopen+label%3A%22use+case%22) 来将它直接发给TODO团队。
+
+如果您对OSPO案例计划有任何疑问或反馈，请发送电子邮件至info@todogroup.io。

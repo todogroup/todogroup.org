@@ -1,246 +1,243 @@
 ---
-title: Building leadership in an open source community
+title: 建立开源社区的领导力
 ---
 
-Integrating into open source communities takes time and effort and requires a new approach to product development. Where traditional, proprietary development requires secrecy and a management hierarchy, open source development requires openness and values consensus. Code contributions, not title or position, are what determine influence and technical direction in an open source project.
+融入开源社区需要时间和努力，需要采用新的产品开发方法。传统的专有开发需要保密和管理层级，而开源开发则需要开放和价值共识。在开源项目中，影响力和技术方向是由代码贡献决定的，而不是职称或职位。
 
-Open source projects are developed in diverse and geographically dispersed communities that have their own rules, conventions, tools, and processes. Simply put, each community has its own unique culture and it takes time to establish the trust, ways of collaborating, and cultural understanding required to be effective in open source.
+开源项目是由多样和地理分布广泛的社区开发的，这些社区有着自己的规则、惯例、工具和流程。简而言之，每个社区都有其独特的文化，需要时间来建立在开源生态中高效工作所需的信任、协作方式和文化理解。
 
-This guide explains how organizations can build leadership and influence within the open source projects they’re involved in and on which they are commercially dependent. Learn about leadership culture and roles within a project, how decisions are made, how an organization can build leadership, and tips for being a good leader in open source communities.
+本指南阐述了组织如何在商业上有所依赖的开源项目中建立领导力和影响力，了解项目内的领导文化和角色，决策的制定方式，组织如何建立领导力，以及在开源社区中成为一名优秀领导者的技巧。
 
-## Why build leadership in an open source project
+## 何为要在开源项目中建立领导力
 
-Although the open source culture is collaborative, contributing upstream is only the first step in shaping an open source project’s progression. Taking an active role in guiding or influencing the project’s direction is also important if the project is critical to your company’s own products.
+尽管开源文化是协作式的，向上游贡献也只是影响开源项目发展的第一步。如果项目对公司自身产品至关重要，那么积极参与引导或影响项目方向也很重要。
 
-While open source projects have repeatedly proved the value of collaborations that even – and maybe especially – include competitors, having no say in a project’s direction can quickly prove to be a competitive disadvantage. And this is why building and maintaining leadership in open source projects is key to corporate strategies and goals. However, it isn’t as easy as pounding desks and throwing around cash-based clout.
+尽管开源项目已多次证明合作的价值，甚至包括竞争对手，但无法参与项目方向决策很快会变成竞争劣势。这就是为什么在开源项目中建立和维护领导力对企业的战略和目标至关重要。然而，这并不像拍桌子或砸钱那么容易。
 
-## Leadership culture in open source
+## 开源中的领导力文化
 
-It is common for companies to first assume that leadership in an open source community works the same way as leadership does in a corporation. It doesn’t.
+一般，公司首先认为在开源社区中的领导工作方式与公司中的领导工作方式相同。事实并非如此。
 
-“Companies often go through a phase of thinking ‘Oh, well, we’re huge. Why can’t we pound our fist on the table and just make the community do what we want?’” explains [Guy Martin](https://www.linkedin.com/in/guywmartin/), Director of the Open@ADSK initiative at Autodesk. “They soon come to realize that tactic won’t work. They come to understand that the only way to gain leadership is to earn the role within the community. And the only way to do that is to gain credibility and make contributions.”
+"公司往往会经历这样的阶段，认为 '哦，我们很大，为什么不能敲敲桌子，让社区按我们的意愿行事呢？'" 在Autodesk的Open@ADSK倡议主管Guy Martin解释道。"他们很快意识到这种策略行不通。他们逐渐明白，获得领导地位的唯一途径是在社区内赢得角色，而实现这一点的唯一方式就是赢得信誉并作出贡献。”
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community1.png)
 
-## Corporate vs open source leadership
+## 企业领导力与开源领导力
 
-While gaining leadership in an open source project can be vital to a company’s own success in the commercial world, taking on such a radically new approach to product development is often counterintuitive and sometimes awkward in the beginning.
+在开源项目中获得领导力对公司自身在商业领域的成功至关重要，但采取这种颠覆性的新产品开发方法通常在开始阶段会显得违反直觉，有时甚至显得尴尬。
 
-Traditional, proprietary development requires secrecy and a management hierarchy. By contrast, titles and positions are meaningless in open source development, which instead puts a premium on openness and consensus.
+传统的专有开发需要保密和管理层级。相比之下，开源开发中的职称和职位毫无意义，重要的是开放和共识。
 
-Code contributions are what determine influence and technical direction in an open source project. That means no fudging on code contributions; they must be substantial and truly advance the project in some way.
+在开源项目中，影响力和技术方向取决于代码贡献。这意味着不能模糊代码贡献的界限；它们必须是实质性的，真正推动项目发展的方式。
 
-At first, making upstream contributions and openly collaborating can feel like giving away the store. But that feeling is not based in the open source reality; instead, it is a twinge of apprehension commonly associated with making a significant change in thinking and actions that is so very necessary to innovating.
+起初，向上游贡献和开放协作可能会感觉像是在放弃自己的东西。但这种感觉不是建立在开源现实基础上的；相反，它是对思维和行动的重大变动的一种担忧。这种变动是创新必须的。
 
-The open source leadership mindset involves thinking about:
+开源领导力的思维方式包括：
 
-* Influence, not control
-* Transparency as a means of crowd-sourcing solutions, not as exposure
-* Leading, not herding
+* 影响力而非控制
+* 将透明度作为众包解决方案的一种手段，而不是作为曝光手段
+* 引领而非驱赶
 
-Successfully making the shift from a proprietary to an open source mindset and culture requires time and effort and sometimes a regular reminder of the benefits in doing so. [Ibrahim Haddad](https://www.linkedin.com/in/ibrahimhaddad/), vice president of R&D and Head of Open Source at Samsung Electronics, built this chart for ease of reference.
+成功地从专有思维和文化转变为开源思维和文化需要时间和努力，有时甚至需要定期提醒其中的好处。三星电子副总裁兼开源负责人Ibrahim Haddad为此建立了这张简明参考表。
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community2.png)
 
-## Governance overview
+## 治理概览
 
-Governance guidelines in open source communities tend to be few but they are nonetheless rigidly enforced. The code of conduct or community guidelines are unique to the community but generally address acceptable and expected behavior and the procedures for handling unacceptable behavior or other incidents. A governance policy details the management of the open source project’s policies, structures and roadmap. A maintenance policy typically addresses other project decisions such as software updates.
+开源社区的治理准则通常很少，但它们仍然严格执行。行为准则或社区指南因社区而异，但通常涵盖可接受和预期行为，以及覆盖处理不可接受行为或其他事件的程序。治理政策详细说明了开源项目的政策、结构和路线图的管理。维护政策通常涉及其他项目上的决策，如软件更新等。
 
-But governance at and surrounding the project and community level does not represent the entirety of governance policies and issues. Those also exist at the points where open source software is consumed, contributed to, redistributed and/or produced by commercial interests or other organizations. Therefore, open source governance is by necessity part of the broader IT governance effort.
+但在项目和社区层面以及周围的治理不代表整体治理政策和问题。这些政策和问题也存在于开源软件被商业或其他组织消耗、贡献、重新分发和/或生产的地方。因此，开源治理必然成为更广泛的IT治理工作的一部分。
 
-Companies tend to experience similar issues, such as multiple processes for how open source is consumed, inconsistent ways of contributing upstream in communities, and variances in how open source projects are created internally. Developing a standardized set of governance is key to taming the chaos.
+公司往往会遇到类似的问题，如消耗开源的多个流程、在社区中向上游贡献的不一致方式，以及公司内部创建开源项目的变化。制定标准化的治理政策对于控制混乱至关重要.
 
-“We aimed for one single process for contributing upstream and as an engineer I wanted it streamlined,” Martin said. “I didn’t want a ten-week process with 500 pages of documentation for a five-line bug fix, so I worked with legal to streamline the workflow so an engineer could accomplish it in a reasonable amount of time. And then we did the same thing for creation of opensource projects from code that’s in the company.”
+"我们希望为向上游贡献制定一个单一的流程，作为工程师，我希望简化流程，" Martin说道。"我不希望为了修复一个五行代码的错误而花费十周的时间，处理500页的文档。因此，我与法律部门合作，简化了工作流程，使工程师能够在合理的时间内完成工作。然后我们也为公司代码转换为开源项目做了同样的事情。”
 
-It’s best for each company to work out the particulars in its own open source governance policies and processes so that it best fits how their company actually works; in effect mirroring how governance is best done at the community level. But be aware that you may not be able to repeat a single process for all open source activities in your company.
+最好让每家公司根据自身的开源治理政策和流程制定具体的规范，以便最好地适应公司的实际运作方式；实际上，这是对社区层面治理最佳实践的反映。但请注意，你可能无法针对公司的所有开源活动重复单一流程。
 
-A consistent governance plan prevents a huge version skew, as well as open source license and security issues. “A consistent governance model for open source consumption helps ensure compliance so that when we ship something, we know we’ve got the right license compliance in place.”
+一致的治理模型有助于避免巨大的版本差异，以及开源许可证和安全性问题。"对于开源消费，一致的治理模型有助于确保合规性，因此当我们发布产品时，我们知道我们已经采取了正确的许可证合规措施。"
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community3.jpg)
 
-## Culture overview
+## 文化概览
 
-While there is a pressing need to shift an organization’s internal culture to an open source state of mind, such must be accomplished without losing sight of, or disconnecting from, the open source community outside of the company walls.
+虽然急需转变组织内部文化以符合开源思维，但必须在不失去与公司外部开源社区的联系和视野的前提下完成这一转变。
 
-“In order to develop influence on an open source project, you have to get a group of people whom you don’t know, who work for different companies, and may have different objectives to agree with you,” explains [Gil Yehuda](https://www.linkedin.com/in/gilyehuda/), senior director of open source at Oath (Yahoo+AOL).
+"为了在开源项目中发挥影响力，你必须让一群你不认识的人同意你的观点，他们来自不同的公司，可能有不同的目标，" 雅虎+美国在线（Oath）开源高级总监Gil Yehuda解释道。
 
-That’s often easier said than done, since disputes and pushbacks are common and resolutions can take one of many directions depending on community consensus.
+尽管这么说起来容易，但在实际操作中常常遇到争议和反对意见，解决方案可能根据社区共识的不同而采取多种方向。
 
-“In an open source community, you have people who work for different companies who may have lots of areas of shared purpose and shared outcome and some areas of contention and cross purposes,” explains Yehuda.
+"在开源社区中，你会遇到来自不同公司的人，他们可能在许多领域有共同的目标和共同的结果，但也可能存在争议和不同目标的领域，" Yehuda解释道。
 
-For example, there may be one set of developers who want new functionality because they need it to make something work, but another group that doesn’t want that new functionality because they want stability.
+例如，可能有一组开发人员需要新功能，因为他们需要使某些功能正常工作，但另一组不希望这个新功能，因为他们想要稳定性。
 
-“Perhaps the new functionality compromises the stability or the scalability. There’s going to be a fight or at least some tension over that,” explains Yehuda.
+"也许新功能会影响稳定性或可伸缩性。对此会有争论，或者至少会有一些紧张情绪，" Yehuda解释道。
 
-Resolving the issue so that the project proceeds in one direction or the other is no small feat considering that no one person is in charge of making the decision. Instead, it’s a communal decision.
+解决这个问题，使项目朝一个方向前进，并不容易，因为没有一个人可以独自作出决定。相反，这是一个社区决策。
 
-“One of the things that can help the community arrive at what you would consider favorable resolution is if you have more influence in the project,” says Yehuda. “They’re going to support you even in a decision that might have small short term negative impact to them if you have leadership and you’re a trusted member of the community, and you have the community’s interest at heart.”
+"帮助社区达成你认为有利解决方案的一个因素是，如果你在项目中拥有更多的影响力，" Yehuda说道。"即使你的决定可能对他们有一些微小短期负面影响，他们也会支持你.前提是你拥有领导力，是社区的信任成员，并且你站在社区的利益一边。"
 
-But building that leadership and maintaining it is as much a company mission as it is an individual developer’s goal.
+但建立和维护这种领导力既是公司的使命，也是个人开发者的目标。
 
-Oath’s approach is to instruct its developers to involve company assistance when they see situations that could potentially be contentious.
+Oath的方法是告诉开发人员，如果他们看到可能引起争议的情况，应寻求公司的帮助。
 
-“We have active consulting, we have internal conversations about situations and how to best approach them, we have developers that share anecdotes with each other about situations and how they can resolve them,” says Yehuda.
+"我们进行积极的咨询，内部讨论如何最好地处理情况，开发人员彼此分享情况以及如何解决它们的经验事故，" Yehuda说道。
 
-It’s also important to understand that leadership rests with the person, not the company. So even though the individual developer has the backing and assistance of his or her employer, that employer is at risk of losing influence if that developer chooses to leave.
+还要理解一点，领导力在个人而非公司身上。因此，即使个人开发者得到了雇主的支持和帮助，但如果该开发者选择离开，雇主可能会失去影响力。
 
-“If you’ve got an open source project that is super critical to your product and you’ve only got one person from your company making upstream contributions, you have a single point of failure,” explained Martin. “You have to a succession plan in place and it needs to include more than couple of people at your company.”
+"如果你的开源项目对你的产品至关重要，而你公司只有一个人向上游贡献，那么你就存在单点故障的风险，" 马丁解释道。"你必须制定一份接班计划，而且需要公司有多个人参与其中。
 
-That means multiple people in your company will be making upstream contributions. A common first reaction to that idea is fear of tying up too many human resources on an open source project that other companies will benefit from. But that’s not the case if you organize their time well.
+这意味着公司内将有多人向上游贡献。对这个想法最常见的第一个反应是担心耗费太多人力资源在其他公司将受益的开源项目上。但如果你合理安排时间，这并不是问题。
 
-“It’s more palatable to engineering management when less of Joe Smith’s time is used to make upstream contributions because that burden is shared with three or four other developers,” Says Martin.
+"当不止一个工程师像乔·史密斯（Joe Smith）那样花费时间向上游贡献时，对工程管理人员来说更容易接受，因为这种负担可以分担到其他三四名开发人员身上，" Martin说道。
 
-By balancing the workload, you also reduce the risk to the company in losing project influence when a key developer leaves. This is also an attractive plan to developers who actively seek to increase their exposure in building leadership in the community as that ultimately boosts their careers and earning power. More developers get a lead role in this plan.
+通过平衡工作量，你还可以减少公司在关键开发者离职时失去项目影响力的风险。对那些积极寻求在社区中建立领导地位以提升个人职业生涯和收入的开发人员来说，这也是一个有吸引力的计划。更多开发人员在这个计划中担任主导角色。
 
-Further, a company can adopt open source practices and principles internally through innersourcing, in order to complete the culture shift to open source, improve their innovation rate and successes, and further connect with the open source community which helps build leadership and attract developers.
+此外，公司可以通过内部开源实践和原则进行内部协作，以完成向开源文化转变，提高创新率和成功率，并进一步与开源社区联系，帮助建立领导力和吸引开发人员。
 
  ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community4.png)
 
-In short, culture is imperative in all its many nuances and on many levels, if the goal is to build and maintain leadership and thus some measure of control over critical projects.
+简而言之，如果目标是建立和维护领导地位，并对关键项目进行某种程度的控制，那么文化在其许多细微之处和许多层面都是至关重要的。
 
-Through it all, remember to be mindful of the one percent rule. “90% are along for the ride and participate passively – this is the user community; 9% participate actively, submitting bugs, answering questions publicly – we call these ‘contributors’; 1% help to guide or control the project, assign bugs, determine direction – these are ‘maintainers’, or more simply, leaders,” explains Jeff Osier-Mixon, Intel/Yocto Project.
+在此过程中，请记住“百分之一规则”。"90%的人只是乘坐飞机，被动地参与 —— 这是用户社区；9%积极参与，提交错误报告，公开回答问题 —— 我们称之为'贡献者'；1%协助指导或控制项目，分配错误修复任务，确定方向 —— 这些是'维护者'，或者更简单地说，是领导者，" Intel/Yocto Project的Jeff Osier-Mixon"解释道。
 
-Each project is unique; adapt on a project by project basis.
+每个项目都是独特的；根据项目逐个进行调整。
 
-## Leadership roles in a collaborative project
+## 协作项目中的领导力角色
 
-While roles appear similar to corporate roles and structure, every project is different and structured and managed by a specific set of community guidelines and a governance policy. Be sure to read the documentation, join IRC for real-time, private chats, join mailing lists, etc. for guidance on how roles are defined and how the project is structured and managed.
+尽管角色看起来与公司的角色和结构类似，但每个项目都是独一无二的，由一套特定的社区准则和治理政策来组织化和管理。务必阅读文档，加入实时的IRC、私人聊天，加入邮件列表等，了解角色是如何定义的，以及项目是如何结构化和管理的。
 
-Meanwhile, the following will give you a general understanding of some of the common types of leadership roles.
+同时，以下将让你大致了解一些常见类型的领导角色。
 
-### Technical leadership
+### 技术领导力
 
-* Committer/Maintainer
-* TAB/TSC member
-* TSC chair/chief architect
-* Documentation/technical writer – “this is a special case maintainer”
+* 提交者/维护者
+* 技术咨询委员会（TAB）/技术委员会（TSC）成员
+* TSC主席/首席架构师
+* 文档/技术撰稿人 —— “这是一个特例的维护者”
 
-### Governance leadership
+### 治理领导力
 
-* Executive director
-* Committees/subcommittees
-* Board member/member representatives
+* 执行董事
+* 委员会/子委员会
+* 董事会成员/成员代表
 
-### Operational leadership
+### 运营领导力
 
-* Project managers
-* Community managers and advocates
+* 项目经理
+* 社区经理和倡导者
 
-## Leadership roles matrix
+## 领导力角色矩阵
 
-Keep in mind that while these roles resemble their traditional counterparts in a historical management hierarchy, they are not the same. One cannot simply transpose the values, processes and principles from the old closed model to the new open source model. In many ways they are direct opposites, or perhaps mirror images. In any case, they are different in every important way. To choose one is to reject the other.
+请记住，虽然这些角色在历史管理层次结构中类似，但它们并不相同。你不能简单地将旧的封闭模型的价值观、流程和原则移植到新的开源模型中。在许多方面，它们是直接相反的，或者可以说是镜像。无论如何，它们在各个重要方面都是不同的。选择一个意味着拒绝另一个。
 
-The leaders in open source are comfortable and even promote transparency and must obtain consensus before a project can move ahead. The process and leadership style can be maddening to those who prefer to cling to the traditional business structure.
+开源领导者习惯于并且甚至推广透明度，并且必须在项目向前推进之前获得共识。这个过程和领导风格对于那些更愿意坚持传统商业结构的人来说可能会让人发狂。
 
-In response to the frustrations often encountered in this sweeping cultural change, “a lot of companies will take the path of least resistance, which is ”oh this is great. I’m going to start with this as a base, fork it and do my own thing internally," says Martin.
+针对这种全面文化变革经常遇到的挫折，"很多公司会选择最省力的方式，也就是"哦，这很好。我将以这个作为基础，走岔路并在内部做自己的事情，" Martin说道。
 
-“The problem is that’s not sustainable and scalable in the long term because the further you diverge away from the rest of the community, the harder it’s going to be when there’s a next major upgrade that you want to pull from the community,” he said.
+"但问题是，从长远来看，这样是不可持续的，也不具备可扩展性，因为你离开社区的距离越远，下次想要从社区获取重大升级时就会越困难，" 他说道。
 
-Simply put, open source is a community effort and anything you do that pulls your work away from the community will eventually be to your company’s detriment.
+简而言之，开源是一种社区努力，你做的任何事情，如果使你的工作与社区产生脱节，最终都会对你的公司产生不利影响。
 
-## How to become a leader
+## 如何成为领导
 
-Becoming a leader in a collaborative environment requires considerable people skills and a willingness to see no work as beneath your rank.
+在协作环境中成为领导需要相当多的人际关系技巧和愿意看到任何工作都不低于自己级别的意愿。
 
-> “It is as simple as noticing that something needs to be done, and doing it – filing a bug, answering a question, offering to sit in the booth at a conference.” 
->
-> -– Jeff Osier-Mixon, Open Source Community Manager at Intel, speaking at Open Source Leadership Summit 2017.
+> “最简单的事情就是注意到需要做的事情，并去做 —— 提交错误报告，回答问题，愿意在会议上坐在展台旁，" —— Intel的开源社区经理Jeff Osier-Mixon在2017年的开源领导峰会上发言。
 
-And, of course, it requires significant technical skills in open source and the audacity in boldly using them – but only after you’ve studied the lay of the land, understood the group dynamics, and done some of the dirty work yourself.
+当然，还需要在熟悉环境、了解团队动态并亲自做一些琐碎工作之后，大胆运用开源技术技能。
 
-In other words, becoming a leader starts with earning the group’s respect. You can’t demand it, you must earn it.
+换句话说，成为领导者始于赢得团队的尊重。你不能要求它，你必须去赢得它。
 
-### Where to join in to prove your chops and earn leadership
+### 如何加入并证明自己的实力以及获得领导力
 
-Projects document how to join a committee, become a maintainer, and how to do join in at almost any level. Look at those documents to find a place to begin fitting into the group. You can start anywhere you like, just don’t cut in line.
+项目记录了如何加入委员会，成为维护者，以及如何在几乎任何层次参与。查看这些文档，找到一个开始融入团队的地方。你可以从任何你喜欢的地方开始，只是不要插队。
 
-“The one thing a person can do to develop influence is listen, understand, really try to read a situation before jumping in. If you can develop that habit over time then I think people will respect your contributions and find you to be more influential,” says Yehuda.
+"一个人可以发挥影响力的事情是倾听，理解，真正试着在加入之前读懂情况。如果你能随着时间的推移养成这种习惯，那么我认为人们会尊重你的贡献，并认为你更具影响力，" Yehuda说道。
 
-Open source conferences also provide a great way to meet other developers and leadership in a community. Beyond networking, making presentations at such events is a noteworthy way to share your and your company’s accomplishments and contributions to open source projects.
+开源会议还提供了与社区其他成员交流的良好机会。除了建立人际关系之外，在这些活动中进行演讲也是一个非常有效的方式，可以展示你和你所在公司在开源项目中的成就和贡献。
 
-Yehuda says his company, Oath, helps developers hone their presentation skills and polish specific presentations so that they succeed on stage. Practice makes perfect, so the more presentations developers make, the better they get at doing it – and the more recognizable their face, name and work becomes to the open source community.
+Yehuda说，他所在的公司Oath帮助开发者提升他们的演讲技巧，精心打磨他们的演讲，以确保他们在舞台上获得成功。实践是最好的老师，所以开发者参加的演讲越多，他们就越擅长 —— 这也使得他们在开源社区中的面孔、名字和工作变得更加有名。
 
-Contributions upstream will do the most in establishing your credentials and reputation in the community, however. Jump in and fix bugs where you see them and make contributions that will be helpful to the entire community and not just for your own projects.
+然而，对于建立自己在社区中的声誉和信誉来说，向上游贡献是最重要的。投身其中，修复你看到的问题，做出对整个社区有益的贡献，而不仅仅是为了自己的项目。
 
-### Joining vs creating a project
+### 加入与创建项目的对比
 
-Joining a project may seem like a slow path to a leadership position. Indeed, it does take time. However, it has advantages too, including immediate gains by benefitting from the work the community has already done and none of the expense of starting your own project.
+加入一个项目可能看起来是走向领导地位的缓慢途径。确实，这需要时间。然而，它也有优势，包括立即受益于社区已经做过的工作，并且不需要成本启动自己的项目。
 
-Starting your own projects in order to establish leadership, won’t gain you much.
+为了建立领导地位而开始自己的项目并不会有太大收获。
 
-As Martin put it, “if you’re the only group of kids in the sandbox, all from the same company, are you really leaders, or are you just the only people working on the project?”
+Martin说，"如果你们是沙盒里唯一的一群孩子，都来自同一家公司，你们真的是领导者吗，还是只是在项目工作的唯一一群人？"
 
-If you do start a project, do so for reasons other than establishing leadership because frankly no one else might join. That’s especially true if your project is less than stellar or competes with an established project.
+如果你确实开始了一个项目，那么做这件事的理由不应该是为了建立领导地位，因为坦率地说，特别是如果你的项目不是很出色，或者与一个已经建立的项目竞争，可能没有其他人会加入。
 
-“Starting a project takes a lot of work. Don’t start it if your code would be better off served contributing to another project where you could become a leader in that project by the basis of your code contributions,” advises Martin.
+马丁建议说，"开始一个项目需要大量的工作。如果你的代码更适合贡献给另一个项目，在那个项目中通过你的代码贡献成为领导者，可能更为明智。"
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community5.jpg)
 
-### Technical contributions
+### 技术贡献
 
-Donating code is serious business in open source communities. Building the project is exactly the point of the joint exercise. With many hands, the work is lighter, and by many contributions the risks are lowered and the quality heightened. Those are the goals anyway.
+在开源社区中，提交代码是一件严肃的事情。共同建设项目正是这个合作的目的。众人拾柴火焰高，通过众多的贡献，风险减少，质量提高。这些都是目标。
 
-The number one rule is to make sure that your contributions are useful to others and not just self-serving. But usefulness isn’t limited to big advancements; smaller bug fixes and other tweaks are appreciated too. The point is to make your contribution universally helpful, whether big or small.
+首要原则是确保你的贡献对其他人有用，而不仅仅是为了自己。但是有用性不仅仅体现在重大进展上；修复小错误和其他调整也同样受欢迎。无论是大还是小，关键是要使你的贡献在普遍上有帮助。
 
-Ibrahim Haddad also counsels contributors to follow the proper coding style, work within the project’s submission processes, provide documentation and explanations, listen to feedback, and wait patiently for acceptance.
+Ibrahim Haddad还建议贡献者遵循适当的编码风格，在项目的提交流程内操作，提供文档和解释，倾听反馈，并耐心等待接受。
 
 ![Source: Ibrahim Haddad, http://www.ibrahimatlinux.com/charts.html](/img/guides/building-leadership-in-an-open-source-community6.jpg)
 
-### Hiring talent
+### 招聘人才
 
-It’s no secret that open source developers are in short supply. That is likely to remain the case for the foreseeable future given that adoption of open source projects is at an all-time high and shows no signs of slowing. Not only does this mean that it is hard to find skilled developers to hire, but it is also tough to retain them if you do.
+众所周知，开源开发人员的供应短缺。在可预见的将来，情况可能会持续下去。因为开源项目的采用率创历史新高，并且没有放缓的迹象。这不仅意味着很难找到合适的开发人员，而且如果找到了，要留住他们也很难.
 
-A 2016 Cloud Foundry [report](https://www.cloudfoundry.org/developer-gap-2016/) found that there are “a quarter-million job openings for software developers in the U.S. alone and half a million unfilled jobs that require tech skills.” Additionally, the analysts forecast that the number of unfillable developer jobs will “grow to one million within the next decade.”
+2016年的一份Cloud Foundry报告发现，在美国单单软件开发人员就有25万个职位空缺，需要技术的空缺职位更是达到了50万个。此外，分析人士预测，未来十年内，不可填补的开发人员空缺职位数量将增长到一百万个。
 
-The demand for open source developers is even more extreme.
+对于开源开发人员的需求更是极大的。
 
-Still you can find out who are the leaders and who are regular and skilled contributors in an open source community and try to hire them directly. Or, you can ask them to recommend developers they themselves would like to work with.
+你可以找出开源社区中的领导者和普通技术贡献者，尝试直接聘请他们。或者，你可以要求他们推荐他们自己想一起工作的开发人员.
 
-“If you’re planning on hiring a maintainer, or hiring a strong contributor, keep in mind that those people are in high demand and they’re the most job flexible people on the planet. Meaning, they can go from company to company, and still work on the same project. The only thing that changes is the name of the company signing their paycheck,” says Martin.
+Martin说，"如果你计划招聘一个维护者，或者雇佣一名优秀的贡献者，请记住，这些人是最受欢迎的工作人员，他们对工作地点非常灵活。换句话说，他们可以在不同公司之间来回流动，但仍然在同一个项目上工作。唯一改变的只是签发工资支票的公司名字。"
 
-You can find additional guidance on hiring open source developers in the Linux Guide “[Recruiting Open Source Developers](https://www.linuxfoundation.org/recruiting-open-source-developers/).”
+你可以在Linux指南"[招聘开源开发人员](https://www.linuxfoundation.org/recruiting-open-source-developers/)"中找到更多关于招聘开源开发人员的指导。
 
-### Building talent (the best way)
+### 培养人才（最佳方式）
 
-Fortunately, open source is so hotly in demand that developers actively seek opportunities to develop or hone their open source chops. Martin says that every developer he’s interviewed to date has asked him how the company will help him build his own open source brand. Helping the developer grow into leadership in an open source community is a prime perk and useful in recruitment.
+幸运的是，开源非常受欢迎，开发人员积极寻求机会发展或提高他们的开源技能。马丁说，迄今为止，他采访过的每个开发人员都问过他们的公司将如何帮助他们建立自己的开源品牌。帮助开发人员成长并走向开源社区的领导地位是一项主要的福利，也是招聘的有用方式。
 
-Raising your own company’s visibility in its open source work can thus also help recruit developers. Some companies even offer open source training to add to the appeal. Presenting the company’s open source projects at conferences and contributing code in communities hare the best ways to raise your company’s visibility. Asking your developers to network with other developers and invite them aboard also tends to work well.
+提高公司在开源工作中的可见性也可以帮助招聘开发人员。一些公司甚至提供开源培训，以增加吸引力。在会议上介绍公司的开源项目，并在社区贡献代码是提高公司知名度的最佳方式。要求你的开发人员与其他开发人员建立联系并邀请他们加入也通常效果良好。
 
-Another key approach to attracting developers is by offering apprenticeships. Developers like to work on significant projects with plenty of reputation-building challenges. Offering apprenticeships and mentorship programs tends to be a successful draw and a great way to leverage the talent you already have onboard.
+吸引开发人员的另一个关键方法是提供学徒制。开发人员喜欢在重大有挑战性的项目中工作。提供学徒制和导师计划往往是成功的吸引因素，也是利用已有人才的好方法。
 
-Above all, gain the community’s trust so that your company is attractive to open source developers and to developers who seek to advance their career by working with a trustworthy, open source leader.
+最重要的是，赢得社区的信任，使你的公司对开源开发人员具有吸引力，对那些寻求通过与值得信赖的开源领导者合作来推动职业发展的开发人员也具有吸引力。
 
-> “Like anyone else, commercially-motivated developers gain influence in the project through the quality and quantity of their contributions.” – [Open Source Guides](https://opensource.guide/leadership-and-governance/#what-happens-if-corporate-employees-start-submitting-contributions), GitHub, Leadership and Governance, corporate employees.
+> "像其他商业动机的开发人员一样，通过他们贡献的质量和数量在项目中获得影响力。" – [开源指南](https://opensource.guide/leadership-and-governance/#what-happens-if-corporate-employees-start-submitting-contributions)，GitHub，领导力与治理，企业员工。
 
-### Strategic contributions
+### 战略性贡献
 
-Strategic contributions are significant in establishing leadership. They tend to address a large problem shared across the ecosystem, or provide a key advancement that pushes the project past a community set goal line.
+战略性贡献在建立领导地位方面非常重要。它们通常解决了整个生态系统的某个重大问题，或者提供了一个关键进展，使项目超越了社区设定的目标线。
 
-However, you can’t just release the code and forget about it. There’s work to do in providing documentation, expanding the ecosystem, partnering to advance this code or toolset even further, and so on. Staying in the game and remaining both visible and reliable is key.
+然而，你不能只发布代码然后置之不理。提供文档、扩展生态系统、合作推动代码或工具进一步发展等方面，都还有很多工作要做。保持参与并保持可见性和可靠性至关重要。
 
-### Non-technical contributions and support
+### 非技术贡献和支持
 
-Beyond technical contributions, strategic and otherwise, are other ways to contribute and support the community thereby further building leadership.
+除了技术贡献，战略贡献和其他贡献之外，还有其他的贡献方式可以支持社区，从而进一步建立领导地位。
 
-Those include contributing to and supporting developer education and providing mentorship. Providing support for the technical aspects is another successful way to establish leadership.
+这些包括对开发人员教育的贡献和支持，以及提供导师。提供对技术方面的支持也是建立领导地位的成功方式之一。
 
-The key is to look around and see what the community needs beyond technical contributions and then step up to contribute some of that.
+关键是要环顾四周，看看社区需要什么样的贡献，然后积极投入其中。
 
-## Final words
+## 最后
 
-In summary, being a good leader and winning influence takes time and hard work.
+总之，成为一个优秀的领导者并赢得影响力需要时间和努力。
 
-Specific ways to work at becoming a leader include:
+努力成为领导者的具体方法包括：
 
-* Adapt to the OSS project culture, practices and tools. Work to fit in and follow the rules and processes. Remember it’s not about you; it’s about the project.
-* Do the grunt work. Projects need workhorses, not all-stars. Besides, if you can’t do the work, you can’t earn the right to lead. Be quick to show you can and will do the work needed.
-* Be magnanimous. Contribute code that benefits the whole project.
-* Build consensus. True leaders can build consensus, work to help achieve consensus even before becoming a leader to show that you aren’t a grandstander or a tyrant.
-* Accept that leadership changes. Recognize and accept that leadership roles move with the people, not the company that employs them.
+* 适应开源项目文化、实践和工具。努力融入并遵循规则和流程。记住这不是关于你自己，而是关于项目
+* 做肮脏的工作。项目需要的是勤劳肯干的人，而不是明星。此外，如果你不能做这项工作，你就没有资格担任领导者。展示你有能力并且愿意做需要的工作。
+* 慷慨大方。贡献代码让整个项目受益。
+* 建立共识。真正的领导者可以建立共识，努力在成为领导者之前帮助达成共识，以显示你不是一个好大喜功者或者专制者。
+* 接受领导力的变化。认识并接受领导角色随着人员变动而变化，而不是随着雇佣他们的公司而变化。
 
-## Acknowledgements
+## 鸣谢
 
-Contributors to this guide:
-
+本指南的贡献者：
 * Guy Martin, Autodesk
 * Gil Yehuda, Oath

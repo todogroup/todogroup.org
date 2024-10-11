@@ -1,265 +1,272 @@
 ---
-title: Improve your open source development impact
+title: 提升你的开源开发影响力
 ---
 
-Open source development requires a different approach to software engineering than many organizations are accustomed to. It becomes easier if you have a clear plan to follow. Fortunately, many companies and individuals have already forged a path to success by contributing to significant open source projects in strategic ways. This practical guide will help you and your company improve your internal development process and prepare you to contribute to the open source projects that matter most to your company. Contributing to the Linux kernel is one of the hardest challenges for open source developers. So we’ll use this case as an example for this guide. Fortunately, the guidance will apply to nearly any open source project you’ll face.
+开源开发与许多组织所熟悉的软件工程方法不同，它需要一种新的思路。如果你能遵循一个明确的计划，这个过程会变得更加简单。幸运的是，许多公司和个体已经通过战略性地贡献于重要的开源项目，找到了成功的路径。本实用指南将帮助你和你所在的公司优化内部开发流程，并准备好为那些对公司至关重要的开源项目做出贡献。对Linux内核的贡献是开源开发者面临的最大挑战之一，因此我们以这个案例为例来说明。幸运的是，这些指导原则几乎适用于你将遇到的所有开源项目。
 
-## What is impactful open source development?
 
-Developer contributions are one of the primary ways that your open source program will achieve the business goals you’re supporting with your organization’s open source strategy. There are many ways to influence the direction of an open source project, from testing code in different environments and adding to the code documentation, to funding the project or foundation and participating on the project board, or by using the code in other open source projects. But your company will exert the greatest influence in open source projects through the quality, quantity, and consistency of its code contributions. So it is in your organization’s best interest to provide the tools and processes that will help your team develop high-quality, effective open source code.
+## 什么是有影响力的开源开发？
 
-Impactful open source code can influence the technical direction of the open source projects you contribute to, which in turn improves your products while minimizing the cost of maintaining that code.
+开发者的贡献是实现组织开源战略支持的商业目标的关键途径。影响开源项目方向的方法有很多，比如在不同的环境中测试代码、完善代码文档、资助项目或基金会、参与项目管理委员会，或者在其它开源项目中应用这些代码。然而，公司通过代码贡献的质量、数量和持续性，能在开源项目中产生最大的影响力。因此，为了组织的最大利益，应当提供工具和流程，帮助团队开发出高质量、高效的开源代码。
 
-The goal is to improve your development team’s efficacy through and with open source contributions. By helping your organization implement some of the recommended open source development best practices laid out below you can:
+具有影响力的开源代码能够左右您所参与的开源项目的技术走向，这样做不仅能够提升您的产品性能，同时还能降低代码维护的成本。
 
-* Reduce the amount of work needed from product teams
-* Minimize the cost to maintain source code and internal software branches
-* Improve code quality
-* Produce faster development cycles
-* Produce more stable code to serve as the base for products
-* Improve company reputation in key open source communities.
+我们的目标是利用开源贡献来提升开发团队的工作效率。通过帮助你的组织采纳下面推荐的一些开源开发最佳实践，可以实现以下效果：
 
-## The role of an open source program in improving development
+减轻产品团队的工作负担
+降低维护源代码和内部软件分支的成本
+提升代码质量
+加快开发周期
+生成更稳定的代码，作为产品的基础
+在关键的开源社区中提升公司的声誉。
 
-Your open source program can have both direct and indirect positive impacts on your products – whether they are consumed internally as infrastructure or services, or shipped as a commercial offering. These are impacts that you can measure and improve. They also provide tangible results to report to executive leadership – helping to show the value of your open source program and deliver ROI.
+## 开源项目在提升开发效率中的作用
 
-## Direct enablement
+您的开源项目不仅能对内部使用的基础设施或服务产生直接和间接的积极影响，也能对作为商业产品发布的产品产生同样的效果。这些影响是可以被衡量和优化的，它们为向高层领导汇报提供了具体成果——有助于展示开源项目的价值，并实现投资回报。
 
-Your open source program can directly impact your organization’s open source code development by contributing the code itself. Every company structures its open source program and engineering contributions according to what best fits its own business goals and corporate structure (See the [program structure section](https://www.linuxfoundation.org/creating-an-open-source-program/#4) in our guide on Creating an Open Source Program). But contributing code is the best way to gain influence in an open source project and build your company’s reputation in the open source community.
+## 直接赋能
 
-At Samsung, the open source program has its own dedicated engineering team which fulfills open source development requests from the company’s R&D and product teams. The program also helps bring internal Samsung code into various open source projects. And it has implemented numerous drivers related to Samsung products into upstream code. Product teams have their own developers who contribute to open source projects but they have less freedom as they are tied to product development. So the open source group receives requests such as “we need feature X implemented in the Kernel” and their engineering team delivers the code to product and to the Linux kernel.
+您的开源项目可以通过直接贡献代码，来直接影响组织在开源代码开发方面的工作。每个公司都会根据自身的业务目标和公司架构来构建开源项目和工程贡献（详情请参阅我们关于创建开源项目的指南中的[项目结构部分](https://www.linuxfoundation.org/creating-an-open-source-program/#4)）。然而，贡献代码是在开源项目中获得影响力并在开源社区中树立公司声誉的最有效方式。
 
-> “Our expertise in committing code upstream has made us particularly valuable with these open source components, and our efforts have resulted in a reduction in the amount of effort required to maintain kernel code that’s used in Samsung products and services.” – [Ibrahim Haddad](https://twitter.com/ibrahimatlinux), Vice President of R&D and Head of the Open Source Group at Samsung Research America.
+在三星，开源项目拥有一支专门的工程团队，负责满足公司研发和产品团队的开源开发需求。这个项目还帮助将三星内部的代码引入到多个开源项目中，并已将许多与三星产品相关的驱动程序整合到上游代码中。虽然产品团队也有自己的开发者参与开源项目，但由于他们主要专注于产品开发，因此自由度相对较低。开源组会接到诸如“我们需要在内核中实现功能X”的请求，然后他们的工程团队会负责将代码提供给产品和Linux内核。
 
-Open source program offices that are focused only on policy and process don’t always have a dedicated engineering team for contributing code. Instead, engineers across departments allocate a portion of their time to pushing code upstream for any changes they make to open source components.
+> “我们在将代码贡献到上游方面的专业能力，使得我们在这些开源组件的开发中发挥了特别重要的作用。我们的努力也显著减少了维护三星产品和服务的内核代码所需的工作量。”——[Ibrahim Haddad](https://twitter.com/ibrahimatlinux)，三星研究美国公司研发副总裁兼开源团队负责人。
 
-Regardless of how the engineering team is structured, the goal is to minimize the technical debt with respect to those components. If upstream contributions do not happen, the product team will be stuck with large code bases that are out of sync with upstream. They’ll spend their time back-porting the updates to their out-of-sync fork instead of advancing the product.
+那些只关注政策和流程的开源项目办公室通常没有专门用于贡献代码的工程团队。相反，不同部门的工程师会将他们的一部分时间用于将他们对开源组件所做的任何修改推送到上游。
 
-Often an open source developer embedded in a product team will have a hard time striking any balance between upstream work and responsibilities (as a committer or maintainer) and their role in making the product happen.
+无论工程团队的结构如何，目标都是尽量减少与这些组件相关的技术债务。如果不上游贡献，产品团队将不得不处理与上游不同步的大型代码库。他们将忙于将更新反向移植到不同步的分支上，而不是推进产品的发展。
 
-Each open source program office is uniquely structured depending on the needs of the business. Facebook, for example, has a dedicated Tools team within the open source program office that is responsible for building internal tools to help manage its open source portfolio. This includes the projects that Facebook shares, which are mostly hosted on GitHub, as well as the other external projects they contribute to such as the Linux kernel. (See our case study on [Facebook’s open source program](https://github.com/todogroup/guides/blob/master/casestudies/facebook.md).)
+通常，嵌入在产品团队中的开源开发者很难在上游工作和责任（作为提交者或维护者）与他们在产品开发中的角色之间找到平衡。
 
-## Indirect Enablement
+每个企业的开源项目办公室结构都是根据其业务需求量身定制的。以Facebook为例，他们在开源项目办公室中设立了一个专门的工具团队，这个团队负责开发内部工具，以帮助管理Facebook的开源项目组合。这包括Facebook在GitHub上分享的项目，以及他们参与贡献的其他外部项目，例如Linux内核。（详情请参阅我们关于[Facebook开源项目](https://github.com/todogroup/guides/blob/master/casestudies/facebook.md)的案例研究。）
 
-The open source program’s impact goes beyond the code the organization contributes to the various open source projects, however. From public relations and marketing, to legal support, developer training, and more, an open source program enables development in myriad ways. Here are four ways that the program can indirectly improve development through non-code contributions:
+## 间接赋能
 
-1. **External technical discussions.** One major area to make indirect contributions is by influencing the various communities through participation in technical discussions. Your open source developers can do this by being active on mailing lists and IRC chats to participate in discussions and stay informed on the latest project updates. And on larger projects with formal governance structures you can sit on technical steering committees.
+开源项目的影响不仅限于对各种开源项目的代码贡献。它还包括公关、市场营销、法律支持、开发者培训等多方面的贡献，从而以多种方式促进开发。以下是开源项目通过非代码贡献间接提升开发的四种途径：
 
-2. **Internal technical discussions.** Internally, open source developers can participate in policy and architecture discussions to ensure the organization’s decisions match the direction of a specific project community. Open source developers should be present for any strategy discussions related to long-term planning for products that rely on open source code, for example.
+1. **参与外部技术讨论。** 通过参与邮件列表和IRC聊天等，开源开发者可以在技术讨论中发挥影响力，了解项目最新动态，并在大型项目中加入技术指导委员会。
 
-3. **Compliance support.** Program managers can also provide assistance to resolve compliance issues and support the compliance team with the open source compliance inquiries they receive.
+2. **参与内部技术讨论。** 开源开发者应参与公司内部的政策和架构讨论，确保公司决策与依赖的开源项目方向一致，特别是在产品长期规划方面。
 
-4. **Bug fixes.** Finally, you can also help stabilize the code of the various open source projects you’re involved in. Find and fix bugs, test the fix and submit it upstream. This improve the code’s overall value for all the project’s users, including your company.
+3. **提供合规支持。** 项目经理可以帮助解决合规问题，并支持合规团队处理开源合规方面的咨询。
 
-## Common areas for improvement
+4. **参与错误修复。** 开源开发者还可以帮助稳定项目的代码质量，通过找到并修复错误，然后提交给项目上游，从而提升代码对整个社区的价值。
 
-There are three general areas in which open source programs can improve developer productivity and efficacy in open source projects: culture, processes, and tools. Within each of these categories, there are several elements that you will need to address to fit the open source model.
+
+## 常见的提升领域
+
+开源项目可以在三个主要方面提高开发者在开源项目中的工作效率和效果：文化、流程和工具。为了适应开源模式，您需要针对这些类别中的几个关键要素进行改进。
 
 ![](/img/guides/improve-open-source-dev-impact1.png)
 
-### Challenges open source dedicated teams face in an enterprise setting
 
-#### Culture
+### 企业环境中开源团队面临的挑战
 
-Cultural challenges often stem from the fact that there is a gap between traditional software development practices and the requirements of open source development. You can bridge this gap by hiring open source experts and having them train other groups that aren’t familiar with the open source development model.
+#### 文化挑战
 
-> “We aim to also provide open source engineers with adequate time to fulfill upstream responsibilities so they can provide adequate open source leadership for Samsung.” – Ibrahim Haddad, Vice President of R&D and Head of the Open Source Group at Samsung Research America.
+文化上的挑战往往源于传统软件开发与开源开发之间的差异。为了缩小这一差距，企业可以聘请具有开源开发经验的专业人士，并让他们培训那些不熟悉开源开发模式的团队。
 
-#### Processes
+> “我们的目标还包括为开源工程师提供充分的时间，以履行他们对上游项目的责任，从而为三星提供充足的开源领导力。” —— Ibrahim Haddad，三星研究美国公司研发副总裁兼开源团队负责人。
 
-Open source development is dynamic, moves very quickly, and has special requirements for compliance. Companies that don’t adapt their internal processes to meet this type of development can easily get left behind. Developers need to be enabled to contribute code upstream quickly and any internal code policies need to be modified to allow this.
+#### 开发流程
 
-First, it’s vital to have a team in charge of maintaining proper open source compliance to avoid legal problems. (See our ebook, [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/).)
+开源开发具有动态性，发展迅速，并且在合规方面有着特殊要求。如果企业不调整内部流程以适应这种开发方式，很容易落后。开发者需要能够迅速向上游贡献代码，因此内部代码政策也需要相应地进行修改。
 
-You’ll also need to have a simple internal approval model for open source use and contributions. Throughout the years, Samsung has moved from highly complex and cumbersome policies to a more simple approach for receiving, reviewing, and approving source code contributions. It’s a function of balance between all parties involved: legal, engineering, and open source. The compromise we have now supports the dedicated open source team which has a blanket approval to contribute to a number of open source projects. This is not the case for other teams who need to get different levels of approval depending on the nature of the code being contributed (e.g. simple bug fixes, code to improve existing functionality, code that offers new functionality, or starting a new project).
+首先，建立一个负责维护开源合规性的团队至关重要，这样可以避免潜在的法律问题。（详情请参阅我们的电子书，[企业中的开源合规性](https://www.linuxfoundation.org/publications/open-source-compliance-enterprise/)。）
 
-#### Tools
+您还需要建立一个简单的内部审批流程，用于开源的使用和贡献。三星在多年的发展中，从复杂的政策转变为更简洁的方法来处理源代码的贡献、审查和批准。这是法律、工程和开源团队之间达成的一种平衡。目前我们达成的妥协支持了专门的开源团队，他们获得了对多个开源项目贡献的广泛批准。而其他团队则需要根据贡献代码的性质（如简单错误修复、改进现有功能、提供新功能或启动新项目）获得不同级别的批准。
 
-You’ll also want to ensure your tools are compatible with the open source development model from the start. Create a setup that fulfills the needs of the open source program office and also meets corporate IT guidelines.
+#### 开发工具
 
-Samsung, for instance, issues Linux devices that work with all of the tools its engineers need to participate in open source development. This environment allows developers to join the team without requiring any major changes to the way they work. They also support work from home and in fact have only very few open source developers in their Silicon Valley offices – all other staff are remote across the globe.
+您需要确保您的工具从一开始就与开源开发模型兼容。创建一个既满足开源项目办公室的需求，又符合企业IT标准的设置。
 
-## Top Recommended Practices
+例如，三星为其工程师提供了运行Linux的设备，这些设备支持他们参与开源开发所需的所有工具。这样的环境允许开发人员轻松加入团队，无需改变他们习惯的工作方式。三星还支持在家工作，事实上，他们在硅谷办公室只有少数开源开发者，其他员工都分布在全球各地，远程工作。
 
-First, a bit of history. December of 2000 marked a major milestone in the history of open source when IBM pledged to spend $1 billion on Linux R&D. IBM was a true pioneer in the enterprise world putting its bet on Linux and open source when very few companies did – and definitely not at that scale. IBM had to learn a lot about working with open source software and the various project communities they were involved in.
+## 推荐的最佳实践
 
-That was the starting point for enterprise open source and companies have since followed IBM by the dozens and then hundreds. Yet, thousands of companies are still entering open source as it is becoming the new normal of software development. The question is: How can we minimize the enterprise learning curve and speed up the process of “getting it right?”
+首先，让我们回顾一段历史。2000年12月，IBM承诺在Linux的研发上投入10亿美元，这一事件成为开源历史上的一个重要转折点。在当时，很少有公司会如此大规模地投资Linux和开源，IBM在企业界的这一举措无疑是一种创新。IBM因此不得不学习如何与开源软件及其社区合作。
 
-The answer is easy, but the application of that answer to specific company culture is the hard aspect. Let’s explore some of the “easy” aspects of learning from over 17+ years of enterprise experience with open source software. You’ll get to deal with the hard aspect of applying those lessons to your particular enterprise environment.
+这标志着企业开源的正式起步，自此之后，成百上千的公司纷纷效仿IBM的做法。如今，随着开源成为软件开发的新常态，越来越多的公司正在加入开源的行列。问题在于：我们如何帮助企业缩短学习曲线，更快地掌握开源的正确使用方式？
 
-A word of caution: In addition to implementing these practices, you will need to lead a cultural shift from traditional software development practices to a more open and collaborative mindset. Internal company dynamics need to be favorable to open source efforts. As an open source leader inside your organization you will face several challenges in terms of funding resources, justifying ROI, getting upstream focus, etc. These often require a major shift in mindset and a lot of education up the chain.
+答案虽然简单，但将其应用到特定公司的文化中却颇具挑战。让我们探讨一些从超过17年的企业开源软件经验中学到的“简单”方面。您需要解决的是将这些经验应用到您企业特定环境中的难题。
 
-### 1) Hire key developers and maintainers from the project’s community
+请注意：除了实施这些实践之外，您还需要引导企业文化从传统软件开发转向更加开放和协作的心态。公司内部的动态必须支持开源工作。作为组织内的开源领导者，您可能会面临资金资源、证明投资回报率、获取上游关注等多方面的挑战。这通常需要心态上的重大转变，并在整个组织中推行大量的教育。
 
-It takes considerable time to grow internal open source expertise. Hiring key developers is a critical step that allows your organization to quickly gain skills and recognition.
+### 1) 从项目社区招募关键开发者和维护者
 
-Two or three people are a great start towards making a noticeable impact in a large project such as the Linux kernel, attracting further hires, and allowing enough resources to mentor existing junior developers. (See our guide on [Recruiting Open Source Developers](https://www.linuxfoundation.org/recruiting-open-source-developers/).)
+建立内部开源专业知识需要大量时间。聘请关键开发者是快速提升组织技能和获得认可的重要步骤。
 
-The goal is to find people who have enough peer recognition to be influential in the community. There are typically three pillars to this: domain expertise, open source methodology, and working practices.
+在大型项目（如Linux内核）中，两到三个关键人物可以产生显著影响，吸引更多人才加入，并为现有初级开发者提供足够的资源进行指导。（详情请参阅我们的指南，[招聘开源开发者](https://www.linuxfoundation.org/recruiting-open-source-developers/)。）
 
-You also need to align corporate interests with individual interests: it’s very hard to motivate a senior open source developer to work when their personal interests don’t meet with corporate interests in a given project. For example, a Linux memory management expert may not be interested in working on file systems, a corporate priority. Therefore, finding a match in interests is critical for a long lasting relationship.
+我们的目标是找到在社区中具有一定影响力的人。这通常包括三个要素：领域专业知识、开源方法论和工作实践。
 
-### 2) Allocate Time for Upstream Contributions
+您还需要确保公司利益与个人兴趣相一致：如果资深开源开发者的个人兴趣与公司在某个项目中的利益不符，那么激励他们工作将非常困难。例如，一个专注于Linux内存管理的专家可能对文件系统不感兴趣，而这恰恰是公司的重点。因此，找到双方兴趣相符的匹配对于建立长期的合作关系至关重要。
 
-The core principle for hiring open source developers is to support your open source development and upstream activities. There is also the expectation that they should support product teams in their expertise areas. However, it’s not uncommon for product teams to exercise their influence in an attempt to hijack the time of the open source developers by having them work on product development as much as possible. If this happens, many open source developers will head to the door, seeking a new job that allows them to work on their upstream project before you realize what just happened.
+### 2) 为上游贡献分配时间
 
-Therefore, it’s important to create and maintain a separation of upstream work and product work. In other words, it’s recommended to provide your open source developers with guaranteed time to meet their upstream aspirations and responsibilities, especially if they are a maintainer. For junior developers or other internal developers who are using open source in product components, such interactions with the upstream community will increase their language, communication, and technical skills. In the absence of such an upstream time guarantee, it’s easy for these team members to be sucked into becoming an extension of product teams, resulting in their upstream focus drying up in favor of product development.
+雇佣开源开发者的核心原则是支持他们的开源开发和上游活动。同时，也期望他们能在专业领域内支持产品团队。然而，产品团队有时会试图占用开源开发者尽可能多的时间用于产品开发，这可能会导致开源开发者离职，转而寻找能让他们专注于上游项目的工作。
 
-You should also be the upstream partner for product teams; they often feel like they’re living inside a pressure cooker, especially in a consumer electronics environment. They often seem understaffed, lack critical resources to support parallel upstream development, and are under constant pressure for feature delivery within tight schedules. In such an environment, it’s very easy to overlook the benefit of upstreaming in favor of short-term time savings that can unfortunately lead to technical debt that has a higher cost in the long term. Open source teams can help by being a partner that focuses on delivering important code upstream, reducing this technical debt.
+因此，明确区分上游工作和产品工作至关重要。建议为开源开发者提供固定的时间，以满足他们的上游目标和责任，尤其是对于那些担任维护者角色的开发者。对于初级开发者或其他使用开源组件的内部开发者，与上游社区的互动将有助于提升他们的语言、沟通和技术技能。如果没有这样的时间保障，这些团队成员可能会被产品团队完全占用，从而忽视了上游工作的重点。
 
-Encourage developers outside the open source team to learn from and contribute to the open source community. We provide as much help as we can with upstream code contributions, but our resources are limited, and we don’t always have the deep understanding of products that might be needed to adequately identify where code can be upstreamed. Better involvement in the open source community from teams outside our own allows us to get more important code upstream, and improves our ability to interact with the community.
+作为产品团队的上游合作伙伴，你需要在消费电子领域这个高压环境中为他们提供支持。他们通常面临人员不足、关键资源缺乏的问题，且需要在紧迫的截止日期前完成功能开发。在这种情况下，他们可能会为了节省短期时间而忽视将代码贡献到上游的重要性，这反而可能导致长期的技术债务增加。开源团队可以通过专注于将关键代码贡献到上游，帮助减少这种技术债务。
 
-### 3) Create a Mentorship Program
+同时，鼓励非开源团队的开发者学习和参与开源社区。尽管我们尽可能在上游代码贡献上提供帮助，但我们的资源有限，且对产品的深入了解可能不足，这限制了我们在识别可上游化代码方面的能力。非开源团队的更多参与将有助于我们将更多重要代码贡献到上游，并提升我们与社区的互动能力。
 
-Grow open source talent in specific technology areas relevant to your products. It’s easy to hire a few resources from outside the company, but there are several limitations to this approach.
+### 3) 创建导师计划
 
-The alternative approach is to convert your existing developers into open source contributors via training on the technical domain and open source methodology. These developers can then be paired with a mentor to further expand their skills.
+在产品相关的关键技术领域培养开源人才。虽然从外部招聘相对容易，但这并非长久之计。
 
-Set up a mentorship program where senior, experienced open source developers provide mentorship to junior, less experienced developers. Typically, the mentorship program would run for 3 to 6 months; during this time, the mentor should supervise the work of the mentee, assign tasks, and ensure proper results. The mentor would also do code reviews for anything the mentee produces, and provide feedback before the mentee pushes the code to the upstream project.
+更有效的方法是通过技术培训和开源方法论，将现有开发者转变为开源贡献者。之后，可以安排他们与经验丰富的导师一起工作，以进一步提升技能。
 
-The goal is to increase the number of developers the company has contributing code to the upstream project, and to improve individual effectiveness by increasing the quality of code and the percentage of code that is accepted into the upstream project. Generally speaking, no more than 4-5 mentees should be assigned to a given mentor, and ideally they should work in the same area as the mentor to make code reviews more efficient.
+建立导师计划，让资深开源开发者指导经验较少的开发者。导师计划通常持续3到6个月，期间导师将监督学员的工作，分配任务，并确保成果达标。导师还需对学员编写的代码进行审查，并在代码提交到上游项目前提供反馈。
 
-### 4) Formalize an Open Source Career Path
+目标是增加公司向开源项目贡献代码的开发者数量，并通过提升代码质量和接受率来增强个人贡献的效率。通常，每位导师指导的学员不应超过4到5名，且最好在相同技术领域工作，以便更高效地进行代码审查。
 
-Create an open source developer track in your human resources (HR) system so people hired as open source developers, or those building their open source skills, have a good sense of how their career will progress within the company. Additionally, you should adjust performance-based bonuses to include goals related to open source development work. The metrics by which the performance of proprietary or closed source developers are measured are often different than those of open source developers.
+### 4) 设立开源职业发展路径
 
-At some companies, there is a clear distinction between open source and non-open source developers. But in many companies the line is much more fluid, depending on its organizational structure and open source strategy. In reality, all modern developers have to work with open source. There are no closed source developers. Rather, there are times their code stays inside the company and times their code is published (contributed to a third party, or published as a new project). Your HR track and incentives should reflect your organization’s unique structure and approach to open source.
+在人力资源系统中为开源开发者设立专门的职业轨道，让新招聘的开源开发者或正在提升开源技能的员工能够清楚地看到在公司内的职业发展路径。同时，应调整绩效奖金制度，将开源开发工作的目标纳入其中。开源开发者的绩效评估标准与专有或闭源开发者通常有所不同。
 
-Finally, allow a flexible work from home policy for open source developers, regardless of the general corporate policy related to this. Lately, we have witnessed a reverse in work from home policies across companies where many have either banned or created strict limitations to working from home. In the open source world, a work from home policy is almost mandatory because open source experts are located all over the planet, and this policy is often the only way to hire them.
+在某些公司中，开源开发者与非开源开发者之间有明确的界限。但在许多公司，这一界限更加灵活，取决于公司的组织结构和开源战略。实际上，所有现代开发者都需要与开源打交道。所谓的“闭源开发者”并不存在，因为他们的代码有时会在公司内部保留，有时则会公开发布（贡献给第三方或作为新项目发布）。公司的人力资源职业轨道和激励措施应反映公司独特的组织结构和开源策略。
 
-There are operational benefits to a flexible work policy as well. Offering remote work options reduced employee turnover, and “job attrition rates fell by over 50 percent,” according to a [study published by Stanford University](https://people.stanford.edu/nbloom/sites/default/files/wfh.pdf ). And a [study by PGI](https://remote.co/10-stats-about-remote-work/), a leading provider of software services, found that 80 percent of workers reported higher morale when working from home, while 69 percent reported lower absenteeism.
+最后，为开源开发者制定灵活的在家工作政策，不受公司整体远程工作政策的限制。近期，许多公司的远程工作政策出现了倒退，要么禁止，要么严格限制在家工作。然而，在开源领域，允许在家工作几乎是必须的，因为开源专家遍布全球，这是雇佣他们的关键条件。
 
-### 5) Offer Training
+灵活的工作政策还有助于提升运营效率。提供远程工作选择可以显著降低员工流失率。斯坦福大学的一项研究显示，远程工作使离职率下降了超过50% ([斯坦福大学的研究](https://people.stanford.edu/nbloom/sites/default/files/wfh.pdf))。而软件服务提供商PGI的研究发现，80%的员工认为在家工作提高了士气，69%的员工反映缺勤率下降([PGI的研究](https://remote.co/10-stats-about-remote-work/))。
 
-It’s impossible for any company to hire all the senior and most expert developers in a given domain. This concept applies to the Linux Kernel and any other prominent open source project. Therefore, you must have a way for your company to increase the competence of its developers in a given technical domain. In addition to technical training, you’ll also need training to teach the open source development model and the basic concepts of open source legal compliance.
 
-Sample training courses include:
+### 5) 提供培训
 
-* Technical training that covers the various areas in the Linux Kernel. Maintainers or senior developers usually present this to grow internal Kernel expertise; this expertise is vital to pass on given how challenging it is to hire expert Kernel developers.
-* Open source development methodology course that teaches staff that’s new to open source how open source and Linux Kernel development works and how to best get engaged.
-* Open source compliance course that teaches staff the basics of compliance principles and open source licensing. This should also be used to inform them of your company’s policy and process. (The Linux Foundation offers a free online open source compliance training for developers. The course is available [here](https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/compliance-basics-for-developers).)
+没有任何公司能够聘请到特定领域所有的资深和顶尖开发者。这一原则适用于Linux内核和其他所有著名的开源项目。因此，公司需要找到方法来提升开发者在特定技术领域的能力。除了技术培训，还需要教授开源开发模式和开源法律合规基础知识的培训。
 
-### 6) Participate in Open Source Events
+示例培训课程包括：
 
-Support your developers to attend and participate in open source conferences and events, including local community meetups, hackathons, and summits. Such participations help them connect at a personal level with their peers, build relationships, have face to face social interactions, and participate in technical discussions that guide the project direction.
+* 技术培训，涉及Linux内核的多个方面。通常由内核维护者或资深开发者主讲，以提升内部内核开发能力；这对于难以招聘到的内核专家至关重要。
+* 开源开发方法论课程，向开源新手介绍开源和Linux内核开发的工作方式，以及如何有效地参与。
+* 开源合规课程，向员工传授合规原则和开源许可的基础知识。此外，还应借此课程介绍公司的政策和流程。（Linux基金会提供免费的在线开源合规培训课程，开发者可以在[这里](https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/compliance-basics-for-developers)参加。）
 
-If your developers have work that others might be interested in, help these developers prepare content to present. Finally, you can also sponsor events, both big and small, to increase external visibility within the project’s community. These events are also a great venue to look for talent!
+### 6) 参与开源活动
 
-### 7) Provide a Flexible IT Infrastructure
+鼓励开发者参加开源会议和活动，包括本地社区聚会、黑客松和峰会。这些活动能帮助他们与同行建立个人联系，发展关系，进行面对面交流，并参与决定项目方向的技术讨论。
 
-Provide a flexible IT infrastructure that allows open source developers to communicate and work with the open source and Linux kernel community without any challenges. Additionally, set up internal IT infrastructure that matches the tools used externally to help bridge the gap between internal teams and the kernel community or any other open source project community for that purpose. Much of this infrastructure will naturally evolve with your organization’s open source culture, but it’s important to be aware of the necessity and plan for its implementation
+如果开发者的工作可能引起他人兴趣，帮助他们准备展示内容。此外，赞助各种规模的活动可提高项目社区内的外部能见度。这些活动也是挖掘人才的绝佳机会！
 
-There are three primary domains of IT services that are used in open source development: knowledge sharing (wikis, collaborative editing platforms, and public websites), communication and problem solving (mailing lists, forums, and real-time chat), and code development and distribution (code repositories and bug tracking). Some or all of these tools will need to be made available internally to properly support open source development. There is a chance this might conflict with existing company-wide IT policies. If so, it’s vital to resolve these conflicts and allow open source developers to use the tools they are familiar with.
+### 7) 提供灵活的IT基础设施
 
-These open source practices typically require an IT infrastructure that is free from many standard, limiting IT policies.
+建立灵活的IT基础设施，以便开源开发者能够轻松地与开源和Linux内核社区进行沟通和工作。同时，确保内部IT工具与外部工具兼容，以促进内部团队与内核社区或其他开源项目社区之间的交流。随着组织开源文化的不断发展，这种基础设施将自然演变，但关键是要认识到其重要性并制定实施计划。
 
-> “It took us years of constant discussion and negotiation to break from the traditional IT setup into a more flexible environment that supports our open source development. We made it work for us and with enough persistence you also can make it work for your open source team.” – Ibrahim Haddad, Vice President of R&D and Head of the Open Source Group at Samsung Research America.
+在开源开发中，主要使用三种IT服务领域：知识共享（包括维基、协作编辑平台和公共网站），沟通与问题解决（如邮件列表、论坛和实时聊天），以及代码开发与分发（涉及代码仓库和错误跟踪）。为了有效支持开源开发，这些工具中的某些或全部可能需要在内部提供。这种做法可能会与公司的现有IT政策发生冲突。如果确实存在冲突，必须解决这些问题，并允许开源开发者使用他们熟悉的工具。
 
-### 8) Track Developer Code Contributions
+开源实践通常需要一个不受许多标准IT政策限制的灵活IT基础设施。
 
-Create an internal system to keep track of developer contributions and impact. Contributions can include upstream development, supporting product teams, knowledge transfer (mentoring, training), visibility (publications, talks), launching new open source projects, and establishing internal collaboration projects with other teams or groups.
+> “我们花了数年时间不断讨论和谈判，才摆脱传统的IT设置，转变为一个更灵活的环境来支持我们的开源开发。我们做到了，只要坚持不懈，你也可以为你的开源团队打造一个高效的工作环境。” —— Ibrahim Haddad，三星研究美国公司研发副总裁兼开源团队负责人。
 
-There are several toolkits that help track source code contributions; for instance, The Linux Foundation uses a tool called gitdm, which produces the data reported in the Linux Foundation yearly Linux Kernel report. This can be used to track both individual developers as well as the overall team performance. Individual developers can be tracked for the number of patches they submit, the patch acceptance rate (patches submitted divided by patches accepted), and the type of patch (e.g. if it is a new feature, enhancement of existing functionality, bug fix, documentation, etc.).
 
-Other tools like [GrimoireLab](http://grimoirelab.github.io/) can also be used to chart and visualize the metrics you want to track. See the next section on metrics for specific examples of what you should track.
+### 8) 跟踪开发者代码贡献
 
-### 9) Identify Focus Areas with Broad Impact
+建立一个内部系统来记录开发者的贡献及其影响。这些贡献可能包括上游开发、支持产品团队、知识传递（如指导、培训）、提升知名度（如出版、演讲）、启动新的开源项目，以及与其他团队或小组建立内部协作项目。
 
-Contribute to and focus on areas that benefit more than one business unit or more than one product. This allows you to provide value and show ROI across multiple business units and increases your chances for more funding and support.
+存在多种工具可以帮助跟踪代码贡献；例如，Linux基金会使用名为gitdm的工具，用于生成Linux基金会年度Linux内核报告中的数据。这可以用来追踪个人开发者以及团队的整体表现。个人开发者可以通过他们提交的补丁数量、补丁接受率（提交的补丁数除以接受的补丁数）以及补丁类型（例如新功能、现有功能的增强、错误修复、文档等）来进行追踪。
 
-Focus your contributions on upstream projects that would directly benefit the company’s strategy and products. In open source development, it’s very easy to get carried away hopping between different interesting projects. In an enterprise setting where the open source group is considered a cost center, your driving force should be to focus on open source projects that support product development.
+其他工具，如[GrimoireLab](http://grimoirelab.github.io/)，也可以用来绘制和可视化你想要追踪的指标。请参阅下一部分关于指标的内容，了解应该追踪的具体示例。
 
-Samsung does a yearly review of its product portfolio in an effort be involved in open source projects that are commonly used across as many products as possible. This list is then prioritized based on several factors, and they focus their efforts on the top projects. A methodology that drives your priorities is a great way to stick to what’s important, justifiable, and fundable.
+### 9) 确定具有广泛影响的重点领域
 
-### 10) Foster Internal Collaboration
+专注于并贡献于对多个业务单元或多个产品都有益的领域。这有助于你在多个业务单元中提供价值并展示投资回报率，从而增加获得更多资金和支持的机会。
 
-Collaborate with other business units that use the same open source projects in their products. These collaborations can take one or more of many forms:
+将您的贡献集中在那些能直接促进公司战略和产品发展的上游项目上。在开源开发领域，人们很容易频繁切换不同的有趣项目。但在将开源团队视为成本支出部门的企业环境中，您应当专注于那些支持产品开发的开源项目。
 
-* Deliver training to their developers
-* Run a workshop on a specific topic or problem
-* Develop new functionality
-* Troubleshoot and resolve issues and bugs
-* Upstream existing code for which they have no resources to do
-* Help get them off an old fork and onto a mainline version
-* And more
+三星每年都会审查其产品组合，以参与尽可能多的产品中常用的开源项目。然后，根据多种因素对这些项目进行优先排序，他们将主要精力集中在排名靠前的项目上。确立一种驱动优先事项的方法，有助于您专注于那些重要、有说服力且能得到资助的事务。
 
-The goal of these collaborations is to help the product teams understand their needs and fulfill their product goals via open source enablement.
+### 10) 加强内部协作
 
-Your company must share information and priorities across different divisions. To illustrate this, assume you are in an open source team and you are requested to support the implementation of a driver, but you are unable to get access to the hardware manual and instructions. This sounds a bit like playing darts with the lights off, and it is. Information sharing is a critical component to successful internal collaborations between the open source teams and everyone else.
+与使用相同开源项目的其他部门展开合作。合作可以包括以下一种或多种形式：
 
-Sidebar: Open source at Samsung
+- 为其开发人员提供培训
+- 举办针对特定主题或问题的研讨会
+- 开发新功能
+- 排查并解决故障和问题
+- 将他们无力维护的现有代码贡献到上游
+- 帮助他们从旧分支迁移到主线版本
+- 等等
 
-Samsung’s Open Source Group (OSG) was established in February 2013 to support two primary functions: the first is to provide open source leadership within Samsung by helping other divisions in the company understand how to participate in and benefit from open source development. The second is to serve as Samsung’s representatives in the wider open source community. The mandate of the team is to focus on enhancing key open source projects and technologies via active contributions to them, and to be actively involved and engaged with various open source organizations and foundations.
+这些合作旨在帮助产品团队理解自身需求，并通过开源支持来实现他们的产品目标。
 
-## Metrics for tracking progress
+公司必须在各部门之间共享信息和优先级。例如，假设您在开源团队中，被要求支持一个驱动的开发，却无法获取硬件手册和指令。这就像是在黑暗中射箭，非常困难。信息共享是开源团队与其他团队成功内部协作的关键。
 
-Once you start implementing these open source best practices, you’ll need proper open source metrics to drive the desired development behavior. But the traditional metrics often used in product organizations don’t apply in the context of open source development.
+侧边栏：三星的开源战略
 
-For example, tracking the number of changesets or lines of code can be a good metric for open source development impact. But you may have multiple instances of desired functionality being implemented upstream because your open source developers lobby for support from the community. In this case, the number of changesets or lines of code doesn’t matter nearly as much as the technical leadership that team members provide to get code upstream and reduce the company’s downstream maintenance efforts. So the metrics you track should account for both activities.
+三星于2013年2月成立了开源小组，主要承担两大职能：一是为公司内部提供开源领导力，协助各部门参与并受益于开源开发；二是作为三星在开源社区中的代表。该团队致力于通过积极参与和贡献，增强关键开源项目和技术的实力，并与多个开源组织和基金会保持紧密合作。
 
-### Commits and lines of code over time
+## 跟踪进展的指标
 
-One of the most basic things to track is the number of commits and lines of code changed over a specific period of time, such as every week, month, or year.
+开始实施这些开源最佳实践后，您需要合适的数据指标来引导期望的开发行为。然而，在开源开发的背景下，产品组织中常用的传统指标可能并不适用。
+
+例如，跟踪代码提交或代码行数可以作为衡量开源开发影响的一个指标。但是，如果您的开源开发人员在社区中推广和寻求支持，可能会在上游项目中实现多个所需功能的实例。在这种情况下，代码提交或代码行数的重要性远不如团队成员为将代码贡献到上游项目并提供技术领导力来得重要，这有助于减少公司在下游的维护工作量。因此，您跟踪的指标应该同时考虑这两类活动。
+
+### 提交次数和代码行数随时间的变化
+
+最基本需要跟踪的数据之一是提交次数和代码行数随时间的变化，例如每周、每月或每年的数据。
 
 ![](/img/guides/improve-open-source-dev-impact2.png)
 
-### The total commits and lines changed per project per week is a good place to start tracking metrics.
+### 每周每个项目的总提交数和代码更改行数是跟踪指标的良好起点。
 
-With this data, you can compare contributions from various internal development teams to identify where source code contributions are coming from and help ensure that resources are allocated appropriately.
+利用这些数据，您可以比较不同内部开发团队的贡献，了解代码贡献的来源，并确保资源得到合理分配。
 
-From here you can create charts that compare various internal teams for their cumulative contributions, percent of total contributions, and the amount of time it takes to get code committed upstream (see the following charts).
+基于此，您可以创建图表来比较各团队的总贡献量、贡献占比，以及代码提交到上游所需的时间（见下表）。
 
 ![](/img/guides/improve-open-source-dev-impact3.png)
 
-**Figure 2: Cumulative contributions over time can be tracked to compare internal teams and identify teams that are increasing their involvement in a particular open source community (in this chart, it’s the Linux kernel).**
+**图2：通过追踪不同时间段内的累积贡献，可以比较各内部团队的表现，并找出那些在特定开源社区（如本图表所示的Linux内核社区）参与度不断提升的团队。**
 
 ![](/img/guides/improve-open-source-dev-impact4.png)
 
-**Figure 3: Displaying your company’s contributions as a percent of total over time allows you to identify the teams that contribute the most code.**
+**图3：将您公司的贡献显示为随时间变化的百分比，可以让您识别出贡献最多代码的团队。.**
 
 ![](/img/guides/improve-open-source-dev-impact5.png)
 
-**Figure 4: The amount of time it takes to commit code upstream can be valuable for tracking your development efficiency. This table and chart shows how quickly various teams are getting their code contributed upstream and compares it to the community as a whole.**
+**图4：将代码合并到上游主分支所需的时间对于监控开发效率很有帮助。这个表格和图表展示了不同团队如何迅速地将代码合并到主分支，并将其与整个社区的速度进行了对比。**
 
-You can also use these metrics to compare your performance to other companies who are involved in the Kernel ecosystem for instance (Figure 5). This competitive analysis helps you be better informed about the overall developer ecosystem for the project.
+你还可以利用这些指标来与其他参与Linux内核开发的公司的表现进行比较，例如（图5）。这种竞争分析有助于你更全面地了解该项目开发者社区的整体情况。
 
 ![](/img/guides/improve-open-source-dev-impact6.png)
 
-**Figure 5: Cumulative contributions can be sorted by company to see how your company stacks up against others.**
+**图5：按公司对累积贡献进行排序，可以查看你的公司与其它公司相比的情况。**
 
-These metrics provide a much better idea of where your strengths and weaknesses are and can help inform your overall development strategy. Tracking your own contributions relative to competitors’, for example, provides valuable information that helps an organization position its products relative to competitors’ in the marketplace.
+这些指标能更准确地揭示你的优势和劣势，并有助于指导你的整体开发策略。例如，监控你与竞争对手的贡献对比，提供了宝贵的信息，帮助公司在市场上与竞争对手的产品进行有效定位。
 
 ![](/img/guides/improve-open-source-dev-impact7.png)
 
-**Figure 7: Projects may publish contribution data independently as well. For example, you can also track contributors to the Linux kernel via The Linux Foundation’s Linux Kernel Development Report and LWN.**
+**图7：项目也可能单独公布其贡献数据。例如，你可以通过Linux基金会的年度内核开发报告和LWN网站来追踪Linux内核的贡献者。**
 
-The Linux kernel is of strategic importance to Samsung so the company chose to focus its development efforts there, among many other projects. They are now regularly among the top 5 contributors to the Linux Kernel by changesets. And the company is achieving the same progress with several other open source projects it deemed critical to the development of its products.
+Linux内核对三星具有战略重要性，因此公司决定将开发重心放在Linux内核上，同时参与其他众多项目。他们现在经常是Linux内核贡献量排名前五的公司之一。此外，该公司也在其他几个对其产品开发至关重要的开源项目上取得了类似的进展。
 
-Being a top contributor isn’t a goal, in and of itself, but rather an indication that the organization’s development efforts are being accepted by the communities in which it participates. As the saying goes, you can either sit at the table as an open source influencer, or be on the menu.
+成为顶级贡献者并非最终目标，而是表明该组织的开发成果得到了其参与社区的认可。俗话说，你可以作为开源影响者坐在桌边，或者成为菜单上的选项。
 
-> “Being on the menu means sitting and crying in your office about how you need to maintain a ton of code out-of-tree because you can’t merge with upstream. We’d rather sit at the table.” – Ibrahim Haddad, Vice President of R&D and Head of the Open Source Group at Samsung Research America.
+> “成为被动的一方意味着你得在自己的办公室里为不得不维护大量无法合并到主分支的代码而苦恼。我们宁愿坐在桌边，参与决策。” —— Ibrahim Haddad，三星美国研究院研发副总裁兼开源小组负责人。
 
-## Final words
+## 结语
 
-Effective open source development can’t be given, it must be earned. This leadership is earned through regular, ongoing participation and contribution.
+有效的开源开发不是可以轻易获得的，它需要通过不断的努力和贡献来赢得。
 
-By following some of the open source best practices set out by the pioneering companies in open source, you can make fast progress toward developing the internal open source expertise you require. You can then leverage that expertise to improve your products and services while reducing code maintenance costs.
+通过遵循开源领域的先驱公司所制定的最佳实践，你可以迅速提升内部的开源专业能力。这样，你就可以利用这些专业能力来提升你的产品和服务质量，同时降低代码维护的成本。
+
+最后，祝大家编程愉快！
 
 Happy hacking!
 
-## References
+## 参考资料
 
-* Samsung Open Source Group
+* 三星开源团队
  * [https://blogs.s-osg.org/](https://blogs.s-osg.org/)
-* **GrimoireLab** – An open source software development and community analytics platform. 
+* **GrimoireLab** – 一个用于开源软件开发和社区分析的开源平台。
  * [https://grimoirelab.github.io/](https://grimoirelab.github.io/)
-* **Compliance Basics for Developers** – A free online training course offered by The Linux Foundation.
+* **开发者合规入门** – Linux基金会提供的一个免费在线培训课程，旨在帮助开发者了解合规基础知识。
  * [https://training.linuxfoundation.org/](https://training.linuxfoundation.org/)
-* **gitdm** – The “git data miner” is a tool created by Jonathan Corbet (LWN.net) and Greg Kroah-Hartman (Linux Kernel Maintainer and Fellow at the Linux Foundation) to track Linux kernel patches.
+* **gitdm** – “git数据挖掘器”，由Jonathan Corbet（LWN.net）和Greg Kroah-Hartman（Linux内核维护者和Linux基金会的会员）开发，用于追踪Linux内核的补丁贡献情况。
  * [git://git.lwn.net/gitdm.git](git://git.lwn.net/gitdm.git)
-* **Facade** – A tool for monitoring who is contributing code to git repositories. It was authored by Brian Warner (Manager of Engineering and Strategy for Samsung’s OSG).
+* **Facade** – 一个监控git仓库代码贡献者的工具，由Brian Warner（三星开源团队工程和战略经理）开发。
  * [https://github.com/brianwarner/facade](https://github.com/brianwarner/facade)
 
-## Acknowledgments
+## 致谢
 
-This was a collaborative effort spearheaded by Ibrahim Haddad (Ph.D.) who is Vice President of R&D and the Head of the Open Source Group at Samsung Research America. We would like to express his sincere gratitude to Ben Lloyd Pearson (Operations and Strategy, Samsung Open Source Group for the continuous support, reviews and edits (following the open source model) that shaped this article and helped get it to the finish line. Big thanks also goes to Brian Warner (Manager of Open Source Engineering and Strategy, Samsung Open Source Group) and Gil Yehuda (Open Source at Oath) for their review and feedback.
+本文是在Ibrahim Haddad博士的带领下共同完成的，他是三星研究美国公司的研发副总裁兼开源小组负责人。我们要特别感谢Ben Lloyd Pearson（三星开源小组运营与战略）的持续支持、审阅和编辑，正是他的开源模式工作使得本文得以成型并最终完成。同时，我们也要向Brian Warner（三星开源小组开源工程与战略经理）和Gil Yehuda（Oath的开源专家）表示深深的感谢，他们的审阅和反馈对本文至关重要。

@@ -1,7 +1,7 @@
 ---
 title: "Steering Committee Elections: Meet the Candidates for 2025"
 author: todogroup
-date: 2024-010-23
+date: 2024-10-23
 ---
 
 As the TODO Group continues to foster collaboration and set best practices for open source Management and Strategy across organization through the establishment of Open Source Program Offices (OSPOs), 

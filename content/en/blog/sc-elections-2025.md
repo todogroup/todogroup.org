@@ -15,103 +15,75 @@ we are excited to announce the candidates for the 2025 TODO Steering Committee e
 
 _Technical Program Manager and Open Source Strategist, NGINX Community Team at F5_
 
-Annania brings extensive experience in open source and community engagement initiatives. She has held key roles in the F5 OSPO and the Comcast OSPO, 
-where she led the Open Source License Compliance Program and implemented automated solutions. Her contributions to the TODO Group focus on expanding accessibility 
-and improving OSPO toolkits, particularly for smaller organizations and non-profits.
+Annania Melaku is an experienced Technical Program Manager and open source strategist with extensive expertise in leading open source and community engagement initiatives. Currently,
+she is part of the NGINX Community Team at F5, where she drives programs that foster collaboration and promote best practices within the open source ecosystem.
 
-Annania is passionate about expanding TODO’s global impact, ensuring its resources cater to a diverse range of organizations. Her priority is to enhance the OSPO guides and toolkits, 
-increase networking opportunities, and contribute to new resources addressing emerging challenges like compliance and governance.
+Previously, Annania worked in the F5 Open Source Program Office (OSPO), where she played a key role in establishing its foundation. She also held a pivotal role in the Comcast OSPO, where she led the Open Source License Compliance Program. During her time at Comcast, she architected and implemented automated solutions for open source license compliance and delivery, and performed M&A and investment due diligence. Annania has experience in the defense and aerospace industries, as well as in the telecommunications industry. She has held
+various roles spanning software engineering, systems engineering, cybersecurity, and program management.
 
 ### Anusha Pavuluri
 
 _Technical Program Manager, Comcast OSPO_
 
-Anusha has a deep understanding of how to integrate open source compliance into workflows, supporting product and application teams. Her work with the TODO Group includes contributions to the OSPO Book, 
-leading collaboration efforts, and attending regular virtual meetings to support the community.
-
-Anusha aims to capture and address the evolving needs of OSPOs, using her skills to prioritize initiatives and ensure the TODO Group’s strategies align with changing regulatory and technology landscapes. 
-She is dedicated to expanding the reach of TODO resources and making compliance and governance more accessible.
+Anusha is a Technical Program Manager in Comcast’s OSPO, dedicated to delivering services to the open source community. She leverages her broad technical and managerial expertise to help product and application teams seamlessly integrate open source compliance into their workflows.
 
 ### Alice Sowerby
 
 _Developer Relations Program Director, FreeBSD Foundation_
 
-Alice brings over 15 years of experience in the B2B tech sector, having worked at startups and large enterprises alike. Her recent work with the FreeBSD Foundation includes managing open source security improvements funded by the OpenSSF/Alpha Omega project. She is also a contributor to projects like CHAOSS, the TODO Group, and OpenUK.
+Alice has over 15 years of experience in the B2B tech sector, having worked at a range of companies from developer tooling startups (focused on cloud-native and ML) to large internet
+infrastructure enterprises, with several in between. Her roles have spanned product management, operations, and developer relations leadership, including open source program management. Most recently, Alice served as Developer Relations Program Director at Equinix. 
 
-Alice is committed to fostering information exchange, defining best practices, and strengthening networks within the OSPO and open source communities. She aims to facilitate new resources for day-to-day OSPO operations and help the TODO Group build stronger relationships with industry and community contributors.
+After being laid off at the end of last year and unexpectedly becoming a carer, Alice decided to take a break. In June, she began providing part-time program management support to the FreeBSD Foundation on a contract basis. Her work includes managing security improvements funded by the OpenSSF/Alpha Omega project and overseeing a large program commissioned by the Sovereign Tech Fund. In addition to her work with the FreeBSD Foundation, Alice is active in open source projects such as CHAOSS (focused on project health metrics), the TODO Group, and OpenUK.
 
 ### Alin Jerpelea
 
 _Senior Open Source Architect, Sony OSPO EU_
 
-Alin advocates for open source practices at Sony, acting as a bridge between business units and the open source community. He has actively integrated TODO’s principles into his work, particularly in governance, and has contributed to community-driven initiatives in projects like Cardano.
-
-Alin believes in fostering stronger collaboration between OSPO leaders, contributors, and organizations. He aims to contribute to the strategy and initiatives of TODO to deepen engagement and promote best practices across industries.
+Alin Jerpelea works in the Sony OSPO European Union as a Senior Open Source Architect, with the roles to advocate internally the Open Source practices and act as a community bridge between business units and the Open Source communities. Alin is involved in TODO LF Europe and Open chain activities
 
 ### Christian Taylor
 
 _Head of Open Source Office, Intersect MBO_
 
-Christian has been transitioning Cardano into a fully openCsource ecosystem. His expertise in blockchain technology and governance frameworks has helped organizations like IOHK and Cardano achieve sustainable, 
-community-driven development.
-
-Christian’s goal is to broaden TODO’s reach, particularly in industries adopting open source at a rapid pace, such as telecommunications. He is passionate about 
-open source security and aims to increase collaboration between TODO and OpenSSF, with a focus on security best practices.
+Christian Taylor is a leader in open-source governance and blockchain technology, currently serving as Head of the Open Source Office at Intersect MBO. With nearly a decade of experience, he has been instrumental in transitioning Cardano into a fully open source ecosystem, focusing on sustainability, governance, and community-driven development. Christian's expertise lies in managing complex open-source projects and building governance frameworks that foster transparency and inclusivity. Prior to his role at Intersect MBO, he held leadership positions at Input Output Global (IOHK), where he was key to the success of Cardano's Voltaire era, managing multiple squads and overseeing over 600 repositories in the blockchain’s transition to open-source.
 
 ### Georg Kunz
 
 _Open Source Advocate, Ericsson OSPO_
 
-Georg has a long history of contributing to open source projects like OpenStack, Linux Foundation Networking, and OpenSSF. He has been a member of the TODO Steering Committee and is a co-chair of the OpenSSF Best Practices Working Group.
-
-Georg is committed to contributing more actively to TODO’s initiatives, particularly the OSPO Book and the OSPOlogy repository. He also aims to foster local engagement with the OSPO community, 
-as demonstrated through his work with the Helsinki OSPO Chapter.
+Georg is an open source advocate and a long-term contributor to a wide range of open source communities and projects, such as OpenStack, Linux Foundation Networking, and OpenSSF. He has been a member of the Technical Steering Committee of the Anuket project for multiple terms, and served as a member of the TODO Group Steering Committee. He is a co-chair of the OpenSSF Best practices Working Group, and involved in several other initiatives of the OpenSSF. After working in the Cloud organization at Ericsson for several years, he is now with the Open Source Program Office, focusing on Ericsson’s open source strategy.
 
 ### Gergely Csatari
 
 _Open Source Specialist, Nokia OSPO_
 
-Gergely’s experience spans open source policies, cloud-native development, and contributions to projects like Nephio, Anuket, and OpenChain. He is passionate about making TODO repositories more accessible for developers.
-
-Gergely wants to bring a developer’s perspective to the Steering Committee, advocating for simplified contribution processes and improving communication across the community. He is eager to enhance the technical infrastructure that supports TODO’s resources.
+Gergely is part of the Nokia OSPO, where he is responsible for opensource policies, contributions support and cloud native. As part of his role Gergely is active in many open source communities, like Nephio, Anuket, KubeNet, OpenChain and TODO.
 
 ### Jan Van Den Berg
 
 _Staff Engineer, Albert Heijn_
 
-Jan has over two decades of experience in automating processes and is the founder of the OSPO at Albert Heijn. His work emphasizes inclusivity, transparency, and the continuous improvement of open source governance.
-
-Jan aims to represent OSPOs from across industries and ensure TODO remains a platform for knowledge transfer and best practices. He also hopes to streamline the process for starting new working groups and initiatives 
-within the TODO community.
+Jan is a Staff Engineer at Albert Heijn, where he also initiated the creation of the OSPO and has been automating processes throughout his life and professionally since 2001.
 
 ### Natali Vlatko
 
 _Open Source Architect, Cisco_
 
-Natali is an open source leader with experience in governance and community roles, including her work as a SIG Docs Co-Chair for Kubernetes. She has previously led the 
-OSPO at Wayfair and has served on program committees for various open source conferences.
-
-Natali is dedicated to expanding TODO’s influence, particularly in the Global South, and bridging the digital divide through open source. Her deep connections in the global 
-open source community make her an ideal candidate to help TODO grow its impact and foster diversity in participation.
+Natali Vlatko is an Open Source Architect at Cisco, specializing in open software, policy, and governance, and is a SIG Docs Co-Chair for Kubernetes, the second-largest open source project in the world. Previously, she founded and led the OSPO at Wayfair, helping the furniture e-commerce giant become recognized alongside Spotify, Fidelity, and G-Research as a Top End User by the Cloud Native Computing Foundation in 2023. On top of her community roles, Natali has also served on several program committees for many open source conferences, such as KubeCon/CloudNativeCon, Open Source Summit, Cloud Native Rejekts, and the upcoming State of Open Conference 2025 in the United Kingdom. She has also recently been appointed as the Program Chair for the newly created Maintainer Summit Europe, taking place at KubeCon/CloudNativeCon EU 2025 in London. She plays on the fun computer in her spare time.
 
 ### Sujata Tibrewala
 
 _OSPO Advocate at Bytedance and LF Edge Governing Board Member_
 
-Sujata brings her extensive experience in open source leadership and advocacy to the table. She has played a key role in aligning corporate business goals with open source strategies, 
-mentoring developers, and growing vendor-neutral open source communities.
+As LF Edge governing board member and in her role as corporate OSPO advocate, Sujata Tibrewala advocates for a cross-functional, cross-organizational forum of open source leaders across Industry to ensure Alignment to Corporate Business Goals and consistent and positive presence in communities. She prides herself in using her extensive experience in open source to being a developer liason and mentor, no matter where they come from, which leads to growth of open source projects into vendor neutral mature communities. 
 
-Sujata is committed to ensuring the TODO Group remains aligned with industry goals while fostering a positive and inclusive open source community. 
-Her leadership experience across various open source organizations makes her a valuable asset to the Steering Committee.
-
-The TODO Group is excited to see such a diverse group of candidates eager to shape the future of OSPOs and open source management. We encourage all members to engage with the election process 
-and support the candidates who will best represent the community’s values and vision for the future. Stay tuned for more updates on the election process!
+She is a co-chair for IEEE Edge Automation Platform Roadmap, co-lead of the selection committee for IEEE Connecting the Unconnected challenge and a frequent presenter at various IEEE and industry conferences. Under her leadership, the Intel Network Developer Evangelism program was nominated for Network Transformation Awards 2018, and received the Edison award and Network Developer Dynamo award at Intel. She has held positions of Director at Silicon Valley Engineering Council and TSC chair for Documentation Sub-committee Akraino. She has a Masters from IISc Bangalore and a Bachelors from IIT Kharagpur and has completed an Executive Women Leadership Program from Stanford.
 
 
 ## Additional Resources
 
 - For more information about the TODO Steering Committee’s responsibilities, scope, current members, and frequently asked questions, you can visit the GitHub Governance Repository [here](https://github.com/todogroup/governance?tab=readme-ov-file#-todo-group-governance-repo).
-- People can view the official candidates’ program in the PDF available [here](https://github.com/user-attachments/files/17499924/2025SC-Candidates-1.pdf)
 - The 2025 TODO Steering Committee Elections officially opened on October 20 and will conclude on November 20th
 
 

@@ -1,5 +1,5 @@
 ---
-title: TODO Guides Contributing Guidelines
+title: TODO Guides 贡献指南
 ---
 
 这些开源指南由 TODO 小组与 Linux Foundation 以及广大的开源社区共同开发。其整合了开源开发领先组织的最佳经验，旨在助力您的组织成功实施并运营开源项目办公室。我们期望这些指南能够持续更新，借助社区的贡献不断完善。

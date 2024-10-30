@@ -1,5 +1,5 @@
 ---
-title: Recruiting open source developers
+title: 招聘开源开发者
 ---
 
 有经验的开源开发人员非常短缺，供不应求。为了吸引顶尖人才，公司不仅仅雇佣招聘人员或在热门招聘网站上发布广告，还需要更多的举措。

@@ -1,5 +1,5 @@
 ---
-title: 对外开源指南 
+title: A Guide to Outbound Open Source Software
 ---
 
 人们也可从[这里](https://github.com/todogroup/todogroup.org/files/9560697/TODO_OutboundOSS_Report_v6.pdf)下载 1.0 版本指南的 PDF。

@@ -1,5 +1,5 @@
 ---
-title: Setting an Open Source Strategy
+title: 制定开源战略
 ---
 
 # 制定开源战略

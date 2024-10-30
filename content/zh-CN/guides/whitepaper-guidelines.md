@@ -1,5 +1,5 @@
 ---
-title: TODO Whitepaper Guidelines
+title: TODO 白皮书指南
 ---
 
 TODO 白皮书介绍了 OSPO 社区要求的特定开源主题，以帮助社区了解问题、提供更多文档或解决问题。

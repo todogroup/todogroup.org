@@ -1,5 +1,5 @@
 ---
-title: Open source reading list
+title: 开源阅读书单
 noAcknowledgments: true
 ---
 

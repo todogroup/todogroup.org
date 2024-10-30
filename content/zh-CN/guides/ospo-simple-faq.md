@@ -1,5 +1,5 @@
 ---
-title: Open Source Program Office (OSPO) Easy FAQ
+title: 开源项目办公室（OSPO）简单的常见问题解答 
 ---
 
 易懂的开源办公室常见问题解答（进展中）解决构建和运行开源项目办公室（Open Source Program Office，OSPO）中的关键方面，澄清基础概念和提供实用见解。本常见问题解答旨在成为帮助您遨游开源世界并为公司合规、战略、治理和社区构建框架的资源指南。

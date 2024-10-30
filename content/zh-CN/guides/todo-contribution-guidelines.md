@@ -1,5 +1,5 @@
 ---
-title: Open Source Program Office Case Study Guidelines
+title: 开源项目办公室案例指南
 ---
 
 TODO OSPO案例计划聚焦于真实世界里的实践案例以及OSPO/开源对具体组织的影响。OSPO案例围绕开源组织的历程构建叙述，其中包括开源项目办公室OSPO的重点活动、组织结构、最佳实践、目标和成功案例，展示这些组织在OSPO和开源管理生态中的领导者地位。

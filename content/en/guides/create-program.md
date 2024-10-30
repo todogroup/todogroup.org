@@ -194,7 +194,7 @@ When drafting open source policies, among the many topics that need to be discus
 
 ### Policies for releasing code
 
-You want to help people be successful in making contributions to open source projects and in releasing their own projects. Guidelines and checklists ensure that developers have everything they need to release their code as open source without running into licensing or confidentiality issues. Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution. (See our guide on [Participating in Open Source Communities](https://todogroup.org/guides/participating/).)
+You want to help people be successful in making contributions to open source projects and in releasing their own projects. Guidelines and checklists ensure that developers have everything they need to release their code as open source without running into licensing or confidentiality issues. Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution. (See our guide on [Participating in Open Source Communities](https://todogroup.org/resources/guides/participating-in-open-source-communities/).)
 
 Your organization should also strive to adopt an “upstream first” development policy. By submitting patches to the upstream open source project first, and incorporating them into your own products downstream, you will avoid spending a massive amount of time and money on re-engineering after each release.
 

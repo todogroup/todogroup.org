@@ -1,5 +1,5 @@
 ---
-title: 开源项目办公室团队成员的职业发展管理
+title: 开源项目办公室团队成员的职业发展管理 
 ---
 
 *大家也可以从[这里](https://github.com/todogroup/todogroup.org/files/9714409/managing.career.development.within.OSPOs.infographic-1-2.pdf)下载指南信息图的 PDF*。

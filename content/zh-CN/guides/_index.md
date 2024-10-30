@@ -1,5 +1,5 @@
 ---
-title: 指南与资源
+title: Guides and Resources
 url: "/zh-cn/resources/guides/"
 ---
 我们汇集了从事开源开发的领先企业的最佳实践，目的是帮助您的组织成功地建立并运营开源项目办公室。对于个人贡献者的指导，我们建议参考 GitHub 的[社区指南](https://github.com/github/opensource.guide)。

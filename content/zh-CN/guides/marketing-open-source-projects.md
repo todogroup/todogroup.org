@@ -1,200 +1,200 @@
 ---
-title: Marketing Open Source Projects
+title: 推广开源项目
 ---
 
-Marketing is as crucial as code to any open source project’s success. Organizations that participate in open source projects play a vital role in developing a sustainable ecosystem around a project by marketing the project through their own networks. Organizations, in turn, benefit from those marketing efforts by growing their visibility in the project community and associating their own brand with the project. The benefits can be seen in a growing project leadership role, attracting developers to your organization, and promoting your open source products and services. The key is to promote the project first and always remain authentic and true to the open source ethos of openness and transparency.
+市场推广和代码一样，对任何开源项目的成功至关重要。参与开源项目的组织通过利用自身的网络推广项目，从而围绕项目建立可持续发展的生态系统，组织在其中扮演着重要角色。作为回报，组织可以通过提高项目在社区中的知名度并将自己的品牌与项目联系起来，从这些推广工作中受益。其好处包括：不断增强的项目领导角色、吸引开发人员加入你的组织以及推广你的开源产品和服务。成功的关键是首先要推广项目，并始终秉承开放和透明的开源精神保持真实性。
 
-Learn how to promote an open source project to attract contributors, find users, and raise the profile and credibility of your project. Do this while simultaneously growing your own open source credibility within the project community, attracting talented developers, and promoting your open source projects and services.
+了解如何推广开源项目以吸引贡献者、寻找用户并提高项目的知名度和可信度。这样做的同时还可以提高你自己在项目社区中的开源信誉，吸引有才华的开发人员，并推广你的开源项目和服务。
 
-## The challenge of marketing open source projects
+## 开源项目推广的挑战
 
-Marketing can be perceived as a dirty word. The negative connotation can drag down efforts to discuss the subject seriously, let alone deploy a marketing plan. However, the reality is different from the perception. Without a strong marketing effort shining light on a project, even the most brilliant code can wither and die in the dark of obscurity.
+市场推广可能会被视为一个贬义词。其负面含义可能会妨碍我们认真地讨论这个话题，更不用说部署推广计划了。然而，现实与想象不同。如果没有强有力的市场推广来支撑一个项目，即使是最出色的代码也会在默默无闻的黑暗中枯萎和消亡。
 
-> "We who work on open source projects want to work on projects that other people find valuable, that other people use, that are widely accepted within the industry, and the reality is that doesn't just happen by magic," says [Dawn Foster](https://github.com/geekygirldawn), OSS Strategy Lead at Pivotal Software.
+> “我们从事开源项目的人都希望从事价值被认可、被人使用、在行业内被广泛接受的项目，但现实是这些都不会凭空出现，”[Dawn Foster](https://github.com/geekygirldawn)，Pivotal Software 公司的 OSS 战略主管说。
 
-While the strengths of the technology alone can occasionally attract a crowd to form the basis for a community, that scenario is no more the norm than winning the lottery.
+虽然说技术本身的优势有时可以吸引到大众来形成社区的基础，但这种机率甚至比中彩票还难。
 
-> "The notion ‘if you build it, they will come’ is completely wrong. At the very least, it is an excuse for some short-sighted and dangerous assumptions about what it takes to make a project successful," said Deirdré Straughan, Open Source Content Lead at Amazon Web Services (AWS), in [her talk](https://www.linux.com/news/how-market-open-source-project) at Open Source Summit NA two years ago. “Just building it is rarely enough, yet a lot of people still hope that great code alone will be successful. That attitude sunk quite a few technologies and even entire companies.”
+> “ ‘只要创造出来，就会有人来用’的观念是完全错误的。充其量，这是个短视和危险的假设借口，它认为不需要付出努力而项目就可以取得成功。” Deirdré Straughan，Amazon Web Services (AWS) 的开源内容主管，她在两年前的北美开源峰会上的[演讲](https://www.linux.com/news/how-market-open-source-project) 说。“仅仅构建一个软件是远远不够的，但很多人仍然希望只靠优秀的代码本身就能取得成功。这种态度葬送了不少技术，甚至让整个公司陷入困境。”
 
-Given the tremendous growth of open source in the past decade, marketing open source projects is increasingly important.
+鉴于开源在过去十年中的巨大增长，开源项目的市场推广变得越来越重要。
 
-> "There are over 80 million repos on Github. There are also many duplicate functions being created by different people so that there could be five or more libraries to solve one problem. If you don't actively communicate what your project is doing and what you're looking for, people are not going to join you," says [Nithya Ruff](/www.linkedin.com/in/nithyaruff/), senior director of the Open Source Practice at Comcast.
+> “Github 上有超过8000万个存储库。还有许多重复的功能是由不同的人创建的，因此可能会有五个或更多的库来解决同一个问题。如果你不积极沟通你的项目正在做什么、以及你正在寻找什么，人们不会加入你，” Comcast开源实践高级总监[Nithya Ruff](https://www.linkedin.com/in/nithyaruff/)说道。
 
-> "People are not even going to discover you, so it's a question of if you want to be relevant, if you want to grow your user base, your communities, and to raise money for your project, then yes, you do need to go out, and communicate, which is what marketing actually is."
+> “人们甚至不会发现你，所以问题是你是否想变得相关，如果你想扩大你的用户群、你的社区，并为你的项目筹集资金，那么是的，你的确需要走出去，进行交流，这才是真正的推广。”
 
-Marketing involves a plethora of actions bundled in a single function: selling. That is true even when what you’re selling happens to be free.
+市场推广涉及将大量行为捆绑在一个功能中：销售。即使你销售的产品恰好是免费的，情况也是如此。
 
-> "Marketing is about selling. Open Source is free. I don't have to try to sell anything, so why would I need marketing?" asks Straughan. "The thing is, you are selling. You're just not selling stuff, and you're not directly asking for money. You are selling ideas, and the currency you are requesting in return is something extremely valuable, which is people's time and attention."
+> “市场推广就是销售。既然开源是免费的，如果我不需要销售任何东西，那为什么还需要市场推广呢？” Straughan问道。“问题是，你正在卖东西。但你不是在卖一件物品，也不是直接要钱。其实你是在卖一个想法，而你要求的回报却是非常有价值的东西：那就是人们的时间和关注。”
 
-Of course, most projects will need to ask for money and other material support as time goes on. Marketing becomes even more essential then. Without such support, a project will inevitably hit a wall from a lack of contributors and maintainers, a lack of creative infusion, and a lack of momentum.
+当然，随着时间的推移，大多数项目仍需要寻求资金和其他物质的支持。那么市场推广就变得更加重要。如果没有这样的支持，项目将不可避免地因缺乏贡献者和维护者、缺乏创意注入和缺乏动力而碰壁。
 
-> "Perhaps we just need to use a different word. We may need to use community development or project advocacy as a word in the open source realm as opposed to marketing, and perhaps then people will realize that they need to do it," says Ruff.
+> “也许我们需要换个不同的词来表述。我们可以使用社区发展或项目推广作为开源领域里的表述，而不是市场推广，也许那时人们就会意识到他们的确需要这样做。” Ruff说。
 
-By any name, marketing requires expertise and a precise set of tools. It is not reliant on a set of soft skills, as it is often perceived to be. A strategic plan must be built, specific and measurable goals laid out, specialized tools used, and messaging hammered out. A brand must be named, a logo drawn, the problem solved promoted to certain craftsman and not thrown to the wind.
+不管人们怎么称呼它，推广都需要专业知识和一套精密的工具。推广并非像人们通常认为的那样，仅仅依靠一些软技能就能实现。推广需要建立战略计划，制定具体可衡量的目标，使用专业工具，并反复斟酌信息传递的方式。品牌需要命名，需要设计标志，需要将要解决的问题推广给特定的人群，而不是漫无目的地传播。
 
-But that’s not to say that soft skills are not also required for a marketing plan to be successful. If the marketing is too slick, too commercialized, it will undoubtedly be rejected by the very audience it seeks. 
+但这并不是说推广计划的成功不需要软技能。如果推广太圆滑、太商业化，无疑会被它所寻求的受众所拒绝。
 
-> "The marketing tactics should be very, very different in company versus community. If you just duplicate what's done in company marketing, people could get turned off that this is a commercial sales pitch, or it's too slick, or it's too smooth, and they don't want to be involved in that," says Ruff. 
+> “公司和社区的推广策略应该非常非常不同。如果你只是重复公司市场推广中所做的事情，人们可能会觉得这是商业销售宣传，或者太圆滑，或者太圆滑，于是他们就不会参与其中，” Ruff说。
 
-> "Community engagement tends to be more about a different set of tactics. It's creating good documentation. It's creating an easier contribution guide. It's being at meet-ups. It's developer-to-developer advocacy of the project, it's demoing the project. Those are the things that often work as opposed to a very glossy, smooth marketing that often happens in companies."
+> “社区参与需要更多的、不同的策略。例如，创建良好的文档，创建更容易的贡献指南，举办见面会。它是开发者与开发者之间的项目宣传，项目演示。这些有效的方法，往往区别于在公司中采用的那种非常光鲜亮丽、圆滑的市场推广。”
 
-For an open source marketing campaign to be successful it must be done right from the outset, meaning it must be guided and executed with sensitivity, openness and authenticity.
+开源项目的推广活动要想取得成功，就必须从一开始就做好，这意味着必须以敏锐、开放和真实的方式指导和执行。
 
-## Collaboration and co-marketing
+## 协作和联合推广
 
-A successful marketing effort begins and ends with collaboration, just like an open source project does. Trust is tantamount and that calls for transparency.
+成功的推广工作始于协作，终于协作，就像开源项目一样。真正的信任源于透明。
 
-> "You need to be very transparent about the roadmap, about the project's objectives, and also demonstrate what the goal of the project is, and how it's being run," says Ruff. “And also reveal what the governance model is for the project because open source developers who want to get involved in the project want to know that the leadership of the project is someone they would trust, but more importantly, that it's not being hijacked by one company, one party or another.”
+> “你需要对路线图、项目目标非常透明，并展示项目的目标是什么以及它是如何运行的，” Ruff说。 “还要告知该项目的治理模型是什么，因为想要参与该项目的开源开发者希望知道该项目的领导者是他们信任的人，但更重要的是，该项目不是被一家公司、一个团体或另一个团体所操控的。”
 
-However, as it is with all things open source, communication is not one way. The community must be given ample opportunity to have its say.
+然而，正如所有开源事物一样，沟通并不是单向的。必须给予社区充分发表意见的机会。
 
-Good practices in getting buy-in on marketing plans used by a variety of projects include:
+推广计划中，可以应用于各种项目，被证明有效的良好实践如下：
 
-* Having discussions on the mailing list so that everybody can follow the debate and weigh in
-* Allowing at least 48 hours for everyone to weigh in because not everyone is in the same time zone or even on the same continent
-* Documenting discussions and events and posting them in a common area where everybody can access the information and see what's happening.
-* Periodically providing a face-to-face venue where people can actually come together, build relationships, and build trust with each other.
-* Plan meetups at events, to enable and encourage hallway conversations, advisory board meetings, and other in-person encounters.
+* 在邮件列表上进行讨论，以便每个人都可以跟随辩论并发表意见。
+* 给每个人至少48小时的时间来发表评论，因为并非每个人都在同一时区，或者在同一大陆。
+* 记录讨论和活动并将其发布在公共区域，每个人都可以访问信息并查看正在发生的情况。
+* 定期提供面对面的场所，让人们能够真正聚集在一起，建立关系并彼此建立信任。
+* 计划活动中的聚会，以方便和鼓励非正式的对话，顾问委员会会议和其他面对面的会面。
 
-There are several ways to organize marketing, for example by establishing a marketing committee or even by hiring a professional marketing firm. Different projects organize marketing planning and deployment in different ways, but the most successful always starts with a deliberate decision that is supported by the project community. One good example is the [Fedora Community’s Marketing Team](https://fedoraproject.org/wiki/Marketing) and how they organize in a transparent fashion with calls to action.
+推广的组织方法有多种，例如建立推广委员会，甚至聘请专业推广公司。不同的项目以不同的方式组织推广规划和部署，但最成功的项目总是从一个深思熟虑的决定开始并获得项目社区支持的。一个很好的例子是 [Fedora社区的推广团队](https://fedoraproject.org/wiki/Marketing) 以及他们如何以透明的方式组织并呼吁采取行动。
 
-> "In the Yocto Project, we set aside some of the membership dues for advocacy teams, a sub-team of the board to use. That allowed us to pay for the website, to pay for having a good presence at conferences, for giveaways, for collateral, and other kinds of marketing work that needed to be done," said Ruff.
+> “在Yocto项目中，我们预留了一些会员费供宣传团队（董事会的一个子团队）使用。这使我们能够支付网站费用、支付出席会议的费用、赠品费用、文档材料品以及其他需要完成的推广工作。” Ruff说。
 
-It is common for projects to undervalue the marketing and focus on developer resources instead. To prevent this common mistake from sabotaging your project’s marketing efforts, bring volunteers and staff on board that can help keep marketing and developer resources in proper balance and on target.
+低估项目推广并只关注开发者资源的情况很常见。为了防止这种常见错误破坏项目的推广工作，请让志愿者和工作人员参与其中，这有助于保持推广和开发者资源的适当平衡和有效。
 
-### How marketing is done in collaborative projects and open source foundations
+### 开源基金会中进行推广
 
-Funding is essential for most marketing efforts. Smaller projects can benefit from volunteer-fueled, bootstrap tactics that cost little or no money, but this strategy will only carry a project so far. Smaller projects will eventually find that they need more resources for marketing too. Most projects address this need by building a pool of resources from the community and corporate contributors or sponsors.
+资金对于大多数推广工作至关重要。较小的项目可以从志愿者推动的策略中受益，这些策略只需要花费很少或不需要花费资金，但这种策略只能使项目止步为止。较小的项目最终会发现他们还是需要更多的推广资源支持。大多数项目通过建立来自社区和企业贡献者或赞助商的资源池来满足这一需求。
 
-Certainly you should look for assistance from companies that use your project. Approaching a large user to ask for support is an accepted and expected practice. Such requests are generally well received because it is as much to a user’s advantage to keep that project viable as it is to the people who started the project and the community that supports it.
+当然，你应该向使用你的项目的公司寻求帮助。向大用户寻求支持是一种可接受且符合预期的做法。此类请求通常也会被得到认可的，因为维持该项目对用户有利，对项目的发起人和项目的社区也有利。
 
-> "Ask them to volunteer to support you from a code contribution, money, evangelization, and/or marketing advocacy perspective. That is, I think, fair game," says Ruff.
+> “让他们自愿从代码贡献、金钱、传播和/或推广的角度来支持你。我认为，这是公平的。” Ruff说。
 
-This is rarely done via a formal request sent to corporate users, but rather it begins as a discussion in established relationships within the project.
+通过给企业用户发送正式请求对项目进行支持，还不如从项目内已经建立好的关系来开始讨论。
 
-> "If a project leader wants to do something with Pivotal for example, they could approach me or the half a dozen other people who are participating in something like Kubernetes and we could chat about what we could do together," Foster explained.  
+> “例如，如果项目负责人想与 Pivotal 合作，他们可以联系我或其他六位参与 Kubernetes 等项目的人，我们可以讨论大家可以一起做什么，” Foster 解释道。
 
-Beyond looking internally for marketing resources, projects can look outwards to an umbrella organization and open source foundations for assistance. For example, if your project is a cloud tool, then you might benefit from the bigger umbrella of the [CNCF](https://cncf.io) or [OpenJS](https://openjsf.org) Foundation. Another example is the ASF which helps projects with [press releases](https://www.apache.org/press/) which is a useful form of marketing.
+除了在内部寻找推广资源之外，项目还可以向外寻求上级组织和开源基金会的帮助。例如，如果你的项目是云工具项目，那么你可能会从[CNCF](https://cncf.io) 或 [OpenJS](https://openjsf.org) 基金会得到帮助。另一个例子是 ASF，它通过[新闻稿](https://www.apache.org/press/) 来帮助项目，这是一种很有用的推广形式。
 
-Project leaders rarely, if ever, solicit support from corporations or organizations that they are not affiliated with in some way. The reason why is simple and straightforward: the project is collaborative, and so is the marketing because everyone involved wants the project to succeed.
+项目负责人很少（如果有的话）寻求与他们没有任何联系的公司或组织来获得支持。原因简单而直接：项目是需要协作的，推广也是如此，因为每个参与者都希望项目成功。
 
-> "People want to get the word out about the stuff that they're doing, whether they are contributing code, or contributing resources and support, or both," says Foster. “Pooling resources, including money and marketing talent, or using those funds to hire a marketing agency, is the smart way to get the word out.”
+> “人们希望宣传他们正在做的事情，无论他们是贡献代码，还是贡献资源和支持，或者两者兼而有之，” Foster说。 “汇集资源，包括资金和推广人才，或利用这些资金聘请推广机构，是宣传的明智方法。”
 
-Once sufficient resources are added to the pool, there must be a structure in place to govern how those resources are used. Generally, this function is in the province of the project’s advisory board. Usually there are two sub-parts of the advisory board. The first is the technical steering committee, which makes all the road map and technical decisions. The second sub-part is the governing board of directors, which governs the positioning of the project, the name and logo, the website, promotional activities, event participation, and even consistency in explaining the features and functions in demos. Volunteers, marketing committees, and hired marketing agencies typically deploy the steps in the marketing plan, but it is an advisory board that provides the guidance.
+一旦获得足够的资源，就必须有一个合适的机构来管理如何使用这些资源。一般来说，该职能属于项目顾问委员会的职责范围。顾问委员会通常有两个子部门。第一个是技术指导委员会，负责制定所有路线图和技术决策。第二个子部分是管理董事会，负责管理项目的定位、名称和标志、网站、促销活动、活动参与，甚至解释项目演示中特性和功能的一致性。通常，由志愿者、推广委员会和聘请的推广机构来执行推广计划，由顾问委员会来提供指导。
 
-However, the success of the marketing campaign rests as heavily on community participation as it does on the advisory board. Strategic planning is key, but it is all for naught if no one brings the plan to bear. There are lots of opportunities for the community to get involved and share the load. The important thing is to leverage the skills of community members. For example, some people are great at public speaking so it would make sense to ask them to speak at events.
+然而，推广活动的成功在很大程度上取决于社区的参与和顾问委员会的参与。战略规划固然重要，但如果没有人实施，一切都是徒劳。社区有很多机会参与并分担工作。重要的是利用社区成员的技能。例如，有些人擅长公开演讲，因此邀请他们在活动中发言则是人尽其才。
 
-It is important to note, however, that marketing is a true discipline rather than the soft skill it is perceived to be. While it is important to leverage the individual skills within the community, it is a mistake to believe that anyone can handle marketing, no matter how smart those people may be. There is a reason, after all that organizations like the Linux Foundation went to the effort of building a strong and complex marketing support infrastructure for projects which leaves little to chance.
+然而，值得注意的是，推广是一门真正的学科，而不是人们认为的软技能。虽然利用社区内的个人技能很重要，但以为任何人都可以做好推广活动则是错误的，无论这些人有多聪明。毕竟像 Linux 基金会这样的组织致力构建强大而复杂的推广基础设施，以此来支持那些几乎没有机会的项目，这是其中的原因。
 
-> "People think of it as kind of a non-technical skill or a soft skill, but the reality is that it is not really something that you can just pick up and do without having any kind of training," says Foster. "People who do marketing for a living have a whole set of tools that they use to do everything from identifying target audiences, to managing big lists, analyzing data, and measuring the results of marketing campaigns."
+> “人们认为推广是一种非技术技能或软技能，但实际上，它并不是不需要任何培训就能学会并做的事情，” Foster说。 “ 推广专业的人拥有一整套工具，他们用它们来完成确定受众目标、管理客户名单、分析数据和衡量推广活动结果的所有事情。”
 
-It is a wise choice to also actively recruit people with marketing skills for your project. While code contributions will always be at the heart of any project, supporting roles such as documenting and marketing, can also be crucial.
+积极招募具有推广技能的人员是一个明智的选择。虽然代码贡献始终是任何项目的核心，但文档和推广等支持角色也至关重要。
 
-> "The big open source projects have loads of people who are working on things outside of code," says Foster. "They have people who are working on events, working on documentation, working on promotion, evangelism, product and program management, and all of these things. Within Kubernetes, one of the areas that I participate in is the contributor experience special interest group, where we work to make the on the experience for contributors better."
+> “大型开源项目有很多人从事非代码的工作，” Foster说。“他们有负责活动、文档、推广、传播、产品和项目管理以及所有这些工作的人员。在 Kubernetes 中，我参与的领域之一是贡献者体验特殊兴趣小组，我们致力于改善贡献者的体验。”
 
-Marketing committees are a good way to organize the marketing workloads internally. This enables smart orchestration of everything from the volunteers charged with producing community assets such as collateral materials, websites, blogs, YouTube videos, and social media to planning event support from speakers to booths and meetups. Generally speaking, marketing committees execute the marketing plan as developed or approved by the governing board.
+成立推广委员会是组织内部有效分担推广工作量的一种好方法。这样一来，可以对各项工作进行巧妙的协调，包括：安排志愿者负责制作社区资产（如宣传材料、网站、博客、YouTube 视频和社交媒体），以及活动支持的规划（例如寻找演讲者、搭建展台和线下聚会）。总而言之，推广委员会执行理事会制定或批准的推广计划。
 
-### Co-marketing opportunities and best practices
+### 联合推广的机会和最佳实践
 
-In addition to the project’s own marketing resources, contributing organizations can help market the project via co-marketing initiatives which benefit all participants.
+除了项目自己所有的推广资源外，各个参与项目贡献的组织还可以通过联合推广举措来帮助一起推广项目，这会使所有参与者共同受益。
 
-"There are a lot of opportunities to do some co-marketing with the companies that are involved in the open source project," says Foster. “The big companies have rather large promotion engines and they do a lot of marketing. Open source projects can certainly benefit from being included in that.”
+“有很多机会与参与开源项目的公司一起进行联合推广，” Foster说。 “大公司有很强的促销能力，他们做了很多推广。参与其中的开源项目自然也能从中受益。”
 
-By making it clear that they support one or more open source projects, organizations can attract talented developers who are skilled or interested in those projects -- which is a win-win.
+通过明确支持一个或多个开源项目，组织还可以吸引到那些对项目熟练或者感兴趣的有才华的开发者加入组织，这是一种双赢。
 
-To identify co-marketing opportunities, you can start by talking over ideas with the employees of big companies that are working on your project, because they are in a position to see both the project’s and the company’s interests and where they dovetail.
+要确定联合推广机会，你可以首先与参与项目的大公司的员工详细讨论想法，因为他们既能够看到项目的利益和公司的利益，又能看到它们的契合点。
 
-"A lot of the co-marketing opportunities probably come from the employees who are working in those projects bringing opportunities back into their company," says Foster. But feel free to ask for ideas or pitch ideas to people to get the discussion rolling.
+“许多联合推广的机会可能源于在这些项目中工作的员工将机会带回公司，” Foster说。可以随时提出想法或向他人建议想法，以启动讨论。
 
-To keep marketing efforts balanced, be sure to follow community guidelines, develop your own marketing strategy, and devote resources accordingly.
+为了保持推广工作的平衡，请务必遵循社区准则，制定自己的推广策略，并相应地投入资源。
 
-### Case studies to raise project awareness
+### 提高项目知名度的案例研究
 
-It is a common practice to build case studies to promote awareness of open source project usage. This can be done within a company, as part of a co-marketing exercise or on behalf of an open source foundation. For example, the Kubernetes project publishes [case studies](https://kubernetes.io/case-studies/) along with its parent foundation CNCF on [production usage](https://www.cncf.io/projects/case-studies/) and lessons learned. A good case study is one that showcases the challenge, solution and benefits of adopting a project, you can browse some good examples here:
+创建案例研究来提高人们对开源项目使用的认知是一种常见做法。这可以在公司内部完成，作为联合推广活动的一部分或代表开源基金会。例如，Kubernetes 项目及其母基金会 CNCF 在 [生产使用](https://www.cncf.io/projects/case) 上发布了[案例研究] (https://kubernetes.io/case-studies/)和经验教训。一个好的案例研究会展示项目的挑战、解决方案和收益。一些很好的例子如下：
 
-* [Capital One: Supporting Fast Decisioning Applications with Kubernetes](https://www.cncf.io/case-study/capitalone/)
-* [Squarespace: Gaining Productivity and Resilience with Kubernetes](https://www.cncf.io/case-study/squarespace/)
-* [How HomeAway uses Node.js to Rev Operations to Scale and Tame Acquisition Woes](https://www2.thelinuxfoundation.org/node-casestudies-homeaway)
-* [Node.js Drives Major Scale and Reliability at Uber](https://www2.thelinuxfoundation.org/node-casestudies-uber)
-* [Node.js Helps NASA Keep Astronauts Safe and Data Accessible](https://www2.thelinuxfoundation.org/node-casestudies-nasa)
+* [Capital One：用Kubernetes 支持快速决策应用]( https://www.cncf.io/case-study/capitalone/)
+* [Squarespace：利用Kubernetes 提高生产力和弹性]( https://www.cncf.io/case-study/squarespace/)
+* [HomeAway 如何使用 Node.js 来调整运营规模并缓解收购困境]( https://www2.thelinuxfoundation.org/node-casestudies-homeaway)
+* [Node.js 推动 Uber 的大规模发展和可靠性]( https://www2.thelinuxfoundation.org/node-casestudies-uber)
+* [Node.js 助力 NASA 保障宇航员安全和数据易于访问]( https://www2.thelinuxfoundation.org/node-casestudies-nasa)
 
-## Creating a marketing strategy
+## 制定推广策略
 
-There are similarities and differences between marketing a commercial product and marketing an open source project. What makes an open source marketing strategy unique stems from its decidedly un-commercial end goal. 
+推广商业产品与推广开源项目之间有相似之处，也有不同之处。推广开源项目策略的独特之处在于其明确的非商业最终目标。
 
-Companies do marketing to acquire customers who then buy the product and thus grow the company’s revenue, which is their end goal. By contrast, an open source community would want to acquire users because they want their software to be more useful by a broader set of communities, and for those people to help contribute to improving the software and moving the software forward. Since the goals are very different, the tactics should be too.
+公司进行推广是为了获得客户，然后客户购买产品，从而增加公司的收入，这是他们的最终目标。相比之下，开源社区希望获得用户，是因为希望他们的软件能在更广泛的社区中变得更加有用，并让社区帮助改进软件并推动软件向前发展。既然目标不同，战术也应该不同。
 
-You can see the difference in how marketing tactics are accepted in the commercial market and the open source community too. Slick ads, videos, and other materials tend to succeed in the commercial market but fall flat in the open source community. Authenticity, transparency, and a real solution to a real problem carry more weight in the community.
+针对商业市场和开源社区的推广策略是有差异的。华丽的广告、视频和其他材料往往在商业市场上取得成功，但在开源社区中却表现不佳。真实性、透明度以及能真正解决实际问题的方案在社区中具有更大的说服力。
 
-Market intelligence is crucial to success. You want to make sure that the project is solving a crucial problem and that can be articulated well. You also need to find out how your project differs from others that are tackling the same problem. But you’ll also need to know what the end goal is.
+推广能力对于成功至关重要。你要确保该项目正在解决一个关键问题并且清晰地把它阐述明白。你还需要找出该项目与其他解决相同问题的项目不同处。另外，你还需要知道项目的最终目标。
 
-> "The other piece is what do I need for this project? Do I want to grow my user base, or do I want to grow a contributor base, or do I need money to raise money for this project because we cannot sustain the hardware or the infrastructure, or the hosting costs, or other cost that the project has," Ruff explains. “That then sets in place what the marketing plan should be, and which methods you will use, to reach those target audiences, and solve those problems.”
+> “另一件事是这个项目需要什么？我想要扩大我的用户群，还是想要扩大贡献者基础，或者我是否需要资金所以来为这个项目筹集资金，因为我们无法维持硬件或基础设施、托管成本或项目的其他成本，” Ruff解释道。 “然后制定推广计划，以及将使用哪些方法来接触目标受众并解决这些问题。”
 
-In other words, the project itself can point you to the marketing plan you need. 
+换句话说，项目本身可以为你指明所需的推广计划。
 
-> "The marketing strategy dovetails a bit on the structure of the project. If the marketing strategy dovetails directly into what the project is trying to accomplish, then things should work pretty seamlessly," says Foster. “It's just a matter of having people on the inside of the project who can help articulate what the project is trying to do in order to help figure out what the marketing strategy should be.”
+> “推广策略与项目的结构有些契合。如果推广策略与项目想要实现的目标正好吻合，那么事情应该会进行得非常顺利，” 福斯特说。 “让那些能够阐明目标的项目内部人员帮忙确定应该采取的推广策略。”  
 
-### Identifying internal resources available
+### 识别可用的内部资源
 
-Staffing the marketing effort will be a top concern as someone needs to be responsible for executing each step in the plan. Volunteers can help with many of the individual tasks from sending emails to giving keynote speeches at events.
+推广工作的人员配置将是首要问题，因为需要有人负责执行计划中的每一步。志愿者可以帮忙完成其中许多任务，从发送电子邮件到在活动中发表主题演讲。
 
-Projects can also ask member companies and contributor companies to loan marketing talent and marketing executives to help with the effort. This has the added advantage of having a dedicated and skilled staff at the wheel on a regular, if not full time, basis. But this can be a bit tricky to manage and keep in balance since the same companies are likely contributing money and other resources as well. 
+项目还可以要求成员公司和贡献者公司借调推广人才和推广主管来帮助完成这项工作。这样做的另一个优点是拥有一支专业且技术精湛的员工队伍定期（即使不是全职）来执行计划。但这可能有点难以管理和保持平衡，因为同样的公司也可能贡献资金和其他资源。
 
-Stick to your community guidelines, the same ones that govern fairness, openness, and trust so that the community knows the project isn’t being hijacked or overly influenced by one company.  
+坚持你的社区准则，即管理公平、开放和信任的准则，以便社区知道该项目不会被一家公司把持或过度影响。
 
-Having a governing board oversee the budget also helps keep distance between invested forces and project decisions on spending. But before you have budget overseers, you need a budget to oversee, which is likely to come from member and contributing companies as previously discussed. But the community can stretch the budget further by pitching in.
+让理事会监督预算还有助于在投资人和项目支出决策之间保持距离。但在拥有预算监督员之前，你得需要先获得预算可供监督，预算可能来自会员和贡献公司，如前文所述。但社区可以通过参与进一步扩大预算。
 
-> "We typically look for developer resources but overlook marketing resources. We should clearly advertise for things like a community manager for this project, or a volunteer to do a logo, or to make the website, etc.," says Ruff.  
+> “我们通常会寻找开发人员资源，但会忽视推广资源。我们应该明确地广而告之来招募项目的社区经理、志愿者来做徽标或制作网站等，” Ruff说。
 
-Budgets can be stretched further by using websites and social media channels to boost your reach. You’ll want to leverage the entire community on these efforts to gain the most audience reach and lighten the workload of keeping information current.
+通过使用网站和社交媒体渠道来扩大你的影响力，可以进一步扩大预算。你需要利用整个社区的力量来获得最大的受众范围并减轻保持信息及时更新的工作量。
 
-> "You need a website -- or you can just do it on GitHub -- but make sure to document your project very clearly on GitHub. A lot of projects are also using Twitter for project promotion," says Ruff. "Community members are also making sure to present and do talks at conferences about the project.  They also know how to recognize and celebrate people who are helping, by either sending them a T-shirt or giving them a thank you on the web or on Twitter. There's just a lot of good that you can get out of an engaged community," she says.
+> “你需要一个网站 -- 或者你也可以仅仅使用 GitHub 来开展项目 -- 但要确保在 GitHub 上清晰地记录你的项目文档。很多项目也使用 Twitter 进行项目推广，” Ruff 说。 “ 社区成员还确保在有关该项目的会议上发表演讲并进行演示。他们还知道如何表彰和庆祝那些提供帮助的人，可以给他们寄一件T恤，或者在网络或Twitter上向他们表示感谢。你可以从一个活跃的社区中获得很多好处，” 她说。
 
-### Setting goals
+### 设定目标
 
-Setting goals means spelling out exactly what you want to accomplish. For example, stating "more users" as a goal is not specific enough to measure and determine the level of success you need to accomplish. Give your goal a specific value or a specific outcome that you can measure success against.
+设定目标意味着准确地阐明你想要实现的目标。例如，将 “更多用户” 作为目标并不够具体，无法衡量和确定你需要实现的成功程度。给你的目标设定一个具体的数值或可衡量的结果，一以便评估成功与否。
 
-> "I always go back to users. Look at what you have and then decide perhaps to double the number of users, and then take some of the users and convert them into contributors, and then convert some of the contributors to maintainers," Ruff advises. “You might decide that a goal is to find someone to be a community manager, or someone who will do some of the marketing. The goal can be the growth of the project in that fashion: Users, contributors, roadmap, etc.”
+> “我总是回到关注用户这一出发点。看看你拥有什么，然后决定将用户数量增加一倍，然后将一些用户转变为贡献者，然后将一些贡献者转变为维护者，” Ruff建议。 “你可能会设定一个目标是找人担任社区经理，或者做一些推广工作。目标还可以是让项目按照某种方式进行发展：用户、贡献者、路线图等。”
 
-### Measuring success
+### 衡量成功
 
-As the adage goes, you cannot manage what you cannot measure. But neither can you claim success if you cannot validate the claim. By setting specific goals, you’ve determined what your measure. From there, you need to choose the metrics and tools that will help you measure and track your marketing plan’s performance.
+俗话说，你无法管理无法衡量的东西。但如果你无法验证目标，你也不能宣称成功。通过设定具体目标，你就确定了衡量标准。以此为基础，你需要选择有助于你衡量和跟踪推广计划绩效的指标和工具。
 
-You can find metrics and marketing dashboards on Github and in various projects that you can either use as examples or use directly, such as the tools, analytics, and dashboards within the [CHAOSS project](https://chaoss.community/).
+你可以在 Github 和各种项目中找到指标和推广仪表板，你可以将其用作示例或直接使用，例如 [CHAOSS 项目]( https://chaoss.community/) 中的工具、分析和仪表板。
 
-There is an abundance of such tools, and that alone can be overwhelming. Stick to the base metrics that answer your question "how are our marketing efforts performing in terms of project impact?"
+此类工具有很多，仅此一项就可能令人不知所措。选择那些基本的度量标准来回答如下问题，“我们的推广工作在项目影响力上表现如何？
 
-You may even be able to use some of the metrics already on your existing project dashboard that you use to manage the project. If your project doesn’t have such a dashboard, or if you rather create one specifically aimed at tracking marketing impact on the project, you may want to use something like [OSS-dashboard](https://github.com/amzn/oss-dashboard) or other commercial tools to do so.
+你甚至可以使用现有项目仪表板上已有的一些指标来管理项目。如果你的项目没有这样的仪表板，或者你想创建一个专门用于跟踪项目推广影响的仪表板，你可能选用类似 [OSS-仪表板](https://github.com/amzn/oss-dashboard) 或其他商业工具来操作。
 
-In other words, use the metrics that are directly related to your stated end goal(s) for the project. The burning question isn’t how many people read your blog or watched your YouTube video, but how many of those people became users and contributors.
+换句话说，使用与项目的既定最终目标直接相关的指标。紧迫的问题不是有多少人阅读你的博客或观看你的 YouTube 视频，而是其中有多少人能成为项目的用户和贡献者。
 
-> "For small projects, the information that they get out of Github may be plenty. It just tells them how many people are downloading their project, how many people have starred their project, how many people are forking it, how many contributors they have, how many issues are pending, how quickly do they resolve issues, all of those things will really give them a fast way to see how they're doing," says Ruff.
+> “对于小型项目，他们可以从 Github 获得很多信息。它会告诉他们有多少人在下载他们的项目，有多少人为他们的项目加了星标，有多少人在复制它，他们有多少贡献者，有多少问题悬而未决，他们解决问题的速度有多快，所有这些都让他们能够快速了解自己的进展情况，” Ruff 说。
 
-## Branding and messaging
+## 品牌和信息传递
 
-Branding your project gives it "stickiness" in the minds of the larger open source and developer communities. It’s a simplified reminder of what your project is and what it can do. It is vital to get your branding message right at the outset because your project will likely suffer a significant setback if you must change the name and brand later.
+为你的项目打造品牌可以使其在更大的开源和开发者社区心目中具有“粘性”。它简单地提醒你的项目是什么以及它可以做什么。从一开始就确立好你的品牌信息至关重要，因为如果后来不得不更改名称和品牌，你的项目可能会遭受重大挫折。
 
-You might want to wait for your project to grow some before you name it or start the branding process.
+你可能需要等待你的项目发展起来，然后再为其命名或开始品牌推广过程。
 
-> "Our company only assigns brand and names to projects that are really big projects for us. If it's a small project, we don't bother doing legal checks or put that much time and effort into branding it because it's just a tiny library or a tiny piece of code," says Ruff.
+> “我们公司只为对我们来说真正大的项目指定品牌和名称。如果这还是一个小项目，我们就不会费心做法律检查或花那么多时间和精力来品牌化它，因为它只是一个很小的库或一小段代码，” Ruff说。
 
-> "But if it's a major project that we're open sourcing, we will go through all that work, so I would give the same guidance to teams. If you're going to go big, you must move to make sure that the name you're using and the brand is available for use, and you're not conflicting with anyone else," Ruff added.
+> “但是，如果这是我们开源的一个重大项目，我们将进行所有这些工作，所以我建议团队也这么做。如果你打算做大，就就必须确保所使用的名称和品牌可以使用，并且不会与任何其他人产生冲突，” Ruff 补充道。
 
-When it’s time to start branding actions in earnest, it’s very important to also leverage the value of the open source brand too, in order to give your new brand a significant boost.
+当真正开始品牌行动时，利用开源品牌的价值也非常重要，以便为你的新品牌带来显着提升。
 
-> "Open source as a brand has a very positive connotation. It says that it's open, it's transparent, it's authentic, it's community-created, it's innovative, it's moving in a fast pace, it gives you a chance as a user to get involved, to see the code, to contribute, to change, to modify the code, all of which users are looking for as opposed to being dependent upon a vendor," says Ruff.
+> “开源作为一个品牌具有非常积极的内涵。它代表着开放、透明、真实、社区创建、创新、快速发展，它让你作为用户有机会获得参与、查看代码、贡献、更改、修改代码，所有这些都是用户所寻求的，而不是依赖于供应商，” Ruff 说。
 
-While leveraging the open source brand is critical, so is protecting the brand’s value. It is essential to uphold the openness, authenticity, and integrity of the brand. Why? Because the brand is a symbol of what people love about open source and specific projects.
+虽然利用开源品牌至关重要，但保护品牌价值也同样重要。维护品牌的开放性、真实性和完整性至关重要。为什么？因为该品牌象征着人们对开源和特定项目的热爱。
 
-You see examples of that in stickers on developer and other community members’ laptops, phones, and even luggage in support of their favorite projects. These stickers are important word-of-mouth catalysts.
+你可以在开发人员和其他社区成员的笔记本电脑、手机甚至行李箱上的贴纸上看到这样的例子，他们以此支持他们最喜欢的项目。这些贴纸是重要的口碑催化剂。
 
-To develop a following that will proudly promote your brand through stickers, or word-of mouth, or by volunteering, you can involve the community in the branding and messaging process before you decide on anything. Getting buy in before you launch a marketing plan is critical to both short-term and long -term success.  
+要培养一批通过贴纸、口碑或志愿服务自豪地宣传你的品牌的追随者，你可以在做出任何决定之前让社区参与品牌和消息传递过程。在启动推广计划之前获得认可对于短期和长期的成功都至关重要。
 
-Do make sure that you're clear from a legal perspective on everything from Intellectual Property (IP) laws including copyrights, patents, project name, branding, etc. Some organizations such as The Linux Foundation and non-profits like The Apache Software Foundation can offer some assistance to their respective members regarding the legal issues that need to be addressed.
+请确保你从法律角度清楚了解知识产权 (IP) 法中的所有内容，包括版权、专利、项目名称、品牌等。Linux 基金会和 Apache 软件基金会等非营利组织可以就需要解决的法律问题向各自的成员提供一些帮助。
 
-### Branding and trademark guidelines
+### 品牌和商标指南
 
-A key goal of some open source projects is to prevent technical drift away from a core set of functionality, which is usually accomplished via a conformance program and a set of branding and trademark guidelines. Such compatibility strengthens the ecosystem by providing end users with confidence that data and solutions from one environment can work in another conformant environment with minimal friction.  A trademark conformance program, around a particular trademark held by the project, can be used to encourage conformance with the project. Anyone can use the open source project code however they want, but if a downstream solution wants to describe itself as conformant using the project’s conformance trademark, it must meet the project’s definition of conformant. For example, the Kubernetes community has a [community developed](https://github.com/cncf/k8s-conformance) conformance program for the "Kubernetes Certified" program to ensure different Kubernetes products are compatible with each other at some level.
+一些开源项目的主要目标之一是防止技术功能偏离核心功能集。这通常可以通过一致性程序和一套品牌和商标指南来实现。这种一致性增强了生态系统的兼容性，并给最终用户带来信心，即来自一个环境的数据和解决方案可以在另一个兼容的环境中以最小的代价正常运行。针对项目的特定商标，商标一致性程序可以用来鼓励遵循项目标准。任何人都可以随心所欲地使用开源项目代码，但如果下游解决方案想要使用项目的一致性合规商标，那么它必须满足项目的一致性合规定义。例如，Kubernetes 社区有一个针对“Kubernetes 认证”计划的[社区开发](https://github.com/cncf/k8s-conformance) 一致性程序，以确保不同的 Kubernetes 产品在某种程度上彼此兼容。
 
 * [https://www.apache.org/foundation/marks/](https://www.apache.org/foundation/marks/)
 * [https://www.eclipse.org/legal/logo_guidelines.php](https://www.eclipse.org/legal/logo_guidelines.php)
@@ -203,45 +203,45 @@ A key goal of some open source projects is to prevent technical drift away from 
 * [https://nodejs.org/en/about/trademark/](https://nodejs.org/en/about/trademark/)
 * [https://www.openstack.org/brand/openstack-trademark-policy/](https://www.openstack.org/brand/openstack-trademark-policy/)
 
-## Getting the word out
+## 传达信息
 
-### Inside the community
+### 社区内部
 
-The important thing to remember is that you are competing for developers mind share, you're competing with user mind share, against millions upon millions of repos on GitHub. Developers and users can choose to spend their free time work on any open source project that interests them, including other projects and libraries that directly compete or are similar to yours.
+需要记住的重要一点是，你正在争夺开发者的注意力，你正在与用户的注意力竞争，与 GitHub 上数以百万计的代码库竞争。开发人员和用户可以选择将空闲时间花在任何吸引他们开源项目上，包括与你的项目直接竞争或类似的其他项目和库。
 
-It is also critical to raise the profile of your organization within a project and build a solid reputation. This in turn attracts developers to the project and is fundamental in recruiting developers to the organization as well.
+提高组织在项目中的形象并建立良好的声誉也很重要。这反过来又吸引了开发人员加入该项目，并且对于招募开发人员加入组织也至关重要。
 
-Word-of-mouth marketing in the community is foundational to the success of any project and a critical element in raising the profile and reputation of participating members and member companies. Some of the best ways to spark and encourage word-of-mouth activities is by participating and answering questions in the community mailing lists, wikis, forums, and any activities where project members are highly accessible and ready to help.
+社区中的口碑推广是任何项目成功的基础，也是提高参与会员和会员公司的形象和声誉的关键因素。激发和鼓励口碑活动的一些最佳方法是参与社区邮件列表、维基百科、论坛以及任何项目成员易于访问并随时准备提供帮助的活动并回答问题。
 
-It’s also essential to make it easy for new people to get up to speed on the project and contribute freely. Some of the most successful projects do that by operating by a code of conduct so everyone feels welcome and respected. This code of conduct should include: a readme document that clearly explains what the project is; documentation that clearly explains how to get involved, where to make a contribution; a FAQ to answer small or common issues quickly; an outreach effort to help people get involved and help them stay onboard; and, a strong inclusive culture that does not tolerate discrimination or mistreatment of participants.
+让新人能够轻松跟上项目进度并自由贡献也很重要。一些最成功的项目通过遵循行为准则来做到这一点，让每个人都感到受欢迎和尊重。该行为准则应包括： 一份自述文件，清楚地解释该项目是什么；清楚解释如何参与、在哪里做出贡献的文档；常见问题解答可快速回答小问题或常见问题；帮助人们参与并帮助他们留在项目的外展活动；以及强大的包容性文化，不容忍对参与者的歧视或虐待。
 
-Another good way to market internally is to host hackathons and other community events, which could include social meetups. There are successful meetup programs out there like [CNCF Meetups](https://github.com/cncf/meetups) or [NodeJS Meetups](https://nodejs.org/en/get-involved/node-meetups/) programs that you can learn from"
+内部推广的另一个好方法是举办黑客马拉松和其他社区活动，也包括社交聚会。有一些成功的聚会计划可以从中借鉴学习，例如 [CNCF 聚会](https://github.com/cncf/meetups) 或 [NodeJS 聚会](https://nodejs.org/en/get-involved/node-meetups/)。
 
-"Be sure to recognize the loyal contributors and the people who are prolifically contributing, give them T-shirts, invite them to events, recognize them publicly so that you continue to retain them in your project, and show that you care, and you appreciate the work that they're doing," says Ruff. “It's just like managing a team anywhere. You want people to feel respected. You want people to feel included. You want people to feel that their contributions are valued, and that it's a good team to be with.”
+“一定要表彰忠诚的贡献者和做出大量贡献的人，给他们T恤，邀请他们参加活动，公开表彰他们，以便继续将他们留在你的项目中，并表明你关心并欣赏他们他们正在做的工作，” Ruff说。 “这就像在任何地方管理团队一样。你希望人们感到受到尊重。你希望人们有被包容的感觉。你希望人们感到他们的贡献受到重视，并且这是一个很好的团队。”
 
-You could also consider creating an "ambassador program" for your project or community. For example, the [Docker Captains](https://github.com/docker-captains/about) and [Cloud Native Ambassadors](https://www.cncf.io/people/ambassadors/) are all examples of programs that empower community members with benefits to help expand the message of your project.
+你还可以考虑为你的项目或社区创建一个“大使计划”。例如，[Docker 大师]( https://github.com/docker-captains/about)和[Cloud Native大使](https://www.cncf.io/people/ambassadors/)都是很好的例子，他们为社区成员提供激励，来帮助扩展传播你的项目。
 
-As previously discussed, good code is not sufficient to make a project successful. Money is often needed to grow a contributor base, sustain the hardware or the infrastructure, cover the hosting costs, or other cost that the project incurs. Donating money to a project also raises a member’s profile and proof of stewardship essential to rising through the ranks.
+正如前面所讨论的，好的代码不足以使项目成功。通常需要资金来扩大贡献者群体、维持硬件或基础设施、支付托管成本或项目产生的其他成本。向项目捐款还可以提高会员的形象和证明管理能力，这对于晋升至关重要。
 
-### Webinars and community meetings
+### 网络研讨会和社区会议
 
-Holding public community meetings where there is a participatory agenda and the meetings are disseminated afterwards is an effective form of marketing. For example, the Kubernetes community holds a frequent [public meeting](https://github.com/kubernetes/community/blob/master/events/community-meeting.md) where everyone is invited to present what they are working on, including newcomers. These meetings are then uploaded to a video service for easy discovery and dissemination. Some organizations also hold webinars on a continuing basis. For example, the CNCF hosts [webinars](https://www.cncf.io/community/webinars/) to benefit its project and member community.
+举行公共社区会议，制定参与议程，并在会议后进行传播，是一种有效的推广形式。例如，Kubernetes 社区经常举办[公开会议]( https://github.com/kubernetes/community/blob/master/events/community-meeting.md)，邀请每个人展示他们正在做的事情，这其中也包括新人。然后，这些会议将上传到视频服务网站，以便于观看和传播。一些组织还持续举办网络研讨会。例如，CNCF 举办[网络研讨会](https://www.cncf.io/community/webinars/)，以使其项目和成员社区受益。
 
-## Outside the community with events and more
+## 社区外的活动及其他
 
-It is equally important to market outside of the community to attract newcomers to help with your project mission. A prime place to do this type of marketing is at events. Attending, sponsoring, and presenting are all valid and usual marketing tactics.  Presenting at an event is a way to refine your message, and can be tailored to the audience. You can also choose to host your own event if your budget allows, this provides a great opportunity to gather developers and users in one place. There are a variety of event hosting companies out there, or you can partner with an organization like the [Linux Foundation](https://events.linuxfoundation.org) to host your event.
+在社区外进行推广以吸引新人来帮助你完成项目使命也同样重要。进行此类推广的主要形式是各种活动。出席、赞助和演讲都是有效且常见的推广策略。在活动中进行演示是完善你的信息的一种方式，并且可以根据受众量身定制。如果预算允许，你还可以选择举办自己的活动，这提供了将开发者和用户聚集在一处的绝佳机会。市面上有很多活动主办公司，你也可以与像 Linux 基金会 [Linux基金会](https://events.linuxfoundation.org) 这样的组织合作举办活动。
 
-Using social media for marketing, both in the context of an event and as a broader communication vehicle, can also be highly effective. Whichever social medium you choose, remember that messages can be multi-purposed. For example, by tweeting a job opening wherein a company also names the open source projects it works with and contributes to, the company can attract job candidates and the project branding can be amplified. Job listings elsewhere can similarly pull extra marketing duty. 
+使用社交媒体进行推广，无论是在活动中还是作为更广泛的沟通工具，都会非常有效。无论你选择哪种社交媒体，请记住消息可以有多种用途。例如，通过发布一则招聘启事，并同时列出公司与之合作并为之贡献的开源项目，公司既可以吸引求职者，同时也可以提升项目品牌。在其他地方发布的招聘信息同样可以起到额外的推广作用。
 
-Content, such as blog posts, tutorials, demos, whitepapers, and videos, also plays a critical role in attracting and retaining members. This content can also serve the purpose of sharing information on the project and how to contribute beyond just coding. The more content you have out there, the more people are likely to see and respond. Just be sure the content is current and that outdated material is removed.
+博客文章、教程、演示、白皮书和视频等内容在吸引和留住会员方面也发挥着关键作用。此内容还可以用于共享项目信息以及如何在代码以外进行贡献。你拥有的内容越多，看到并做出回应的人就越多。只需确保内容是最新的，并且删除过时的材料。
 
-Direct marketing, such as emails and online advertising, is also important in external marketing as these enable you to proactively reach out to people who may not have otherwise heard about your project.  These can be used to raise awareness, or to promote a specific call to action. Be sure all messaging meets community guidelines and your marketing plan’s criteria.
+直接推广（例如电子邮件和在线广告）在外部推广中也同样重要，因为它们可以使你主动接触到可能从未听说过你的项目的人士。这些方法可以用于提高知名度，或者推广特定的行动号召。请确保所有消息传递都符合社区准则和推广计划的标准。
 
-Another idea for marketing the project for free is SEO (Search Engine Optimization), you can optimize the project page itself or write article that you will optimize that will get visitors to your project. This is described in detail in the article [How to Promote your Open Source Project with SEO](https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b)
+另一个免费推广项目的想法是 SEO（搜索引擎优化），你可以优化项目页面本身，或写文章来进行优化，以吸引访问者访问你的项目。这在文章[如何通过 SEO 推广你的开源项目](https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b)中有详细描述。
 
-## Acknowledgements
+## 致谢
 
-**Contributors to this guide:**
+**本指南的贡献者： **
 
 * [Amye Scavarda](https://twitter.com/amye)
 * [Chris Aniszczyk](https://twitter.com/cra)

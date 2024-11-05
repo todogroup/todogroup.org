@@ -1,157 +1,165 @@
 ---
-title: Shutting down an open source project
+title: 关闭开源项目
 ---
 
-This Open Source Guide is designed to offer advice about how your enterprise and your development team can plan for the day when you are ready to end or move away from an unneeded open source project. By shutting down the project gracefully or by transitioning it to others who can continue the work, your enterprise can responsibly oversee the life cycle of the effort. In this way, you can also set proper expectations for users, ensure that long-term project code dependencies are supported, and preserve your company’s reputation within the open source community as a responsible participant.
+该开源指南旨在为你的企业和开发团队提供当你准备要关闭或退出一个不再需要的开源项目时的建议。通过得体地关闭项目或将项目转移给可继续贡献的其他人，你的企业可以负责地管理项目的的生命周期。这样，你还可以为项目用户设立恰当的期望，确保长期的项目代码依赖能够得到支持，并保护你的公司在开源社区中负责任的参与者的形象。
 
-This guide will help you decide when a project is no longer useful, understand how to disengage from a project, and determine what to do about its code, repositories, websites, wikis, and other project assets as you head in a new direction.
+该指南将帮助你判断何时一个开源项目不再有用，以及当你转向其它新方向时，了解如何从一个项目中脱离，该如何处理该项目的代码、代码仓、网站、wiki和其他项目资产。
 
-## Lifecycle planning for your open source project
 
-As software developers start to envision and develop new and needed business-critical open source projects, they should also incorporate clear and specific plans for each project’s complete life cycle, from its birth to its eventual demise. Such planning should also be conducted as part of a company’s overall open source strategy, incorporating all of the projects it oversees.
+## 开源项目的生命周期规划
 
-These efforts could mean planning for a future shuttering of a project, a transfer of its operations to another interested group of users, or a corporate pull-out from the initiative. Such end-of-life planning is part of the responsibility that enterprises have for projects, their users, and for the open source community that sustains it all. These plans are necessary to allow such transitions to be conducted gracefully for other users if a project is ended or transferred.
+当软件开发人员开始设想和开发新的、关键业务所需的开源项目时，他们还应该为每个项目的整个生命周期（从其诞生到最终消亡）制定清晰而具体的规划。这样的规划也应该作为公司整体开源战略的一部分，纳入其管理的所有项目。
 
-### Why life cycle planning is important
+这些规划可能是计划未来关闭一个项目，将项目运营转移给另一个感兴趣的用户组，或公司退出项目。这样的生命周期结束计划是企业对项目、用户和支撑这一切的开源社区所负责任的一部分。这些规划也是必要的，从而当一个项目被结束或转移时，能够得体地为其他用户完成这种过渡。
 
-Planning for the potential end of an open source project isn’t unique. Similar life cycle planning is done for proprietary software initiatives, IT systems hardware deployments, and a wide range of other business decisions. For an open source initiative, project life cycle planning could include the traditional life cycle evaluations, such as an outline of the project’s scope and vision and estimates for its growth, as well as open source-specific categories like planning for community building and early user adoption and incorporating user feedback and contributions.
+### 为什么生命周期规划很重要
 
-It’s natural for any project to undergo development slowdowns or for user adoption to peak and then decline. Even highly successful open source projects may eventually stop being useful to their creators or users as business plans change or new technologies and innovations replace them. Thus, an exit plan is critical to ensure a smooth transition.
+为一个开源项目的可能的终结来做规划并不独特。类似的生命周期规划也适用于专有软件，IT系统硬件部署以及其他广泛的业务决策。对于一个开源项目，项目生命周期规划可以包括传统的生命周期评估，例如项目范围和愿景的概述以及对其增长的估计，以及开源特殊的条目，例如社区建设和早期用户应用计划、并纳入用户的反馈和贡献。
 
-## What does a dead open source project look like?
+任何项目都会经历开发速度放缓或用户使用达到峰值然后下降，这是很自然的。即使是非常成功的开源项目，最终也可能因为商业计划的改变或新技术/创新的取代而对其创建者或用户不再有用。因此，退出计划对于确保平稳过渡至关重要。
 
-If the steady flow of contributions or commits to your open source project has fallen off, that doesn’t necessarily mean a project is dead. It may simply mean that the project is mature, has achieved its development goals, and is serving its users without requiring much upkeep or updating, which could be a good thing.
 
-On the other hand, if the number of people adopting the project and using the code has declined significantly, that could be a sign that interest is waning and the project may be dying. Other relevant metrics can include the level of project activity in general and whether users are posting inquiries and joining online discussions about the code.
+## 一个死掉的开源项目是什么样的？
 
-### Trouble signs to watch for
+如果对你的开源项目的稳定的贡献流或提交流减少了，这并不一定意味着项目已死亡。它可能仅仅意味着该项目已经成熟，已经实现了它的开发目标，并且在不需要太多维护或更新的情况下就可为其用户服务，这可能是一件好事。
 
-A dead or dying project can also be indicated by problems, such as unresolved differences about the direction of development or through lost energy from formerly involved contributors, who may have moved on to other projects that better capture their interest. An obvious sign is a decline in the project that coincides with members of your team or the community asking questions about whether it should continue, be ended, or left outright. Another indicator is that the code is no longer being patched or updated by the community to resolve vulnerabilities.
+相反，如果采用该项目和使用代码的人数显著下降，这可能表明兴趣正在减弱，项目可能正在消亡。相关指标可以包括项目活动的总体水平，以及用户是否发布查询并加入有关代码的在线讨论。
 
-> “If you don’t have anybody asking questions, if nobody’s making contributions, if there doesn’t seem to be any new adoptions, nobody seems to be adding dependencies, and if you're not seeing any other signs the people are using it, that’s a potential big warning sign. It may all be fine, but it’s worth checking to see if the project is dying.” – Dr. David A. Wheeler, open source expert and lead for two projects with The Linux Foundation’s [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII)
+### 需关注的问题标志
 
-These signs can be tricky to gauge even with hard data, since your code often may be accessed indirectly through package managers for other applications, rather than via direct downloads. This can make it hard to know exactly how many users you have and can accurately track as a project goes through its life cycle.
+一个已死或垂死的项目可以通过一些问题来识别，例如关于开发方向的未解决分歧，或者由于以前参与的贡献者失去了精力，这些贡献者可能已经转移到了更好地吸引他们兴趣的其它项目上。一个明显的标志是项目的衰退，同时你的团队或社区的成员也在询问项目是否应该继续、是否应该结束或彻底放弃。另一个标志是社区不再修补或更新代码以解决漏洞。
 
-## Why plan for the end of a project before you even launch it?
+>“如果你没有任何人提出问题，如果没有人做出贡献，如果没有任何新的采用，似乎没有人添加依赖，如果你没有看到任何其他任命正在使用它的迹象，这就是一个潜在的重大警告信号。可能一切都很好，但是有必要检查项目是否正在消亡。”– David A. Wheeler博士，开源专家，Linux基金会[核心基础设施计划（CII）](https://www.coreinfrastructure.org/) 中两个项目的牵头人。
 
-As you plan your open source project, related decisions about how you might someday end or transition the project are a critical part of the project’s life cycle.
+这些迹象可能很难衡量，即使是有定量的数据，因为你的代码往往能被间接地访问（通过其他应用的包管理器），而不是直接下载。这使得很难确切地知道项目到底有多少用户，进而准确地跟踪项目的生命周期。
 
-Why is that? Because pulling out of a project without a plan to protect its community and users can substantially harm an organization’s reputation within the open source community and the project itself. If you manage an open source software project, remember that others depend on it and that their continued use of it depends in part on your management and administrative efforts. Certainly your company can choose to change a project’s direction or status, but part of your responsibility is to clearly, quickly, and openly communicate such changes to a project’s users so they can plan for their own needs. It would be irresponsible to close a project and take down its code without communicating those intentions to users.
 
-### Protect your company’s reputation
+## 为什么要在启动一个项目之前就计划结束它？
 
-Leaving other users in a lurch is not something you want to do. In the world of open source, this issue should not be taken lightly. That doesn’t mean your potential exit plans need to be made in detail even before you get the project underway, but frequent, open communication will help assure users that you will not drop a project without adequate notice and that you will work to prevent users from being left hanging. In addition, by building, developing, and promoting code that is easily forkable, your project can offer flexible transfer capabilities to others if you should decide to end your own involvement in the project. Although you need not announce a full disengagement procedure in your life cycle plans, you can still let users know that you intend to close or transition the project smoothly and responsibly.
+当你规划您的开源项目时，关于你可能有一天如何结束或转移项目的相关策略是项目生命周期的关键部分。
 
-### Seek a diverse contributor base
+为什么会这样？因为在没有保护社区和用户的计划的情况下退出一个项目会严重损害一个组织在开源社区和项目本身的声誉。
+如果您管理一个开源项目，请记住其他人依赖于它，他们对它的持续使用部分取决于您的管理和运营工作。当然，你的公司可以选择改变项目的方向或状态，但你的部分责任是清晰、快速和公开地将这些改变传达给该项目的用户，以便他们能够根据自己的需求进行计划。不将这些意图传达给用户直接关闭项目并删除其代码是不负责任的。
 
-Having a diverse group of code contributors is important to help your project grow by bringing in new ideas, deeper problem-solving capabilities, and more developer eyes on the code. It’s also helpful later if you decide to end or leave your project. With a diverse community involved in the effort, you could have have interested community members who potentially want to maintain it, broadening your options for future transition. If you do decide to leave a project, you would likely prefer to hand it off to other people who care about and will continue it, rather than announce its demise.
+### 保护您公司的声誉
 
-These early steps lay the groundwork for project success by establishing a level of trust that will allow a healthy ecosystem and commercial dependencies to be built around your project.
+让其他用户陷入困境绝不是你想做的事情。在开源的世界里，这个问题不应该掉以轻心。这并不意味着你的潜在退出计划需要在项目开始之前就进行详细的制定，但频繁的、开放的沟通将有助于向用户保证，你不会在没有充分通知的情况下放弃项目，并且你将努力防止用户被搁置晾起来。此外，通过构建、开发和推广易于Fork的代码，即使你决定结束自己在项目中的参与，你的项目也可以向其他人提供灵活的转移功能。尽管你不需要在生命周期规划中宣布完整的退出程序，但你仍然可以让用户知道您打算以平稳和负责任的方式关闭或过渡项目。
 
-> “When you're starting your project, you're trying to get people to trust you and allay their fears about joining the project and using your code. Later, if you say, ‘Hey, this project’s going to go away soon,’ that is not going to help with trust. Instead, you should say you're going to do your best to make it work out if it will ever be ended, and that you promise not to just drop users. Tell them you’ll let them know what is happening at each step. Give them time to transition, and work on ways to help with the transition. That can be very helpful.” – Dr. David A. Wheeler, open source expert and lead for two projects with The Linux Foundation’s [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) (CII)
+### 寻求多元化的贡献者基础
 
-## Deciding when to end, transfer or pull out of a project
+拥有一个多样化的代码贡献者群体对于通过引入新的想法、更深入的解决问题的能力和更多的开发人员关注代码来帮助项目发展非常重要。如果你决定结束或离开您的项目，多样化的贡献者群体也是很有帮助的。有了多元化的社区参与这项工作，你可能会有感兴趣的社区成员，他们可能希望维护项目，从而拓宽你未来迁移的选择。如果你确实决定要离开一个项目，你可能更愿意把它交给其他关心并将继续它的人，而不是宣布它的消亡。
 
-Whatever the reason, there may come to decide whether an open source project should be ended or transferred to another entity or whether your enterprise should end its participation in the project. It could be because your business goals have changed and that the project no longer corresponds with your new direction. Or, maybe it’s because a key person or team that headed the effort leaves the company, or that project performance metrics such as participation, updates, and usage are declining drastically based on your latest user data. It’s also possible that disagreements have arisen among community members about the future of the project and it looks like changes may be needed.
+这些早期步骤，通过建立允许围绕您的项目建立健康的生态系统和商业依赖的信任，为项目成功奠定了基础。
 
-### Disagreements can influence new project directions
+>“当你开始你的项目时，你试图让人们信任你，并消除他们对加入项目和使用你的代码的恐惧。后来，如果你说‘嘿，这个项目很快就会结束’，这对建立信任没有任何帮助。相反，你应该说如果项目需要结束时，你会尽你最大的努力让它能够平滑过渡并且你保证不会直接抛下用户。告诉他们，你会让他们知道每一步都发生了什么。给他们过渡的时间，并研究帮助他们过渡的方法。这可能是非常有帮助的。”– David A. Wheeler博士，开源专家，Linux基金会[核心基础设施计划（CII）](https://www.coreinfrastructure.org/) 中两个项目的牵头人。
 
-If disagreements have arisen about the project inside the community – whether about its scope, technical matters, licensing or other issues – then you might consider splitting the project to allow interested parties to pursue what’s important to them. A similar quandary helped inspire developer Linus Torvalds to create Linux back in 1991. Torvalds had been experimenting with Minix, a small UNIX-like operating system kernel developed by Andrew S. Tanenbaum to teach college students about coding. Torvalds created Linux after he decided Minix had a radically different scope and vision, leaving him to create his own separate operating system.
 
-The scope of projects can certainly change over time and be readjusted as needed, but if it the project is simply no longer needed, then it can be a candidate for dissolution or transfer. Projects can even be repurposed to either find a way to make your existing users happy or to incorporate a functionality that needs new users. Ultimately, however, if you have software and nobody needs it, then the project is probably finished. Even if it’s the best software in the world, if nobody needs that capability, then nobody cares.
+## 决定何时结束、转移或退出项目
 
-> “That definitely does happen in different ways. We could stop using the project and its code because we just moved on to other things, or maybe the people who are maintaining it are now working on different things or have even left Facebook. Maybe nobody’s there supporting it and we're also not using it in our own apps. Some projects are contained enough that they're basically done being used.” – Christine Abernathy, Open Source Team Developer Advocate at Facebook
+无论什么原因，都可能会需要决定一个开源项目是否应该结束或转移到另一个实体、或你的企业是否应该结束参与该项目。这可能是因为你的业务目标已经改变，项目不再符合你的新方向。或者，也许是因为领导这项工作的关键人物或团队离开了公司，或者根据你的最新用户数据，项目性能指标（如参与度，更新和使用情况）急剧下降。社区成员之间也可能对项目的未来产生分歧，并且看起来可能需要进行调整。
 
-### Examples from the user trenches
+### 分歧会影响新的项目方向
 
-For business users, a wide range of factors affect decisions on whether open source projects should be ended. At software maker Autodesk, where some 190 open source projects are homegrown and in use, declining participation in a project’s development is seen as a clear indicator of code that might be past its prime, which can lead to placing a formerly thriving project into “maintenance mode.” Under that designation, the code is no longer actively maintained and if users have questions they may or may not be answered. In such a case, community members of the project can still use it, but no community support is provided.
+如果社区内部对项目产生了分歧——无论是关于项目的范围、技术问题、许可证还是其它问题——那么你可以考虑将项目拆分，让感兴趣的各方追求对他们重要的东西。类似的困境激发开发者Linus Torvalds的灵感在1991年创建了Linux。Torvalds一直在试验Minix，这是一个小型的类UNIX操作系统内核，由Andrew S. Tanenbaum开发，用来教大学生编码。Torvalds在他认定Minix具有完全不同的范围和愿景后创建了Linux，他创建了自己独立的操作系统。
 
-Similar usage indicators, including patch and maintenance requests, are monitored at Facebook, where some 400 open source projects have been homegrown so far, to periodically review the fates of ongoing projects. And at Capital One, where about 20 open source projects have been started in-house and are in use, projects are regularly transferred to other organizations or shut down depending on the needs of the company.
+项目的范围当然可以随着时间的推移而改变，并根据需要重新调整，但如果项目只是不再被需要，那么它可以成为解散或转移的候选对象。项目甚至可以重新调整用途，要么找到让现有用户满意的方法，要么融入需要新用户的功能。然而，最终，如果你有软件而没有人需要它，那么项目很可能就结束了。即使它是世界上最好的软件，但如果没有人需要这种功能，那么也没有人在乎。
 
-## How to end an open source project
+>“这肯定是以不同的方式发生的。我们可以停止使用这个项目和它的代码，因为我将开始做其它事情，或维护它的人现在正在做不同的事情，甚至已经离开了Facebook。也许那里没有人支持它，而我们也没有在我们自己的应用中使用它。有些项目已经包含了足够的内容，以至于它们基本上已经被使用了。-Christine Abernathy，Facebook开源团队开发者布道师
 
-Whatever you do to end or transfer an open source project, perhaps the most important move you can make is to be candid with users at every step. Being open about your intentions helps establish trust for future work with all potential developer communities.
+### 来自用户的示例
 
-Once you've decided to make the move, you must determine whether to end it, transfer it to another organization, or just pull out and end your direct involvement.
+对于商业用户来说，广泛的因素会影响是否应该终止开源项目的决策。在软件制造商Autodesk，大约有190个开源项目在自己开发和使用中，对项目的开发参与度下降被视为代码可能已过其黄金时期的一个明确指标，这可能导致将一个以前蓬勃发展的项目被置于“维护模式”。在这个模式下，代码不再被主动维护，如果用户有问题，他们可能会得到或可能不会得到回答。在这种情况下，社区成员仍然可以使用项目，但社区支持不在被提供。
 
-### How transfers can be helpful
+类似的使用指标，包括补丁和维护请求，也在Facebook进行监控，到目前为止Facebook已经自行开发了大约400个开源项目，以定期审视这些项目的命运。而在Capital One，大约有20个开源项目已经在内部启动并正在使用，项目会根据公司的需要定期转移到其他组织或关闭。
 
-By transferring the project to another organization that wants to continue to maintain it, you can then directly assist in the transition of the project’s data and other resources. This approach can help reduce the worry and risks of the existing community and its users. If the project has used common or standard interfaces, it will likely be easier to extract and move embedded data or replace it with another similar component if needed. That won’t always work, of course, because clearly some open source projects are unique. However, providing and using standardized interfaces early in the project life cycle can help make these transition efforts easier.
 
-> “The best practice is to just be upfront and clear with the state of your projects. If you're no longer supporting a project, or you're in the process of winding it down, make that painfully obvious to anybody that would stumble across your code. You want them to see it’s no longer being maintained so new users don’t start using it and have this unwritten expectation that it is out there and that you are sponsoring this project and developing it.'” – Jared Smith, Open Source Community Manager at Capital One
+## 如何结束一个开源项目
 
-### Make needed updates when transferring projects
+无论你做什么来结束或转移一个开源项目，也许你能做出的最重要的举动是在每一步都对用户坦诚相待。对你的意图持开放态度有助于与所有潜在的开发者社区建立未来工作的信任。
 
-Transferring a project has the added benefit of continuing to make the code available to other users, long after it was first created and nurtured by its original development community. Of course, more than just code will be affected. There’s also the documentation, Contributor License Agreements (CLAs), the project repository, wikis, websites to transfer, as well as some potential support infrastructure which will need to be reviewed and updated. Transfers can be done through an actual transfer procedure or by forwarding the project domains and other resources to a new user group.
+一旦你决定采取行动，你必须决定是否结束项目，把它转移到另一个组织，还是直接退出项目并结束你的直接参与。
 
-In lieu of transferral, the project can be moved to a new host home and accessed by sending community members to a referral site where it is continued, rather than completely disengaging from it.
+### 如何让转移有帮助
 
-> “It doesn’t happen all the time, but in the past with one of our projects we moved it over to a different company. We don’t have any hard and fast rules about doing this. Typically, we’ll just move it to a different organization. When it comes to moving within groups, we sort of shop around internally and find out whether it is still being used by someone. With our open source projects, we strive toward internal adoption. So, it might be used by an entirely different team. If they are willing to maintain it, then we move it to a different team, and that’s very easy. That just means changing a label somewhere where it says who’s the owner.” – Christine Abernathy, Open Source Team Developer Advocate at Facebook
+通过将项目转移到另一个希望继续维护项目的组织，你可以直接协助项目的数据和其他资源的转移。这种方法有助于减少现有社区及其用户的担忧和风险。如果项目使用了通用或标准接口，则提取和移动嵌入的数据或在需要时用另一个类似的组件替换将更容易。当然，这并不总是行得通，因为显然一些开源项目是独一无二的。但是，在项目生命周期的早期提供和使用标准化的接口有助于使这些转移工作变得更容易。
 
-### Killing a project outright
+>“最好的做法是事先清楚地了解项目的状态。如果你不再支持一个项目，或者你正在结束它，让那些无意中发现你的代码的人痛苦地看到这一点。你想让他们看到你的代码不再被维护，这样新用户就不会开始使用它，也不会有这种不成文的期望，那就是你在赞助这个项目并开发它。”–Jared Smith，Capital One开源社区经理
 
-Some organizations may simply want to kill an outdated project and retire its efforts for a myriad of reasons, from legal concerns to competitive pressures. The direction your enterprise ultimately takes is up to you. In this case, the code doesn’t need to be removed but can instead be archived, or made “read-only,” so it may still be used by others to fork it into new projects without your involvement. It can also be moved to an archiving site where it can be stored for users.
+### 在转移项目时做必要的更新
 
-It’s important to always remember that just because your company doesn’t care about the code anymore it doesn’t mean that the existing community doesn’t care. It behooves you, then, to remind them as you proceed that they can fork the code and create their own uses for it without you. This also wouldn’t be a bad time to remind users who depend upon the open source code in your projects that they would be wise to mirror and save the code on their own for projects that are very important to them. Code can disappear over time and a good backup or mirror can be critical for users.
+转让一个项目还有一个额外的好处，那就是在它最初被最初的开发社区创建和培育之后很久，仍然可以继续向其他用户提供代码。当然，受影响的不仅仅是代码。还有文档、贡献者许可协议（CLA）、项目仓库、wiki、网站转移，以及一些潜在的基础设施支撑需要被审视和更新。转移可以通过实际的转移程序来完成，也可以通过将项目的域和其它资源转给新的用户组来完成。
 
-To make whichever option you choose work efficiently, a step-by-step disengagement plan is a good idea to keep it all organized. That means clear and early communications with users who are likely to care as well as a sufficient timeline that gives affected users time to finish their work and move to an alternate platform if needed. How much time will be enough for users? It depends. Start with at least six months, or it could be longer. The key is to set reasonable expectations and communicate your plans very clearly and quite often.
+与完全解散项目不同，转移意味着项目可以被转移到一个新的宿主家，并通过将社区成员送到项目将会被继续的转接站来继续访问。
 
-If your enterprise transfers the project to another group, the users should be kept up to date on what is being done to protect their interests as well.
+>“这并不总是发生，但在过去我们的一个项目中，我们将它转移到了另一家公司。我们对此没有任何硬性规定。通常情况下，我们只是将它转移到另一个组织。当涉及到在集团内转移时，我们在内部货比三家来寻找是否有人还在使用它。在我们的开源项目中，我们努力争取内部采用。因此，它可能被一个完全不同的团队使用。如果他们愿意维护它，我们就把它转移到这个团队，这很简单，只需要在某个地方改变一个标签，上面写着谁是责任人。”—— Christine Abernathy，Facebook开源团队开发者布道师
 
-### Work toward a smooth transition
+### 直接杀死一个项目
 
-When a workable partner is secured, then approach your project disengagement like you would handle any product that is being discontinued. Decide what, if any, involvement your organization will have with the project going forward in terms of developer time and then work closely with the new entity to prepare for a smooth transition. Be sure to set expectations that the actual transfer could take months to accomplish, and then turn the project over officially to the new owners when all the needed steps are completed.
+一些组织可能只是想扼杀一个过时的项目并停止投入，原因有很多，从法律问题到竞争压力。你的企业最终采取的方向取决于你。在这种情况下，代码不需要被删除，而是可以被归档，或者被设置为“只读”，这样即使没有你的参与，它也仍然可以被其他人使用来fork到新项目中。也可以将其移动到一个为用户存出的存档站点。
 
-A potential problem that could crop up, though, is if the group which is interested in taking over your old project is not one you favor to operate it into the future. This can happen, and you will have to come up with a plan for action in such a case. How do you deal with this? Well, if you're so attached to your code that you are considering not transferring it to a group that is not exactly in line with your corporate or philosophical directions, then maybe it’s not the right time to end the project. If you care about it that much, perhaps there’s a reason that you shouldn’t be leaving this project.
+重要的是要始终记住，仅仅因为你的公司不再关心代码，并不意味着现有的社区不关心。那么，你应该在进行时提醒社区，他们可以在没有你的情况下fork代码并为其创建自己的用途。这也是提醒那些依赖你项目中的开源代码的用户，他们最好自己镜像和保存对于对他们非常重要的项目代码。代码可能会随着时间的推移而消失，一个好的备份或镜像对用户来说是至关重要的。
 
-### The importance of clear communications
+为了使你选择的任何一个选项都能有效地工作，一个循序渐进的退出计划是一个很好的主意，以使一切都有条理。这意味着与可能关心的用户进行清晰和早期的沟通，以及一个能预留充足的时间让受影响的用户能完成他们的工作甚至在需要时转移到其它替代平台的时间表。对于用户来说多少时间才够用呢？这要看具体情况。从至少六个月开始，也可能更长。关键是要设定合理的预期，并且非常清楚、非常频繁地传达你的计划。
 
-Clearly communicating the new direction of the transferred, ended, or rebranded project will continue to be your responsibility even after the transition. Be sure to openly advise developers and community members about the status of the project with its new operators and give them clear details about how the project is now being maintained if they care to continue to use it. Don’t forget to update your project website, social media channels, and other connected community assets so participants know where to find the moved project and can continue to make their contributions and use the code.
+如果你的企业将项目转移给另一个团队，也应该让用户了解为了保护他们的利益正在做的事情的最新情况。
 
-Remember to communicate all this information to downstream organizations and users as well. This includes companies, non-profits, and others that are using your code, and who may not be aware of the demise or transfer of the project because they're not directly involved in the development cycle. You should make efforts to advise them of what is happening through your websites, social media channels, and other outlets, especially if the project is well-known and has had a substantial following.
+### 努力实现平滑转移
 
-> “The biggest thing is to communicate the changes and tell the community of the plans ASAP. Don’t leave the users wondering if the project is still being maintained. For the most part, good code lives on, in my opinion, so if you've got a project that has good code, I would rather not ever take something down from GitHub but set the expectations at, ‘Hey, this project is no longer being actively maintained.’” – Guy Martin, Director of Open at Autodesk
+当找到一个可行的合作伙伴时，就像处理任何停产的产品一样处理你的项目退出。决定在开发者时间方面，您的组织将参与项目推进的哪些（如果有的话），然后与新实体密切地配合，为项目的平滑转移做好准备。
+一定要设定实际移交可能需要几个月才能完成的预期，然后在完成所有必要的步骤后，将项目正式移交给新的负责方。
 
-### Provide updates through project repositories
+一个潜在的问题可能会突然出现，即如果有兴趣接管你的旧项目的团队并不是你喜欢的未来运营它的团队。这种情况很可能会发生，在这种情况下，你必须想出一个行动计划。你怎么应对这类情况呢？好吧，如果你对你的代码如此执着，以至于你正在考虑不把它转移给一个与你的公司或哲学方向不完全一致的小组，那么也许现在并不是结束项目的正确时机。如果你那么在乎它，也许有你不应该离开这个项目的原因。
 
-Another important place to post information about project changes is the project’s repository itself on GitHub or related destinations. There you can place detailed notes explaining what’s happening, including readme files to help get the messages to participants.
+### 清晰沟通的重要性
 
-As the project moves on, it’s time to officially transfer the assets, if necessary, to its new operators. If you are bringing in new administrators while maintaining the actual assets within your existing company, you can keep the copyrights on the affected code and let them use it with the open source licenses of their choice.
+即使在移交完成后，明确传达项目的新方向（转移、结束或更名）仍将是您的责任。请务必公开告知开发者和社区成员项目的状态及新的责任方，并向他们提供清楚的关于项目现在是如何维护的细节，如果他们愿意继续使用它。不要忘记更新你的项目网站、社交媒体渠道和其他连接的社区资产，以便参与者知道在哪里可以找到被迁移的项目，并可以继续做出贡献并使用代码。
 
-To keep the project repositories well organized, you might consider setting up a designated area where you can store and make available all transitioned open source projects that your company no longer supports (e.g., https://github.com/twitter-archive). In this way, the projects are still available for users to get code, and potential users can also still find readme files explaining the status of the projects. This designated section of the repository can provide clarity for users and help them understand the difference between active and retired projects, while also ensuring that enterprises can properly showcase their latest live open source projects in their active repositories.
+记住，也要将所有这些信息传达给下游组织和用户。这包括公司、非营利组织和其他使用你的代码的人，他们可能不知道项目的消亡或转移，因为他们不直接参与开发周期。你应该努力通过你的网站、社交媒体渠道和其他渠道告知他们正在发生的事情，特别是如果项目是众所周知的并且有大量的追随者。
 
-### Archiving tips
+>“最重要的是尽快沟通变更并将计划告诉社区。不要让用户怀疑项目是否还在维护。在我看来，大多数情况下好的代码可以存活的，所以如果你的项目有好的代码，我宁愿永远不要从GitHub上取下一些东西，而是将期望设置为“嘿，这个项目不再被积极地维护”。”—— Guy Martin，Autodesk开源负责人
 
-Several steps are involved in archiving a project. For example, moving it to a read-only status helps make it clear, without having to change any URLs, that the project is now archived and no longer open to regular updates in its previous form.
+### 通过项目仓库提供更新
 
-Also important is to provide users with a clear alternative plan for their projects, including how to get and fork the code for their ongoing uses. As part of that responsibility, you should provide users with a way to contact you so they can have their fork listed and made available to other interested users. Some companies provide this assistance, while other choose not to do so.
+发布项目变更信息的另一个重要位置是项目在GitHub或相关平台上的项目仓库。在那里，你可以放置详细的记录来解释发生了什么，包括readme文件来帮助将信息传达给社区参与者。
 
-Once a repository is archived, you cannot add or remove collaborators or teams, and issues become read-only. To make changes in an archived repository, you must unarchive the repository first. See the GitHub documentation for more details: [https://help.github.com/articles/about-archiving-repositories/](https://help.github.com/articles/about-archiving-repositories/)
+随着项目的推进，如果有必要，是时候将资产正式转让给新的运营方了。如果你正在引入新的管理员，同时还维护你目前公司中的实际资产，你可以保留受影响代码的版权，并让他们使用他们选择的开源许可证。
 
-### Infrastructure updates when shuttering projects
+为了保持项目仓库的良好运作，你可以考虑建立一个指定的区域，在那里你可以存储和提供哪些你的公司不再支持的所有已移交的开源项目（例如 https://github.com/twitter-archive)）。通过这种方式，用户仍然可以获取那些项目的代码，潜在用户也仍然可以找到解释项目状态的readme文件。项目仓库的这一指定部分可以为用户提供清晰的信息，并帮助他们了解活跃项目和已归档项目之间的区别，同时也确保企业可以在其活跃的项目仓库中正确地展示其最新的活跃开源项目。
 
-Ending a project can also affect your project’s infrastructure and support, which must be judged on a case-by-case basis, depending on how your project was set up. Some projects use and maintain only a small set of code, so there might not be much to do. If it is all code and it’s posted on your repository, then you're probably done and need not take additional steps to transfer or secure it.
+### 归档技巧
 
-Other projects, however, may require significant effort to shutter them using various backend tools to do the work. These may include services that may have been shared for many purposes, such as a test infrastructure. Although that test infrastructure has been used for the project previously, you may want to remove it before transferring the code so you can use the tool to test other work later. It may be hard to disentangle, but it can be done if desired.
+归档项目涉及到几个步骤。例如，将其移动到只读状态有助于清晰的呈现项目现在已归档、不再像以前那样定期地更新，而且无需更改任何URL。
 
-> “Companies really **need to do** a better job of succession planning in open source. Just throwing something out there without proper planning and getting people from outside the company to become contributors and then expecting that it’s going to be that way forever is a challenge. You need to prepare that members of the community, whether they're from your company or from other places, are going to come in and follow somewhat of a life cycle and eventually, people become elders or retired from a community, and you need to have succession planning for that.” – Guy Martin, Director of Open at Autodesk
+同样重要的是为用户们提供提供一个清晰的项目替代计划，包括如何获取和fork他们正在使用的代码。作为该职责的一部分，你应该为用户提供一种与你联系的方式，以便他们可以将其fork列出并提供给其他感兴趣的用户。一些公司提供这种援助，而另一些公司选择不这样做。
 
-### Have a tough skin
+一旦一个仓库被归档，就无法添加或删除协作者或团队，Issue问题将变为只读。要在归档的仓库中进行更改，必须先取消归档该仓库。有关更多详细信息，请参阅GitHub文档：[https://help.github.com/articles/about-archiving-repositories/](https://help.github.com/articles/about-archiving-repositories/)
 
-There may also be some negative public comments and reactions posted about your actions, including unhappy users or “trolls” who disparage your move as abandoning users. Remember, however, most users are aware that priorities change over time and that enterprises might eventually have to stop some open source projects as their work matures. Every company must do this sometimes, so don’t take the comments too personally.
+### 关闭项目时更新基础设施
 
-## Final thoughts
+结束一个项目也会影响你的项目的基础设施和支持，这必须根据你的项目是如何建立的具体情况来判断。有些项目只使用和维护一小撮代码，因此可能没有太多的工作可做。如果它是所有代码并且已发布在您的仓库中，那么你可能已经完成了并不需要采取额外的步骤来转移或保护它。
 
-Shuttering, transferring, or leaving an open source project is inevitably a step your enterprise will choose to take at some point, but it need not be a debilitating task. With proper planning, clear and widespread communications and the step-by-step completion of legal and procedural tasks, transitioning an open source project can be accomplished satisfactorily for all involved.
+然而，其他项目可能需要花费大量的精力来使用各种后端工具来完成工作。这些可能包括可能出于多种目的而共享的服务，例如测试基础设施。
 
-By developing and including simple plans to shutter an open source project even as you begin planning a fledgling project’s first steps, you will ensure a healthy life cycle management plan. These plans will help your open source projects run as efficiently and successfully as possible from their lofty starts to their eventual quieter endings.
+尽管该测试基础结构之前已用于项目，但您可能希望在传输代码之前将其删除，以便稍后可以使用该工具测试其他工作。这可能很难解开，但如果需要的话，是可以做到的。
 
-## Acknowledgements
+>“公司真的**非常需要**在开源项目中执行更好的继任计划。在没有适当规划的情况下把一些东西扔到那里，让公司外部的人成为贡献者，然后期望它将永远这样是一个挑战。你需要让社区成员做好准备，不管他们是来自你的公司还是来自其他地方。他们会进入并遵循一定的生命周期，最终，人们会年老或从社区退出，你需要为此制定继任计划。”—— Guy Martin，Autodesk开源负责人
 
-Contributors to this guide:
 
-* [Christine Abernathy](https://twitter.com/abernathyca), Open Source Team Developer Advocate at Facebook
-* [Chris Aniszczyk](https://twitter.com/cra), CTO of CNCF (former head of open source at Twitter)
-* [Guy Martin](https://twitter.com/guyma), Director of Open at Autodesk
-* Jared Smith, Open Source Community Manager at Capital One
-* [Dr. David A. Wheeler](https://www.dwheeler.com/), open source expert and lead for two projects with The Linux Foundation’s Core Infrastructure Initiative (CII)
+### 有钝感力
+
+也可能会有一些负面的公众评论和反馈，包括不开心的用户或“键盘侠”们会贬低你的举动是抛弃用户。但是，请记住，大多数用户都意识到优先级会随着时间的推移而变化，并且随着开源项目的成熟企业最终可能不得不停止一些项目。每个公司都有必须这样做的时候，所以不要太在意别人的评论。
+
+## 结束语
+
+关闭、转移或退出一个开源项目是你的企业在某个时候不可避免地要采取的一个步骤，但它不一定是一个令人烦恼的任务。通过恰当的计划，清晰和广泛的沟通以及逐步完成法律和程序任务，可以实现项目的平滑过渡并让涉及的各方都满意。通过开发和制定一个关闭开源项目的简单计划（甚至在你开始计划一个新生项目的第一步时就考虑），你将确保一个健康的生命周期管理计划。这些计划将帮助你的开源项目尽可能高效和成功地运行，从它们的崇高的开始到最终的安静结束。
+
+## 致谢
+
+本指南的贡献者：
+
+* [Christine Abernathy](https://twitter.com/abernathyca)，Facebook开源团队开发者布道师
+* [Chris Aniszczyk](https://twitter.com/cra)，CNCF基金会CTO（前Twitter开源负责人）
+* [Guy Martin](https://twitter.com/guyma)，Open at Autodesk开源负责人
+* Jared Smith，Capital One开源社区经理
+* [David A. Wheeler博士](https://www.dwheeler.com/)，开源专家，Linux基金会核心基础设施计划（CII）中两个项目的牵头人

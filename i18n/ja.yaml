@@ -5,7 +5,7 @@ hero2:
 subhero:
   other: オープンソースに取り組むすべての企業のみなさんへ。
 explainerText:
-  other: TODOは、知識を創造・共有し、実践、ツール、その他の方法で成功的かつ効果的なオープンソースプログラムオフィスや同様のオープンソースイニシアティブを運営することを目指す実践者のオープンなコミュニティです。TODOグループは、[Community](../community)の参加者と[General Members](../members)によって形成されています。
+  other: TODOは、知識を創造・共有し、実践、ツール、その他の方法で成功的かつ効果的なオープンソースプログラムオフィスや同様のオープンソースイニシアティブを運営することを目指す実践者のオープンなコミュニティです。TODOグループは、[Community](../community)の参加者と[一般会員](../members)によって形成されています。
 explainerButton:
   other: 私たちについて
 sectionTitle:
@@ -23,7 +23,7 @@ sectionText2:
 sectionButton2:
   other: 関与する
 sectionTitle3:
-  other: 一般メンバーになる
+  other: 一般会員になる
 sectionText3:
   other: TODOのミッションとOSPO採用をサポートするオープンソースにコミットした組織
 sectionButton3:

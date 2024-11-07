@@ -183,14 +183,49 @@ ja:
   ### example menu showing children ###
   menu:
     main:
-    - identifier: "guides"
-      name: "ガイド"
-      url: "/guides/"
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
       weight: 1
+    - identifier: "about-us"
+      name: "TODO Groupについて"
+      url: "/about/about-us/"
+      weight: 1
+      post: "プロジェクトとそのコミュニティの使命"
+      parent: "about"
     - identifier: "faq"
       name: "よくある質問"
       url: "/faqs/"
       weight: 2
+      parent: "about"
+    - identifier: "resources"
+      name: "資料"
+      url: "/resources/"
+      weight: 2
+    - identifier: "glossary"
+      name: "用語集"
+      url: "/resources/glossary/"
+      weight: 1
+      post: "OSPOの一般的な用語と定義"
+      parent: "resources"
+    - identifier: "studies"
+      name: "研究"
+      url: "/resources/studies/"
+      weight: 2
+      post: "OSPOへの取り組みを支援する成熟度モデル、調査、レポート"
+      parent: "resources"
+    - identifier: "mindmap"
+      name: "マインドマップ"
+      url: "/resources/mindmap/"
+      weight: 3
+      post: "OSPO内の責任、役割、行動、チームの規模"
+      parent: "resources"
+    - identifier: "guides"
+      name: "ガイド"
+      url: "/guides/"
+      weight: 4
+      post: "組織のためのオープンソースプログラム管理のベストプラクティス"
+      parent: "resources"
 zh-cn:
   languageName: 简体中文
   contentDir: content/zh-CN

@@ -7,7 +7,6 @@ url: "/community/ambassadors/"
 TODO OSPO Ambassadors (TOAs) are official advocates within TODO helping the OSPO ecosystem.
 {{< /intro >}}
 
-## Responsibilities
 
 The TODO OSPO Ambassador Program encompasses a group of community leaders who provide support, training, mentorship, guidance, and rewards to:
 
@@ -17,7 +16,22 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 * Provide valuable input and feedback to TODO about community programs and initiatives
 * Advocate OSPO best practices and TODO initiatives globally
 
-## Requirements
+## Meet our Ambassadors!
+
+| Name | Organization | Location | Local Efforts
+| --- | --- | --- | --- |
+| Angel Ramirez | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| Gergely Csatári | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
+| Hitomi Mizugaki| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
+| Jose Rodrigez Roa | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| Li Jiansheng | LF APAC | China 🇨🇳 | OSPO Local Meetup China |
+| Masayuki Kuwata | Sony | Japan 🇯🇵 | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
+| Thomas Steenbergen |  | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | OSPOlogy.live organizer |
+| Zhiqiang Yu | China Mobile, LF APAC | China 🇨🇳 | OSPO Local Meetup China |
+
+## Joining the TODO OSPO Ambassadors Program
+
+### Requirements
 
 Program requirements for becoming an official TODO OSPO Ambassador are:
 * Must be 18 years of age or older
@@ -33,7 +47,7 @@ Program requirements for becoming an official TODO OSPO Ambassador are:
     * Mentoring others
     * Creating content (e.g., blogs, videos, etc.)
 
-## Benefits
+### Benefits
 
 As a TOA, you are also eligible for Ambassador specific benefits, such as:
 * Gain recognition for your expertise and contributions to the community
@@ -43,23 +57,13 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 * Enjoy exclusive swag and giveaways
 * Receive a TODO OSPO Ambassadors Credly badge issued by the Linux Foundation
 
-## Meet our Ambassadors!
 
-| Name | Organization | Location | Local Efforts |
-| --- | --- | --- | --- |
-| Masayuki Kuwata | Sony | Japan 🇯🇵 | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
-| Gergely Csatári | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
-| Zhiqiang Yu | China Mobile, LF APAC | China 🇨🇳 | OSPO Local Meetup China |
-| Li Jiansheng | LF APAC | China 🇨🇳 | OSPO Local Meetup China |
-| Hitomi Mizugaki| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
-| Angel Ramirez | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
-| Jose Rodrigez Roa | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
-| Thomas Steenbergen |  | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | OSPOlogy.live organizer |
+## Frequently Asked Questions
 
-## 🙋‍♀️ Frequently Asked Questions:
 ### What is the process for becoming an Ambassador?
-To become an Ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.
-### Is the TODO OSPO Ambassador (TOAs) a paid position?
+To become an ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.
+
+### Is the TODO OSPO Ambassador (TOA) a paid position?
 No, the TODO OSPO Ambassador is not a paid position. However, TOAs will receive rewards like limited edition swag and exclusive discounts to LF events for their service.
 
 ### How long does my ambassadorship last?

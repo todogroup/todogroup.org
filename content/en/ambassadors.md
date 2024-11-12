@@ -20,14 +20,14 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 
 | Name | Organization | Location | Local Efforts
 | --- | --- | --- | --- |
-| Angel Ramirez | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
-| Gergely Csatári | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
-| Hitomi Mizugaki| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
-| Jose Rodrigez Roa | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
-| Li Jiansheng | LF APAC | China 🇨🇳 | OSPO Local Meetup China |
-| Masayuki Kuwata | Sony | Japan 🇯🇵 | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
-| Thomas Steenbergen |  | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | OSPOlogy.live organizer |
-| Zhiqiang Yu | China Mobile, LF APAC | China 🇨🇳 | OSPO Local Meetup China |
+| [Angel Ramirez](https://github.com/ar4mirez) | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| [Gergely Csatári](https://github.com/CsatariGergely) | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |
+| [Hitomi Mizugaki](https://github.com/hit0mim)| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
+| [Jose Rodrigez Roa](https://www.linkedin.com/in/joserodriguezroa) | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| [Li Jiansheng](https://www.linkedin.com/in/lijiansheng/) | LF APAC | China 🇨🇳 | OSPO Local Meetup China |
+| [Masayuki Kuwata](https://github.com/kuwatm) | Sony | Japan 🇯🇵 | [OSPO Local Meetup Japan](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) |
+| [Thomas Steenbergen](https://github.com/tsteenbe) |  | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | OSPOlogy.live organizer |
+| [Zhiqiang Yu](https://github.com/zhiqiang-yu) | China Mobile, LF APAC | China 🇨🇳 | OSPO Local Meetup China |
 
 ## Joining the TODO OSPO Ambassadors Program
 
@@ -61,10 +61,10 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 ## Frequently Asked Questions
 
 ### What is the process for becoming an Ambassador?
-To become an ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.
+To become an TODO OSPO Ambassador, an individual must review and meet the current requirements. We invite you to [submit your application for consideration](https://github.com/todogroup/governance/issues/new/choose) if you meet the requirements.
 
 ### Is the TODO OSPO Ambassador (TOA) a paid position?
-No, the TODO OSPO Ambassador is not a paid position. However, TOAs will receive rewards like limited edition swag and exclusive discounts to LF events for their service.
+No, the TODO OSPO Ambassador is not a paid position. However, TOAs will receive rewards like limited edition swag and exclusive discounts to Linux Foundation events for their service.
 
 ### How long does my ambassadorship last?
 All ambassadorships will be a two-year commitment. For example, an Ambassador accepted in November 2023 will be an Ambassador until November 2025.

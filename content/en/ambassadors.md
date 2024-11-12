@@ -54,6 +54,7 @@ As a TOA, you are also eligible for Ambassador specific benefits, such as:
 | Hitomi Mizugaki| Cuemby | United States (Florida 🇺🇸) | OSPO Local Meetup Florida |
 | Angel Ramirez | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
 | Jose Rodrigez Roa | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
+| Thomas Steenbergen |  | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | OSPOlogy.live organizer |
 
 ## 🙋‍♀️ Frequently Asked Questions:
 ### What is the process for becoming an Ambassador?

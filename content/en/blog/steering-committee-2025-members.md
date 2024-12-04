@@ -1,26 +1,28 @@
 ---
-title: "Announcing the 2025 TODO Steering Committee"
+title: "Meet the 2025 Steering Committee"
 author: todogroup
 date: 2024-12-04
 ---
-# Meet the 2025 Steering Committee  
+In TODO, is the community who drive TODO project initiatives, while the Steering Committee acts as a support body, streamlining processes to ensure quality contributions and helping the community get work done. Today, we are delighted to announce the new members who will join in 2025.  
 
-In TODO, it is the community of participants who drive TODO project initiatives, while the Steering Committee acts as a support body, streamlining processes to ensure quality contributions and helping the community get work done. Today, we are delighted to announce the new members who will join in 2025.  
+![SC2025NEW](https://github.com/user-attachments/assets/34a82448-33a3-475c-b2db-3061ce9aa663)
 
-## 2025 Steering Committee Elections  
+### Georg Kunz - Elected  
+> Returning Member
 
-Each year, the Steering Committee holds elections, with members serving two-year terms. The SC comprises both elected and appointed seats. This year, we had one elected and two appointed seats to fill.  
-
-### (Returning Member) Georg Kunz - Elected  
 An Open Source Advocate at Ericsson’s OSPO, Georg contributes to various open source communities, including OpenStack, Linux Foundation Networking, and OpenSSF. 
 He has served on the Technical Steering Committee of the Anuket project and the TODO Group and co-chares the OpenSSF Best Practices Working Group.  
 
-### (Returning Member) Annania Melaku - Appointed  
+### Annania Melaku - Appointed  
+> Returning Member
+
 As a Technical Program Manager and Open Source Strategist with the NGINX Community Team at F5, Annania has led initiatives that promote collaboration and best 
 practices within the open source ecosystem. Her previous roles include foundational work in the F5 Open Source Program Office (OSPO) and leadership in Comcast’s OSPO, 
 where she developed automated solutions for open source license compliance.  
 
-### (New Member) Natali Vlatko - Appointed  
+### Natali Vlatko - Appointed
+> New Member
+
 Serving as an Open Source Architect at Cisco, Natali specializes in open software, policy, and governance. She co-chairs the SIG Docs for Kubernetes and previously 
 founded and led the OSPO at Wayfair, earning recognition as a Top End User by the Cloud Native Computing Foundation in 2023. Natali has also contributed to program 
 committees for several open source conferences.  
@@ -29,10 +31,8 @@ These new members, along with those who joined in 2024—Ashley Wolf, Stephen Au
 
 ## Outgoing Steering Committee Members  
 
-As we welcome new members to the 2025 Steering Committee, we also take a moment to express our heartfelt gratitude to those who are concluding their roles, including 
-**Leslie Hawthorn**.  
+As we welcome new members to the 2025 Steering Committee, we also take a moment to express our heartfelt gratitude to those who are concluding their roles, including Leslie Hawthorn.  During her time on the Steering Committee, Leslie contributed significantly by:  
 
-During her time on the Steering Committee, Leslie contributed significantly by:  
 - Developing processes and documentation to support the community  
 - Resolving community requests and fostering a collaborative environment  
 - Helping define the strategic goals of the TODO Group  
@@ -40,6 +40,8 @@ During her time on the Steering Committee, Leslie contributed significantly by:
 On behalf of the TODO community, we extend our deepest thanks to Leslie for her invaluable stewardship in the TODO Steering Committee.
 
 ## Process and Results Breakdown  
+
+Each year, the Steering Committee holds elections, with members serving two-year terms. The SC comprises both elected and appointed seats. This year, we had one elected and two appointed seats to fill.  
 
 The Steering Committee Election took place in mid-October, and anyone could become a candidate by submitting an application form that closed in early October. The form was shared via community mailing lists, Slack, and social media. 
 Participation was open to all, and more information can be found in the [TODO governance repo](https://github.com/todogroup/governance).  
@@ -56,3 +58,5 @@ The following criteria were considered:
 2. **Experience and Skills**: Areas where the current SC may lack expertise or need additional support, particularly those important for the 2025 goals and focus areas, such as project and community management, communications, website development, and more  
 3. **Engagement and Leadership**: Knowledge, engagement, and leadership roles in TODO initiatives over the past year  
 
+## Stay Connected  
+The release of the 2024 Steering Committee Report will be shared soon, so be sure to follow the TODO Group’s [blog](https://todogroup.org/blog/) and subscribe to our [mailing list](https://lists.todogroup.org/). 

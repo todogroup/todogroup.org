@@ -5,21 +5,20 @@ date: 2024-12-10
 ---
 
 The TODO Group’s mission is to identify key policy and process choices related to open source management and engagement within organizations and create tools 
-and educational materials that promote best practices. As part of this mission, the TODO Steering Committee gathered on November 18 at the Linux Foundation Member 
-Summit for their annual End-of-Year meeting. The session provided an opportunity to reflect on the group’s strategic goals for the year, assess progress, and outline 
-the priorities for the upcoming year.
+and educational materials that promote best practices. As part of this mission, the [TODO Steering Committee](https://todogroup.org/about/steering-committee/) gathered on November 18 at the [Linux Foundation Member Summit](https://events.linuxfoundation.org/lf-member-summit/) for their annual End-of-Year meeting.The session provided an opportunity to reflect on the group’s [strategic goals for the year](https://github.com/todogroup/governance/blob/main/goals.md), and outline the priorities for the upcoming year, based on [recent studies and open source management trends](https://www.linuxfoundation.org/research/ospo-2024).
 
 To foster community engagement, the Steering Committee also hosted an Ask Me Anything session during the summit, for the community to engage directly, ask questions, 
 and gain valuable insights. 
 
-![image3](https://github.com/user-attachments/assets/a8d5ca6b-fa24-4a43-b655-7caac4f9109a)
-_Three out of the seven TODO Steering Committee members and TODO General Member at Linux Foundation MemberSummit 2024. Starting from right to left: Stephen Augustus 
-(Former Cisco), Alyssa Wright (Bloomberg), Brittany Istenes (Fannie Mae), Ana Jiménex (Linux Foundation) and Ashley Wolf (GitHub)_
+![54156549708_59b2bdd121_c](https://github.com/user-attachments/assets/0cc3c7c0-bb49-4724-9cfe-1652722f05d1)
+
+
+_Four out of the seven TODO Steering Committee members and TODO General Member at Linux Foundation MemberSummit 2024. Starting from left to right: Brittany Istenes (Fannie Mae), Stephen Augustus (Former Cisco), Ashley Wolf (GitHub) and Georg Kunz (Ericsson)_
 
 In this article, we summarize the key discussions, outcomes, and areas of focus from the Steering Committee Meeting and AMA session, highlighting the steps ahead for 
 the TODO Group.
 
-![image2](https://github.com/user-attachments/assets/21c31ce6-5b00-4c9b-868d-1330a0ddb3e9)
+<img src="https://github.com/user-attachments/assets/2695e5e4-337c-4e3a-b623-c59d5d343a7e" alt="Image" width="400">
 
 _Note: TODO is accepting responses for our yearly [Community Satisfaction and Engagement Survey](https://forms.gle/9JQQWemd4WVDiqtR6) until December 21st. We would love to hear your feedback and identify areas of interest where 
 you’d like to participate_
@@ -31,10 +30,7 @@ you’d like to participate_
 
 ### Strategic Cohort #1 -  Develop Shared Goals with Partner Communities
 
-OSPOs are cross-skilling in specific industry verticals and technologies according to the 2024 State of OSPOs and Open Source Management report. Articulating actions 
-to develop shared strategic yearly goals with aligned capacity across key projects supporting the verticals and technologies where OSPOs are specializing seems like a 
-logical milestone for TODO to pursue. To establish cohesive practices across the entire LF Ecosystem, the TODO Steering Committee recommends starting small and then scale 
-across peer communities.
+OSPOs are cross-skilling in specific industry verticals and technologies according to the [2024 State of OSPOs and Open Source Management report]((https://www.linuxfoundation.org/research/ospo-2024). Articulating actions to develop shared strategic yearly goals with aligned capacity across key projects supporting the verticals and technologies where OSPOs are specializing seems like a logical milestone for TODO to pursue. To establish cohesive practices across the entire LF Ecosystem, the TODO Steering Committee recommends starting small and then scale across peer communities.
 
 > We invite peer groups and communities like OpenSSF, OpenChain, and LF AI & Data to partner with TODO and establish shared goals. These efforts will communicate the value
 > of open source policy and process decisions that require strong partnerships with legal, security, business leaders, and policymakers.
@@ -71,7 +67,7 @@ Touchpoints are the backbone of TODO Community. The TODO Steering Committee reco
 ### Strategic Cohort #3 - Recognize TODO Contributors
 
 As TODO scales, we aim to clarify and standardize the structure, roles, and aspirations of TODO working groups, as well as the documentation and responsibilities of the 
-ambassador program. The TODO Steering Committee will work on ways to ensure that recognized contributors have the support and templates to effectively assist TODO.
+[ambassador program](https://todogroup.org/community/ambassadors/). The TODO Steering Committee will work on ways to ensure that recognized contributors have the support and templates to effectively assist TODO.
 
 ![image4](https://github.com/user-attachments/assets/6f8db20d-c1df-4284-84d6-c10f350cb0fa)
 

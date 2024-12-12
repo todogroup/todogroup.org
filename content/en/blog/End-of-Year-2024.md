@@ -18,12 +18,8 @@ _Four out of the seven TODO Steering Committee members and TODO General Member a
 In this article, we summarize the key discussions, outcomes, and areas of focus from the Steering Committee Meeting and AMA session, highlighting the steps ahead for 
 the TODO Group.
 
-<img src="https://github.com/user-attachments/assets/2695e5e4-337c-4e3a-b623-c59d5d343a7e" alt="Image" width="400">
-
-_Note: TODO is accepting responses for our yearly [Community Satisfaction and Engagement Survey](https://forms.gle/9JQQWemd4WVDiqtR6) until December 21st. We would love to hear your feedback and identify areas of interest where 
-you’d like to participate_
-
-{{< button link="https://forms.gle/9JQQWemd4WVDiqtR6" style="secondary" text="Take the Community Satisfaction and Engagement Survey" >}}
+![impact_challenge](https://github.com/user-attachments/assets/eaaaa4da-a512-4cae-80a9-184871f65a6d)
+_Source: The 2024 State of the Open Source Management and OSPO study_
 
 
 ## Recommended Strategic Cohorts to Be Driven in 2025
@@ -37,17 +33,14 @@ OSPOs are cross-skilling in specific industry verticals and technologies accordi
 > 
 > Steering Committee Member - Ashley Wolf, Director, Open Source Programs GitHub
 
-![secu-AI](https://github.com/user-attachments/assets/10739c84-6c42-4716-ac57-b090144af7b3)
-
+![security_AI_insights](https://github.com/user-attachments/assets/ae70ed4b-58c4-48f1-92df-9730f3ee340b)
 
 > Regulation and standardisation of security practices impacting open source software are a key concern of OSPOs. Intensifying the collaboration between the TODO Group
 > and key communities, such as the OpenSSF and OpenChain, aims to develop the tools and processes which enable OSPOs to address these future challenges.
 > 
 >Steering Committee Member - Georg Kunz, Open Source Manager, Open Source Program Office at Ericsson
 
-![image1](https://github.com/user-attachments/assets/c269afdd-8b24-452f-bfcb-38190b670185)
-
-The same approach applies to collaboration with the InnerSource Commons Foundation, the community supporting the InnerSource movement that empowers organizations and 
+The same approach applies to collaboration with the [InnerSource Commons Foundation](https://innersourcecommons.org/), the community supporting the InnerSource movement that empowers organizations and 
 people worldwide to apply and gain the benefits of open collaboration in their internal work.
 
 ### Strategic Cohort #2 - Establish Touchpoint Committee 
@@ -70,6 +63,13 @@ As TODO scales, we aim to clarify and standardize the structure, roles, and aspi
 [ambassador program](https://todogroup.org/community/ambassadors/). The TODO Steering Committee will work on ways to ensure that recognized contributors have the support and templates to effectively assist TODO.
 
 ![image4](https://github.com/user-attachments/assets/6f8db20d-c1df-4284-84d6-c10f350cb0fa)
+
+
+
+_Note: TODO is accepting responses for our yearly [Community Satisfaction and Engagement Survey](https://forms.gle/9JQQWemd4WVDiqtR6) until December 21st. We would love to hear your feedback and identify areas of interest where 
+you’d like to participate_
+
+{{< button link="https://forms.gle/9JQQWemd4WVDiqtR6" style="secondary" text="Take the Community Satisfaction and Engagement Survey" >}}
 
 ## Meeting Summary – Strategic Goals Progress Review in 2024 
 

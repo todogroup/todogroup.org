@@ -26,7 +26,7 @@ _Source: The 2024 State of the Open Source Management and OSPO study_
 
 ### Strategic Cohort #1 -  Develop Shared Goals with Partner Communities
 
-OSPOs are cross-skilling in specific industry verticals and technologies according to the [2024 State of OSPOs and Open Source Management report]((https://www.linuxfoundation.org/research/ospo-2024). Articulating actions to develop shared strategic yearly goals with aligned capacity across key projects supporting the verticals and technologies where OSPOs are specializing seems like a logical milestone for TODO to pursue. To establish cohesive practices across the entire LF Ecosystem, the TODO Steering Committee recommends starting small and then scale across peer communities.
+OSPOs are cross-skilling in specific industry verticals and technologies according to the [2024 State of OSPOs and Open Source Management report](https://www.linuxfoundation.org/research/ospo-2024). Articulating actions to develop shared strategic yearly goals with aligned capacity across key projects supporting the verticals and technologies where OSPOs are specializing seems like a logical milestone for TODO to pursue. To establish cohesive practices across the entire LF Ecosystem, the TODO Steering Committee recommends starting small and then scale across peer communities.
 
 > We invite peer groups and communities like OpenSSF, OpenChain, and LF AI & Data to partner with TODO and establish shared goals. These efforts will communicate the value
 > of open source policy and process decisions that require strong partnerships with legal, security, business leaders, and policymakers.
@@ -146,7 +146,7 @@ Steering Committee members serving in the 2024 period recommend focusing on the 
 - Collaborate on a shared goal with allocated time: Recruit ambassadors from AI SIGs and seek LF support for these roles.
 - Integrate OSPOs into broader LF initiatives around AI and open data.
 
-# What’s Next? Make Your Voice Heard and Discover Ways to Engage
+# What’s Next? Make Your Voice Heard
 
 TODO Steering Committee members serving in the 2024 period aim these recommendations and progress review shared in this article serve two primary purposes:
 

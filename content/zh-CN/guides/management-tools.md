@@ -156,6 +156,8 @@ GitHub用户可以添加代码，审查提交的代码，提出更改建议，�
 
 [Vigiles](https://timesys.com/solutions/vigiles-vulnerability-management/) – Vigiles 是一个商业软件组成分析 (SCA) 和 CVE 监控工具，优化用于嵌入式 Linux，并适用于所有开源软件。它提供了跟踪、分类、修复和记录影响设备的 CVE 的完整过程。
 
+[Vulert](https://vulert.com) – Vulert 是一款商业化的软件组成分析（SCA）工具，能够持续监控开源依赖项中的新漏洞，推荐修复措施，并通过列出项目中使用的不需要的许可证来确保许可证合规性——这一切都无需安装或访问代码库，仅使用清单文件（如 package-lock.json、requirements.txt 等）。它支持所有主流编程语言。
+
 [WhiteSource](https://www.whitesourcesoftware.com/) – 提供许可、安全、代码质量和报告分析，通过自动和持续扫描数十个开源代码库来实时管理开源组件。
 
 ### 错误和问题跟踪

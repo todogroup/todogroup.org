@@ -143,6 +143,8 @@ Here are some of the most popular and useful source code management tools which 
 
 [Vigiles](https://timesys.com/solutions/vigiles-vulnerability-management/) – Vigiles is a commercial Software Composition Analysis (SCA) and CVE monitoring tool optimized for embedded Linux and usable for all open source software. It gives you the complete process to track, triage, remediate, and document CVEs affecting your device.
 
+[Vulert](https://vulert.com) – Vulert is a commercial Software Composition Analysis (SCA) tool that continuously monitors open-source dependencies for new vulnerabilities, recommends fixes, and ensures license compliance by listing unwanted licenses used in a project — all without requiring installation or access to the codebase, using only the manifest file (such as package-lock.json, requirements.txt, etc.). It supports all major languages.
+
 [WhiteSource](https://www.whitesourcesoftware.com/) – Provides licensing, security, code quality and reporting analysis for managing open source components in real-time by automatically and continuously scanning dozens of open source repositories on a commercial basis.
 
 ### Bug and issue tracking

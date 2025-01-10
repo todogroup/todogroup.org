@@ -14,8 +14,8 @@ provide resolutions for community requests, and help define the strategic goals 
 - [Ashley Wolf](https://github.com/ashleywolf), GitHub
 - [Brittany Istenes](https://github.com/tsteenbe), Fannie Mae
 - [Georg Kunz](https://github.com/gkunz), Ericsson
-- [Leslie Hawthorn](https://github.com/lhawthorn), RedHat
+- [Natali Vlatko](https://github.com/natalisucks), Cisco
 - [Nik Peters](https://github.com/vmbrasseur), Porsche
-- [Stephen Augustus](https://github.com/shillasaebi), Cisco
+- [Stephen Augustus](https://github.com/justaugustus), Independent
 
 See more information in the [TODO Group Governance repo](https://github.com/todogroup/governance#-about-todo-steering-committee-tsc).

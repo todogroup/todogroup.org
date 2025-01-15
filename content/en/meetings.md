@@ -3,22 +3,15 @@ title: Virtual Meetings
 url: "/community/meetings/"
 ---
 
-## Learning Space
 
-### Our Community Calls - TODO Touchpoints
+## Community Calls - OSPOlogy Touchpoints
 
-Touchpoint meetings serve as a vendor-neutral space to discuss day-to-day challenges and develop best practices for people managing open source operations and strategy (AKA Open Source Program Offices) to integrate into the organization's overall infrastructure. We welcome volunteers from the TODO community and other projectsto deliver a brief presentation, followed by a Q&A session. Example of volunteers are: 
+Touchpoints are collaborative sessions designed to foster a safe and open environment for the community to share experiences and explore best practices in open source program management. These sessions also explore its impact and relationship with cross-disciplinary themes, including security, AI infrastructure, compliance, community health, business strategy, and more. Touchpoints are offered in two different timeframes to ensure geographic availability:
 
-- Representatives from open source projects and initiatives: including independent maintainers, core contributors and project managers
-- Representatives from Foundations: including General managers, CTOs, and community managers from small to large ecosystems like the Cloud Native Computing Foundation, Open Source Security Foundation, OpenChain, InnerSource Commons, LF Energy, CHAOSS, LF AI & Data Foundation, and more
-- Organization's stakeholders: including C-level managers like CTOs
-- Members of an OSPO: including open source ambassadors, developer relations professionals, project managers or directors
+- APAC & EMEA Touchpoints: Thursdays, 12:00 PM GMT
+- AMER & EMEA Touchpoints: Mondays, 5:00 PM GMT
 
-This collective effort help people to articulate the value of open source management through OSPO and gather insights to better integrate open source into the organization's infrastructure, worker's culture and operations. We host two kinds of Touchpoints every month, happening on different days and at varying cadences and times, with content being cross-shared between both sessions. Conversations are governed under Chatham House Rules:
-
-- TODO Europe Chapter General Member and OSPOlogy Touchpoints (Thursdays)
-- TODO General Member Touchpoints (Fridays)
-
+> Confirmed sessions are shared in TODO Group Community Calendar. More information about the format and program can be found in the [ospology repo](https://github.com/todogroup/ospology/tree/main/meetings)
 
 ### Other Resources of Interest - OSPOlogy Webinars
 
@@ -32,9 +25,9 @@ This collective effort help people to articulate the value of open source manage
 
 {{< spacer 40 >}}
 
-## Contributor Space
+## Working Groups
 
-There are currently three (3) active working groups on concrete areas of focus:
+There are three active working groups on concrete areas of focus:
 
 | | [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | Open Source in Business | 
 | --- | --- | --- | --- |

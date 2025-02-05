@@ -3,33 +3,24 @@ title: "Welcoming CURIOSS as a New OSPO Associate of the TODO Group"
 author: todogroup
 date: 2025-02-04
 ---
+We are thrilled to announce that [CURIOSS](https://curioss.org/) has joined the TODO Group as a new OSPO Associate. CURIOSS is a community of individuals working in University and Research Institute Open Source Program Offices. This collaboration marks a significant step toward strengthening the bond between academic and enterprise open source engagements and strategic value.
 
-We are thrilled to announce that [CURIOSS](https://curioss.org/) has joined the TODO Group as a new OSPO Associate. CURIOSS is a community of individuals working in University and Research Institute Open Source Program Offices (OSPOs). This collaboration marks a significant step toward strengthening the bond between academic and enterprise open source engagements and strategic value.
+## Shared Strategic Goals
+This collaboration between CURIOSS and the TODO Group aims to strengthen the bond between academia and industry by:
 
-## Enhancing Collaboration and Knowledge Exchange
+- **Facilitating Knowledge Exchange**: Promoting the flow of information, network, and learning between the TODO and CURIOSS communities, enriching both with diverse perspectives and expertise
+- **Fostering Collaboration at Events**: Organizing joint activities at LF events, enabling networking for academia-industry gatherings. For example, Birds of a Feather (BoF) sessions like the one held at [OSSummit Europe 2024 in the OSPOCon track](https://curioss.org/news/nov24-industry-partnerships/) brought together academic and enterprise OSPOs from CURIOSS and TODO members.
+- **Developing Resources**: Creating and sharing materials that help bridge the gap between academia / research institutions OSPOs and corporate OSPOs
+- **Advocacy on Enterprise-Academic Collaborations**: Highlighting successful partnerships between universities, research institutions, and companies. Creating spaces for joint projects and discussions that bridge the gap between academic and corporate open source efforts
 
-By becoming a TODO Associate, CURIOSS aims to:
+To achieve these goals, both communities will continue working together or start new key initiatives outlined below.
 
-- **Facilitate the Flow of Information and Learning:** This partnership will promote a seamless exchange of knowledge between the TODO and CURIOSS communities, enriching both with diverse perspectives and expertise.
+## Key Initiatives
+Below is a list of ongoing initiatives where CURIOSS and the TODO Group can focus their efforts to achieve shared strategic goals. Some of these efforts are already underway:
 
-- **Foster Collaboration at Events:** CURIOSS looks forward to joint activities at Linux Foundation events and other industry gatherings. For instance, organizing Birds of a Feather (BoF) sessions like the one done at [OSSummit Europe at the OSPOCon track in 2024 with academic and enterprise OSPOs from CURIOSS and TODO members](https://curioss.org/news/nov24-industry-partnerships/).
-  
-- **Highlight Enterprise-Academic Collaborations:** This association will showcase the impactful collaborations between corporate entities and academic institutions, emphasizing the mutual benefits and advancements achieved through such partnerships.
+- **OSPOlogyLive Workshops:** CURIOSS representatives are currently part of the organizing team for the OSPOlogyLive EU series and are participating in the OSPOlogyLive Amsterdam 2025 program. This new OSPOlogyLive Workshop is intended for public administration, academia, and companies across Europe to help organizations navigate open source management, strategy, and Open Source Program Office (OSPO) operations. See more details [here](https://community.linuxfoundation.org/events/details/lfhq-ospology-european-chapter-presents-ospologylive-amsterdam/).
+- **OSPOCon BoF on Industry and Academia Partnerships**: Building on discussions from the past [Birds of a Feather (BoF) session at OSSummit Europe in 2024 on academic-enterprise partnerships](https://curioss.org/news/nov24-industry-partnerships/), both communities plan to continue exploring academic-enterprise partnerships at the 2025 OSSummit’s OSPOCon tracks. This initiative aims to bring together representatives from academic and enterprise OSPOs to address challenges, foster collaboration, and develop actionable strategies for strengthening ties between academia and industry in the open source ecosystem.
+- **OSPO Book Chapter about Academic OSPOs**: Inspired by the work of the CHAOSS OSPO Metrics Working Group, which contributed a chapter titled ["Measuring and Communicating Impact by your OSPO"chapter in the OSPO Book](https://ospobook.todogroup.org/05-chapter/), TODO welcomes CURIOSS representatives to contribute to a *CURIOSS-powered* chapter in the OSPO Book, focusing on the unique challenges and opportunities faced by academic OSPOs.
 
-## Contributing Academic Insights to TODO Content
-
-CURIOSS intends to enrich TODO Group's resources by:
-
-- **Providing Academic OSPO Perspectives:** By sharing insights and experiences from the academic realm, CURIOSS will add valuable context to TODO resources, addressing the challenges and opportunities faced by academic OSPOs.
-
-## How the TODO Group Will Support CURIOSS
-
-The TODO Group is committed to supporting CURIOSS through:
-
-- **Collaboration Opportunities:** Creating platforms for joint projects and discussions that bridge the gap between academic and corporate open source efforts.
-
-- **Providing Relevant Resources and Activities:** Offering materials and organizing events tailored to the needs of academic OSPOs, aiding in their development and success.
-
-- **Raising Awareness:** Promoting the concept of academic OSPOs and shedding light on the specific challenges they encounter, thereby fostering a broader understanding and support within the open source community.
-
+## More News Coming Soon
 We are excited about the potential of this collaboration and look forward to the innovative outcomes it will bring.

@@ -13,16 +13,15 @@ source professionals within organizations and OSPO teams are specializing, inclu
 
 ### Potential Areas for Exploration in the Role of Open Source Managers and OSPO Teams 
 
-The 2025 survey aims to focus on the role and impact of Open Source Managers and OSPO Teams in the following specializations: 
+The 2025 survey offers the possibility to study the role and impact of Open Source Managers and OSPO Teams in areas such as: 
 
-- **Adoption and management of Generative AI systems and models** within organizations  
-- **Collaboration between industries** to evaluate and classify the openness of GenAI systems and models and share best practices.  
-- **Security and compliance in open source software,** including collaboration with security teams and CISOs to manage risks and regulatory requirements.  
-- **Education and knowledge sharing on AI usage,** with a focus on how OSPOs support internal teams in AI literacy and best practices.  
-- **Open source security awareness across the software supply chain,** ensuring developers and stakeholders are equipped with effective security strategies.  
-- **The strategic influence of OSPOs and open source managers on funding decisions,** advocating for sustainable investment in open source projects and AI initiatives.  
+- Management of AI and Generative AI systems, models, and stack within organizations  
+- Collaboration between industries to evaluate and classify the openness of GenAI systems and models and develop best practices  
+- Collaboration with security teams and CISOs to manage risks and regulatory requirements and ensure developers and stakeholders are equipped with effective security strategies
+- Support internal teams in AI literacy and best practices
+- Influence on funding decisions and sustainable investment in open source projects and AI initiatives 
 
-The results of this survey will help open source professionals better understand the value of OSPO s—not only in organizations relying on software projects but also in those involved with hardware, open content, AI models, and data used for training models.  
+The results of this survey will help open source professionals better understand the value of OSPOs and open source management, not only in organizations relying on software projects but also in those involved with hardware, open content, AI models, and data used for training models.  
 
 The survey is relevant to:  
 * Representatives from organizations working in or alongside OSPOs or similar entities, including those involved in open source in any capacity.  

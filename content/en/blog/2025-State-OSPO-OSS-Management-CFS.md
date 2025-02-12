@@ -1,5 +1,5 @@
 ---
-title: "Announcing the 2025 State of the OSPO and OS Management Call For Sponsors"
+title: "2025 State of the OSPO and Open Source Management Call For Sponsors"
 author: todogroup
 date: 2025-02-11
 ---
@@ -27,9 +27,9 @@ The survey is relevant to:
 
 By supporting the OSPO Survey, your organization will:  
 
-- Demonstrate a commitment to **open research** and **open data** around open source management within organizations, its evolving roles, responsibilities, and structure.  
-- Support the **longest-running and largest** open source survey specifically developed to analyze the evolution of open source management trends across industries.  
-- Generate valuable **data and insights** on open source management trends and developments across sectors and regions to inform decision-making in **generative AI model and system stacks, open source AI definitions, and security supply chain best practices**.  
+- Demonstrate a commitment to open research around open source management within organizations, its evolving roles, responsibilities, and structure.  
+- Support the longest-running open source survey specifically developed to analyze the evolution of open source management trends across industries.  
+- Generate valuable data and insights on open source management trends and developments across sectors to equip decision-makers with data-driven knowledge for navigating the evolving landscape of open source AI, security, ecosystem engagement, sustainability strategies, and cross-industry collaboration
 
 ## How Can My Organization Become a Sponsor?
 
@@ -54,9 +54,9 @@ We seek support from organizations to continue this study, generate a statistica
 * **September 2025** – Publication  
 
 ## Get Started
-To participate, please contact **hcarter@linuxfoundation.org** to learn more about sponsorship options for 2025 before **March 1st**.
+To participate, please contact **hcarter@linuxfoundation.org** to learn more about sponsorship options for 2025 before **March 14th**.
 
-## Open Data from Past Studies*
+## Open Data from Past Studies
 
 Since 2018, the TODO Group and Linux Foundation Research have conducted yearly open surveys to assess the state of open source programs and open source management. All raw data, questionnaires, results, and insights are available under a **CC-BY 4.0 license** in the [OSPO Survey Repo](https://github.com/todogroup/osposurvey).
 

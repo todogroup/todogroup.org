@@ -4,7 +4,7 @@ author: todogroup
 date: 2025-02-11
 ---
 
-Today, in collaboration with LF Research, TODO Group is pleased to announce the launch of the **2025 State of the OSPO and OS Management Call for Sponsors** for organizations interested in supporting this effort and making the 8th edition possible. Taking insights from the [2024 State of OSPO Report](https://todogroup.org/blog/state-of-ospo-2024/), this year the study aims to dive deeper into **core cross-skilling areas** where open source professionals within organizations and OSPO teams are specializing, including **managing security issues** and **managing GenAI stack infrastructure**.
+Today, in collaboration with LF Research, TODO Group is pleased to announce the launch of the **2025 State of the OSPO and Open Source Management Call for Sponsors** for organizations interested in supporting this effort and making the 8th edition possible. Taking insights from the [2024 State of OSPO Report](https://todogroup.org/blog/state-of-ospo-2024/), this year the study aims to dive deeper into **core cross-skilling areas** where open source professionals within organizations and OSPO teams are specializing, including **managing security issues** and **managing GenAI stack infrastructure**.
 
 ### Potential Areas for Exploration in the Role of Open Source Managers and OSPO Teams 
 

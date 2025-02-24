@@ -16,6 +16,6 @@ provide resolutions for community requests, and help define the strategic goals 
 - [Georg Kunz](https://github.com/gkunz), Ericsson
 - [Natali Vlatko](https://github.com/natalisucks), Cisco
 - [Nik Peters](https://github.com/vmbrasseur), Porsche
-- [Stephen Augustus](https://github.com/justaugustus), Independent
+- [Stephen Augustus](https://github.com/justaugustus), Bloomberg
 
 See more information in the [TODO Group Governance repo](https://github.com/todogroup/governance#-about-todo-steering-committee-tsc).

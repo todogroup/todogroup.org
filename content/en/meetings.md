@@ -15,15 +15,14 @@ Touchpoints are collaborative sessions designed to foster a safe and open enviro
 
 The agenda will be updated as new speakers, topics, and tags are confirmed.
 
-| **Date**             | **Region**       | **Time (GMT)** | **Speaker** | **Topic**                              | **Tag**   | **Recording**  |
-|-----------------------|------------------|----------------|-------------|----------------------------------------|-----------| ------------- |
-| Thursday, February 13 | EMEA & APAC      | 12:00 PM       | Alin Jepelea, Sony | [SBOM implementation journey for the Apache NuttX RTOS](./Feb-13.md) | `Compliance` | [🧑‍💻🍿](https://youtu.be/Aj84quEIEug?si=Phg2wnGqWOSDw4p3)| 
-| Thursday, February 27 | EMEA & APAC      | 12:00 PM       | Nico Rikken, Alliander | [Automated Checks Before Publishing Open Source](./Feb-27.md)    | `Compliance`  |  The video is cooking up!🧑‍🍳|
-| Monday, February 24   | AMER & EMEA      | 5:00 PM        | Sujata Tibrewala, LF Edge Governing Board | [How to use Open Source to Grow your organization](./Feb-24.md) | `Business` | [🧑‍💻🍿](https://youtu.be/sZsSXv31e-4?si=CbvOaFSSxxiTQgsf) | 
-| Monday, March 24      | AMER & EMEA      | 5:00 PM        | Yaya Xia, Ant Group | [OSPO strategy and practices based on data-driven methods](./Mar-24.md)| `Strategy`| | 
-| Thursday, April 10    | EMEA & APAC      | 12:00 PM       | Yuichi Nakamura, Hitachi| [How to collaborate with LF to accelerate OSS strategy](./Apr-10.md)| `Strategy`| | 
-| Thursday, April 24    | EMEA & APAC      | 12:00 PM       | Masato Endo, Toyota | [TOYOTA OSPO in One Year and Next Journey](./Apr-24.md)| `Business`| | 
-| Monday, May 12        | AMER & EMEA      | 5:00 PM        | Brittany Istenes, Fannie Mae | [Leverage InnerSource practices to drive open source ](./May-12.md)  | `Strategy`  |  |
+
+- Thursday, February 13 (12:00 PM) Alin Jepelea, Sony | [SBOM implementation journey for the Apache NuttX RTOS](https://youtu.be/Aj84quEIEug?si=Phg2wnGqWOSDw4p3) 
+- Thursday, February 27 (12:00 PM) Nico Rikken, Alliander | [Automated Checks Before Publishing Open Source](./Feb-27.md)
+- Monday, February 24 (5:00 PM) Sujata Tibrewala, LF Edge Governing Board | [How to use Open Source to Grow your organization](https://youtu.be/sZsSXv31e-4?si=CbvOaFSSxxiTQgsf)
+- Monday, March 24 (5:00 PM) Yaya Xia, Ant Group | [OSPO strategy and practices based on data-driven methods](./Mar-24.md)
+- Thursday, April 10 (12:00 PM) Yuichi Nakamura, Hitachi| [How to collaborate with LF to accelerate OSS strategy](./Apr-10.md)
+- Thursday, April 24 (12:00 PM) Masato Endo, Toyota | [TOYOTA OSPO in One Year and Next Journey](./Apr-24.md)
+- Monday, May 12 (5:00 PM) Brittany Istenes, Fannie Mae | [Leverage InnerSource practices to drive open source ](./May-12.md)
 
 > Confirmed sessions are shared in TODO Group Community Calendar. More information about the format and program can be found in the [ospology repo](https://github.com/todogroup/ospology/tree/main/meetings)
 
@@ -45,7 +44,6 @@ There are three active working groups on concrete areas of focus:
 
 | | [OSPO Book](https://ospobook.todogroup.org/) Working Group | CHAOSS OSPO Metrics | Open Source in Business | 
 | --- | --- | --- | --- |
-| Scope |Build a body of knowledge to better understand the role of OSPOs, and share guides and best practices for effectively establishing and managing open source operations | Define useful metrics; Ease implementation with CHAOSS tooling; Set up best practices and metrics standards for OSPOs | Create a guide to address the gap in knowledge and strategic guidance around open source adoption from a business-driven perspective |
 | Working Repo | [Working repo](https://github.com/todogroup/ospology/tree/main/ospo-book) | [Working repo](https://github.com/chaoss/wg-osp) | [Working repo](https://github.com/todogroup/ospology/tree/main/whitepapers/business-value) | 
 | Communication Channels | [Mailing List](https://lists.todogroup.org/g/WG-ospo-book-project) | TODO Slack `#wg-ospometrics-chaoss`| TODO Slack `wg-oss-in-business` |
 

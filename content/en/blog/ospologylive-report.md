@@ -99,12 +99,13 @@ Throughout the sessions and especially during the wrap-up, participants identifi
 | Join CHAOSS Working Group and connect strategies to the Dutch governmental context | Collaboration between InnerSource Commons and CURIOSS | Clarify metadata and SPDX usage across tools | Define cross-organizational agreements |
 | Further define what’s needed to use OpenDesk in Sweden | Support formation of a working group for women in open source governance | Evaluate governance tooling landscape (CHAOSS, OSPO tooling from TODO, OpenChain, etc)| Continue working on alignment between legal counsel and developers| 
  
-
 ## What Makes OSPOlogyLive Europe Chapter Unique?
 
 OSPOlogyLive prioritizes participation over passive listening. Sessions are designed for small-group work, guided discussions, 
 and real-time collaboration with peers and experts. Instead of watching speakers from a distance, attendees roll up their sleeves 
 and co-create solutions to current challenges in digital sovereignty, compliance, and open source governance.
+
+![specialthanksto](https://github.com/user-attachments/assets/c2489053-f593-4d1d-bc07-a2fc17a0c46c)
 
 By the end of OSPOlogyLive Amsterdam, participants left with clear actions, new collaborations, and a deeper 
 understanding of how open source strategy connects legal, technical, and community impact.

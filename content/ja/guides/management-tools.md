@@ -211,7 +211,7 @@ FoundationのプロジェクトFOSSologyは、コマンドラインで、ライ�
 
 [Bintray](https://bintray.com/) – JFrog社のアーカイブ ツールで、コード リリースのアーカイブを公開することにより、古くて大きなファイルのためのストレージを維持・管理できるようにします。
 
-[Docker Hub](https://hub.docker.com/) – ユーザーがコード リポジトリにリンクし、Dockerのイメージを構築し、テストができるクラウド ベースのレジストリ サービスです。 また、手動で、プッシュしたイメージや[Docker Build Cloud](https://docs.docker.com/build-cloud/)へのリンクも格納できるので、ユーザーはイメージをプロジェクト ホストに展開できます。Docker Hubは、コンテナ イメージの検出、配布および変更管理、コラボレーション、ワークフローの自動化のすべてを一元化した開発パイプラインの中心となるツールです。
+[Docker Hub](https://hub.docker.com/) – ユーザーがコード リポジトリにリンクし、Dockerのイメージを構築し、テストができるクラウド ベースのレジストリ サービスです。 また、手動で、プッシュしたイメージや[Docker loud](https://docs.docker.com/docker-cloud/)へのリンクも格納できるので、ユーザーはイメージをプロジェクト ホストに展開できます。Docker Hubは、コンテナ イメージの検出、配布および変更管理、コラボレーション、ワークフローの自動化のすべてを一元化した開発パイプラインの中心となるツールです。
 
 [github-release](https://github.com/aktau/github-release) – GitHubの機能の一部で、ユーザーはGitHub上のプロジェクトの[リリースをパッケージ化したり、編集したり](https://help.github.com/articles/about-releases/)できるので、他のコミュニティ メンバーがそれらを利用できるようになります。
 

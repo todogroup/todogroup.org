@@ -4,8 +4,6 @@ author: todogroup
 date: 2025-04-08
 ---
 
-# New Certification Launch: Certified Open Source Developer for Enterprise (CODE)
-
 The TODO Group, in collaboration with the [Open Source Initiative](https://opensource.org) and [Linux Foundation Training & Certification](https://training.linuxfoundation.org), is proud 
 to announce the launch of the **Certified Open Source Developer for Enterprise (CODE)** certification.
 

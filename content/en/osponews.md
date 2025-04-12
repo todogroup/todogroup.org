@@ -50,3 +50,12 @@ Subscribe for updates, event info, webinars, and the latest community news:
 - [OSPO Newsletter 30](https://email.linuxfoundation.org/osponews-issue-30)
 {{< /column >}}
 {{< /columns >}}
+{{< column >}}
+- [OSPO Newsletter 31](https://github.com/todogroup/ospology/blob/main/newsletter/2024-06-07.md)
+- [OSPO Newsletter 32](https://email.linuxfoundation.org/osponews-issue-32)
+- [OSPO Newsletter 33](https://email.linuxfoundation.org/osponews-issue-33)
+- [OSPO Newsletter 34](https://email.linuxfoundation.org/osponews-issue-34)
+- [OSPO Newsletter 35](https://email.linuxfoundation.org/osponews-issue-35)
+- [OSPO Newsletter 36](https://email.linuxfoundation.org/osponews-issue-36)
+- [OSPO Newsletter 37](https://email.linuxfoundation.org/osponews-issue-37)
+{{< /column >}}

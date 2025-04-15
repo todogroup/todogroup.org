@@ -70,7 +70,7 @@ Netlify will generate a staging server for you to preview your updates. Please c
 
 ## Where can I find more info?
 
-There are a lot of initiatives & resources where an OSPO Associate can get involved that are listed in the [TODO Guides and Resources](todogroup.org/guides).
+There are a lot of initiatives & resources where an OSPO Associate can get involved that are listed in the [TODO Guides and Resources](https://todogroup.org/resources/guides).
 
 If you would like to know where your specific project initiatives could fit in the TODO programs or would like to know more details, please contact ana@todogroup.org and she will schedule a Sync call to answer any questions.
 

@@ -68,7 +68,7 @@ Netlify 会自动为您创建一个预览版本。请确认 logo 和相关信息
 
 ## 想要获取更多信息，我应该去哪里？
 
-作为 OSPO 合作伙伴，您可以参与众多的项目和资源，这些都列在 [TODO 指南和资源](todogroup.org/guides) 中。
+作为 OSPO 合作伙伴，您可以参与众多的项目和资源，这些都列在 [TODO 指南和资源](https://todogroup.org/resources/guides) 中。
 
 如果您想了解您的项目是如何融入 TODO 的各种计划，或者希望获取更多相关信息，您可以联系 ana@todogroup.org，她会安排一个同步通话来回答任何问题。
 

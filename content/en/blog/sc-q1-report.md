@@ -39,7 +39,7 @@ and challenges in open source program management.
 
 🤝 **Sustain Partnerships to Integrate Standards and Specifications into OSPO Practices**: TODO supported and participated in the [OpenChain and Friends](https://openchainproject.org/) held in Stuttgart in April.
 
-> While TODO provides **methodologies** (guidance on integrating open source practices and engagements into organizational workflows) for strategic open source management, the OpenChain Project offers **standards frameworks** to ensure that open source compliance and security meet industry benchmarks across the software supply chain. Together, they form two complementary mechanisms that guide organizations through the complexities of open source usage and contribution.
+> While TODO focuses on policy and process choices for effectively open source engagements within organizations, OpenChain provides process management standards, alongside practical guides, to ensure trusted and consistent open source compliance across the supply chain. Together, the two Linux Foundation projects offer complementary approaches to strategic open source management, with both communities regularly exchanging information and resources
 
 🎓 **Stronger Ties with Academia**: TODO is advancing conversations on **industry–academic OSPO collaboration**, particularly through its connection with the **CURIOSS** community. [CURIOSS officially joined TODO as an associate member in Q1](https://todogroup.org/blog/todo-associate-curioss/)
 

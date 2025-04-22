@@ -52,7 +52,7 @@ and challenges in open source program management.
 | **Certifications**                  | [TODO Code Exam](https://training.linuxfoundation.org/certification/certified-open-source-developer-for-enterprise-code/): **83 enrollments** (launched 3 weeks ago)              |
 | **GitHub Contributors**             | **50 total** contributors / **16 new** in Q1                           |
 | **General Members**                 | **87 total**, with **2 new** members in Q1                             |
-| **Top Contributors**                | Stephen Augustus, Alice Sowerby, Shu Muto, Swastick Barnawal, Alin Jerpelea, Jan van den Berg, Fernando Correa, Georg Kunz, Malvika Sharan, Scott Schrecken, Damian Vicino, Clare Dillon, Shiz, Brittany Istenes |
+| **Top Contributors**                | Stephen Augustus, Alice Sowerby, Shu Muto, Swastik Barnawal, Alin Jerpelea, Jan van den Berg, Fernando Correa, Georg Kunz, Malvika Sharan, Scott Schrecken, Damian Vicino, Clare Dillon, Shiz, Brittany Istenes |
 | **Top Contributing Orgs**          | Bloomberg, Mercado Libre, Amazon, Fannie Mae, University of Galway, Sony, Bosch, NEC |
 | **Top Countries (GitHub Activity)**| United States, Ireland, Sweden, Japan, Spain, Germany                  |
 | **New Ambassadors**                 | Fernando Correa, Thomas Stenbergeen                                    |

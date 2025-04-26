@@ -96,22 +96,28 @@ en:
       weight: 4
       post: "Free and open courses covering everything you need to know"
       parent: "resources"
+    - identifier: "book"
+      name: "Book"
+      url: "/resources/book/"
+      weight: 5
+      post: "Source of knowledge for organizations developing open source management strategies"
+      parent: "resources"
     - identifier: "guides"
       name: "Guides"
       url: "/resources/guides/"
-      weight: 5
+      weight: 6
       post: "Open source program management best practices for organizations"
       parent: "resources"
     - identifier: "case-studies"
       name: "Case Studies"
       url: "/resources/case-studies/"
-      weight: 6
+      weight: 7
       post: "Real case studies showcasing the impact of OSPOs on organizations worldwide"
       parent: "resources"
     - identifier: "artwork"
       name: "Brand Guidebook"
       url: "/resources/guidebook/"
-      weight: 7
+      weight: 8
       post: "TODO Brand Guidebook and visual identity"
       parent: "resources"
     - identifier: "community"

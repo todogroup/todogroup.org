@@ -14,8 +14,8 @@ there's a **new section** to explore the consequences of **dissolving or downsiz
 
 The survey takes just **5–10 minutes** to complete. If you have a moment, we’d love for you to fill it out and share it with your network:
 
-- 🌐 English: [https://www.research.net/r/C3989SD](https://www.research.net/r/C3989SD)  
-- 🇨🇳 中文 (简体): [https://www.research.net/r/C3989SD?lang=zh_Hans](https://www.research.net/r/C3989SD?lang=zh_Hans)  
-- 🇯🇵 日本語: [https://www.research.net/r/C3989SD?lang=ja](https://www.research.net/r/C3989SD?lang=ja)
+- [English](https://www.research.net/r/C3989SD](https://www.research.net/r/C3989SD)  
+- [🇨🇳 中文 (简体)](https://www.research.net/r/C3989SD?lang=zh_Hans](https://www.research.net/r/C3989SD?lang=zh_Hans)  
+- [🇯🇵 日本語](https://www.research.net/r/C3989SD?lang=ja](https://www.research.net/r/C3989SD?lang=ja)
 
 > As always, raw data, the survey instrument, and filtering criteria will be shared publicly in our [TODO Group Survey GitHub repository](https://github.com/todogroup/survey) under the **CC-BY 4.0 license**, just like in past editions, once the report is published later this year.

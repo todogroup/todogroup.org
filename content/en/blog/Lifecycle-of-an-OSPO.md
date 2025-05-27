@@ -25,7 +25,7 @@ and reorienting toward new technologies like AI. Endorsed by the TODO Group, it 
 
 {{< button link="https://github.com/user-attachments/files/20451905/05_The.Lifecycle.of.an.OSPO_Report.pdf" text=" Download The Report" >}}
 
-> OSPOs looking to adapt to the new economy and the AI landscape should embrace a flexible, cyclical journey rather than a linear progression. Their phases must evolve, repeat, or pivot as organizational priorities shift and external conditions change.
+> Organizations looking to adapt to the new economy and the AI landscape should structure their open source management efforts to allow phases to evolve, repeat, or pivot as priorities shift and external conditions change.
 > The Lifecycle of an OSPO reinforces and illustrates this continuous evolution, helping organizations build a resilient software strategy that integrates holistic open source practices.
 > 
 > Ana Jiménez Santamaría, TODO Group Senior Project Manager

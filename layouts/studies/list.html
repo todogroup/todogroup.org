@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{ .Content }}
+  <div class="cards columns-3">
+    {{ range $page := .Pages }}
+      {{ $title := $page.Title }}
+      {{ $image := $page.Params.image }}
+      {{ $img := "" }}
+      {{ if eq $title "A Deep Dive into OSPO" }}
+        {{ $img = "structure.png" }}
+      {{ else if eq $title "The Evolution of the OSPO" }}
+        {{ $img = "evolution.png" }}
+      {{ else if eq $title "The OSPO Lifecycle" }}
+        {{ $img = "lifecycle.png" }}
+      {{ else }}
+        {{ $img = "default.png" }}
+      {{ end }}
+
+      <div class="card">
+        <a href="{{ $page.Permalink }}" aria-label="Go to {{ $title }} Case Study">
+          <img width="520" height="260" loading="lazy" decoding="async" src="/img/studies/{{ $image | default $img }}" alt="{{ $title }} Case Study cover">
+        </a>
+        <h2 style="margin-block-start: 10px; margin-block-end: 0;">
+          <a href="{{ $page.Permalink }}" aria-label="Read {{ $title }} Case Study">{{ $title }}</a>
+        </h2>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

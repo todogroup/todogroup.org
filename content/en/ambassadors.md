@@ -20,6 +20,7 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 
 | Name | Organization | Location | Local Efforts
 | --- | --- | --- | --- |
+| [Alin Jerpelea](https://github.com/jerpelea) | Sony | Europe (Sweden 🇸🇪) | OSPO Local Meetup Sweden |
 | [Angel Ramirez](https://github.com/ar4mirez) | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
 | [Fernando Eugenio Correa](https://www.linkedin.com/in/fernando-eugenio-correa/) | MercadoLibre | LATAM (Brazil 🇧🇷, Argentina 🇦🇷, Colombia 🇨🇴) | [OSPO Local Meetup LATAM](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) |
 | [Gergely Csatári](https://github.com/CsatariGergely) | Nokia | Finland 🇫🇮 | [OSPO Local Meetup Helsinki](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) |

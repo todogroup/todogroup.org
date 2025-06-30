@@ -4,7 +4,7 @@ author: todogroup
 date: 2025-06-30
 ---
 
-We’re excited to welcome **[Alin Jerpelea](https://www.linkedin.com/in/alin-jerpelea-63a0422/)** as the newest [TODO Group](https://todogroup.org) Ambassador. Alin has been an active part of the TODO community for several years, consistently sharing open source knowledge, facilitating OSPO collaboration, and contributing to the growth of our global network.
+We’re excited to welcome **Alin Jerpelea** as the newest [TODO Group](https://todogroup.org) Ambassador. Alin has been an active part of the TODO community for several years, consistently sharing open source knowledge, facilitating OSPO collaboration, and contributing to the growth of our global network.
 
 As a TODO Ambassador, Alin aims to **strengthen and expand the OSPO network in Sweden** by organizing local meetups, promoting open source management best practices, and sharing OSPO insights at events across Europe
 

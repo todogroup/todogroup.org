@@ -2,11 +2,9 @@
 title: Setting an Open Source Strategy
 ---
 
-# Setting an Open Source Strategy
-
 The majority of companies that use open source do not necessarily understand the benefits to their organization and do not have a strategy aligned with their business needs. Furthermore, only about half of these companies report practicing basic open source management, such as community development, code maintenance, and the like, according to the latest [Future of Open Source survey](https://www.slideshare.net/blackducksoftware/2016-future-of-open-source-survey-results).
 
-Creating and documenting an open source strategy is an essential first step to realizing ROI with open source as open source can have a positive or negative effect across several dimensions related to an organization: strategic/business, operational, technological and financial. Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation. 
+Creating and documenting an open source strategy is an essential first step to realizing ROI with open source as open source can have a positive or negative effect across several dimensions related to an organization: strategic/business, operational, technological and financial. Your open source strategy connects the plans for managing, participating in, and creating open source software with the business objectives that the plans serve. This can open up many opportunities and catalyze innovation.
 
 ## Why create a business strategy?
 
@@ -76,7 +74,7 @@ Google open sourced its [open source policy documentation](https://opensource.go
 
 [InnerSource Commons](https://paypal.github.io/InnerSourceCommons/), specializes in helping companies pursue open source principles and practices as well as exchange ideas for internal, proprietary software and infrastructure development.
 
-Another excellent resource for open source strategy is a blog called [Changelog](https://changelog.com/). It includes a podcast that covers a lot of different open source topics, called "[Request for Commits](https://changelog.com/rfc)." The podcast tackles everything from the human side of creating open source software to questions about business models and strategy. 
+Another excellent resource for open source strategy is a blog called [Changelog](https://changelog.com/). It includes a podcast that covers a lot of different open source topics, called "[Request for Commits](https://changelog.com/rfc)." The podcast tackles everything from the human side of creating open source software to questions about business models and strategy.
 
 Note that many companies inside and outside the technology industry have very sophisticated open source programs. You can, and should, learn from them. The way they approach open source differs according to their own needs, but you can choose and adapt the practices and strategies that fit your business best. The [TODO Group](http://todogroup.org) at The Linux Foundation was created to bring these companies together to share and evolve best practices. TODO also offers a set of [free open source policies and templates](https://github.com/todogroup/policies) on GitHub that you can use and contribute to.
 
@@ -102,7 +100,7 @@ When Guy Martin first started as the open source director at Autodesk, he asked 
 
 ## Key considerations
 
-We’ve touched on the critical components of your strategy document and how to go about creating it. Now, here are two really important considerations in creating your strategy: governance and sustainability. 
+We’ve touched on the critical components of your strategy document and how to go about creating it. Now, here are two really important considerations in creating your strategy: governance and sustainability.
 
 These concepts will set the philosophical framework for your program, determine how it runs, and ultimately help determine how/whether you can maximize your open source strategy.
 
@@ -126,7 +124,7 @@ Having an internal governance structure which closely maps external open source 
 
 A key driver to succeeding with your open source program is building a strategy around encouraging other companies to take dependencies on your open source projects. Long-term, sustainable projects arise from feature-rich developer communities whose code is productized in commercial products that profit businesses which in turn reinvest back into the projects. The goal is to enable a virtuous projects build products that generate profits that get reinvested back into the project community lifecycle.
 
-Partnerships, contributor agreements and commercial dependencies can drive a virtuous cycle of commercial and community engagement based on accepted governance and IP models. An intelligently defined open source program can help drive all of these. What is your organization’s policy toward sharing and monetizing open source inventions and driving partnerships and commercial dependencies? 
+Partnerships, contributor agreements and commercial dependencies can drive a virtuous cycle of commercial and community engagement based on accepted governance and IP models. An intelligently defined open source program can help drive all of these. What is your organization’s policy toward sharing and monetizing open source inventions and driving partnerships and commercial dependencies?
 
 For example, many open source tools are offered in free editions online but also exist in fee-based, supported instances, and it is common for outside contributors to advance platforms and applications that are offered commercially. It is wise to define in your strategy document exactly how such editions differ and how control is exerted over them, keeping in mind that levels of control can vary widely over time.
 
@@ -143,13 +141,13 @@ For example, Synopsys offers a useful four-pillar set of guidelines for setting 
 
 In addition to these strategic pillars and guidelines on governance, here are some other key components to include in your strategy document:
 
-* Goals. Define your goals for your business strategy and how open source can drive achievement of your goals. For example, many companies are currently transforming their platform infrastructure by moving to open cloud platforms such as OpenStack. In many cases, this is because they studied the ROI they could get by moving infrastructure to the cloud, determined what levels of vendor lock-in they could avoid, and set goals for specific financial milestones they want to achieve. 
+* Goals. Define your goals for your business strategy and how open source can drive achievement of your goals. For example, many companies are currently transforming their platform infrastructure by moving to open cloud platforms such as OpenStack. In many cases, this is because they studied the ROI they could get by moving infrastructure to the cloud, determined what levels of vendor lock-in they could avoid, and set goals for specific financial milestones they want to achieve.
 
 Build a holistic set of goals for your strategy document, with metrics for achievement. Among metrics to track, consider reporting on increases in upstream contributions, cuts to development costs, and increases in recruitment of maintainers. In addition to these metrics, your inventory of business objectives and goals should provide specifics on open source leadership milestones, and project security and performance advancements. Also, though, keep in mind that there are no magic metrics.
 
 > "Find metrics for each community that you're working with. I tend to find metrics based on what a specific community is feeling as pain, and try to change those metrics for the better. There is no one, magic assessment where if you look at six metrics, ranging from pull requests to contributor numbers, you can suddenly pronounce your community and ecosystem healthy. " – [Sarah Novotny](https://twitter.com/sarahnovotny), Kubernetes community program manager at Google.
 
-* **Management Plan** Once your strategy document includes specific goals, ensure that it also sets out specific actions to achieve your open source business objectives, and assign roles and responsibilities for tracking progress. The most important part is to get buy in for your executive management chain. 
+* **Management Plan** Once your strategy document includes specific goals, ensure that it also sets out specific actions to achieve your open source business objectives, and assign roles and responsibilities for tracking progress. The most important part is to get buy in for your executive management chain.
 
 * **Provide specific KPIs (Key Performance Indicators)** for tracking the achievement of goals.
 
@@ -165,9 +163,9 @@ Build a holistic set of goals for your strategy document, with metrics for achie
 
 * **Inbound Contribution Guidelines/Metrics.** Your strategy can derive enormous benefits from inbound contributions (see our section on considerations for sustainability.) Your strategy document should provide both guidelines and metrics for contributions.
 
-You don’t have to build your policies in this area from the ground up; the [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as The TODO Group, The Linux Foundation, and Synopsys have extensive experience with setting inbound contribution guidelines. 
+You don’t have to build your policies in this area from the ground up; the [Contributor Covenant](http://contributor-covenant.org/) is a rock solid code of conduct and contributor guidelines document that is used by [over 40,000 open source projects](http://contributor-covenant.org/adopters/), including Kubernetes, Rails, and Swift. Likewise, organizations such as The TODO Group, The Linux Foundation, and Synopsys have extensive experience with setting inbound contribution guidelines.
 
-A good inbound contribution strategy also includes carefully documenting your APIs — always a best practice. OpenAPI has emerged as the industry standard for describing RESTful APIs. 
+A good inbound contribution strategy also includes carefully documenting your APIs — always a best practice. OpenAPI has emerged as the industry standard for describing RESTful APIs.
 
 > "One of the most important things when building an open source community is making sure that your own processes are open. The more transparent you can make your decision-making processes, the more of a sense of ownership your community will have. You also want to make sure that your process doesn't become a blocker. If your open source process for either inbound or outbound contributions is onerous, people will look to bypass the process or simply decide that contributing is too difficult." – [Luke Faraone](https://twitter.com/lfaraone), software engineer, [Dropbox](https://opensource.dropbox.com/)
 
@@ -175,7 +173,7 @@ A good inbound contribution strategy also includes carefully documenting your AP
 
 ## When and how much to invest: determining ROI
 
-There is no way to wave a magic wand and find the exact benefit you will get from your open source program, but there are guidelines for how to approach it. You must consider how return of investment (ROI) relates to your strategy. The bottom line is that the return on investment that you can derive from your open source strategy should be considered from numerous angles. 
+There is no way to wave a magic wand and find the exact benefit you will get from your open source program, but there are guidelines for how to approach it. You must consider how return of investment (ROI) relates to your strategy. The bottom line is that the return on investment that you can derive from your open source strategy should be considered from numerous angles.
 
 First, you must weigh the benefits of open source with the risks and costs of managing it. [A free, joint white paper](https://fossbazaar.org/system/files/Open.Source.ROI_.Whitepaper.pdf) (PDF) from Novica and OpenLogic provides many specific ways to calculate open source ROI and strategize around it. For example, the following graphic from the white paper shows that the duration of project development has a profound impact on various elements of ROI calculation, ranging from licensing expenses to IT/Services expenses:
 
@@ -183,7 +181,7 @@ First, you must weigh the benefits of open source with the risks and costs of ma
 
 As you go about calculating ROI, keep the following guidelines in mind:
 
-* **Calculate the benefits in cost savings.** Of course, a key metric to evaluate in determining the benefits of your open source strategy is calculating cost reduction. Evaluate both cost savings from open source deployments and open source inventions, taking into account savings on licensing fees, hardware, support, and more. 
+* **Calculate the benefits in cost savings.** Of course, a key metric to evaluate in determining the benefits of your open source strategy is calculating cost reduction. Evaluate both cost savings from open source deployments and open source inventions, taking into account savings on licensing fees, hardware, support, and more.
 
 Support is a major cost center for many organizations, and if you can reduce costs for support, you can reap big financial benefits. Likewise, what specific hardware and licensing costs might you eliminate by, say, moving to open source platforms ranging from Linux to OpenStack? In the case of open cloud platforms, for example, storage and compute resources in the cloud can entirely eliminate the need for many such resources in-house. Also keep in mind that although "free" open source software may not have the same licensing fees as proprietary software, it comes with a development cost involved in contributing upstream, integrating it with other offerings, and more.
 
@@ -191,11 +189,11 @@ Support is a major cost center for many organizations, and if you can reduce cos
 
 * **Do an operational risk assessment.** The Open Web Application Security Project (OWASP) recently added "using components with known vulnerabilities" to its top 10 list of risks, and open source software can introduce vulnerabilities in some cases. An open source software security audit gives you visibility into the components and the vulnerabilities within your code. Black Duck [performs these](https://www.blackducksoftware.com/on-demand/open-source-security-audit), and tools such as [Wireshark](http://www.wireshark.org/) and [Nikto](https://cirt.net/nikto2/) can identify vulnerabilities and problems.
 
-* **Avoid legal risk.** Operational risk and legal risk are different, but assessing both is important. Legal risks around open source can include costs from legal actions surrounding using the wrong license, costs from merging code between projects that have disparate licences, and more.  
+* **Avoid legal risk.** Operational risk and legal risk are different, but assessing both is important. Legal risks around open source can include costs from legal actions surrounding using the wrong license, costs from merging code between projects that have disparate licences, and more.
 
-The [Open Source Definition](http://www.opensource.org/docs/osd) is where you should start to understand how open source projects should be licensed, and what actually qualifies as open source. It's also good to review[ Open Standards requirements](http://opensource.org/osr). 
+The [Open Source Definition](http://www.opensource.org/docs/osd) is where you should start to understand how open source projects should be licensed, and what actually qualifies as open source. It's also good to review[ Open Standards requirements](http://opensource.org/osr).
 
-You must also assess what kinds of licenses your projects should have. The Software Freedom Law Center (SFLC) offers[a set of online resources on how open source licenses and copyrights work, and much more](http://www.softwarefreedom.org/resources/2008/foss-primer.html). And, a simplified matrix of license features can be found at [Choosealicense.com](http://choosealicense.com/). 
+You must also assess what kinds of licenses your projects should have. The Software Freedom Law Center (SFLC) offers[a set of online resources on how open source licenses and copyrights work, and much more](http://www.softwarefreedom.org/resources/2008/foss-primer.html). And, a simplified matrix of license features can be found at [Choosealicense.com](http://choosealicense.com/).
 
 You’ll also want to consider the costs and benefits of license compliance. The cost of not complying with an open source license may be steep and involve lawsuits. The Linux Foundation’s[ Open Compliance program](https://compliance.linuxfoundation.org/) offers several resources including [publications](https://compliance.linuxfoundation.org/references/compliance-related-publications), [training materials](https://www.openchainproject.org/curriculum), and a [free training course](https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/compliance-basics-for-developers) for developers. (You can also see our guide on [Using Open Source Code](https://www.linuxfoundation.org/resources/open-source-guides/using-open-source-code/) which outlines a baseline compliance program.)
 
@@ -203,7 +201,7 @@ Legal issues should, of course, be assessed by your own legal personnel. The SFL
 
 ## Deciding where to invest
 
-Investing in open source can be approached from numerous angles, including leveraging in-house resources and external ones. Keep in mind that devoting developer resources to open source and upstream contributions are part of investing in open source.  It is important to understand how incoming and outgoing code and projects are arriving and being distributed. 
+Investing in open source can be approached from numerous angles, including leveraging in-house resources and external ones. Keep in mind that devoting developer resources to open source and upstream contributions are part of investing in open source.  It is important to understand how incoming and outgoing code and projects are arriving and being distributed.
 
 **Identify which open source projects are critical to delivering products or services.** Once a company understands its IP portfolio and the open source contributions its developers want to make, it can work to ensure its developers are empowered to make those contributions.
 
@@ -219,7 +217,7 @@ Next, turn to external resources to help pinpoint projects that you’re not yet
 
 **Partner with other organizations**. They can help you choose the best projects to get involved with and identify what projects they are reaping benefits from. And there are several independent organizations that can help. The Linux Foundation, TODO Group, Innersource Commons and Open Source Initiative can all provide guidance.
 
-**Examine which projects other organizations in your industry contribute to.** They can steer you toward the right projects to get involved with. For example, many telecoms are reaping big benefits from open Network Functions Virtualization (NFV) technology that can eliminate historically proprietary components in telecom technology stacks. Some of these companies work with The Linux Foundation on NFV initiatives and there are several [working groups](https://wiki.openstack.org/wiki/TelcoWorkingGroup) that focus on NFV. These industry-focused working groups can provide you with valuable guidance. 
+**Examine which projects other organizations in your industry contribute to.** They can steer you toward the right projects to get involved with. For example, many telecoms are reaping big benefits from open Network Functions Virtualization (NFV) technology that can eliminate historically proprietary components in telecom technology stacks. Some of these companies work with The Linux Foundation on NFV initiatives and there are several [working groups](https://wiki.openstack.org/wiki/TelcoWorkingGroup) that focus on NFV. These industry-focused working groups can provide you with valuable guidance.
 
 Are you interested in more resources to help you set your strategy? Here are some excellent ones:
 
@@ -244,7 +242,7 @@ Are you interested in more resources to help you set your strategy? Here are som
 
 [The Contributor Covenant](http://contributor-covenant.org/)
 
-### Open Source Policy 
+### Open Source Policy
 
 [TODO Group Templates](https://github.com/todogroup/policies)
 

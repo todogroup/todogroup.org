@@ -19,4 +19,4 @@ We are thrilled to have Alin representing the TODO community as an ambassador an
 
 ## Become an Ambassador
 
-Interested in becoming a TODO Ambassador or learning more? [Check out the program here](https://todogroup.org/ambassadors/).
+Interested in becoming a TODO Ambassador or learning more? [Check out the program here](https://todogroup.org/community/ambassadors/).

@@ -1,5 +1,5 @@
 ---
-title: "The OSPO Book is Available in PDF – and Coming to Print at OSSummit Europe!"
+title: "The OSPO Book is Available in PDF – and Coming to Print at OSSummit Europe"
 author: todogroup
 date: 2025-07-29
 ---
@@ -16,13 +16,14 @@ The OSPO Book includes collaboratively developed insights, frameworks, and tools
 - **Chapter 2**: The Value of Open Source Program Offices  
 - **Chapter 3**: Creating Your OSPO  
 - **Chapter 4**: Day-to-Day Operations  
-- **Chapter 5**: Managing Open Source Security  
-- **Chapter 6**: Using Metrics in your OSPO  
+- NEW **Chapter 5**: Managing Open Source Security (In collaboration with OpenSSF)
+- NEW **Chapter 6**: Using Metrics in your OSPO (In collaboration with CHAOSS)
 
-The release of this edition would not have been possible without the invaluable help of our technical reviewers and contributors. A huge shout-out to our OSPO Book Chairs:  
-**Alice Sowerby, Fernando Correa, Zhiquian Yu, Gergely Csatari, Alin Jerpelea, Jan van den Berg, and Victor Jun Lu**
+These two new chapters on **Security** and **Metrics** reflect recent community priorities and were created with the support and expertise of OpenSSF and CHAOSS, respectively.
 
-You can browse the list of Subject Matter Experts (SMEs) who have contributed to the book chapters [here](https://ospobook.todogroup.org/07-chapter/)
+The release of this edition would not have been possible without the invaluable help of our technical reviewers and contributors. A huge shout-out to our OSPO Book Chairs: Alice Sowerby, Fernando Correa, Zhiquian Yu, Gergely Csatari, Alin Jerpelea, Jan van den Berg, Victor Jun Lu
+
+You can browse the extensive list of 20+ Subject Matter Experts (SMEs) who have contributed to the book chapters [here](https://ospobook.todogroup.org/07-chapter/)
 
 {{< button link="https://github.com/user-attachments/files/21504526/OSPOBook_Report_2025_v7.1.pdf" text=" Download OSPO Book PDF" >}}
 
@@ -32,4 +33,4 @@ People attending onsite at [OSSummit Europe in Amsterdam](https://events.linuxfo
 
 The OSPO Book website version is a living document, continuously improved by the community. Thanks to the support of our localization contributors, it’s already available in **Chinese, Japanese, Portuguese, and Spanish**.
 
-Big thanks to **Fernando Eugenio Correa, Shu Muto, Chris Yang**, and the members of **OSPOlogy Japan** and **OSPOlogy China** communities for leading these translations.
+Big thanks to **Fernando Eugenio Correa, Shu Muto, Chris Yang**, and the members of **OSPOlogy Japan**, **OSPOlogy LATAM**, and **OSPOlogy China** communities for leading these translations.

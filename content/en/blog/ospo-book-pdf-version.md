@@ -12,10 +12,10 @@ Whether your organization is using, contributing to, or building open source sof
 
 The OSPO Book includes collaboratively developed insights, frameworks, and tools contributed by OSPO professionals across industries. It covers key topics such as:
 
-- **Chapter 1**: Introduction to Open Source Program Offices  
-- **Chapter 2**: The Value of Open Source Program Offices  
-- **Chapter 3**: Creating Your OSPO  
-- **Chapter 4**: Day-to-Day Operations  
+- **Chapter 1**: Introduction to Open Source Program Offices
+- **Chapter 2**: The Value of Open Source Program Offices
+- **Chapter 3**: Creating Your OSPO
+- **Chapter 4**: Day-to-Day Operations
 - NEW **Chapter 5**: Managing Open Source Security (In collaboration with OpenSSF)
 - NEW **Chapter 6**: Using Metrics in your OSPO (In collaboration with CHAOSS)
 
@@ -25,7 +25,7 @@ The release of this edition would not have been possible without the invaluable 
 
 You can browse the extensive list of 20+ Subject Matter Experts (SMEs) who have contributed to the book chapters [here](https://ospobook.todogroup.org/07-chapter/)
 
-{{< button link="https://github.com/user-attachments/files/21504526/OSPOBook_Report_2025_v7.1.pdf" text=" Download OSPO Book PDF" >}}
+{{< button link="https://github.com/todogroup/ospology/releases/download/ospo-book-en-v1/OSPOBook.pdf" text=" Download OSPO Book PDF" >}}
 
 People attending onsite at [OSSummit Europe in Amsterdam](https://events.linuxfoundation.org/open-source-summit-europe/) can get a printed copy in the OSPOCon Track
 

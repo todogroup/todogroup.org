@@ -6,7 +6,7 @@ date: 2025-08-18
 
 Next week at [OSSummit Europe](https://events.linuxfoundation.org/open-source-summit-europe/program/schedule/), several TODO members will be leading activities on AI prompting and workflows for OSPO, open source strategy, project health analytics and metrics, security management, compliance automation, and more. Here is an overview of the on-site activities happening
 
-<img width="1120" height="555" alt="todo_atOSSEU" src="https://github.com/user-attachments/assets/f56f30bd-af16-46c5-bf87-b47955d1439d" />
+![Figure_1](https://github.com/user-attachments/assets/f56f30bd-af16-46c5-bf87-b47955d1439d)
 
 ## Monday, August 25
 

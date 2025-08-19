@@ -22,7 +22,7 @@ Next week at [OSSummit Europe](https://events.linuxfoundation.org/open-source-su
 
 11:55 CEST | OSS Management & OSPO Ask Anything TODO Steering Committee – Stephen Augustus (Bloomberg), Ashley Wolf (GitHub), Alice Sowerby (Independent), Annania Melaku (NGINX/F5), Natali Vlatko (Cisco)
 
-### Bonus: OSS in Business WG on-site Meeting
+## OSS in Business WG on-site Meeting
 
 Moreover, our OSS in Business Working Group will also be meeting during the summit to advance its mission of building a guide for management and executives on the value of open source for business.
 Since space is limited, if you are interested in participating and becoming a co-author of this guide, please reach out to Working Group members Marcel and Cornelius via the #wg-oss-business channel in TODO Slack.

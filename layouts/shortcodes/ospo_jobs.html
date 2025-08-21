@@ -1,0 +1,17 @@
+<!-- OSPO Jobs embed (GitJobs) -->
+<div id="ospo-jobs-embed" style="max-width: 960px; margin: 0 auto;">
+    <iframe
+      id="gitjobs"
+      src="https://gitjobs.dev/embed?ts_query=ospo&limit=20&utm_source=todogroup.org"
+      title="OSPO Jobs"
+      style="width:100%;min-height:200px;border:0;display:block"
+    ></iframe>  
+    <p style="text-align:center;margin:12px 0 0;opacity:.8;">
+    Powered by <a href="https://gitjobs.dev/" rel="noopener">GitJobs</a>
+    </p>
+</div>
+<!-- Auto-resize the iframe height to its content -->
+<script type="module">
+    import { initialize } from "https://cdn.jsdelivr.net/npm/@open-iframe-resizer/core@latest/dist/index.js";
+    initialize({ minHeight: 400 }, "#gitjobs");
+</script>

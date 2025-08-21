@@ -1,10 +1,9 @@
 ---
-title: "OSPO Jobs"
+title: "Post your OSPO Job on GitJobs"
 description: "Current openings for Open Source Program Office (OSPO) professionals - program managers, compliance, policy, governance & more"
 url: "/jobs/documentation/"
 
 ---
-# Post your OSPO Job on GitJobs
 
 [GitJobs](https://gitjobs.dev) is an open source job board powered by CNCF. Posting is free, listings run for 30 days, and jobs you tag for **OSPO** (under the "Foundation" category) will surface on the [TODO Group OSPO Jobs page](https://todogroup.org/jobs).
 
@@ -106,4 +105,3 @@ This tagging ensures your role appears on the [TODO Group Jobs page](https://tod
 
 - **Problems signing in?** Make sure you’re using Linux Foundation SSO (LFX account)  
 - **Don’t see your job on todogroup.org/jobs?** Edit the job and ensure the **OSPO foundation** is selected  
-- **Questions/bugs?** Open a [discussion or issue in the GitJobs repository](https://github.com/gitjobs-dev)  

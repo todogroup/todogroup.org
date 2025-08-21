@@ -13,5 +13,5 @@ Current openings for Open Source Program Office (OSPO) professionals - project m
 {{< ospo_jobs >}}
 
 
-{{< button link="https://gitjobs.dev/dashboard/employer" text="Post an OSPO job" >}}
-{{< button link="https://gitjobs.dev/" style="secondary" text="Explore more open source jobs on GitJobs" >}}
+{{< button link="https://https://todogroup.org/jobs/documentation/" text="Post an OSPO job" target="_blank" >}}
+{{< button link="https://gitjobs.dev/" style="secondary" text="Explore more open source jobs on GitJobs" target="_blank" >}}

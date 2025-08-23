@@ -1,0 +1,59 @@
+<div class="wg-card not-prose">
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.1.82-.26.82-.58v-2.06c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.33-1.75-1.33-1.75-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.3.76-1.6-2.67-.31-5.47-1.33-5.47-5.92 0-1.31.47-2.38 1.23-3.22-.12-.31-.54-1.57.12-3.27 0 0 1.01-.32 3.3 1.23a11.47 11.47 0 0 1 6.01 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.7.24 2.96.12 3.27.76.84 1.23 1.91 1.23 3.22 0 4.6-2.8 5.6-5.48 5.9.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.83.58A12 12 0 0 0 12 .5z"/>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2l8 6 8-6H4zm16 12V8l-8 6-8-6v10h16z"/>
+      </symbol>
+      <symbol id="icon-slack" viewBox="0 0 24 24">
+        <path d="M5.2 14.6a1.9 1.9 0 1 1-1.9 1.9h1.9v-1.9zm.95 0H12a1.9 1.9 0 1 1 0 3.8H6.15v-3.8zM9.4 5.2a1.9 1.9 0 1 1 1.9-1.9V5.2H9.4zm0 .95V12a1.9 1.9 0 1 1-3.8 0V6.15h3.8zM18.8 9.4a1.9 1.9 0 1 1 1.9-1.9H18.8V9.4zm-.95 0H12a1.9 1.9 0 1 1 0-3.8h5.85V9.4zM14.6 18.8a1.9 1.9 0 1 1-1.9 1.9V18.8h1.9zm0-.95V12a1.9 1.9 0 1 1 3.8 0v5.85h-3.8z"/>
+      </symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24">
+        <path d="M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3V2zm14 7H3v10h18V9z"/>
+      </symbol>
+    </svg>
+  
+    <h3 class="h4">{{ .Get "title" }}</h3>
+    {{ with .Get "desc" }}<p>{{ . }}</p>{{ end }}
+  
+    <ul class="list-unstyled wg-contacts">
+      {{ with .Get "gh_url" }}
+        <li><svg class="icon"><use href="#icon-github"/></svg>
+          <a href="{{ . }}">{{ with $.Get "gh_text" }}{{ . }}{{ else }}GitHub{{ end }}</a>
+        </li>
+      {{ end }}
+  
+      {{ with .Get "mail_url" }}
+        <li><svg class="icon"><use href="#icon-mail"/></svg>
+          <a href="{{ . }}">{{ with $.Get "mail_text" }}{{ . }}{{ else }}Mailing list{{ end }}</a>
+        </li>
+      {{ end }}
+  
+      {{ with .Get "slack_url" }}
+        <li><svg class="icon"><use href="#icon-slack"/></svg>
+          <a href="{{ . }}">{{ with $.Get "slack_text" }}{{ . }}{{ else }}Slack{{ end }}</a>
+        </li>
+      {{ else }}
+        {{ if .Get "slack_text" }}
+          <li><svg class="icon"><use href="#icon-slack"/></svg>
+            <span>{{ .Get "slack_text" }}</span>
+          </li>
+        {{ end }}
+      {{ end }}
+  
+      {{ with .Get "cal_text" }}
+        <li><svg class="icon"><use href="#icon-calendar"/></svg>
+          {{ . }}{{ with $.Get "cal_url" }} (<a href="{{ . }}">Calendar</a>){{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  
+  <style>
+  .wg-contacts { margin:0; padding:0; }
+  .wg-contacts li { margin:.35rem 0; display:flex; gap:.5rem; align-items:center; }
+  .wg-contacts .icon { width:1.1rem; height:1.1rem; flex:0 0 1.1rem; opacity:.9; }
+  .wg-card a { text-decoration:none; }
+  .wg-card a:hover { text-decoration:underline; }
+  </style>

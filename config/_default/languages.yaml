@@ -96,6 +96,12 @@ en:
       weight: 4
       post: "Free and open courses covering everything you need to know"
       parent: "resources"
+    - identifier: "bof"
+      name: "BoF"
+      url: "/resources/bof/"
+      weight: 5
+      post: "Birds of a Feather (BoF) sessions from past events"
+      parent: "resources"
     - identifier: "book"
       name: "Book"
       url: "/resources/book/"

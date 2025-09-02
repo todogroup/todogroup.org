@@ -2,31 +2,15 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Site](https://img.shields.io/badge/Static%20site-HUGO-%23FF00FF)](https://gohugo.io/)
 
-# The TODO group website assets
+# The TODO Group website
 
-This repo houses the assets used to build the website for the [TODO Group](https://todogroup.org/) at https://todogroup.org.
+The [TODO Group](https://todogroup.org/) website serves as the central hub for our community, hosting resources, blog content, guides, and information about OSPOs (Open Source Program Offices). All contributions should align with our mission to provide vendor-neutral, practical resources that help organizations run effective open source programs.
 
-## 📝 Adding Resources
+## Contributing 
 
-TODO Group operates through different working groups and initiatives, each of them with their unique [contribution guidelines and communication channels](https://todogroup.org/community/meetings/).
+Please read our [contributing guidelines](https://github.com/todogroup/todogroup.org/blob/main/CONTRIBUTING.md) to get started
 
-We encourage people to [join the community](https://todogroup.org/community/get-started/) and get started with contributions to the different TODO initiatives:
-
-* OSPOlogy Panel Discussions
-* OSPO Book
-* OSPO Glossary
-* OSPO MindMap
-* OSPO Training Modules
-* OSPO Newsletter
-* TODO Guides
-* OSPO Use Cases
-* OSPO Landscape
-* OSPO Survey
-* RepoLinter
-* TODO Artwork
-
-
-## 🧩 Editing the site
+## Development Setup
 
 This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [Netlify](https://netlify.com). The site uses the [Dot-Org Theme for Hugo](https://github.com/cncf/dot-org-hugo-theme) as a base and then has its own customisations.
 
@@ -67,13 +51,13 @@ npm run build
 npm run start
 ```
 
-## Other npm commands for working with a local instance
+### Other npm commands for working with a local instance
 
 - `npm run dev:start` - Starts the local dev environment using exampleSite
 - `npm run dev:start:with-pagefind` - Starts the local dev environment using exampleSite with working pagefind search
 - `npm run dev:build` - Builds the site using exampleSite
 
-### To run in docker
+#### To run in docker
 
 As mentioned above, fork and clone this repository, run `git submodule update --init --recursive`, then run following:
 
@@ -85,7 +69,7 @@ This command should give an address you can visit on your local machine to see t
 
 If modifying the theme files, you should never edit the theme that is imported via Git Submodule, as otherwise the changes will be overwritten or lost the next time the theme is updated. Changes should be made in override files inside the root directory as this will override the theme directory. [Read docs](https://gohugo.io/getting-started/directory-structure/).
 
-## Updating the theme
+### Updating the theme
 
 Some brief notes on how to update the theme:
 

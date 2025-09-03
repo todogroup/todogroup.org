@@ -1,5 +1,5 @@
 ---
-title: "TODO Group at KCD Colombia: OSPOlogyLive LATAM Highlights"
+title: "TODO Group at KCD Colombia: OSPOlogy LATAM Highlights"
 author: todogroup
 date: 2025-09-02
 ---
@@ -8,7 +8,7 @@ The [TODO Group members](https://todogroup.org/about/members/) from Mercado Libr
 
 The mission of [OSPOlogyLive LATAM](https://community.linuxfoundation.org/ospo-latam-meetups/) is to encourage the promotion and adoption of Open Source Program Offices (OSPOs) within organizations across Latin America, including Colombia, Mexico, Brazil, Chile, and more. By aligning OSPO practices with the growing Cloud Native ecosystem, the session showed how open source strategy and governance directly support the sustainable adoption of cloud technologies.  
 
-<img src="https://github.com/user-attachments/assets/47d8250d-cc2f-4e22-bea3-5755aa59ba85" width="600" alt="Screenshot of OSPOlogyLive LATAM session at KCD Colombia" />
+![OSPOlogy LATAM at KCD Colombia](https://github.com/user-attachments/assets/47d8250d-cc2f-4e22-bea3-5755aa59ba85)
 
 ### Fernando’s Presentation  
 
@@ -16,14 +16,13 @@ Fernando's presentation focused on educating organizations about starting an OSP
 
 - What an OSPO is, its benefits, and relevance  
 - How to build an OSPO and manage its day-to-day operations  
-- Core areas such as license compliance, open source consumption, and contribution  
+- Core areas such as license compliance, open source consumption, and contribution
 
-<img src="https://github.com/user-attachments/assets/7c7ed3f3-d9d5-493e-9b21-758e61eee9e8" width="500" alt="Fernando presenting at KCD Colombia" />  
-<img src="https://github.com/user-attachments/assets/420a9bb8-cf23-45db-95c9-aeeb4fdd5cc6" width="300" alt="Fernando speaking about OSPO operations"/>  
+![OSPOlogyLive LATAM session at KCD Colombia](https://github.com/user-attachments/assets/7c7ed3f3-d9d5-493e-9b21-758e61eee9e8) 
 
 Fernando closed the session by presenting the [OSPO Book](https://ospobook.todogroup.org/), with a special note of gratitude to the many contributors who made these resources possible. His focus on education and knowledge sharing is at the heart of the ambassador mission — enabling more professionals to understand, create, and scale OSPOs.  
 
-<img src="https://github.com/user-attachments/assets/d64386f3-7c63-448d-9790-c09a85e2fab3" width="600" alt="OSPO Book presented at KCD Colombia"/>
+![OSPOlogyLive LATAM session at KCD Colombia](https://github.com/user-attachments/assets/d64386f3-7c63-448d-9790-c09a85e2fab3) 
 
 ### A Global Ambassador Community  
 

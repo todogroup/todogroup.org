@@ -3,7 +3,7 @@ title: "How Do OSPOs Make OSS and AI Work?"
 author: todogroup
 date: 2025-09-08
 ---
-This is a summary post from the BoF pa that took place during an Open Source Summit and explores how Open Source Program Offices (OSPOs) 
+This is a summary post from the BoF session that took place during an Open Source Summit and explores how Open Source Program Offices (OSPOs) 
 handle the intersection of AI, compliance, and community building.
 
 ![image1](https://github.com/user-attachments/assets/80098821-868c-4a01-afaf-81a7086746a6)

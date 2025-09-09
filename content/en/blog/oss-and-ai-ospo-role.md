@@ -1,5 +1,5 @@
 ---
-title: "How Do OSPOs Make OSS and AI Work?"
+title: "How Do Open Source Program Offices Make OSS and AI Work?"
 author: todogroup
 date: 2025-09-08
 ---
@@ -12,9 +12,9 @@ handle the intersection of AI, compliance, and community building.
 Ana Jiménez Santamaría, Senior Project Manager at the Linux Foundation’s TODO Group and PyTorch Foundation, opened the session by sharing key insights from the latest studies on open source management. “According to [The State of the OSPO 2025 report](https://www.linuxfoundation.org/research/ospo-2025), **79% of organizations with an OSPO** said they were being effective in managing generative AI risk, compared to 65% of organizations without one,” Jiménez noted. The same study found that **66 % of organizations with an OSPO felt prepared for emerging technologies** such as AI and cloud‑native infrastructure. These insights set the stage for a discussion 
 about why OSPOs are well-positioned to guide AI strategy and governance.
 
-# How OSPOs are using AI today
+## Ways Open Source Program Offices are using AI today
 
-## Building internal tools and reducing friction
+### Building internal tools and reducing friction
 
 Ashley Wolf, who runs the OSPO at GitHub, described how her office has been using AI to reduce manual work. She explained that she uses GitHub’s own Copilot 
 to create ad‑hoc tools: *“I created a workflow the other day that will find empty repositories in the organization, that’s been a huge tremendous help because 
@@ -34,7 +34,7 @@ answers from OSPO documentation.  Her office is building a tool that *“will be
 receives frequent enquiries.  She added that Cisco is working on standardised model cards and aligning them with the EU AI Act: *“Cisco´s OSPO is formalizing what 
 model cards should look like for AI models, aligning this with the EU AI act”* 
 
-## Managing AI‑generated contributions
+### Managing AI‑generated contributions
 
 Several questions from the audience focused on handling AI‑generated code and content. Sachin Bhakar from an energy company cautioned that AI‑generated code 
 carries legal risk because the training data may include copyrighted material.  He advised developers to modify AI‑generated snippets to differentiate their 
@@ -47,7 +47,7 @@ AI‑generated content is only allowed for translation or localisation; it canno
 file because *“having an AI.md or AI.txt actually would be probably more confusing, we’re then grouping everything under this one bracket”*. Instead, OSPOs should 
 define what kind of AI (LLM, neural networks, etc) they are addressing.
 
-## Evolving the role of the OSPO for AI
+### Evolving the role of the OSPO for AI
 
 A recurring theme was whether OSPOs should expand into Open Source AI Offices. Wolf argued that OSPOs are already positioned to coordinate legal, 
 security, engineering and communications teams.  Because of these relationships, some OSPOs have “morphed and evolved to add more scope so that they can be 
@@ -61,7 +61,7 @@ open‑source AI can’t be separated from open source: if AI initiatives are de
 that AI and machine‑learning ecosystems *“are powered by open source”*. The panel encouraged OSPOs to remain involved in AI decisions at a minimum because 
 they are structured to handle emerging technologies.
 
-## Giving advice for supporting dependencies and contributions
+### Giving advice for supporting dependencies and contributions
 
 Another audience question asked how OSPOs can support outbound contributions to the open‑source projects they depend on. Bhakar suggested starting by filtering 
 risky licenses and prioritising projects accordingly: the OSPO can “filter out the risky licenses, differentiate between which one should be catered first”. 

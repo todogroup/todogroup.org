@@ -61,7 +61,7 @@ open‑source AI can’t be separated from open source: if AI initiatives are de
 that AI and machine‑learning ecosystems *“are powered by open source”*. The panel encouraged OSPOs to remain involved in AI decisions at a minimum because 
 they are structured to handle emerging technologies.
 
-## Practical advice for supporting dependencies and contributions
+## Giving advice for supporting dependencies and contributions
 
 Another audience question asked how OSPOs can support outbound contributions to the open‑source projects they depend on. Bhakar suggested starting by filtering 
 risky licenses and prioritising projects accordingly: the OSPO can “filter out the risky licenses, differentiate between which one should be catered first”. 

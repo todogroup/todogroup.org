@@ -42,7 +42,7 @@ TODO Working Groups are open to everyone! Participating in them is the best way 
 
 📥 Get this calendar in [iCal](https://calendar.google.com/calendar/ical/c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com/public/basic.ics) format
 
-🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](worldtimebuddy.com).
+🕐 Need help with timezone conversions? Check out [worldtimebuddy.com](https://www.worldtimebuddy.com).
 {{< todo_community_calendar >}}
 
 ## Other Calendars of Interest

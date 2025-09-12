@@ -6,7 +6,7 @@ date: 2025-09-11
 
 The **2026 Steering Committee (SC) Elections** will take place in **October 2025**. We are now officially opening the call for candidates until October 10, 2025.  
 
-{{< button link="https://forms.gle/eHp4pu3QcPVDcKpP6" text=" Submit your applicationg" >}}
+{{< button link="https://forms.gle/eHp4pu3QcPVDcKpP6" text=" Submit your application" >}}
 
 ## What is the role of the Steering Committee?  
 

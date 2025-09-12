@@ -4,15 +4,14 @@ author: todogroup
 date: 2025-09-11
 ---
 
-The **2026 Steering Committee (SC) Elections** will take place in **October 2025**. We are now officially opening the call for candidates — the form will remain open until October 10, 2025.  
+The **2026 Steering Committee (SC) Elections** will take place in **October 2025**. We are now officially opening the call for candidates until October 10, 2025.  
 
 {{< button link="https://forms.gle/eHp4pu3QcPVDcKpP6" text=" Submit your applicationg" >}}
 
 ## What is the role of the Steering Committee?  
 
-In TODO, it is the community that shapes project initiatives. The Steering Committee exists to support the community by helping drive progress. They serve by ensuring that TODO’s strategic goals are aligned with the mission, that these goals are met, and that community voices are heard.  
+In TODO, it is the community that shapes project initiatives. The Steering Committee exists to support the community by helping drive progress. They serve by ensuring that TODO’s strategic goals are aligned with the mission, that these goals are met, and that community voices are heard. SC members are responsible for:
 
-**SC members are responsible for:**  
 1. Attending monthly calls to coordinate with the program manager and oversee day-to-day operations.  
 2. Defining yearly strategic goals based on community input.  
 3. Approving, modifying, or discontinuing project initiatives, working groups, and real-time chat channels using the TODO Group name, logo, or branding.  
@@ -22,24 +21,18 @@ In TODO, it is the community that shapes project initiatives. The Steering Commi
 
 ## Who is eligible to be a Candidate?  
 
-Anyone can become a candidate by submitting the application form. However, individuals who actively engage with the TODO community or its projects are more likely to be elected. Examples of active participation include:  
+Any individual can become a candidate by submitting the application form. However, people who actively engage with the TODO community or its projects are more likely to be elected. Examples of active participation include:  
 
 - Being a representative from a **General Member**, an **Associate organization**, or serving as a **TODO Ambassador**  
 - Maintaining or actively contributing to any of the **TODO GitHub repositories**  
-- Hosting **TODO-supported events** (e.g., OSPO Local Chapters led by TODO Ambassadors) or participating in the **OSPOlogyLive EU series**  
+- Hosting **TODO-supported events** (e.g, OSPO Local Chapters led by TODO Ambassadors) or participating in the **OSPOlogyLive EU series**  
 
 ## Who is eligible to Vote?  
 
 There are two types of Steering Committee seats:  
 
-- **Elected seats**:  
-  Each TODO General Member’s main contact reviews candidate applications and casts their votes during October.  
-  - Elected candidates will be notified in **December**.  
-  - SC onboarding will begin shortly after.  
-
-- **Appointed seats**:  
-  Current Steering Committee members appoint candidates from the 2026 list.  
-
+- **Elected seats**: TODO General Members’ main contact reviews candidate applications and casts their votes during October.  
+- **Appointed seats**: Current Steering Committee members appoint candidates from the 2026 list.  
 
 ## Where can I find more information?  
 
@@ -47,7 +40,7 @@ For further details, please refer to the [TODO Group Governance documentation](h
 
 ## Important Dates to Remember  
 
-| Date Range / Deadline        |                                                 |
+| Date Range      |                                                 |
 |------------------------------|-------------------------------------------------------------------|
 | **Sep 12 – Oct 10, 2025**    | Candidate application is open                                     |
 | **Oct 10, 2025**             | Application closes, candidate information is shared with voters   |

@@ -27,7 +27,7 @@ because contributor licence agreements (CLAs) often require signatures from the 
 **Chris Hoeppler** of the Bosch OSPO added that universities now need more than publication rights; they must share code and data: “OSPOs help people figure out those different aspects and the different needs of both sides.” Open collaboration and reproducibility have become expectations. 
 He cautioned that publicly funded projects should not end with a code dump: “We don’t just want a code drop after three years of a publicly funded project; you want an open source project.”  
 
-**Claire Dillon**, community lead at CURIOSS network of academic OSPOs, highlighted three reasons companies invest in open source partnerships with universities:  
+**Claire Dillon****, community lead at CURIOSS network of academic OSPOs, highlighted three reasons companies invest in open source partnerships with universities:  
 
 - **Speed:** Companies sometimes need results quickly; negotiating intellectual property (IP) can slow down collaboration. Claire observed that open source *“can be quicker because that pathway is established.”*  
 - **Multiple universities:** When several universities are involved, negotiating individual IP agreements becomes nearly impossible. *“If you’re doing it with multiple universities then open source is pretty much the only way to go because otherwise you’re just going to be mired down in the negotiations.”*  

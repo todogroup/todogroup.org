@@ -24,7 +24,7 @@ partnering with universities is to advance research and logistics; open source p
 with open-source values. At the same time, universities need funding and job prospects for students, while companies need skilled contributors; hence, collaboration can serve both sides. She also noted that universities face unique hurdles when contributing to corporate open-source projects 
 because contributor licence agreements (CLAs) often require signatures from the entire institution—something impractical for large universities. She suggested companies provide flexible CLA options.  
 
-**Chris Hoeppler** of Bosch Research/OSPO added that universities now need more than publication rights; they must share code and data: “OSPOs help people figure out those different aspects and the different needs of both sides.” Open collaboration and reproducibility have become expectations. 
+**Chris Hoeppler** of the Bosch OSPO added that universities now need more than publication rights; they must share code and data: “OSPOs help people figure out those different aspects and the different needs of both sides.” Open collaboration and reproducibility have become expectations. 
 He cautioned that publicly funded projects should not end with a code dump: “We don’t just want a code drop after three years of a publicly funded project; you want an open source project.”  
 
 **Claire Dillon**, community lead at CURIOSS network of academic OSPOs, highlighted three reasons companies invest in open source partnerships with universities:  

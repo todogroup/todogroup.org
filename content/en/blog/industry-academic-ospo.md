@@ -4,8 +4,7 @@ author: anajs
 date: 2025-09-11
 ---
 
-This summary is based on the panel discussion [“Open Source and Academic Collaboration: How OSPOs Make It Work”](https://youtu.be/N66M7UqWiyw?si=fxpK4gtcrLZikjog) recorded at an Open Source Summit. This panel continued a [discussion started at a previous OSSummit](https://curioss.org/news/nov24-industry-partnerships/) and that the group hoped 
-to identify trends, challenges, and opportunities for university–industry collaboration around open source.
+This summary is based on the panel discussion [“Open Source and Academic Collaboration: How OSPOs Make It Work”](https://youtu.be/N66M7UqWiyw?si=fxpK4gtcrLZikjog) recorded at an Open Source Summit. This panel continued a [discussion started at a previous OSSummit](https://curioss.org/news/nov24-industry-partnerships/), and the group hoped to identify trends, challenges, and opportunities for university–industry collaboration around open source.
 
 ![Figure_1](https://github.com/user-attachments/assets/a7f426c5-f651-4f19-b7a3-69a3b46345b3)
 
@@ -15,8 +14,7 @@ to identify trends, challenges, and opportunities for university–industry coll
 “I get to do a lot of really cool stuff with open source projects, including things like collaborating with various academic institutions.” From an industry perspective, hiring students who already contribute to open source makes onboarding easier: “We are a software engineering organization. 
 We would like to hire intelligent, competent people. If they’re already working in open source projects, obviously it’s easier.”  
 
-**Cornelius Schumacher**, open source steward at Deutsche Bahn’s IT arm, said that open source is not the company’s core business but a means to an end: “We invest in collaboration, open source is for us a means to an end; we are in the business of making trains run.” Their motivation for 
-partnering with universities is to advance research and logistics; open source provides an effective way to collaborate on software when needed.  
+**Cornelius Schumacher**, open source steward at Deutsche Bahn’s IT arm, said that open source is not the company’s core business but a means to an end: “We invest in collaboration, open source is for us a means to an end; we are in the business of making trains run.” Their motivation for partnering with universities is to advance research and logistics; open source provides an effective way to collaborate on software when needed.  
 
 ## Motivations from Academia
 
@@ -42,7 +40,7 @@ and set the stage for a deeper dive into specific challenges:
 
 - **Intellectual property and CLAs:** Both universities and large corporations struggle with contributor licence agreements that require signatures from entire institutions. Cornelius sympathised with Ying, noting: *“In a large corporation with many different legal entities worldwide, we have the same problem.”*  
 - **Cultural and organisational change:** Developing an open-source culture is a challenge in itself. The panel described open source not merely as a licence but as a collaboration framework and a culture. Cornelius called it *“also the culture … establishing this … can be a big opportunity.”*  
-- **Curriculum reform:** Leslie recounted that in 2010 the U.S. National Science Foundation required grant recipients to publish their source code, yet universities still resist teaching open source. She explained that changing the curriculum is hard because *“professors are not incentivized to update their curriculum; they are incentivized to publish.”*  
+- **Curriculum reform:** Leslie recounted that in 2010, the US National Science Foundation required grant recipients to publish their source code, yet universities still resist teaching open source. She explained that changing the curriculum is hard because *“professors are not incentivized to update their curriculum; they are incentivized to publish.”*  
 - **Competition for curriculum space:** Claire added that universities prioritise many topics, including AI, so open source competes for attention. The lever to drive change is industry demand: *“If we want to make that change happen, it has to be industry saying: I need people graduating with open source skills, please.”*  
 
 ## Opportunities for the Future

@@ -9,7 +9,7 @@ handle the intersection of AI, compliance, and community building.
 ![image1](https://github.com/user-attachments/assets/80098821-868c-4a01-afaf-81a7086746a6)
 *Ashley Wolf, David Hirsch, Natalie Vlatko, Sachin Bhaka, and Ana Jiménez Santamaría at BoF session – open source in AI: Where OSPOs make it Work*
 
-Ana Jiménez Santamaría, Senior Project Manager at the Linux Foundation’s TODO Group and PyTorch Foundation, opened the session by sharing key insights from the latest studies on open source management. “According to [The State of the OSPO 2025 report](https://www.linuxfoundation.org/research/ospo-2025), **79% of organizations with an OSPO** said they were being effective in managing generative AI risk, compared to 65% of organizations without one,” Jiménez noted. The same study found that **66 % of organizations with an OSPO felt prepared for emerging technologies** such as AI and cloud‑native infrastructure. These insights set the stage for a discussion 
+Ana Jiménez Santamaría, Senior Project Manager at the Linux Foundation’s TODO Group and PyTorch Foundation, opened the session by sharing key insights from the latest studies on open source management. “According to [The State of the OSPO 2025 report](https://www.linuxfoundation.org/research/ospo-2025), **79% of organizations with an OSPO** said they were being effective in managing generative AI risk, compared to 65% from last year,” Jiménez noted. The same study found that **66 % of organizations with an OSPO felt prepared for emerging technologies** such as AI and cloud‑native infrastructure. These insights set the stage for a discussion 
 about why OSPOs are well-positioned to guide AI strategy and governance.
 
 ## Ways Open Source Program Offices are using AI today

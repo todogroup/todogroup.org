@@ -1,11 +1,14 @@
 # blog author data, the key is github username.
 todogroup:
-  # name: The TODO Group
-  # twitter: todogroup
+  name: TODO Group
+  company: TODO Group
 jlprat:
   name: Josep Prat
   twitter: jlprat
   company: Aiven
+jerpelea:
+  name: Alin Jerpelea
+  company: Sony
 nruff:
   name: Nithya Ruff
   twitter: nithyaruff
@@ -40,5 +43,4 @@ nzakas:
   company: Box
 anajsana:
   name: Ana Jimenez Santamaria
-  twitter: anajsana95
   company: The Linux Foudation

@@ -1,7 +1,7 @@
 ---
 title: "Highlights from the Swedish OSPO Network Workshop by TODO Ambassador Alin Jerpelea"
 date: 2025-08-30
-authors: jerpelea
+author: jerpelea
 ---
 
 On September 30, TODO Group Ambassador and member Alin Jerpelea was one of the organizers of the 7th Swedish OSPO Network Workshop, focusing on Open Source Intake. A total of 35 participants from across the industry and the public sector came together to dive into the practical aspects of open source intake—from compliance and sustainability to tooling. 

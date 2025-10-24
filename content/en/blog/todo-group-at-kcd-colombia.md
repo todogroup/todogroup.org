@@ -12,7 +12,7 @@ The mission of [OSPOlogyLive LATAM](https://community.linuxfoundation.org/ospo-l
 
 ### Fernando’s Presentation  
 
-Fernando's presentation focused on educating organizations about starting an OSPO:  
+[Fernando's presentation](https://youtu.be/pk0lf1ZJn1M?si=n8eYIN3QFOmmI_nW) focused on educating organizations about starting an OSPO:  
 
 - What an OSPO is, its benefits, and relevance  
 - How to build an OSPO and manage its day-to-day operations  

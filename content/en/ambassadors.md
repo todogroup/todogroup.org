@@ -22,7 +22,7 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 | --- | --- | --- | --- |
 | [Alin Jerpelea](https://github.com/jerpelea) | Sony | Sweden 🇸🇪 | OSPOlogy Sweden Chapter - Coming Soon | June 2025 - 2027 |
 | [Angel Ramirez](https://github.com/ar4mirez) | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | May 2024 - 2026 |
-| [Fernando Eugenio Correa](https://github.com/fer-correa) | Mercado Libre | LATAM (Brazil 🇵🇹, Argentina 🇦🇷) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | April 2025 - 2027 |
+| [Fernando Eugenio Correa](https://github.com/fer-correa) | Mercado Libre | LATAM (Brazil 🇧🇷, Argentina 🇦🇷) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | April 2025 - 2027 |
 | [Gergely Csatári](https://github.com/CsatariGergely) | Nokia | Finland 🇫🇮 | [OSPOlogy Helsinki Chapter](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) | Nov 2024 - 2026 |
 | [Hitomi Mizugaki](https://github.com/hit0mim)| Cuemby | United States (Florida 🇺🇸) | [OSPOlogy Florida Chapter](https://community.linuxfoundation.org/ospo-local-meetup-south-florida/) | May 2024 - 2026 |
 | [Jose Rodrigez Roa](https://www.linkedin.com/in/joserodriguezroa) | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | December 2023 - 2025 |

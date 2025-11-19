@@ -15,7 +15,7 @@ supporting developers, and working with communities and regulators.
 ### Keynote Panel
 
 **11:15–11:45 JST – OSPOjp: Ways To Level Up OSPO Stages With Knowledge and Strategies From Local Meetup Japan**
-- Panelists: Masayuki Kuwata (Sony Group Corporation), Ana Jiménez Santamaría (Linux Foundation), Kiyoshi Owada (Sociotext Inc.), Takanori Suzuki, Hirotaka Motai (Cybertrust Japan)
+- Panelists: Masayuki Kuwata (Sony Group Corporation), Ana Jiménez Santamaría (Linux Foundation), Kiyoshi Owada (Socionext Inc.), Takanori Suzuki, Hirotaka Motai (Cybertrust Japan)
 - Topic: How the OSPOjp community shares practices across companies to grow OSPO maturity in Japan
 
 ### Presentations

@@ -1,7 +1,7 @@
 ---
 title: "OSPOCon at OSSummit + AI_dev Japan 2025"
 author: todogroup
-date: 2025-11-018
+date: 2025-11-18
 ---
 
 The TODO Group’s OSPOCon track at [Open Source Summit + AI_dev Japan 2025](https://events.linuxfoundation.org/open-source-summit-japan/) will bring together OSPO practitioners, open source program leaders, and ecosystem partners to share concrete experiences on open source governance, 

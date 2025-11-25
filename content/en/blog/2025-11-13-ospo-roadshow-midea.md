@@ -11,7 +11,7 @@ date: 2025-11-13
 As part of the **OSPO Roadshow** initiated by the **Linux Foundation APAC OSPO SIG**, we have been visiting various companies across China since 2021 — including China Mobile Research Institute, Red Hat China, Didi, ZTE, and GitLab China — to share and exchange experiences about open source and enterprise collaboration.
 
 In 2024, this community activity officially became part of the **TODO Group China Chapter**, further strengthening collaboration among local OSPOs.  
-On **November 7, 2025**, the OSPO Roadshow arrived at **Midea Group’s headquarters** in Shunde, Foshan, Guangdong Province.
+On November 7, 2025, the OSPO Roadshow arrived at [Midea Group’s headquarters](https://www.midea.es/proyectos-destacados/midea-headquarter-building/) in Shunde, Foshan, Guangdong Province.
 
 ![Midea Headquarters](/images/blog/midea-hq.jpg)
 

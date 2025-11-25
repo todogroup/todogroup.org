@@ -64,6 +64,5 @@ Zhentao offered an impromptu reflection on OSPO operations and cross-company col
 The meetup concluded with group discussions and a shared dinner, where participants exchanged views on the future of open source collaboration in China.  
 Through initiatives like the OSPO Roadshow, the TODO Group China Chapter continues to build a vibrant local ecosystem that connects enterprises, foundations, and communities.
 
----
 
 *Special thanks to Midea Group for hosting, and to all participants for their contributions to open source collaboration in China.*

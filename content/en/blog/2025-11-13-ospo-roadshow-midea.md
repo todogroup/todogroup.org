@@ -59,7 +59,7 @@ Zhentao offered an impromptu reflection on OSPO operations and cross-company col
 
 ![Discussion during the meetup](/images/blog/ospo-meetup-discussion.jpg)
 
-## Community Spirit
+## Wrap Up
 
 The meetup concluded with group discussions and a shared dinner, where participants exchanged views on the future of open source collaboration in China.  
 Through initiatives like the OSPO Roadshow, the TODO Group China Chapter continues to build a vibrant local ecosystem that connects enterprises, foundations, and communities.

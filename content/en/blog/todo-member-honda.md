@@ -1,5 +1,5 @@
 ---
-title: "Welcoming Honda to the TODO Group"
+title: "Welcoming Honda as a new TODO Group general member"
 author: todogroup
 date: 2025-12-18
 ---

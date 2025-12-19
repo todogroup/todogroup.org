@@ -16,7 +16,7 @@ Honda has been steadily advancing its open source strategy as part of its transi
 - Deployment of **SBOM operations (SPDX 2 Lite)** and commercial SCA tooling  
 - Integration of OSS governance into SDV-wide development processes  
 
-Honda’s OSPO roadmap aligns closely with the [TODO Group’s OSPO maturity model](https://ospobook.todogroup.org/03-chapter/#maturity-model-3---the-ospo-maturity-model-by-the-todo-group-7), progressing from adoption and compliance toward deeper community engagement and leadership. Honda has publicly stated its goal of becoming a **strategic decision-making partner** through open source by FY2026, while expanding community participation and hosting OSS projects as part of its SDV strategy  [oai_citation:2‡20251209_OSS2025_Honda-keynote-v1.2.pdf](sediment://file_000000008bbc71f484e3ef12318b0480).
+Honda’s OSPO roadmap aligns closely with the [TODO Group’s OSPO maturity model](https://ospobook.todogroup.org/03-chapter/#maturity-model-3---the-ospo-maturity-model-by-the-todo-group-7), progressing from adoption and compliance toward deeper community engagement and leadership. Honda has publicly stated its goal of becoming a **strategic decision-making partner** through open source by FY2026, while expanding community participation and hosting OSS projects as part of its SDV strategy.
 
 ![Honda OSPO Journey](https://github.com/user-attachments/assets/f117fbac-cbc0-4345-9a4d-f0acdb341e1c)
 > Source: Honda OSPO keynote at Open Source Summit Japan 2025

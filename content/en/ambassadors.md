@@ -28,6 +28,7 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 | [Jose Rodrigez Roa](https://www.linkedin.com/in/joserodriguezroa) | Transformente | LATAM (Mexico 🇲🇽, Colombia 🇨🇴, Ecuador 🇪🇨, Chile 🇨🇱) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | December 2023 - 2025 |
 | [Li Jiansheng](https://www.linkedin.com/in/lijiansheng/) | LF APAC | China 🇨🇳 | [OSPOlogy China Chapter](https://community.linuxfoundation.org/ospo-local-meetup-china-zh-cn-speaking/) | March 2024 - 2026 |
 | [Masayuki Kuwata](https://github.com/kuwatm) | Sony | Japan 🇯🇵 | [OSPOlogy Japan Chapter](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) | January 2025 - 2027 |
+| [Shu Muto](https://github.com/shu-mutou) | NEC Solution Innovators, Ltd. | Japan 🇯🇵 | [OSPOlogy Japan Chapter](https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/) | December 2025 - 2027 |
 | [Thomas Steenbergen](https://github.com/tsteenbe) | Independent | Europe (Netherlands 🇳🇱, Belgium 🇧🇪, Germany 🇩🇪) | [OSPOlogy Europe Chapter](https://community.linuxfoundation.org/ospology-european-chapter/) | October 2024 - 2026 |
 | [Zhiqiang Yu](https://github.com/zhiqiang-yu) | China Mobile, LF APAC | China 🇨🇳 | [OSPOlogy China Chapter](https://community.linuxfoundation.org/ospo-local-meetup-china-zh-cn-speaking/) | March 2024 - 2026 |
 

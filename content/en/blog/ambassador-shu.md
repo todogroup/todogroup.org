@@ -11,7 +11,7 @@ As a TODO Ambassador, Shu aims to **continue growing open source culture and OSP
 ## Bio and Contributions to TODO Project
 
 Shu Muto has been a web application developer for over 20 years and an open source maintainer for the last 10 years. As a contributor and maintainer, Shu has had great experiences collaborating with developers around the world and is committed to spreading open source culture and experience, including through upstream training.
-Shu’s contributions to the TODO ecosystem include translating the **[OSPO Book](https://ospobook.todogroup.org/)** and the **[OSPO Definition](https://todogroup.org/ospo-definition/)** into Japanese and organizing several local events to connect practitioners and strengthen the OSPO community
+Shu’s contributions to the TODO ecosystem include translating the **[OSPO Book](https://ospobook.todogroup.org/)** and the **[OSPO Definition](https://ospoglossary.todogroup.org/ospo-definition/)** into Japanese and organizing several local events to connect practitioners and strengthen the OSPO community
 
 ![image](https://github.com/user-attachments/assets/d2505f5c-cce4-497d-81e7-21e49cf97e79)
 

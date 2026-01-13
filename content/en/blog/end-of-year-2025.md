@@ -102,3 +102,4 @@ As we head into 2026, there are many easy ways to plug in:
 - Share a talk proposal for TODO Touchpoints
 - Add your org/tool to the OSPO Landscape 
 - Post an OSPO role to the Job Board 
+- Participate in discussions in the [TODO Group Slack Community](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)

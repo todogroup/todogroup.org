@@ -89,7 +89,7 @@ The Steering committe members shared the following recommended goals for 2026:
 
 ### New Focus
 
-- Mentorship program: move from concept to launch:  Continue the 2025 research/ideation and implement a mentorship pathway that supports new OSPO practitioners 
+- Mentorship program – move from concept to launch: Continue the 2025 research/ideation and implement a mentorship pathway that supports new OSPO practitioners 
 - Connect OSPO discussions across verticals: Build a clear “path” to cross-link work, reuse templates, and share playbooks across industry contexts without fragmenting the community. 
 - Evolve the OSPO narrative for 2026: AI + policy + measurable value: Create clearer guidance and messaging to help OSPOs explain why they matter now (and next), particularly as AI-related workflows and emerging policies increase organizational risk and complexity.
 - Revisit UN open source goals and what they mean for OSPOs in enterprises: Continue the 2025 discussion on connecting enterprise OSPO practice with broader public-interest open source goals and frameworks 

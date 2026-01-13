@@ -12,7 +12,7 @@ Below is a recap of the year’s community milestones, how TODO programs evolved
 
 ## Community Overview
 
-TODO Group is now 90+ members and growing, spanning industry, public sector, non-profits, and academia. We welcomed 7 new member organizations during 2025 and early 2026: ZTE, George Washington University, IPA, Honda, Cloudera, Hitachi, and Block
+TODO Group is now 90+ members and growing, spanning industry, the public sector, non-profits, and academia. We welcomed 7 new member organizations during 2025 and early 2026: ZTE, George Washington University, IPA, Honda, Cloudera, Hitachi, and Block.
 
 Our structure continues to support multiple ways to participate: Steering Committee, Ambassadors, Project and Working Group Leads, and Member organizations. 
 

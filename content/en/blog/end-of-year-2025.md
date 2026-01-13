@@ -22,7 +22,7 @@ Ambassadors supported several regional efforts, including regular local meetups 
 
 In 2025, we continued refining a program portfolio designed to meet and learn from practitioners involved in open source management at organizations:
 
-- OSPOCon track at Linux Foundation Open Source Summits (best practices, tools, and solutions for open source program management). 
+- OSPOCon track at Linux Foundation Open Source Summits (best practices, tools, and solutions for open source program management)
 - OSPOlogy Live: focused workshops and roundtables around specific OSPO challenges in region/verticals, with tangible next steps
 - OSPOlogy Local Meetups: community-organized, ambassador-led meetups sustaining local OSPO chapters 
 - OSPOlogy BoFs at KubeCon + CloudNativeCon: Open Source Management + Operations + Cloud-Native discussions on security and contribution practices 

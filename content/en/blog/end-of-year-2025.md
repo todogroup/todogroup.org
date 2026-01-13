@@ -16,7 +16,7 @@ TODO Group is now 90+ members and growing, spanning industry, the public sector,
 
 Our structure continues to support multiple ways to participate: Steering Committee, Ambassadors, Project and Working Group Leads, and Member organizations. Any individual is also welcome to join our Slack community or contribute to TODO resources.
 
-Ambassadors supported several regional efforts, including regular local meetups and translation contributions, such as the OSPO Book Japan version
+Ambassadors supported several regional efforts, including regular local meetups and translation contributions, such as the OSPO Book translated into Japanese.
 
 ## Programs Evolution
 

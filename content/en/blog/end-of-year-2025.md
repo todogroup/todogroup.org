@@ -25,7 +25,7 @@ In 2025, we continued refining a program portfolio designed to meet and learn fr
 - OSPOCon track at Linux Foundation Open Source Summits (best practices, tools, and solutions for open source program management)
 - OSPOlogy Live: focused workshops and roundtables around specific OSPO challenges in region/verticals, with tangible next steps
 - OSPOlogy Local Meetups: community-organized, ambassador-led meetups sustaining local OSPO chapters 
-- OSPOlogy BoFs at KubeCon + CloudNativeCon: Open Source Management + Operations + Cloud-Native discussions on security and contribution practices 
+- OSPOlogy BoFs at KubeCon + CloudNativeCon: Open Source Management + Operations + Cloud Native discussions on security and contribution practices 
 - LF Member Summit TODO Track: TODO member alignment on priorities and shared learning
 
 We also discussed expanding support for KubeCon co-located OSPO activities, especially with more volunteers to help coordinate in North America.

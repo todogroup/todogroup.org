@@ -72,7 +72,7 @@ The Steering Committee made progress across several 2025 strategic goals:
 
 Committee members also contributed through conference AMAs, CFP reviews, mentorship research, supply chain security talks, OSPO + AI work, and expanded collaboration with other communities (including OpenSSF, OpenChain and FINOS).  Here are some actions driven from SC members in 2025:
 
-- Georg: updated Ambassador documentation; panelist at TODO AMA (OSS North America); co-chaired OpenSSF Best Practices WG; delivered multiple supply-chain/CRA talks (CNCF Aachen, LF Europe Roadshow, OSPOlogyLive Lyon).
+- Georg: updated Ambassador documentation; panelist at TODO AMA (OSS North America); co-chaired OpenSSF Best Practices WG; delivered multiple supply chain/CRA talks (CNCF Aachen, LF Europe Roadshow, OSPOlogyLive Lyon).
 - Brittany: facilitated TODO AMA (OSS North America) and joined AMA (LF Member Summit); co-wrote FINOS financial services OSS survey; delivered OSPO/InnerSource talks and FINOS blog posts with TODO references.
 - Annania: participated in TODO SC AMA panels (OSS North America + OSS Europe); reviewed CFPs; advanced mentorship program research (GitHub Discussion + LFX exploration).
 - Ashley: led OSPO + AI engagement at GitHub Universe (panel + Day 0 discussions); contributed guidance around OSPOs and AI/agentic workflows.

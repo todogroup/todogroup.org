@@ -58,7 +58,7 @@ Members also discussed introducing a lightweight all-hands/community update cade
 
 ## Collaboration across industries and ecosystems
 
-In 2025, TODO strengthened cross-ecosystem collaboration and industry-vertical connections, including examples across automotive (AutomotiveGrade Linux), trusted supply chain (OpenChai)n, cloud-native (CNCF), energy(LF Energy), research and academia (CURIOSS), and security (OpenSSF).  These partnerships are designed to help scale OSPO/SIG efforts by reusing templates, leveraging ambassador expertise, and cross-pollinating lessons learned across verticals. 
+In 2025, TODO strengthened cross-ecosystem collaboration and industry-vertical connections, including examples across automotive (AutomotiveGrade Linux), trusted supply chain (OpenChain), cloud-native (CNCF), energy(LF Energy), research and academia (CURIOSS), and security (OpenSSF).  These partnerships are designed to help scale OSPO/SIG efforts by reusing templates, leveraging ambassador expertise, and cross-pollinating lessons learned across verticals. 
 
 A recurring theme in Steering Committee discussions is connecting OSPO conversations across verticals more intentionally (e.g., finance, automotive, energy, cloud-native), so OSPO teams can learn faster and avoid reinventing the wheel.
 

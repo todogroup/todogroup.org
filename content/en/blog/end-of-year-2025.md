@@ -83,7 +83,7 @@ The Steering committe members shared the following recommended goals for 2026:
 
 ### Keep doing
 
-- Strengthen contributor recognition and repeatable processes, especially for working groups and major deliverables such OSPO Book
+- Strengthen contributor recognition and repeatable processes, especially for working groups and major deliverables such as the OSPO Book
 - Improve regular member meetings and make it easier for members/ambassadors to contribute content regularly 
 - Maintain and refresh core repos (landscape, guides, governance resources)
 

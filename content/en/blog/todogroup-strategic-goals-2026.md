@@ -9,7 +9,7 @@ These goals reflect the community's input and the Steering Committee's commitmen
 
 This year, TODO Group's direction aims tofocus on three strategic pillars: growing leadership capacity, helping OSPOs demonstrate value across AI and security, and maintaining the resources our community relies on.
 
-## Grow and Sustain Leadership Roles
+### Grow and Sustain Leadership Roles
 
 Making it easier for people to step into and succeed in leadership positions is essential for the long-term health of any open source community. In 2026, we're creating clearer entry points and more consistent support for emerging leaders.
 
@@ -21,7 +21,7 @@ Making it easier for people to step into and succeed in leadership positions is 
 
 This builds directly on last year's work recognizing contributors and improving processes. We want leadership in TODO to feel accessible and supported.
 
-## Help OSPOs Strengthen Value Across Business Strategy, AI, and Security
+### Help OSPOs Strengthen Value Across Business Strategy, AI, and Security
 
 OSPOs are increasingly asked to engage with AI strategy and software supply chain security—going beyond traditional open source policy. We're focused on supporting TODO members and working groups in creating guidance and reusable resources on these emerging topics.
 
@@ -38,7 +38,7 @@ Key areas we're exploring include:
 - Connecting with Ambassadors and Working Group Chairs to support their presentations at events
 - Coordinating with sister ecosystems including [OpenSSF](https://openssf.org/), [OpenChain](https://www.openchainproject.org/), [InnerSource Commons](https://innersourcecommons.org/), [CURIOSS](https://curioss.org/), [CNCF](https://www.cncf.io/), [LF Europe](https://linuxfoundation.eu/), and [CHAOSS](https://chaoss.community/)
 
-## Keep TODO Resources Current and Easy to Navigate
+### Keep TODO Resources Current and Easy to Navigate
 
 Our GitHub repositories are the backbone of TODO's value proposition. Guides, case studies, and governance resources need to stay accurate and findable. This year, we're prioritizing maintenance work that sometimes gets overlooked.
 
@@ -63,5 +63,7 @@ The TODO Group community continues to grow, with 95+ member organizations spanni
 ## Meet the Steering Committee at Linux Foundation Member Summit
 
 Several TODO Group Steering Committee members will be hosting an "Open Source Management Ask Anything" at the upcoming Linux Foundation Member Summit (Wednesday, February 25 at 9:00am). 
-![Alt Text](askanaything-todosc-2026-lfms" src="https://github.com/user-attachments/assets/216658cf-cb7b-4c9b-ac5e-292d26522e78")
+
+![Alt Text](https://github.com/user-attachments/assets/216658cf-cb7b-4c9b-ac5e-292d26522e78)
+
 If you are attending, save this in your calendar [here](https://lfms26.sched.com/event/2ETSq/todo-group-steering-committee-ospo-ask-anything-ana-jimenez-santamaria-linux-foundation-ashley-wolf-github-stephen-augustus-bloomberg-brittany-istenes-fannie-mae-natali-vlatko-cisco?iframe=yes&w=100%&sidebar=yes&bg=no) and share your questions and discussion topics in advance [here](https://app.sli.do/event/x5cbRZ2kThfVKCHq99ymrC)

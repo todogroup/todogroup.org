@@ -13,7 +13,7 @@ share open source program management insights through writing and speaking.
 ## Bio and Contributions to TODO Project
 
 Dawn Foster has over two decades of experience working in open source positions at companies like VMware, Intel and Puppet with expertise in managing people, open source strategy, building new communities, 
-and managing existing communities with a particular emphasis on developer and open source communities. Dawn is currently serving as a Board Member of the CHAOSS Project and Co-Chair of the CHAOSS OSPO Working Group. She previously served on the TODO Group Steering Committee from 2021 to 2022.
+and managing existing communities with a particular emphasis on developer and open source communities. Dawn is currently serving as a Board Member of the CHAOSS Project and Co-Chair of the CHAOSS OSPO Working Group. She is also on the board of OpenUK and previously served on the TODO Group Steering Committee from 2021 to 2022.
 
 Dawn's contributions to the TODO ecosystem include:
 

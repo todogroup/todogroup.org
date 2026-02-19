@@ -18,7 +18,7 @@ and managing existing communities with a particular emphasis on developer and op
 Dawn's contributions to the TODO ecosystem include:
 
 - Organizing OSPOlogy events since the program's early days and representing the intersection of OSPO practices and community health metrics
-- Frequent speaker and writer on OSPO-related topics, sharing practical insights through her blog and conference presentations
+- Frequent speaker and writer on OSPO-related topics, sharing practical insights through her [blog](https://fastwonderblog.com/) and conference presentations
 
 As the first TODO Ambassador based in the UK, Dawn plans to help connect the local OSPO community through meetups and events, while continuing to support OSPOlogy initiatives across Europe.
 

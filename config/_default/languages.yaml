@@ -143,7 +143,7 @@ en:
       post: "Engage with the community via TODO chat, forum, and mailing list"
       parent: "community"
     - identifier: "virtual-meetings"
-      name: "Meetings and Calendar"
+      name: "Meetings"
       url: "/community/meetings/"
       weight: 3
       post: "Join OSPOlogy monthly webinars and working group meetings"
@@ -166,6 +166,34 @@ en:
       weight: 6
       post: "The monthly OSPO newsletter"
       parent: "community"
+   - identifier: "working-groups"
+      name: "Working Groups"
+      url: "/working-groups/"
+      weight: 4
+    - identifier: "wg-ospo-book"
+      name: "OSPO Book"
+      url: "/working-groups/ospo-book/"
+      weight: 1
+      post: "Source of knowledge for OSPO practitioners and organizations"
+      parent: "working-groups"
+    - identifier: "wg-oss-in-business"
+      name: "OSS in Business"
+      url: "/working-groups/oss-in-business/"
+      weight: 2
+      post: "Quantifying the business value of open source for organizations"
+      parent: "working-groups"
+    - identifier: "wg-chaoss-ospo-metrics"
+      name: "CHAOSS OSPO Metrics"
+      url: "/working-groups/chaoss-ospo-metrics/"
+      weight: 3
+      post: "Metrics and models for measuring OSPO impact"
+      parent: "working-groups"
+    - identifier: "wg-agentic-ai"
+      name: "Agentic AI to empower OSPOs"
+      url: "/working-groups/agentic-ai/"
+      weight: 4
+      post: "Exploring how agentic AI can empower OSPO operations"
+      parent: "working-groups"
     - identifier: "blog"
       name: "Blog"
       url: "/blog/"

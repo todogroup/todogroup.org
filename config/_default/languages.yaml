@@ -167,7 +167,7 @@ en:
       post: "The monthly OSPO newsletter"
       parent: "community"
     - identifier: "working-groups"
-      name: "Working Groups"
+      name: "WorkGroups"
       url: "/working-groups/"
       weight: 4
     - identifier: "wg-ospo-book"

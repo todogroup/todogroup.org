@@ -10,7 +10,7 @@ The OSPO Book Working Group develops and maintains the OSPO Book, a community-cu
 
 ## What we work on
 
-The group writes, edits, and reviews chapters covering OSPO foundations, governance, compliance, community engagement, tooling, and emerging topics. Contributions come from practitioners across industries, and content is released openly under a permissive license so any organization can adapt it for internal use.
+The group writes, edits, and reviews chapters covering OSPO foundations, governance, compliance, community engagement, tooling, and emerging topics.
 
 ## Get involved
 

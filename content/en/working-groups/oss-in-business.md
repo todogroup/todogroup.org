@@ -10,7 +10,7 @@ The OSS in Business Working Group helps organizations communicate the business v
 
 ## What we work on
 
-The group produces whitepapers, frameworks, and case studies focused on measuring the impact of open source on cost, risk, innovation, talent, and ecosystem influence. Recent work explores ROI methodologies and executive-facing narratives that move OSPO conversations beyond developer productivity.
+The group produces whitepapers and case studies focused on measuring the impact of open source on cost, risk, innovation, talent, and ecosystem influence.
 
 ## Get involved
 

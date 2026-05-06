@@ -5,7 +5,7 @@ url: /working-groups/oss-in-business/
 
 
 {{< intro >}}
-The OSS in Business Working Group helps organizations quantify and communicate the business value of open source — translating OSPO and open source activities into outcomes that resonate with finance, leadership, and the broader business.
+The OSS in Business Working Group helps organizations communicate the business value of open source, translating open source activities into outcomes that resonate with finance, leadership, and the broader business.
 {{< /intro >}}
 
 ## What we work on

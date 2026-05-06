@@ -5,7 +5,7 @@ url: /working-groups/agentic-ai/
 
 
 {{< intro >}}
-The Agentic AI to empower OSPOs Working Group explores how AI agents and large language models can support OSPO operations — from compliance and policy enforcement to community engagement, documentation, contribution review, and internal automation.
+The Agentic AI to empower OSPOs Working Group explores how AI agents and large language models can support OSPO operations
 {{< /intro >}}
 
 ## What we work on

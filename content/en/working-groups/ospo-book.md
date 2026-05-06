@@ -18,4 +18,3 @@ The group writes, edits, and reviews chapters covering OSPO foundations, governa
 - **Mailing list**: [WG-ospo-book-project](https://lists.todogroup.org/g/WG-ospo-book-project)
 - **Slack**: `#project-ospobook` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
 
-New contributors are welcome. Open an issue or PR on a chapter you'd like to improve, or join the mailing list to follow ongoing work and review cycles.

@@ -21,8 +21,6 @@ Agents can handle a meaningful share of it well, when set up with the right guar
 an "open source" AI system? How should we govern AI‑generated contributions to projects we maintain? Where does responsible adoption start? OSPOs that previously focused on traditional
 open source software are now being asked to extend that judgment into a much messier ecosystem.
 
-Neither conversation is well served by a single OSPO working in isolation. Patterns, lessons, and tooling are emerging quickly across the community — but they are scattered across blog posts, internal docs, and ad‑hoc Slack threads. A dedicated Working Group is the right shape to consolidate that learning into something practitioners can actually use.
-
 ## What the Working Group will work on
 
 The group’s themes may include, but are not limited to:

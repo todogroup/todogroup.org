@@ -15,6 +15,6 @@ The group surfaces practical use cases, evaluates emerging tooling, and develops
 ## Get involved
 
 - **Repository**: [working-groups/wg-agentic-ai](https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai)
-- **Slack**: `#wg-agentic-ai-ospo` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
+- **Slack**: `#wg-ai-agents` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
 - **Bi-weekly call**: [TODO Group Community Calendar](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
 

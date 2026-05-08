@@ -43,5 +43,5 @@ The Working Group is about to start its first meeting call by mid-May and is ope
 management professionals interested in the intersection of open source management and AI.
 
 - **Repository**: [todogroup/working-groups/wg-agentic-ai](https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai)
-- **Slack**: `#wg-agentic-ai-ospo` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
+- **Slack**: `#wg-ai-agents` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
 - **Bi‑weekly call**: see the [TODO Group Community Calendar](https://todogroup.org/community/meetings/)

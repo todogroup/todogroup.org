@@ -62,7 +62,7 @@ Touchpoints are the backbone of TODO Community. The TODO Steering Committee reco
 As TODO scales, we aim to clarify and standardize the structure, roles, and aspirations of TODO working groups, as well as the documentation and responsibilities of the 
 [ambassador program](https://todogroup.org/community/ambassadors/). The TODO Steering Committee will work on ways to ensure that recognized contributors have the support and templates to effectively assist TODO.
 
-![image4](https://github.com/user-attachments/assets/6f8db20d-c1df-4284-84d6-c10f350cb0fa)
+![image4](/images/blog/end-of-year-2024-contributors.png)
 
 
 

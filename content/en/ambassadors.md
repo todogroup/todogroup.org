@@ -20,8 +20,9 @@ The TODO OSPO Ambassador Program encompasses a group of community leaders who pr
 
 | Name | Organization | Location | Local Efforts
 | --- | --- | --- | --- |
-| [Alin Jerpelea](https://github.com/jerpelea) | Sony | Sweden 🇸🇪 | OSPOlogy Sweden Chapter - Coming Soon | June 2025 - 2027 |
+| [Alin Jerpelea](https://github.com/jerpelea) | Sony | Sweden 🇸🇪 | Swedish OSPO Network  | June 2025 - 2027 |
 | [Angel Ramirez](https://github.com/ar4mirez) | Cuemby | LATAM (Mexico 🇲🇽, Colombia 🇨🇴) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | May 2024 - 2026 |
+| [Dawn Foster](https://github.com/geekygirldawn) | Independent | United Kingdom 🇬🇧 | OSPOlogy UK Chapter - Coming Soon | Feb 2026 - 2028 |
 | [Fernando Eugenio Correa](https://github.com/fer-correa) | Mercado Libre | LATAM (Brazil 🇧🇷, Argentina 🇦🇷) | [OSPOlogy LATAM Chapter](https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/) | April 2025 - 2027 |
 | [Gergely Csatári](https://github.com/CsatariGergely) | Nokia | Finland 🇫🇮 | [OSPOlogy Helsinki Chapter](https://community.linuxfoundation.org/ospo-local-meetup-helsinki/) | Nov 2024 - 2026 |
 | [Hitomi Mizugaki](https://github.com/hit0mim)| Cuemby | United States (Florida 🇺🇸) | [OSPOlogy Florida Chapter](https://community.linuxfoundation.org/ospo-local-meetup-south-florida/) | May 2024 - 2026 |
@@ -40,10 +41,10 @@ Program requirements for becoming an official TODO OSPO Ambassador are:
 * Must follow the [TODO Code Of Conduct](https://todogroup.org/code-of-conduct/)
 * Must comply with [LF antitrust policy](https://www.linuxfoundation.org/legal/antitrust-policy)
 * Must meet AT LEAST ONE of the following criteria:
-  * An active contributor to a TODO initiative (OSPOlogy, OSPO Landscape, Website, OSPO Book, etc.)
+  * An active contributor to a TODO initiatives (Awesome OSPO Tooling, OSPO Landscape, TODO blog Website, Working Group Deliverables, etc.)
   * A representative from a TODO General Member or OSPO Associate organization
-  * An OSPO Local Organizer and/or OSPOlogy Organizer
-  * An active leader in the TODO community with a minimum of 1 year of experience in:
+  * An OSPOlogy Program Committee member or Organizer
+  * An active chair or co-chair in the TODO working groups with a minimum of 1 year of experience in:
     * Organizing events (virtual/in-person)
     * Speaking at events
     * Mentoring others

@@ -3,9 +3,9 @@ hero1:
 hero2:
   other: Develop openly
 subhero:
-  other: For open source practitioners committed to Open Source Program Offices (OSPO).
+  other: For practitioners building, scaling, and supporting Open Source Program Offices
 explainerText:
-  other: TODO is an open community of practitioners who aim to create and share knowledge, collaborate on practices, tools, and other ways to run successful and effective Open Source Program Offices and similar Open Source initiatives. TODO Group is formed by its [Community](/community/ambassadors/) participants and ambassadors, [OSPO Associates](/about/associates/) and [General Members](/about/members/).
+  other: TODO Group is an open, vendor-neutral community of OSPO practitioners sharing best practices for open source management and emerging AI governance in real-world organizational contexts. Hosted by the Linux Foundation, TODO Group creates shared resources and guidance to support practical adoption, alignment, and collaboration across organizations.
 explainerButton:
   other: About us
 sectionTitle:
@@ -13,26 +13,26 @@ sectionTitle:
 sectionTitle1:
   other: Join our community
 sectionText1:
-  other: Open Source Program Office practitioners leading open source adoption across organizations
+  other: practitioners leading open source management and open source AI governance adoption across organizations
 sectionButton1:
   other: Join Community
 sectionTitle2:
-  other: Become an OSPO Associate
+  other: Become an Associate
 sectionText2:
-  other: Open source communities, projects and foundations supporting the TODO mission and helping the OSPO movement
+  other: Open source communities, projects, and foundations supporting the TODO mission and helping the OSPO movement
 sectionButton2:
   other: Get Involved
 sectionTitle3:
   other: Become a General Member
 sectionText3:
-  other: Organizations committed to open source supporting TODO mission and OSPO adoption
+  other: Organizations with open source management functions, committed to advancing OSPO adoption, open source strategy, and emerging AI governance practices through open collaboration
 sectionButton3:
-  other: Become a Supporter
+  other: Become a Member
 landscapeTitle:
   other: OSPO Landscape
 landscapeText:
-  other: The OSPO landscape maps the OSPO Ecosystem, including adopter organizations and tooling used by OSPO teams and open source professionals within organizations
+  other: Explore the OSPO ecosystem, including adopter organizations, tools, and resources used by OSPO teams and open source professionals.
 landscapeButton:
-  other: Explore the landscape
+  other: Explore the Landscape
 aboutSilder:
   other: https://docs.google.com/presentation/d/e/2PACX-1vT6TcnSJki1RdzzDTbLCKDl96POVoW4bNZH--0lsJXNrPRRjPC83o2DGKuhZj38qjALnZJPLa0yhMW5/embed?start=false&loop=true&delayms=5000

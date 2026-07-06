@@ -33,7 +33,7 @@ On November 7, 2025, the OSPO Roadshow arrived at [Midea Group’s headquarters]
 
 ## Highlights and Key Discussions
 
-### 1. Cold Start Challenges for Open Source Projects and Events — *Hanqin Wu*
+**Challenges for Open Source Projects and Events | Hanqin Wu**
 
 Hanqin shared practical approaches to solving the “cold start” problem in open source communities (how to move from **0 to 1**, and then **1 to 100**).  
 Topics included:
@@ -44,16 +44,16 @@ Topics included:
 
 This interactive session sparked strong discussion among attendees.
 
-### 2. Why OSPO? Embedding Modern Management Practices | *Jiansheng Li*
+**Why OSPO? Embedding Modern Management Practices | Jiansheng Li**
 
 Jiansheng explored the unique operational logic of open source collaboration — what he called the **“third mode of operation”**, distinct from traditional industrial management.  
 Drawing on examples such as **Linux Foundation**, **Android**, **IBM WebSphere**, and **Red Hat Ansible**, he illustrated how organizations can adapt management structures to embrace open source innovation, through lenses of **law, economics, and organizational management**.
 
-### 3. Open Source Compliance for Embedded Software | *Ye Tao*
+**Open Source Compliance for Embedded Software | Ye Tao**
 
 Ye Tao shared insights from real-world compliance practices, discussing the **special requirements and challenges** of open source governance in embedded software environments.
 
-### 4. OSPO Reflections and Practices | *Zhentao Yang*
+**OSPO Reflections and Practices | Zhentao Yang**
 
 Zhentao offered an impromptu reflection on OSPO operations and cross-company collaboration, emphasizing the importance of community-driven innovation and shared learning.
 

@@ -57,8 +57,8 @@
   crossorigin=""
 ></script>
 
-<script type="application/json" id="toa-ambassador-data">
-{{ $ambassadors | jsonify }}
+<script>
+window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
 </script>
 
 <script>
@@ -72,15 +72,11 @@
   try {
     if (typeof L === 'undefined') { return fail('Leaflet failed to load from CDN.'); }
 
-    var dataEl = document.getElementById('toa-ambassador-data');
-    if (!dataEl) { return fail('Ambassador data block not found in DOM.'); }
-    var ambassadors;
-    try {
-      ambassadors = JSON.parse(dataEl.textContent || '[]');
-    } catch (e) {
-      return fail('Ambassador JSON parse failed: ' + e.message);
+    var ambassadors = window.__TOA_AMBASSADORS__;
+    if (!Array.isArray(ambassadors)) {
+      return fail('Ambassador data is not an array. Got: ' + Object.prototype.toString.call(ambassadors));
     }
-    if (!Array.isArray(ambassadors) || ambassadors.length === 0) {
+    if (ambassadors.length === 0) {
       return fail('Ambassador list is empty.');
     }
 

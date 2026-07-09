@@ -1,12 +1,13 @@
 {{/*
-  ambassador map of TODO OSPO Ambassadors wiht OpenStreetMap
+  ambassador-map of TODO OSPO Ambassadors.
 
   Usage in Markdown:
       {{< ambassador-map >}}
 
   Reads: data/ambassadors.yml
-  Deps:  Leaflet 1.9.4 via unpkg CDN. No API key, no third-party account.
-         Tiles from OpenStreetMap (attribution required and included).
+  Deps:  Leaflet 1.9.4 (JS + CSS) via unpkg CDN.
+         Basemap tiles: CARTO Voyager (free, no key, Referer-friendly).
+         Markers: inline SVG (no external images — avoids CSP/pipeline issues).
 */}}
 {{- $data := index .Site.Data "ambassadors" -}}
 {{- $ambassadors := $data.ambassadors -}}
@@ -46,6 +47,9 @@
   .toa-popup .toa-popup-loc { color: #6b7280; font-size: 0.85rem; margin-top: 4px; }
   .toa-popup a { color: #0057b8; text-decoration: none; }
   .toa-popup a:hover { text-decoration: underline; }
+  /* Inline-SVG pin: no shadow div, no images, no CSP concerns. */
+  .toa-pin { background: transparent; border: none; }
+  .toa-pin svg { display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
   @media (max-width: 640px) { #toa-map { height: 340px; } }
 </style>
 
@@ -57,32 +61,8 @@
 
 <script>
 (function () {
-  var ambassadors = [
-  {{- range $i, $a := $ambassadors }}
-    {
-      name: {{ $a.name | jsonify }},
-      url: {{ $a.url | jsonify }},
-      org: {{ $a.org | jsonify }},
-      location: {{ $a.location | jsonify }},
-      flags: {{ $a.flags | jsonify }},
-      city: {{ $a.city | jsonify }},
-      lat: {{ $a.lat }},
-      lng: {{ $a.lng }},
-      efforts_text: {{ $a.efforts_text | jsonify }},
-      efforts_url: {{ $a.efforts_url | jsonify }}
-    }{{ if lt $i (sub (len $ambassadors) 1) }},{{ end }}
-  {{- end }}
-  ];
-
-  // Pin Leaflet's default marker icon assets to the CDN. Leaflet's auto-detect
-  // can point at the wrong path when the script is loaded from a CDN into a
-  // themed site, leaving markers with broken/invisible icons.
-  delete L.Icon.Default.prototype._getIconUrl;
-  L.Icon.Default.mergeOptions({
-    iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-    iconUrl:       'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-    shadowUrl:     'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
-  });
+  // Data is jsonified from data/ambassadors.yml — this is a real JS array.
+  var ambassadors = {{ $ambassadors | jsonify }};
 
   var map = L.map('toa-map', {
     center: [25, 10],
@@ -91,14 +71,28 @@
     worldCopyJump: true
   });
 
-  // CARTO Voyager basemap — free, no API key, permissive Referer policy.
-  // (OSM's own tile servers block requests without a Referer, e.g. local file:// previews.)
+  // CARTO Voyager basemap: free, no API key, tolerant of missing Referer.
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     maxZoom: 12,
     minZoom: 1,
     subdomains: 'abcd',
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
+
+  // Inline-SVG map pin — no external image, works under strict CSPs.
+  var pinSvg =
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 32" width="24" height="32" aria-hidden="true">' +
+      '<path fill="#0057b8" stroke="#ffffff" stroke-width="1.5" ' +
+        'd="M12 0.75C5.925 0.75 1 5.675 1 11.75c0 7.5 11 19.5 11 19.5s11-12 11-19.5C23 5.675 18.075 0.75 12 0.75z"/>' +
+      '<circle fill="#ffffff" cx="12" cy="11.75" r="4"/>' +
+    '</svg>';
+  var pinIcon = L.divIcon({
+    className: 'toa-pin',
+    html: pinSvg,
+    iconSize:    [24, 32],
+    iconAnchor:  [12, 32],
+    popupAnchor: [0, -30]
+  });
 
   ambassadors.forEach(function (a) {
     var effortsHtml = a.efforts_url
@@ -111,7 +105,7 @@
         '<div class="toa-popup-loc">' + (a.flags || []).join(' ') + ' ' + a.location + '</div>' +
         '<div class="toa-popup-loc">' + effortsHtml + '</div>' +
       '</div>';
-    L.marker([a.lat, a.lng]).addTo(map).bindPopup(popup);
+    L.marker([a.lat, a.lng], { icon: pinIcon }).addTo(map).bindPopup(popup);
   });
 })();
 </script>

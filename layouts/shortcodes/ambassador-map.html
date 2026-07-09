@@ -1,5 +1,5 @@
 {{/*
-  ambassador-map — Leaflet + OpenStreetMap world map of TODO OSPO Ambassadors.
+  ambassador map of TODO OSPO Ambassadors wiht OpenStreetMap
 
   Usage in Markdown:
       {{< ambassador-map >}}
@@ -74,6 +74,16 @@
   {{- end }}
   ];
 
+  // Pin Leaflet's default marker icon assets to the CDN. Leaflet's auto-detect
+  // can point at the wrong path when the script is loaded from a CDN into a
+  // themed site, leaving markers with broken/invisible icons.
+  delete L.Icon.Default.prototype._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+    iconUrl:       'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    shadowUrl:     'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
+  });
+
   var map = L.map('toa-map', {
     center: [25, 10],
     zoom: 2,
@@ -81,6 +91,8 @@
     worldCopyJump: true
   });
 
+  // CARTO Voyager basemap — free, no API key, permissive Referer policy.
+  // (OSM's own tile servers block requests without a Referer, e.g. local file:// previews.)
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     maxZoom: 12,
     minZoom: 1,

@@ -1,0 +1,105 @@
+{{/*
+  ambassador-map — Leaflet + OpenStreetMap world map of TODO OSPO Ambassadors.
+
+  Usage in Markdown:
+      {{< ambassador-map >}}
+
+  Reads: data/ambassadors.yml
+  Deps:  Leaflet 1.9.4 via unpkg CDN. No API key, no third-party account.
+         Tiles from OpenStreetMap (attribution required and included).
+*/}}
+{{- $data := index .Site.Data "ambassadors" -}}
+{{- $ambassadors := $data.ambassadors -}}
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+
+<div class="toa-map-wrapper">
+  <div id="toa-map" role="region" aria-label="Interactive world map of TODO OSPO Ambassadors"></div>
+  <p class="toa-map-caption">
+    {{ len $ambassadors }} ambassadors across the globe. Click a marker for details.
+  </p>
+</div>
+
+<style>
+  .toa-map-wrapper { margin: 1.5rem 0 2rem; }
+  #toa-map {
+    height: 460px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  .toa-map-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+  }
+  .toa-popup { font-size: 0.9rem; line-height: 1.4; }
+  .toa-popup strong { display: block; margin-bottom: 2px; font-size: 1rem; }
+  .toa-popup .toa-popup-org { color: #374151; }
+  .toa-popup .toa-popup-loc { color: #6b7280; font-size: 0.85rem; margin-top: 4px; }
+  .toa-popup a { color: #0057b8; text-decoration: none; }
+  .toa-popup a:hover { text-decoration: underline; }
+  @media (max-width: 640px) { #toa-map { height: 340px; } }
+</style>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+<script>
+(function () {
+  var ambassadors = [
+  {{- range $i, $a := $ambassadors }}
+    {
+      name: {{ $a.name | jsonify }},
+      url: {{ $a.url | jsonify }},
+      org: {{ $a.org | jsonify }},
+      location: {{ $a.location | jsonify }},
+      flags: {{ $a.flags | jsonify }},
+      city: {{ $a.city | jsonify }},
+      lat: {{ $a.lat }},
+      lng: {{ $a.lng }},
+      efforts_text: {{ $a.efforts_text | jsonify }},
+      efforts_url: {{ $a.efforts_url | jsonify }}
+    }{{ if lt $i (sub (len $ambassadors) 1) }},{{ end }}
+  {{- end }}
+  ];
+
+  var map = L.map('toa-map', {
+    center: [25, 10],
+    zoom: 2,
+    scrollWheelZoom: false,
+    worldCopyJump: true
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    maxZoom: 12,
+    minZoom: 1,
+    subdomains: 'abcd',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  }).addTo(map);
+
+  ambassadors.forEach(function (a) {
+    var effortsHtml = a.efforts_url
+      ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
+      : a.efforts_text;
+    var popup =
+      '<div class="toa-popup">' +
+        '<strong><a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a></strong>' +
+        '<span class="toa-popup-org">' + a.org + '</span>' +
+        '<div class="toa-popup-loc">' + (a.flags || []).join(' ') + ' ' + a.location + '</div>' +
+        '<div class="toa-popup-loc">' + effortsHtml + '</div>' +
+      '</div>';
+    L.marker([a.lat, a.lng]).addTo(map).bindPopup(popup);
+  });
+})();
+</script>

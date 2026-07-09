@@ -1,0 +1,148 @@
+# TODO OSPO Ambassadors. Used by: layouts/shortcodes/ambassador-map.html and layouts/shortcodes/ambassador-list.html
+# When adding an ambassador, include lat/lng of their primary city so they appear on the map. For multi-country ambassadors, list every country in `countries`
+
+ambassadors:
+  - name: Alin Jerpelea
+    url: https://github.com/jerpelea
+    org: Sony
+    location: Sweden
+    countries: [Sweden]
+    flags: ["🇸🇪"]
+    city: Stockholm
+    lat: 59.3293
+    lng: 18.0686
+    efforts_text: Swedish OSPO Network
+    efforts_url: ""
+    term: June 2025 – 2027
+
+  - name: Angel Ramirez
+    url: https://github.com/ar4mirez
+    org: Cuemby
+    location: "LATAM (Mexico, Colombia)"
+    countries: [Mexico, Colombia]
+    flags: ["🇲🇽", "🇨🇴"]
+    city: Mexico City
+    lat: 19.4326
+    lng: -99.1332
+    efforts_text: OSPOlogy LATAM Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/
+    term: May 2024 – 2026
+
+  - name: Dawn Foster
+    url: https://github.com/geekygirldawn
+    org: Independent
+    location: United Kingdom
+    countries: [United Kingdom]
+    flags: ["🇬🇧"]
+    city: London
+    lat: 51.5074
+    lng: -0.1278
+    efforts_text: OSPOlogy UK Chapter — Coming Soon
+    efforts_url: ""
+    term: Feb 2026 – 2028
+
+  - name: Fernando Eugenio Correa
+    url: https://github.com/fer-correa
+    org: Mercado Libre
+    location: "LATAM (Brazil, Argentina)"
+    countries: [Brazil, Argentina]
+    flags: ["🇧🇷", "🇦🇷"]
+    city: São Paulo
+    lat: -23.5505
+    lng: -46.6333
+    efforts_text: OSPOlogy LATAM Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-latam-spanish-speaking/
+    term: April 2025 – 2027
+
+  - name: Gergely Csatári
+    url: https://github.com/CsatariGergely
+    org: Nokia
+    location: Finland
+    countries: [Finland]
+    flags: ["🇫🇮"]
+    city: Helsinki
+    lat: 60.1699
+    lng: 24.9384
+    efforts_text: OSPOlogy Helsinki Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-helsinki/
+    term: Nov 2024 – 2026
+
+  - name: Hitomi Mizugaki
+    url: https://github.com/hit0mim
+    org: Cuemby
+    location: "United States (Florida)"
+    countries: [United States]
+    flags: ["🇺🇸"]
+    city: Miami
+    lat: 25.7617
+    lng: -80.1918
+    efforts_text: OSPOlogy Florida Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-south-florida/
+    term: May 2024 – 2026
+
+  - name: Li Jiansheng
+    url: https://www.linkedin.com/in/lijiansheng/
+    org: LF APAC
+    location: China
+    countries: [China]
+    flags: ["🇨🇳"]
+    city: Beijing
+    lat: 39.9042
+    lng: 116.4074
+    efforts_text: OSPOlogy China Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-china-zh-cn-speaking/
+    term: March 2024 – 2026
+
+  - name: Masayuki Kuwata
+    url: https://github.com/kuwatm
+    org: Sony
+    location: Japan
+    countries: [Japan]
+    flags: ["🇯🇵"]
+    city: Tokyo
+    lat: 35.6762
+    lng: 139.6503
+    efforts_text: OSPOlogy Japan Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/
+    term: January 2025 – 2027
+
+  - name: Shu Muto
+    url: https://github.com/shu-mutou
+    org: NEC Solution Innovators, Ltd.
+    location: Japan
+    countries: [Japan]
+    flags: ["🇯🇵"]
+    city: Tokyo
+    # Slight offset so this marker doesn't fully overlap Masayuki Kuwata's
+    lat: 35.6862
+    lng: 139.6603
+    efforts_text: OSPOlogy Japan Chapter & OSPO Book JP Contributor
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/
+    term: December 2025 – 2027
+
+  - name: Thomas Steenbergen
+    url: https://github.com/tsteenbe
+    org: Independent
+    location: "Europe (Netherlands, Belgium, Germany)"
+    countries: [Netherlands, Belgium, Germany]
+    flags: ["🇳🇱", "🇧🇪", "🇩🇪"]
+    city: Amsterdam
+    lat: 52.3676
+    lng: 4.9041
+    efforts_text: OSPOlogy Europe Chapter
+    efforts_url: https://community.linuxfoundation.org/ospology-european-chapter/
+    term: October 2024 – 2026
+
+  - name: Zhiqiang Yu
+    url: https://github.com/zhiqiang-yu
+    org: China Mobile, LF APAC
+    location: China
+    countries: [China]
+    flags: ["🇨🇳"]
+    city: Beijing
+    # Slight offset so this marker doesn't fully overlap Li Jiansheng's
+    lat: 39.9142
+    lng: 116.4174
+    efforts_text: OSPOlogy China Chapter
+    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-china-zh-cn-speaking/
+    term: March 2024 – 2026

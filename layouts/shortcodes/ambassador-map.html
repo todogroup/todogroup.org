@@ -1,14 +1,3 @@
-{{/*
-  ambassador-map of TODO OSPO Ambassadors.
-
-  Usage in Markdown:
-      {{< ambassador-map >}}
-
-  Reads: data/ambassadors.yml
-  Deps:  Leaflet 1.9.4 (JS + CSS) via unpkg CDN.
-         Basemap tiles: CARTO Voyager (free, no key, Referer-friendly).
-         Markers: inline SVG (no external images — avoids CSP/pipeline issues).
-*/}}
 {{- $data := index .Site.Data "ambassadors" -}}
 {{- $ambassadors := $data.ambassadors -}}
 
@@ -24,6 +13,7 @@
   <p class="toa-map-caption">
     {{ len $ambassadors }} ambassadors across the globe. Click a marker for details.
   </p>
+  <p id="toa-map-error" class="toa-map-error" hidden></p>
 </div>
 
 <style>
@@ -41,15 +31,23 @@
     color: #6b7280;
     text-align: center;
   }
+  .toa-map-error {
+    margin-top: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    background: #fef3c7;
+    color: #78350f;
+    border: 1px solid #fcd34d;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    white-space: pre-wrap;
+  }
   .toa-popup { font-size: 0.9rem; line-height: 1.4; }
   .toa-popup strong { display: block; margin-bottom: 2px; font-size: 1rem; }
   .toa-popup .toa-popup-org { color: #374151; }
   .toa-popup .toa-popup-loc { color: #6b7280; font-size: 0.85rem; margin-top: 4px; }
   .toa-popup a { color: #0057b8; text-decoration: none; }
   .toa-popup a:hover { text-decoration: underline; }
-  /* Inline-SVG pin: no shadow div, no images, no CSP concerns. */
-  .toa-pin { background: transparent; border: none; }
-  .toa-pin svg { display: block; filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35)); }
   @media (max-width: 640px) { #toa-map { height: 340px; } }
 </style>
 
@@ -59,53 +57,77 @@
   crossorigin=""
 ></script>
 
+<script type="application/json" id="toa-ambassador-data">
+{{ $ambassadors | jsonify }}
+</script>
+
 <script>
 (function () {
-  // Data is jsonified from data/ambassadors.yml — this is a real JS array.
-  var ambassadors = {{ $ambassadors | jsonify }};
+  var errEl = document.getElementById('toa-map-error');
+  function fail(msg) {
+    if (errEl) { errEl.hidden = false; errEl.textContent = 'Map error: ' + msg; }
+    if (window.console) console.error('[ambassador-map]', msg);
+  }
 
-  var map = L.map('toa-map', {
-    center: [25, 10],
-    zoom: 2,
-    scrollWheelZoom: false,
-    worldCopyJump: true
-  });
+  try {
+    if (typeof L === 'undefined') { return fail('Leaflet failed to load from CDN.'); }
 
-  // CARTO Voyager basemap: free, no API key, tolerant of missing Referer.
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    maxZoom: 12,
-    minZoom: 1,
-    subdomains: 'abcd',
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-  }).addTo(map);
+    var dataEl = document.getElementById('toa-ambassador-data');
+    if (!dataEl) { return fail('Ambassador data block not found in DOM.'); }
+    var ambassadors;
+    try {
+      ambassadors = JSON.parse(dataEl.textContent || '[]');
+    } catch (e) {
+      return fail('Ambassador JSON parse failed: ' + e.message);
+    }
+    if (!Array.isArray(ambassadors) || ambassadors.length === 0) {
+      return fail('Ambassador list is empty.');
+    }
 
-  // Inline-SVG map pin — no external image, works under strict CSPs.
-  var pinSvg =
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 32" width="24" height="32" aria-hidden="true">' +
-      '<path fill="#0057b8" stroke="#ffffff" stroke-width="1.5" ' +
-        'd="M12 0.75C5.925 0.75 1 5.675 1 11.75c0 7.5 11 19.5 11 19.5s11-12 11-19.5C23 5.675 18.075 0.75 12 0.75z"/>' +
-      '<circle fill="#ffffff" cx="12" cy="11.75" r="4"/>' +
-    '</svg>';
-  var pinIcon = L.divIcon({
-    className: 'toa-pin',
-    html: pinSvg,
-    iconSize:    [24, 32],
-    iconAnchor:  [12, 32],
-    popupAnchor: [0, -30]
-  });
+    var map = L.map('toa-map', {
+      center: [25, 10],
+      zoom: 2,
+      scrollWheelZoom: false,
+      worldCopyJump: true
+    });
 
-  ambassadors.forEach(function (a) {
-    var effortsHtml = a.efforts_url
-      ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
-      : a.efforts_text;
-    var popup =
-      '<div class="toa-popup">' +
-        '<strong><a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a></strong>' +
-        '<span class="toa-popup-org">' + a.org + '</span>' +
-        '<div class="toa-popup-loc">' + (a.flags || []).join(' ') + ' ' + a.location + '</div>' +
-        '<div class="toa-popup-loc">' + effortsHtml + '</div>' +
-      '</div>';
-    L.marker([a.lat, a.lng], { icon: pinIcon }).addTo(map).bindPopup(popup);
-  });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 12,
+      minZoom: 1,
+      subdomains: 'abcd',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    }).addTo(map);
+
+    var added = 0;
+    ambassadors.forEach(function (a) {
+      if (typeof a.lat !== 'number' || typeof a.lng !== 'number') return;
+      var effortsHtml = a.efforts_url
+        ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
+        : (a.efforts_text || '');
+      var popup =
+        '<div class="toa-popup">' +
+          '<strong><a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a></strong>' +
+          '<span class="toa-popup-org">' + (a.org || '') + '</span>' +
+          '<div class="toa-popup-loc">' + ((a.flags || []).join(' ')) + ' ' + (a.location || '') + '</div>' +
+          '<div class="toa-popup-loc">' + effortsHtml + '</div>' +
+        '</div>';
+
+      L.circleMarker([a.lat, a.lng], {
+        radius: 8,
+        color: '#ffffff',
+        weight: 2,
+        opacity: 1,
+        fillColor: '#0057b8',
+        fillOpacity: 1
+      }).addTo(map).bindPopup(popup);
+      added++;
+    });
+
+    if (added === 0) {
+      fail('No markers rendered (0 of ' + ambassadors.length + ' had valid coordinates).');
+    }
+  } catch (e) {
+    fail(e && e.message ? e.message : String(e));
+  }
 })();
 </script>

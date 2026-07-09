@@ -42,12 +42,61 @@
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     white-space: pre-wrap;
   }
-  .toa-popup { font-size: 0.9rem; line-height: 1.4; }
-  .toa-popup strong { display: block; margin-bottom: 2px; font-size: 1rem; }
-  .toa-popup .toa-popup-org { color: #374151; }
-  .toa-popup .toa-popup-loc { color: #6b7280; font-size: 0.85rem; margin-top: 4px; }
-  .toa-popup a { color: #0057b8; text-decoration: none; }
-  .toa-popup a:hover { text-decoration: underline; }
+  .leaflet-popup-pane { z-index: 1100; }
+  .leaflet-popup { z-index: 1100; }
+  .leaflet-popup-content-wrapper { border-radius: 10px; padding: 0; box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+  .leaflet-popup-content { margin: 0; width: 260px !important; max-width: 260px; }
+  .leaflet-popup-tip { box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+  @media (max-width: 520px) {
+    .leaflet-popup-content { width: 200px !important; max-width: 200px; }
+    .toa-popup { padding: 12px 14px 10px; }
+    .toa-popup__name { font-size: 1rem; }
+    .toa-popup__label { min-width: 54px; font-size: 0.65rem; }
+  }
+  .toa-popup {
+    font-family: inherit;
+    padding: 14px 16px 12px;
+    color: #111827;
+    line-height: 1.45;
+  }
+  .toa-popup__name {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 2px;
+  }
+  .toa-popup__name a { color: #0057b8; text-decoration: none; }
+  .toa-popup__name a:hover { text-decoration: underline; }
+  .toa-popup__org {
+    display: block;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 10px;
+  }
+  .toa-popup__row {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    padding-top: 8px;
+    border-top: 1px solid #f1f2f4;
+    font-size: 0.85rem;
+  }
+  .toa-popup__row + .toa-popup__row { margin-top: 6px; }
+  .toa-popup__label {
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #9ca3af;
+    padding-top: 1px;
+    min-width: 62px;
+  }
+  .toa-popup__value { flex: 1; color: #374151; word-break: break-word; }
+  .toa-popup__value a { color: #0057b8; text-decoration: none; }
+  .toa-popup__value a:hover { text-decoration: underline; }
+  .toa-popup__flags { margin-right: 4px; font-size: 0.95em; }
   @media (max-width: 640px) { #toa-map { height: 340px; } }
 </style>
 
@@ -87,11 +136,10 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
       worldCopyJump: true
     });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 12,
       minZoom: 1,
-      subdomains: 'abcd',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
     var added = 0;
@@ -100,12 +148,25 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
       var effortsHtml = a.efforts_url
         ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
         : (a.efforts_text || '');
+      var flagsHtml = (a.flags && a.flags.length)
+        ? '<span class="toa-popup__flags" aria-hidden="true">' + a.flags.join(' ') + '</span>'
+        : '';
       var popup =
         '<div class="toa-popup">' +
-          '<strong><a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a></strong>' +
-          '<span class="toa-popup-org">' + (a.org || '') + '</span>' +
-          '<div class="toa-popup-loc">' + ((a.flags || []).join(' ')) + ' ' + (a.location || '') + '</div>' +
-          '<div class="toa-popup-loc">' + effortsHtml + '</div>' +
+          '<span class="toa-popup__name">' +
+            '<a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a>' +
+          '</span>' +
+          '<span class="toa-popup__org">' + (a.org || '') + '</span>' +
+          '<div class="toa-popup__row">' +
+            '<span class="toa-popup__label">Location</span>' +
+            '<span class="toa-popup__value">' + flagsHtml + (a.location || '') + '</span>' +
+          '</div>' +
+          (effortsHtml
+            ? '<div class="toa-popup__row">' +
+                '<span class="toa-popup__label">Chapter</span>' +
+                '<span class="toa-popup__value">' + effortsHtml + '</span>' +
+              '</div>'
+            : '') +
         '</div>';
 
       L.circleMarker([a.lat, a.lng], {
@@ -115,7 +176,12 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
         opacity: 1,
         fillColor: '#0057b8',
         fillOpacity: 1
-      }).addTo(map).bindPopup(popup);
+      }).addTo(map).bindPopup(popup, {
+        autoPan: true,
+        autoPanPadding: [50, 60],
+        keepInView: true,
+        closeButton: true
+      });
       added++;
     });
 

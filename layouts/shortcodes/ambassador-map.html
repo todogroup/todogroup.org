@@ -1,0 +1,240 @@
+{{- $data := index .Site.Data "ambassadors" -}}
+{{- $ambassadors := $data.ambassadors -}}
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+
+<div class="toa-map-wrapper">
+  <div id="toa-map" role="region" aria-label="Interactive world map of TODO OSPO Ambassadors"></div>
+  <p class="toa-map-caption">
+    {{ len $ambassadors }} ambassadors across the globe. Click a marker for details.
+  </p>
+  <p id="toa-map-error" class="toa-map-error" hidden></p>
+</div>
+
+<style>
+  .toa-map-wrapper { margin: 1.5rem 0 2rem; }
+  #toa-map {
+    height: 460px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  .toa-map-caption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+  }
+  .toa-map-error {
+    margin-top: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    background: #fef3c7;
+    color: #78350f;
+    border: 1px solid #fcd34d;
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    white-space: pre-wrap;
+  }
+  .leaflet-popup-pane { z-index: 1100; }
+  .leaflet-popup {
+    z-index: 1100;
+    width: auto !important;
+    max-width: 260px !important;
+    box-sizing: content-box !important;
+  }
+  .leaflet-popup-content-wrapper {
+    width: auto !important;
+    max-width: 260px !important;
+    min-width: 0 !important;
+    display: inline-block !important;
+    box-sizing: border-box !important;
+    border-radius: 10px !important;
+    padding: 0 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+    overflow: visible !important;
+  }
+  .leaflet-popup-content {
+    width: 240px !important;
+    max-width: 240px !important;
+    min-width: 240px !important;
+    margin: 0 !important;
+    display: block !important;
+    box-sizing: content-box !important;
+  }
+  .leaflet-popup-tip-container { width: 40px !important; margin: 0 auto !important; }
+  .leaflet-popup-tip { box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important; }
+  .leaflet-container a.leaflet-popup-close-button {
+    top: 6px !important;
+    right: 6px !important;
+    width: 26px !important;
+    height: 26px !important;
+    padding: 0 !important;
+    font: 700 18px/24px system-ui, -apple-system, sans-serif !important;
+    color: #6b7280 !important;
+    background: #f3f4f6 !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    z-index: 10 !important;
+    transition: background 120ms, color 120ms;
+  }
+  .leaflet-container a.leaflet-popup-close-button:hover {
+    background: #e5e7eb !important;
+    color: #111827 !important;
+  }
+  @media (max-width: 520px) {
+    .leaflet-popup { max-width: 220px !important; }
+    .leaflet-popup-content-wrapper { max-width: 220px !important; }
+    .leaflet-popup-content { width: 200px !important; max-width: 200px !important; min-width: 200px !important; }
+    .toa-popup { padding: 12px 14px 10px; }
+    .toa-popup__name { font-size: 1rem; }
+    .toa-popup__label { min-width: 54px; font-size: 0.65rem; }
+  }
+  .toa-popup {
+    font-family: inherit;
+    padding: 14px 40px 12px 16px;
+    color: #111827;
+    line-height: 1.45;
+  }
+  .toa-popup__name {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 2px;
+  }
+  .toa-popup__name a { color: #0057b8; text-decoration: none; }
+  .toa-popup__name a:hover { text-decoration: underline; }
+  .toa-popup__org {
+    display: block;
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 10px;
+  }
+  .toa-popup__row {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    padding-top: 8px;
+    border-top: 1px solid #f1f2f4;
+    font-size: 0.85rem;
+  }
+  .toa-popup__row + .toa-popup__row { margin-top: 6px; }
+  .toa-popup__label {
+    flex: 0 0 auto;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #9ca3af;
+    padding-top: 1px;
+    min-width: 62px;
+  }
+  .toa-popup__value { flex: 1; color: #374151; word-break: break-word; }
+  .toa-popup__value a { color: #0057b8; text-decoration: none; }
+  .toa-popup__value a:hover { text-decoration: underline; }
+  .toa-popup__flags { margin-right: 4px; font-size: 0.95em; }
+  @media (max-width: 640px) { #toa-map { height: 340px; } }
+</style>
+
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""
+></script>
+
+<script>
+window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
+</script>
+
+<script>
+(function () {
+  var errEl = document.getElementById('toa-map-error');
+  function fail(msg) {
+    if (errEl) { errEl.hidden = false; errEl.textContent = 'Map error: ' + msg; }
+    if (window.console) console.error('[ambassador-map]', msg);
+  }
+
+  try {
+    if (typeof L === 'undefined') { return fail('Leaflet failed to load from CDN.'); }
+
+    var ambassadors = window.__TOA_AMBASSADORS__;
+    if (!Array.isArray(ambassadors)) {
+      return fail('Ambassador data is not an array. Got: ' + Object.prototype.toString.call(ambassadors));
+    }
+    if (ambassadors.length === 0) {
+      return fail('Ambassador list is empty.');
+    }
+
+    var map = L.map('toa-map', {
+      center: [25, 10],
+      zoom: 2,
+      scrollWheelZoom: false,
+      worldCopyJump: true
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 12,
+      minZoom: 1,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var added = 0;
+    ambassadors.forEach(function (a) {
+      if (typeof a.lat !== 'number' || typeof a.lng !== 'number') return;
+      var effortsHtml = a.efforts_url
+        ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
+        : (a.efforts_text || '');
+      var flagsHtml = (a.flags && a.flags.length)
+        ? '<span class="toa-popup__flags" aria-hidden="true">' + a.flags.join(' ') + '</span>'
+        : '';
+      var popup =
+        '<div class="toa-popup">' +
+          '<span class="toa-popup__name">' +
+            '<a href="' + a.url + '" target="_blank" rel="noopener">' + a.name + '</a>' +
+          '</span>' +
+          '<span class="toa-popup__org">' + (a.org || '') + '</span>' +
+          '<div class="toa-popup__row">' +
+            '<span class="toa-popup__label">Location</span>' +
+            '<span class="toa-popup__value">' + flagsHtml + (a.location || '') + '</span>' +
+          '</div>' +
+          (effortsHtml
+            ? '<div class="toa-popup__row">' +
+                '<span class="toa-popup__label">Chapter</span>' +
+                '<span class="toa-popup__value">' + effortsHtml + '</span>' +
+              '</div>'
+            : '') +
+        '</div>';
+
+      L.circleMarker([a.lat, a.lng], {
+        radius: 8,
+        color: '#ffffff',
+        weight: 2,
+        opacity: 1,
+        fillColor: '#0057b8',
+        fillOpacity: 1
+      }).addTo(map).bindPopup(popup, {
+        autoPan: true,
+        autoPanPadding: [50, 60],
+        keepInView: true,
+        closeButton: true
+      });
+      added++;
+    });
+
+    if (added === 0) {
+      fail('No markers rendered (0 of ' + ambassadors.length + ' had valid coordinates).');
+    }
+  } catch (e) {
+    fail(e && e.message ? e.message : String(e));
+  }
+})();
+</script>

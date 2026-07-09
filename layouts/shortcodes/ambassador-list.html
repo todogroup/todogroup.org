@@ -1,0 +1,210 @@
+{{/*
+  ambassador-list
+
+  Usage in Markdown:
+      {{< ambassador-list >}}
+
+  Reads: data/ambassadors.yml
+  Features:
+    - Country dropdown (auto-populated from data, includes multi-country ambassadors)
+    - Free-text search across name / org / location
+    - Live "Showing N" count
+    - Progressive enhancement: without JS, the full table still renders
+*/}}
+{{- $data := index .Site.Data "ambassadors" -}}
+{{- $ambassadors := $data.ambassadors -}}
+
+{{- /* Build sorted, unique list of countries */ -}}
+{{- $countries := slice -}}
+{{- range $ambassadors -}}
+  {{- range .countries -}}
+    {{- if not (in $countries .) -}}
+      {{- $countries = $countries | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $countries = sort $countries -}}
+
+<div class="toa-list-wrapper" data-toa-total="{{ len $ambassadors }}">
+  <div class="toa-list-controls">
+    <label class="toa-list-search">
+      <span class="visually-hidden">Search ambassadors</span>
+      <input
+        type="search"
+        id="toa-search"
+        placeholder="Search name, organization, or location…"
+        autocomplete="off"
+      />
+    </label>
+
+    <label class="toa-list-filter">
+      <span class="visually-hidden">Filter by country</span>
+      <select id="toa-country">
+        <option value="">All countries</option>
+        {{- range $countries }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{- end }}
+      </select>
+    </label>
+
+    <div class="toa-list-count" aria-live="polite">
+      Showing <strong id="toa-count">{{ len $ambassadors }}</strong> of {{ len $ambassadors }}
+    </div>
+  </div>
+
+  <div class="toa-list-table-wrap">
+    <table class="toa-list-table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Organization</th>
+          <th scope="col">Location</th>
+          <th scope="col">Local Efforts</th>
+          <th scope="col">Term</th>
+        </tr>
+      </thead>
+      <tbody id="toa-tbody">
+        {{- range $ambassadors }}
+        <tr
+          class="toa-row"
+          data-countries="{{ delimit .countries "|" }}"
+          data-search="{{ .name }} {{ .org }} {{ .location }}"
+        >
+          <td>
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+          </td>
+          <td>{{ .org }}</td>
+          <td>
+            <span class="toa-flags" aria-hidden="true">{{ delimit .flags " " }}</span>
+            {{ .location }}
+          </td>
+          <td>
+            {{- if .efforts_url -}}
+              <a href="{{ .efforts_url }}" target="_blank" rel="noopener">{{ .efforts_text }}</a>
+            {{- else -}}
+              {{ .efforts_text }}
+            {{- end -}}
+          </td>
+          <td class="toa-term">{{ .term }}</td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+    <p class="toa-empty" id="toa-empty" hidden>No ambassadors match your search.</p>
+  </div>
+</div>
+
+<style>
+  .toa-list-wrapper { margin: 1.5rem 0 2rem; }
+  .toa-list-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .toa-list-search { flex: 1 1 260px; }
+  .toa-list-search input,
+  .toa-list-filter select {
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background: #fff;
+  }
+  .toa-list-search input:focus,
+  .toa-list-filter select:focus {
+    outline: none;
+    border-color: #0057b8;
+    box-shadow: 0 0 0 3px rgba(0,87,184,0.15);
+  }
+  .toa-list-filter { flex: 0 1 220px; }
+  .toa-list-count {
+    margin-left: auto;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  .toa-list-count strong { color: #111827; }
+
+  .toa-list-table-wrap { overflow-x: auto; }
+  .toa-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  .toa-list-table thead th {
+    text-align: left;
+    padding: 0.75rem 0.9rem;
+    background: #f9fafb;
+    border-bottom: 2px solid #e5e7eb;
+    font-weight: 600;
+    color: #374151;
+    white-space: nowrap;
+  }
+  .toa-list-table tbody td {
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid #f3f4f6;
+    vertical-align: top;
+  }
+  .toa-list-table tbody tr:hover { background: #fafbff; }
+  .toa-list-table a { color: #0057b8; text-decoration: none; }
+  .toa-list-table a:hover { text-decoration: underline; }
+  .toa-flags { margin-right: 0.35rem; font-size: 1.05rem; }
+  .toa-term { color: #6b7280; white-space: nowrap; }
+  .toa-empty {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #6b7280;
+    font-style: italic;
+  }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  }
+  @media (max-width: 640px) {
+    .toa-list-count { margin-left: 0; width: 100%; }
+    .toa-list-table thead { display: none; }
+    .toa-list-table tbody tr {
+      display: block;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .toa-list-table tbody td {
+      display: block;
+      padding: 0.15rem 0;
+      border: none;
+    }
+    .toa-list-table tbody td:first-child { font-weight: 600; font-size: 1rem; }
+  }
+</style>
+
+<script>
+(function () {
+  var searchInput = document.getElementById('toa-search');
+  var countrySelect = document.getElementById('toa-country');
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.toa-row'));
+  var countEl = document.getElementById('toa-count');
+  var emptyEl = document.getElementById('toa-empty');
+
+  function apply() {
+    var q = (searchInput.value || '').trim().toLowerCase();
+    var c = countrySelect.value || '';
+    var shown = 0;
+    rows.forEach(function (row) {
+      var countries = (row.getAttribute('data-countries') || '').split('|');
+      var haystack = (row.getAttribute('data-search') || '').toLowerCase();
+      var matchesCountry = !c || countries.indexOf(c) !== -1;
+      var matchesQuery = !q || haystack.indexOf(q) !== -1;
+      var visible = matchesCountry && matchesQuery;
+      row.style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+    countEl.textContent = shown;
+    emptyEl.hidden = shown !== 0;
+  }
+
+  searchInput.addEventListener('input', apply);
+  countrySelect.addEventListener('change', apply);
+})();
+</script>

@@ -8,9 +8,9 @@ date: 2025-11-13
 
 ## Introduction
 
-As part of the **OSPO Roadshow** initiated by the **Linux Foundation APAC OSPO SIG**, we have been visiting various companies across China since 2021 — including China Mobile Research Institute, Red Hat China, Didi, ZTE, and GitLab China — to share and exchange experiences about open source and enterprise collaboration.
+As part of the **OSPO Roadshow** initiated by the **Linux Foundation APAC OSPO SIG**, we have been visiting various companies across China since 2021 (including China Mobile Research Institute, Red Hat China, Didi, ZTE, and GitLab China) to share and exchange experiences about open source and enterprise collaboration.
 
-In 2024, this community activity officially became part of the **TODO Group China Chapter**, further strengthening collaboration among local OSPOs.  
+In 2024, this community activity officially became part of the **TODO Group China Chapter**, further strengthening collaboration among both local and global OSPOs.  
 On November 7, 2025, the OSPO Roadshow arrived at [Midea Group’s headquarters](https://www.midea.es/proyectos-destacados/midea-headquarter-building/) in Shunde, Foshan, Guangdong Province.
 
 ![Midea Headquarters](/images/blog/midea-hq.jpg)
@@ -21,21 +21,21 @@ On November 7, 2025, the OSPO Roadshow arrived at [Midea Group’s headquarters]
 **Venue:** Midea Group Headquarters, Beijiao Town, Shunde District, Foshan, Guangdong, China
 
 **Agenda:**
-- 14:00 – 14:15 &nbsp; Participant introductions and networking  
-- 14:15 – 14:25 &nbsp; Welcome remarks from Midea OSPO  
-- 14:25 – 15:05 &nbsp; *"Cold Start Challenges for Open Source Projects and Events"* — **Hanqin Wu**  
-- 15:05 – 15:45 &nbsp; *"Why OSPO? Embedding Modern Management Practices"* — **Jiansheng Li**  
-- 15:45 – 16:00 &nbsp; Coffee break  
-- 16:00 – 16:40 &nbsp; *"Open Source Compliance Challenges for Embedded Software"* — **Ye Tao**  
-- 16:40 – 17:00 &nbsp; *"OSPO Reflections and Practices"* — **Zhentao Yang**  
-- 17:00 – 17:30 &nbsp; Group photo  
-- 17:30 – 21:00 &nbsp; Dinner and informal discussions
+- 14:00 – 14:15 | Participant introductions and networking  
+- 14:15 – 14:25 | Welcome remarks from Midea OSPO  
+- 14:25 – 15:05 | *"Cold Start Challenges for Open Source Projects and Events"* — **Hanqin Wu**  
+- 15:05 – 15:45 | *"Why OSPO? Embedding Modern Management Practices"* — **Jiansheng Li**  
+- 15:45 – 16:00 | Coffee break  
+- 16:00 – 16:40 | *"Open Source Compliance Challenges for Embedded Software"* — **Ye Tao**  
+- 16:40 – 17:00 | *"OSPO Reflections and Practices"* — **Zhentao Yang**  
+- 17:00 – 17:30 | Group photo  
+- 17:30 – 21:00 | Dinner and informal discussions
 
 ## Highlights and Key Discussions
 
-### 1. Cold Start Challenges for Open Source Projects and Events — *Hanqin Wu*
+**Challenges for Open Source Projects and Events | Hanqin Wu**
 
-Hanqin shared practical approaches to solving the “cold start” problem in open source communities — how to move from **0 to 1**, and then **1 to 100**.  
+Hanqin shared practical approaches to solving the “cold start” problem in open source communities (how to move from **0 to 1**, and then **1 to 100**).  
 Topics included:
 - How to attract and motivate volunteers in early project stages  
 - How to manage both code and non-code contributors  
@@ -44,16 +44,16 @@ Topics included:
 
 This interactive session sparked strong discussion among attendees.
 
-### 2. Why OSPO? Embedding Modern Management Practices — *Jiansheng Li*
+**Why OSPO? Embedding Modern Management Practices | Jiansheng Li**
 
 Jiansheng explored the unique operational logic of open source collaboration — what he called the **“third mode of operation”**, distinct from traditional industrial management.  
 Drawing on examples such as **Linux Foundation**, **Android**, **IBM WebSphere**, and **Red Hat Ansible**, he illustrated how organizations can adapt management structures to embrace open source innovation, through lenses of **law, economics, and organizational management**.
 
-### 3. Open Source Compliance for Embedded Software — *Ye Tao*
+**Open Source Compliance for Embedded Software | Ye Tao**
 
 Ye Tao shared insights from real-world compliance practices, discussing the **special requirements and challenges** of open source governance in embedded software environments.
 
-### 4. OSPO Reflections and Practices — *Zhentao Yang*
+**OSPO Reflections and Practices | Zhentao Yang**
 
 Zhentao offered an impromptu reflection on OSPO operations and cross-company collaboration, emphasizing the importance of community-driven innovation and shared learning.
 

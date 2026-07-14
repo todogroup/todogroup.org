@@ -1,6 +1,6 @@
 ---
 title: "Exploring Verifiable Provenance for AI-Assisted Software Contributions"
-author: chrisxie
+author: chrisxie-fw
 date: 2026-07-14
 ---
 

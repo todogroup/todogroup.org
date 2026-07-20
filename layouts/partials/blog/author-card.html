@@ -1,0 +1,124 @@
+{{/*
+    Author card for single blog posts: photo (from an external URL), name, role,
+    company, and date. Degrades gracefully at every level:
+  
+    1. `image` key present in data/authors.yaml  -> photo from that URL
+    2. no `image` key, or the URL fails to load  -> initials avatar (pure CSS)
+    3. author key missing from authors.yaml      -> falls back to the theme's
+       original compact byline, so legacy posts keep rendering as today.
+  
+    New OPTIONAL keys per author in data/authors.yaml: `role`, `image`.
+    Existing entries (name / twitter / company) need no changes.
+  */}}
+  {{- $date := .Date.Format "January 2, 2006" }}
+  {{- $allAuthors := .Site.Data.authors }}
+  {{- $authorKey := .Params.author }}
+  {{- $authorData := "" }}
+  {{- if and $allAuthors $authorKey }}
+    {{- $authorData = index $allAuthors $authorKey }}
+  {{- end }}
+  
+  {{- if $authorData }}
+    {{- /* Initials for the no-photo fallback, e.g. "Ibrahim Haddad" -> "IH" */}}
+    {{- $initials := "" }}
+    {{- range first 2 (split (trim $authorData.name " ") " ") }}
+      {{- $initials = printf "%s%s" $initials (substr . 0 1) }}
+    {{- end }}
+    <div class="author-card">
+      <div class="author-card__avatar">
+        <span class="author-card__initials" aria-hidden="true">{{ $initials | upper }}</span>
+        {{- with $authorData.image }}
+        <img
+          class="author-card__photo"
+          src="{{ . }}"
+          alt="{{ $authorData.name }}"
+          loading="lazy"
+          referrerpolicy="no-referrer"
+          onerror="this.remove()"
+        />
+        {{- end }}
+      </div>
+      <div class="author-card__meta">
+        <p class="author-card__name">
+          {{ if $authorData.twitter -}}
+            
+              href="https://www.twitter.com/{{ $authorData.twitter }}"
+              title="Visit {{ $authorData.name }} on Twitter"
+            >{{ $authorData.name }}</a>
+          {{- else -}}
+            {{ $authorData.name }}
+          {{- end }}
+        </p>
+        {{- $roleParts := slice }}
+        {{- with $authorData.role }}{{ $roleParts = $roleParts | append . }}{{ end }}
+        {{- with $authorData.company }}{{ $roleParts = $roleParts | append . }}{{ end }}
+        {{- with delimit $roleParts ", " }}
+        <p class="author-card__role">{{ . }}</p>
+        {{- end }}
+        {{- with $date }}
+        <p class="author-card__date">{{ . }}</p>
+        {{- end }}
+      </div>
+    </div>
+    <style>
+        .author-card {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          margin: 0.5rem 0 2rem;
+          padding: 1rem 1.25rem;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 0.5rem;
+        }
+        /* Doubled selectors beat the theme's `.content div { width: 100% }` rule */
+        .author-card .author-card__avatar {
+          position: relative;
+          flex: 0 0 4rem;
+          width: 4rem;
+          max-width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          overflow: hidden;
+          background: #e9ecf2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .author-card .author-card__meta {
+          width: auto;
+          flex: 1 1 auto;
+          min-width: 0;
+        }
+        .author-card__initials {
+          font-weight: 700;
+          font-size: 1.25rem;
+          color: #55617a;
+        }
+        .author-card .author-card__photo {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .author-card__meta p {
+          margin: 0;
+          line-height: 1.4;
+        }
+        .author-card__name {
+          font-weight: 700;
+        }
+        .author-card__role {
+          font-size: 0.9rem;
+          opacity: 0.8;
+        }
+        .author-card__date {
+          font-size: 0.85rem;
+          opacity: 0.65;
+        }
+      </style>
+  {{- else }}
+    {{- /* Unknown author key: keep today's behavior untouched */}}
+    {{- partial "blog/byline.html" . }}
+  {{- end }}

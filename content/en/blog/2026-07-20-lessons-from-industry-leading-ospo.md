@@ -75,8 +75,7 @@ The success factors above are not equally relevant at every stage. Governance an
 
 The failure modes repeat across companies. The most common is framing the office purely around compliance, which turns it into a bottleneck that engineering learns to route around. The second is launching without an executive sponsor, which leaves the OSPO defenseless at the first reorganization. The third is over-promising in year 1: an office that commits to transforming engineering culture in 12 months will miss, and early misses are hard to live down. The last is cultural: an OSPO seen as the open source "police" creates resistance, while one that makes engineers' lives easier finds teams coming to it on their own, and that voluntary demand is what keeps a program office funded through lean years.
 
-<img width="1584" height="1224" alt="lessons_ospo_blog" src="https://github.com/user-attachments/assets/ce7fe43d-657c-47ab-88d3-8b0f61138a22" />
-
+![lessons_ospo](https://github.com/user-attachments/assets/ce7fe43d-657c-47ab-88d3-8b0f61138a22)
 
 ## Building a new OSPO
 

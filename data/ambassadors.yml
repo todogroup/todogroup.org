@@ -67,19 +67,6 @@ ambassadors:
     efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-helsinki/
     term: Nov 2024 – 2026
 
-  - name: Hitomi Mizugaki
-    url: https://github.com/hit0mim
-    org: Cuemby
-    location: "United States (Florida)"
-    countries: [United States]
-    flags: ["🇺🇸"]
-    city: Miami
-    lat: 25.7617
-    lng: -80.1918
-    efforts_text: OSPOlogy Florida Chapter
-    efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-south-florida/
-    term: May 2024 – 2026
-
   - name: Li Jiansheng
     url: https://www.linkedin.com/in/lijiansheng/
     org: LF APAC

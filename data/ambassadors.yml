@@ -120,19 +120,6 @@ ambassadors:
     efforts_url: https://community.linuxfoundation.org/ospo-local-meetup-japan-japanese-speaking/
     term: December 2025 – 2027
 
-  - name: Swastik Baranwal
-    url: https://github.com/Delta456
-    org: LambdaTest
-    location: India
-    countries: [India]
-    flags: ["🇮🇳"]
-    city: Delhi
-    lat: 28.6139
-    lng: 77.2090
-    efforts_text: OSS in Business Working Group Co-chair
-    efforts_url: https://todogroup.org/working-groups/oss-in-business/
-    term: August 2026 – 2028
-
   - name: Thomas Steenbergen
     url: https://github.com/tsteenbe
     org: Independent

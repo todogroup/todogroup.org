@@ -1,0 +1,18 @@
+.nomination-form { max-width: 895px; margin: 3rem 0; font-family: var(--rounded-font-family); }
+.nomination-form fieldset { min-width: 0; margin: 2rem 0; padding: 1.5rem; border: 1px solid var(--gray-300); border-radius: 12px; }
+.nomination-form legend { padding: 0 .5rem; font-family: var(--condensed-font-family); font-weight: 700; font-size: 1.6rem; color: var(--primary-800); }
+.nomination-form__field + .nomination-form__field { margin-top: 2rem; }
+.nomination-form label { display: block; font-weight: 700; line-height: 1.5; }
+.nomination-form input:not([type="hidden"]), .nomination-form textarea { display: block; box-sizing: border-box; width: 100%; max-width: 100%; margin-top: .6rem; padding: .8rem 1rem; font: inherit; font-size: 1rem; line-height: 1.5; color: var(--black); background: var(--white); border: 1px solid var(--gray-700); border-radius: 8px; }
+.nomination-form textarea { resize: vertical; min-height: 8rem; }
+.nomination-form input:focus-visible, .nomination-form textarea:focus-visible, .nomination-form button:focus-visible { outline: 3px solid var(--primary-600); outline-offset: 3px; }
+.nomination-form .nomination-form__help { margin: .5rem 0 0; font-size: 1rem; line-height: 1.5; }
+.nomination-form__notice { margin: 2rem 0; padding: 1.5rem; background: var(--gray-200); border-radius: 12px; }
+.nomination-form__notice h2 { margin-top: 0; font-size: 1.6rem; }
+.nomination-form__notice p:last-child { margin-bottom: 0; }
+.nomination-form button { padding: .9rem 1.5rem; font: inherit; font-weight: 700; color: var(--white); background: var(--primary-700); border: 0; border-radius: 8px; cursor: pointer; }
+.nomination-form button:hover { background: var(--primary-800); }
+@media (max-width: 600px) {
+  .nomination-form fieldset, .nomination-form__notice { padding: 1rem; }
+  .nomination-form button { width: 100%; }
+}

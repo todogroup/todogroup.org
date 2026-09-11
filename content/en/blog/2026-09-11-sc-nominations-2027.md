@@ -62,4 +62,4 @@ The Steering Committee meets monthly for a **one-hour meeting** and typically re
 
 ## Application Form
 
-If you're interested in joining the 2027 Steering Committee, please complete the [candidate application form](https://forms.gle/bJbkQTZPCTpBbFwc7). Applications open on **September 11, 2026**, and close on **October 20, 2026**.
+If you're interested in joining the 2027 Steering Committee, please complete the [candidate application form](/community/2027-steering-committee-application/). Applications open on **September 11, 2026**, and close on **October 20, 2026**.

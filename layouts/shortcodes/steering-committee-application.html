@@ -1,0 +1,61 @@
+<form class="nomination-form" name="steering-committee-2027" method="POST" action="{{ "community/2027-steering-committee-thanks/" | relURL }}" data-netlify="true" netlify-honeypot="bot-field" aria-label="Steering Committee candidate application">
+  <input type="hidden" name="form-name" value="steering-committee-2027">
+  <p hidden><label>Leave this field empty: <input name="bot-field" autocomplete="off" tabindex="-1"></label></p>
+  <p class="nomination-form__intro">Fields marked * are required. You do not need a Google account to apply.</p>
+
+  <fieldset>
+    <legend>Your details</legend>
+    <div class="nomination-form__field">
+      <label for="candidate-name">Full name <span aria-hidden="true">*</span></label>
+      <input id="candidate-name" name="name" type="text" autocomplete="name" maxlength="200" required>
+    </div>
+    <div class="nomination-form__field">
+      <label for="candidate-email">Email address <span aria-hidden="true">*</span></label>
+      <p id="candidate-email-help" class="nomination-form__help">We’ll only use this to contact you about your application. It will not be included with your answers when candidate information is shared.</p>
+      <input id="candidate-email" name="email" type="email" autocomplete="email" maxlength="254" aria-describedby="candidate-email-help" required>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Your contributions and motivation</legend>
+    <div class="nomination-form__field">
+      <label for="candidate-contributions">Could you share examples of your contributions to TODO Group events, resources, or working groups? <span aria-hidden="true">*</span></label>
+      <p id="candidate-contributions-help" class="nomination-form__help">Please describe your role and include links where available.</p>
+      <textarea id="candidate-contributions" name="contributions" rows="6" maxlength="15000" aria-describedby="candidate-contributions-help" required></textarea>
+    </div>
+    <div class="nomination-form__field">
+      <label for="candidate-motivation">Why do you want to serve on the TODO Steering Committee? <span aria-hidden="true">*</span></label>
+      <p id="candidate-motivation-help" class="nomination-form__help">Explain how you would contribute, what you would improve, and what you would preserve. <strong>This is a very important question.</strong></p>
+      <textarea id="candidate-motivation" name="motivation" rows="8" maxlength="15000" aria-describedby="candidate-motivation-help" required></textarea>
+    </div>
+    <div class="nomination-form__field">
+      <label for="candidate-expertise">What could you bring to the TODO Steering Committee in areas such as AI governance, open standards, agentic AI workflows, project maintenance in the agentic AI era, or AI supply chain management?</label>
+      <p id="candidate-expertise-help" class="nomination-form__help">Optional.</p>
+      <textarea id="candidate-expertise" name="expertise" rows="6" maxlength="15000" aria-describedby="candidate-expertise-help"></textarea>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Bio and role</legend>
+    <div class="nomination-form__field">
+      <label for="candidate-bio">Please provide a short bio and include your main role or title. <span aria-hidden="true">*</span></label>
+      <p id="candidate-bio-help" class="nomination-form__help">Introduce yourself in no more than 300 words.</p>
+      <textarea id="candidate-bio" name="bio" rows="6" maxlength="15000" aria-describedby="candidate-bio-help candidate-bio-count" required></textarea>
+      <p id="candidate-bio-count" class="nomination-form__help" aria-live="polite" aria-atomic="true">0 / 300 words</p>
+    </div>
+    <div class="nomination-form__field">
+      <label for="candidate-photo">Profile photo link</label>
+      <p id="candidate-photo-help" class="nomination-form__help">Optional. Share an HTTPS link to a photo that can be used to introduce you as a candidate. Make sure the link opens without signing in and that you have permission to share the photo.</p>
+      <input id="candidate-photo" name="photo-url" type="url" pattern="https://.*" maxlength="2048" aria-describedby="candidate-photo-help" placeholder="https://">
+    </div>
+  </fieldset>
+
+  <div class="nomination-form__notice">
+    <h2>How your application will be used</h2>
+    <p>Your name, answers, bio, and any photo you provide may be shared with the TODO community and voters to introduce you as a candidate. Your email address will be kept out of those candidate materials.</p>
+    <p>Applications are collected through Netlify Forms for review by the TODO team. Please do not include confidential information in your answers. See the <a href="https://www.linuxfoundation.org/privacy">Linux Foundation Privacy Policy</a>.</p>
+  </div>
+  <button type="submit" class="button">Submit application</button>
+</form>
+{{ $script := resources.Get "js/steering-committee-application.js" | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>

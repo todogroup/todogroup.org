@@ -17,3 +17,8 @@
   .blog-item .blog-featured-image { max-width: 600px; }
 </style>
 {{ end }}
+
+{{ if .HasShortcode "steering-committee-application" }}
+{{ $formStyle := resources.Get "css/steering-committee-application.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $formStyle.RelPermalink }}" integrity="{{ $formStyle.Data.Integrity }}">
+{{ end }}

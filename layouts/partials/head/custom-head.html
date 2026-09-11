@@ -10,3 +10,10 @@
 {{ if (eq .Kind "home") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all">
 {{ end }}
+
+{{ if eq .Section "blog" }}
+<style>
+  .blog-featured-image { display: block; width: 100%; height: auto; margin: 1.5rem 0; border-radius: 12px; }
+  .blog-item .blog-featured-image { max-width: 600px; }
+</style>
+{{ end }}

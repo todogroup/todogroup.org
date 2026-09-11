@@ -1,0 +1,29 @@
+{{ $title := cond .IsHome .Site.Title (print .Title " | " .Site.Title) }}
+{{ $description := .Description | default (.Summary | truncate 160) | default .Site.Params.description | default "" }}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- partial "head/csp.html" . }}
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ $description }}" />
+
+    {{ if .Params.noindex }}
+    <meta name="robots" content="noindex, nofollow" />
+    {{ end }}
+
+    {{- partial "head/preload.html" . }}
+    {{- partial "head/css.html" . }}
+    {{- if and .IsPage (eq .Section "blog") }}
+    {{- partial "blog/social.html" . }}
+    {{- else }}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- partial "head/twitter-cards.html" . }}
+    {{- end }}
+    {{- partial "head/published-time.html" . }}
+    {{- partial "head/favicons.html" . }}
+    {{- template "_internal/google_analytics.html" . -}}
+    {{- partial "head/custom-css.html" . }}
+    {{- partial "head/custom-head.html" . }}
+    {{- partial "head/sticky-header.html" . }}
+</head>

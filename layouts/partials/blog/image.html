@@ -1,0 +1,32 @@
+{{- /* One resolver for article, list, and social images. Cache by page. */ -}}
+{{- $src := .Params.featured_image -}}
+{{- if not $src -}}{{- with .Params.images -}}{{- $src = index . 0 -}}{{- end -}}{{- end -}}
+{{- $image := dict -}}
+{{- if $src -}}
+  {{- $url := $src | absURL -}}
+  {{- $resource := .Resources.GetMatch $src -}}
+  {{- if not $resource -}}{{- $resource = resources.Get $src -}}{{- end -}}
+  {{- if $resource -}}{{- $url = $resource.Permalink -}}{{- end -}}
+  {{- $image = dict "url" $url "alt" (.Params.featured_image_alt | default .Title) -}}
+  {{- if and $resource (eq $resource.ResourceType "image") (ne $resource.MediaType.SubType "svg") -}}
+    {{- $image = merge $image (dict "width" $resource.Width "height" $resource.Height) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $title := .Title | plainify | htmlUnescape -}}
+  {{- $size := 64 -}}
+  {{- $lines := slice -}}
+  {{- range slice 64 56 48 40 32 24 16 -}}
+    {{- $size = . -}}
+    {{- $lines = partial "blog/title-lines.html" (dict "title" $title "size" $size) -}}
+    {{- if le (mul (len $lines) (mul $size 1.5)) 330 -}}{{- break -}}{{- end -}}
+  {{- end -}}
+  {{- $banner := resources.Get "blog/background.png" -}}
+  {{- $banner = $banner.Filter (images.Overlay (resources.Get "blog/logo.png") 64 48) -}}
+  {{- $font := resources.Get "blog/oswald-bold.ttf" -}}
+  {{- range $i, $line := $lines -}}
+    {{- $y := add 220 (mul $i (mul $size 1.5)) | int -}}
+    {{- $banner = $banner.Filter (images.Text $line (dict "font" $font "size" $size "color" "#ffffff" "x" 64 "y" $y)) -}}
+  {{- end -}}
+  {{- $image = dict "url" $banner.Permalink "alt" $title "width" 1200 "height" 630 -}}
+{{- end -}}
+{{- return $image -}}

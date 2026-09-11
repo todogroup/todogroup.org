@@ -34,19 +34,19 @@ We're seeking contributions across three key areas:
 
 The role is a commitment to helping members shape TODO's direction. Members can propose ideas and changes to guidelines through the [OSPO Forum](https://github.com/todogroup/ospology/discussions), with the Steering Committee helping those proposals move forward. If the working group and its supporters want to coordinate input on content strategy, we propose jointly endorsing a trial in which they gather ideas, develop recommendations openly, and invite member feedback. The scope would be agreed together and reviewed with participants.
 
-## Seats for the 2027–2029 Term
+## Seats for the 2027 to 2029 Term
 
 Three seats have current terms ending on December 31, 2026:
 
-- **Georg Kunz — Ericsson — Elected seat**
-- **Annania Melaku — F5 / NGINX — Appointed seat**
-- **Natali Vlatko — Cisco — Appointed seat**
+- **Georg Kunz, Ericsson, Elected seat**
+- **Annania Melaku, F5 / NGINX, Appointed seat**
+- **Natali Vlatko, Cisco, Appointed seat**
 
 New terms begin January 1, 2027. **Current members are welcome to reapply.**
 
 ## Time Commitment
 
-The Steering Committee meets monthly for a **one-hour meeting** and typically requires a total commitment of **2–4 hours per month**.
+The Steering Committee meets monthly for a **one-hour meeting** and typically requires a total commitment of **2 to 4 hours per month**.
 
 [Learn more about TODO's mission and decision-making](https://github.com/todogroup/governance#mission-and-decision-making).
 
@@ -54,7 +54,7 @@ The Steering Committee meets monthly for a **one-hour meeting** and typically re
 
 - **September 11, 2026:** Candidate applications open to any contributor in the TODO Group community, regardless of affiliation.
 - **October 20, 2026:** Applications close and candidate information is shared.
-- **October 21 – November 20, 2026:** General Member voting, limited to primary contacts of TODO Group General Members.
+- **October 21 to November 20, 2026:** General Member voting, limited to primary contacts of TODO Group General Members.
 - **November 22, 2026:** Elected members are announced.
 - **December 1, 2026:** Appointed members are confirmed by the current Steering Committee.
 - **December 10, 2026:** New Steering Committee member onboarding begins.

@@ -58,7 +58,7 @@ title: '企業のためのオープンソース ガイド'
 
 ### オープンソース戦略の策定
 ビジネス目標に合わせてオープンソース ソフトウェアに関する最適な管理・参加・作成方法を学び、オープンソース投資のROIを実現しましょう。
-[**ガイドを見る**](https://www.linuxfoundation.jp/resources/open-source-guides/setting-an-open-source-strategy/)
+[**ガイドを見る**](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/setting-an-open-source-strategy?hsLang=ja-jp)
 
 これらのリソースは、TODO (Talk Openly, Develop Openly) グループとの協力により作成されました。TODOグループは、The Linux Foundation傘下のプロフェッショナル オープンソース プログラム ネットワーキング グループです。 このような包括的なガイドを作成するために時間を割き、豊富な知識を提供してくれたオープンソース プログラム マネージャーのみなさんに感謝します。TODOグループの参加企業は、Autodesk、Comcast、Dropbox、Facebook、Google、Intel、Microsoft、Netflix、Oath (Yahoo + AOL)、Red Hat、Salesforce、Samsung、およびVMwareです。
 

@@ -12,7 +12,7 @@ Across the broader week, organizations were discussing and demonstrating how ope
 
 For OSPOs, the question is increasingly not simply how organizations *use AI*, but how they can manage, integrate, and participate in the open ecosystems that are becoming part of their AI infrastructure. That shift was at the center of the conversations in Shanghai.
 
-![Participants at the Shanghai event](https://github.com/user-attachments/assets/8569eb2c-4265-42ec-9fa3-1880bab0cc43)
+![Participants at the Shanghai event](/images/blog/ospo-summit-china-2026/attachment-01.jpg)
 
 ## Community conversations keeps evolving
 
@@ -42,7 +42,7 @@ A related discussion focused on the rapidly developing open infrastructure surro
 The session **"Agent Harnesses, MCP and the Next Frontier for OSPOs"** explored this emerging layer through projects and specifications including **Goose,
 Model Context Protocol (MCP), AGENTS.md, and agentgateway**.
 
-![Agent Harnesses, MCP and the Next Frontier for OSPOs](https://github.com/user-attachments/assets/2fc85055-2abe-44a4-b107-5628fc21245d)
+![Agent Harnesses, MCP and the Next Frontier for OSPOs](/images/blog/ospo-summit-china-2026/attachment-02.jpg)
 
 This is also where the traditional ecosystem role of the OSPO becomes particularly relevant. If protocols and open projects become critical parts of
 enterprise AI infrastructure, organizations need to understand not only how to consume them, but how they are governed, where they are developed, and where
@@ -54,7 +54,7 @@ The expansion of OSPO responsibilities into AI does not replace the foundations 
 
 Shane Coughlan's session on **OIN 2.0: The Patent Non-Aggression Community for Open Source in China and Beyond** brought another layer of open source governance into the conversation: patents.
 
-![OIN 2.0 session](https://github.com/user-attachments/assets/a9c8425a-9ed1-4ec4-b12b-fc194f225cf2)
+![OIN 2.0 session](/images/blog/ospo-summit-china-2026/attachment-03.jpg)
 
 > "For more than two decades, Open Invention Network (OIN) has developed a community around patent non-aggression for open source. In 2026, OIN introduced OIN 2.0 to expand this model as open source moves into new technologies and industries. OIN 2.0 expands that protection as the open source technology landscape continues to evolve."
 
@@ -87,17 +87,17 @@ And this is another area where OSPO expertise becomes relevant: Understanding de
 
 ### Conversations beyond the stage
 
-![OSPO mentoring and networking sessions](https://github.com/user-attachments/assets/26a9b82a-e980-4afd-a24e-c9eb9ed080e3)
+![OSPO mentoring and networking sessions](/images/blog/ospo-summit-china-2026/attachment-04.jpg)
 
 The event brought together practitioners working on open source governance from different organizations, industries, and regions, creating space to compare how organizations are approaching many of the same challenges.
 
-![Community discussions](https://github.com/user-attachments/assets/e21634e5-a96f-41e5-acab-0e8b19da5baf)
+![Community discussions](/images/blog/ospo-summit-china-2026/attachment-05.jpg)
 
 > There is no single blueprint for an "AI-ready OSPO." Sharing implementation patterns, experiments, failures, policies, and emerging practices helps the community identify which problems can be addressed collectively rather than independently inside every organization.
 
 {{< event-gallery >}}
-{{< event-photo src="https://github.com/user-attachments/assets/6ad579f8-f243-4453-a82b-03167bca9cbc"position="70%" >}}
-{{< event-photo src="https://github.com/user-attachments/assets/2ccc7373-5333-4079-bba2-efe63f37ba13" position="67%" >}}
+{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-06.jpg" position="70%" >}}
+{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-07.jpg" position="67%" >}}
 {{< /event-gallery >}}
 
 ### OSPOs are becoming a connective layer for open AI infrastructure

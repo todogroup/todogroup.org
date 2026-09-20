@@ -14,7 +14,7 @@ title: 'オープンソース デベロッパーの採用'
 4. [採用か育成か？](#採用か育成か？)
 5. [オープンソース デベロッパーを採用・確保する5つの戦略](#オープンソース-デベロッパーを採用・確保する5つの戦略)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -51,11 +51,11 @@ Salesforce
 
 #### デベロッパーの不足
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/piechart_3.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/piechart_3.png?width=1024&name=piechart_3.png)
 
 #### 採用の難しさ
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/piechart_2.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/piechart_2.png?width=1024&name=piechart_2.png)
 
 **熟練したデベロッパーを、グローバルなレベルで充分に確保できている**
 

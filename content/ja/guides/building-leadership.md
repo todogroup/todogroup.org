@@ -15,7 +15,7 @@ title: 'オープンソース コミュニティでリーダーシップを構�
 3. [リーダーになるには](#オープンソースのリーダーシップ文化)
 4. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -111,7 +111,7 @@ Open@ADSK
 
 一貫性のあるガバナンス計画は、オープンソースのライセンスとセキュリティの問題だけでなく、大きなバージョン間の歪曲も防ぎます。「オープンソースの消費についての一貫性のあるガバナンスモデルは、コンプライアンスの保証に役立ち、私たちが何かを出荷する際には、正しいライセンスへのコンプライアンスが実践されていると確信することができます。」
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2018/12/sixkeyelements.png =350x350)
+![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/sixkeyelements.png?width=350&name=sixkeyelements.png)
 
 ### 文化の概要
 
@@ -298,7 +298,7 @@ Ibrahim Haddad氏も、貢献者が適切なコーディング スタイルに�
 
 「メンテナー、または強力な貢献者を採用しようと計画しているなら、それらの人々の需要が高いこと、世界で最も仕事に柔軟性を持つ人々である、ということを念頭においてください。それは、彼らが会社を渡り歩いても、同じプロジェクトに取り組むことができることを意味します。何か変わることと言えば、彼らの給料の小切手に署名する会社名だけです」とMartin氏は述べています。
 
-オープンソース開発者の採用活動に関するさらなる助言については、このガイド集の『[オープンソース デベロッパーの採用](https://www.linuxfoundation.jp/resources/open-source-guides/recruiting-open-source-developers/)』を参照してください。
+オープンソース開発者の採用活動に関するさらなる助言については、このガイド集の『[オープンソース デベロッパーの採用](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/recruiting-open-source-developers?hsLang=ja-jp)』を参照してください。
 
 ### 人材の育成（最善策）
 

@@ -15,7 +15,7 @@ title: 'オープンソース プロジェクトを終了させる'
 5. [どのようにオープンソース プロジェクトを終了させるか](#どのようにオープンソース-プロジェクトを終了させるか)
 6. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -61,7 +61,7 @@ COO
 
 一方で、そのプロジェクトを採用する人やコードを利用する人の数が急激に減少しているなら、関心が弱まり、プロジェクトが死にかけている兆候なのかもしれません。他の有効な指標としては、一般的なプロジェクト活動のレベルや、さらには、ユーザーが問い合わせを行っているか、コードに関するオンラインの議論に参加しているかといったものも含めることができます。
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2018/01/alert-300x300.png =100x100)
+![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/alert-300x300.png?width=100&name=alert-300x300.png)
 
 ### 注視すべきトラブルの兆候
 

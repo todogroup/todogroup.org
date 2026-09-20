@@ -19,7 +19,7 @@ title: 'オープンソース プログラムの作成'
 8.  [結論](#結論)
 9.  [求人情報のテンプレート](#求人情報のテンプレート)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 このガイドの貢献者
@@ -272,7 +272,7 @@ Microsoft社は、「オープンソース評議会」（Open Source Executive C
 
 **コードのリリースに関するポリシー**
 
-あなたは、開発者がオープンソース プロジェクトにコントリビューションし、また、彼ら自身プロジェクトをリリースすることを成功させるのをサポートしたいと考えるでしょう。ガイドラインとチェックリストは、開発者がライセンスの問題や企業の機密保持の問題に陥ることなく、コードをオープンソースとしてリリースするために必要なものすべてを確実に提供します。特に新しいコントリビューターにとっては、外部にコントリビューションを行う前にフィードバックを得るための場として内部レビュー プロセスを利用することができるようになります（オープンソース コミュニティへの参加についてのガイド: 「[オープンソース コミュニティへの参加](https://www.linuxfoundation.jp/resources/open-source-guides/participating-open-source-communities/)」を参照してください）。
+あなたは、開発者がオープンソース プロジェクトにコントリビューションし、また、彼ら自身プロジェクトをリリースすることを成功させるのをサポートしたいと考えるでしょう。ガイドラインとチェックリストは、開発者がライセンスの問題や企業の機密保持の問題に陥ることなく、コードをオープンソースとしてリリースするために必要なものすべてを確実に提供します。特に新しいコントリビューターにとっては、外部にコントリビューションを行う前にフィードバックを得るための場として内部レビュー プロセスを利用することができるようになります（オープンソース コミュニティへの参加についてのガイド: 「[オープンソース コミュニティへの参加](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/participating-in-open-source-communities?hsLang=ja-jp)」を参照してください）。
 
 あなたの組織はまた、「アップストリームを優先 (upstream first)」という開発ポリシーを採用するよう努めるべきです。最初にアップストリームのオープンソース プロジェクトにパッチを提出し、それを自分の製品、すなわちダウンストリームに組み込むことで、改版のリリースの都度発生するリエンジニアリングの膨大な時間と費用を費やすことがなくなります。
 
@@ -294,7 +294,7 @@ Red Hat社は、新しく作成されたコードは、ほとんどの場合、�
 
 **内部で活用する場合のポリシー**
 
-その他の必要なポリシーには、オープンソース ソフトウェアの使用と作成のための信頼できるソースコードがどこにあり、どのように取り出すかを定めたルール、および、コード管理と保守手順の確立やあなたのプロジェクトとコミュニティ間のやり取りの方法を定めたポリシーが含まれています （オープンソース コードの使用に関するガイド: 「[オープンソース コードの使用](https://www.linuxfoundation.jp/resources/open-source-guides/using-open-source-code/)」を参照してください）。
+その他の必要なポリシーには、オープンソース ソフトウェアの使用と作成のための信頼できるソースコードがどこにあり、どのように取り出すかを定めたルール、および、コード管理と保守手順の確立やあなたのプロジェクトとコミュニティ間のやり取りの方法を定めたポリシーが含まれています （オープンソース コードの使用に関するガイド: 「[オープンソース コードの使用](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/using-open-source-code?hsLang=ja-jp)」を参照してください）。
 
 オープンソース活用のためのポリシーに従えば、製品を構成するすべてのソフトウェア（プロプライエタリ、サードパーティ、オープンソースの何れについても）の監査、レビュー、承認が確実に行われるようになります。また、製品が顧客に提供される前に、さまざまなソフトウェア コンポーネントを使用することにより発生する多様なライセンス義務履行を確実に行うことができるようになります。
 
@@ -302,7 +302,7 @@ Red Hat社は、新しく作成されたコードは、ほとんどの場合、�
 
 **コンプライアンスのためのポリシー**
 
-また、法的コンプライアンスのための手順を規定して、確立し、経営幹部が実施状況を管理できるようなポリシーの策定が求められます (詳細なコンプライアンス プログラムについては、電子ブック: [Open Source Compliance in the Enterprise](https://www.linuxfoundation.jp/open-source-management/2016/11/open-source-compliance-enterprise/)を参照してください）。
+また、法的コンプライアンスのための手順を規定して、確立し、経営幹部が実施状況を管理できるようなポリシーの策定が求められます (詳細なコンプライアンス プログラムについては、電子ブック: [Open Source Compliance in the Enterprise](https://www.linuxfoundation.org/ja-jp/resources/publications/open-source-compliance-in-the-enterprise)を参照してください）。
 
 コンプライアンスとコード チェック作業の多くを自動化し、手順を簡素化することにより、開発者やコントリビューターに代わって実施することができるソフトウェア ツールについて、それらをどのように使用すればよいかを説明すべきでしょう。たとえば、Linux Foundationの[SPDX](https://spdx.org/)および[OpenChain](https://www.openchainproject.org/)のツールを利用し、社内のサプライチェーン関連部門と協力して、サードパーティから提供されたコードもコンプライアンスを徹底させることができます。
 
@@ -335,5 +335,5 @@ Google社に新たに入社したエンジニアはすべて、ビジネスを�
 
 ## 求人情報のテンプレート
 
-![](https://www.linuxfoundation.org/wp-content/uploads/2017/08/box_job_mini.png "求人情報のテンプレート")
-求人情報のテンプレートPDFは[こちら](https://www.linuxfoundation.org/wp-content/uploads/2017/08/box_job_3.pdf "PDF")
+![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/box_job_mini.png?width=300&name=box_job_mini.png "求人情報のテンプレート")
+求人情報のテンプレートPDFは[こちら](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/box_job_3.pdf "PDF")

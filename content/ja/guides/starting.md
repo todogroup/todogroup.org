@@ -16,7 +16,7 @@ title: 'オープンソース プロジェクトを立ち上げる'
 6. [結論](#結論)
 7. [オープンソース プロジェクト始動のチェックリスト](#オープンソース-プロジェクト始動のチェックリスト)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -82,7 +82,7 @@ Capital One
 
 ### いつオープンソース プロジェクトを作るか
 
-コードを公開したり、新規オープンソース プロジェクトを作ったりすることの決定はその企業の置かれた状況に依存します。企業としては、まず第一にオープンソース ソフトウェアの利用や既存プロジェクトへの貢献を通じ、オープンソースに対して一定程度の習熟度に達しているべきです。このような活動によって、企業の製品を作り上げるのに、外部のプロジェクトや開発者をどのように活用できるのかを学ぶことができるからです。また、参加することによって、オープンソース コミュニティの習慣や文化に円滑に対応できるようになります。(本ガイド集の「[オープンソース コードの利用](https://www.linuxfoundation.jp/resources/open-source-guides/using-open-source-code/)」、および、「[オープンソース コミュニティへの参加](https://www.linuxfoundation.jp/resources/open-source-guides/participating-open-source-communities/)」を参照して下さい。) しかしながら、ひとたびオープンソースに対する円滑な対応が身につけば、企業独自のオープンソース プロジェクトを立ち上げるべき時は、単純明快に「早期」、「頻繁」の考え方にに従うのがよいでしょう。
+コードを公開したり、新規オープンソース プロジェクトを作ったりすることの決定はその企業の置かれた状況に依存します。企業としては、まず第一にオープンソース ソフトウェアの利用や既存プロジェクトへの貢献を通じ、オープンソースに対して一定程度の習熟度に達しているべきです。このような活動によって、企業の製品を作り上げるのに、外部のプロジェクトや開発者をどのように活用できるのかを学ぶことができるからです。また、参加することによって、オープンソース コミュニティの習慣や文化に円滑に対応できるようになります。(本ガイド集の「[オープンソース コードの利用](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/using-open-source-code?hsLang=ja-jp)」、および、「[オープンソース コミュニティへの参加](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/participating-in-open-source-communities?hsLang=ja-jp)」を参照して下さい。) しかしながら、ひとたびオープンソースに対する円滑な対応が身につけば、企業独自のオープンソース プロジェクトを立ち上げるべき時は、単純明快に「早期」、「頻繁」の考え方にに従うのがよいでしょう。
 
 
 > #  早期にリリース、頻繁にリリース
@@ -439,4 +439,4 @@ Capital One
 - 他の類似コミュニティのベストプラクティスを踏襲
 - コミュニティ構築のために直接対面を奨励、ミーティングの機会を提供
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2018/09/Open-source-project-launch-checklist-jp-1.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Open-source-project-launch-checklist-jp-1.png?width=1024&name=Open-source-project-launch-checklist-jp-1.png)

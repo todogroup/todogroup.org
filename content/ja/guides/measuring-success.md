@@ -16,7 +16,7 @@ title: 'オープンソース プログラムの成功度を測る'
 6. [トラッキングすべきその他のメトリクス](#トラッキングすべきその他のメトリクス)
 7. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -75,9 +75,9 @@ Kubernetes Community Manager at Google
 
 ## どのように目標を設定するか
 
-あなたがオープンソース プログラムに対する高い目標を設定するのは良いことですが、そこにどのように到達するのか、どのようなタイムラインで到達するのかについてのリーゾナブルな道筋を設定してください。まず、パフォーマンスのベースラインを確立するために、測定を開始しましょう。データを収集するための適切なツールをセットアップし、正しいデータソースから、あなた（そしてあなたのマネージャー）が理解できるフォーマットで出力されることを確認してください。多くの組織では、オープンソース プログラムのメトリクスを目的としたダッシュボードを作成し、すべてのデータを一か所でトラッキングでき、進行状況を一目で把握できるプロジェクト スナップショットを提供しています（本ガイド集の「[オープンソース プログラムを管理するためのツール](https://www.linuxfoundation.jp/resources/open-source-guides/tools-managing-open-source-programs/)」を参照）。
+あなたがオープンソース プログラムに対する高い目標を設定するのは良いことですが、そこにどのように到達するのか、どのようなタイムラインで到達するのかについてのリーゾナブルな道筋を設定してください。まず、パフォーマンスのベースラインを確立するために、測定を開始しましょう。データを収集するための適切なツールをセットアップし、正しいデータソースから、あなた（そしてあなたのマネージャー）が理解できるフォーマットで出力されることを確認してください。多くの組織では、オープンソース プログラムのメトリクスを目的としたダッシュボードを作成し、すべてのデータを一か所でトラッキングでき、進行状況を一目で把握できるプロジェクト スナップショットを提供しています（本ガイド集の「[オープンソース プログラムを管理するためのツール](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/tools-managing-open-source-programs?hsLang=ja-jp)」を参照）。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/CNCF-dashboard-768x447.png "Cloud Native Computing Foundationのプロジェクト ダッシュボード")
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/CNCF-dashboard-768x447-1.png?width=768&name=CNCF-dashboard-768x447-1.png "Cloud Native Computing Foundationのプロジェクト ダッシュボード")
 Cloud Native Computing Foundationのプロジェクト ダッシュボード
 
 つぎに、すべてのオープンソース プログラム マネージャーとその関係者（Facebook社ではエンジニアリングのリーダーとプロジェクト メンテナーも含まれます）を集めて、グループとして、次の3〜6か月間における、小規模で、達成可能な目標を決めます。その期間の終わりに、あなたがどのように目標を達成したかを振り返り、それに基づいて、次のステップに対する目標と戦術を調整します。
@@ -169,7 +169,7 @@ Kubernetesは、GitHub上で最も速い速度で開発されているオープ�
 
 ## 目標 ＃4 開発者の採用と維持
 
-組織としてオープンソース プロジェクトを立ち上げたり、参加したりすることは、開発者を引き付ける良い方法です。彼らは、トレー二ングもほとんど必要なしに、すぐにプロジェクトに参加できるでしょう。プロジェクトを活用したり、プロジェクトにコントリビューションしたりしている開発者は、組織に参加するときには、すでにプロセス、ツール、およびテクノロジに精通しているでしょう（本ガイド集の「[オープンソース デベロッパーの採用](https://www.linuxfoundation.jp/resources/open-source-guides/recruiting-open-source-developers/)」を参照）。
+組織としてオープンソース プロジェクトを立ち上げたり、参加したりすることは、開発者を引き付ける良い方法です。彼らは、トレー二ングもほとんど必要なしに、すぐにプロジェクトに参加できるでしょう。プロジェクトを活用したり、プロジェクトにコントリビューションしたりしている開発者は、組織に参加するときには、すでにプロセス、ツール、およびテクノロジに精通しているでしょう（本ガイド集の「[オープンソース デベロッパーの採用](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides/recruiting-open-source-developers?hsLang=ja-jp)」を参照）。
 
 しかし、プログラム マネージャーが開発者の採用で直接的に役割を果たすわけでもないこともあるでしょう。また、あなたの組織のオープンソース参加が直接的に採用に影響を与えているのかについても、明らかではないかもしれません。オープンソース プログラムの取り組みと採用の関係をより直接的に結びつけるため、Facebook社は、新入社員に次の3つの基本的な質問を年2回のアンケートで行っています。
 
@@ -245,14 +245,14 @@ Kubernetesは、GitHub上で最も速い速度で開発されているオープ�
 
 新しい外部コントリビューターを常に引き付けているプロジェクトは、プロジェクトを維持し、コントリビューターを歓迎し、コミュニティからのフィードバックを取り入れる良い仕事をしている可能性が高いようです。（注：これは、コントリビューターの総数が増加していないプロジェクトでも当てはまるようです。）
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/Kubernetes-contributors.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Kubernetes-contributors.png?width=686&name=Kubernetes-contributors.png)
 
 プルリクエストで、サブミットされたもの、オープンな状態のもの、および、受け入れられたものの数（また、それらがオープンであった時間）
 
 コントリビューターがバグを見つけたり、あるいは、自ら（パッチ作成の許可を得て）パッチやコードを作って機能要求を行ったりする時に、プルリクエストとして、それをサブミットします。プルリクエストの数とそれらの状況をトラッキングすることは、あなたの会社の従業員以外のコントリビューターによって、どれだけのコードが提供されたかがわかるので、プロジェクトにおける外部の関心の高さをはかるための指標になります。
 
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/Kubernetes-pull-requests.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Kubernetes-pull-requests.png?width=825&name=Kubernetes-pull-requests.png)
 
 プルリクエストがオープンの状態の時間の長さは、あなたのプロジェクトの メンテナーが外部のコントリビューターに、いかに早く対応し、彼らを喜んで迎えているかを示します。プルリクエストに応答がなく、それが長時間放置されると、潜在的な力を持ったコントリビューターは、彼らの良いアイデアを他の場所で実現することになるかもしれません。
 
@@ -270,7 +270,7 @@ Facebook社のオープンソース オフィスでは、頻繁にデータベ�
 
 この数は、もちろん、イシューのトラッキング方法によって異なります。GitHubをバグのトラッキングのみのために使用しているプロジェクトは、機能要求を含むイシューに対してもGitHubを使用しているプロジェクトと比較するとイシューがオープン状態である時間ははるかに短いでしょう。これらの違いで、イシューの滞在時間は短くなったり、長くなったりします。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/Kubernetes-issues.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Kubernetes-issues.png?width=825&name=Kubernetes-issues.png)
 
 
 **コントリビューターあたりのコミット数（外部と内部の比較）**

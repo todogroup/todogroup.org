@@ -11,7 +11,7 @@ url: "/ja/about/about-us/"
 * 開発者コミュニティと関わる
 * 他のプロジェクトに効果的に貢献する
 
-全体として、組織は、[OSPOの旅](https://www.linuxfoundation.jp/wp-content/uploads/2022/05/LFResearch_OSPO_Report-ja3.pdf)をスタートし、前進し続けるための指針を必要としています。
+全体として、組織は、[OSPOの旅](https://www.linuxfoundation.org/research/the-evolution-of-the-open-source-program-office-ospo/)をスタートし、前進し続けるための指針を必要としています。
 
 このグループのコミュニティおよび[一般会員](/members)は、これらの課題を克服するために協力して取り組むことを約束しています。私たちは、経験を共有し、ベストプラクティスを開発し、
 また、共通のツール開発にも取り組んでいきます。しかし、私たちは一人ではできません。オープンソースの旅を前進させたいとお考えの方は、ぜひ[コミュニティに参加](/community)してください。

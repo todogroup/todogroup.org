@@ -14,9 +14,11 @@ For OSPOs, the question is increasingly not simply how organizations *use AI*, b
 
 ![Participants at the Shanghai event](/images/blog/ospo-summit-china-2026/attachment-01.jpg)
 
-## Community conversations keeps evolving
+## Community shared learnings
 
-### AI governance is becoming part of open source governance
+Across sessions and community discussions, several recurring themes emerged around AI governance, agentic infrastructure, trusted software supply chains, organizational transformation, and the strategic role of OSPOs in these areas. The following are some of the key takeaways from the event:
+
+### 1. AI governance is becoming part of open source governance
 
 One of the strongest themes across the event was the expanding scope of OSPO work. As organizations integrate AI into products, developer workflows, and internal
 infrastructure, governance questions increasingly span **open source software,models, data, dependencies, licenses, provenance, and AI systems**.
@@ -27,7 +29,7 @@ Organizations are finding that many of the questions created by AI infrastructur
 
 > "The questions have expanded. Alongside establishing an OSPO, building trust in software supply chains, and contributing upstream, practitioners now need to understand what happens when AI participates in those workflows. The foundations of open source program management remain relevan, but the systems to which we apply them are changing"
 
-### Agentic AI is moving from experimentation into OSPO workflows
+### 2. Agentic AI is moving from experimentation into OSPO workflows
 
 The discussion also moved beyond AI governance as policy and into practical implementation. For instance, Ant Group shared how its OSPO is integrating AI into day-to-day open source governance, including LLM-powered issue triage and assignment, pull request pre-reviews, AI-assisted code provenance and license compliance analysis, or community health insights.
 
@@ -35,20 +37,18 @@ Other discussions explored how AI agents can help OSPO teams deal with repetitiv
 
 This brings OSPOs into a new part of the conversation: not simply governing which open source components enter an organization, but helping determine how open technologies are used by systems that can increasingly take actions on behalf of developers and organizations.
 
-### The infrastructure around the model matters
+### 3. The infrastructure around the model matters
 
 A related discussion focused on the rapidly developing open infrastructure surrounding AI agents. Models are only one component of an agentic system: Agent harnesses,context, gateways, protocols, and data quality determine what an agent can actually do and under which conditions.
 
 The session **"Agent Harnesses, MCP and the Next Frontier for OSPOs"** explored this emerging layer through projects and specifications including **Goose,
 Model Context Protocol (MCP), AGENTS.md, and agentgateway**.
 
-![Agent Harnesses, MCP and the Next Frontier for OSPOs](/images/blog/ospo-summit-china-2026/attachment-02.jpg)
-
 This is also where the traditional ecosystem role of the OSPO becomes particularly relevant. If protocols and open projects become critical parts of
 enterprise AI infrastructure, organizations need to understand not only how to consume them, but how they are governed, where they are developed, and where
 upstream participation can influence their long-term direction.
 
-### Patent non-aggression is part of the open infrastructure story
+### 4. Patent non-aggression is part of the open infrastructure story
 
 The expansion of OSPO responsibilities into AI does not replace the foundations of open source governance. In many cases, it makes them more important.
 
@@ -60,47 +60,41 @@ Shane Coughlan's session on **OIN 2.0: The Patent Non-Aggression Community for O
 
 OSPOs can connect open source knowledge with IP functions, helping organizations understand how patent strategy intersects with their participation in open source ecosystems. Recent developments in China illustrate this connection. ByteDance joined the OIN 2.0 community in August 2026, extending its participation in the patent non-aggression ecosystem as open source becomes increasingly important to global-scale technology infrastructure.
 
-### Open standards and trusted software supply chains remain foundational
+### 5. Open standards and trusted software supply chains remain foundational
 
 The same principle applies to software supply chains. As organizations introduce models, agents, frameworks, protocols, and new software dependencies into enterprise infrastructure, established open source governance mechanisms remain essential.
 
 Open standards and specifications can give organizations common approaches to compliance, security, provenance, and trusted software supply chains rather
 than requiring every company to solve these problems independently. For OSPOs, understanding these initiatives is therefore not separate from AI strategy. It is part of understanding the increasingly complex open technology stack on which AI systems are being built.
 
-### OSPO transformation is also organizational transformation
+### 6. OSPO transformation is also organizational transformation
 
 Technology was only one side of the conversation. Bosch shared its experience building an OSPO within an established global organization, showing that organizations rarely start their open source programs from a blank slate: Existing processes, legal structures, engineering practices, business units, and organizational cultures all influence how an OSPO develops.
 
+### 7. Open source, digital sovereignty, and AI sovereignty
 
-### Open source, digital sovereignty, and AI sovereignty
+Another important conversation in Shanghai concerned the changing geopolitical environment surrounding open technology. As organizations operate across different markets and regulatory regimes, questions about technology dependencies increasingly connect with discussions around **digital and AI sovereignty**.
 
-Another important conversation in Shanghai concerned the changing geopolitical environment surrounding open technology. As organizations operate across different markets and regulatory regimes, questions about technology dependencies increasingly connect with discussions
-around **digital sovereignty and AI sovereignty**.
+The discussion started with the global model race and the focus on increasingly capable frontier models. Participants challenged that framing with a different question: *Are organizations looking at the right part of the AI stack?*
 
-Organizations need to understand not only where their software comes from, but also where models, data, infrastructure, protocols, and critical dependencies originate, and whether they can move between providers and implementations.
+The model is one component. Performance, security, portability, and efficiency increasingly depend on the open technologies surrounding it, from PyTorch, Ray, and vLLM to Kubernetes and open protocols such as MCP.
 
-Open source does not automatically solve every sovereignty challenge, but open technologies, transparent governance, interoperability, and the
-ability to participate upstream can provide organizations with important mechanisms for maintaining technical agency and reducing dependency on individual vendors.
+In fact, this perspective was visible across the broader Shanghai week. PyTorch Conference China, KubeCon + CloudNativeCon, OpenInfra Summit, and AGNTCon + MCPCon brought together communities working across the AI stack, from infrastructure and orchestration to models and agents. For OSPOs, this expands the sovereignty question beyond “Which model do we use?” toward where organizations have choice across the AI stack, where dependencies and lock-in exist, and how open source and open standards can preserve that choice.
 
-And this is another area where OSPO expertise becomes relevant: Understanding dependencies, licenses, upstream governance, standards, and ecosystem dynamics can help organizations move the sovereignty conversation from an abstract policy question toward concrete technology strategy.
-
-
-### Conversations beyond the stage
-
-![OSPO mentoring and networking sessions](/images/blog/ospo-summit-china-2026/attachment-04.jpg)
+## Conversations beyond the stage
 
 The event brought together practitioners working on open source governance from different organizations, industries, and regions, creating space to compare how organizations are approaching many of the same challenges.
-
-![Community discussions](/images/blog/ospo-summit-china-2026/attachment-05.jpg)
 
 > There is no single blueprint for an "AI-ready OSPO." Sharing implementation patterns, experiments, failures, policies, and emerging practices helps the community identify which problems can be addressed collectively rather than independently inside every organization.
 
 {{< event-gallery >}}
 {{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-06.jpg" position="70%" >}}
-{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-07.jpg" position="67%" >}}
+{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-04.jpg" position="70%" >}}
+{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-05.jpg" position="70%" >}}
+{{< event-photo src="/images/blog/ospo-summit-china-2026/attachment-07.jpg" position="70%" >}}
 {{< /event-gallery >}}
 
-### OSPOs are becoming a connective layer for open AI infrastructure
+## OSPOs are becoming a connective layer for open AI infrastructure
 
 Perhaps the clearest takeaway from Shanghai was that the OSPO role is expanding alongside the infrastructure it helps organizations navigate.
 

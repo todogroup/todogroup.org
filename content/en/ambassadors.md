@@ -129,7 +129,7 @@ See the [TODO OSPO Ambassador Manual](https://github.com/todogroup/governance/bl
 
 #### How are Ambassador contributions tracked?
 
-Ambassadors submit their contributions using the Ambassador Contribution Submission form. Contributions should include a link or other reviewable evidence and identify the related TODO resource, initiative, or Working Group.
+Ambassadors submit their contributions using the [Ambassador Contribution Submission form](https://github.com/todogroup/governance/issues/new?template=ambassador-submission.yaml). Contributions should include a link or other reviewable evidence and identify the related TODO resource, initiative, or Working Group.
 This helps TODO recognize Ambassador work and understand where Ambassadors are contributing across the community.
 
 #### Is the TODO OSPO Ambassador role a paid position?

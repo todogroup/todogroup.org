@@ -19,185 +19,240 @@ en:
       text: "Join TODO"
       link: "/join/"
     github_edit: "Edit this page on GitHub"
-  ### example menu showing children ###
+  # Grouped navigation. Entries marked as groups render as section headings.
   menu:
     main:
     - identifier: "about"
       name: "About"
       url: "/about/"
       weight: 1
-    - identifier: "about-us"
-      name: "About TODO Group"
+      params:
+        featured:
+          title: "Join the TODO community"
+          description: "Work with peers to advance open source programs and share what you learn."
+          url: "/join/"
+          label: "Join TODO"
+    - identifier: "who-we-are"
+      name: "Who We Are"
       url: "/about/about-us/"
       weight: 1
-      post: "The mission of the project and its community"
+      parent: "discover-todo"
+      post: "Meet the open community advancing open source program offices."
+    - identifier: "structure"
+      name: "Structure"
+      weight: 2
       parent: "about"
+      params:
+        group: true
     - identifier: "steering-committee"
       name: "Steering Committee"
       url: "/about/steering-committee/"
-      weight: 2
-      post: "The people who define TODO's goals and provide stewardship in the community"
-      parent: "about"
+      weight: 1
+      parent: "structure"
+      post: "Meet the people guiding TODO’s direction and priorities."
     - identifier: "members"
-      name: "Members"
+      name: "Member Organizations"
       url: "/about/members/"
+      weight: 2
+      parent: "structure"
+      post: "Organizations supporting OSPO adoption around the world."
+    - identifier: "working-group-chairs"
+      name: "Working Group Chairs"
+      url: "https://github.com/todogroup/governance/tree/main/TODO%20Structure"
       weight: 3
-      post: "The organizations supporting OSPO adoption worldwide"
-      parent: "about"
-    - identifier: "associates"
-      name: "Associates"
-      url: "/about/associates/"
+      parent: "structure"
+      post: "Explore the roles and structure behind our working groups."
+    - identifier: "ambassadors"
+      name: "Ambassadors"
+      url: "/community/ambassadors/"
       weight: 4
-      post: "Projects, communities & foundations supporting TODO and OSPO"
-      parent: "about"
+      parent: "structure"
+      post: "Practitioners connecting and supporting the OSPO community."
+    - identifier: "associates"
+      name: "Associate Organizations"
+      url: "/about/associates/"
+      weight: 5
+      parent: "structure"
+      post: "Projects, communities, and foundations working with TODO."
     - identifier: "charter"
-      name: "Member Charter"
+      name: "Charter"
       url: "/about/charter/"
-      weight: 6
-      post: "Charter of The TODO Group General Members (GM) and Steering Committee (SC)"
-      parent: "about"
-    - identifier: "code-of-conduct"
-      name: "Code of Conduct"
-      url: "/about/code-of-conduct/"
-      weight: 7
-      post: "Values that make TODO  a welcoming and safe community"
-      parent: "about"
-    - identifier: "faq"
-      name: "Q&A"
-      url: "/about/faqs/"
-      weight: 8
-      post: "Frequently Asked Questions"
-      parent: "about"
+      weight: 3
+      parent: "discover-todo"
+      post: "Explore the principles and governance of TODO Group."
+    - identifier: "training"
+      name: "Training & Cert"
+      url: "/resources/training/"
+      weight: 2
+      params:
+        featured:
+          title: "Start your OSPO journey"
+          description: "Explore free, open course materials covering open source program management."
+          url: "/resources/training/"
+          label: "Explore training"
+    - identifier: "developers"
+      name: "For Developers and Engineers"
+      weight: 1
+      parent: "training"
+      params:
+        group: true
+    - identifier: "code-cert"
+      name: "CODE Cert"
+      url: "https://training.linuxfoundation.org/certification/certified-open-source-developer-for-enterprise-code/"
+      weight: 1
+      parent: "developers"
+      post: "Validate your enterprise open source development skills."
+    - identifier: "executives"
+      name: "For Executives and Managers"
+      weight: 2
+      parent: "training"
+      params:
+        group: true
+    - identifier: "ospo-101"
+      name: "OSPO 101 Course"
+      url: "https://github.com/todogroup/ospo101"
+      weight: 1
+      parent: "executives"
+      post: "Learn how to build and manage an open source program office."
     - identifier: "resources"
       name: "Resources"
       url: "/resources/"
-      weight: 2
+      weight: 3
+      params:
+        featured:
+          title: "The OSPO Book"
+          description: "Learn from the community\u2019s experience building and evolving open source program offices."
+          url: "/resources/book/"
+          label: "Read the book"
     - identifier: "glossary"
-      name: "Glossary"
+      name: "OSPO Glossary"
       url: "/resources/glossary/"
       weight: 1
-      post: "Common terms and definitions of OSPO"
-      parent: "resources"
-    - identifier: "studies"
-      name: "Studies"
-      url: "/resources/studies/"
+      parent: "learn-ospo"
+      post: "A shared vocabulary for open source program management."
+    - identifier: "jobs"
+      name: "OSPO Job Board"
+      url: "/jobs/"
       weight: 2
-      post: "Maturity model, surveys, and reports to help your OSPO journey"
-      parent: "resources"
-    - identifier: "mindmap"
-      name: "MindMap"
-      url: "/resources/mindmap/"
-      weight: 3
-      post: "Responsibilities, roles, behavior, and team sizes within OSPOs"
-      parent: "resources"
-    - identifier: "training"
-      name: "Training Modules"
-      url: "/resources/training/"
-      weight: 4
-      post: "Free and open courses covering everything you need to know"
-      parent: "resources"
-    - identifier: "bof"
-      name: "BoF"
-      url: "/resources/bof/"
-      weight: 5
-      post: "Birds of a Feather (BoF) sessions from past events"
-      parent: "resources"
-    - identifier: "book"
-      name: "Book"
-      url: "/resources/book/"
-      weight: 5
-      post: "Source of knowledge for organizations developing open source management strategies"
-      parent: "resources"
+      parent: "plan-ospo"
+      post: "Find your next role in open source program management."
     - identifier: "guides"
-      name: "Guides"
+      name: "TODO Guides"
       url: "/resources/guides/"
+      weight: 3
+      parent: "learn-ospo"
+      post: "Practical guidance for running an open source program."
+    - identifier: "book"
+      name: "OSPO Book"
+      url: "/resources/book/"
+      weight: 4
+      parent: "learn-ospo"
+      post: "Explore strategies and lessons from OSPO practitioners."
+    - identifier: "mindmap"
+      name: "Mind Map"
+      url: "/resources/mindmap/"
+      weight: 5
+      parent: "plan-ospo"
+      post: "Discover OSPO responsibilities, roles, and activities."
+    - identifier: "frameworks"
+      name: "Frameworks"
+      url: "/resources/studies/"
       weight: 6
-      post: "Open source program management best practices for organizations"
-      parent: "resources"
-    - identifier: "case-studies"
-      name: "Case Studies"
-      url: "/resources/case-studies/"
-      weight: 7
-      post: "Real case studies showcasing the impact of OSPOs on organizations worldwide"
-      parent: "resources"
-    - identifier: "artwork"
-      name: "Brand Guidebook"
-      url: "/resources/guidebook/"
-      weight: 8
-      post: "TODO Brand Guidebook and visual identity"
-      parent: "resources"
+      parent: "plan-ospo"
+      post: "Maturity models, research, and frameworks for your OSPO journey."
     - identifier: "community"
       name: "Community"
       url: "/community/"
-      weight: 3
-    - identifier: "get-started"
-      name: "Get started"
-      url: "/community/get-started/"
+      weight: 4
+      params:
+        featured:
+          title: "Meet your community"
+          description: "Find upcoming events, meetups, and opportunities to connect with OSPO practitioners."
+          url: "/community/events/"
+          label: "Explore events"
+    - identifier: "working-groups"
+      name: "Working Groups"
+      url: "/working-groups/"
       weight: 1
-      post: "Helpful onboarding resources for the community and members"
-      parent: "community"
-    - identifier: "communication-channels"
-      name: "Communication Channels"
-      url: "/community/comms/"
+      parent: "take-part"
+      post: "Collaborate with practitioners on shared OSPO challenges."
+    - identifier: "github-projects"
+      name: "GitHub Projects"
       weight: 2
-      post: "Engage with the community via TODO chat, forum, and mailing list"
       parent: "community"
-    - identifier: "virtual-meetings"
-      name: "Meetings"
+      params:
+        group: true
+    - identifier: "landscape"
+      name: "OSPO Landscape"
+      url: "https://github.com/todogroup/ospolandscape"
+      weight: 1
+      parent: "github-projects"
+      post: "Explore and contribute to the OSPO ecosystem."
+    - identifier: "definition"
+      name: "OSPO Definition"
+      url: "https://github.com/todogroup/ospodefinition.org"
+      weight: 2
+      parent: "github-projects"
+      post: "Help shape a shared definition of the OSPO."
+    - identifier: "website"
+      name: "Website"
+      url: "https://github.com/todogroup/todogroup.org"
+      weight: 3
+      parent: "github-projects"
+      post: "Contribute to the TODO website and its resources."
+    - identifier: "tools"
+      name: "Awesome OSS Management Tools"
+      url: "https://github.com/todogroup/awesome-oss-mgmt"
+      weight: 4
+      parent: "github-projects"
+      post: "Discover tools for managing open source programs."
+    - identifier: "ospology"
+      name: "OSPOlogy"
+      url: "https://github.com/todogroup/ospology"
+      weight: 5
+      parent: "github-projects"
+      post: "Share knowledge and collaborate with OSPO practitioners."
+    - identifier: "online-meetings"
+      name: "Online Meetings"
       url: "/community/meetings/"
       weight: 3
-      post: "Join OSPOlogy monthly webinars and working group meetings"
-      parent: "community"
+      parent: "take-part"
+      post: "Join virtual discussions and exchange ideas with peers."
     - identifier: "events"
-      name: "Events"
+      name: "Events and Meetups"
       url: "/community/events/"
       weight: 4
-      post: "Explore events and roundtable meetings around the world"
-      parent: "community"
-    - identifier: "ambassadors"
-      name: "TODO Ambassadors"
-      url: "/community/ambassadors/"
-      weight: 5
-      post: "Experienced practitioners helping others get started in OSPO and TODO"
-      parent: "community"
-    - identifier: "osponews"
-      name: "OSPONews"
-      url: "/community/osponews/"
-      weight: 6
-      post: "The monthly OSPO newsletter"
-      parent: "community"
-    - identifier: "working-groups"
-      name: "WorkGroups"
-      url: "/working-groups/"
-      weight: 4
-    - identifier: "wg-ospo-book"
-      name: "OSPO Book"
-      url: "/working-groups/ospo-book/"
-      weight: 1
-      post: "Source of knowledge for OSPO practitioners and organizations"
-      parent: "working-groups"
-    - identifier: "wg-oss-in-business"
-      name: "OSS in Business"
-      url: "/working-groups/oss-in-business/"
-      weight: 2
-      post: "Quantifying the business value of open source for organizations"
-      parent: "working-groups"
-    - identifier: "wg-chaoss-ospo-metrics"
-      name: "CHAOSS OSPO Metrics"
-      url: "/working-groups/chaoss-ospo-metrics/"
-      weight: 3
-      post: "Metrics and models for measuring OSPO impact"
-      parent: "working-groups"
-    - identifier: "wg-agentic-ai"
-      name: "Agentic AI to empower OSPOs"
-      url: "/working-groups/agentic-ai/"
-      weight: 4
-      post: "Exploring how agentic AI can empower OSPO operations"
-      parent: "working-groups"
+      parent: "take-part"
+      post: "Connect with the community at events around the world."
     - identifier: "blog"
       name: "Blog"
       url: "/blog/"
       weight: 5
+    - identifier: "discover-todo"
+      name: "Discover TODO"
+      parent: "about"
+      weight: 1
+      params:
+        group: true
+    - identifier: "learn-ospo"
+      name: "Learn about OSPOs"
+      parent: "resources"
+      weight: 1
+      params:
+        group: true
+    - identifier: "plan-ospo"
+      name: "Plan your next steps"
+      parent: "resources"
+      weight: 2
+      params:
+        group: true
+    - identifier: "take-part"
+      name: "Take part"
+      parent: "community"
+      weight: 1
+      params:
+        group: true
+
 ja:
   languageName: 日本語
   contentDir: content/ja

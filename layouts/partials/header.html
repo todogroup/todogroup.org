@@ -1,0 +1,67 @@
+{{ $extra_header_class := "" }}
+{{ with .Site.Params.sticky_header }}
+  {{ $extra_header_class = "sticky" }}
+{{ end }}
+<header class="header {{ $extra_header_class }}">
+    <div class="container wrap">
+
+        {{ with .Site.Params.logo_on_white }}
+        <a class="logo-link" href="{{ "/" | absLangURL }}">
+            <img class="logo" width="150" height="40" src="{{ . | absURL }}" alt="{{ $.Site.Title | safeHTMLAttr }}">
+        </a>
+        {{ else }}
+        <a class="site-title-link" href="{{ "/" | absLangURL }}">
+            <span class="site-title">{{ $.Site.Title }}</span>
+        </a>
+        {{ end }}
+        
+        {{ with .Site.Menus.main }}
+        <nav id="main-navigation" class="main-menu" aria-label="Main navigation">
+            <ul class="main-menu__wrapper">
+                {{ range . }}
+                <li class="top-menu-item{{ if .HasChildren }} menu-item-has-children{{ end }}">
+                    {{ if .HasChildren }}
+                    <button type="button" class="menu-link menu-toggle" aria-expanded="false" aria-controls="menu-{{ .Identifier }}">{{ .Name }}</button>
+                    <div class="sub-menu" id="menu-{{ .Identifier }}" hidden>
+                        {{ partial "navigation-panel.html" . }}
+                    </div>
+                    {{ else }}
+                    <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+
+            <div class="main-menu__cta-language-wrapper">
+                {{ with $.Site.Params.main_cta }}
+                {{ if and .text .link }}
+                <a href="{{ .link | absLangURL }}" class="button main-menu-cta">{{ .text }}</a>
+                {{ end }}
+                {{ end }}
+
+                {{ with $.Site.Params.show_search }}
+                <div class="main-menu__search-language-wrapper">
+                    
+                <a href="{{ "/search" | absLangURL }}" class="main-menu-search">
+                    <svg width="30" height="31" viewBox="0 0 50 52" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".945" fill-rule="evenodd" clip-rule="evenodd" d="M45.381 50.122 28.404 33.357l3.1-3.14 16.978 16.765-3.1 3.14Z" fill="#000"/><path opacity=".945" fill-rule="evenodd" clip-rule="evenodd" d="M19.372 6.63c-7.63 0-13.77 6.102-13.77 13.57 0 7.469 6.14 13.57 13.77 13.57 7.631 0 13.77-6.102 13.77-13.57S27.003 6.63 19.372 6.63ZM1.19 20.2c0-9.957 8.167-17.982 18.182-17.982 10.016 0 18.182 8.025 18.182 17.982 0 9.958-8.166 17.983-18.182 17.983C9.357 38.183 1.19 30.158 1.19 20.2Z" fill="#000"/></svg>
+                </a>
+                {{ end }}
+
+                {{ partial "language-selector.html" $ }}
+
+                {{ if $.Site.Params.show_search }}
+                    </div>
+                {{ end }}
+            </div>
+
+        </nav>
+        <button class="hamburger" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="main-navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        {{ else }}
+        <p>Create pages or add <pre>.Site.Menus.main</pre> to config to activate menu.</p>
+        {{ end }}
+    </div>
+</header>

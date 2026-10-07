@@ -1,0 +1,112 @@
+<footer class="footer">
+    <div class="container wrap">
+
+        <div class="footer__menu-cta-wrapper">
+
+            <div class="footer__menu">
+                {{/* Store menu items without children in a Scratch */}}
+                {{ $.Scratch.Set "noChildrenItems" slice }}
+
+                {{ with .Site.Menus.main }}
+
+                {{/* First, loop through to filter out items with no children and store them */}}
+                {{ range . }}
+                {{ if not .HasChildren }}
+                {{ $noChildren := $.Scratch.Get "noChildrenItems" }}
+                {{ $.Scratch.Set "noChildrenItems" ($noChildren | append .) }}
+                {{ end }}
+                {{ end }}
+
+                {{/* Render items with children first, each wrapped in its own column */}}
+                {{ range . }}
+                {{ if .HasChildren }}
+                <div class="column">
+                    <p class="top-menu-item">{{ .Name }}</p>
+                    <ul>
+                        {{ range .Children }}
+                        <li class="menu-item">
+                            <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+                {{ end }}
+                {{/* Render all items without children inside a single column div */}}
+                <div class="column no-children-links">
+                    <p class="top-menu-item">&nbsp;</p>
+                    <ul>
+                        {{ range $.Scratch.Get "noChildrenItems" }}
+                        <li class="menu-item">
+                            <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+            </div>
+
+            {{ with .Site.Params.footer_cta }}
+            {{ if and .text .link }}
+            <div class="footer__cta">
+                <a href="{{ .link | absLangURL }}" class="button tertiary">{{ .text }}</a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+
+        <div class="footer__logo-social-wrapper">
+            {{ with .Site.Params.logo_on_black }}
+            <a class="logo-link" href="{{ "/" | absLangURL }}">
+                <img loading="lazy" class="logo" width="150" height="40" src="{{ . | absURL }}" alt="{{ $.Site.Title | safeHTMLAttr }}"></a>
+            {{ end }}
+
+            {{- partial "footer/social-links.html" . -}}
+        </div>
+
+        <hr class="footer-hr">
+
+        <div class="copyright">
+            <p>{{ .Site.Copyright | default "Copyright &copy; {{< current_year >}} All Rights Reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)." | markdownify }}</p>
+
+            <div class="copyright__accessibility-git-wrapper">
+                {{ if .Site.Params.accessibility.help_url }}
+                <a href="{{ .Site.Params.accessibility.help_url }}" class="nowrap">{{ .Site.Params.accessibility.help_text | default
+                    "Accessibility Statement" }}</a>
+                {{ end }}
+
+                {{- partial "footer/github.html" . -}}
+            </div>
+        </div>
+    </div>
+</footer>
+
+{{/* Theme: Hover Intent */}}
+{{ $js := resources.Get "js/hoverintent.min.js" }}
+<script defer src="{{ $js.Permalink }}"></script>
+
+{{/* Theme: FAQ */}}
+{{ if and (eq .Type "faq") (eq .Kind "section") }}
+{{ $js := resources.Get "js/accordion.js" }}
+<script defer src="{{ $js.Permalink }}"></script>
+<script>
+    var stickyHeader = {{ if .Site.Params.sticky_header }}true{{ else }}false{{ end }};
+  </script>
+{{ end }}
+
+{{/* Fingerprint navigation on every build so pages cannot load stale theme scripts. */}}
+{{ $js := resources.Get "js/scripts.js" }}
+{{ if eq hugo.Environment "production" }}
+{{ $js = $js | resources.Minify }}
+{{ end }}
+{{ $js = $js | resources.Fingerprint "sha256" }}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+{{/* Shortcode: YouTube Enhanced */}}
+{{ if .HasShortcode "youtube_enhanced" }}
+{{ $js := resources.Get "js/youtube-lite.js" | resources.Minify }}
+<script type="module" src="{{ $js.Permalink }}"></script>
+{{ end }}
+
+{{/* User: Custom JS */}}
+{{- partial "footer/custom-js.html" . }}

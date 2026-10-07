@@ -1,0 +1,15 @@
+<div class="mega-menu{{ with .Params.featured }} mega-menu--featured{{ end }}">
+    <ul class="sub-menu__nav">
+        {{ range .Children }}{{ partial "navigation-item.html" . }}{{ end }}
+    </ul>
+    {{ with .Params.featured }}
+    <aside class="mega-menu__featured" aria-label="Recommended links">
+        <p class="mega-menu__eyebrow">Recommended links</p>
+        <a class="mega-menu__card" href="{{ .url | relLangURL }}">
+            <span class="mega-menu__card-title">{{ .title }}</span>
+            <span class="mega-menu__card-description">{{ .description }}</span>
+            <span class="mega-menu__card-cta">{{ .label }} <span aria-hidden="true">↗</span></span>
+        </a>
+    </aside>
+    {{ end }}
+</div>

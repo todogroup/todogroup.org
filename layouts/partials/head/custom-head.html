@@ -22,3 +22,6 @@
 {{ $formStyle := resources.Get "css/steering-committee-application.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $formStyle.RelPermalink }}" integrity="{{ $formStyle.Data.Integrity }}">
 {{ end }}
+
+{{ $navigation := resources.Get "scss/navigation.scss" | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $navigation.RelPermalink }}" integrity="{{ $navigation.Data.Integrity }}">

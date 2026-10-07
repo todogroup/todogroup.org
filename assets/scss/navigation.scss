@@ -1,0 +1,192 @@
+// Full-width grouped navigation, styled for TODO's visual identity.
+.header .main-menu {
+    .menu-toggle {
+        background: none;
+        border: 0;
+        border-bottom: 1px solid var(--gray-300);
+        border-radius: 0;
+        color: var(--menu-link-color);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        width: 100%;
+        padding: 22px 0;
+        font-family: var(--rounded-font-family);
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: .2px;
+        line-height: 1.4;
+        text-transform: none;
+        &::after {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid currentColor;
+            border-bottom: 2px solid currentColor;
+            transform: rotate(45deg);
+            flex-shrink: 0;
+        }
+        &[aria-expanded="true"]::after { transform: rotate(225deg); }
+    }
+    a:focus-visible, button:focus-visible {
+        outline: 2px solid var(--primary-600);
+        outline-offset: 4px;
+    }
+    .sub-menu[hidden] { display: none !important; }
+    .sub-menu:not([hidden]) {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+        overflow: visible;
+    }
+    .sub-menu__nav {
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        background: transparent;
+        .menu-item { margin-bottom: 0; }
+        a {
+            padding: 12px 0;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 1.35;
+            letter-spacing: 0;
+            &:hover { color: var(--primary-600); }
+        }
+        .menu-item__description {
+            margin-top: 8px;
+            color: #424242;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+    }
+    .menu-group__heading, .mega-menu__eyebrow {
+        display: block;
+        margin: 0 0 16px;
+        padding: 0;
+        color: var(--gray-700);
+        font-family: var(--rounded-font-family);
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 1.6;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+    }
+    .menu-group__links { padding: 0; }
+    .menu-group + .menu-group { margin-top: 28px; }
+    .mega-menu__featured { padding: 24px 0 0; margin-top: 24px; border-top: 1px solid var(--gray-300); }
+    .mega-menu__card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border: 1px solid var(--gray-300);
+        border-radius: 6px;
+        padding: 24px;
+        background: linear-gradient(135deg, #f2f8f6, #fff 75%);
+        color: var(--black);
+        letter-spacing: 0;
+        line-height: 1.5;
+        &:hover { border-color: var(--primary-600); color: var(--black); }
+    }
+    .mega-menu__card-title { font-size: 22px; font-weight: 800; }
+    .mega-menu__card-description { font-size: 15px; font-weight: 400; }
+    .mega-menu__card-cta {
+        margin-top: 8px;
+        padding-bottom: 6px;
+        border-bottom: 3px solid var(--primary-600);
+        font-size: 13px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    @media (max-width: 999px) {
+        height: auto;
+        padding-bottom: 40px;
+        overscroll-behavior: contain;
+        visibility: hidden;
+        &.is-active { visibility: visible; }
+        .top-menu-item > a { text-transform: none; line-height: 1.4; }
+        .sub-menu { padding: 24px 0; }
+    }
+    @media (min-width: 1000px) {
+        margin-left: clamp(24px, 4vw, 64px);
+        .main-menu__wrapper { gap: clamp(20px, 3vw, 44px); }
+        .top-menu-item { margin-right: 0; }
+        .top-menu-item > a, .menu-toggle {
+            position: relative;
+            border: 0;
+            width: auto;
+            padding: 28px 0;
+            font-size: 17px;
+            text-transform: none;
+            white-space: nowrap;
+        }
+        .menu-toggle::after { display: none; }
+        .menu-toggle[aria-expanded="true"] {
+            color: var(--gray-800);
+            box-shadow: inset 0 -4px var(--primary-600);
+        }
+        .menu-item-has-children { position: static; }
+        .sub-menu {
+            top: 100%;
+            left: 0;
+            right: 0;
+            width: 100%;
+            min-width: 0;
+            padding: 0;
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            box-shadow: 0 16px 24px rgba(16, 24, 40, .12);
+            max-height: calc(100dvh - 80px);
+            overflow-y: auto !important;
+        }
+        .mega-menu {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 40px clamp(25px, 4vw, 64px) 48px;
+            min-height: 440px;
+        }
+        .mega-menu--featured {
+            display: grid;
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .sub-menu__nav {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            align-items: start;
+            gap: 32px clamp(24px, 4vw, 64px);
+            padding: 40px 0 48px;
+            width: 100%;
+            margin: 0;
+            a { padding: 0; font-size: clamp(20px, 1.6vw, 25px); }
+            .menu-item__description { font-size: 15px; }
+        }
+        .menu-group + .menu-group { margin-top: 0; }
+        .menu-group__heading, .mega-menu__eyebrow { margin-bottom: 28px; }
+        .menu-group__links > .menu-item + .menu-item { margin-top: 28px; }
+        .mega-menu__featured {
+            margin: 0 0 0 40px;
+            padding: 40px 0 48px 32px;
+            border-top: 0;
+            border-left: 1px solid var(--gray-300);
+        }
+        .main-menu-cta { border-radius: 4px; }
+        .main-menu-cta, .language-selector, .main-menu-search svg { margin-left: 16px; }
+    }
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+    .header .main-menu {
+        margin-left: 20px;
+        .main-menu__wrapper { gap: 16px; }
+        .menu-toggle, .top-menu-item > a { font-size: 14px; letter-spacing: 0; }
+        .mega-menu__featured { margin-left: 24px; padding-left: 24px; }
+    }
+}

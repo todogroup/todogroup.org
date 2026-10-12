@@ -10,7 +10,7 @@ Keep Slack values as display names without the leading `@`; the card adds it. Om
 
 ## Review items
 
-LinkedIn hides Fernando Eugenio Correa’s primary profile photo from public visitors; the incorrectly extracted recommendation photo has been removed. LinkedIn blocked photo retrieval for Ana Jiménez Santamaría, Diego Mastroianni, Annania Melaku, Dawn Foster and Alin Jerpelea. Their cards use initials until the profile photos can be obtained. Add a local photo and its source URL to the person record to replace the fallback.
+Dawn Foster, Annania Melaku and Alin Jerpelea now use direct images supplied and labeled by the page owner. Fernando Eugenio Correa, Diego Mastroianni and Ana Jiménez Santamaría still use initials pending confirmation of the supplied unlabeled images and any remaining photo source.
 
 Slack display names remain missing for Ana Jiménez Santamaría, Fernando Eugenio Correa, Georg Kunz and Annania Melaku.
 

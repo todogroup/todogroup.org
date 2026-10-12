@@ -55,18 +55,27 @@
     "name": "Annania Melaku",
     "linkedin": "https://www.linkedin.com/in/annaniam/",
     "slack": "",
-    "initials": "AM"
+    "initials": "AM",
+    "photo": "/img/working-group-chairs/annaniam.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/D4E03AQHsZ0AfqIy9Mg/profile-displayphoto-scale_400_400/B4EZ5r6zpHK0Ag-/0/1779927040596?e=1793232000&v=beta&t=xjiNbKfu6ybN17mWKhp42wh0UFiWbaJtWyIGjqqfpUw",
+    "photo_verified": "Direct image supplied and labeled by page owner"
   },
   "dawnfoster": {
     "name": "Dawn Foster",
     "linkedin": "https://www.linkedin.com/in/dawnfoster/",
     "slack": "Dawn Foster",
-    "initials": "DF"
+    "initials": "DF",
+    "photo": "/img/working-group-chairs/dawnfoster.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C4D03AQG9zvT3br8d1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622269824465?e=1793232000&v=beta&t=jpDK_Lm3hwMHBioKghBzBlf_K3WZ9TgfBgyZgu-6dVI",
+    "photo_verified": "Direct image supplied and labeled by page owner"
   },
   "ajerpelea": {
     "name": "Alin Jerpelea",
     "linkedin": "https://www.linkedin.com/in/ajerpelea/",
     "slack": "Alin Jerpelea",
-    "initials": "AJ"
+    "initials": "AJ",
+    "photo": "/img/working-group-chairs/ajerpelea.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQG4cClSgR3h7w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517281192539?e=1793232000&v=beta&t=QfevRUTvBUCGXBT0EPkoAr_eqMqJ-hj7b4njfPxcdK4",
+    "photo_verified": "Direct image supplied and labeled by page owner"
   }
 }

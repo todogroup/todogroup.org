@@ -25,3 +25,8 @@
 
 {{ $navigation := resources.Get "scss/navigation.scss" | resources.ToCSS | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $navigation.RelPermalink }}" integrity="{{ $navigation.Data.Integrity }}">
+
+{{ if .HasShortcode "working-group-leadership" }}
+{{ $leadership := resources.Get "css/working-group-leadership.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $leadership.RelPermalink }}" integrity="{{ $leadership.Data.Integrity }}">
+{{ end }}

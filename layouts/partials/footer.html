@@ -24,9 +24,7 @@
                     <p class="top-menu-item">{{ .Name }}</p>
                     <ul>
                         {{ range .Children }}
-                        <li class="menu-item">
-                            <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
-                        </li>
+                        {{ partial "footer-menu-item.html" . }}
                         {{ end }}
                     </ul>
                 </div>

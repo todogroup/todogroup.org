@@ -10,7 +10,7 @@ Keep Slack values as display names without the leading `@`; the card adds it. Om
 
 ## Review items
 
-LinkedIn blocked photo retrieval for Ana Jiménez Santamaría, Diego Mastroianni, Annania Melaku, Dawn Foster and Alin Jerpelea. Their cards use initials until the profile photos can be obtained. Add a local photo and its source URL to the person record to replace the fallback.
+LinkedIn hides Fernando Eugenio Correa’s primary profile photo from public visitors; the incorrectly extracted recommendation photo has been removed. LinkedIn blocked photo retrieval for Ana Jiménez Santamaría, Diego Mastroianni, Annania Melaku, Dawn Foster and Alin Jerpelea. Their cards use initials until the profile photos can be obtained. Add a local photo and its source URL to the person record to replace the fallback.
 
 Slack display names remain missing for Ana Jiménez Santamaría, Fernando Eugenio Correa, Georg Kunz and Annania Melaku.
 
@@ -19,3 +19,5 @@ The roster covers the three working groups supplied for this update. OSPO Book l
 ## Validation
 
 Built with Hugo Extended 0.126.3, the version series declared by the repository. Desktop and 390px mobile layouts reviewed. All local destinations linked from the directory, including the navbar and footer, resolve in the generated site. The repository lockfile fails `npm ci` on macOS due to a non-optional Android Rollup package; validation used temporary PostCSS dependencies without changing the lockfile.
+
+Swastik’s photo was replaced with the direct image supplied by the page owner. Ashley’s image was verified against the primary profile image, using its matching name and top-card element rather than unrelated recommendation images.

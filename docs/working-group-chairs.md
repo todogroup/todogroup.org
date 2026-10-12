@@ -10,7 +10,7 @@ Keep Slack values as display names without the leading `@`; the card adds it. Om
 
 ## Review items
 
-Dawn Foster, Annania Melaku and Alin Jerpelea now use direct images supplied and labeled by the page owner. Fernando Eugenio Correa, Diego Mastroianni and Ana Jiménez Santamaría still use initials pending confirmation of the supplied unlabeled images and any remaining photo source.
+Dawn Foster, Annania Melaku and Alin Jerpelea now use direct images supplied and labeled by the page owner. Fernando Eugenio Correa and Ana Jiménez Santamaría also use direct images supplied by the page owner. Diego Mastroianni’s direct photo has also been supplied and added. Every leadership card now has a locally stored photo.
 
 Slack display names remain missing for Ana Jiménez Santamaría, Fernando Eugenio Correa, Georg Kunz and Annania Melaku.
 

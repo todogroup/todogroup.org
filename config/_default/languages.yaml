@@ -58,10 +58,10 @@ en:
       post: "Organizations supporting OSPO adoption around the world."
     - identifier: "working-group-chairs"
       name: "Working Group Chairs"
-      url: "https://github.com/todogroup/governance/tree/main/TODO%20Structure"
+      url: "/about/working-group-chairs/"
       weight: 3
       parent: "structure"
-      post: "Explore the roles and structure behind our working groups."
+      post: "Meet the chairs and steering committee liaisons supporting our working groups."
     - identifier: "ambassadors"
       name: "Ambassadors"
       url: "/community/ambassadors/"

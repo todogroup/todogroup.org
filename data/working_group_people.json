@@ -1,0 +1,72 @@
+{
+  "swastik-baranwal": {
+    "name": "Swastik Baranwal",
+    "linkedin": "https://www.linkedin.com/in/swastik-baranwal/",
+    "slack": "Swastik",
+    "initials": "SB",
+    "photo": "/img/working-group-chairs/swastik-baranwal.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/D4D03AQGVJvZ-JFEiwQ/profile-displayphoto-scale_400_400/B4DaBC9A93KcAg-/0/1787829686820?e=2147483647&v=beta&t=hwj55kzqPQ8gwhOsYBI4xRcfARKK5EDUFHW_dkku5po"
+  },
+  "fernando-eugenio-correa": {
+    "name": "Fernando Eugenio Correa",
+    "linkedin": "https://www.linkedin.com/in/fernando-eugenio-correa/",
+    "slack": "",
+    "initials": "FE",
+    "photo": "/img/working-group-chairs/fernando-eugenio-correa.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQGzWO7b3xTJAA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643405733455?e=2147483647&v=beta&t=HC3fvw4cfMkTdVXPnwanPmSNOlk_CN5jihOCYfnhrq8"
+  },
+  "georg-kunz": {
+    "name": "Georg Kunz",
+    "linkedin": "https://www.linkedin.com/in/georg-kunz/",
+    "slack": "",
+    "initials": "GK",
+    "photo": "/img/working-group-chairs/georg-kunz.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C4D03AQGyNmjNTpywXg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1589715793585?e=2147483647&v=beta&t=cA8Xw21D_ZB61aS9YBX7NHDc2oNh--9541A8ThxMWbc"
+  },
+  "ashleywolf": {
+    "name": "Ashley Wolf",
+    "linkedin": "https://www.linkedin.com/in/ashleywolf/",
+    "slack": "Ashley Wolf",
+    "initials": "AW",
+    "photo": "/img/working-group-chairs/ashleywolf.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C5603AQFAxNRLbFuJdQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1563388254572?e=2147483647&v=beta&t=UfrFVub_5lE_H6jHizkLB7QWPmqs0ILDdUfaHfJ4SC0"
+  },
+  "ana-jimenez-santamaria": {
+    "name": "Ana Jiménez Santamaría",
+    "linkedin": "https://www.linkedin.com/in/ana-jimenez-santamaria/",
+    "slack": "",
+    "initials": "AJ"
+  },
+  "stephenaugustus": {
+    "name": "Stephen Augustus",
+    "linkedin": "https://www.linkedin.com/in/stephenaugustus/",
+    "slack": "Stephen Augustus",
+    "initials": "SA",
+    "photo": "/img/working-group-chairs/stephenaugustus.jpg",
+    "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQE2Yk6Luz0YCg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517707470825?e=2147483647&v=beta&t=ywTz07mym_F7kDdbgotMo-JusxC6AkEdgH7ZOO6QEPI"
+  },
+  "diegomastroianni": {
+    "name": "Diego Mastroianni",
+    "linkedin": "https://www.linkedin.com/in/diegomastroianni/",
+    "slack": "Diego Mastroianni",
+    "initials": "DM"
+  },
+  "annaniam": {
+    "name": "Annania Melaku",
+    "linkedin": "https://www.linkedin.com/in/annaniam/",
+    "slack": "",
+    "initials": "AM"
+  },
+  "dawnfoster": {
+    "name": "Dawn Foster",
+    "linkedin": "https://www.linkedin.com/in/dawnfoster/",
+    "slack": "Dawn Foster",
+    "initials": "DF"
+  },
+  "ajerpelea": {
+    "name": "Alin Jerpelea",
+    "linkedin": "https://www.linkedin.com/in/ajerpelea/",
+    "slack": "Alin Jerpelea",
+    "initials": "AJ"
+  }
+}

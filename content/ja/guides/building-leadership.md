@@ -15,7 +15,7 @@ title: 'オープンソース コミュニティでリーダーシップを構�
 3. [リーダーになるには](#オープンソースのリーダーシップ文化)
 4. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者

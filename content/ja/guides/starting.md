@@ -16,7 +16,7 @@ title: 'オープンソース プロジェクトを立ち上げる'
 6. [結論](#結論)
 7. [オープンソース プロジェクト始動のチェックリスト](#オープンソース-プロジェクト始動のチェックリスト)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -438,5 +438,3 @@ Capital One
 - 方向性やガバナンスに関わる変更は明確に伝達されるよう確認
 - 他の類似コミュニティのベストプラクティスを踏襲
 - コミュニティ構築のために直接対面を奨励、ミーティングの機会を提供
-
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Open-source-project-launch-checklist-jp-1.png?width=1024&name=Open-source-project-launch-checklist-jp-1.png)

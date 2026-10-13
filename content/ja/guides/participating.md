@@ -18,7 +18,7 @@ title: 'オープンソース コミュニティへの参加'
 6. [どのようにしてコントリビューション戦略を構築するか](#どのようにオープンソース-コントリビューション戦略を構築するか)
 7. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -43,7 +43,7 @@ Comcast
 >
 > **[Stormy Peters](https://twitter.com/storming) – Senior Manager, Community Leads at Red Hat**
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Linux-kernel-contributors-graph.jpeg?width=1200&name=Linux-kernel-contributors-graph.jpeg)
+ ![](/img/guides/ja/Linux-kernel-contributors-graph.jpeg)
 
 各カーネル リリースに貢献しているLinuxカーネル開発者。
 出典：The Linux FoundationのLinuxカーネル レポート 2016年版
@@ -102,7 +102,7 @@ Comcast
 
 たとえば、Node.js Foundation理事会の理事（[Node.js Foundation Board of Directors](https://foundation.nodejs.org/about/leadership)）は、企業会員からの代表者、技術運営委員会の代表者、個人会員クラスで選出された代表者で構成されています。理事会の理事を構成することができる企業のメンバーは、5,000ドル（小規模組織の場合）から250,000ドルを支払います。スポンサーシップやメンバーシップに対するアプローチは、プロジェクトごとに多少異なりますが、オープンソース プロジェクトへの資金提供はプロジェクトの経費を支え、プロジェクトの成功に役立ちます。
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Kubernetes-contributors.png?width=686&name=Kubernetes-contributors.png)
+ ![](/img/guides/ja/Kubernetes-contributors.png)
 
 多様な組織がCloud Native Computing FoundationのKubernetesプロジェクトにコントリビューションしています。
 

@@ -20,3 +20,5 @@ The group produces whitepapers and case studies focused on measuring the impact 
 - **Bi-weekly call**: [TODO Group Community Calendar](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
 
 OSPO leads, finance partners, and anyone working at the intersection of open source and business strategy are encouraged to join.
+
+Meet the [working group chairs and steering committee liaisons](/about/working-group-chairs/#oss-in-business).

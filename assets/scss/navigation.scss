@@ -15,10 +15,10 @@
         padding: 22px 0;
         font-family: var(--rounded-font-family);
         font-size: 16px;
-        font-weight: 800;
-        letter-spacing: .2px;
-        line-height: 1.4;
-        text-transform: none;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 1;
+        text-transform: uppercase;
         &::after {
             content: "";
             width: 8px;
@@ -29,6 +29,20 @@
             flex-shrink: 0;
         }
         &[aria-expanded="true"]::after { transform: rotate(225deg); }
+    }
+    // Keep dropdown buttons and standalone links consistent with the theme.
+    .top-menu-item > .menu-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 0;
+        font-family: var(--rounded-font-family);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 1;
+        text-transform: uppercase;
     }
     a:focus-visible, button:focus-visible {
         outline: 2px solid var(--primary-600);
@@ -110,20 +124,19 @@
         overscroll-behavior: contain;
         visibility: hidden;
         &.is-active { visibility: visible; }
-        .top-menu-item > a { text-transform: none; line-height: 1.4; }
         .sub-menu { padding: 24px 0; }
     }
     @media (min-width: 1000px) {
         margin-left: clamp(24px, 4vw, 64px);
-        .main-menu__wrapper { gap: clamp(20px, 3vw, 44px); }
+        .main-menu__wrapper { align-items: center; gap: clamp(20px, 3vw, 44px); }
         .top-menu-item { margin-right: 0; }
         .top-menu-item > a, .menu-toggle {
             position: relative;
             border: 0;
             width: auto;
-            padding: 28px 0;
-            font-size: 17px;
-            text-transform: none;
+            padding: 25px 0;
+            font-size: 16px;
+            text-transform: uppercase;
             white-space: nowrap;
         }
         .menu-toggle::after { display: none; }
@@ -186,7 +199,7 @@
     .header .main-menu {
         margin-left: 20px;
         .main-menu__wrapper { gap: 16px; }
-        .menu-toggle, .top-menu-item > a { font-size: 14px; letter-spacing: 0; }
+        .menu-toggle, .top-menu-item > a { font-size: 14px; }
         .mega-menu__featured { margin-left: 24px; padding-left: 24px; }
     }
 }

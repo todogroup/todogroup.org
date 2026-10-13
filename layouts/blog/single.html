@@ -1,11 +1,5 @@
 {{ define "main" }}
-{{/*
-  Site-level override of themes/dot-org-hugo-theme/layouts/blog/single.html.
-  Only change vs. the theme: single blog posts render the richer
-  partials/blog/author-card.html instead of the compact blog/byline.html.
-  The blog list page (blog/list.html) still uses the theme's byline,
-  so list items stay compact.
-*/}}
+{{/* Site override: author card and shared featured image. */}}
 {{- with .Params.subtitle }}
 <p class="blog-subtitle">{{ . }}</p>
 <style>
@@ -20,5 +14,6 @@
 </style>
 {{- end }}
 {{- partial "blog/author-card.html" . }}
+{{- partial "blog/featured-image.html" . }}
 {{ .Content }}
 {{ end }}

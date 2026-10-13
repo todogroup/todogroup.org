@@ -1,0 +1,12 @@
+<li class="menu-item{{ if .HasChildren }} menu-group{{ end }}">
+    {{ if .Params.group }}
+    <span class="menu-group__heading">{{ .Name }}</span>
+    {{ else }}
+    <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}{{ with .Post }}<span class="menu-item__description">{{ . }}</span>{{ end }}</a>
+    {{ end }}
+    {{ if .HasChildren }}
+    <ul class="menu-group__links">
+        {{ range .Children }}{{ partial "navigation-item.html" . }}{{ end }}
+    </ul>
+    {{ end }}
+</li>

@@ -10,3 +10,28 @@
 {{ if (eq .Kind "home") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all">
 {{ end }}
+
+{{ if eq .Section "blog" }}
+<style>
+  .blog-featured-image { display: block; width: 100%; height: auto; margin: 1.5rem 0; border-radius: 12px; }
+  .blog-item .blog-featured-image { max-width: 600px; }
+</style>
+{{ end }}
+
+{{ if .HasShortcode "steering-committee-application" }}
+{{ $formStyle := resources.Get "css/steering-committee-application.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $formStyle.RelPermalink }}" integrity="{{ $formStyle.Data.Integrity }}">
+{{ end }}
+
+{{ $navigation := resources.Get "scss/navigation.scss" | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $navigation.RelPermalink }}" integrity="{{ $navigation.Data.Integrity }}">
+
+{{ if .HasShortcode "working-group-leadership" }}
+{{ $leadership := resources.Get "css/working-group-leadership.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $leadership.RelPermalink }}" integrity="{{ $leadership.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "events-hub" }}
+{{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">
+{{ end }}

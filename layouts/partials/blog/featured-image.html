@@ -1,0 +1,2 @@
+{{- $image := partialCached "blog/image.html" . .RelPermalink -}}
+<img class="blog-featured-image" src="{{ $image.url }}" alt="{{ $image.alt }}"{{ with $image.width }} width="{{ . }}"{{ end }}{{ with $image.height }} height="{{ . }}"{{ end }} loading="lazy" decoding="async">

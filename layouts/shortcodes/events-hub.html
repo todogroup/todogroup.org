@@ -1,0 +1,93 @@
+<div class="events-hub">
+  <section class="events-hero" aria-labelledby="events-title">
+    <div class="events-hero__copy">
+      <p class="events-eyebrow">The TODO community, together</p>
+      <h1 id="events-title">Events<br>and meetups</h1>
+      <p class="events-lead">Meet your peers. Share what works.<br>Build your open source strategy.</p>
+      <p>Explore open source management best practices with peers, including governance, collaboration, AI strategy, and emerging technologies within organizations.</p>
+      <div class="events-actions">
+        <a class="events-button" href="https://ocgroups.dev/todo">Find OSPOlogy meetups <span aria-hidden="true">↗</span></a>
+        <a class="events-text-link" href="#event-formats">Explore event formats <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <figure class="events-hero__photo">
+      <img src="{{ "/images/blog/ospo-summit-china-2026/attachment-01.jpg" | relURL }}" alt="Participants gathered at OSPOlogy + OSPO Summit China 2026" width="1000" height="667" fetchpriority="high">
+      <figcaption>OSPOlogy + OSPO Summit China · Shanghai, 2026</figcaption>
+    </figure>
+  </section>
+
+  <section id="event-formats" class="events-section" aria-labelledby="formats-title">
+    <div class="events-section-heading">
+      <p class="events-eyebrow">Two ways to come together</p>
+      <h2 id="formats-title">Find your community</h2>
+      <p>From global conversations to local peer learning, there’s a place for you.</p>
+    </div>
+    <div class="events-formats">
+      <article class="events-format">
+        <p class="events-label">TODO Group official</p>
+        <h3>OSPOlogy events</h3>
+        <p>Organized or co-organized by TODO Group with adjacent and local communities, in two formats:</p>
+        <h4>At organizations’ venues and offices</h4>
+        <p>Standalone OSPOlogy events with workshops, panels, and roundtable discussions, hosted at organizations’ venues or offices.</p>
+        <h4>Co-located with Linux Foundation events</h4>
+        <p>OSPOlogy gatherings alongside events such as KubeCon + CloudNativeCon and PyTorch Conference, connecting OSPO practitioners with the wider open source ecosystem.</p>
+      </article>
+      <article class="events-format events-format--community">
+        <p class="events-label">Community-led</p>
+        <h3>Community-led OSPOlogy meetups</h3>
+        <p>Gatherings led by local organizers and TODO ambassadors, shaped around the interests, languages, and needs of their communities.</p>
+        <ul>
+          <li>In-person, hybrid, and online meetups</li>
+          <li>Local conversations and practical experience sharing</li>
+          <li>Connections with nearby practitioners and communities</li>
+        </ul>
+        <a class="events-text-link" href="https://ocgroups.dev/todo">Browse meetups on OCG <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+    <aside class="events-platform" aria-label="Meetup platform">
+      <div><strong>A new home for OSPOlogy meetups</strong><p>Find local groups and their event listings on Open Community Groups (OCG).</p></div>
+      <a class="events-button events-button--outline" href="https://ocgroups.dev/todo">Visit TODO on OCG <span aria-hidden="true">↗</span></a>
+    </aside>
+  </section>
+
+  <section id="ospology-framework" class="events-collaboration events-section" aria-labelledby="collaboration-title">
+    <div>
+      <p class="events-eyebrow">One framework. Many communities.</p>
+      <h2 id="collaboration-title">This is OSPOlogy</h2>
+      <img class="events-ospology-logo" src="{{ "/img/ospology-logo.svg" | relURL }}" alt="OSPOlogy" width="300" height="110" loading="lazy">
+      <p class="events-lead">TODO Group’s event brand for learning and collaborating across the open source ecosystem.</p>
+      <p>OSPOlogy brings OSPO practitioners together with adjacent and local communities to exchange experience, work through shared challenges, and build connections that continue beyond the event.</p>
+    </div>
+    <div class="events-collaboration__partners">
+      <h3>Connecting adjacent communities</h3>
+      <ul class="events-partners" aria-label="Adjacent communities">
+        <li>OpenChain</li><li>CNCF</li><li>OpenSSF</li><li>CHAOSS</li><li>CURIOSS</li><li>InnerSource Commons</li>
+      </ul>
+      <h3>Rooted in local communities</h3>
+      <p>Collaborations also connect local organizers and regional communities, including the Linux Foundation APAC OSPO community in China.</p>
+      <a class="events-text-link" href="{{ "/community/ambassadors/" | relLangURL }}">Meet TODO ambassadors <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="events-section" aria-labelledby="stories-title">
+    <div class="events-section-heading events-section-heading--split">
+      <div><p class="events-eyebrow">Ideas to take back to your OSPO</p><h2 id="stories-title">From recent gatherings</h2><p>Explore the conversations, people, and shared lessons behind OSPOlogy.</p></div>
+      <a class="events-text-link" href="{{ "/blog/" | relLangURL }}">More from the TODO blog <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="events-stories">
+      {{ range site.Data.events_hub.stories }}
+      <article class="events-story{{ if .featured }} events-story--featured{{ end }}">
+        <a class="events-story__image" href="{{ .url | relLangURL }}" tabindex="-1" aria-hidden="true"><img src="{{ .image | relURL }}" alt="{{ .alt }}" width="800" height="450" loading="lazy"></a>
+        <div class="events-story__copy">
+          <p class="events-story__meta">{{ .location }} · {{ .date }}</p>
+          <h3><a href="{{ .url | relLangURL }}">{{ .title }}</a></h3>
+          <p>{{ .description }}</p>
+          <a class="events-text-link" href="{{ .url | relLangURL }}" aria-label="Read the recap: {{ .title }}">Read the recap <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <div class="events-archive"><p>Looking for past sessions?</p><a class="events-text-link" href="https://www.youtube.com/@ospology">OSPOlogy videos <span aria-hidden="true">↗</span></a><a class="events-text-link" href="https://www.youtube.com/@LinuxfoundationOrg/search?query=ospocon">OSPOCon recording archive <span aria-hidden="true">↗</span></a><a class="events-text-link" href="https://www.youtube.com/@LinuxfoundationOrg/search?query=OSS%20Enabling%20Management">Open Source Summit OSS management tracks <span aria-hidden="true">↗</span></a></div>
+</div>

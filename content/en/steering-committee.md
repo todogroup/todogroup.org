@@ -12,10 +12,10 @@ provide resolutions for community requests, and help define the strategic goals 
 
 - [Annania Melaku](https://github.com/annania), F5 
 - [Ashley Wolf](https://github.com/ashleywolf), GitHub
-- [Brittany Istenes](https://github.com/tsteenbe), Fannie Mae
+- [Brittany Istenes](https://github.com/bistenes), Independent
 - [Georg Kunz](https://github.com/gkunz), Ericsson
 - [Natali Vlatko](https://github.com/natalisucks), Cisco
-- [Alice Sowerby](https://github.com/alice-sowerby), Independent
+- [Fernando Correa](https://github.com/fer-correa), Mercado Libre
 - [Stephen Augustus](https://github.com/justaugustus), Bloomberg
 
 See more information in the [TODO Group Governance repo](https://github.com/todogroup/governance#-about-todo-steering-committee-tsc).

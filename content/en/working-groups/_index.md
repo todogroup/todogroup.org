@@ -32,3 +32,5 @@ TODO Group Working Groups bring practitioners together around specific OSPO chal
   slack_text="#wg-agentic-ai-ospo"
   cal_text="Bi-weekly call" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
 >}}
+
+Meet the [working group chairs and steering committee liaisons](/about/working-group-chairs/).

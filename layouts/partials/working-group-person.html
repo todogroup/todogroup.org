@@ -1,0 +1,12 @@
+<article class="wg-person">
+  {{ with .person }}
+  <div class="wg-person__portrait">
+    <span class="wg-person__initials" aria-hidden="true">{{ .initials }}</span>
+    {{ with .photo }}<img src="{{ . | relURL }}" alt="" width="96" height="96" loading="lazy">{{ end }}
+  </div>
+  <h4>{{ .name }}</h4>
+  <p class="wg-person__role">{{ $.role }}</p>
+  {{ with .slack }}<p class="wg-person__slack">Slack: <strong>@{{ . }}</strong></p>{{ end }}
+  <a class="wg-person__profile" href="{{ .linkedin }}" aria-label="View {{ .name }} on LinkedIn">View LinkedIn profile →</a>
+  {{ end }}
+</article>

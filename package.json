@@ -4,33 +4,32 @@
   "description": "",
   "main": "none.js",
   "scripts": {
-      "build": "hugo --theme=dot-org-hugo-theme",
-      "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
-      "dev": "npm run dev:start",
-      "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
-      "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
-      "dev:build": "hugo --theme=dot-org-hugo-theme"
+    "build": "hugo --theme=dot-org-hugo-theme",
+    "start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+    "dev": "npm run dev:start",
+    "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
+    "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
+    "dev:build": "hugo --theme=dot-org-hugo-theme"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/cncf/dot-org-hugo-theme"
+    "type": "git",
+    "url": "https://github.com/cncf/dot-org-hugo-theme"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-      "url": "https://github.com/cncf/dot-org-hugo-theme/issues"
+    "url": "https://github.com/cncf/dot-org-hugo-theme/issues"
   },
   "homepage": "https://github.com/cncf/dot-org-hugo-theme#readme",
   "dependencies": {
-      "autoprefixer": "^10.4.16",
-      "hugo-extended": "^0.126.0",
-      "netlify-cli": "^22",
-      "postcss": "^8.5.25",
-      "postcss-cli": "^11"
+    "autoprefixer": "^10.4.16",
+    "hugo-extended": "^0.126.0",
+    "postcss": "^8.5.25",
+    "postcss-cli": "^11"
   },
   "devDependencies": {
-      "prettier": "^3.0.3",
-      "prettier-plugin-go-template": "^0.0.15"
+    "prettier": "^3.0.3",
+    "prettier-plugin-go-template": "^0.0.15"
   }
 }

@@ -17,7 +17,7 @@ title: 'オープンソース コードの使用'
 7. [結論](#結論)
 8. [アーキテクチャ概略図テンプレート](#アーキテクチャ概略図テンプレート)
 
-[ガイド一覧 »](https://www.linuxfoundation.jp/resources/open-source-guides/)
+[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -86,7 +86,7 @@ OSRB は、オープンソース コンプライアンス戦略を策定し、�
 
 下の図は、コンプライアンス利用プロセスを単純化して図示したものです。実際には、プロセスはその性質上、かなり反復的です。以下の各段階は説明することを目的としており、企業特有の必要性やオープンソース プログラムの構成に応じて変更が必要なことに注意してください。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G1.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/LF-Japan-publications/OpenSourceGuideImages/OpenSourceGuideGraphics_V2_G1.png?width=1024&height=276&name=OpenSourceGuideGraphics_V2_G1.png)
 
 プロセスの各段階を順を追って説明しましょう。
 
@@ -213,7 +213,7 @@ Web からダウンロードしたオープンソース パッケージは、元
 - 製品またはサービスでオープンソースが使用されていることを反映するように製品ドキュメントのエンド ユーザー向け通知を更新するために、チケットをドキュメント製作チームに発行します。
 - 製品出荷前に配布プロセスを開始します。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G3.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/OpenSourceGuideGraphics_V2_G3.png?width=1024&name=OpenSourceGuideGraphics_V2_G3.png)
 OSRB 承認後に実施される手順
 
 
@@ -233,7 +233,7 @@ OSRB 承認後に実施される手順
 
 インクリメンタル コンプライアンスは、ベースライン バージョン 1.0 に製品の機能が追加されたときにコンプライアンスを維持するためのプロセスです。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G4.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/OpenSourceGuideGraphics_V2_G4.png?width=1024&name=OpenSourceGuideGraphics_V2_G4.png)
 _Incremental Compliance_
 
 インクリメンタル コンプライアンスは、ベースライン コンプライアンスの確立に必要な労力と比べると、比較的手間がかかりません。
@@ -263,7 +263,7 @@ _Incremental Compliance_
 
 この段階でコンプライアンス オフィサーは、当該リリースのすべての新しいソフトウェア コンポーネントに対して新しいコンプライアンス チケットを作成し、変更されたソース コードについてはコンプライアンス チケットを更新し、場合によってはプロセスを再度通過させ、最後に、ソフトウェア レジストリを更新することにより、使用が中止されたソフトウェア コンポーネントを承認リストから削除します。
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G5.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/OpenSourceGuideGraphics_V2_G5.png?width=1024&name=OpenSourceGuideGraphics_V2_G5.png)
 インクリメンタル コンプライアンス プロセスの例
 
 ### オープンソース利用申請フォーム
@@ -288,7 +288,7 @@ OSRB 利用フォームに関しては、次のようないくつかの規則が
 
 ## オープンソース利用申請フォーム サンプル
 
-![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/Screen-Shot-2017-09-07-at-10.35.29-PM-768x591.png)
+![](https://www.linuxfoundation.org/hs-fs/hubfs/LF-Japan-publications/OpenSourceGuideImages/Screen-Shot-2017-09-07-at-10.35.29-PM.png?width=972&height=748&name=Screen-Shot-2017-09-07-at-10.35.29-PM.png)
 オープンソース利用申請フォーム サンプルのPDFは[こちら](https://github.com/todogroup/policies/blob/master/linuxfoundation/lf_compliance_approval.pdf "オープンソース利用申請フォーム サンプル")
 
 ## 結論
@@ -311,6 +311,6 @@ OSRB 利用フォームに関しては、次のようないくつかの規則が
 - 通信プロトコル
 - 特に、対象となっているソフトウェア コンポーネントが別のオープンソース ライセンスによって管理されている場合、そのコンポーネントがやりとりまたは依存するその他のオープンソース コンポーネント
 
- ![](https://www.linuxfoundation.jp/wp-content/uploads/2017/09/OpenSourceGuideGraphics_V2_G6.png)
+ ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/OpenSourceGuideGraphics_V2_G6.png?width=1106&name=OpenSourceGuideGraphics_V2_G6.png)
 
 このアーキテクチャ概略図のテンプレートは、C または C++ に依存する組み込み環境に適用されます。

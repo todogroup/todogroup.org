@@ -15,7 +15,7 @@ title: '企業におけるオープンソース開発の効果を高める'
 5. [強化の進捗状況を追跡して調べる評価尺度](#強化の進捗状況を追跡して調べる評価尺度)
 6. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者
@@ -85,7 +85,7 @@ Samsungにおいて、オープンソース プログラムは専任の技術チ
 
 企業のオープンソース プログラムが、オープンソース プロジェクトで開発者の生産性と有効性を高められる3つの領域があります。それは、文化、プロセス、そしてツールです。それぞれのカテゴリーには、オープンソース モデルに適合させるべき要素がいくつかあります。
 
-![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/CommonAreas.png?width=1024&name=CommonAreas.png)
+![](/img/guides/improve-open-source-dev-impact1.png)
 
 `専任オープンソース チームが企業の現場で取り組むべき課題`
 
@@ -260,7 +260,7 @@ Samsungにおいては、できるだけたくさんの製品で共通して活�
 
 追跡して調べるべき最も基本的な評価尺度は、特定期間内、たとえば、週ごと、月ごと、あるいは、1年ごとに提出されたコミット数とコード行数です。
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/img1-basic-metrics-1024x355.png?width=1024&name=img1-basic-metrics-1024x355.png)
+ ![](/img/guides/improve-open-source-dev-impact2.png)
 
 `プロジェクトごとに集計された週ごとの総コミット数と修正コード行数は追跡して調べる評価尺度として価値があります。`
 
@@ -268,28 +268,28 @@ Samsungにおいては、できるだけたくさんの製品で共通して活�
 
 これを用いて、さまざまな社内チームの累積貢献量、貢献全体に対する割合、アップストリームにコードをコミットするのに要した総時間数を比較するチャートを作ることができます（次のチャートを参照）。
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/img2-cumulative-commits-internal-orgs-1024x472.png?width=1024&name=img2-cumulative-commits-internal-orgs-1024x472.png)
+ ![](/img/guides/improve-open-source-dev-impact3.png)
 
 `一定期間内の累積貢献量を追跡して調べることにより、社内チームを比較し、特定のオープンソースコミュニティへの関わりが増加しつつあるチームを特定することができます。このチャートはLinuxカーネルの状況です。`
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/img3-percent-total-internal-orgs-1024x532.png?width=1024&name=img3-percent-total-internal-orgs-1024x532.png)
+ ![](/img/guides/improve-open-source-dev-impact4.png)
 
 `一定期間内の企業の貢献量を全体に対する割合として示すことによって、最もたくさんのコードを貢献したチームを特定することができます。`
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/img4-time-to-commit-internal-orgs-1024x415.png?width=1024&name=img4-time-to-commit-internal-orgs-1024x415.png)
+ ![](/img/guides/improve-open-source-dev-impact5.png)
 
 `アップストリームにコードをコミットするのに必要とした総時間数は、開発の効率を追跡して調べるのに有効です。
 この表とチャートは、さまざまなチームがどれほど速くコードをアップストリームに貢献したかを示し、それをコミュニティ全体と比較します。`
 
 これらの評価尺度は、企業の実績を、たとえばカーネル コミュニティに関わっている他社と比較するのに使うことができます（下図を参照）。このような競合分析は、当該プロジェクトに取り組む開発コミュニティ全体について、よりよい情報を得るのを助けます。
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/img5-cumulative-commits-company-1024x474.png?width=1024&name=img5-cumulative-commits-company-1024x474.png)
+ ![](/img/guides/improve-open-source-dev-impact6.png)
 
 `累積貢献量は、企業ごとにソートして、あなたの会社が他社と比較して、継続的に蓄積してきた貢献度を示してくれます。`
 
 これらの評価尺度は、企業の強味と弱みがどこにあるのかについて優れた考察を提供し、また、企業の開発戦略全体について情報を得る助けとなります。たとえば、競合企業との貢献量を追跡して調べることにより、競合他社の製品と当該企業の製品の市場における位置づけ確認するのを助ける価値ある情報を提供します。
 
- ![](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Kernel-report-charts-1024x381.png?width=1024&name=Kernel-report-charts-1024x381.png)
+ ![](/img/guides/improve-open-source-dev-impact7.png)
 
 `各プロジェクトは独立に貢献データを公開することが許されています。
 たとえば、Linuxカーナルへの貢献者をLinux Foundationの「Linuxカーネル開発レポート」とLWNで追跡して調べることができます。`

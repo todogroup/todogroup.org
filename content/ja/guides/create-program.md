@@ -19,7 +19,7 @@ title: 'オープンソース プログラムの作成'
 8.  [結論](#結論)
 9.  [求人情報のテンプレート](#求人情報のテンプレート)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 このガイドの貢献者

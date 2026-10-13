@@ -15,7 +15,7 @@ title: 'オープンソース プロジェクトを終了させる'
 5. [どのようにオープンソース プロジェクトを終了させるか](#どのようにオープンソース-プロジェクトを終了させるか)
 6. [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 #### このガイドの貢献者

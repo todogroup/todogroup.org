@@ -17,7 +17,7 @@ title: 'オープンソース プログラムを管理するためのツール'
 7.  [企業規模のGitHub管理のためのツール](#企業規模のGitHub管理のためのツール)
 8.  [結論](#結論)
 
-[ガイド一覧 »](https://www.linuxfoundation.org/ja-jp/resources/open-source-guides)
+[ガイド一覧 »](/ja/guides/)
 [GitHub上で貢献する »](https://github.com/todogroup/guides)
 
 ### このガイドの貢献者
@@ -116,7 +116,7 @@ Foundation and former head of open source programs at Twitter**
 
 Microsoft社によると、約11,000人のコントリビューターが参加し、約8,000個のリポジトリをGitHubで管理している同社のオープンソース プログラム オフィスは、2016年には、プロジェクトでオープンソースを使用したいというリクエストを約40,000件受け取りました。これらのリクエストだけでなく、作成されたコード、更新されたコードのバージョンを管理するために、同社はこの混乱を自動化で解決するツールを使い始めました。また、コードは潜在的に何百もの他のプロジェクトで使用されている可能性があるため、当該コードは細心の注意をもってトラックされなければなりません。セキュリティ上のバグが発生した場合、関連するすべてのソフトウェアへの影響を迅速に特定し、それを修正する必要があるからです。このような大規模な作業環境では、自動化が不可欠であり、手作業で行うことはまず不可能です。
 
-![Microsoft’s Azure open source portal](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/Microsoft-Azure-portal.png?width=900&name=Microsoft-Azure-portal.png)
+![Microsoft’s Azure open source portal](/img/guides/ja/Microsoft-Azure-portal.png)
 
 ### 重要なタスクの管理
 
@@ -174,7 +174,7 @@ GitHub活用を効率化し、支援するために、人気があり、かつ�
 [FOSSology](https://www.fossology.org/) – Linux
 FoundationのプロジェクトFOSSologyは、コマンドラインで、ライセンス、著作権、輸出規制管理の必要事項をスキャンするためのオープンソース ライセンス準拠のソフトウェア ツールキットです。 コンプライアンス ワークフローを作成するためのデータベースとWebユーザー インターフェースも用意されています。
 
-![FOSSology compliance tool screen shot](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/FOSSology-screenshot-e1504819088560.png?width=1000&name=FOSSology-screenshot-e1504819088560.png)
+![FOSSology compliance tool screen shot](/img/guides/ja/FOSSology-screenshot-e1504819088560.png)
 
 
 [janitor.git](http://git.linuxfoundation.org/janitor.git/) – Code Janitorは、オープンソース ライセンスに対するコンプライアンスについてソースコードを評価するオープンソース ツールです。Linux Foundationから提供されるCode Janitorは他の製品と共に使用し、コードをチェックすることができます。
@@ -216,7 +216,7 @@ FoundationのプロジェクトFOSSologyは、コマンドラインで、ライ�
 成長、成熟しているオープンソース プロジェクトの全体的な健全性を監視し、トラッキングすることは、企業のオープンソース プログラムの中心となる重要作業です。 これを遂行するには、個々のオープンソース プロジェクトがどのように実施されているのか、コミュニティからどのように受け止められているのかについて、レポートしてくれるツールが必要です。数十、数百、時には数千のプロジェクトを同時に扱えなければなりません。このツールはまた、オープンソースのポートフォリオ全体に渡って、プロジェクト パフォーマンス全般について、有用で、行動に繋がる実用的な情報をレポート出力してくれなければなりません。
 
 
-![Amazon's open source program dashboard](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/GitHub-Basic-Dashboard-Example-e1504819241898.png?width=1000&name=GitHub-Basic-Dashboard-Example-e1504819241898.png)
+![Amazon's open source program dashboard](/img/guides/ja/GitHub-Basic-Dashboard-Example-e1504819241898.png)
 [Amazon's open source program dashboard](https://github.com/amzn/oss-dashboard)
 
 閲覧した人の数、プロジェクト開始当初からの参加コントリビューター数などのような重要でない、価値のない指標に着目してはいけません。ここで重要なのは、データから重要かつ有用な洞察を得ることです。
@@ -263,7 +263,7 @@ TODOグループはまた、他のツールも加えた有益なリスト（[hel
 
 [CLA Assistant](https://github.com/cla-assistant/cla-assistant) – SAP社から提供されるCLA Assistantは、コントリビューションの法務関連処理をサポートし、ユーザーの作業を簡略化します。CLA Assistantは、コード コントリビューションを行うために、GitHubアカウントで認証する際に、コード コントリビューターがCLAに署名するように求めます。また、コントリビューターがCLAに同意すると、プル リクエストのステータスが更新されます。CLAに変更が加えられると、新しいプル リクエストごとにCLAに再署名することを自動的にユーザーに求めます。
 
-![SAP’s CLA Assistant tool](https://www.linuxfoundation.org/hs-fs/hubfs/Open_Source_Guides_Images/CLA-Assistant-SAP.png?width=700&name=CLA-Assistant-SAP.png)
+![SAP’s CLA Assistant tool](/img/guides/ja/CLA-Assistant-SAP.png)
 [SAP’s CLA Assistant tool](https://cla-assistant.io/)
 
 

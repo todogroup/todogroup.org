@@ -1,0 +1,32 @@
+{
+  "stories": [
+    {
+      "title": "OSPOlogy + OSPO Summit China",
+      "location": "Shanghai, China",
+      "date": "September 2026",
+      "image": "/images/blog/ospo-summit-china-2026/attachment-01.jpg",
+      "alt": "Participants at OSPOlogy + OSPO Summit China in Shanghai",
+      "url": "/blog/2026-09-19-ospology-ospo-summit-china-2026-recap/",
+      "description": "Shared lessons on open source governance, AI infrastructure, and the changing role of OSPOs.",
+      "featured": true
+    },
+    {
+      "title": "OSPOlogy visits vivo",
+      "location": "Dongguan, China",
+      "date": "May 2026",
+      "image": "/img/blog/vivo-1.png",
+      "alt": "OSPOlogy gathering at vivo headquarters",
+      "url": "/blog/2026-05-15-ospo-event-visit-vivo/",
+      "description": "A local gathering connecting enterprise practitioners with Linux Foundation APAC, OpenChain, and the wider open source community."
+    },
+    {
+      "title": "The OSPO Roadshow at Midea",
+      "location": "Foshan, China",
+      "date": "November 2025",
+      "image": "/img/blog/ospo-meetup-midea-group.jpg",
+      "alt": "OSPO Roadshow participants at Midea Group",
+      "url": "/blog/ospo-roadshow-china/",
+      "description": "The LF APAC OSPO SIG and TODO Group China Chapter bring peer learning directly to local organizations."
+    }
+  ]
+}

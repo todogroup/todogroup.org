@@ -30,3 +30,8 @@
 {{ $leadership := resources.Get "css/working-group-leadership.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $leadership.RelPermalink }}" integrity="{{ $leadership.Data.Integrity }}">
 {{ end }}
+
+{{ if .HasShortcode "events-hub" }}
+{{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">
+{{ end }}

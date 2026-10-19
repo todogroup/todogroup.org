@@ -2,8 +2,6 @@
 title: "AI Governance and the Expanding Role of OSPOs: OpenChain x OSPOlogy Prague"
 author: todogroup
 date: 2026-10-19
-featured_image: "/images/blog/openchain-ospology-prague-2026/cover-landscape.jpg"
-featured_image_alt: "Participants at OpenChain x OSPOlogy Prague during the operational compliance session."
 ---
 
 On October 6, **OpenChain x OSPOlogy Prague 2026** brought the community together at Deloitte's Prague office for a day of keynotes, practical use cases, roundtables, workshops, and tooling demos. Held the day before Open Source Summit Europe, the gathering connected people working on open source program management, compliance, software supply chains, and community health.
@@ -11,6 +9,8 @@ On October 6, **OpenChain x OSPOlogy Prague 2026** brought the community togethe
 **Nithya Ruff’s keynote, *OSPOs and Open Technology*, provided a central theme for the gathering: OSPO responsibilities are expanding beyond open source software into AI governance and the wider open technology ecosystem.** The workshops brought that changing role into practical discussions about due diligence, project health, supply chain data, and community trust.
 
 Alongside presentations, participants worked in smaller groups to compare approaches and identify questions that need continued collaboration. The [shared presentations and roundtable notes](https://github.com/todogroup/ospology/discussions/831) capture both practical lessons and unresolved challenges from those conversations.
+
+![Participants at OpenChain x OSPOlogy Prague during the operational compliance session.](/images/blog/openchain-ospology-prague-2026/cover-landscape.jpg)
 
 ## OSPO responsibilities are expanding beyond software
 

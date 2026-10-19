@@ -1,5 +1,5 @@
 ---
-title: "AI Governance and the Expanding Role of OSPOs: OpenChain x OSPOlogy Prague"
+title: "Building Trust in Open Source and AI Systems: OpenChain x OSPOlogy Prague"
 author: todogroup
 date: 2026-10-19
 ---

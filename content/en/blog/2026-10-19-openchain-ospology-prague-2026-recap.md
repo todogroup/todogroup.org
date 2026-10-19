@@ -50,10 +50,6 @@ Software bills of materials (SBOMs) featured throughout the day. **Masato Endo (
 
 The program also included **Marc-Etienne Vargenau (Nokia)** on *CISA 2026 Minimum Elements in practice* and **Rakesh Prabhakaran (Bosch)** demonstrating *Bring Your Own Mapping Rules: Cross-Standard SBOM Validation*.
 
-The [community-led discussion](https://github.com/todogroup/ospology/discussions/831#discussioncomment-18861615), documented by **Prashant Baghel** and shared by **Nikola Babadzhanov**, explored what makes an SBOM useful in practice. Participants raised concerns about preserving information across formats, differences between build and runtime needs, and communicating requirements to vendors. Their discussion points toward a practical lesson for OSPOs: agree on the information needed for a use case and examine its quality, alongside selecting a format.
-
-Trust was another concern. Participants questioned why organizations repeatedly scan software when relevant information already exists elsewhere, and discussed the barriers to reusing that information. These questions connect technical interoperability with supplier relationships and confidence in the source of the data.
-
 ## Community learnings from the workshops
 
 Three parallel groups gave participants time to explore different aspects of open source management:
@@ -92,15 +88,27 @@ Another lesson concerned community: publicly available code does not by itself d
 
 *Participants in the CHAOSS workshop, facilitated by Dawn Foster.*
 
-## AI-assisted analysis still needs evidence and interpretation
+### Shared data and trust across the supply chain
 
-The afternoon program connected these discussions with tooling and further use cases. **Ana Jiménez Santamaría** presented *Agentic AI for OSPOs: Goose + MCP + CHAOSS Security Metrics*. Her [demo materials and tutorials](https://github.com/todogroup/ospology/discussions/831#discussioncomment-18773086) describe an experiment connecting a GitHub Stats MCP server to goose, with CHAOSS guidance helping interpret evidence for human decisions.
+The [community-led discussion](https://github.com/todogroup/ospology/discussions/831#discussioncomment-18861615), documented by **Prashant Baghel** and shared by **Nikola Babadzhanov**, explored what makes an SBOM useful in practice. Participants raised concerns about preserving information across formats, differences between build and runtime needs, and communicating requirements to vendors. Their discussion points toward a practical lesson for OSPOs: agree on the information needed for a use case and examine its quality, alongside selecting a format.
 
-The program continued with **Helio Chissini de Castro (CARIAD)** on *The missing link on SCA analysis*, **Philippe Ombredanne (AboutCode)** on *Sharing is caring: Open data for open source compliance*, and **David Walter (ownCloud / Kiteworks)** on *Two Forks and a CLA-to-DCO Rewrite: What Actually Rebuilds Community Trust*.
+Trust was another concern. Participants questioned why organizations repeatedly scan software when relevant information already exists elsewhere, and discussed the barriers to reusing that information. These questions connect technical interoperability with supplier relationships and confidence in the source of the data.
 
-The demo connects with the CHAOSS roundtable’s emphasis on interpretation: access to metrics is one step; understanding their significance for a particular decision is another. An agent can help make project information easier to explore, while community-developed guidance provides context for the person assessing the results.
+Participants also raised questions about AI-assisted code rewrites and their effects on original contributors. The notes record concerns about maintaining trust and the continuing importance of people who understand the software. These were questions from the community-led discussion, with further work needed on how to address them.
 
-The community-led discussion also raised concerns about AI-assisted code rewrites, the effects on original contributors, and the continuing need for people who understand the software. Read alongside Nithya’s keynote, these questions show how AI governance intersects with longstanding OSPO responsibilities around provenance, participation, and relationships with maintainers.
+## Exploring project health with Goose, MCP, and CHAOSS
+
+**Ana Jiménez Santamaría** presented *Agentic AI for OSPOs: Goose + MCP + CHAOSS Security Metrics*. The demo explored how an AI agent can help an OSPO investigate open source project health using verifiable evidence and community guidance.
+
+Her experiment connected a GitHub Stats MCP server to goose, showing how the agent harness, model, and tools work together. CHAOSS Practitioner Guides supplied context for interpreting the results to support human decisions. The [shared materials](https://github.com/todogroup/ospology/discussions/831#discussioncomment-18773086) include slides and tutorials for building the server, connecting it to goose, and trying the experiment.
+
+## Further use cases in compliance and community trust
+
+The afternoon program also included three presentations addressing different aspects of open source practice:
+
+- **Helio Chissini de Castro (CARIAD)**: *The missing link on SCA analysis*.
+- **Philippe Ombredanne (AboutCode)**: *Sharing is caring: Open data for open source compliance*.
+- **David Walter (ownCloud / Kiteworks)**: *Two Forks and a CLA-to-DCO Rewrite: What Actually Rebuilds Community Trust*.
 
 ## Thank you to the people who made it possible
 

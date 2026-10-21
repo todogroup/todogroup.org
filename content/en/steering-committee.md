@@ -8,6 +8,10 @@ We elect members to the TODO Group Steering Committee every year. These members 
 provide resolutions for community requests, and help define the strategic goals of the TODO Group community. [See our charter.](https://github.com/todogroup/governance/blob/main/GM-SC-CHARTER.adoc)
 {{< /intro >}}
 
+## 2027 Steering Committee Election
+
+[Meet the 2027 candidates](/community/2027-steering-committee-candidates/) and review their backgrounds, community contributions, and proposed priorities.
+
 ## Steering Committee Members
 
 - [Annania Melaku](https://github.com/annania), F5 

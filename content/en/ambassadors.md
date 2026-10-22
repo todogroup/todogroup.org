@@ -4,26 +4,20 @@ url: "/community/ambassadors/"
 ---
 
 {{< intro >}}
-TODO Ambassadors are official advocates within TODO, helping advance OSPO adoption and open source and AI governance practices across organizations
+Official advocates within TODO, helping advance OSPO adoption and open source and AI governance practices across organizations
 {{< /intro >}}
 
-The TODO OSPO Ambassador Program encompasses a group of community leaders who provide support, training, mentorship, guidance, and rewards to:
+TODO Ambassadors share practical experience, support local communities, and help organizations build better open source programs.
 
-* Engage and enable the TODO community through local meetups, OSPOlogy meetings, OSPO content, and mentoring
-* Foster strong community collaboration and relationships
-* Attract and onboard new community participants
-* Provide valuable input and feedback to TODO about community programs and initiatives
-* Advocate OSPO best practices through TODO initiatives globally
+{{< ambassador-actions >}}
 
-## Meet our Ambassadors!
+## Meet our ambassadors
 
-Explore where our ambassadors are based, or filter the list below by country.
+Find people working on open source management and AI governance in your region. Explore their community contributions and connect through their public profiles.
 
-{{< ambassador-map >}}
+{{< ambassador-people >}}
 
-{{< ambassador-list >}}
-
-> To update this list, edit [`data/ambassadors.yml`](https://github.com/todogroup/todogroup.org/blob/main/data/ambassadors.yml). The map and table are both driven by that file.
+{{< ambassador-geography >}}
 
 ## Joining the TODO OSPO Ambassadors Program
 

@@ -1,0 +1,129 @@
+{{- $ambassadors := .Site.Data.ambassadors.ambassadors -}}
+{{- $countries := slice -}}
+{{- range $ambassadors -}}{{- range .countries -}}{{- if not (in $countries .) -}}{{- $countries = $countries | append . -}}{{- end -}}{{- end -}}{{- end -}}
+<section class="amb-people" aria-label="Ambassador directory">
+  <div class="amb-filters">
+    <label for="amb-search">Find an ambassador
+      <input id="amb-search" type="search" placeholder="Search name, organization or community" />
+    </label>
+    <label for="amb-country">Country
+      <select id="amb-country"><option value="">All countries</option>{{ range sort $countries }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select>
+    </label>
+    <button id="amb-reset" type="button" hidden>Clear filters</button>
+  </div>
+  <p id="amb-count" class="amb-count" role="status">Showing {{ len $ambassadors }} ambassadors</p>
+  <div class="amb-grid">
+    {{ range $index, $ambassador := sort $ambassadors "name" }}
+    <article class="amb-person" data-countries="{{ delimit .countries "|" }}" data-search="{{ .name }} {{ .org }} {{ .location }} {{ range .contributions }} {{ .text }}{{ end }}">
+      <div class="amb-flip-inner">
+      <div class="amb-front">
+      <div class="amb-person-heading">
+        {{ $image := .image_url }}
+        {{ if and (not $image) (hasPrefix .url "https://github.com/") }}{{ $image = printf "%s.png?size=160" .url }}{{ end }}
+        <span class="amb-avatar">
+          <span class="amb-initials" aria-hidden="true">{{ range first 1 (split .name " ") }}{{ substr . 0 1 }}{{ end }}{{ range last 1 (split .name " ") }}{{ substr . 0 1 }}{{ end }}</span>
+          {{ with $image }}<img src="{{ . }}" alt="" width="72" height="72" loading="lazy" referrerpolicy="no-referrer" />{{ end }}
+        </span>
+        <div><h3>{{ .name }}</h3><p class="amb-org">{{ .org }}</p></div>
+      </div>
+      <p class="amb-location">{{ .location }}</p>
+      <a class="amb-social" href="{{ .url }}" aria-label="{{ .name }} on {{ if hasPrefix .url "https://github.com/" }}GitHub{{ else }}LinkedIn{{ end }}"><img src="{{ if hasPrefix .url "https://github.com/" }}/img/social-icons/github.svg{{ else }}/img/social-icons/linkedin.svg{{ end }}" alt="" width="28" height="28" /></a>
+      <button type="button" class="amb-flip-toggle" aria-expanded="false" aria-controls="amb-back-{{ $index }}">See contributions and term ↻</button>
+      </div>
+      <div class="amb-back" id="amb-back-{{ $index }}" inert aria-hidden="true">
+      <h3>{{ .name }}</h3>
+      <div class="amb-efforts"><span class="amb-label">Community contributions</span><ul>{{ range .contributions }}<li>{{ if .url }}<a href="{{ .url }}">{{ .text }}</a>{{ else }}{{ .text }}{{ end }}</li>{{ end }}</ul></div>
+      <div class="amb-person-footer"><span>Term: {{ .term }}</span></div>
+      <button type="button" class="amb-flip-return">Back to profile ↻</button>
+      </div>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  <p id="amb-empty" hidden>No ambassadors match your search. Try another name or country.</p>
+</section>
+<style>
+.amb-people{margin:2rem 0 3rem;color:var(--text-color)}
+.amb-filters{display:flex;flex-wrap:wrap;align-items:end;gap:1rem}
+.amb-filters label{display:flex;flex-direction:column;gap:.5rem;font-weight:600;flex:1 1 14rem;margin:0}
+.amb-filters label:first-child{flex:2 1 18rem}
+.amb-filters input,.amb-filters select{font:inherit;font-weight:400;padding:.8rem 1rem;border:1px solid var(--gray-600);border-radius:6px;background:var(--white);color:var(--text-color);min-width:0;width:100%;box-sizing:border-box}
+.amb-filters button{font:inherit;padding:.8rem 1rem;border:1px solid var(--gray-600);border-radius:6px;background:var(--white);color:var(--primary-600);cursor:pointer}
+.amb-count{font-size:.9rem;color:var(--gray-800);margin:1rem 0!important}
+.amb-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem}
+.amb-person{min-width:0;height:480px;perspective:1200px;cursor:pointer}
+.amb-flip-inner{position:relative;transform-style:preserve-3d;transition:transform .4s ease;height:100%}
+.amb-person.is-flipped .amb-flip-inner{transform:rotateY(180deg)}
+.amb-front,.amb-back{grid-area:1/1;box-sizing:border-box;min-width:0;display:flex;flex-direction:column;gap:.75rem;padding:1.5rem;border:1px solid var(--gray-300);border-radius:12px;background:var(--white);backface-visibility:hidden}
+.amb-front{height:100%;text-align:center}
+.amb-front .amb-person-heading{flex-direction:column;gap:1rem}
+.amb-front .amb-person-heading>div{width:auto}
+.amb-front .amb-avatar{flex-basis:112px;width:112px;height:112px}
+.amb-front .amb-initials{width:112px;height:112px}
+.amb-person .amb-front h3{font-size:1.6rem!important}
+.amb-front .amb-org{font-size:1.1rem;margin-top:.35rem!important}
+.amb-front .amb-location{padding:.25rem 0;font-size:1rem}
+.amb-front .amb-flip-toggle{text-align:center}
+.amb-back{position:absolute;inset:0;width:100%;height:100%;overflow-y:auto;transform:rotateY(180deg);visibility:hidden}
+.amb-person.is-flipped .amb-back{position:absolute}
+.amb-person.is-flipped .amb-front{position:absolute;inset:0 auto auto 0;width:100%}
+.amb-person.is-flipped .amb-back{visibility:visible}
+.amb-person.is-flipped .amb-front{visibility:hidden}
+.amb-person h3{color:var(--primary-800)}
+.amb-flip-toggle,.amb-flip-return{font:inherit;font-size:.9rem;text-align:left;color:var(--primary-700);background:none;border:0;border-top:1px solid var(--gray-200);padding:.85rem 0 0;cursor:pointer;margin-top:auto}
+.amb-social{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;align-self:center;border-radius:4px;background:transparent}
+.amb-social img{display:block;width:19px;height:19px;filter:brightness(0);opacity:.65}
+.amb-social:hover{background:var(--gray-200)}
+.amb-back .amb-efforts{padding:.75rem 0;border:0}
+@media(prefers-reduced-motion:reduce){.amb-flip-inner{transition:none}}
+.amb-person[hidden]{display:none}
+.amb-person-heading{display:flex;align-items:center;gap:1rem}
+.amb-avatar{position:relative;flex:0 0 72px;width:72px;height:72px;overflow:hidden;border-radius:50%}.amb-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.amb-initials{display:flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:50%;background:var(--gray-200);color:var(--primary-600);font-size:1.1rem;font-weight:600}
+.amb-person h3{font-size:1.2rem!important;line-height:1.35;margin:0 0 .25rem!important;overflow-wrap:anywhere}
+.amb-person h3 a{text-decoration:none;color:var(--primary-800)}
+.amb-person p{margin:0!important}
+.amb-org{font-size:.95rem;color:var(--gray-800)}
+.amb-location{padding:1rem 0;color:var(--gray-800);font-size:.95rem}
+.amb-efforts{flex:1;border-top:1px solid var(--gray-200);padding:1rem 0 1.5rem}
+.amb-efforts ul{list-style:none;padding:0;margin:0}.amb-efforts li{margin:0 0 .7rem;padding:0}.amb-efforts li:last-child{margin-bottom:0}
+.amb-label{display:block;color:var(--gray-800);font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;margin-bottom:.5rem}
+.amb-person-footer{display:flex;flex-wrap:wrap;gap:.5rem 1rem;justify-content:space-between;font-size:.85rem;border-top:1px solid var(--gray-200);padding-top:1rem;color:var(--gray-800)}
+.amb-person a{color:var(--primary-600);text-underline-offset:3px}
+.amb-person-footer a{font-weight:600}
+.amb-people :focus-visible{outline:3px solid var(--primary-600);outline-offset:4px}
+@media(min-width:1200px){.amb-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.amb-grid{grid-template-columns:1fr}.amb-front,.amb-back{padding:1.25rem}}
+</style>
+<script>
+(function(){
+  var root=document.querySelector('.amb-people');
+  var search=root.querySelector('#amb-search'),country=root.querySelector('#amb-country'),reset=root.querySelector('#amb-reset');
+  var cards=Array.from(root.querySelectorAll('.amb-person'));
+  cards.forEach(function(card){
+    var front=card.querySelector('.amb-front'),back=card.querySelector('.amb-back'),toggle=card.querySelector('.amb-flip-toggle'),close=card.querySelector('.amb-flip-return');
+    function flip(open,focus){
+      card.classList.toggle('is-flipped',open);
+      front.inert=open;back.inert=!open;
+      front.setAttribute('aria-hidden',String(open));back.setAttribute('aria-hidden',String(!open));
+      toggle.setAttribute('aria-expanded',String(open));
+      if(focus)(open?close:toggle).focus();
+    }
+    toggle.addEventListener('click',function(){flip(true,true);});
+    close.addEventListener('click',function(){flip(false,true);});
+    card.addEventListener('click',function(event){if(!event.target.closest('a,button'))flip(!card.classList.contains('is-flipped'),false);});
+    card.addEventListener('keydown',function(event){if(event.key==='Escape')flip(false,true);});
+  });
+  function normalize(value){return value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+  function update(){
+    var query=normalize(search.value.trim()),selected=country.value,shown=0;
+    cards.forEach(function(card){var match=normalize(card.dataset.search).includes(query)&&(!selected||card.dataset.countries.split('|').includes(selected));card.hidden=!match;if(match)shown++;});
+    root.querySelector('#amb-count').textContent='Showing '+shown+' of '+cards.length+' ambassadors';
+    root.querySelector('#amb-empty').hidden=shown!==0;
+    reset.hidden=!query&&!selected;
+  }
+  search.addEventListener('input',update);country.addEventListener('change',update);
+  reset.addEventListener('click',function(){search.value='';country.value='';update();search.focus();});
+  root.querySelectorAll('.amb-avatar img').forEach(function(image){image.addEventListener('error',function(){image.hidden=true;});});
+  update();
+})();
+</script>

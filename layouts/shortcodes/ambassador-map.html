@@ -21,14 +21,26 @@
   #toa-map {
     height: 460px;
     width: 100%;
-    border-radius: 8px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border-radius: 18px;
+    border: 1px solid #d3e4dd;
+    background: #d6eae8;
+    box-shadow: 0 8px 30px rgba(0,60,50,0.07);
   }
+  #toa-map .leaflet-pane,
+  #toa-map .leaflet-top,
+  #toa-map .leaflet-bottom,
+  #toa-map .leaflet-control { width: auto; }
+  #toa-map .leaflet-tooltip { width: max-content; max-width: 220px; box-sizing: border-box; white-space: normal; padding: 7px 11px; color: var(--primary-800); background: var(--white); border: 0; border-radius: 8px; box-shadow: 0 3px 12px rgba(0,60,50,.12); }
+  #toa-map .toa-popup { width: auto; box-sizing: border-box; }
+  #toa-map .toa-popup__row { width: auto; }
+  #toa-map .leaflet-control-zoom { border: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 14px rgba(0,60,50,.14); }
+  #toa-map .leaflet-control-zoom a { color: var(--primary-800); background: rgba(255,255,255,.95); }
+  #toa-map .leaflet-control-attribution { background: rgba(255,255,255,.8); border-radius: 6px 0 0 0; }
+  .toa-country-label { color: var(--primary-800); background: var(--white); border: 0; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,60,50,.1); }
   .toa-map-caption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #6b7280;
+    color: var(--gray-800);
     text-align: center;
   }
   .toa-map-error {
@@ -77,7 +89,7 @@
     height: 26px !important;
     padding: 0 !important;
     font: 700 18px/24px system-ui, -apple-system, sans-serif !important;
-    color: #6b7280 !important;
+    color: var(--gray-800) !important;
     background: #f3f4f6 !important;
     border: 1px solid #e5e7eb !important;
     border-radius: 50% !important;
@@ -88,7 +100,7 @@
   }
   .leaflet-container a.leaflet-popup-close-button:hover {
     background: #e5e7eb !important;
-    color: #111827 !important;
+    color: var(--text-color) !important;
   }
   @media (max-width: 520px) {
     .leaflet-popup { max-width: 220px !important; }
@@ -101,7 +113,7 @@
   .toa-popup {
     font-family: inherit;
     padding: 14px 40px 12px 16px;
-    color: #111827;
+    color: var(--text-color);
     line-height: 1.45;
   }
   .toa-popup__name {
@@ -111,12 +123,12 @@
     letter-spacing: -0.01em;
     margin: 0 0 2px;
   }
-  .toa-popup__name a { color: #0057b8; text-decoration: none; }
+  .toa-popup__name a { color: var(--primary-600); text-decoration: none; }
   .toa-popup__name a:hover { text-decoration: underline; }
   .toa-popup__org {
     display: block;
     font-size: 0.85rem;
-    color: #6b7280;
+    color: var(--gray-800);
     margin-bottom: 10px;
   }
   .toa-popup__row {
@@ -127,6 +139,11 @@
     border-top: 1px solid #f1f2f4;
     font-size: 0.85rem;
   }
+  #toa-map .toa-popup__row:has(.toa-popup__contributions) { display: block; }
+  .toa-popup__contributions { list-style: none; padding: 0; margin: .5rem 0 0; }
+  .toa-popup__contributions li { margin: 0 0 .6rem; padding: 0; }
+  .toa-popup__contributions li:last-child { margin-bottom: 0; }
+  .toa-popup__contributions a { color: var(--primary-600); }
   .toa-popup__row + .toa-popup__row { margin-top: 6px; }
   .toa-popup__label {
     flex: 0 0 auto;
@@ -134,12 +151,12 @@
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #9ca3af;
+    color: var(--gray-800);
     padding-top: 1px;
     min-width: 62px;
   }
-  .toa-popup__value { flex: 1; color: #374151; word-break: break-word; }
-  .toa-popup__value a { color: #0057b8; text-decoration: none; }
+  .toa-popup__value { flex: 1; color: var(--text-color); word-break: break-word; }
+  .toa-popup__value a { color: var(--primary-600); text-decoration: none; }
   .toa-popup__value a:hover { text-decoration: underline; }
   .toa-popup__flags { margin-right: 4px; font-size: 0.95em; }
   @media (max-width: 640px) { #toa-map { height: 340px; } }
@@ -178,24 +195,37 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
       center: [25, 10],
       zoom: 2,
       scrollWheelZoom: false,
-      worldCopyJump: true
+      minZoom: 1,
+      maxZoom: 6,
+      maxBounds: [[-85, -180], [85, 180]],
+      maxBoundsViscosity: 1
     });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 12,
-      minZoom: 1,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    var disclosure = document.getElementById('toa-map').closest('details');
+    if (disclosure) {
+      disclosure.addEventListener('toggle', function () {
+        if (disclosure.open) { map.invalidateSize(); fitAmbassadors(); }
+      });
+    }
+
+    var geography = {{ index .Site.Data "ambassador-countries" | jsonify | safeJS }};
+    map.createPane('countries');
+    map.getPane('countries').style.zIndex = 200;
+    L.geoJSON(geography, {
+      pane: 'countries',
+      style: { color: '#c6dac5', weight: 0.7, fillColor: '#edf4e6', fillOpacity: 1 },
+      onEachFeature: function (feature, layer) {
+        layer.bindTooltip(feature.properties.name, { sticky: true, className: 'toa-country-label' });
+      },
+      attribution: '<a href="https://www.naturalearthdata.com/">Natural Earth</a>'
     }).addTo(map);
 
     var added = 0;
     ambassadors.forEach(function (a) {
       if (typeof a.lat !== 'number' || typeof a.lng !== 'number') return;
-      var effortsHtml = a.efforts_url
-        ? '<a href="' + a.efforts_url + '" target="_blank" rel="noopener">' + a.efforts_text + '</a>'
-        : (a.efforts_text || '');
-      var flagsHtml = (a.flags && a.flags.length)
-        ? '<span class="toa-popup__flags" aria-hidden="true">' + a.flags.join(' ') + '</span>'
-        : '';
+      var effortsHtml = (a.contributions || []).map(function (item) {
+        return '<li>' + (item.url ? '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.text + '</a>' : item.text) + '</li>';
+      }).join('');
       var popup =
         '<div class="toa-popup">' +
           '<span class="toa-popup__name">' +
@@ -204,12 +234,12 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
           '<span class="toa-popup__org">' + (a.org || '') + '</span>' +
           '<div class="toa-popup__row">' +
             '<span class="toa-popup__label">Location</span>' +
-            '<span class="toa-popup__value">' + flagsHtml + (a.location || '') + '</span>' +
+            '<span class="toa-popup__value">' + (a.location || '') + '</span>' +
           '</div>' +
           (effortsHtml
             ? '<div class="toa-popup__row">' +
-                '<span class="toa-popup__label">Chapter</span>' +
-                '<span class="toa-popup__value">' + effortsHtml + '</span>' +
+                '<span class="toa-popup__label">Contributions</span>' +
+                '<ul class="toa-popup__contributions">' + effortsHtml + '</ul>' +
               '</div>'
             : '') +
         '</div>';
@@ -219,9 +249,9 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
         color: '#ffffff',
         weight: 2,
         opacity: 1,
-        fillColor: '#0057b8',
+        fillColor: getComputedStyle(document.documentElement).getPropertyValue('--primary-600').trim(),
         fillOpacity: 1
-      }).addTo(map).bindPopup(popup, {
+      }).addTo(map).bindTooltip(a.name, { direction: 'top' }).bindPopup(popup, {
         autoPan: true,
         autoPanPadding: [50, 60],
         keepInView: true,
@@ -229,6 +259,14 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
       });
       added++;
     });
+
+    function fitAmbassadors() {
+      map.fitBounds(ambassadors.filter(function (a) {
+        return typeof a.lat === 'number' && typeof a.lng === 'number';
+      }).map(function (a) { return [a.lat, a.lng]; }), { padding: [30, 30], maxZoom: 3 });
+    }
+
+    if (added > 0) fitAmbassadors();
 
     if (added === 0) {
       fail('No markers rendered (0 of ' + ambassadors.length + ' had valid coordinates).');

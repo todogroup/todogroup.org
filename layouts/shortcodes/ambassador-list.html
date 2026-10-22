@@ -79,11 +79,7 @@
             {{ .location }}
           </td>
           <td>
-            {{- if .efforts_url -}}
-              <a href="{{ .efforts_url }}" target="_blank" rel="noopener">{{ .efforts_text }}</a>
-            {{- else -}}
-              {{ .efforts_text }}
-            {{- end -}}
+            <ul>{{ range .contributions }}<li>{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>{{ else }}{{ .text }}{{ end }}</li>{{ end }}</ul>
           </td>
           <td class="toa-term">{{ .term }}</td>
         </tr>

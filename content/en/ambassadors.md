@@ -4,7 +4,7 @@ url: "/community/ambassadors/"
 ---
 
 {{< intro >}}
-Meet the people connecting the global OSPO community.
+Official advocates within TODO, helping advance OSPO adoption and open source and AI governance practices across organizations
 {{< /intro >}}
 
 TODO Ambassadors share practical experience, support local communities, and help organizations build better open source programs.

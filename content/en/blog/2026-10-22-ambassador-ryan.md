@@ -16,7 +16,7 @@ Ryan's contributions to the TODO ecosystem and wider open source community inclu
 
 As a TODO Ambassador, Ryan aims to help more organizations in Taiwan understand open source governance, collaboration, and contribution. He hopes to bring international OSPO experience into local conversations and explore practices that fit Taiwan's industrial, regulatory, academic, and community context.
 
-Over time, Ryan would like to help organize an OSPOlogy event in Taiwan and support regular local meetups where practitioners can share challenges and learn from one another. We look forward to supporting his efforts to grow a more connected OSPO community in Taiwan.
+Over time, Ryan would like to organize OSPOlogy events in his region and support regular local meetups where practitioners can share challenges and learn from one another. We look forward to supporting his efforts to grow a more connected OSPO community!
 
 ## Become an Ambassador
 

@@ -13,7 +13,7 @@ TODO Ambassadors share practical experience, support local communities, and help
 
 ## Meet our ambassadors
 
-Find people working on OSPO practices in your region. Explore their community contributions and connect through their public profiles.
+Find people working on open source management and AI governance in your region. Explore their community contributions and connect through their public profiles.
 
 {{< ambassador-people >}}
 

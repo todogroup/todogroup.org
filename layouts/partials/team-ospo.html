@@ -1,0 +1,42 @@
+<section class="team-ospo" aria-labelledby="team-ospo-title">
+  <div class="team-ospo__copy">
+    <h2 id="team-ospo-title">{{ i18n "teamTogether" }}<br><span>#TeamOSPO</span></h2>
+    <p>{{ i18n "teamDescription" }}</p>
+    <a class="button" href="{{ relLangURL "/community/ambassadors/" }}">{{ i18n "teamMeet" }}</a>
+    <a class="button team-ospo__secondary" href="{{ relLangURL "/about/working-group-chairs/" }}">{{ i18n "teamChairs" }}</a>
+  </div>
+  {{ $people := slice }}
+  {{ $names := slice }}
+  {{ $featured := slice "ashleywolf" "swastik-baranwal" "fernando-eugenio-correa" "annaniam" "georg-kunz" }}
+  {{ range $featured }}
+    {{ with index site.Data.working_group_people . }}
+      {{ $people = $people | append (dict "name" .name "photo" (.photo | relURL) "url" .linkedin) }}
+      {{ $names = $names | append .name }}
+    {{ end }}
+  {{ end }}
+  {{ range site.Data.working_group_people }}
+    {{ if and .photo (not (in $names .name)) }}
+      {{ $people = $people | append (dict "name" .name "photo" (.photo | relURL) "url" .linkedin) }}
+      {{ $names = $names | append .name }}
+    {{ end }}
+  {{ end }}
+  {{ range site.Data.ambassadors.ambassadors }}
+    {{ if not (in $names .name) }}
+      {{ $photo := .image_url }}
+      {{ if and (not $photo) (hasPrefix .url "https://github.com/") }}{{ $photo = printf "%s.png?size=320" .url }}{{ end }}
+      {{ if $photo }}
+        {{ $people = $people | append (dict "name" .name "photo" $photo "url" .url) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  <div class="team-ospo__portraits" aria-label="{{ i18n "teamPeople" }}" data-people="{{ $people | jsonify }}">
+    <span class="team-ospo__dot team-ospo__dot--one" aria-hidden="true"></span>
+    <span class="team-ospo__dot team-ospo__dot--two" aria-hidden="true"></span>
+    <span class="team-ospo__mark" aria-hidden="true">//</span>
+    {{ range $index, $person := first 5 $people }}
+      <a class="team-ospo__portrait team-ospo__portrait--{{ add $index 1 }}" href="{{ .url }}" aria-label="{{ .name }}">
+        <img src="{{ .photo }}" alt="{{ .name }}" width="260" height="260" loading="lazy" decoding="async">
+      </a>
+    {{ end }}
+  </div>
+</section>

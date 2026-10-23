@@ -1,28 +1,24 @@
 {{ define "main" }}
   <div class="columns hero-grid">
     <div class="hero-grid__col1">
+      <div class="hero-intro__main">
       <h1 class="title">
         {{ i18n "hero1" }}<br /><span class="darker">{{ i18n "hero2" }}</span>
       </h1>
 
       <h2 class="subhero">{{ i18n "subhero" }}</h2>
 
-      <p class="shortened-width">{{ i18n "explainerText" | markdownify }}</p>
+      </div>
+      <div class="hero-intro__details">
+      <div class="shortened-width">{{ i18n "explainerText" | markdownify }}</div>
 
       <a href="{{ relLangURL "/about/about-us" }}" class="button">{{ i18n "explainerButton" }}</a>
+      </div>
     </div>
 
-    <div class="hero-grid__col2">
-      <img
-        width="585"
-        height="530"
-        src="{{ "img/home-teamwork.png" | relURL }}"
-        alt="People collaborating"
-        loading="eager"
-        decoding="async"
-      />
-    </div>
   </div>
+
+  {{ partial "member-carousel.html" . }}
 
   <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
 
@@ -59,43 +55,5 @@
   </section>
   {{ end }}
 
-  <hr />
-
-  <div class="columns landscape-grid">
-    <div class="landscape-grid__col1">
-      <a href="https://landscape.todogroup.org/">
-        <img
-          width="300"
-          height="150"
-          loading="lazy"
-          src="{{ "img/ospo-landscape-logo.svg" | relURL }}"
-          alt="{{ i18n "landscapeTitle" }}"
-          decoding="async"
-        />
-      </a>
-      <p>{{ i18n "landscapeText" | markdownify }}</p>
-      <a href="https://landscape.todogroup.org/" class="button"
-        >{{ i18n "landscapeButton" }}</a
-      >
-    </div>
-    <div class="landscape-grid__col2">
-      <div class="floating-effect">
-        <!-- Embed OSPO landscape as a PNG -->
-        <a
-          href="https://landscape.todogroup.org/"
-          alt="{{ i18n "landscapeTitle" }}"
-        >
-          <img
-            src="/img/landscape2.png"
-            alt="{{ i18n "landscapeTitle" }}"
-            width="818"
-            height="492"
-            loading="lazy"
-            class="rounded-corners"
-            decoding="async"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
+  {{ partial "team-ospo.html" . }}
 {{ end }}

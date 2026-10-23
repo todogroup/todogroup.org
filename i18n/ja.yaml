@@ -41,3 +41,19 @@ latestBlogTitle:
   other: TODO コミュニティの最新情報
 allBlogPosts:
   other: すべての記事を見る
+
+generalMembersTitle:
+  other: ジェネラルメンバー
+viewGeneralMembers:
+  other: すべてのジェネラルメンバーを見る
+
+teamTogether:
+  other: 私たちはともに
+teamDescription:
+  other: アンバサダー、ワーキンググループのリーダー、初めての貢献者まで。TODO は経験を共有し、リソースを作り、オープンソースの実践を進める人々をつなぎます。
+teamMeet:
+  other: アンバサダーに会う
+teamChairs:
+  other: ワーキンググループのリーダーに会う
+teamPeople:
+  other: TODO コミュニティのメンバー

@@ -5,7 +5,10 @@ hero2:
 subhero:
   other: For practitioners building, scaling, and supporting Open Source Program Offices
 explainerText:
-  other: TODO Group is an open, vendor-neutral community of OSPO practitioners sharing best practices for open source management and emerging AI governance in real-world organizational contexts. Hosted by the Linux Foundation, TODO Group creates shared resources and guidance to support practical adoption, alignment, and collaboration across organizations.
+  other: |-
+    an open, vendor-neutral community of practitioners sharing best practices for open source management and emerging AI governance in real-world organizational contexts.
+
+    Hosted by the Linux Foundation, TODO Group creates shared resources and guidance to support practical adoption, alignment, and collaboration across organizations
 explainerButton:
   other: About us
 sectionTitle:
@@ -41,3 +44,19 @@ latestBlogTitle:
   other: Latest from the TODO community
 allBlogPosts:
   other: View all posts
+
+generalMembersTitle:
+  other: Our General Members
+viewGeneralMembers:
+  other: View all General Members
+
+teamTogether:
+  other: Together we are
+teamDescription:
+  other: From ambassadors and working group chairs to first-time contributors, TODO brings people together to share experience, build resources, and advance open source practice. Find your people and help shape what comes next.
+teamMeet:
+  other: Meet our ambassadors
+teamChairs:
+  other: Meet our working group chairs
+teamPeople:
+  other: People from the TODO community

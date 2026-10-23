@@ -40,3 +40,15 @@
 {{ $cards := resources.Get "css/content-cards.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $cards.RelPermalink }}" integrity="{{ $cards.Data.Integrity }}">
 {{ end }}
+
+{{ if .IsHome }}
+{{ $members := resources.Get "css/member-carousel.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $members.RelPermalink }}" integrity="{{ $members.Data.Integrity }}">
+{{ end }}
+
+{{ if .IsHome }}
+{{ $team := resources.Get "css/team-ospo.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $team.RelPermalink }}" integrity="{{ $team.Data.Integrity }}">
+{{ $teamScript := resources.Get "js/team-ospo.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $teamScript.RelPermalink }}" integrity="{{ $teamScript.Data.Integrity }}"></script>
+{{ end }}

@@ -1,0 +1,409 @@
+{
+  "source": "https://github.com/todogroup/ospolandscape/blob/main/landscape.yml",
+  "members": [
+    {
+      "name": "Adobe",
+      "logo": "adobe.svg"
+    },
+    {
+      "name": "Aiven",
+      "logo": "aiven.svg"
+    },
+    {
+      "name": "Alliander",
+      "logo": "alliander.svg"
+    },
+    {
+      "name": "AMD Xilinx",
+      "logo": "amd-xilinx.svg"
+    },
+    {
+      "name": "Ant Group",
+      "logo": "antgroup.svg"
+    },
+    {
+      "name": "Apple",
+      "logo": "apple.svg"
+    },
+    {
+      "name": "ARM",
+      "logo": "arm.svg"
+    },
+    {
+      "name": "Autodesk",
+      "logo": "autodesk.svg"
+    },
+    {
+      "name": "Avanade",
+      "logo": "avanade.svg"
+    },
+    {
+      "name": "AWS",
+      "logo": "aws.svg"
+    },
+    {
+      "name": "Baidu",
+      "logo": "baidu.svg"
+    },
+    {
+      "name": "Banco Itaú",
+      "logo": "banco-itau.svg"
+    },
+    {
+      "name": "BlackRock",
+      "logo": "blackrock.svg"
+    },
+    {
+      "name": "Bloomberg",
+      "logo": "bloomberg.svg"
+    },
+    {
+      "name": "BMW",
+      "logo": "bmw.svg"
+    },
+    {
+      "name": "Bosch",
+      "logo": "bosch.svg"
+    },
+    {
+      "name": "Box",
+      "logo": "box.svg"
+    },
+    {
+      "name": "ByteDance",
+      "logo": "bytedance.svg"
+    },
+    {
+      "name": "China Academy for Information and Communications Technology",
+      "logo": "caict.svg"
+    },
+    {
+      "name": "Capital One",
+      "logo": "capital-one.svg"
+    },
+    {
+      "name": "Cathay Financial",
+      "logo": "cathay-financial.svg"
+    },
+    {
+      "name": "China  Mobile",
+      "logo": "chinamobile.svg"
+    },
+    {
+      "name": "Cisco",
+      "logo": "cisco.svg"
+    },
+    {
+      "name": "Cloudera",
+      "logo": "cloudera.png"
+    },
+    {
+      "name": "Comcast",
+      "logo": "comcast.svg"
+    },
+    {
+      "name": "Cuemby",
+      "logo": "cuemby.svg"
+    },
+    {
+      "name": "Datadog",
+      "logo": "datadog.svg"
+    },
+    {
+      "name": "Dell Technologies",
+      "logo": "dell-technologies.svg"
+    },
+    {
+      "name": "Deutsche Bahn",
+      "logo": "deutsche-bahn.svg"
+    },
+    {
+      "name": "Didi",
+      "logo": "didi.svg"
+    },
+    {
+      "name": "DigitalOcean",
+      "logo": "digitalocean.svg"
+    },
+    {
+      "name": "Dropbox",
+      "logo": "dropbox.svg"
+    },
+    {
+      "name": "Dynatrace",
+      "logo": "dynatrace.svg"
+    },
+    {
+      "name": "eBay",
+      "logo": "ebay.svg"
+    },
+    {
+      "name": "Elastic",
+      "logo": "elastic.svg"
+    },
+    {
+      "name": "EPAM",
+      "logo": "epam.svg"
+    },
+    {
+      "name": "Equinix",
+      "logo": "equinix.svg"
+    },
+    {
+      "name": "Ericsson",
+      "logo": "ericsson.svg"
+    },
+    {
+      "name": "F5",
+      "logo": "f5.svg"
+    },
+    {
+      "name": "Fannie Mae",
+      "logo": "fannie-mae.svg"
+    },
+    {
+      "name": "Freddie Mac",
+      "logo": "freddie-mac.svg"
+    },
+    {
+      "name": "George Washington University",
+      "logo": "gw.png"
+    },
+    {
+      "name": "GitHub",
+      "logo": "github.svg"
+    },
+    {
+      "name": "GitLab",
+      "logo": "gitlab.svg"
+    },
+    {
+      "name": "Goldman Sachs",
+      "logo": "gs.svg"
+    },
+    {
+      "name": "Google",
+      "logo": "google.svg"
+    },
+    {
+      "name": "Here Technologies",
+      "logo": "here-technologies.svg"
+    },
+    {
+      "name": "Hitachi",
+      "logo": "hitachi.svg"
+    },
+    {
+      "name": "Honda",
+      "logo": "honda.png"
+    },
+    {
+      "name": "HPE",
+      "logo": "hewlett-packard-enterprise.svg"
+    },
+    {
+      "name": "Huawei",
+      "logo": "huawei.svg"
+    },
+    {
+      "name": "IBM",
+      "logo": "ibm.svg"
+    },
+    {
+      "name": "Indeed",
+      "logo": "indeed.svg"
+    },
+    {
+      "name": "Infosys",
+      "logo": "infosys-logo.svg"
+    },
+    {
+      "name": "Innovation Platform Agency Japan",
+      "logo": "ipa.svg"
+    },
+    {
+      "name": "Intel",
+      "logo": "intel.svg"
+    },
+    {
+      "name": "Intersect MBO",
+      "logo": "intersect.png"
+    },
+    {
+      "name": "ITRenew",
+      "logo": "itrenew.png"
+    },
+    {
+      "name": "JiHu(GitLab)",
+      "logo": "jihu-gitlab.svg"
+    },
+    {
+      "name": "Meta",
+      "logo": "meta.svg"
+    },
+    {
+      "name": "Microsoft",
+      "logo": "microsoft.svg"
+    },
+    {
+      "name": "National Instruments",
+      "logo": "national-instruments.svg"
+    },
+    {
+      "name": "Netapp",
+      "logo": "netapp.svg"
+    },
+    {
+      "name": "Netflix",
+      "logo": "netflix.svg"
+    },
+    {
+      "name": "NGINX",
+      "logo": "nginx.svg"
+    },
+    {
+      "name": "Nokia",
+      "logo": "nokia.svg"
+    },
+    {
+      "name": "Paypal",
+      "logo": "paypal.svg"
+    },
+    {
+      "name": "Pinterest",
+      "logo": "pinterest.svg"
+    },
+    {
+      "name": "Porsche",
+      "logo": "porsche.svg"
+    },
+    {
+      "name": "Postman",
+      "logo": "postman.svg"
+    },
+    {
+      "name": "Progressive Insurance",
+      "logo": "progressive.svg"
+    },
+    {
+      "name": "Qingcloud",
+      "logo": "qingcloud.svg"
+    },
+    {
+      "name": "Qualcomm",
+      "logo": "qualcomm.svg"
+    },
+    {
+      "name": "Red Hat",
+      "logo": "red-hat.svg"
+    },
+    {
+      "name": "Rochester Institute of Technology",
+      "logo": "rochester-institute-of-technology.svg"
+    },
+    {
+      "name": "Salesforce",
+      "logo": "salesforce.svg"
+    },
+    {
+      "name": "Samsung",
+      "logo": "samsung.svg"
+    },
+    {
+      "name": "SAP",
+      "logo": "sap.svg"
+    },
+    {
+      "name": "SAS",
+      "logo": "sas.svg"
+    },
+    {
+      "name": "Sauce Labs",
+      "logo": "sauce-labs.svg"
+    },
+    {
+      "name": "Scania",
+      "logo": "scania.svg"
+    },
+    {
+      "name": "Seagate",
+      "logo": "seagate.svg"
+    },
+    {
+      "name": "Siemens",
+      "logo": "siemens.svg"
+    },
+    {
+      "name": "Snowflake",
+      "logo": "snowflake.svg"
+    },
+    {
+      "name": "Sony",
+      "logo": "sony.svg"
+    },
+    {
+      "name": "Spotify",
+      "logo": "spotify.svg"
+    },
+    {
+      "name": "Square",
+      "logo": "square.svg"
+    },
+    {
+      "name": "Target",
+      "logo": "target.svg"
+    },
+    {
+      "name": "Tencent",
+      "logo": "tencent.svg"
+    },
+    {
+      "name": "TomTom",
+      "logo": "tomtom.svg"
+    },
+    {
+      "name": "Toyota",
+      "logo": "toyota.svg"
+    },
+    {
+      "name": "Uber",
+      "logo": "uber.svg"
+    },
+    {
+      "name": "University of Santa Cruz",
+      "logo": "ucsc.svg"
+    },
+    {
+      "name": "Verizon Media",
+      "logo": "verizon-media.svg"
+    },
+    {
+      "name": "Vivo",
+      "logo": "vivo.svg"
+    },
+    {
+      "name": "VMWare",
+      "logo": "vmware.svg"
+    },
+    {
+      "name": "WalmartLabs",
+      "logo": "walmart-labs.svg"
+    },
+    {
+      "name": "Wayfair",
+      "logo": "wayfair.svg"
+    },
+    {
+      "name": "Western Digital",
+      "logo": "westerndigital.svg"
+    },
+    {
+      "name": "Wipro",
+      "logo": "wipro.svg"
+    },
+    {
+      "name": "ZTE",
+      "logo": "zte.svg"
+    }
+  ]
+}

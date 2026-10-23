@@ -41,3 +41,19 @@ latestBlogTitle:
   other: TODO 社区最新动态
 allBlogPosts:
   other: 查看所有文章
+
+generalMembersTitle:
+  other: 我们的普通会员
+viewGeneralMembers:
+  other: 查看所有普通会员
+
+teamTogether:
+  other: 我们一起组成
+teamDescription:
+  other: 从大使、工作组负责人到首次贡献者，TODO 将大家聚集在一起，分享经验、建设资源并推动开源实践。找到志同道合的伙伴，共同塑造未来。
+teamMeet:
+  other: 认识我们的大使
+teamChairs:
+  other: 认识我们的工作组负责人
+teamPeople:
+  other: TODO 社区成员

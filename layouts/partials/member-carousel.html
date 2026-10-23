@@ -1,0 +1,21 @@
+<section class="member-strip" aria-label="{{ i18n "generalMembersTitle" }}">
+  <div class="member-strip__rows">
+    {{ $members := site.Data.general_members.members }}
+    {{ range $row := seq 0 1 }}
+      {{ $items := slice }}
+      {{ range $index, $member := $members }}{{ if eq (mod $index 2) $row }}{{ $items = $items | append $member }}{{ end }}{{ end }}
+      <div class="member-strip__row">
+        <div class="member-strip__track">
+          {{ range $copy := seq 0 1 }}
+          <ul class="member-strip__group"{{ if eq $copy 1 }} aria-hidden="true"{{ else }} aria-label="{{ i18n "generalMembersTitle" }}"{{ end }}>
+            {{ range $items }}
+            <li class="member-strip__tile"><img src="{{ printf "img/members/%s" .logo | relURL }}" alt="{{ if eq $copy 0 }}{{ .name }}{{ end }}" width="100" height="100" decoding="async"></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+  <a class="member-strip__all" href="{{ relLangURL "/about/members/" }}">{{ i18n "viewGeneralMembers" }} <span aria-hidden="true">↗</span></a>
+</section>

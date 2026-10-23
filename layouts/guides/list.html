@@ -1,8 +1,21 @@
 {{ define "main" }}
   {{ .Content }}
-  <ul>
-    {{ range .Pages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ if eq .Language.Lang "en" }}
+  <nav class="todo-pillar-nav" aria-label="Guide pillars">
+    {{ range site.Data.guide_pillars }}<a href="#{{ .id }}">{{ .title }}</a>{{ end }}
+  </nav>
+  <div class="todo-pillar-grid">
+    {{ $section := . }}
+    {{ range site.Data.guide_pillars }}
+    <section class="todo-pillar" id="{{ .id }}" aria-labelledby="pillar-{{ .id }}">
+      <span class="todo-card-label">{{ len .guides }} guides</span>
+      <h2 id="pillar-{{ .id }}">{{ .title }}</h2>
+      <p>{{ .description }}</p>
+      <ul>{{ range .guides }}{{ with $section.GetPage . }}<li><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></li>{{ end }}{{ end }}</ul>
+    </section>
     {{ end }}
-  </ul>
+  </div>
+  {{ else }}
+  <ul>{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+  {{ end }}
 {{ end }}

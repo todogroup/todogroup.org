@@ -1,0 +1,9 @@
+<article class="todo-story-card">
+  <a class="todo-story-card__image" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ partial "blog/featured-image.html" . }}</a>
+  <div class="todo-story-card__body">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ $name := .Params.author | default "TODO Group" }}
+    {{ with index site.Data.authors $name }}{{ $name = .name }}{{ end }}
+    <p class="todo-story-card__author">{{ $name }}</p>
+  </div>
+</article>

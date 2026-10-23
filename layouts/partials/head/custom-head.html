@@ -35,3 +35,8 @@
 {{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">
 {{ end }}
+
+{{ if or .IsHome (and (in (slice "blog" "studies" "guides" "working-groups") .Section) (eq .Kind "section")) }}
+{{ $cards := resources.Get "css/content-cards.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $cards.RelPermalink }}" integrity="{{ $cards.Data.Integrity }}">
+{{ end }}

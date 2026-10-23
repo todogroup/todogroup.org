@@ -1,0 +1,60 @@
+[
+  {
+    "id": "strategy",
+    "title": "Strategy & impact",
+    "description": "Build an OSPO, set direction, and demonstrate the value of open source.",
+    "guides": [
+      "ospo-simple-faq",
+      "create-program",
+      "strategy",
+      "os-commercial-ecosystem",
+      "impact",
+      "measuring"
+    ]
+  },
+  {
+    "id": "governance",
+    "title": "Governance & operations",
+    "description": "Put policies, tools, and contribution practices into action.",
+    "guides": [
+      "using-open-source",
+      "management-tools",
+      "outbound-oss"
+    ]
+  },
+  {
+    "id": "people",
+    "title": "People & community",
+    "description": "Grow skills, participation, and inclusive communities.",
+    "guides": [
+      "participating",
+      "building-leadership",
+      "employee-engagement",
+      "diversity-inclusion",
+      "recruiting-developers",
+      "career-development"
+    ]
+  },
+  {
+    "id": "projects",
+    "title": "Project lifecycle",
+    "description": "Launch, promote, sustain, and responsibly retire open source projects.",
+    "guides": [
+      "starting",
+      "marketing-open-source-projects",
+      "organizing-and-managing-open-source-events",
+      "shutting-down"
+    ]
+  },
+  {
+    "id": "contribute",
+    "title": "Learn & contribute",
+    "description": "Find further reading and help create the next community resource.",
+    "guides": [
+      "open-source-reading-list",
+      "todo-guides-contribution-guidelines",
+      "todo-contribution-guidelines",
+      "whitepaper-guidelines"
+    ]
+  }
+]

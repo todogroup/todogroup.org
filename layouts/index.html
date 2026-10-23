@@ -26,7 +26,7 @@
 
   <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
 
-  <div class="cards columns-3 box-grid">
+  <div class="cards columns-3 box-grid todo-community-cards">
     <div class="card">
       <h2>{{ i18n "sectionTitle1" }}</h2>
       <p>{{ i18n "sectionText1" | markdownify }}</p>
@@ -47,6 +47,17 @@
       <a href="{{ relLangURL "/about/members/" }}" class="button">{{ i18n "sectionButton3" }}</a>
     </div>
   </div>
+
+  {{ $posts := first 3 (where site.RegularPages "Section" "blog") }}
+  {{ with $posts }}
+  <section class="todo-latest" aria-labelledby="todo-latest-title">
+    <div class="todo-section-heading">
+      <h2 id="todo-latest-title">{{ i18n "latestBlogTitle" }}</h2>
+      <a class="todo-view-all" href="{{ relLangURL "/blog/" }}">{{ i18n "allBlogPosts" }} <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="todo-card-grid">{{ range . }}{{ partial "blog/card.html" . }}{{ end }}</div>
+  </section>
+  {{ end }}
 
   <hr />
 

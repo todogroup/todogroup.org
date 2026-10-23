@@ -57,3 +57,6 @@ teamChairs:
   other: ワーキンググループのリーダーに会う
 teamPeople:
   other: TODO コミュニティのメンバー
+
+toggleDarkMode:
+  other: ダークモードを切り替える

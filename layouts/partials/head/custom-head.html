@@ -52,3 +52,6 @@
 {{ $teamScript := resources.Get "js/team-ospo.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $teamScript.RelPermalink }}" integrity="{{ $teamScript.Data.Integrity }}"></script>
 {{ end }}
+
+{{ $themeStyle := resources.Get "css/color-theme.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $themeStyle.RelPermalink }}" integrity="{{ $themeStyle.Data.Integrity }}">

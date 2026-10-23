@@ -60,3 +60,6 @@ teamChairs:
   other: Meet our working group chairs
 teamPeople:
   other: People from the TODO community
+
+toggleDarkMode:
+  other: Toggle dark mode

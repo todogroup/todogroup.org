@@ -57,3 +57,6 @@ teamChairs:
   other: 认识我们的工作组负责人
 teamPeople:
   other: TODO 社区成员
+
+toggleDarkMode:
+  other: 切换深色模式

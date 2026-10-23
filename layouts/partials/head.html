@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{- partial "head/csp.html" . }}
+    {{ $themeScript := resources.Get "js/color-theme.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $themeScript.RelPermalink }}" integrity="{{ $themeScript.Data.Integrity }}"></script>
     <title>{{ $title }}</title>
     <meta name="description" content="{{ $description }}" />
 

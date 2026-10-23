@@ -108,3 +108,8 @@
 
 {{/* User: Custom JS */}}
 {{- partial "footer/custom-js.html" . }}
+{{ if eq .Language.Lang "en" }}
+{{ partial "ospochi.html" . }}
+{{ $ospochi := resources.Get "js/ospochi.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $ospochi.RelPermalink }}" integrity="{{ $ospochi.Data.Integrity }}"></script>
+{{ end }}

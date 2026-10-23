@@ -55,3 +55,8 @@
 
 {{ $themeStyle := resources.Get "css/color-theme.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $themeStyle.RelPermalink }}" integrity="{{ $themeStyle.Data.Integrity }}">
+
+{{ if eq .Language.Lang "en" }}
+{{ $ospochiStyle := resources.Get "css/ospochi.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $ospochiStyle.RelPermalink }}" integrity="{{ $ospochiStyle.Data.Integrity }}">
+{{ end }}

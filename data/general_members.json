@@ -3,407 +3,509 @@
   "members": [
     {
       "name": "Adobe",
-      "logo": "adobe.svg"
+      "logo": "adobe.svg",
+      "url": "https://www.adobe.com/"
     },
     {
       "name": "Aiven",
-      "logo": "aiven.svg"
+      "logo": "aiven.svg",
+      "url": "https://github.com/aiven/"
     },
     {
       "name": "Alliander",
-      "logo": "alliander.svg"
+      "logo": "alliander.svg",
+      "url": "https://www.alliander.com/en/open-source/projects/"
     },
     {
       "name": "AMD Xilinx",
-      "logo": "amd-xilinx.svg"
+      "logo": "amd-xilinx.svg",
+      "url": "https://www.xilinx.com/"
     },
     {
       "name": "Ant Group",
-      "logo": "antgroup.svg"
+      "logo": "antgroup.svg",
+      "url": "https://www.antgroup.com/"
     },
     {
       "name": "Apple",
-      "logo": "apple.svg"
+      "logo": "apple.svg",
+      "url": "https://opensource.apple.com/"
     },
     {
       "name": "ARM",
-      "logo": "arm.svg"
+      "logo": "arm.svg",
+      "url": "https://developer.arm.com/Tools%20and%20Software"
     },
     {
       "name": "Autodesk",
-      "logo": "autodesk.svg"
+      "logo": "autodesk.svg",
+      "url": "https://www.autodesk.com"
     },
     {
       "name": "Avanade",
-      "logo": "avanade.svg"
+      "logo": "avanade.svg",
+      "url": "https://github.com/Avanade"
     },
     {
       "name": "AWS",
-      "logo": "aws.svg"
+      "logo": "aws.svg",
+      "url": "https://twitter.com/AWSOpen"
     },
     {
       "name": "Baidu",
-      "logo": "baidu.svg"
+      "logo": "baidu.svg",
+      "url": "https://github.com/baidu"
     },
     {
       "name": "Banco Itaú",
-      "logo": "banco-itau.svg"
+      "logo": "banco-itau.svg",
+      "url": "https://www.itau.com/"
     },
     {
       "name": "BlackRock",
-      "logo": "blackrock.svg"
+      "logo": "blackrock.svg",
+      "url": "https://github.com/blackrock"
     },
     {
       "name": "Bloomberg",
-      "logo": "bloomberg.svg"
+      "logo": "bloomberg.svg",
+      "url": "https://github.com/bloomberg"
     },
     {
       "name": "BMW",
-      "logo": "bmw.svg"
+      "logo": "bmw.svg",
+      "url": "https://github.com/bmwcarit"
     },
     {
       "name": "Bosch",
-      "logo": "bosch.svg"
+      "logo": "bosch.svg",
+      "url": "https://www.bosch.com/"
     },
     {
       "name": "Box",
-      "logo": "box.svg"
+      "logo": "box.svg",
+      "url": "http://opensource.box.com/"
     },
     {
       "name": "ByteDance",
-      "logo": "bytedance.svg"
+      "logo": "bytedance.svg",
+      "url": "https://github.com/bytedance"
     },
     {
       "name": "China Academy for Information and Communications Technology",
-      "logo": "caict.svg"
+      "logo": "caict.svg",
+      "url": "http://www.caict.ac.cn/",
+      "display_name": "CAICT"
     },
     {
       "name": "Capital One",
-      "logo": "capital-one.svg"
+      "logo": "capital-one.svg",
+      "url": "http://www.capitalone.io/"
     },
     {
       "name": "Cathay Financial",
-      "logo": "cathay-financial.svg"
+      "logo": "cathay-financial.svg",
+      "url": "https://www.cathayholdings.com/"
     },
     {
       "name": "China  Mobile",
-      "logo": "chinamobile.svg"
+      "logo": "chinamobile.svg",
+      "url": "https://www.chinamobileltd.com/en/global/home.php"
     },
     {
       "name": "Cisco",
-      "logo": "cisco.svg"
+      "logo": "cisco.svg",
+      "url": "https://developer.cisco.com/site/opensource/"
     },
     {
       "name": "Cloudera",
-      "logo": "cloudera.png"
+      "logo": "cloudera.png",
+      "url": "https://www.cloudera.com/open-source.html"
     },
     {
       "name": "Comcast",
-      "logo": "comcast.svg"
+      "logo": "comcast.svg",
+      "url": "https://comcast.github.io/"
     },
     {
       "name": "Cuemby",
-      "logo": "cuemby.svg"
+      "logo": "cuemby.svg",
+      "url": "https://www.cuemby.com/"
     },
     {
       "name": "Datadog",
-      "logo": "datadog.svg"
+      "logo": "datadog.svg",
+      "url": "https://github.com/DataDog"
     },
     {
       "name": "Dell Technologies",
-      "logo": "dell-technologies.svg"
+      "logo": "dell-technologies.svg",
+      "url": "https://github.com/dell"
     },
     {
       "name": "Deutsche Bahn",
-      "logo": "deutsche-bahn.svg"
+      "logo": "deutsche-bahn.svg",
+      "url": "https://www.dbsystel.de/dbsystel-en"
     },
     {
       "name": "Didi",
-      "logo": "didi.svg"
+      "logo": "didi.svg",
+      "url": "https://github.com/didi"
     },
     {
       "name": "DigitalOcean",
-      "logo": "digitalocean.svg"
+      "logo": "digitalocean.svg",
+      "url": "https://www.digitalocean.com/"
     },
     {
       "name": "Dropbox",
-      "logo": "dropbox.svg"
+      "logo": "dropbox.svg",
+      "url": "https://opensource.dropbox.com/"
     },
     {
       "name": "Dynatrace",
-      "logo": "dynatrace.svg"
+      "logo": "dynatrace.svg",
+      "url": "https://engineering.dynatrace.com/open-source/"
     },
     {
       "name": "eBay",
-      "logo": "ebay.svg"
+      "logo": "ebay.svg",
+      "url": "https://opensource.ebay.com"
     },
     {
       "name": "Elastic",
-      "logo": "elastic.svg"
+      "logo": "elastic.svg",
+      "url": "https://www.elastic.co"
     },
     {
       "name": "EPAM",
-      "logo": "epam.svg"
+      "logo": "epam.svg",
+      "url": "https://www.epam.com/"
     },
     {
       "name": "Equinix",
-      "logo": "equinix.svg"
+      "logo": "equinix.svg",
+      "url": "https://www.equinix.nl/"
     },
     {
       "name": "Ericsson",
-      "logo": "ericsson.svg"
+      "logo": "ericsson.svg",
+      "url": "https://github.com/Ericsson"
     },
     {
       "name": "F5",
-      "logo": "f5.svg"
+      "logo": "f5.svg",
+      "url": "https://devcentral.f5.com/s"
     },
     {
       "name": "Fannie Mae",
-      "logo": "fannie-mae.svg"
+      "logo": "fannie-mae.svg",
+      "url": "https://www.fanniemae.com"
     },
     {
       "name": "Freddie Mac",
-      "logo": "freddie-mac.svg"
+      "logo": "freddie-mac.svg",
+      "url": "https://www.freddiemac.com"
     },
     {
       "name": "George Washington University",
-      "logo": "gw.png"
+      "logo": "gw.png",
+      "url": "https://ospo.gwu.edu/"
     },
     {
       "name": "GitHub",
-      "logo": "github.svg"
+      "logo": "github.svg",
+      "url": "https://github.com/github"
     },
     {
       "name": "GitLab",
-      "logo": "gitlab.svg"
+      "logo": "gitlab.svg",
+      "url": "https://about.gitlab.com"
     },
     {
       "name": "Goldman Sachs",
-      "logo": "gs.svg"
+      "logo": "gs.svg",
+      "url": "https://www.goldmansachs.com/careers/blog/posts/open-source.html"
     },
     {
       "name": "Google",
-      "logo": "google.svg"
+      "logo": "google.svg",
+      "url": "https://opensource.google"
     },
     {
       "name": "Here Technologies",
-      "logo": "here-technologies.svg"
+      "logo": "here-technologies.svg",
+      "url": "https://github.com/heremaps"
     },
     {
       "name": "Hitachi",
-      "logo": "hitachi.svg"
+      "logo": "hitachi.svg",
+      "url": "https://www.hitachi.com/"
     },
     {
       "name": "Honda",
-      "logo": "honda.png"
+      "logo": "honda.png",
+      "url": "https://global.honda/"
     },
     {
       "name": "HPE",
-      "logo": "hewlett-packard-enterprise.svg"
+      "logo": "hewlett-packard-enterprise.svg",
+      "url": "https://github.com/HewlettPackard"
     },
     {
       "name": "Huawei",
-      "logo": "huawei.svg"
+      "logo": "huawei.svg",
+      "url": "http://www1.huawei.com/en/about-huawei/Partner/openathuawei/index.htm"
     },
     {
       "name": "IBM",
-      "logo": "ibm.svg"
+      "logo": "ibm.svg",
+      "url": "http://ibm.github.io/"
     },
     {
       "name": "Indeed",
-      "logo": "indeed.svg"
+      "logo": "indeed.svg",
+      "url": "https://github.com/indeedeng"
     },
     {
       "name": "Infosys",
-      "logo": "infosys-logo.svg"
+      "logo": "infosys-logo.svg",
+      "url": "https://www.infosys.com"
     },
     {
       "name": "Innovation Platform Agency Japan",
-      "logo": "ipa.svg"
+      "logo": "ipa.svg",
+      "url": "https://www.ipa.go.jp/en/"
     },
     {
       "name": "Intel",
-      "logo": "intel.svg"
+      "logo": "intel.svg",
+      "url": "https://01.org/"
     },
     {
       "name": "Intersect MBO",
-      "logo": "intersect.png"
+      "logo": "intersect.png",
+      "url": "https://github.com/IntersectMBO/Open-Source-Office"
     },
     {
       "name": "ITRenew",
-      "logo": "itrenew.png"
+      "logo": "itrenew.png",
+      "url": "https://www.itrenew.com/"
     },
     {
       "name": "JiHu(GitLab)",
-      "logo": "jihu-gitlab.svg"
+      "logo": "jihu-gitlab.svg",
+      "url": "https://about.gitlab.cn"
     },
     {
       "name": "Meta",
-      "logo": "meta.svg"
+      "logo": "meta.svg",
+      "url": "https://opensource.fb.com"
     },
     {
       "name": "Microsoft",
-      "logo": "microsoft.svg"
+      "logo": "microsoft.svg",
+      "url": "https://cloudblogs.microsoft.com/opensource"
     },
     {
       "name": "National Instruments",
-      "logo": "national-instruments.svg"
+      "logo": "national-instruments.svg",
+      "url": "https://github.com/ni"
     },
     {
       "name": "Netapp",
-      "logo": "netapp.svg"
+      "logo": "netapp.svg",
+      "url": "https://netapp.com"
     },
     {
       "name": "Netflix",
-      "logo": "netflix.svg"
+      "logo": "netflix.svg",
+      "url": "https://netflix.github.io/"
     },
     {
       "name": "NGINX",
-      "logo": "nginx.svg"
+      "logo": "nginx.svg",
+      "url": "https://www.nginx.org"
     },
     {
       "name": "Nokia",
-      "logo": "nokia.svg"
+      "logo": "nokia.svg",
+      "url": "https://www.nokia.com/"
     },
     {
       "name": "Paypal",
-      "logo": "paypal.svg"
+      "logo": "paypal.svg",
+      "url": "http://paypal.github.io/"
     },
     {
       "name": "Pinterest",
-      "logo": "pinterest.svg"
+      "logo": "pinterest.svg",
+      "url": "https://github.com/pinterest"
     },
     {
       "name": "Porsche",
-      "logo": "porsche.svg"
+      "logo": "porsche-wordmark.svg",
+      "url": "https://opensource.porsche.com/"
     },
     {
       "name": "Postman",
-      "logo": "postman.svg"
+      "logo": "postman.svg",
+      "url": "https://www.postman.com/"
     },
     {
       "name": "Progressive Insurance",
-      "logo": "progressive.svg"
+      "logo": "progressive.svg",
+      "url": "https://github.com/Progressive-Insurance"
     },
     {
       "name": "Qingcloud",
-      "logo": "qingcloud.svg"
+      "logo": "qingcloud.svg",
+      "url": "https://www.qingcloud.com"
     },
     {
       "name": "Qualcomm",
-      "logo": "qualcomm.svg"
+      "logo": "qualcomm.svg",
+      "url": "https://www.codeaurora.org/"
     },
     {
       "name": "Red Hat",
-      "logo": "red-hat.svg"
+      "logo": "red-hat.svg",
+      "url": "https://www.redhat.com/en/about/our-community-contributions"
     },
     {
       "name": "Rochester Institute of Technology",
-      "logo": "rochester-institute-of-technology.svg"
+      "logo": "rochester-institute-of-technology.svg",
+      "url": "https://www.rit.edu/about-rit"
     },
     {
       "name": "Salesforce",
-      "logo": "salesforce.svg"
+      "logo": "salesforce.svg",
+      "url": "https://opensource.salesforce.com/"
     },
     {
       "name": "Samsung",
-      "logo": "samsung.svg"
+      "logo": "samsung.svg",
+      "url": "https://opensource.samsung.com/main"
     },
     {
       "name": "SAP",
-      "logo": "sap.svg"
+      "logo": "sap.svg",
+      "url": "https://github.com/sap"
     },
     {
       "name": "SAS",
-      "logo": "sas.svg"
+      "logo": "sas.svg",
+      "url": "https://github.com/sassoftware/"
     },
     {
       "name": "Sauce Labs",
-      "logo": "sauce-labs.svg"
+      "logo": "sauce-labs.svg",
+      "url": "https://github.com/saucelabs"
     },
     {
       "name": "Scania",
-      "logo": "scania.svg"
+      "logo": "scania.svg",
+      "url": "https://github.com/scania"
     },
     {
       "name": "Seagate",
-      "logo": "seagate.svg"
+      "logo": "seagate.svg",
+      "url": "https://github.com/seagate"
     },
     {
       "name": "Siemens",
-      "logo": "siemens.svg"
+      "logo": "siemens.svg",
+      "url": "https://github.com/siemens"
     },
     {
       "name": "Snowflake",
-      "logo": "snowflake.svg"
+      "logo": "snowflake.svg",
+      "url": "https://github.com/snowflakedb"
     },
     {
       "name": "Sony",
-      "logo": "sony.svg"
+      "logo": "sony.svg",
+      "url": "https://github.com/sony"
     },
     {
       "name": "Spotify",
-      "logo": "spotify.svg"
+      "logo": "spotify.svg",
+      "url": "https://github.com/spotify"
     },
     {
       "name": "Square",
-      "logo": "square.svg"
+      "logo": "square.svg",
+      "url": "http://corner.squareup.com"
     },
     {
       "name": "Target",
-      "logo": "target.svg"
+      "logo": "target.svg",
+      "url": "https://github.com/target"
     },
     {
       "name": "Tencent",
-      "logo": "tencent.svg"
+      "logo": "tencent.svg",
+      "url": "https://github.com/tencent"
     },
     {
       "name": "TomTom",
-      "logo": "tomtom.svg"
+      "logo": "tomtom.svg",
+      "url": "https://opensource.tomtom.com"
     },
     {
       "name": "Toyota",
-      "logo": "toyota.svg"
+      "logo": "toyota.svg",
+      "url": "https://www.toyota.com"
     },
     {
       "name": "Uber",
-      "logo": "uber.svg"
+      "logo": "uber.svg",
+      "url": "https://uber.github.io"
     },
     {
       "name": "University of Santa Cruz",
-      "logo": "ucsc.svg"
+      "logo": "ucsc.svg",
+      "url": "https://cross.ucsc.edu"
     },
     {
       "name": "Verizon Media",
-      "logo": "verizon-media.svg"
+      "logo": "verizon-media.svg",
+      "url": "https://developer.yahoo.com/opensource"
     },
     {
       "name": "Vivo",
-      "logo": "vivo.svg"
+      "logo": "vivo.svg",
+      "url": "https://opensource.vivo.com"
     },
     {
       "name": "VMWare",
-      "logo": "vmware.svg"
+      "logo": "vmware.svg",
+      "url": "https://www.vmware.com/opensource.html"
     },
     {
       "name": "WalmartLabs",
-      "logo": "walmart-labs.svg"
+      "logo": "walmart-labs.svg",
+      "url": "https://code.walmartlabs.com"
     },
     {
       "name": "Wayfair",
-      "logo": "wayfair.svg"
+      "logo": "wayfair.svg",
+      "url": "https://github.com/wayfair"
     },
     {
       "name": "Western Digital",
-      "logo": "westerndigital.svg"
+      "logo": "westerndigital.svg",
+      "url": "https://github.com/westerndigitalcorporation"
     },
     {
       "name": "Wipro",
-      "logo": "wipro.svg"
+      "logo": "wipro.svg",
+      "url": "https://github.com/WiproOpenSourcePractice"
     },
     {
       "name": "ZTE",
-      "logo": "zte.svg"
+      "logo": "zte.svg",
+      "url": "https://sdnfv.zte.com.cn/en/opensources"
     }
   ]
 }

@@ -1,0 +1,15 @@
+<section class="associate-directory" aria-labelledby="{{ .id }}-directory-title" data-initial-count="{{ .initialCount }}">
+  <div class="associate-directory__heading"><h2 id="{{ .id }}-directory-title">{{ .title }}</h2><span class="associate-count" role="status">{{ len .organizations }} organizations</span></div>
+  <div class="associate-search" hidden><label for="{{ .id }}-search">Find an organization</label><input id="{{ .id }}-search" type="search" placeholder="Search by name" autocomplete="off"><button type="button" class="associate-clear" hidden>Clear search</button></div>
+  <div class="associate-grid">
+    {{ $logoDir := .logoDir }}
+    {{ range .organizations }}
+    <a class="associate-organization" href="{{ .url }}" data-name="{{ .name }} {{ .display_name }}"{{ if .display_name }} title="{{ .name }}" aria-label="{{ .name }}"{{ end }}>
+      <span class="associate-logo"><img src="{{ printf "img/%s/%s" $logoDir .logo | relURL }}" alt="" width="160" height="160" loading="lazy" decoding="async"></span>
+      <span class="associate-name">{{ .display_name | default .name }} <span aria-hidden="true">↗</span></span>
+    </a>
+    {{ end }}
+  </div>
+  <p class="associate-empty" hidden>No organizations match your search.</p>
+  <button type="button" class="associate-button associate-more" hidden>Show more organizations</button>
+</section>

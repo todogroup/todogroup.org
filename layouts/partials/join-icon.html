@@ -1,0 +1,8 @@
+<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+{{ if eq . "people" }}<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm9 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM2 21v-3a5 5 0 0 1 10 0v3m2-8a5 5 0 0 1 8 4v4"/>
+{{ else if eq . "build" }}<path d="M4 7h7v7H4zM14 3h6v6h-6zM14 14h6v7h-6zM4 17h7v4H4"/>
+{{ else if eq . "chat" }}<path d="M3 4h18v13H9l-6 4V4Zm4 5h10M7 13h6"/>
+{{ else if eq . "book" }}<path d="M12 5c-3-2-7-2-10 0v15c3-2 7-2 10 0 3-2 7-2 10 0V5c-3-2-7-2-10 0Zm0 0v15"/>
+{{ else if eq . "story" }}<path d="M5 3h14v18H5zM9 7h6M9 11h6M9 15h4"/>
+{{ else if eq . "news" }}<path d="M3 5h18v14H3zM3 5l9 8 9-8"/>
+{{ end }}</svg>

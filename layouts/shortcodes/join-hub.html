@@ -1,0 +1,69 @@
+<div class="join-hub">
+  <section class="join-hero" aria-labelledby="join-title">
+    <div>
+      <p class="join-eyebrow">Find your place in #TeamOSPO</p>
+      <h1 id="join-title">Talk openly.<br>Get involved.</h1>
+      <p class="join-lead">An open community advancing open source strategy, management, adoption, and impact across organizations.</p>
+      <p>Individuals and organizational representatives are welcome. No formal membership or established OSPO is needed.</p>
+    </div>
+    <figure class="join-hero__photo"><img src="{{ "images/blog/ospo-summit-china-2026/attachment-01.jpg" | relURL }}" alt="TODO community members together at OSPOlogy and OSPO Summit China" width="640" height="520" fetchpriority="high" decoding="async"></figure>
+  </section>
+
+  <nav class="join-jumps" aria-label="Ways to get involved"><a href="#contribute">Participate &amp; contribute</a><a href="#membership">General Membership</a><a href="#associates">Associate Organizations</a></nav>
+
+  <section class="join-section" id="contribute" aria-labelledby="contribute-title">
+    <p class="join-eyebrow">Start with what interests you</p>
+    <h2 id="contribute-title">Many ways to make a difference</h2>
+    <p class="join-section-intro">Bring your experience as yourself or on behalf of your organization.</p>
+    <div class="join-contributions">
+      {{ range slice
+        (dict "icon" "chat" "title" "Start with TODO Slack" "text" "Our main space for virtual conversations. Say hello, ask questions, and connect with peers." "url" "https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w" "label" "Join TODO Slack")
+        (dict "icon" "people" "title" "Meet & exchange ideas" "text" "Connect with practitioners at OSPOlogy meetups." "url" "https://ocgroups.dev/todo" "label" "Find your community")
+        (dict "icon" "build" "title" "Build with a working group" "text" "Tackle shared open technology challenges with peers." "url" "/working-groups/" "label" "Explore working groups")
+        (dict "icon" "book" "title" "Improve a resource" "text" "Review, translate, or contribute to open resources." "url" "https://github.com/todogroup/ospology" "label" "Explore community projects")
+        (dict "icon" "story" "title" "Share your organization’s story" "text" "Help others learn from your organization’s experience." "url" "/resources/guides/open-source-program-office-case-study-guidelines/" "label" "Contribute a case study")
+        (dict "icon" "news" "title" "Stay connected" "text" "Get community news and opportunities to contribute." "url" "/community/osponews/" "label" "Discover OSPONews")
+      }}
+      <article class="join-contribution">
+        <span class="join-icon" aria-hidden="true">{{ partial "join-icon.html" .icon }}</span>
+        <h3>{{ .title }}</h3><p>{{ .text }}</p>
+        <a href="{{ if hasPrefix .url "/" }}{{ .url | relLangURL }}{{ else }}{{ .url }}{{ end }}">{{ .label }} <span aria-hidden="true">↗</span></a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="join-section join-membership" id="membership" aria-labelledby="membership-title">
+    <div class="join-membership__intro"><p class="join-eyebrow">For organizations</p><h2 id="membership-title">Become a General Member</h2><p>Formally support TODO’s mission and bring your organization’s open source experience into the community.</p><a class="join-text-link" href="{{ "/about/members/" | relLangURL }}">Meet our General Members <span aria-hidden="true">↗</span></a></div>
+    <div class="join-membership__grid">
+      <div class="join-requirements">
+        <h3>Is your organization eligible?</h3>
+        <ul>
+          <li><span aria-hidden="true">✓</span><div>Be a Linux Foundation member, including through an LF umbrella foundation, or qualify for LF Associate Membership.</div></li>
+          <li><span aria-hidden="true">✓</span><div>Have, or be building, an organizational function or practice focused on open source management and strategy, with a scope that can extend to AI, security, governance, and other open technologies.</div></li>
+          <li><span aria-hidden="true">✓</span><div>Agree to the <a href="{{ "/about/charter/" | relLangURL }}">TODO General Member Charter</a>.</div></li>
+        </ul>
+        <p class="join-small">As a Linux Foundation member organization, including through an LF umbrella foundation, you can join the TODO Group General Member network at no additional cost as a membership benefit.</p>
+        <a class="join-button" href="https://enrollment.lfx.linuxfoundation.org/?project=todogroup">Apply for General Membership <span aria-hidden="true">↗</span></a>
+        <a class="join-text-link join-eligibility-link" href="https://www.linuxfoundation.org/members/join">About Linux Foundation membership ↗</a>
+      </div>
+      <aside class="join-deck" aria-labelledby="deck-title">
+        <div class="join-deck__cover" aria-hidden="true"><img src="{{ "img/todo-logo-on-white.svg" | relURL }}" alt="" width="130" height="45"><span>OPEN SOURCE.<br>SHARED EXPERIENCE.<br>COLLECTIVE IMPACT.</span><small>TODO GROUP OVERVIEW</small></div>
+        <h3 id="deck-title">See the membership overview</h3>
+        <p>Explore TODO’s structure, General Member benefits, and ways your organization can take part.</p>
+        <a class="join-button join-button--secondary" href="https://docs.google.com/presentation/d/16TvFrsh3bkjvQl2g9vyR7k3bnSh5o2X3Z1mU5QGwQH0/edit?slide=id.g3a75a3564c1_0_1280#slide=id.g3a75a3564c1_0_1280">View the benefits &amp; overview deck <span aria-hidden="true">↗</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="join-associates" id="associates" aria-labelledby="associates-title">
+    <span class="join-icon" aria-hidden="true">{{ partial "join-icon.html" "people" }}</span>
+    <div><p class="join-eyebrow">Collaborate across communities</p><h2 id="associates-title">Associate Organizations</h2><p>Projects, foundations, academia, public bodies, and nonprofits advancing open source strategy, management, adoption, and impact across organizations. A separate program from General Membership.</p><a class="join-text-link" href="{{ "/about/associates/" | relLangURL }}">Explore Associate Organizations <span aria-hidden="true">↗</span></a></div>
+  </section>
+
+  <section class="join-questions" aria-labelledby="join-questions-title"><h2 id="join-questions-title">A few things to know</h2>
+    <details><summary>Can I participate without an OSPO or a member organization?</summary><p>Yes. Individuals are welcome regardless of employment, affiliation, or experience. Come to learn, share, or contribute at your own pace.</p></details>
+    <details><summary>Can I contribute on behalf of my organization?</summary><p>Yes. You can share organizational experience, contribute resources, and collaborate in working groups. Formal General Membership is available to eligible organizations that want to support TODO in that capacity.</p></details>
+    <details><summary>Where should I start?</summary><p>Start by joining <a href="https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w">TODO Slack</a>, where our community connects and has virtual conversations. Then explore a <a href="{{ "/working-groups/" | relLangURL }}">working group</a> or a <a href="https://ocgroups.dev/todo">community gathering</a>. All participation follows the <a href="https://github.com/todogroup/.github/blob/master/CODE_OF_CONDUCT.md">TODO Code of Conduct</a>.</p></details>
+  </section>
+</div>

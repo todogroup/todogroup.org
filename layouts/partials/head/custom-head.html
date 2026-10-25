@@ -60,3 +60,15 @@
 {{ $ospochiStyle := resources.Get "css/ospochi.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $ospochiStyle.RelPermalink }}" integrity="{{ $ospochiStyle.Data.Integrity }}">
 {{ end }}
+
+{{ if .HasShortcode "join-hub" }}
+{{ $joinStyle := resources.Get "css/join-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $joinStyle.RelPermalink }}" integrity="{{ $joinStyle.Data.Integrity }}">
+{{ end }}
+
+{{ if or (.HasShortcode "associate-organizations") (.HasShortcode "general-members") }}
+{{ $associateStyle := resources.Get "css/associate-organizations.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $associateStyle.RelPermalink }}" integrity="{{ $associateStyle.Data.Integrity }}">
+{{ $associateScript := resources.Get "js/associate-organizations.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $associateScript.RelPermalink }}" integrity="{{ $associateScript.Data.Integrity }}"></script>
+{{ end }}

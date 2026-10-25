@@ -19,7 +19,7 @@
         <a class="todo-story-card__image" href="{{ $page.RelPermalink }}" tabindex="-1" aria-hidden="true">
           <img width="520" height="260" loading="lazy" decoding="async" src="{{ printf "img/studies/%s" ($image | default $img) | relURL }}" alt="{{ $title }} study cover">
         </a>
-        <div class="todo-story-card__body"><span class="todo-card-label">Research &amp; studies</span><h2>
+        <div class="todo-story-card__body"><span class="todo-card-label">{{ partial "localized-text.html" "Research &amp; studies" }}</span><h2>
           <a href="{{ $page.Permalink }}" >{{ $title }}</a>
         </h2></div>
       </article>

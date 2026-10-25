@@ -1,6 +1,6 @@
-<section class="associate-directory" aria-labelledby="{{ .id }}-directory-title" data-initial-count="{{ .initialCount }}">
-  <div class="associate-directory__heading"><h2 id="{{ .id }}-directory-title">{{ .title }}</h2><span class="associate-count" role="status">{{ len .organizations }} organizations</span></div>
-  <div class="associate-search" hidden><label for="{{ .id }}-search">Find an organization</label><input id="{{ .id }}-search" type="search" placeholder="Search by name" autocomplete="off"><button type="button" class="associate-clear" hidden>Clear search</button></div>
+<section class="associate-directory" aria-labelledby="{{ .id }}-directory-title" data-language="{{ site.Language.Lang }}" data-initial-count="{{ .initialCount }}">
+  <div class="associate-directory__heading"><h2 id="{{ .id }}-directory-title">{{ partial "localized-text.html" .title }}</h2><span class="associate-count" role="status">{{ if eq site.Language.Lang "ja" }}{{ len .organizations }} 組織{{ else }}{{ len .organizations }} organizations{{ end }}</span></div>
+  <div class="associate-search" hidden><label for="{{ .id }}-search">{{ partial "localized-text.html" "Find an organization" }}</label><input id="{{ .id }}-search" type="search" placeholder="{{ partial "localized-text.html" "Search by name" }}" autocomplete="off"><button type="button" class="associate-clear" hidden>{{ partial "localized-text.html" "Clear search" }}</button></div>
   <div class="associate-grid">
     {{ $logoDir := .logoDir }}
     {{ range .organizations }}
@@ -10,6 +10,6 @@
     </a>
     {{ end }}
   </div>
-  <p class="associate-empty" hidden>No organizations match your search.</p>
-  <button type="button" class="associate-button associate-more" hidden>Show more organizations</button>
+  <p class="associate-empty" hidden>{{ partial "localized-text.html" "No organizations match your search." }}</p>
+  <button type="button" class="associate-button associate-more" hidden>{{ partial "localized-text.html" "Show more organizations" }}</button>
 </section>

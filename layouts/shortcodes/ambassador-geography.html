@@ -1,6 +1,6 @@
 <details class="amb-geography">
-<summary>Explore ambassadors on the map</summary>
-<p>See where our ambassadors connect local communities.</p>
+<summary>{{ partial "localized-text.html" "Explore ambassadors on the map" }}</summary>
+<p>{{ partial "localized-text.html" "See where our ambassadors connect local communities." }}</p>
 {{ .Page.RenderString "{{< ambassador-map >}}" }}
 </details>
 <style>.amb-geography{margin:2rem 0 3rem;border-top:1px solid var(--gray-300);border-bottom:1px solid var(--gray-300);padding:1.25rem 0}.amb-geography summary{font-weight:600;font-size:1.15rem;color:var(--primary-800);cursor:pointer}.amb-geography[open] summary{margin-bottom:1rem}</style>

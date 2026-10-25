@@ -1,6 +1,7 @@
 <article class="todo-story-card">
   <a class="todo-story-card__image" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ partial "blog/featured-image.html" . }}</a>
   <div class="todo-story-card__body">
+    {{ if and (eq site.Language.Lang "ja") (ne .Language.Lang "ja") }}<span class="todo-card-label">英語</span>{{ end }}
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ $name := .Params.author | default "TODO Group" }}
     {{ with index site.Data.authors $name }}{{ $name = .name }}{{ end }}

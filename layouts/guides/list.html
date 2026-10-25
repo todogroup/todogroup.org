@@ -1,14 +1,16 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ if eq .Language.Lang "en" }}
-  <nav class="todo-pillar-nav" aria-label="Guide pillars">
-    {{ range site.Data.guide_pillars }}<a href="#{{ .id }}">{{ .title }}</a>{{ end }}
+  {{ if in (slice "en" "ja") .Language.Lang }}
+  {{ $pillars := site.Data.guide_pillars }}
+  {{ if eq .Language.Lang "ja" }}{{ $pillars = site.Data.ja_guide_pillars }}{{ end }}
+  <nav class="todo-pillar-nav" aria-label="{{ partial "localized-text.html" "Guide pillars" }}">
+    {{ range $pillars }}<a href="#{{ .id }}">{{ .title }}</a>{{ end }}
   </nav>
   <div class="todo-pillar-grid">
     {{ $section := . }}
-    {{ range site.Data.guide_pillars }}
+    {{ range $pillars }}
     <section class="todo-pillar" id="{{ .id }}" aria-labelledby="pillar-{{ .id }}">
-      <span class="todo-card-label">{{ len .guides }} guides</span>
+      <span class="todo-card-label">{{ if eq site.Language.Lang "ja" }}{{ len .guides }} 件のガイド{{ else }}{{ len .guides }} guides{{ end }}</span>
       <h2 id="pillar-{{ .id }}">{{ .title }}</h2>
       <p>{{ .description }}</p>
       <ul>{{ range .guides }}{{ with $section.GetPage . }}<li><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></li>{{ end }}{{ end }}</ul>

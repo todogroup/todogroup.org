@@ -9,9 +9,9 @@
 />
 
 <div class="toa-map-wrapper">
-  <div id="toa-map" role="region" aria-label="Interactive world map of TODO OSPO Ambassadors"></div>
+  <div id="toa-map" role="region" aria-label="{{ if eq site.Language.Lang "ja" }}TODO アンバサダーの世界地図{{ else }}Interactive world map of TODO OSPO Ambassadors{{ end }}"></div>
   <p class="toa-map-caption">
-    {{ len $ambassadors }} ambassadors across the globe. Click a marker for details.
+    {{ if eq site.Language.Lang "ja" }}世界各地の {{ len $ambassadors }} 名のアンバサダーを紹介します。マーカーを選ぶと詳細が表示されます。{{ else }}{{ len $ambassadors }} ambassadors across the globe. Click a marker for details.{{ end }}
   </p>
   <p id="toa-map-error" class="toa-map-error" hidden></p>
 </div>
@@ -233,12 +233,12 @@ window.__TOA_AMBASSADORS__ = {{ $ambassadors | jsonify | safeJS }};
           '</span>' +
           '<span class="toa-popup__org">' + (a.org || '') + '</span>' +
           '<div class="toa-popup__row">' +
-            '<span class="toa-popup__label">Location</span>' +
+            '<span class="toa-popup__label">{{ if eq site.Language.Lang "ja" }}所在地{{ else }}Location{{ end }}</span>' +
             '<span class="toa-popup__value">' + (a.location || '') + '</span>' +
           '</div>' +
           (effortsHtml
             ? '<div class="toa-popup__row">' +
-                '<span class="toa-popup__label">Contributions</span>' +
+                '<span class="toa-popup__label">{{ if eq site.Language.Lang "ja" }}貢献{{ else }}Contributions{{ end }}</span>' +
                 '<ul class="toa-popup__contributions">' + effortsHtml + '</ul>' +
               '</div>'
             : '') +

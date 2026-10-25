@@ -1,17 +1,17 @@
 <div class="wg-leadership not-prose">
   {{ range site.Data.working_group_leadership }}
   <section class="wg-leadership__group" aria-labelledby="{{ .id }}">
-    <h2 id="{{ .id }}">{{ .name }}</h2>
-    <p><a href="{{ .url | relLangURL }}">View working group →</a></p>
-    <h3>Working group chairs</h3>
+    <h2 id="{{ .id }}">{{ partial "localized-text.html" .name }}</h2>
+    <p><a href="{{ .url | relLangURL }}">{{ partial "localized-text.html" "View working group →" }}</a></p>
+    <h3>{{ partial "localized-text.html" "Working group chairs" }}</h3>
     <div class="wg-leadership__grid">
       {{ range .chairs }}
-        {{ partial "working-group-person.html" (dict "person" (index site.Data.working_group_people .) "role" "Working group chair") }}
+        {{ partial "working-group-person.html" (dict "person" (index site.Data.working_group_people .) "role" (partial "localized-text.html" "Working group chair")) }}
       {{ end }}
     </div>
-    <h3>Steering committee liaison</h3>
+    <h3>{{ partial "localized-text.html" "Steering committee liaison" }}</h3>
     <div class="wg-leadership__grid">
-      {{ partial "working-group-person.html" (dict "person" (index site.Data.working_group_people .liaison) "role" "Steering committee liaison") }}
+      {{ partial "working-group-person.html" (dict "person" (index site.Data.working_group_people .liaison) "role" (partial "localized-text.html" "Steering committee liaison")) }}
     </div>
   </section>
   {{ end }}

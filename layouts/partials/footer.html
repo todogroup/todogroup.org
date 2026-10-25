@@ -36,7 +36,7 @@
                     <ul>
                         {{ range $.Scratch.Get "noChildrenItems" }}
                         <li class="menu-item">
-                            <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
+                            <a href="{{ partial "localized-url.html" .URL }}" class="menu-link">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -47,7 +47,7 @@
             {{ with .Site.Params.footer_cta }}
             {{ if and .text .link }}
             <div class="footer__cta">
-                <a href="{{ .link | absLangURL }}" class="button tertiary">{{ .text }}</a>
+                <a href="{{ partial "localized-url.html" .link }}" class="button tertiary">{{ .text }}</a>
             </div>
             {{ end }}
             {{ end }}
@@ -108,7 +108,7 @@
 
 {{/* User: Custom JS */}}
 {{- partial "footer/custom-js.html" . }}
-{{ if eq .Language.Lang "en" }}
+{{ if in (slice "en" "ja") .Language.Lang }}
 {{ partial "ospochi.html" . }}
 {{ $ospochi := resources.Get "js/ospochi.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $ospochi.RelPermalink }}" integrity="{{ $ospochi.Data.Integrity }}"></script>

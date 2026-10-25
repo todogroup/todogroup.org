@@ -1,0 +1,49 @@
+[
+  {
+    "id": "strategy",
+    "title": "戦略とインパクト",
+    "description": "OSPO を設立し、方向性を定め、オープンソースの価値を示します。",
+    "guides": [
+      "ospo-simple-faq",
+      "create-program",
+      "impact",
+      "measuring-success"
+    ]
+  },
+  {
+    "id": "governance",
+    "title": "ガバナンスと運営",
+    "description": "ポリシー、ツール、貢献の実践を組織に取り入れます。",
+    "guides": [
+      "using-open-source",
+      "management-tools"
+    ]
+  },
+  {
+    "id": "people",
+    "title": "人とコミュニティ",
+    "description": "スキルを育て、参加を促し、包摂的なコミュニティを築きます。",
+    "guides": [
+      "participating",
+      "building-leadership",
+      "recruiting-developers"
+    ]
+  },
+  {
+    "id": "projects",
+    "title": "プロジェクトのライフサイクル",
+    "description": "プロジェクトを立ち上げ、維持し、責任を持って終了します。",
+    "guides": [
+      "starting",
+      "shutting-down"
+    ]
+  },
+  {
+    "id": "contribute",
+    "title": "学びと貢献",
+    "description": "読書や学習を通じて、コミュニティの知識を広げます。",
+    "guides": [
+      "open-source-reading-list"
+    ]
+  }
+]

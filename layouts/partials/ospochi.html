@@ -1,20 +1,20 @@
-<aside class="ospochi" aria-label="OSPochi community companion" hidden>
+<aside class="ospochi" aria-label="{{ partial "localized-text.html" "OSPochi community companion" }}" hidden>
   <div class="ospochi__panel" id="ospochi-panel" hidden>
-    <p class="ospochi__eyebrow">Your little TODO companion</p>
-    <h2>Hi, I’m OSPochi!</h2>
-    <p>Where shall we explore?</p>
-    <nav aria-label="OSPochi shortcuts">
-      <a href="{{ relLangURL "/resources/guides/" }}">Find a TODO guide <span aria-hidden="true">↗</span></a>
-      <a href="{{ relLangURL "/community/ambassadors/" }}">Meet the community <span aria-hidden="true">↗</span></a>
-      <a href="{{ relLangURL "/working-groups/" }}">Build something together <span aria-hidden="true">↗</span></a>
+    <p class="ospochi__eyebrow">{{ partial "localized-text.html" "Your little TODO companion" }}</p>
+    <h2>{{ partial "localized-text.html" "Hi, I’m OSPochi!" }}</h2>
+    <p>{{ partial "localized-text.html" "Where shall we explore?" }}</p>
+    <nav aria-label="{{ partial "localized-text.html" "OSPochi shortcuts" }}">
+      <a href="{{ partial "localized-url.html" "/guides/" }}">{{ partial "localized-text.html" "Find a TODO guide" }} <span aria-hidden="true">↗</span></a>
+      <a href="{{ partial "localized-url.html" "/community/ambassadors/" }}">{{ partial "localized-text.html" "Meet the community" }} <span aria-hidden="true">↗</span></a>
+      <a href="{{ partial "localized-url.html" "/working-groups/" }}">{{ partial "localized-text.html" "Build something together" }} <span aria-hidden="true">↗</span></a>
     </nav>
   </div>
   <div class="ospochi__perch">
-    <button type="button" class="ospochi__hide" aria-label="Hide OSPochi" title="Hide until the page reloads">×</button>
-    <span class="ospochi__hint" aria-hidden="true">Explore with me</span>
-    <button type="button" class="ospochi__launcher" aria-label="Explore with OSPochi" aria-expanded="false" aria-controls="ospochi-panel">
+    <button type="button" class="ospochi__hide" aria-label="{{ partial "localized-text.html" "Hide OSPochi" }}" title="{{ partial "localized-text.html" "Hide until the page reloads" }}">×</button>
+    <span class="ospochi__hint" aria-hidden="true">{{ partial "localized-text.html" "Explore with me" }}</span>
+    <button type="button" class="ospochi__launcher" aria-label="{{ partial "localized-text.html" "Explore with OSPochi" }}" aria-expanded="false" aria-controls="ospochi-panel">
       <img src="{{ "img/ospochi/pixel-companion.png" | relURL }}" alt="" width="112" height="112" decoding="async">
     </button>
   </div>
 </aside>
-<button type="button" class="ospochi-restore" hidden>Bring back OSPochi</button>
+<button type="button" class="ospochi-restore" hidden>{{ partial "localized-text.html" "Bring back OSPochi" }}</button>

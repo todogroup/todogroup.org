@@ -275,52 +275,239 @@ ja:
     ### copyright (markdown can be used) ###
     copyright: "All content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), unless otherwise noted. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](https://www.linuxfoundation.org/privacy) and [Terms of Use](https://www.linuxfoundation.org/terms). [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) for Hugo by [CNCF](https://www.cncf.io)."
     github_edit: "このページをGitHubで編集"
-  ### example menu showing children ###
   menu:
     main:
-    - identifier: "about"
-      name: "About"
-      url: "/about/"
-      weight: 1
-    - identifier: "about-us"
-      name: "TODO Groupについて"
-      url: "/about/about-us/"
-      weight: 1
-      post: "プロジェクトとそのコミュニティの使命"
-      parent: "about"
-    - identifier: "faq"
-      name: "よくある質問"
-      url: "/faqs/"
-      weight: 2
-      parent: "about"
-    - identifier: "resources"
-      name: "資料"
-      url: "/resources/"
-      weight: 2
-    - identifier: "glossary"
-      name: "用語集"
-      url: "/resources/glossary/"
-      weight: 1
-      post: "OSPOの一般的な用語と定義"
-      parent: "resources"
-    - identifier: "studies"
-      name: "研究"
-      url: "/resources/studies/"
-      weight: 2
-      post: "OSPOへの取り組みを支援する成熟度モデル、調査、レポート"
-      parent: "resources"
-    - identifier: "mindmap"
-      name: "マインドマップ"
-      url: "/resources/mindmap/"
-      weight: 3
-      post: "OSPO内の責任、役割、行動、チームの規模"
-      parent: "resources"
-    - identifier: "guides"
-      name: "ガイド"
-      url: "/guides/"
-      weight: 4
-      post: "組織のためのオープンソースプログラム管理のベストプラクティス"
-      parent: "resources"
+      - identifier: about
+        name: TODO について
+        url: /about/
+        weight: 1
+        params:
+          featured:
+            title: TODO コミュニティに参加する
+            description: 仲間と協力し、オープンソースプログラムを発展させ、学びを共有しましょう。
+            url: /join/
+            label: TODO に参加する
+      - identifier: who-we-are
+        name: TODO Group の紹介
+        url: /about/about-us/
+        weight: 1
+        parent: discover-todo
+        post: OSPO の発展を支えるオープンなコミュニティです。
+      - identifier: structure
+        name: 組織体制
+        weight: 2
+        parent: about
+        params:
+          group: true
+      - identifier: steering-committee
+        name: 運営委員会
+        url: /about/steering-committee/
+        weight: 1
+        parent: structure
+        post: TODO の方向性と優先事項を導くメンバーを紹介します。
+      - identifier: members
+        name: メンバー組織
+        url: /about/members/
+        weight: 2
+        parent: structure
+        post: 世界各地で OSPO の導入を支援する組織です。
+      - identifier: working-group-chairs
+        name: ワーキンググループのチェア
+        url: /about/working-group-chairs/
+        weight: 3
+        parent: structure
+        post: 各グループを支えるチェアと運営委員会のリエゾンを紹介します。
+      - identifier: ambassadors
+        name: アンバサダー
+        url: /community/ambassadors/
+        weight: 4
+        parent: structure
+        post: OSPO コミュニティをつなぎ、支える実践者です。
+      - identifier: associates
+        name: アソシエイト組織
+        url: /about/associates/
+        weight: 5
+        parent: structure
+        post: TODO と協力するプロジェクト、コミュニティ、財団です。
+      - identifier: charter
+        name: 憲章
+        url: /about/charter/
+        weight: 3
+        parent: discover-todo
+        post: TODO Group の原則とガバナンスを紹介します。
+      - identifier: training
+        name: トレーニング・認定
+        url: /resources/training/
+        weight: 2
+        params:
+          featured:
+            title: OSPO の学びを始めよう
+            description: オープンソースプログラム管理を学ぶ、無料の公開教材です。
+            url: /resources/training/
+            label: トレーニングを見る
+      - identifier: developers
+        name: 開発者・エンジニア向け
+        weight: 1
+        parent: training
+        params:
+          group: true
+      - identifier: code-cert
+        name: CODE 認定
+        url: https://training.linuxfoundation.org/certification/certified-open-source-developer-for-enterprise-code/
+        weight: 1
+        parent: developers
+        post: 企業におけるオープンソース開発のスキルを証明します。
+      - identifier: executives
+        name: 経営者・マネージャー向け
+        weight: 2
+        parent: training
+        params:
+          group: true
+      - identifier: ospo-101
+        name: OSPO 101 コース
+        url: https://github.com/todogroup/ospo101
+        weight: 1
+        parent: executives
+        post: OSPO の設立と運営を学べます。
+      - identifier: resources
+        name: 資料
+        url: /resources/
+        weight: 3
+        params:
+          featured:
+            title: OSPO Book
+            description: OSPO の設立と発展に取り組むコミュニティの経験から学べます。
+            url: /resources/book/
+            label: 本を読む
+      - identifier: glossary
+        name: OSPO 用語集
+        url: /resources/glossary/
+        weight: 1
+        parent: learn-ospo
+        post: オープンソースプログラム管理の共通用語をまとめています。
+      - identifier: jobs
+        name: OSPO 求人情報
+        url: /jobs/
+        weight: 2
+        parent: plan-ospo
+        post: オープンソースプログラム管理に関する仕事を探せます。
+      - identifier: guides
+        name: TODO ガイド
+        url: /guides/
+        weight: 3
+        parent: learn-ospo
+        post: オープンソースプログラムを運営するための実践的なガイドです。
+      - identifier: book
+        name: OSPO Book
+        url: /resources/book/
+        weight: 4
+        parent: learn-ospo
+        post: OSPO の実践者から戦略や経験を学べます。
+      - identifier: mindmap
+        name: マインドマップ
+        url: /resources/mindmap/
+        weight: 5
+        parent: plan-ospo
+        post: OSPO の責任、役割、活動を可視化しています。
+      - identifier: frameworks
+        name: 調査・フレームワーク
+        url: /resources/studies/
+        weight: 6
+        parent: plan-ospo
+        post: 成熟度モデル、調査、フレームワークを活用できます。
+      - identifier: community
+        name: コミュニティ
+        url: /community/
+        weight: 4
+        params:
+          featured:
+            title: コミュニティとつながる
+            description: イベントやミートアップを通じて、OSPO の実践者と交流しましょう。
+            url: /community/events/
+            label: イベントを見る
+      - identifier: working-groups
+        name: ワーキンググループ
+        url: /working-groups/
+        weight: 1
+        parent: take-part
+        post: OSPO の共通課題に実践者と協力して取り組みます。
+      - identifier: github-projects
+        name: GitHub プロジェクト
+        weight: 2
+        parent: community
+        params:
+          group: true
+      - identifier: landscape
+        name: OSPO ランドスケープ
+        url: https://github.com/todogroup/ospolandscape
+        weight: 1
+        parent: github-projects
+        post: OSPO のエコシステムを探索し、貢献できます。
+      - identifier: definition
+        name: OSPO の定義
+        url: https://github.com/todogroup/ospodefinition.org
+        weight: 2
+        parent: github-projects
+        post: OSPO の共通の定義づくりに参加できます。
+      - identifier: website
+        name: ウェブサイト
+        url: https://github.com/todogroup/todogroup.org
+        weight: 3
+        parent: github-projects
+        post: TODO のウェブサイトと資料づくりに貢献できます。
+      - identifier: tools
+        name: OSS 管理ツール集
+        url: https://github.com/todogroup/awesome-oss-mgmt
+        weight: 4
+        parent: github-projects
+        post: オープンソースプログラムを管理するツールを紹介します。
+      - identifier: ospology
+        name: OSPOlogy
+        url: https://github.com/todogroup/ospology
+        weight: 5
+        parent: github-projects
+        post: OSPO の実践者と知識を共有し、協力できます。
+      - identifier: online-meetings
+        name: オンラインミーティング
+        url: /community/meetings/
+        weight: 3
+        parent: take-part
+        post: オンラインでの議論やアイデア交換に参加できます。
+      - identifier: events
+        name: イベント・ミートアップ
+        url: /community/events/
+        weight: 4
+        parent: take-part
+        post: 世界各地のイベントでコミュニティとつながれます。
+      - identifier: blog
+        name: ブログ
+        url: /blog/
+        weight: 5
+      - identifier: discover-todo
+        name: TODO を知る
+        parent: about
+        weight: 1
+        params:
+          group: true
+      - identifier: learn-ospo
+        name: OSPO を学ぶ
+        parent: resources
+        weight: 1
+        params:
+          group: true
+      - identifier: plan-ospo
+        name: 次のステップを考える
+        parent: resources
+        weight: 2
+        params:
+          group: true
+      - identifier: take-part
+        name: 参加する
+        parent: community
+        weight: 1
+        params:
+          group: true
+
 zh-cn:
   languageName: 简体中文
   contentDir: content/zh-CN

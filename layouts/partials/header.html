@@ -16,7 +16,7 @@
         {{ end }}
         
         {{ with .Site.Menus.main }}
-        <nav id="main-navigation" class="main-menu" aria-label="Main navigation">
+        <nav id="main-navigation" class="main-menu" aria-label="{{ partial "localized-text.html" "Main navigation" }}">
             <ul class="main-menu__wrapper">
                 {{ range . }}
                 <li class="top-menu-item{{ if .HasChildren }} menu-item-has-children{{ end }}">
@@ -26,7 +26,7 @@
                         {{ partial "navigation-panel.html" . }}
                     </div>
                     {{ else }}
-                    <a href="{{ .URL | relLangURL }}" class="menu-link">{{ .Name }}</a>
+                    <a href="{{ partial "localized-url.html" .URL }}" class="menu-link">{{ .Name }}</a>
                     {{ end }}
                 </li>
                 {{ end }}
@@ -35,7 +35,7 @@
             <div class="main-menu__cta-language-wrapper">
                 {{ with $.Site.Params.main_cta }}
                 {{ if and .text .link }}
-                <a href="{{ .link | absLangURL }}" class="button main-menu-cta">{{ .text }}</a>
+                <a href="{{ partial "localized-url.html" .link }}" class="button main-menu-cta">{{ partial "localized-text.html" .text }}</a>
                 {{ end }}
                 {{ end }}
 
@@ -58,7 +58,7 @@
         <button class="theme-toggle" type="button" aria-label="{{ i18n "toggleDarkMode" }}" role="switch" aria-checked="false" title="{{ i18n "toggleDarkMode" }}" hidden>
             <span class="theme-toggle__thumb" aria-hidden="true"></span>
         </button>
-        <button class="hamburger" type="button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="main-navigation">
+        <button class="hamburger" type="button" aria-label="{{ partial "localized-text.html" "Toggle Menu" }}" aria-expanded="false" aria-controls="main-navigation">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
             </span>

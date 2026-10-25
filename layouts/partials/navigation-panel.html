@@ -3,12 +3,12 @@
         {{ range .Children }}{{ partial "navigation-item.html" . }}{{ end }}
     </ul>
     {{ with .Params.featured }}
-    <aside class="mega-menu__featured" aria-label="Recommended links">
-        <p class="mega-menu__eyebrow">Recommended links</p>
-        <a class="mega-menu__card" href="{{ .url | relLangURL }}">
-            <span class="mega-menu__card-title">{{ .title }}</span>
+    <aside class="mega-menu__featured" aria-label="{{ partial "localized-text.html" "Recommended links" }}">
+        <p class="mega-menu__eyebrow">{{ partial "localized-text.html" "Recommended links" }}</p>
+        <a class="mega-menu__card" href="{{ partial "localized-url.html" .url }}">
+            <span class="mega-menu__card-title">{{ partial "localized-text.html" .title }}</span>
             <span class="mega-menu__card-description">{{ .description }}</span>
-            <span class="mega-menu__card-cta">{{ .label }} <span aria-hidden="true">↗</span></span>
+            <span class="mega-menu__card-cta">{{ partial "localized-text.html" .label }} <span aria-hidden="true">↗</span></span>
         </a>
     </aside>
     {{ end }}

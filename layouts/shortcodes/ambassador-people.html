@@ -1,20 +1,20 @@
 {{- $ambassadors := .Site.Data.ambassadors.ambassadors -}}
 {{- $countries := slice -}}
 {{- range $ambassadors -}}{{- range .countries -}}{{- if not (in $countries .) -}}{{- $countries = $countries | append . -}}{{- end -}}{{- end -}}{{- end -}}
-<section class="amb-people" aria-label="Ambassador directory">
+<section class="amb-people" aria-label="{{ partial "localized-text.html" "Ambassador directory" }}">
   <div class="amb-filters">
-    <label for="amb-search">Find an ambassador
-      <input id="amb-search" type="search" placeholder="Search name, organization or community" />
+    <label for="amb-search">{{ partial "localized-text.html" "Find an ambassador" }}
+      <input id="amb-search" type="search" placeholder="{{ partial "localized-text.html" "Search name, organization or community" }}" />
     </label>
-    <label for="amb-country">Country
-      <select id="amb-country"><option value="">All countries</option>{{ range sort $countries }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select>
+    <label for="amb-country">{{ partial "localized-text.html" "Country" }}
+      <select id="amb-country"><option value="">{{ partial "localized-text.html" "All countries" }}</option>{{ range sort $countries }}<option value="{{ . }}">{{ partial "localized-text.html" . }}</option>{{ end }}</select>
     </label>
-    <button id="amb-reset" type="button" hidden>Clear filters</button>
+    <button id="amb-reset" type="button" hidden>{{ partial "localized-text.html" "Clear filters" }}</button>
   </div>
-  <p id="amb-count" class="amb-count" role="status">Showing {{ len $ambassadors }} ambassadors</p>
+  <p id="amb-count" class="amb-count" role="status">{{ if eq site.Language.Lang "ja" }}{{ len $ambassadors }} 名のアンバサダー{{ else }}Showing {{ len $ambassadors }} ambassadors{{ end }}</p>
   <div class="amb-grid">
     {{ range $index, $ambassador := sort $ambassadors "name" }}
-    <article class="amb-person" data-countries="{{ delimit .countries "|" }}" data-search="{{ .name }} {{ .org }} {{ .location }} {{ range .contributions }} {{ .text }}{{ end }}">
+    <article class="amb-person" data-countries="{{ delimit .countries "|" }}" data-search="{{ .name }} {{ .org }} {{ .location }} {{ range .contributions }} {{ partial "localized-text.html" .text }}{{ end }}">
       <div class="amb-flip-inner">
       <div class="amb-front">
       <div class="amb-person-heading">
@@ -28,19 +28,19 @@
       </div>
       <p class="amb-location">{{ .location }}</p>
       <a class="amb-social" href="{{ .url }}" aria-label="{{ .name }} on {{ if hasPrefix .url "https://github.com/" }}GitHub{{ else }}LinkedIn{{ end }}"><img src="{{ if hasPrefix .url "https://github.com/" }}/img/social-icons/github.svg{{ else }}/img/social-icons/linkedin.svg{{ end }}" alt="" width="28" height="28" /></a>
-      <button type="button" class="amb-flip-toggle" aria-expanded="false" aria-controls="amb-back-{{ $index }}">See contributions and term ↻</button>
+      <button type="button" class="amb-flip-toggle" aria-expanded="false" aria-controls="amb-back-{{ $index }}">{{ partial "localized-text.html" "See contributions and term ↻" }}</button>
       </div>
       <div class="amb-back" id="amb-back-{{ $index }}" inert aria-hidden="true">
       <h3>{{ .name }}</h3>
-      <div class="amb-efforts"><span class="amb-label">Community contributions</span><ul>{{ range .contributions }}<li>{{ if .url }}<a href="{{ .url }}">{{ .text }}</a>{{ else }}{{ .text }}{{ end }}</li>{{ end }}</ul></div>
-      <div class="amb-person-footer"><span>Term: {{ .term }}</span></div>
-      <button type="button" class="amb-flip-return">Back to profile ↻</button>
+      <div class="amb-efforts"><span class="amb-label">{{ partial "localized-text.html" "Community contributions" }}</span><ul>{{ range .contributions }}<li>{{ if .url }}<a href="{{ .url }}">{{ partial "localized-text.html" .text }}</a>{{ else }}{{ partial "localized-text.html" .text }}{{ end }}</li>{{ end }}</ul></div>
+      <div class="amb-person-footer"><span>{{ partial "localized-text.html" "Term:" }} {{ .term }}</span></div>
+      <button type="button" class="amb-flip-return">{{ partial "localized-text.html" "Back to profile ↻" }}</button>
       </div>
       </div>
     </article>
     {{ end }}
   </div>
-  <p id="amb-empty" hidden>No ambassadors match your search. Try another name or country.</p>
+  <p id="amb-empty" hidden>{{ partial "localized-text.html" "No ambassadors match your search. Try another name or country." }}</p>
 </section>
 <style>
 .amb-people{margin:2rem 0 3rem;color:var(--text-color)}
@@ -117,7 +117,7 @@
   function update(){
     var query=normalize(search.value.trim()),selected=country.value,shown=0;
     cards.forEach(function(card){var match=normalize(card.dataset.search).includes(query)&&(!selected||card.dataset.countries.split('|').includes(selected));card.hidden=!match;if(match)shown++;});
-    root.querySelector('#amb-count').textContent='Showing '+shown+' of '+cards.length+' ambassadors';
+    root.querySelector('#amb-count').textContent=document.documentElement.lang==='ja' ? cards.length+' 名中 '+shown+' 名のアンバサダーを表示' : 'Showing '+shown+' of '+cards.length+' ambassadors';
     root.querySelector('#amb-empty').hidden=shown!==0;
     reset.hidden=!query&&!selected;
   }

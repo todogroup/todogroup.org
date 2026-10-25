@@ -2,8 +2,8 @@
   <div class="team-ospo__copy">
     <h2 id="team-ospo-title">{{ i18n "teamTogether" }}<br><span>#TeamOSPO</span></h2>
     <p>{{ i18n "teamDescription" }}</p>
-    <a class="button" href="{{ relLangURL "/community/ambassadors/" }}">{{ i18n "teamMeet" }}</a>
-    <a class="button team-ospo__secondary" href="{{ relLangURL "/about/working-group-chairs/" }}">{{ i18n "teamChairs" }}</a>
+    <a class="button" href="{{ partial "localized-url.html" "/community/ambassadors/" }}">{{ i18n "teamMeet" }}</a>
+    <a class="button team-ospo__secondary" href="{{ partial "localized-url.html" "/about/working-group-chairs/" }}">{{ i18n "teamChairs" }}</a>
   </div>
   {{ $people := slice }}
   {{ $names := slice }}

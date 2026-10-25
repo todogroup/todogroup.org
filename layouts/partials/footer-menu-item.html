@@ -2,7 +2,7 @@
     {{ range .Children }}{{ partial "footer-menu-item.html" . }}{{ end }}
 {{ else }}
     {{ with .URL }}
-    <li class="menu-item"><a href="{{ . | relLangURL }}" class="menu-link">{{ $.Name }}</a></li>
+    <li class="menu-item"><a href="{{ partial "localized-url.html" . }}" class="menu-link">{{ $.Name }}</a></li>
     {{ end }}
     {{ range .Children }}{{ partial "footer-menu-item.html" . }}{{ end }}
 {{ end }}

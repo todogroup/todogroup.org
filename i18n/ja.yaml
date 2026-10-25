@@ -3,29 +3,32 @@ hero1:
 hero2:
   other: Develop openly
 subhero:
-  other: オープンソースに取り組むすべての企業のみなさんへ。
+  other: Open Source Program Office の設立、拡大、支援に取り組む実践者のために
 explainerText:
-  other: TODOは、知識を創造・共有し、実践、ツール、その他の方法で成功的かつ効果的なオープンソースプログラムオフィスや同様のオープンソースイニシアティブを運営することを目指す実践者のオープンなコミュニティです。TODOグループは、[Community](../community)の参加者と[一般会員](../members)によって形成されています。
+  other: |-
+    組織におけるオープンソース管理と、実際の組織で広がる AI ガバナンスのベストプラクティスを共有する、ベンダーに中立な、誰にでも開かれた実践者のコミュニティです。
+
+    Linux Foundation がホストする TODO Group は、組織を越えた実践的な導入、連携、協力を支える資料とガイドをつくっています。
 explainerButton:
   other: 私たちについて
 sectionTitle:
-  other: 関与する
+  other: 参加する
 sectionTitle1:
   other: コミュニティに参加する
 sectionText1:
-  other: 組織全体でオープンソースの採用をリードするオープンソースプログラムオフィスの実践者
+  other: 組織におけるオープンソース管理と、オープンソース AI ガバナンスの導入を進める実践者のコミュニティ
 sectionButton1:
   other: コミュニティに参加
 sectionTitle2:
-  other: OSPOアソシエイトになる
+  other: アソシエイト組織になる
 sectionText2:
-  other: TODOのミッションをサポートし、OSPOムーブメントを支援するオープンソースコミュニティ、プロジェクト、基盤
+  other: TODO のミッションを支え、OSPO の発展に協力するオープンソースコミュニティ、プロジェクト、財団
 sectionButton2:
   other: 関与する
 sectionTitle3:
-  other: 一般会員になる
+  other: 一般メンバー組織になる
 sectionText3:
-  other: TODOのミッションとOSPO採用をサポートするオープンソースにコミットした組織
+  other: オープンソース管理の機能を持ち、開かれた協力を通じて OSPO の導入、戦略、AI ガバナンスの実践を進める組織
 sectionButton3:
   other: サポーターになる
 landscapeTitle:
@@ -43,9 +46,9 @@ allBlogPosts:
   other: すべての記事を見る
 
 generalMembersTitle:
-  other: ジェネラルメンバー
+  other: 一般メンバー組織
 viewGeneralMembers:
-  other: すべてのジェネラルメンバーを見る
+  other: すべての一般メンバー組織を見る
 
 teamTogether:
   other: 私たちはともに

@@ -18,7 +18,7 @@ document.querySelectorAll('.associate-directory').forEach(directory => {
       tile.hidden = !matches || (!query && matched > limit);
       if (!tile.hidden) visible++;
     });
-    status.textContent = visible === tiles.length ? `${tiles.length} organizations` : `${visible} of ${tiles.length} organizations`;
+    status.textContent = directory.dataset.language === 'ja' ? `${tiles.length} 組織中 ${visible} 組織を表示` : visible === tiles.length ? `${tiles.length} organizations` : `${visible} of ${tiles.length} organizations`;
     empty.hidden = matched !== 0;
     clear.hidden = !query;
     more.hidden = !!query || visible >= tiles.length;

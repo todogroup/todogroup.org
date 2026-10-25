@@ -12,7 +12,7 @@
       <div class="hero-intro__details">
       <div class="shortened-width">{{ i18n "explainerText" | markdownify }}</div>
 
-      <a href="{{ relLangURL "/about/about-us" }}" class="button">{{ i18n "explainerButton" }}</a>
+      <a href="{{ partial "localized-url.html" "/about/about-us" }}" class="button">{{ i18n "explainerButton" }}</a>
       </div>
     </div>
 
@@ -26,13 +26,13 @@
     <div class="card">
       <h2>{{ i18n "sectionTitle1" }}</h2>
       <p>{{ i18n "sectionText1" | markdownify }}</p>
-      <a href="{{ relLangURL "/community/get-started/" }}" class="button">{{ i18n "sectionButton1" }}</a>
+      <a href="{{ partial "localized-url.html" "/community/get-started/" }}" class="button">{{ i18n "sectionButton1" }}</a>
     </div>
 
     <div class="card">
       <h2>{{ i18n "sectionTitle2" }}</h2>
       <p>{{ i18n "sectionText2" | markdownify }}</p>
-      <a href="{{ relLangURL "/about/associates/" }}" class="button"
+      <a href="{{ partial "localized-url.html" "/about/associates/" }}" class="button"
         >{{ i18n "sectionButton2" }}</a
       >
     </div>
@@ -40,16 +40,16 @@
     <div class="card">
       <h2>{{ i18n "sectionTitle3" }}</h2>
       <p>{{ i18n "sectionText3" | markdownify }}</p>
-      <a href="{{ relLangURL "/about/members/" }}" class="button">{{ i18n "sectionButton3" }}</a>
+      <a href="{{ partial "localized-url.html" "/about/members/" }}" class="button">{{ i18n "sectionButton3" }}</a>
     </div>
   </div>
 
-  {{ $posts := first 3 (where site.RegularPages "Section" "blog") }}
+  {{ $posts := first 3 (partial "blog-pages.html" .) }}
   {{ with $posts }}
   <section class="todo-latest" aria-labelledby="todo-latest-title">
     <div class="todo-section-heading">
       <h2 id="todo-latest-title">{{ i18n "latestBlogTitle" }}</h2>
-      <a class="todo-view-all" href="{{ relLangURL "/blog/" }}">{{ i18n "allBlogPosts" }} <span aria-hidden="true">↗</span></a>
+      <a class="todo-view-all" href="{{ partial "localized-url.html" "/blog/" }}">{{ i18n "allBlogPosts" }} <span aria-hidden="true">↗</span></a>
     </div>
     <div class="todo-card-grid">{{ range . }}{{ partial "blog/card.html" . }}{{ end }}</div>
   </section>

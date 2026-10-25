@@ -1,6 +1,6 @@
 <article class="wg-card not-prose">
-    <span class="todo-card-label">Working group</span>
-    <h2>{{ with .Get "page_url" }}<a href="{{ . | relLangURL }}">{{ end }}{{ .Get "title" }}{{ with .Get "page_url" }}</a>{{ end }}</h2>
+    <span class="todo-card-label">{{ partial "localized-text.html" "Working group" }}</span>
+    <h2>{{ with .Get "page_url" }}<a href="{{ . | relLangURL }}">{{ end }}{{ partial "localized-text.html" (.Get "title") }}{{ with .Get "page_url" }}</a>{{ end }}</h2>
     {{ with .Get "desc" }}<p>{{ . }}</p>{{ end }}
   
     <ul class="list-unstyled wg-contacts">
@@ -12,7 +12,7 @@
   
       {{ with .Get "mail_url" }}
         <li>
-          <a href="{{ . }}">{{ with $.Get "mail_text" }}{{ . }}{{ else }}Mailing list{{ end }}</a>
+          <a href="{{ . }}">{{ with $.Get "mail_text" }}{{ partial "localized-text.html" . }}{{ else }}{{ partial "localized-text.html" "Mailing list" }}{{ end }}</a>
         </li>
       {{ end }}
   
@@ -30,9 +30,9 @@
   
       {{ with .Get "cal_text" }}
         <li>
-          {{ . }}{{ with $.Get "cal_url" }} (<a href="{{ . }}">Calendar</a>){{ end }}
+          {{ partial "localized-text.html" . }}{{ with $.Get "cal_url" }} (<a href="{{ . }}">{{ partial "localized-text.html" "Calendar" }}</a>){{ end }}
         </li>
       {{ end }}
     </ul>
-    {{ with .Get "page_url" }}<a class="todo-view-all wg-card__more" href="{{ . | relLangURL }}">Explore working group <span aria-hidden="true">↗</span></a>{{ end }}
+    {{ with .Get "page_url" }}<a class="todo-view-all wg-card__more" href="{{ . | relLangURL }}">{{ partial "localized-text.html" "Explore working group" }} <span aria-hidden="true">↗</span></a>{{ end }}
   </article>

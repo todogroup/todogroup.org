@@ -16,7 +16,7 @@ The group surfaces practical use cases, evaluates emerging tooling, and develops
 
 - **Repository**: [working-groups/wg-agentic-ai](https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai)
 - **Slack**: `#wg-ai-agents` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **Bi-weekly call**: [TODO Group Community Calendar](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
+- **Bi-weekly call**: [TODO Group Community Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week)
 
 
 Meet the [working group chairs and steering committee liaisons](/about/working-group-chairs/#agentic-ai).

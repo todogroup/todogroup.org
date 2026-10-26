@@ -17,7 +17,7 @@ The group produces whitepapers and case studies focused on measuring the impact 
 - **Repository**: [ospology/whitepapers/business-value](https://github.com/todogroup/ospology/tree/main/whitepapers/business-value)
 - **Mailing list**: [WG-oss-in-business](https://lists.todogroup.org/g/WG-oss-in-business)
 - **Slack**: `#wg-oss-in-business` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **Bi-weekly call**: [TODO Group Community Calendar](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
+- **Bi-weekly call**: [TODO Group Community Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week)
 
 OSPO leads, finance partners, and anyone working at the intersection of open source and business strategy are encouraged to join.
 

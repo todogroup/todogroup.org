@@ -24,7 +24,7 @@ TODO Group Working Groups bring practitioners together around specific OSPO chal
   gh_url="https://github.com/todogroup/ospology/tree/main/whitepapers/business-value" gh_text="ospology/whitepapers/business-value"
   mail_url="https://lists.todogroup.org/g/WG-oss-in-business" mail_text="Mailing list"
   slack_text="#wg-oss-in-business"
-  cal_text="Bi-weekly call" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="Bi-weekly call" cal_url="https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week"
 >}}
 {{< wg-card
   title="CHAOSS OSPO Metrics Working Group"
@@ -32,7 +32,7 @@ TODO Group Working Groups bring practitioners together around specific OSPO chal
   desc="Develop shared metrics and models to understand OSPO health, contribution, and impact."
   gh_url="https://github.com/chaoss/wg-ospo" gh_text="chaoss/wg-ospo"
   slack_text="#wg-ospometrics-chaoss"
-  cal_text="Bi-weekly call" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="Bi-weekly call" cal_url="https://www.chaoss.community/chaoss-calendar/"
 >}}
 {{< wg-card
   title="Agentic AI to empower OSPOs Working Group"
@@ -40,7 +40,7 @@ TODO Group Working Groups bring practitioners together around specific OSPO chal
   desc="Explore practical ways AI agents can support OSPO operations, tooling, and governance."
   gh_url="https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai" gh_text="working-groups/wg-agentic-ai"
   slack_text="#wg-agentic-ai-ospo"
-  cal_text="Bi-weekly call" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="Bi-weekly call" cal_url="https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week"
 >}}
 
 {{< /wg-grid >}}

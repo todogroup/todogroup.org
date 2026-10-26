@@ -17,7 +17,7 @@ url: /ja/working-groups/oss-in-business/
 - **リポジトリ**: [ospology/whitepapers/business-value](https://github.com/todogroup/ospology/tree/main/whitepapers/business-value)
 - **メーリングリスト**: [WG-oss-in-business](https://lists.todogroup.org/g/WG-oss-in-business)
 - **Slack**: `#wg-oss-in-business`：[TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **隔週ミーティング**: [TODO Group コミュニティカレンダー](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
+- **隔週ミーティング**: [TODO Group コミュニティカレンダー](https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week)
 
 OSPO の責任者、財務部門の担当者、オープンソースと事業戦略をつなぐ仕事に取り組む皆さんを歓迎します。
 

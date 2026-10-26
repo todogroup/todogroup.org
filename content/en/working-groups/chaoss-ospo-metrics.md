@@ -16,7 +16,7 @@ The group develops metric definitions, dashboards, and reference implementations
 
 - **Repository**: [chaoss/wg-ospo](https://github.com/chaoss/wg-ospo)
 - **Slack**: `#wg-ospometrics-chaoss` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **Bi-weekly call**: [TODO Group Community Calendar](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
+- **Bi-weekly call**: [TODO Group Community Calendar](https://www.chaoss.community/chaoss-calendar/)
 
 
 Meet the [working group chairs and steering committee liaisons](/about/working-group-chairs/#chaoss-ospo-metrics).

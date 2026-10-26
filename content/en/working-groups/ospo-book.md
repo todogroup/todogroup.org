@@ -17,4 +17,4 @@ The group writes, edits, and reviews chapters covering OSPO foundations, governa
 - **Repository**: [ospology/ospo-book](https://github.com/todogroup/ospology/tree/main/ospo-book)
 - **Mailing list**: [WG-ospo-book-project](https://lists.todogroup.org/g/WG-ospo-book-project)
 - **Slack**: `#project-ospobook` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-
+- **Meetings**: [Community calendar](/community/meetings/)

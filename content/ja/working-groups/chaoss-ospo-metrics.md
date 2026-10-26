@@ -16,7 +16,7 @@ OSPO の責任者が、プログラムの健全性、貢献の進展、エコシ
 
 - **リポジトリ**: [chaoss/wg-ospo](https://github.com/chaoss/wg-ospo)
 - **Slack**: `#wg-ospometrics-chaoss`：[TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **隔週ミーティング**: [TODO Group コミュニティカレンダー](https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com)
+- **隔週ミーティング**: [TODO Group コミュニティカレンダー](https://www.chaoss.community/chaoss-calendar/)
 
 
 [ワーキンググループのチェアと運営委員会のリエゾン](/ja/about/working-group-chairs/#chaoss-ospo-metrics).

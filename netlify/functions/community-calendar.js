@@ -34,7 +34,8 @@ function mergeCalendars(feeds) {
 
 async function handleCalendar(request, fetcher = fetch, now = new Date()) {
   const query = request.queryStringParameters || {};
-  const name = query.source || 'all.ics';
+  const sourcePath = (request.path || '').match(/\/(?:calendar-feeds|\.netlify\/functions\/community-calendar)\/(.*)$/);
+  const name = sourcePath ? sourcePath[1] : (query.source || 'all.ics');
   const selected = name === 'all.ics' || query.format === 'json' ? sources : sources.filter(source => source.id + '.ics' === name);
   if (!selected.length) return { statusCode: 404, body: 'Calendar not found' };
   let start, end;

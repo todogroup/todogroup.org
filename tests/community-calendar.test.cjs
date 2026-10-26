@@ -86,3 +86,17 @@ test('HTML responses from a source are rejected; unknown source paths are not pr
   assert.equal((await handleCalendar({queryStringParameters:{source:'lfx.ics'}},async()=>({ok:true,text:async()=>'<html>Login</html>'}))).statusCode,502);
   assert.equal((await handleCalendar({queryStringParameters:{source:'other.ics'}},()=>assert.fail('Unexpected fetch'))).statusCode,404);
 });
+
+
+test('Netlify rewritten source paths fetch only the requested calendar', async () => {
+  for (const source of sources) {
+    for (const prefix of ['/calendar-feeds/', '/.netlify/functions/community-calendar/']) {
+      const urls=[];
+      const response=await handleCalendar({path:prefix+source.id+'.ics',queryStringParameters:{}},async url=>{urls.push(url);return{ok:true,text:async()=>wrap(master)};});
+      assert.equal(response.statusCode,200);
+      assert.deepEqual(urls,[source.url]);
+      assert.equal(response.body,wrap(master));
+    }
+  }
+  assert.equal((await handleCalendar({path:'/calendar-feeds/unknown.ics'},()=>assert.fail('Unexpected fetch'))).statusCode,404);
+});

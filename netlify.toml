@@ -18,6 +18,6 @@ command = "make preview-build"
 
 [[redirects]]
 from = "/calendar-feeds/*"
-to = "/.netlify/functions/community-calendar?source=:splat"
+to = "/.netlify/functions/community-calendar/:splat"
 status = 200
 force = true

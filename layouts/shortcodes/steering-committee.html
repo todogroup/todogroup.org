@@ -1,0 +1,74 @@
+<main class="sc-page not-prose">
+  <section class="sc-hero" aria-labelledby="sc-title">
+    <p class="sc-eyebrow">TODO Group governance</p>
+    <h1 id="sc-title">Steering Committee</h1>
+    <p class="sc-hero__lead">The Steering Committee guides TODO’s direction and supports its community. It works with the Project Manager, members, working groups, and Ambassadors to set priorities, steward governance, and raise awareness of TODO’s work.</p>
+    <a class="sc-button" href="https://github.com/todogroup/governance/blob/main/GM-SC-CHARTER.adoc">Read the charter <span aria-hidden="true">↗</span></a>
+  </section>
+
+  <section class="sc-section sc-members" id="members" aria-labelledby="sc-members-title">
+    <div class="sc-section__heading sc-section__heading--row">
+      <div><h2 id="sc-members-title">Meet the Steering Committee</h2></div>
+    </div>
+    <div class="sc-member-grid">
+      {{ range .Page.Params.members }}
+      <article class="sc-member-card">
+        <div class="sc-member-card__portrait">
+          {{ if .photo }}
+          {{ if strings.HasPrefix .photo "http" }}
+          <img src="{{ .photo }}" alt="" loading="lazy">
+          {{ else }}
+          <img src="{{ .photo | relURL }}" alt="" loading="lazy">
+          {{ end }}
+          {{ else }}
+          <span aria-hidden="true">{{ .initials }}</span>
+          {{ end }}
+        </div>
+        <div class="sc-member-card__info">
+          <p class="sc-member-card__role">Steering Committee</p>
+          <h3>{{ .name }}</h3>
+          <p>{{ .organization }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="sc-section sc-elections" aria-labelledby="sc-elections-title">
+    <div class="sc-section__heading sc-section__heading--row">
+      <div><h2 id="sc-elections-title">Elections happen every year</h2></div>
+      <div class="sc-election-copy"><p>Committee members serve staggered two-year terms. Each year, TODO fills the seats reaching the end of their term: General Member voting contacts elect members, and the serving committee appoints appointed seats. New terms begin January 1.</p><a class="sc-text-link" href="{{ "/community/2027-steering-committee-candidates/" | relURL }}">Explore the 2027 election and candidate guide <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </section>
+
+  <section class="sc-section sc-reviews" aria-labelledby="sc-reviews-title">
+    <div class="sc-section__heading sc-section__heading--row">
+      <div><p class="sc-eyebrow">Progress, lessons, and priorities</p><h2 id="sc-reviews-title">Year-end reviews</h2></div>
+    </div>
+    <div class="sc-review-grid">
+      {{ range .Page.Params.reviews }}
+      <a class="sc-review-card" href="{{ .url | relURL }}">
+        <span>{{ .year }}</span>
+        <h3>{{ .title }}</h3>
+        <span class="sc-review-card__link">Read the review <span aria-hidden="true">↗</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="sc-section sc-sessions" aria-labelledby="sc-sessions-title">
+    <div class="sc-section__heading">
+      <h2 id="sc-sessions-title">AMA sessions at Linux Foundation events</h2>
+      <p>The TODO Group regularly hosts Ask Me Anything (AMA) sessions and open office hours featuring its Steering Committee members and community leaders.</p>
+    </div>
+    <div class="sc-session-grid">
+      {{ range .Page.Params.amaSessions }}
+      <a class="sc-session-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+        <span>{{ .event }}</span>
+        <h3>{{ .title }}</h3>
+        <span class="sc-review-card__link">Watch on YouTube <span aria-hidden="true">↗</span></span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</main>

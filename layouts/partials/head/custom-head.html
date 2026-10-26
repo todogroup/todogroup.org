@@ -31,6 +31,11 @@
 <link rel="stylesheet" href="{{ $leadership.RelPermalink }}" integrity="{{ $leadership.Data.Integrity }}">
 {{ end }}
 
+{{ if .HasShortcode "steering-committee" }}
+{{ $steering := resources.Get "css/steering-committee.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $steering.RelPermalink }}" integrity="{{ $steering.Data.Integrity }}">
+{{ end }}
+
 {{ if .HasShortcode "events-hub" }}
 {{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">

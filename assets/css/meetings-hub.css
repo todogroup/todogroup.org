@@ -1,0 +1,59 @@
+.meetings-intro { padding:52px 0 30px; }
+.meetings-hub .meetings-intro h1 { font-size:clamp(42px,4.5vw,64px); }
+.meetings-hub .meetings-intro p { max-width:820px; }
+.meetings-calendar { padding:28px; border:1px solid var(--community-line); border-radius:24px; background:var(--white); margin:8px 0 36px; }
+.meetings-controls { display:flex; justify-content:space-between; flex-wrap:wrap; align-items:end; gap:24px; }
+.meetings-controls fieldset { margin:0; padding:0; border:0; display:flex; flex-wrap:wrap; gap:12px 22px; }
+.meetings-controls legend { margin-bottom:12px; font-size:13px; font-weight:700; color:var(--gray-800); }
+.meetings-source { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:700; cursor:pointer; margin:0; }
+.meetings-source input { width:17px; height:17px; accent-color:var(--primary-600); }
+.meetings-source__dot { display:block; width:10px; height:10px; border-radius:50%; background:#016554; flex-shrink:0; }
+.meetings-source__dot--chaoss { background:#537c12; }
+.meetings-timezone { display:flex; flex-direction:column; gap:8px; font-size:13px; font-weight:700; margin:0; }
+.meetings-timezone select { font:inherit; padding:9px 12px; border:1px solid var(--community-line); border-radius:10px; background:var(--white); color:var(--text-color); max-width:100%; }
+.meetings-status { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 0 26px; }
+.meetings-hub .meetings-status p { font-size:13px; color:var(--gray-800); margin:0; }
+.meetings-status .community-button { font-size:12px; padding:8px 14px; }
+.meetings-hub .meetings-error { padding:14px; border-radius:10px; background:var(--community-surface); border:1px solid var(--community-line); font-size:14px; }
+.meetings-calendar .fc { --fc-border-color:var(--community-line); --fc-page-bg-color:var(--white); --fc-neutral-bg-color:var(--community-surface); --fc-today-bg-color:var(--community-surface); --fc-button-bg-color:var(--community-accent); --fc-button-border-color:var(--community-accent); --fc-button-text-color:var(--community-on-accent); --fc-button-hover-bg-color:var(--primary-800); --fc-button-hover-border-color:var(--primary-800); --fc-button-active-bg-color:var(--primary-800); --fc-button-active-border-color:var(--primary-800); --fc-list-event-hover-bg-color:var(--community-surface); font-size:14px; }
+.meetings-calendar .fc .fc-toolbar-title { font-family:inherit; font-size:24px; font-weight:800; line-height:1.3; color:var(--primary-800); text-transform:none; margin:0; }
+.meetings-calendar .fc table { margin:0; max-width:none; font-size:inherit; border-collapse:collapse; }
+.meetings-calendar .fc td,.meetings-calendar .fc th { padding:0; border-color:var(--community-line); background:transparent; }
+.meetings-calendar .fc a { text-decoration:none; }
+.meetings-calendar .fc .fc-daygrid-day-number { padding:10px; font-size:14px; color:var(--text-color); }
+.meetings-calendar .fc .fc-col-header-cell-cushion { padding:12px 4px; color:var(--gray-800); font-size:13px; }
+.meetings-calendar .fc .fc-button { font-family:inherit; font-size:13px; font-weight:700; border-radius:8px; text-transform:none; padding:9px 12px; }
+.meetings-calendar .fc .fc-event { cursor:pointer; padding:3px; border-radius:5px; }
+.meetings-calendar .fc .fc-daygrid-event { white-space:nowrap; align-items:baseline; overflow:hidden; }
+.meetings-calendar .fc .fc-event-title { font-size:12px; font-weight:700; }
+.meetings-calendar .fc .fc-daygrid-event-dot { border-color:var(--fc-event-border-color); }
+.meetings-calendar .fc .fc-daygrid-dot-event { color:var(--text-color); }
+.meetings-calendar .fc .fc-list-event-dot { margin:0; }
+.meetings-calendar .fc .fc-list-day-cushion { background:var(--community-surface); padding:12px; }
+.meetings-calendar .fc .fc-list-event td { padding:12px; }
+.meetings-calendar .fc .fc-list-event-title { font-size:14px; color:var(--text-color); }
+.meetings-calendar .fc .fc-popover { background:var(--white); border-color:var(--community-line); color:var(--text-color); z-index:20; }
+.meetings-calendar-footer { display:flex; gap:18px; flex-wrap:wrap; justify-content:space-between; border-top:1px solid var(--community-line); padding-top:22px; margin-top:24px; }
+.meetings-calendar-footer a { font-size:13px; font-weight:800; text-decoration:none; }
+.meetings-help { max-width:820px; }
+.meetings-help-section { padding:24px 0 32px; border-top:1px solid var(--community-line); }
+.meetings-hub .meetings-help-section h2 { font-family:inherit; font-size:22px; text-transform:none; }
+.meetings-calendar .fc .fc-daygrid-event .fc-event-title { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.meetings-calendar .fc .fc-daygrid-day-frame { min-height:145px; }
+.meeting-dialog { width:min(650px,calc(100% - 32px)); max-height:85vh; padding:30px; border:1px solid var(--community-line); border-radius:22px; background:var(--white); color:var(--text-color); box-shadow:0 20px 80px #0003; }
+.meeting-dialog::backdrop { background:#001e18a8; }
+.meeting-dialog__header { display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.community-hub .meeting-dialog__header p { margin:0; }
+.meeting-dialog__close { padding:3px 10px; font:inherit; font-size:27px; background:none; color:var(--text-color); cursor:pointer; border:0; border-radius:8px; }
+.meetings-hub .meeting-dialog h2 { font-family:inherit; text-transform:none; font-size:27px; margin-top:20px; }
+.meeting-dialog__description { white-space:pre-wrap; overflow-wrap:anywhere; font-size:14px; line-height:1.65; margin:20px 0 28px; max-height:35vh; overflow:auto; }
+@media(max-width:1000px) { .meetings-calendar .fc .fc-toolbar { flex-wrap:wrap; gap:14px; } .meetings-calendar .fc .fc-toolbar-title { font-size:21px; } }
+@media(max-width:700px) { .meetings-intro { padding-top:32px; } .meetings-calendar { padding:18px 12px; border-radius:16px; } .meetings-help { grid-template-columns:minmax(0,1fr); gap:0; } .meetings-controls { padding:0 6px; } .meetings-timezone { width:100%; } .meetings-calendar .fc .fc-toolbar { justify-content:space-between; } .meetings-calendar .fc .fc-toolbar-chunk:nth-child(2) { width:100%; order:-1; text-align:center; } .meeting-dialog { padding:22px; } }
+.meetings-calendar .fc div { width:auto; max-width:none; }
+.meetings-calendar .fc a { overflow-wrap:normal; word-break:normal; hyphens:none; }
+.meetings-calendar .fc .fc-toolbar-chunk { display:flex; align-items:center; gap:10px; }
+.meetings-calendar .fc .fc-button-group { display:inline-flex; width:auto; }
+.meetings-calendar .fc .fc-daygrid-event-dot { flex:0 0 auto; width:0; height:0; margin:0 4px; padding:0; }
+.meetings-calendar .fc .fc-event-time { flex-shrink:0; }
+.meetings-calendar .fc .fc-event-title { min-width:0; }
+@media(max-width:700px) { .meetings-calendar .fc .fc-toolbar-chunk:nth-child(2) { width:100%; justify-content:center; } }

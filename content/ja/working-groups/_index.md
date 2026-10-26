@@ -24,7 +24,7 @@ TODO Group のワーキンググループは、OSPO の具体的な課題に実�
   gh_url="https://github.com/todogroup/ospology/tree/main/whitepapers/business-value" gh_text="ospology/whitepapers/business-value"
   mail_url="https://lists.todogroup.org/g/WG-oss-in-business" mail_text="メーリングリスト"
   slack_text="#wg-oss-in-business"
-  cal_text="隔週ミーティング" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="隔週ミーティング" cal_url="https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week"
 >}}
 {{< wg-card
   title="CHAOSS OSPO Metrics ワーキンググループ"
@@ -32,7 +32,7 @@ TODO Group のワーキンググループは、OSPO の具体的な課題に実�
   desc="OSPO の健全性、貢献、インパクトを理解するための指標とモデルを開発します。"
   gh_url="https://github.com/chaoss/wg-ospo" gh_text="chaoss/wg-ospo"
   slack_text="#wg-ospometrics-chaoss"
-  cal_text="隔週ミーティング" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="隔週ミーティング" cal_url="https://www.chaoss.community/chaoss-calendar/"
 >}}
 {{< wg-card
   title="OSPO を支える Agentic AI ワーキンググループ"
@@ -40,7 +40,7 @@ TODO Group のワーキンググループは、OSPO の具体的な課題に実�
   desc="AI エージェントが OSPO の運営、ツール、ガバナンスを支援する実践的な方法を探ります。"
   gh_url="https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai" gh_text="working-groups/wg-agentic-ai"
   slack_text="#wg-agentic-ai-ospo"
-  cal_text="隔週ミーティング" cal_url="https://calendar.google.com/calendar/embed?src=c_cpd890ckcd8lgtqak65o6413ts%40group.calendar.google.com"
+  cal_text="隔週ミーティング" cal_url="https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week"
 >}}
 
 {{< /wg-grid >}}

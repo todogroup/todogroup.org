@@ -17,3 +17,4 @@ OSPO の基礎、ガバナンス、コンプライアンス、コミュニティ
 - **リポジトリ**: [ospology/ospo-book](https://github.com/todogroup/ospology/tree/main/ospo-book)
 - **メーリングリスト**: [WG-ospo-book-project](https://lists.todogroup.org/g/WG-ospo-book-project)
 - **Slack**: `#project-ospobook`：[TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
+- **ミーティング**: [コミュニティカレンダー](/ja/community/meetings/)

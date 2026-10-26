@@ -9,7 +9,8 @@
     "dev": "npm run dev:start",
     "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
     "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
-    "dev:build": "hugo --theme=dot-org-hugo-theme"
+    "dev:build": "hugo --theme=dot-org-hugo-theme",
+    "test:calendar": "node --test tests/community-calendar.test.cjs tests/calendar-apps-script.test.cjs"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "hugo-extended": "^0.126.0",
+    "ical.js": "2.2.1",
     "postcss": "^8.5.25",
     "postcss-cli": "^11"
   },

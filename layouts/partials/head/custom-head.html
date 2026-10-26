@@ -72,3 +72,22 @@
 {{ $associateScript := resources.Get "js/associate-organizations.js" | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $associateScript.RelPermalink }}" integrity="{{ $associateScript.Data.Integrity }}"></script>
 {{ end }}
+
+{{ if or (.HasShortcode "about-hub") (.HasShortcode "jobs-hub") (.HasShortcode "get-started-hub") (.HasShortcode "meetings-hub") }}
+{{ $communityStyle := resources.Get "css/community-pages.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $communityStyle.RelPermalink }}" integrity="{{ $communityStyle.Data.Integrity }}">
+{{ end }}
+{{ if .HasShortcode "jobs-hub" }}
+{{ $jobsScript := resources.Get "js/jobs-hub.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $jobsScript.RelPermalink }}" integrity="{{ $jobsScript.Data.Integrity }}"></script>
+{{ end }}
+
+{{ if .HasShortcode "meetings-hub" }}
+{{ $meetingsStyle := resources.Get "css/meetings-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $meetingsStyle.RelPermalink }}" integrity="{{ $meetingsStyle.Data.Integrity }}">
+<script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js" integrity="sha384-LjuMvep2w70bTtVscyL+xkqhYr7Y0kTM4t5cwWMy0xOTfl5duHb7MnP6K3J3/4Mk" crossorigin="anonymous"></script>
+{{ $meetingParser := resources.Get "js/meeting-events.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $meetingParser.RelPermalink }}" integrity="{{ $meetingParser.Data.Integrity }}"></script>
+{{ $meetingsScript := resources.Get "js/meetings-hub.js" | resources.Minify | resources.Fingerprint }}
+<script type="module" src="{{ $meetingsScript.RelPermalink }}" integrity="{{ $meetingsScript.Data.Integrity }}"></script>
+{{ end }}

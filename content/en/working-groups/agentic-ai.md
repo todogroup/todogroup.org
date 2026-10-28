@@ -1,22 +1,8 @@
 ---
-title: Agentic AI to empower OSPOs Working Group
+title: Agentic AI to empower OSPOs
 url: /working-groups/agentic-ai/
+showHeader: false
+description: Meet the practitioners sharing AI-assisted OSPO workflows, governance approaches, and reusable tools in the TODO Group community.
 ---
 
-
-{{< intro >}}
-The Agentic AI to empower OSPOs Working Group explores how AI agents and large language models can support OSPO operations
-{{< /intro >}}
-
-## What we work on
-
-The group surfaces practical use cases, evaluates emerging tooling, and develops shared patterns for safely and responsibly deploying AI agents inside OSPOs and across open source projects. Conversations span automation workflows, governance and licensing implications, and the open source AI ecosystem itself.
-
-## Get involved
-
-- **Repository**: [working-groups/wg-agentic-ai](https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai)
-- **Slack**: `#wg-ai-agents` in the [TODO Group Slack](https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w)
-- **Bi-weekly call**: [TODO Group Community Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week)
-
-
-Meet the [working group chairs and steering committee liaisons](/about/working-group-chairs/#agentic-ai).
+{{< agentic-ai >}}

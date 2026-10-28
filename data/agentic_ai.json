@@ -1,0 +1,341 @@
+{
+  "people": [
+    {
+      "id": "david",
+      "name": "David Lippert",
+      "org": "George Washington University OSPO",
+      "initials": "DL",
+      "topic": "How GW OSPO Uses SKILL.md and AI",
+      "session": "gw-skills",
+      "profile": "https://www.linkedin.com/in/david-lippert-357476240/",
+      "photo": "/img/agentic-ai/david-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/C4D03AQF8_5A-fUj0WQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1653853199932?e=1795046400&v=beta&t=atkcRcAKaznNEBB4QSmJxfk8DlSXrAvKED3acooHYvA"
+    },
+    {
+      "id": "diego",
+      "name": "Diego Mastroianni",
+      "org": "Cloudera",
+      "initials": "DM",
+      "photo": "/img/working-group-chairs/diegomastroianni.jpg",
+      "topic": "Building an Open Source Hub with AI Coding Tools",
+      "session": "portfolio-hub",
+      "profile": "https://www.linkedin.com/in/diegomastroianni/"
+    },
+    {
+      "id": "angie",
+      "name": "Angie Jones",
+      "org": "Agentic AI Foundation, formerly Block",
+      "initials": "AJ",
+      "topic": "Maintaining Projects in the Age of AI Contributors",
+      "session": "goose",
+      "profile": "https://www.linkedin.com/posts/todo-group_openfab-activity-7479929271126396928-DL9Q",
+      "photo": "/img/agentic-ai/angie-jones.jpg"
+    },
+    {
+      "id": "remy",
+      "name": "Remy DeCausemaker",
+      "org": "Centers for Medicare & Medicaid Services, U.S. federal agency",
+      "initials": "RD",
+      "topic": "AI-assisted metadata and AI governance",
+      "session": "cms",
+      "profile": "https://www.linkedin.com/in/decause/",
+      "photo": "/img/agentic-ai/remy-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQFgpcJvFeHkcw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1576084673660?e=1795046400&v=beta&t=bomZXoZmbLpPcsQ0YvrB_piaYFb8t1SsAMgRBKi0UMY"
+    },
+    {
+      "id": "chris",
+      "name": "Chris Xie",
+      "org": "Futurewei",
+      "initials": "CX",
+      "topic": "Provenance for AI-assisted software",
+      "session": "openfab",
+      "profile": "https://www.linkedin.com/in/chrisxie-us/",
+      "photo": "/img/agentic-ai/chris-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQGmKKxk0dWxrQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516174663327?e=1795046400&v=beta&t=9SyOIyVOEUCsJydcHgpmgJ9QxQ7Wj81L0rDyX2mzDLk"
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia Luzuriaga",
+      "org": "Centers for Medicare & Medicaid Services, U.S. federal agency",
+      "initials": "NL",
+      "topic": "AI governance and developer guidance",
+      "session": "cms",
+      "profile": "https://www.linkedin.com/in/natalialuzuriaga/",
+      "photo": "/img/agentic-ai/natalia-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/D4E03AQHboD1l2B4MIA/profile-displayphoto-shrink_100_100/B4EZOGL2_9GQAU-/0/1733123076910?e=1795046400&v=beta&t=IVdWe20KonOCzHNAQB8c8PJBsDs4XdvKtYEbmP372eE"
+    },
+    {
+      "id": "sachin",
+      "name": "Sachin Panayil",
+      "org": "Centers for Medicare & Medicaid Services, U.S. federal agency",
+      "initials": "SP",
+      "topic": "Software metadata and repository tooling",
+      "session": "cms",
+      "profile": "https://www.linkedin.com/in/sachin-panayil/",
+      "photo": "/img/agentic-ai/sachin-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/D4D03AQHPeNEHR14o9w/profile-displayphoto-scale_100_100/B4DaAA6iQgKQAY-/0/1786721743750?e=1795046400&v=beta&t=KRAx8DebMqBicJow1W7A-lgs0Im_8FStixEG7KRU57E"
+    },
+    {
+      "id": "stephen",
+      "name": "Stephen Augustus",
+      "org": "Bloomberg",
+      "initials": "SA",
+      "topic": "Agentic security and compliance",
+      "session": "security",
+      "photo": "/img/working-group-chairs/stephenaugustus.jpg",
+      "profile": "https://www.linkedin.com/in/stephenaugustus/"
+    },
+    {
+      "id": "mike",
+      "name": "Mike Lieberman",
+      "org": "Kusari",
+      "initials": "ML",
+      "topic": "Agentic security and compliance",
+      "session": "security",
+      "profile": "https://www.linkedin.com/in/michael-lieberman-65786ba/",
+      "photo": "/img/agentic-ai/mike-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/D4E03AQFlKARmJ27Yyw/profile-displayphoto-shrink_100_100/B4EZYL5WGZHUAc-/0/1743956305739?e=1795046400&v=beta&t=F63YQWP3LHo22ilIIaFXQlsoKieOuntHpIMfBjmF-Ts"
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar Valenzuela",
+      "org": "",
+      "initials": "OV",
+      "topic": "Agentic SCA with GitHub Actions",
+      "session": "sca",
+      "profile": "https://www.linkedin.com/in/oscarvalenzuelab/",
+      "photo": "/img/agentic-ai/oscar-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/D5603AQFBGBmXCdpAfg/profile-displayphoto-shrink_100_100/B56ZcIvSp2GoAU-/0/1748198304627?e=1795046400&v=beta&t=mDTxuaUi-zAY8r1lv0jNzN6fkmbhYFjRKYyG1mBukN8"
+    }
+  ],
+  "cases": [
+    {
+      "id": "gw-skills",
+      "title": "How GW OSPO Uses SKILL.md and AI",
+      "date": "2026-10-27",
+      "dateLabel": "27 October 2026",
+      "presenter": "David Lippert",
+      "org": "George Washington University OSPO",
+      "tags": ["workflows"],
+      "tools": "SKILL.md · Quarto · AI design review",
+      "description": "Brand guidance, design review, and presentation skills help the OSPO create and check communications while keeping people in control.",
+      "output": "Three public skill repositories and an editable presentation source.",
+      "image": "/img/agentic-ai/gw-review-report.png",
+      "alt": "Design review report shared in David Lippert’s GW OSPO presentation",
+      "caption": "Shared presentation image · David Lippert / GW OSPO · CC BY 4.0",
+      "resource": "https://github.com/gw-ospo/gw-design-review",
+      "resourceLabel": "Explore the review skill",
+      "extra": "https://gw-ospo.github.io/todo-ai-agent-presentation/",
+      "extraLabel": "View the slides",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-october-27",
+      "projects": [
+        {
+          "name": "SKILL.md",
+          "url": "https://github.com/gw-ospo/gw-design-review/blob/main/.claude/skills/gw-design-review/SKILL.md"
+        },
+        {
+          "name": "Quarto",
+          "url": "https://github.com/gw-ospo/todo-ai-agent-presentation"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-hub",
+      "title": "Building an Open Source Hub with AI Coding Tools",
+      "date": "2026-09-29",
+      "dateLabel": "29 September 2026",
+      "presenter": "Diego Mastroianni",
+      "org": "Cloudera",
+      "tags": ["workflows"],
+      "tools": "Cursor agents · Composer · Markdown",
+      "description": "A portfolio mapper grew into an internal hub connecting open source projects, contributors, and events. The initial MVP followed months of problem discovery.",
+      "output": "A public strategy-mapping prototype; the broader hub remains internal.",
+      "image": "/img/agentic-ai/portfolio-mapper.png",
+      "alt": "Open source portfolio strategy matrix from the September 29 show-and-tell",
+      "caption": "Screenshot shared in the meeting notes · all demo names and affiliations are fictitious",
+      "resource": "https://oss-portfolio-strategy-mapper-877710891143.us-west1.run.app/",
+      "resourceLabel": "Explore the prototype",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-september-29",
+      "projects": [
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/"
+        }
+      ]
+    },
+    {
+      "id": "cms",
+      "title": "AI governance and software metadata at a U.S. federal agency",
+      "date": "2026-09-15",
+      "dateLabel": "15 September 2026",
+      "presenter": "Natalia Luzuriaga, Remy DeCausemaker & Sachin Panayil",
+      "org": "Centers for Medicare & Medicaid Services, U.S. federal agency",
+      "tags": ["workflows", "governance"],
+      "tools": "WebLLM · Llama 3.2 1B · code.json",
+      "description": "Repository data and browser-based AI help maintainers draft software metadata. The session also explored how OSPO guidance supports wider AI governance.",
+      "output": "A demonstrated metadata workflow and public AI governance resources.",
+      "visual": "metadata",
+      "resource": "https://dsacms.github.io/ospo-guide/outbound/ai/",
+      "resourceLabel": "Read the CMS AI guide",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-september-15",
+      "projects": [
+        {
+          "name": "Code.json Generator",
+          "url": "https://github.com/DSACMS/codejson-generator"
+        },
+        {
+          "name": "CMS Code.gov",
+          "url": "https://github.com/DSACMS/code-gov"
+        }
+      ],
+      "image": "/img/agentic-ai/cms-playbook-cover.png",
+      "alt": "Original cover of the CMS Artificial Intelligence Playbook, Version 4",
+      "caption": "CMS Artificial Intelligence Playbook · original PDF cover",
+      "imageSource": "https://si.cms.gov/CMS-AI-Playbook.pdf"
+    },
+    {
+      "id": "security",
+      "title": "Agentic Open Source Security and Compliance with MCP and Darnit",
+      "date": "2026-09-01",
+      "dateLabel": "1 September 2026",
+      "presenter": "Stephen Augustus & Mike Lieberman",
+      "org": "Bloomberg, Kusari",
+      "tags": ["workflows"],
+      "tools": "OpenSSF Scorecard · MCP · Darnit",
+      "description": "Two complementary tools expose security signals and structured compliance evidence so agents can help people investigate findings and plan remediation.",
+      "output": "Public repositories for an experimental MCP server and a compliance-audit framework.",
+      "visual": "evidence",
+      "resource": "https://github.com/uwu-tools/scorecard-mcp",
+      "resourceLabel": "Explore Scorecard MCP",
+      "extra": "https://github.com/darnitdevorg/darnit",
+      "extraLabel": "Explore Darnit",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-september-1",
+      "projects": [
+        {
+          "name": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard"
+        },
+        {
+          "name": "Scorecard MCP",
+          "url": "https://github.com/uwu-tools/scorecard-mcp"
+        },
+        {
+          "name": "Darnit",
+          "url": "https://github.com/darnitdevorg/darnit"
+        }
+      ],
+      "image": "/img/agentic-ai/scorecard-repository.jpg",
+      "alt": "Original public Scorecard MCP repository on GitHub",
+      "caption": "Scorecard MCP · original GitHub repository",
+      "imageSource": "https://github.com/uwu-tools/scorecard-mcp"
+    },
+    {
+      "id": "sca",
+      "title": "From dependency signals to a reviewable action",
+      "date": "2026-07-21",
+      "dateLabel": "21 July 2026",
+      "presenter": "Oscar Valenzuela",
+      "org": "",
+      "tags": ["workflows"],
+      "tools": "GitHub Actions · SCA · AI agents",
+      "description": "An experimental workflow brings licensing, security, and project-health signals together into compliance artifacts and proposed actions for a human reviewer.",
+      "output": "A shared slide deck describing the workflow and its review boundaries.",
+      "visual": "pipeline",
+      "resource": "https://ovalenzuela.com/agentic-ai-github-actions/slides.html",
+      "resourceLabel": "View the slides",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-july-21",
+      "projects": [
+        {
+          "name": "GitHub Actions",
+          "url": "https://github.com/oscarvalenzuelab/agentic-ai-github-actions"
+        },
+        {
+          "name": "OSPAC",
+          "url": "https://github.com/SemClone/ospac"
+        },
+        {
+          "name": "ai-finder",
+          "url": "https://pypi.org/project/ai-finder/"
+        },
+        {
+          "name": "OpenSSF Scorecard",
+          "url": "https://github.com/ossf/scorecard"
+        },
+        {
+          "name": "GitHub Dependency Graph",
+          "url": "https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph"
+        },
+        {
+          "name": "OSV.dev",
+          "url": "https://osv.dev/"
+        },
+        {
+          "name": "GitHub Models",
+          "url": "https://docs.github.com/en/github-models"
+        },
+        {
+          "name": "GitHub Agentic Workflows",
+          "url": "https://github.github.com/gh-aw/"
+        }
+      ],
+      "image": "/img/agentic-ai/oscar-tools-slide.jpg",
+      "alt": "Oscar Valenzuela’s tools and data sources slide for agentic software supply chain analysis",
+      "caption": "Oscar Valenzuela · Agentic AI GitHub Actions · slide 5",
+      "imageSource": "https://ovalenzuela.com/agentic-ai-github-actions/slides.html#/4"
+    },
+    {
+      "id": "goose",
+      "title": "Maintaining Projects in the Age of AI Contributors",
+      "date": "2026-07-07",
+      "dateLabel": "7 July 2026",
+      "presenter": "Angie Jones",
+      "org": "Agentic AI Foundation, formerly Block",
+      "tags": ["governance"],
+      "tools": "Goose · contribution guidance · AI review",
+      "description": "The Goose example explores clearer contribution expectations, repositories that agents can navigate, and AI-assisted review to support maintainers.",
+      "output": "Practical contribution and review patterns captured in the public session notes.",
+      "visual": "maintainers",
+      "resource": "https://github.com/aaif-goose/goose",
+      "resourceLabel": "Explore Goose",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-july-7",
+      "projects": [
+        {
+          "name": "Goose",
+          "url": "https://github.com/aaif-goose/goose"
+        }
+      ],
+      "image": "/img/agentic-ai/angie-open-source.png",
+      "alt": "Featured image from Angie Jones’s article Stop Closing the Door. Fix the House.",
+      "caption": "Angie Jones · Stop Closing the Door. Fix the House.",
+      "imageSource": "https://angiejones.tech/stop-closing-the-door-fix-the-house/"
+    },
+    {
+      "id": "openfab",
+      "title": "Keep provenance with AI-assisted software",
+      "date": "2026-06-30",
+      "dateLabel": "30 June 2026",
+      "presenter": "Chris Xie",
+      "org": "Futurewei",
+      "tags": ["governance"],
+      "tools": "OpenFab · attestations · AI-BOM",
+      "description": "An experimental approach connects AI-assisted contributions with signed provenance, approval evidence, and reproducibility checks that travel with the artifact.",
+      "output": "A public presentation and a community article exploring verifiable provenance.",
+      "visual": "provenance",
+      "resource": "https://github.com/Open-fab-ai/community/blob/main/presentations/2026-06-30-todo-group-agentic-ai/OpenFab_TODO_WG_June30.pdf",
+      "resourceLabel": "View the slides",
+      "extra": "/blog/2026-07-14-verifiable-provenance-ai-assisted-contributions/",
+      "extraLabel": "Read the community article",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-june-30",
+      "projects": [
+        {
+          "name": "OpenFab",
+          "url": "https://open-fab.ai/"
+        }
+      ],
+      "image": "/img/agentic-ai/openfab-ui.png",
+      "alt": "OpenFab interface showing its software workflow and provenance",
+      "caption": "OpenFab · public project interface",
+      "imageSource": "https://open-fab.ai/"
+    }
+  ]
+}

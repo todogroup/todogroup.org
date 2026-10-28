@@ -96,3 +96,8 @@
 {{ $meetingsScript := resources.Get "js/meetings-hub.js" | resources.Minify | resources.Fingerprint }}
 <script type="module" src="{{ $meetingsScript.RelPermalink }}" integrity="{{ $meetingsScript.Data.Integrity }}"></script>
 {{ end }}
+
+{{ if .HasShortcode "agentic-ai" }}
+{{ $agentic := resources.Get "css/agentic-ai.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $agentic.RelPermalink }}" integrity="{{ $agentic.Data.Integrity }}">
+{{ end }}

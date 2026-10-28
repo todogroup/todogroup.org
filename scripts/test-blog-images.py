@@ -54,7 +54,7 @@ def check():
                 shutil.copyfile(ROOT / "assets/blog/background.png", folder / "cover.png")
         # Per-language contentDir overrides the site's contentDir, so override all.
         config = tmp / "content.json"
-        config.write_text(json.dumps({"languages": {lang: {"contentDir": str(content / folder)} for lang, folder in [("en", "en"), ("ja", "ja"), ("zh-cn", "zh-cn")]}}))
+        config.write_text(json.dumps({"privacy": {"twitter": {"disable": True}}, "languages": {lang: {"contentDir": str(content / folder)} for lang, folder in [("en", "en"), ("ja", "ja"), ("zh-cn", "zh-cn")]}}))
         dest = tmp / "public"
         subprocess.run([os.environ.get("HUGO", "hugo"), "--config", str(ROOT / "config/_default/hugo.yaml") + "," + str(config), "--configDir", str(ROOT / "config"), "--destination", str(dest), "--cacheDir", str(tmp / "cache"), "--baseURL", "https://preview.example/", "--buildDrafts", "--buildFuture"], cwd=ROOT, check=True)
         for name in cases:
@@ -76,9 +76,19 @@ def check():
         nominations = Page(dest / "blog/2026-09-11-sc-nominations-2027/index.html")
         assert nominations.meta["og:image"] == [nominations.images[0]["src"]]
         home = Page(dest / "index.html")
-        assert home.meta["og:image"] == ["https://preview.example/img/todo-social-share.png"]
-        assert not home.images
-        print("PASS: eight image cases, nominations banner, and unchanged home social image")
+        assert home.meta["og:image"] == ["https://preview.example/img/todo-social-share-v2.jpg"]
+        assert home.meta["twitter:image"] == home.meta["og:image"]
+        for slug in ("agentic-ai", "oss-in-business", "chaoss-ospo-metrics", "ospo-book"):
+            wg = Page(dest / "working-groups" / slug / "index.html")
+            assert len(wg.meta["og:image"]) == 1, slug
+            assert wg.meta["twitter:image"] == wg.meta["og:image"], slug
+            assert wg.meta["twitter:card"] == ["summary_large_image"], slug
+            assert wg.meta["og:image:width"] == ["1200"], slug
+            assert wg.meta["og:image:height"] == ["630"], slug
+            target = dest / urlsplit(wg.meta["og:image"][0]).path.lstrip("/")
+            assert target.is_file(), slug
+            assert wg.meta["og:image"] != home.meta["og:image"], slug
+        print("PASS: eight blog image cases, nominations banner, new default card, and four WG cards")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,8 @@
     {{- partial "head/css.html" . }}
     {{- if and .IsPage (eq .Section "blog") }}
     {{- partial "blog/social.html" . }}
+    {{- else if and .IsPage (eq .Section "working-groups") }}
+    {{- partial "social/working-group.html" . }}
     {{- else }}
     {{- template "_internal/opengraph.html" . -}}
     {{- partial "head/twitter-cards.html" . }}

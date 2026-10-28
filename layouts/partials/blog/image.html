@@ -18,15 +18,22 @@
   {{- range slice 64 56 48 40 32 24 16 -}}
     {{- $size = . -}}
     {{- $lines = partial "blog/title-lines.html" (dict "title" $title "size" $size) -}}
-    {{- if le (mul (len $lines) (mul $size 1.5)) 330 -}}{{- break -}}{{- end -}}
+    {{- if le (mul (len $lines) (mul $size 1.15)) 280 -}}{{- break -}}{{- end -}}
   {{- end -}}
-  {{- $banner := resources.Get "blog/background.png" -}}
-  {{- $banner = $banner.Filter (images.Overlay (resources.Get "blog/logo.png") 64 48) -}}
+  {{- $banner := resources.Get "social/blog-background.jpg" -}}
   {{- $font := resources.Get "blog/oswald-bold.ttf" -}}
   {{- range $i, $line := $lines -}}
-    {{- $y := add 220 (mul $i (mul $size 1.5)) | int -}}
-    {{- $banner = $banner.Filter (images.Text $line (dict "font" $font "size" $size "color" "#ffffff" "x" 64 "y" $y)) -}}
+    {{- $y := add 168 (mul $i (mul $size 1.15)) | int -}}
+    {{- $color := cond (eq $i 0) "#ffffff" "#b7df80" -}}
+    {{- $banner = $banner.Filter (images.Text $line (dict "font" $font "size" $size "color" $color "x" 64 "y" $y)) -}}
   {{- end -}}
+  {{- $author := .Params.author | default "TODO Group" -}}
+  {{- with index site.Data.authors $author -}}
+    {{- $author = .name -}}
+    {{- with .company -}}{{- $author = printf "%s / %s" $author . -}}{{- end -}}
+  {{- end -}}
+  {{- $authorY := add 198 (mul (len $lines) (mul $size 1.15)) | int -}}
+  {{- $banner = $banner.Filter (images.Text (printf "%s" ($author | truncate 80)) (dict "size" 22 "color" "#e0eddf" "x" 64 "y" $authorY)) -}}
   {{- $image = dict "url" $banner.Permalink "alt" $title "width" 1200 "height" 630 -}}
 {{- end -}}
 {{- return $image -}}

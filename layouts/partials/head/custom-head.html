@@ -13,7 +13,7 @@
 
 {{ if eq .Section "blog" }}
 <style>
-  .blog-featured-image { display: block; width: 100%; height: auto; margin: 1.5rem 0; border-radius: 12px; }
+  .blog-featured-image, .content > .blog-featured-image { display: block; width: 100%; max-width: var(--content-width, 895px); height: auto; margin: 1.5rem 0 2.5rem; border-radius: 12px; }
   .blog-item .blog-featured-image { max-width: 600px; }
 </style>
 {{ end }}

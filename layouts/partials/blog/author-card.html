@@ -9,16 +9,26 @@
   
     New OPTIONAL keys per author in data/authors.yaml: `role`, `image`.
     Existing entries (name / twitter / company) need no changes.
+
+    Co-authors: add an optional `coauthors` list in the post front matter
+    (keys from data/authors.yaml). Each known key gets its own card, shown
+    after the main `author`. The date appears once, on the first card.
   */}}
   {{- $date := .Date.Format "January 2, 2006" }}
   {{- $allAuthors := .Site.Data.authors }}
-  {{- $authorKey := .Params.author }}
-  {{- $authorData := "" }}
-  {{- if and $allAuthors $authorKey }}
-    {{- $authorData = index $allAuthors $authorKey }}
+  {{- $keys := slice }}
+  {{- with .Params.author }}{{ $keys = $keys | append . }}{{ end }}
+  {{- with .Params.coauthors }}{{ $keys = $keys | append . }}{{ end }}
+  {{- $cards := slice }}
+  {{- if $allAuthors }}
+    {{- range $keys }}
+      {{- with index $allAuthors . }}{{ $cards = $cards | append . }}{{ end }}
+    {{- end }}
   {{- end }}
-  
-  {{- if $authorData }}
+
+  {{- if $cards }}
+  <div class="author-cards">
+    {{- range $i, $authorData := $cards }}
     {{- /* Initials for the no-photo fallback, e.g. "Ibrahim Haddad" -> "IH" */}}
     {{- $initials := "" }}
     {{- range first 2 (split (trim $authorData.name " ") " ") }}
@@ -41,7 +51,7 @@
       <div class="author-card__meta">
         <p class="author-card__name">
           {{ if $authorData.twitter -}}
-            
+            <a
               href="https://www.twitter.com/{{ $authorData.twitter }}"
               title="Visit {{ $authorData.name }} on Twitter"
             >{{ $authorData.name }}</a>
@@ -51,16 +61,30 @@
         </p>
         {{- $roleParts := slice }}
         {{- with $authorData.role }}{{ $roleParts = $roleParts | append . }}{{ end }}
-        {{- with $authorData.company }}{{ $roleParts = $roleParts | append . }}{{ end }}
+        {{- with $authorData.company }}{{ if ne . $authorData.name }}{{ $roleParts = $roleParts | append . }}{{ end }}{{ end }}
         {{- with delimit $roleParts ", " }}
         <p class="author-card__role">{{ . }}</p>
         {{- end }}
-        {{- with $date }}
+        {{- if eq $i 0 }}{{ with $date }}
         <p class="author-card__date">{{ . }}</p>
-        {{- end }}
+        {{- end }}{{ end }}
       </div>
     </div>
+    {{- end }}
+  </div>
     <style>
+        .author-cards.author-cards {
+          max-width: var(--content-width, 895px);
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.75rem 1rem;
+          margin: 0.5rem 0 2rem;
+        }
+        .author-cards .author-card {
+          flex: 1 1 18rem;
+          width: auto;
+          margin: 0;
+        }
         .author-card {
           display: flex;
           align-items: center;

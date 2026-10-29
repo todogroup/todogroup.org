@@ -54,3 +54,6 @@ html[data-theme="dark"] .events-hub :is(.events-story__meta,.events-hero__photo 
 html[data-theme="dark"] .events-hub .events-button:hover { background:#bcebdc; color:#10291e; }
 
 html[data-theme="dark"] .amb-people .amb-social img { filter:brightness(0) invert(1); opacity:.85; }
+html[data-theme="dark"] table { border-color:#344a3e; }
+html[data-theme="dark"] table th { background:#20352a; color:#e1eae5; }
+html[data-theme="dark"] table :is(td,th) { border-color:#344a3e; }

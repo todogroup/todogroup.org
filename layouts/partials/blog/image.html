@@ -30,10 +30,15 @@
   {{- $author := .Params.author | default "TODO Group" -}}
   {{- with index site.Data.authors $author -}}
     {{- $author = .name -}}
-    {{- with .company -}}{{- $author = printf "%s / %s" $author . -}}{{- end -}}
+    {{- with .company -}}{{- if ne . $author -}}{{- $author = printf "%s / %s" $author . -}}{{- end -}}{{- end -}}
+  {{- end -}}
+  {{- range .Params.coauthors -}}
+    {{- $co := . -}}
+    {{- with index site.Data.authors . -}}{{- $co = .name -}}{{- end -}}
+    {{- $author = printf "%s & %s" $author $co -}}
   {{- end -}}
   {{- $authorY := add 198 (mul (len $lines) (mul $size 1.15)) | int -}}
-  {{- $banner = $banner.Filter (images.Text (printf "%s" ($author | truncate 80)) (dict "size" 22 "color" "#e0eddf" "x" 64 "y" $authorY)) -}}
+  {{- $banner = $banner.Filter (images.Text (printf "%s" ($author | truncate 80 | htmlUnescape)) (dict "size" 22 "color" "#e0eddf" "x" 64 "y" $authorY)) -}}
   {{- $image = dict "url" $banner.Permalink "alt" $title "width" 1200 "height" 630 -}}
 {{- end -}}
 {{- return $image -}}

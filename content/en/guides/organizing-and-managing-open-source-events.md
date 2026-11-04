@@ -304,6 +304,8 @@ Just keep in mind that you may need more than a presenter, particularly for virt
 
  
 
+For a virtual or hybrid session, ask a moderator to join the rehearsal through the same link as remote attendees. Have the speaker point out two details on a shared slide, then ask the moderator to identify each detail from the attendee view. If a cue does not come through, label the detail on the slide or name it aloud and check again. The free [Hybrid Pointing Rehearsal Record](https://light-tracer.com/wp-content/uploads/2026/10/hybrid-pointing-rehearsal-record-open-v1.pdf) is an optional worksheet for recording what changed between checks.
+
 **Choosing platforms**
 
  

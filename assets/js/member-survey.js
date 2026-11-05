@@ -2,7 +2,6 @@
   const form = document.querySelector('form.survey-form');
   if (!form) return;
 
-  // Show the "Please specify" field only when "Other" is selected.
   const syncOther = (input) => {
     const wrap = document.getElementById(`${input.dataset.other}-wrap`);
     if (!wrap) return;
@@ -10,7 +9,6 @@
     if (!input.checked) wrap.querySelector('input').value = '';
   };
 
-  // Dropdowns: show "Please specify" when "Other" is chosen.
   form.querySelectorAll('select[data-other]').forEach((select) => {
     const wrap = document.getElementById(`${select.dataset.other}-wrap`);
     const sync = () => {
@@ -27,14 +25,12 @@
     const limitNote = question.querySelector('.survey-limit');
 
     const update = (changed) => {
-      // "None of the above" / "Not yet" clear the other choices, and the reverse.
       if (changed && changed.type === 'checkbox' && changed.checked) {
         inputs.forEach((i) => {
           if (i === changed) return;
           if ('exclusive' in changed.dataset || 'exclusive' in i.dataset) i.checked = false;
         });
       }
-      // Enforce "Select up to N".
       if (max) {
         const count = inputs.filter((i) => i.checked).length;
         inputs.forEach((i) => { i.disabled = !i.checked && count >= max; });

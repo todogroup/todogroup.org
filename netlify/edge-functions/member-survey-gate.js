@@ -1,12 +1,3 @@
-// Password gate for the General Member Survey page.
-//
-// The password is NOT stored in this repository (the repo is public). Set it in
-// Netlify: Site configuration → Environment variables → SURVEY_PASSWORD
-// (scope: Functions). Changing the value signs everyone out.
-//
-// Flow: GET without a valid cookie → password page. POST with the right password
-// → cookie is set and the visitor is redirected to the survey. The survey form
-// itself posts to the thanks page, which is not gated, so Netlify Forms works.
 
 const PAGE_PATH = '/community/2026-member-survey/';
 const COOKIE = 'todo_member_survey';
@@ -79,7 +70,6 @@ function gatePage({ error = false } = {}) {
 export default async function handler(request, context) {
   const password = getPassword();
   if (!password) {
-    // Fail closed: never show the survey if the password is not configured.
     return new Response('The survey is not available yet.', {
       status: 503,
       headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' },

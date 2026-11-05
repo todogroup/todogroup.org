@@ -1,9 +1,4 @@
-# Questions for the 2026 TODO Group General Member Survey.
-# Rendered by layouts/shortcodes/member-survey.html and collected with Netlify Forms.
-# Keep each "name" stable across years so results can be compared.
-# Types: text, radio, checkbox (optional "max"), select (dropdown), scale (min/max with end labels),
-#        matrix (one 1–5 rating per row, plus a "did not take part" choice), textarea.
-# An option called "Other" adds a "Please specify" text field.
+# Questions for the 2026 TODO Group General Member Survey
 
 form_name: member-survey-2026
 
@@ -111,18 +106,17 @@ sections:
           - Academy Software Foundation (ASWF)
           - Automotive Grade Linux (AGL)
           - Cloud Native Computing Foundation (CNCF)
-          - Continuous Delivery Foundation (CDF)
+          - Continuous Delivery Foundation
           - DevRel Foundation
-          - ELISA (Enabling Linux in Safety Applications)
-          - FINOS (Fintech Open Source Foundation)
+          - ELISA
+          - FinOps Foundation
+          - FINOS
           - GraphQL Foundation
           - LF AI & Data
           - LF Decentralized Trust
           - LF Edge
           - LF Energy
           - LF Networking
-          - LF Public Health
-          - Linux kernel
           - Open Mainframe Project
           - Open Source Security Foundation (OpenSSF)
           - OpenChain
@@ -131,6 +125,7 @@ sections:
           - OpenWallet Foundation
           - Overture Maps Foundation
           - PyTorch Foundation
+          - Tokenomics Foundation
           - SPDX
           - Zephyr Project
           - None

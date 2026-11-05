@@ -14,20 +14,21 @@ Please read our [contributing guidelines](https://github.com/todogroup/todogroup
 
 This site is built using the [Hugo](https://gohugo.io) static site generator and hosted on [Netlify](https://netlify.com). The site uses the [Dot-Org Theme for Hugo](https://github.com/cncf/dot-org-hugo-theme) as a base and then has its own customisations.
 
- In order to build or locally develop the website, you'll need to install [Hugo](https://gohugo.io) and [node.js](https://nodejs.org/en).
+To build or locally develop the website, you need [git](https://git-scm.com) and [Node.js](https://nodejs.org/en) 22, the version Netlify uses in production.
 
- If you don't have them installed, you can install them via [brew.sh](https://brew.sh).
+You don't need to install Hugo yourself. `npm install` installs Hugo **extended** 0.126.x through the [`hugo-extended`](https://www.npmjs.com/package/hugo-extended) npm package, and the npm scripts use it.
+
+If you don't have Node.js installed, you can install it with [brew.sh](https://brew.sh) on macOS:
 
 ```bash
-# macOS
-brew install hugo node
+brew install node
 ```
 
-Then following these instructions:
+Then follow these instructions:
 
-1. Clone this repo to a local directory on your computer.
+1. Fork this repo, then clone your fork to a local directory on your computer.
 
-2. Navigate to the newly created directory, and pull in the theme:
+2. Go to the new directory and pull in the theme:
 
 ```bash
 git submodule update --init --recursive
@@ -39,23 +40,29 @@ git submodule update --init --recursive
 npm install
 ```
 
-4. Build the site:
-
-```bash
-npm run build
-```
-
-5. Start the local server with live reload:
+4. Start the local server with live reload:
 
 ```bash
 npm run start
 ```
 
+Then open http://localhost:1313. The local server also shows drafts and posts with a future date.
+
+To check a full build, run:
+
+```bash
+npm run build
+```
+
 ### Other npm commands for working with a local instance
 
-- `npm run dev:start` - Starts the local dev environment using exampleSite
-- `npm run dev:start:with-pagefind` - Starts the local dev environment using exampleSite with working pagefind search
-- `npm run dev:build` - Builds the site using exampleSite
+- `npm run dev:start` - Same as `npm run start`
+- `npm run dev:start:with-pagefind` - Builds the site and the Pagefind search index, then starts the local server, so site search works locally
+- `npm run dev:build` - Same as `npm run build`
+
+### Netlify builds
+
+Netlify builds production with `make production-build` and deploy previews with `make preview-build`. See `netlify.toml` and the `Makefile`. `make serve` is another way to start a local server, but it uses the Hugo installed on your system, not the one from npm.
 
 #### To run in docker
 

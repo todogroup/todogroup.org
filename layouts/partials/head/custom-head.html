@@ -18,9 +18,14 @@
 </style>
 {{ end }}
 
-{{ if .HasShortcode "steering-committee-application" }}
+{{ if or (.HasShortcode "steering-committee-application") (.HasShortcode "member-survey") }}
 {{ $formStyle := resources.Get "css/steering-committee-application.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $formStyle.RelPermalink }}" integrity="{{ $formStyle.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "member-survey" }}
+{{ $surveyStyle := resources.Get "css/member-survey.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $surveyStyle.RelPermalink }}" integrity="{{ $surveyStyle.Data.Integrity }}">
 {{ end }}
 
 {{ $navigation := resources.Get "scss/navigation.scss" | resources.ToCSS | resources.Fingerprint }}

@@ -1,0 +1,147 @@
+{{- /* Filterable list of OSPOlogy events (curated in data/ospology_events.json) and OCG events (data/ocg_events.json, refreshed with `npm run sync:events`). */ -}}
+{{- $events := slice -}}
+{{- with site.Data.ospology_events }}{{ $events = $events | append .events }}{{ end -}}
+{{- with site.Data.ocg_events }}{{ $events = $events | append .events }}{{ end -}}
+{{- $upcoming := slice -}}
+{{- $past := slice -}}
+{{- range sort $events "starts_at" -}}
+  {{- if lt (time .ends_at) now }}{{ $past = $past | append . }}{{ else }}{{ $upcoming = $upcoming | append . }}{{ end -}}
+{{- end -}}
+{{- $kinds := dict "in-person" (partial "localized-text.html" "In person") "hybrid" (partial "localized-text.html" "Hybrid") "online" (partial "localized-text.html" "Online") -}}
+{{- $ocg := "https://ocgroups.dev/todo" -}}
+{{- $countries := resources.FromString "data/world-countries.json" (index site.Data "ambassador-countries" | jsonify) | resources.Fingerprint -}}
+
+{{- define "partials/events-finder-card.html" -}}
+{{- $e := .event -}}
+{{- $past := .past -}}
+{{- $start := time $e.starts_at -}}
+{{- $link := $e.url -}}
+{{- if and $past $e.recap }}{{ $link = $e.recap }}{{ end -}}
+{{- if not (hasPrefix $link "http") }}{{ $link = partial "localized-url.html" $link }}{{ end -}}
+<li class="events-card{{ if $past }} events-card--past{{ end }}" data-event
+    data-tab="{{ $e.tab }}" data-kind="{{ $e.kind }}"
+    data-start="{{ $e.starts_at }}" data-end="{{ $e.ends_at }}"
+    data-search="{{ lower (delimit (slice $e.title $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"
+    {{ with $e.lat }}data-lat="{{ . }}" data-lng="{{ $e.lng }}"{{ end }}
+    data-title="{{ $e.title }}" data-location="{{ $e.location }}" data-date="{{ $start | time.Format ":date_long" }}" data-url="{{ $link }}">
+  <a class="events-card__media{{ if not $e.image }} events-card__media--brand{{ end }}" href="{{ $link }}" tabindex="-1" aria-hidden="true">
+    {{- with $e.image }}
+    <img src="{{ . | relURL }}" alt="" loading="lazy" width="640" height="360">
+    {{- else }}
+    <img src="{{ "/img/ospology-logo.svg" | relURL }}" alt="" loading="lazy" width="300" height="110">
+    <span class="events-card__place">{{ $e.location }}</span>
+    {{- end }}
+    <span class="events-card__kind">{{ index .kinds $e.kind | default $e.kind }}</span>
+  </a>
+  <div class="events-card__body">
+    <p class="events-card__meta"><time datetime="{{ $e.starts_at }}">{{ $start | time.Format ":date_long" }}</time>{{ with $e.location }}<span aria-hidden="true"> • </span>{{ . }}{{ end }}</p>
+    <h3 class="events-card__title"><a href="{{ $link }}">{{ $e.title }}</a></h3>
+    <p class="events-card__group">{{ $e.group }}</p>
+    <a class="events-button events-button--outline events-card__cta" href="{{ $link }}" aria-label="{{ cond $past (cond (isset $e "recap") (partial "localized-text.html" "Read the recap") (partial "localized-text.html" "View event")) (partial "localized-text.html" "Register") }}: {{ $e.title }}">
+      {{- if not $past }}{{ partial "localized-text.html" "Register" }}{{ else if isset $e "recap" }}{{ partial "localized-text.html" "Read the recap" }}{{ else }}{{ partial "localized-text.html" "View event" }}{{ end }} <span aria-hidden="true">{{ if hasPrefix $link "http" }}↗{{ else }}→{{ end }}</span>
+    </a>
+  </div>
+</li>
+{{- end -}}
+
+<section id="find-events" class="events-section events-finder" aria-labelledby="find-events-title" data-events-finder
+         data-label-upcoming="{{ partial "localized-text.html" "upcoming events" }}" data-label-upcoming-one="{{ partial "localized-text.html" "upcoming event" }}"
+         data-label-none-month="{{ partial "localized-text.html" "No events this month." }}"
+         data-label-map-error="{{ partial "localized-text.html" "The map could not be loaded." }}">
+  <div class="events-section-heading events-finder__heading">
+    <p class="events-eyebrow">{{ partial "localized-text.html" "What’s next" }}</p>
+    <h2 id="find-events-title">{{ partial "localized-text.html" "Find your city, meet and learn in person" }}</h2>
+    <p>{{ partial "localized-text.html" "Browse OSPOlogy events organized by TODO Group and community-led OSPOlogy meetups around the world." }}</p>
+  </div>
+
+  <div class="events-finder__toolbar">
+    <div class="events-finder__tabs" role="tablist" aria-label="{{ partial "localized-text.html" "Event types" }}">
+      <button type="button" role="tab" id="events-tab-official" aria-controls="events-results" aria-selected="true" data-tab-button="official">{{ partial "localized-text.html" "OSPOlogy Events" }}</button>
+      <button type="button" role="tab" id="events-tab-community" aria-controls="events-results" aria-selected="false" tabindex="-1" data-tab-button="community">{{ partial "localized-text.html" "OSPOlogy Meetups" }}</button>
+    </div>
+    <div class="events-finder__filters">
+      <label class="events-finder__search">
+        <span class="visually-hidden">{{ partial "localized-text.html" "Search for a city or region" }}</span>
+        <input type="search" placeholder="{{ partial "localized-text.html" "Search for a city or region" }}" autocomplete="off" data-filter-search>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </label>
+      <label class="events-finder__select">
+        <span class="visually-hidden">{{ partial "localized-text.html" "Event format" }}</span>
+        <select data-filter-kind>
+          <option value="">{{ partial "localized-text.html" "All events" }}</option>
+          {{- range slice "in-person" "hybrid" "online" }}
+          <option value="{{ . }}">{{ index $kinds . }}</option>
+          {{- end }}
+        </select>
+      </label>
+      <div class="events-finder__views" role="group" aria-label="{{ partial "localized-text.html" "Display events as" }}">
+        <button type="button" aria-pressed="true" data-view-button="grid">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>
+          <span>{{ partial "localized-text.html" "Grid" }}</span>
+        </button>
+        <button type="button" aria-pressed="false" data-view-button="map">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span>{{ partial "localized-text.html" "Map" }}</span>
+        </button>
+        <button type="button" aria-pressed="false" data-view-button="calendar">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>{{ partial "localized-text.html" "Calendar" }}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="events-results" role="tabpanel" aria-labelledby="events-tab-official" data-results>
+    <p class="events-finder__status" aria-live="polite" data-status></p>
+
+    <div data-view="grid">
+      <ul class="events-cards" data-list="upcoming">
+        {{- range $upcoming }}{{ partial "events-finder-card.html" (dict "event" . "past" false "kinds" $kinds) }}{{ end }}
+      </ul>
+      <div class="events-finder__empty" data-empty="filtered" hidden>
+        <p><strong>{{ partial "localized-text.html" "No upcoming events match your search." }}</strong></p>
+        <p>{{ partial "localized-text.html" "Try another city or region, or start an OSPOlogy meetup where you are." }}</p>
+        <div class="events-actions">
+          <button type="button" class="events-button events-button--outline" data-clear>{{ partial "localized-text.html" "Clear filters" }}</button>
+          <a class="events-text-link" href="{{ $ocg }}">{{ partial "localized-text.html" "Find or start a group on OCG" }} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="events-finder__empty" data-empty="official" hidden>
+        <p><strong>{{ partial "localized-text.html" "The next OSPOlogy events will be announced soon." }}</strong></p>
+        <p>{{ partial "localized-text.html" "Catch up on past events below, or join a community-led meetup near you." }}</p>
+        <div class="events-actions">
+          <button type="button" class="events-button" data-switch-tab="community">{{ partial "localized-text.html" "See OSPOlogy Meetups" }}</button>
+        </div>
+      </div>
+      <div class="events-finder__empty" data-empty="community" hidden>
+        <p><strong>{{ partial "localized-text.html" "No meetups are scheduled right now." }}</strong></p>
+        <p>{{ partial "localized-text.html" "Join a group on OCG to hear about the next one, or start an OSPOlogy meetup in your city." }}</p>
+        <div class="events-actions">
+          <a class="events-button" href="{{ $ocg }}">{{ partial "localized-text.html" "Visit TODO on OCG" }} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <details class="events-finder__past" data-past-wrapper>
+        <summary>{{ partial "localized-text.html" "Past events" }} <span data-past-count></span></summary>
+        <ul class="events-cards" data-list="past">
+          {{- range sort $past "starts_at" "desc" }}{{ partial "events-finder-card.html" (dict "event" . "past" true "kinds" $kinds) }}{{ end }}
+        </ul>
+      </details>
+    </div>
+
+    <div class="events-finder__map" data-view="map" hidden>
+      <div class="events-finder__map-canvas" data-map data-countries="{{ $countries.RelPermalink }}" role="region" aria-label="{{ partial "localized-text.html" "Map of upcoming events" }}"></div>
+      <p class="events-finder__note">{{ partial "localized-text.html" "Online meetups are shown at their community’s home city." }}</p>
+    </div>
+
+    <div class="events-finder__calendar" data-view="calendar" hidden>
+      <div class="events-calendar__header">
+        <button type="button" class="events-calendar__nav" data-month="-1" aria-label="{{ partial "localized-text.html" "Previous month" }}">←</button>
+        <h3 data-month-label aria-live="polite"></h3>
+        <button type="button" class="events-calendar__nav" data-month="1" aria-label="{{ partial "localized-text.html" "Next month" }}">→</button>
+      </div>
+      <div class="events-calendar__grid" data-calendar-grid></div>
+      <ul class="events-calendar__list" data-calendar-list></ul>
+    </div>
+  </div>
+
+</section>

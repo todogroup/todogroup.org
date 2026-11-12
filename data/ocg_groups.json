@@ -1,0 +1,69 @@
+{
+  "community": "todo",
+  "base_url": "https://ocgroups.dev",
+  "groups": {
+    "6jf76jt": {
+      "name": "OSPOlogy Europe",
+      "tab": "official",
+      "region": "Europe"
+    },
+    "8w9jc72": {
+      "name": "OSPOlogy Asia",
+      "tab": "official",
+      "region": "Asia"
+    },
+    "462uu5j": {
+      "name": "OSPOlogy Meetup - Helsinki",
+      "tab": "community",
+      "region": "Europe",
+      "city": "Helsinki, Finland",
+      "lat": 60.1699,
+      "lng": 24.9384
+    },
+    "6vmej96": {
+      "name": "OSPOlogy Meetups - UK",
+      "tab": "community",
+      "region": "Europe",
+      "city": "United Kingdom",
+      "lat": 51.5072,
+      "lng": -0.1276
+    },
+    "ces5c53": {
+      "name": "OSPOlogy Meetup - China (zh-CN Speaking)",
+      "tab": "community",
+      "region": "Asia",
+      "city": "China",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    "usd4vs5": {
+      "name": "OSPOlogy Meetup - Japan (Japanese Speaking)",
+      "tab": "community",
+      "region": "Asia",
+      "city": "Japan",
+      "lat": 35.6812,
+      "lng": 139.7671
+    },
+    "wc7z9yu": {
+      "name": "OSPOlogy Meetup - LATAM",
+      "tab": "community",
+      "region": "Latin America",
+      "city": "Latin America",
+      "lat": -23.5505,
+      "lng": -46.6333
+    }
+  },
+  "overrides": {
+    "57p7sbv": {
+      "location": "Tokyo, Japan",
+      "lat": 35.6197,
+      "lng": 139.7283
+    },
+    "zw2jgk7": {
+      "location": "Prague, Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378,
+      "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/"
+    }
+  }
+}

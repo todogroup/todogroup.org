@@ -44,6 +44,8 @@
 {{ if .HasShortcode "events-hub" }}
 {{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">
+{{ $eventsScript := resources.Get "js/events-finder.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $eventsScript.RelPermalink }}" integrity="{{ $eventsScript.Data.Integrity }}"></script>
 {{ end }}
 
 {{ if or .IsHome (and (in (slice "blog" "studies" "guides" "working-groups") .Section) (eq .Kind "section")) }}

@@ -59,6 +59,7 @@ npm run build
 - `npm run dev:start` - Same as `npm run start`
 - `npm run dev:start:with-pagefind` - Builds the site and the Pagefind search index, then starts the local server, so site search works locally
 - `npm run dev:build` - Same as `npm run build`
+- `npm run sync:events` - Refreshes `data/ocg_events.json`, the OSPOlogy events and meetups listed on [/community/events/](https://todogroup.org/community/events/), from [TODO Group on OCG](https://ocgroups.dev/todo). Which tab each OCG group appears under is set in `data/ocg_groups.json`. Official events that are not on OCG go in `data/ospology_events.json`.
 
 ### Netlify builds
 

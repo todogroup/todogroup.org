@@ -52,6 +52,17 @@ html[data-theme="dark"] .pagination .page-item:not(.disabled):not(.active) .page
 html[data-theme="dark"] .events-hub :is(.events-story,.events-story--featured,.events-format) { background:#192621; border-color:#344a3e; }
 html[data-theme="dark"] .events-hub :is(.events-story__meta,.events-hero__photo figcaption) { color:#b8c9bf; }
 html[data-theme="dark"] .events-hub .events-button:hover { background:#bcebdc; color:#10291e; }
+html[data-theme="dark"] .events-hub :is(.events-card,.events-finder__search input,.events-finder__select select,.events-finder__views button,.events-calendar__nav,.events-finder__tabs button[aria-selected="true"]) { background-color:#192621; border-color:#344a3e; color:#e1eae5; }
+html[data-theme="dark"] .events-hub :is(.events-finder__tabs,.events-card__media,.events-finder__views button[aria-pressed="true"],.events-calendar__weekday,.events-calendar__day--blank) { background-color:#20352a; }
+html[data-theme="dark"] .events-hub .events-finder__views button[aria-pressed="true"] { color:#8ad8b9; border-color:#8ad8b9; }
+html[data-theme="dark"] .events-hub .events-card__media--brand { background:linear-gradient(135deg,#dcebe1 0%,#c3d9cb 100%); }
+html[data-theme="dark"] .events-hub .events-card__place { color:#285f50; }
+html[data-theme="dark"] .events-hub .events-finder__map-canvas { background:#10291e; }
+html[data-theme="dark"] .events-hub .events-map-country { stroke:#3d5347; fill:#20352a; }
+html[data-theme="dark"] .events-hub .events-card__kind { background:rgba(16,41,30,.9); color:#d6eee0; }
+html[data-theme="dark"] .events-hub .events-calendar__event { background:#20352a; color:#d6eee0; }
+html[data-theme="dark"] .events-hub :is(.events-card__meta,.events-card__group,.events-finder__status,.events-finder__note,.events-calendar__date,.events-calendar__weekday,.events-calendar__list span,.events-finder__tabs button) { color:#b8c9bf; }
+html[data-theme="dark"] .events-hub .events-calendar__day--today .events-calendar__date { color:#10291e; }
 
 html[data-theme="dark"] .amb-people .amb-social img { filter:brightness(0) invert(1); opacity:.85; }
 html[data-theme="dark"] table { border-color:#344a3e; }

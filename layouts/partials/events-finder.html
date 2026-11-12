@@ -24,12 +24,14 @@
     data-search="{{ lower (delimit (slice $e.title $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"
     {{ with $e.lat }}data-lat="{{ . }}" data-lng="{{ $e.lng }}"{{ end }}
     data-title="{{ $e.title }}" data-location="{{ $e.location }}" data-date="{{ $start | time.Format ":date_long" }}" data-url="{{ $link }}">
-  <a class="events-card__media{{ if not $e.image }} events-card__media--brand{{ end }}" href="{{ $link }}" tabindex="-1" aria-hidden="true">
-    {{- with $e.image }}
-    <img src="{{ . | relURL }}" alt="" loading="lazy" width="640" height="360">
-    {{- else }}
-    <img src="{{ "/img/ospology-logo.svg" | relURL }}" alt="" loading="lazy" width="300" height="110">
+  {{- $image := $e.image | default "/img/ospochi/regions/default.png" -}}
+  {{- $mascot := hasPrefix $image "/img/ospochi/" }}
+  <a class="events-card__media{{ if $mascot }} events-card__media--brand{{ end }}" href="{{ $link }}" tabindex="-1" aria-hidden="true">
+    {{- if $mascot }}
+    <img src="{{ $image | relURL }}" alt="" loading="lazy" width="320" height="320">
     <span class="events-card__place">{{ $e.location }}</span>
+    {{- else }}
+    <img src="{{ $image | relURL }}" alt="" loading="lazy" width="640" height="360">
     {{- end }}
     <span class="events-card__kind">{{ index .kinds $e.kind | default $e.kind }}</span>
   </a>
@@ -125,6 +127,9 @@
         <ul class="events-cards" data-list="past">
           {{- range sort $past "starts_at" "desc" }}{{ partial "events-finder-card.html" (dict "event" . "past" true "kinds" $kinds) }}{{ end }}
         </ul>
+        <div class="events-finder__more" data-more-wrapper hidden>
+          <button type="button" class="events-button events-button--outline" data-more>{{ partial "localized-text.html" "Show more past events" }}</button>
+        </div>
       </details>
     </div>
 

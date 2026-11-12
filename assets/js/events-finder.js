@@ -18,6 +18,9 @@
   const label = (name) => root.dataset[name] || '';
 
   const state = { tab: 'official', q: '', kind: '', view: 'grid' };
+  const pastPageSize = 9;
+  let pastLimit = pastPageSize;
+  const moreWrapper = root.querySelector('[data-more-wrapper]');
   let monthCursor = null;
   let map = null;
   let markerLayer = null;
@@ -59,6 +62,8 @@
     cards.forEach((card) => { card.hidden = !visible.includes(card); });
     const upcoming = visible.filter((card) => !isPast(card));
     const past = visible.filter(isPast);
+    past.slice(pastLimit).forEach((card) => { card.hidden = true; });
+    moreWrapper.hidden = past.length <= pastLimit;
 
     tabs.forEach((tab) => {
       const selected = tab.dataset.tabButton === state.tab;
@@ -180,7 +185,7 @@
       cell.append(Object.assign(document.createElement('span'), { className: 'events-calendar__date', textContent: day }));
       (byDay.get(day) || []).forEach((card) => {
         const link = Object.assign(document.createElement('a'), { href: card.dataset.url, textContent: card.dataset.title, title: `${card.dataset.title} · ${card.dataset.location}` });
-        link.className = 'events-calendar__event' + (isPast(card) ? ' events-calendar__event--past' : '');
+        link.className = 'events-calendar__event';
         cell.append(link);
       });
       grid.append(cell);
@@ -201,7 +206,7 @@
   }
 
   tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => { state.tab = tab.dataset.tabButton; monthCursor = null; render(); });
+    tab.addEventListener('click', () => { state.tab = tab.dataset.tabButton; monthCursor = null; pastLimit = pastPageSize; render(); });
     tab.addEventListener('keydown', (event) => {
       if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
       const next = tabs[(index + (event.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length];
@@ -210,8 +215,9 @@
     });
   });
   viewButtons.forEach((button) => button.addEventListener('click', () => { state.view = button.dataset.viewButton; render(); }));
-  search.addEventListener('input', () => { state.q = search.value.trim().toLowerCase(); monthCursor = null; render(); });
-  kind.addEventListener('change', () => { state.kind = kind.value; monthCursor = null; render(); });
+  search.addEventListener('input', () => { state.q = search.value.trim().toLowerCase(); monthCursor = null; pastLimit = pastPageSize; render(); });
+  kind.addEventListener('change', () => { state.kind = kind.value; monthCursor = null; pastLimit = pastPageSize; render(); });
+  root.querySelector('[data-more]').addEventListener('click', () => { pastLimit += pastPageSize; render(); });
   root.querySelector('[data-clear]').addEventListener('click', () => {
     search.value = ''; kind.value = ''; state.q = ''; state.kind = ''; render(); search.focus();
   });

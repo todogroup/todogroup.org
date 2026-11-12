@@ -395,5 +395,6 @@
   "Previous month": "前の月",
   "Next month": "次の月",
   "No events this month.": "この月のイベントはありません。",
-  "The map could not be loaded.": "地図を読み込めませんでした。"
+  "The map could not be loaded.": "地図を読み込めませんでした。",
+  "Show more past events": "過去のイベントをさらに表示"
 }

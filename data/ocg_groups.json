@@ -1,6 +1,9 @@
 {
   "community": "todo",
   "base_url": "https://ocgroups.dev",
+  "exclude_titles": [
+    "Regular Sync"
+  ],
   "groups": {
     "6jf76jt": {
       "name": "OSPOlogy Europe",
@@ -26,7 +29,8 @@
       "region": "Europe",
       "city": "United Kingdom",
       "lat": 51.5072,
-      "lng": -0.1276
+      "lng": -0.1276,
+      "image": "/img/ospochi/regions/uk.png"
     },
     "ces5c53": {
       "name": "OSPOlogy Meetup - China (zh-CN Speaking)",
@@ -57,13 +61,49 @@
     "57p7sbv": {
       "location": "Tokyo, Japan",
       "lat": 35.6197,
-      "lng": 139.7283
+      "lng": 139.7283,
+      "image": "/images/events/ospology-asia-tokyo-2026.jpg"
     },
     "zw2jgk7": {
       "location": "Prague, Czechia",
       "lat": 50.0755,
       "lng": 14.4378,
       "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/"
+    },
+    "4842zsj": {
+      "location": "Stockholm, Sweden",
+      "lat": 59.4036,
+      "lng": 17.9446
+    },
+    "r2kgr9e": {
+      "location": "Amsterdam, Netherlands",
+      "lat": 52.3906,
+      "lng": 4.838
+    },
+    "e2ukavu": {
+      "location": "Frankfurt, Germany",
+      "lat": 50.1436,
+      "lng": 8.5703
+    },
+    "sdgtbpd": {
+      "location": "Apeldoorn, Netherlands",
+      "lat": 52.2112,
+      "lng": 5.9699
+    },
+    "gfuhzvz": {
+      "location": "Malmö, Sweden",
+      "lat": 55.605,
+      "lng": 13.0038
+    },
+    "8x8cbmq": {
+      "location": "Amsterdam, Netherlands",
+      "lat": 52.3373,
+      "lng": 4.8879
+    },
+    "hxsmnmt": {
+      "location": "Lyon, France",
+      "lat": 45.764,
+      "lng": 4.8357
     }
   }
 }

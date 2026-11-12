@@ -3,12 +3,13 @@
 //
 // OCG publishes a JSON search endpoint with each event's name, group, dates and coordinates.
 // The event pages add the format (in person, virtual, hybrid) and venue, so those are read
-// from each page. OCG images can't be embedded on other sites, so the cards show the
-// OSPOlogy logo instead. Which tab an event belongs to is decided by its group in
-// data/ocg_groups.json.
-// When OCG has no coordinates or a clear city for an event, set them under "overrides" in that file.
+// from each page. data/ocg_groups.json sets which tab each group appears under and the
+// group's image (OCG images can't be embedded on other sites, so they are kept in this
+// repo). Under "overrides" in that file, set the city, coordinates, image or recap link for
+// a single event, keyed by its OCG slug. Events whose titles contain one of the
+// "exclude_titles" strings, such as recurring working calls, are skipped.
 //
-// Usage: npm run sync:events [-- --months-back=12 --months-ahead=24]
+// Usage: npm run sync:events [-- --months-back=72 --months-ahead=24]
 const fs = require('node:fs/promises');
 const path = require('node:path');
 
@@ -18,7 +19,7 @@ const outputFile = path.join(root, 'data/ocg_events.json');
 const userAgent = 'todogroup.org events sync (+https://todogroup.org/community/events/)';
 
 const args = Object.fromEntries(process.argv.slice(2).map((arg) => arg.replace(/^--/, '').split('=')));
-const monthsBack = Number(args['months-back'] || 12);
+const monthsBack = Number(args['months-back'] || 72);
 const monthsAhead = Number(args['months-ahead'] || 24);
 const regionNames = new Intl.DisplayNames(['en'], { type: 'region' });
 
@@ -67,6 +68,7 @@ function cityFromVenue(venue) {
 async function main() {
   const config = JSON.parse(await fs.readFile(configFile, 'utf8'));
   const overrides = config.overrides || {};
+  const excluded = (config.exclude_titles || []).map((text) => text.toLowerCase());
   const now = new Date();
   const from = new Date(now); from.setMonth(from.getMonth() - monthsBack);
   const to = new Date(now); to.setMonth(to.getMonth() + monthsAhead);
@@ -83,6 +85,7 @@ async function main() {
       console.warn(`Skipping "${item.name}": group ${item.group_slug} is not listed in data/ocg_groups.json`);
       continue;
     }
+    if (excluded.some((text) => item.name.toLowerCase().includes(text))) continue;
     const url = `${config.base_url}/${item.community_name}/group/${item.group_slug}/event/${item.slug}`;
     const details = parseEventPage(await get(url, 'text/html'));
     const override = overrides[item.slug] || {};
@@ -102,6 +105,7 @@ async function main() {
       ends_at: new Date((item.ends_at || item.starts_at) * 1000).toISOString(),
       lat: item.latitude ?? details.lat ?? group.lat ?? null,
       lng: item.longitude ?? details.lng ?? group.lng ?? null,
+      image: group.image || '',
       url,
       ...override,
     });

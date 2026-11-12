@@ -14,6 +14,7 @@
       "ends_at": "2022-10-20T15:00:00.000Z",
       "lat": 59.4036,
       "lng": 17.9446,
+      "country": "se",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/4842zsj"
     },
@@ -30,6 +31,7 @@
       "ends_at": "2022-11-23T18:00:00.000Z",
       "lat": 60.1699,
       "lng": 24.9384,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/yacf6ku"
     },
@@ -46,6 +48,7 @@
       "ends_at": "2023-01-24T13:00:00.000Z",
       "lat": 52.3906,
       "lng": 4.838,
+      "country": "nl",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/r2kgr9e"
     },
@@ -62,6 +65,7 @@
       "ends_at": "2023-01-26T18:00:00.000Z",
       "lat": 60.1699,
       "lng": 24.9384,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/pudrgkp"
     },
@@ -78,6 +82,7 @@
       "ends_at": "2023-02-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/z5zq4uc"
     },
@@ -94,6 +99,7 @@
       "ends_at": "2023-02-17T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/t5hqtsx"
     },
@@ -110,6 +116,7 @@
       "ends_at": "2023-03-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/b6c75ex"
     },
@@ -126,6 +133,7 @@
       "ends_at": "2023-03-22T18:00:00.000Z",
       "lat": 60.1699,
       "lng": 24.9384,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/kz8xp9x"
     },
@@ -142,6 +150,7 @@
       "ends_at": "2023-03-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/36ume6e"
     },
@@ -158,6 +167,7 @@
       "ends_at": "2023-04-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/jk5evyc"
     },
@@ -174,6 +184,7 @@
       "ends_at": "2023-04-21T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/2b9cc6e"
     },
@@ -190,6 +201,7 @@
       "ends_at": "2023-05-16T02:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/e629t4e"
     },
@@ -206,6 +218,7 @@
       "ends_at": "2023-05-26T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/yr4manf"
     },
@@ -222,6 +235,7 @@
       "ends_at": "2023-06-09T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/hz6wc2x"
     },
@@ -238,6 +252,7 @@
       "ends_at": "2023-06-23T06:30:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/b55zup6"
     },
@@ -254,6 +269,7 @@
       "ends_at": "2023-07-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/62q7v8y"
     },
@@ -270,6 +286,7 @@
       "ends_at": "2023-07-21T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/29gpsg6"
     },
@@ -286,6 +303,7 @@
       "ends_at": "2023-07-28T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/m347wq2"
     },
@@ -302,6 +320,7 @@
       "ends_at": "2023-08-25T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/4wuwtke"
     },
@@ -318,6 +337,7 @@
       "ends_at": "2023-09-08T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/9w5bfe3"
     },
@@ -334,6 +354,7 @@
       "ends_at": "2023-09-22T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/ngh4g56"
     },
@@ -350,6 +371,7 @@
       "ends_at": "2023-10-06T06:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/93tk4pp"
     },
@@ -366,6 +388,7 @@
       "ends_at": "2023-10-11T12:00:00.000Z",
       "lat": 50.1436,
       "lng": 8.5703,
+      "country": "de",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/e2ukavu"
     },
@@ -382,6 +405,7 @@
       "ends_at": "2023-10-27T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/3hsv46j"
     },
@@ -398,6 +422,7 @@
       "ends_at": "2023-11-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/p5fcm7k"
     },
@@ -414,6 +439,7 @@
       "ends_at": "2023-12-01T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/sxn89j5"
     },
@@ -430,6 +456,7 @@
       "ends_at": "2023-12-04T08:30:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/zm3c86h"
     },
@@ -446,6 +473,7 @@
       "ends_at": "2023-12-22T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/rewuwjx"
     },
@@ -462,6 +490,7 @@
       "ends_at": "2024-01-10T19:00:00.000Z",
       "lat": 60.1699,
       "lng": 24.9384,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/g3yzf9v"
     },
@@ -478,6 +507,7 @@
       "ends_at": "2024-01-12T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/emsw2cx"
     },
@@ -494,6 +524,7 @@
       "ends_at": "2024-01-26T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/hmd3jp5"
     },
@@ -510,6 +541,7 @@
       "ends_at": "2024-02-16T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/4m983cm"
     },
@@ -526,6 +558,7 @@
       "ends_at": "2024-02-29T13:00:00.000Z",
       "lat": 52.2112,
       "lng": 5.9699,
+      "country": "nl",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/sdgtbpd"
     },
@@ -542,6 +575,7 @@
       "ends_at": "2024-02-29T02:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/q9myzvh"
     },
@@ -558,6 +592,7 @@
       "ends_at": "2024-03-15T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/2gjdq5t"
     },
@@ -574,6 +609,7 @@
       "ends_at": "2024-03-22T10:00:00.000Z",
       "lat": 31.2304,
       "lng": 121.4737,
+      "country": "cn",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/ces5c53/event/ww4adbn"
     },
@@ -590,6 +626,7 @@
       "ends_at": "2024-03-22T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/s7vzbgw"
     },
@@ -606,6 +643,7 @@
       "ends_at": "2024-04-12T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/dw6y537"
     },
@@ -622,6 +660,7 @@
       "ends_at": "2024-04-24T11:00:00.000Z",
       "lat": 31.2304,
       "lng": 121.4737,
+      "country": "cn",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/ces5c53/event/wsm8e2b"
     },
@@ -638,6 +677,7 @@
       "ends_at": "2024-04-26T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/8dgewf4"
     },
@@ -654,6 +694,7 @@
       "ends_at": "2024-05-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/ybrg6w3"
     },
@@ -670,6 +711,7 @@
       "ends_at": "2024-05-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/5vrxnq3"
     },
@@ -686,6 +728,7 @@
       "ends_at": "2024-05-25T10:00:00.000Z",
       "lat": 31.2304,
       "lng": 121.4737,
+      "country": "cn",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/ces5c53/event/yde3dbw"
     },
@@ -702,6 +745,7 @@
       "ends_at": "2024-05-31T12:00:00.000Z",
       "lat": 55.605,
       "lng": 13.0038,
+      "country": "se",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/gfuhzvz"
     },
@@ -718,6 +762,7 @@
       "ends_at": "2024-05-30T16:30:00.000Z",
       "lat": 60.1699,
       "lng": 24.9384,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/mfff3j4"
     },
@@ -734,6 +779,7 @@
       "ends_at": "2024-06-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/tc5uy4x"
     },
@@ -750,6 +796,7 @@
       "ends_at": "2024-06-28T02:30:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/pxh6aqb"
     },
@@ -766,6 +813,7 @@
       "ends_at": "2024-07-12T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/kd4vh2c"
     },
@@ -782,6 +830,7 @@
       "ends_at": "2024-07-26T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/bsw2nv6"
     },
@@ -798,6 +847,7 @@
       "ends_at": "2024-08-09T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/7b2pbst"
     },
@@ -814,6 +864,7 @@
       "ends_at": "2024-08-23T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/nnyqgxe"
     },
@@ -830,6 +881,7 @@
       "ends_at": "2024-09-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/4q2a5sm"
     },
@@ -846,6 +898,7 @@
       "ends_at": "2024-10-18T03:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/t33w6un"
     },
@@ -862,6 +915,7 @@
       "ends_at": "2024-10-18T10:00:00.000Z",
       "lat": 31.2304,
       "lng": 121.4737,
+      "country": "cn",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/ces5c53/event/jqu6f6g"
     },
@@ -878,6 +932,7 @@
       "ends_at": "2024-11-08T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/b9g9d38"
     },
@@ -894,6 +949,7 @@
       "ends_at": "2024-11-14T23:00:00.000Z",
       "lat": -23.5505,
       "lng": -46.6333,
+      "country": "",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/wc7z9yu/event/9cjwnz4"
     },
@@ -910,6 +966,7 @@
       "ends_at": "2024-11-22T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/f9b7mrt"
     },
@@ -926,6 +983,7 @@
       "ends_at": "2024-12-06T10:00:00.000Z",
       "lat": 31.2304,
       "lng": 121.4737,
+      "country": "cn",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/ces5c53/event/yfy2qdz"
     },
@@ -942,6 +1000,7 @@
       "ends_at": "2024-12-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/69py34u"
     },
@@ -958,6 +1017,7 @@
       "ends_at": "2025-01-10T09:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/grykjne"
     },
@@ -974,6 +1034,7 @@
       "ends_at": "2025-01-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/a5fnj4e"
     },
@@ -990,6 +1051,7 @@
       "ends_at": "2025-02-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/ah67w2z"
     },
@@ -1006,6 +1068,7 @@
       "ends_at": "2025-02-28T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/qjsbau4"
     },
@@ -1022,6 +1085,7 @@
       "ends_at": "2025-03-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/jx79gn4"
     },
@@ -1038,6 +1102,7 @@
       "ends_at": "2025-03-27T13:00:00.000Z",
       "lat": 52.3373,
       "lng": 4.8879,
+      "country": "nl",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/8x8cbmq"
     },
@@ -1054,6 +1119,7 @@
       "ends_at": "2025-03-28T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/cx5znkg"
     },
@@ -1070,6 +1136,7 @@
       "ends_at": "2025-04-11T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/7264wq6"
     },
@@ -1086,6 +1153,7 @@
       "ends_at": "2025-04-25T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/shtfqk5"
     },
@@ -1102,6 +1170,7 @@
       "ends_at": "2025-05-09T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/63wtt6n"
     },
@@ -1118,6 +1187,7 @@
       "ends_at": "2025-05-23T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/wnh2kxb"
     },
@@ -1134,6 +1204,7 @@
       "ends_at": "2025-06-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/pv8a5b9"
     },
@@ -1150,6 +1221,7 @@
       "ends_at": "2025-07-11T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/gsr8xb6"
     },
@@ -1166,6 +1238,7 @@
       "ends_at": "2025-08-08T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/9cngq5t"
     },
@@ -1182,6 +1255,7 @@
       "ends_at": "2025-08-22T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/42dnayr"
     },
@@ -1198,6 +1272,7 @@
       "ends_at": "2025-09-12T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/ahssfwv"
     },
@@ -1214,6 +1289,7 @@
       "ends_at": "2025-09-19T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/9tkqsrn"
     },
@@ -1230,6 +1306,7 @@
       "ends_at": "2025-10-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/f9r6hzn"
     },
@@ -1246,6 +1323,7 @@
       "ends_at": "2025-10-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/2sqdu24"
     },
@@ -1262,6 +1340,7 @@
       "ends_at": "2025-11-06T13:00:00.000Z",
       "lat": 45.764,
       "lng": 4.8357,
+      "country": "fr",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/hxsmnmt"
     },
@@ -1278,6 +1357,7 @@
       "ends_at": "2025-11-14T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/kmunp5u"
     },
@@ -1294,6 +1374,7 @@
       "ends_at": "2025-11-28T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/47kzvz9"
     },
@@ -1310,6 +1391,7 @@
       "ends_at": "2025-12-19T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/w39ze2j"
     },
@@ -1326,6 +1408,7 @@
       "ends_at": "2026-01-09T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/su4nfq2"
     },
@@ -1342,6 +1425,7 @@
       "ends_at": "2026-01-23T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/58pc8xq"
     },
@@ -1358,6 +1442,7 @@
       "ends_at": "2026-02-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/xue6vm4"
     },
@@ -1374,6 +1459,7 @@
       "ends_at": "2026-02-27T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/wurm57p"
     },
@@ -1390,6 +1476,7 @@
       "ends_at": "2026-03-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/m5j796m"
     },
@@ -1406,6 +1493,7 @@
       "ends_at": "2026-03-27T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/4bvk327"
     },
@@ -1422,6 +1510,7 @@
       "ends_at": "2026-04-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/8hk5z7b"
     },
@@ -1438,6 +1527,7 @@
       "ends_at": "2026-04-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/63cmnqw"
     },
@@ -1454,6 +1544,7 @@
       "ends_at": "2026-05-29T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/xxbg66d"
     },
@@ -1470,6 +1561,7 @@
       "ends_at": "2026-06-05T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/3mzhv6v"
     },
@@ -1486,6 +1578,7 @@
       "ends_at": "2026-06-19T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/drffabx"
     },
@@ -1502,6 +1595,7 @@
       "ends_at": "2026-07-03T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/7y7kx8g"
     },
@@ -1518,6 +1612,7 @@
       "ends_at": "2026-07-10T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/v8nptjx"
     },
@@ -1534,6 +1629,7 @@
       "ends_at": "2026-07-24T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/95nxvde"
     },
@@ -1550,6 +1646,7 @@
       "ends_at": "2026-07-27T08:00:00.000Z",
       "lat": 35.6197,
       "lng": 139.7283,
+      "country": "jp",
       "image": "/images/events/ospology-asia-tokyo-2026.jpg",
       "url": "https://ocgroups.dev/todo/group/8w9jc72/event/57p7sbv"
     },
@@ -1566,6 +1663,7 @@
       "ends_at": "2026-08-21T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/njcfpus"
     },
@@ -1582,6 +1680,7 @@
       "ends_at": "2026-08-28T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/j7cze8q"
     },
@@ -1598,6 +1697,7 @@
       "ends_at": "2026-09-04T09:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/yg9wb3w"
     },
@@ -1614,6 +1714,7 @@
       "ends_at": "2026-09-18T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/q47n744"
     },
@@ -1630,6 +1731,7 @@
       "ends_at": "2026-10-06T16:00:00.000Z",
       "lat": 50.0755,
       "lng": 14.4378,
+      "country": "cz",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/zw2jgk7",
       "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/"
@@ -1647,6 +1749,7 @@
       "ends_at": "2026-10-16T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/4xnzdux"
     },
@@ -1663,6 +1766,7 @@
       "ends_at": "2026-10-23T07:30:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/9kcqdty"
     },
@@ -1679,6 +1783,7 @@
       "ends_at": "2026-11-13T07:00:00.000Z",
       "lat": 35.6812,
       "lng": 139.7671,
+      "country": "jp",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/usd4vs5/event/53jdrf9"
     },
@@ -1695,6 +1800,7 @@
       "ends_at": "2026-11-13T18:00:00.000Z",
       "lat": 60.1739404,
       "lng": 24.9379816,
+      "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/ah474mf"
     }

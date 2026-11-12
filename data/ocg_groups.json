@@ -21,7 +21,8 @@
       "region": "Europe",
       "city": "Helsinki, Finland",
       "lat": 60.1699,
-      "lng": 24.9384
+      "lng": 24.9384,
+      "country": "fi"
     },
     "6vmej96": {
       "name": "OSPOlogy Meetups - UK",
@@ -30,7 +31,7 @@
       "city": "United Kingdom",
       "lat": 51.5072,
       "lng": -0.1276,
-      "image": "/img/ospochi/regions/uk.png"
+      "country": "gb"
     },
     "ces5c53": {
       "name": "OSPOlogy Meetup - China (zh-CN Speaking)",
@@ -38,7 +39,8 @@
       "region": "Asia",
       "city": "China",
       "lat": 31.2304,
-      "lng": 121.4737
+      "lng": 121.4737,
+      "country": "cn"
     },
     "usd4vs5": {
       "name": "OSPOlogy Meetup - Japan (Japanese Speaking)",
@@ -46,7 +48,8 @@
       "region": "Asia",
       "city": "Japan",
       "lat": 35.6812,
-      "lng": 139.7671
+      "lng": 139.7671,
+      "country": "jp"
     },
     "wc7z9yu": {
       "name": "OSPOlogy Meetup - LATAM",
@@ -62,48 +65,57 @@
       "location": "Tokyo, Japan",
       "lat": 35.6197,
       "lng": 139.7283,
-      "image": "/images/events/ospology-asia-tokyo-2026.jpg"
+      "image": "/images/events/ospology-asia-tokyo-2026.jpg",
+      "country": "jp"
     },
     "zw2jgk7": {
       "location": "Prague, Czechia",
       "lat": 50.0755,
       "lng": 14.4378,
-      "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/"
+      "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/",
+      "country": "cz"
     },
     "4842zsj": {
       "location": "Stockholm, Sweden",
       "lat": 59.4036,
-      "lng": 17.9446
+      "lng": 17.9446,
+      "country": "se"
     },
     "r2kgr9e": {
       "location": "Amsterdam, Netherlands",
       "lat": 52.3906,
-      "lng": 4.838
+      "lng": 4.838,
+      "country": "nl"
     },
     "e2ukavu": {
       "location": "Frankfurt, Germany",
       "lat": 50.1436,
-      "lng": 8.5703
+      "lng": 8.5703,
+      "country": "de"
     },
     "sdgtbpd": {
       "location": "Apeldoorn, Netherlands",
       "lat": 52.2112,
-      "lng": 5.9699
+      "lng": 5.9699,
+      "country": "nl"
     },
     "gfuhzvz": {
       "location": "Malmö, Sweden",
       "lat": 55.605,
-      "lng": 13.0038
+      "lng": 13.0038,
+      "country": "se"
     },
     "8x8cbmq": {
       "location": "Amsterdam, Netherlands",
       "lat": 52.3373,
-      "lng": 4.8879
+      "lng": 4.8879,
+      "country": "nl"
     },
     "hxsmnmt": {
       "location": "Lyon, France",
       "lat": 45.764,
-      "lng": 4.8357
+      "lng": 4.8357,
+      "country": "fr"
     }
   }
 }

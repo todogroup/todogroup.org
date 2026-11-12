@@ -28,7 +28,12 @@
   {{- $mascot := hasPrefix $image "/img/ospochi/" }}
   <a class="events-card__media{{ if $mascot }} events-card__media--brand{{ end }}" href="{{ $link }}" tabindex="-1" aria-hidden="true">
     {{- if $mascot }}
-    <img src="{{ $image | relURL }}" alt="" loading="lazy" width="320" height="320">
+    <span class="events-card__mascot">
+      <img src="{{ $image | relURL }}" alt="" loading="lazy" width="320" height="320">
+      {{- with $e.country }}
+      <img class="events-card__flag" src="{{ printf "/img/flags/%s.svg" . | relURL }}" alt="" loading="lazy" width="40" height="40">
+      {{- end }}
+    </span>
     <span class="events-card__place">{{ $e.location }}</span>
     {{- else }}
     <img src="{{ $image | relURL }}" alt="" loading="lazy" width="640" height="360">

@@ -4,7 +4,7 @@
 // OCG publishes a JSON search endpoint with each event's name, group, dates and coordinates.
 // The event pages add the format (in person, virtual, hybrid) and venue, so those are read
 // from each page. data/ocg_groups.json sets which tab each group appears under and the
-// group's image (OCG images can't be embedded on other sites, so they are kept in this
+// group's country (shown as a flag) and image (OCG images can't be embedded on other sites, so they are kept in this
 // repo). Under "overrides" in that file, set the city, coordinates, image or recap link for
 // a single event, keyed by its OCG slug. Events whose titles contain one of the
 // "exclude_titles" strings, such as recurring working calls, are skipped.
@@ -54,6 +54,7 @@ function parseEventPage(html) {
     kind,
     venue: address ? decode(address[1]) : '',
     country,
+    countryCode: /^[A-Z]{2}$/.test(countryCode) ? countryCode.toLowerCase() : '',
     lat: lat ? Number(lat[1]) : null,
     lng: lng ? Number(lng[1]) : null,
   };
@@ -105,6 +106,7 @@ async function main() {
       ends_at: new Date((item.ends_at || item.starts_at) * 1000).toISOString(),
       lat: item.latitude ?? details.lat ?? group.lat ?? null,
       lng: item.longitude ?? details.lng ?? group.lng ?? null,
+      country: group.country || details.countryCode,
       image: group.image || '',
       url,
       ...override,

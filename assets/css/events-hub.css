@@ -101,9 +101,11 @@
 .events-hub .events-card[hidden] { display:none; }
 .events-hub .events-card__media { position:relative; display:flex; align-items:center; justify-content:center; aspect-ratio:16/9; background:#edf4ef; overflow:hidden; }
 .events-hub .events-card__media img { display:block; width:100%; height:100%; object-fit:cover; margin:0; }
-.events-hub .events-card__media--brand { flex-direction:column; gap:10px; background:linear-gradient(135deg,#edf4ef 0%,#dcebe1 100%); }
-.events-hub .events-card__media--brand img { width:auto; height:62%; aspect-ratio:1; object-fit:contain; border-radius:14px; }
-.events-hub .events-card__place { font-family:var(--rounded-font-family); font-size:14px; font-weight:700; color:var(--event-green); }
+.events-hub .events-card__media--brand { flex-direction:column; gap:2px; padding:8px 0 10px; background:linear-gradient(135deg,#edf4ef 0%,#dcebe1 100%); }
+.events-hub .events-card__mascot { position:relative; display:block; height:78%; aspect-ratio:1; }
+.events-hub .events-card__mascot img { display:block; width:100%; height:100%; object-fit:contain; image-rendering:pixelated; }
+.events-hub .events-card__mascot .events-card__flag { position:absolute; left:2%; bottom:14%; width:30%; height:auto; aspect-ratio:1; border-radius:50%; border:3px solid #fff; box-shadow:0 2px 6px rgba(24,60,52,.25); image-rendering:auto; object-fit:cover; }
+.events-hub .events-card__place { font-family:var(--rounded-font-family); font-size:13px; line-height:1.2; font-weight:700; color:var(--event-green); }
 .events-hub .events-card__kind { position:absolute; left:12px; top:12px; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--event-ink); font-size:12px; font-weight:700; line-height:1.4; }
 .events-hub .events-card__body { display:flex; flex-direction:column; flex:1; padding:20px 22px 22px; }
 .events-hub .events-card__meta { font-size:13px; color:#52675c; margin-bottom:.5rem; }

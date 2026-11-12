@@ -1,0 +1,13 @@
+.wg-leadership__group { padding: 2rem 0; border-top: 1px solid #dce5e1; }
+.wg-leadership__group h2 { scroll-margin-top: 7rem; }
+.wg-leadership__group h3 { margin: 1.75rem 0 1rem; font-size: 1.15rem; }
+.wg-leadership__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 1.25rem; }
+.wg-person { padding: 1.5rem; border: 1px solid #dce5e1; border-radius: 8px; background: linear-gradient(135deg, #f2f8f6, #fff 75%); display: flex; flex-direction: column; align-items: flex-start; }
+.wg-leadership .wg-person .wg-person__portrait { position: relative; width: 96px; max-width: 96px; height: 96px; flex: 0 0 96px; margin-bottom: 1rem; border-radius: 50%; overflow: hidden; background: #dcebe5; }
+.wg-person__initials { display: grid; place-items: center; width: 100%; height: 100%; font-size: 1.5rem; font-weight: 700; color: #244b3c; }
+.wg-person__portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.wg-person h4 { margin: 0 0 .5rem; font-size: 1.25rem; }
+.wg-person .wg-person__role { margin: 0 0 .75rem; color: #424242; font-size: .95rem; }
+.wg-person .wg-person__slack { margin: 0 0 1rem; overflow-wrap: anywhere; }
+.wg-person__profile { margin-top: auto; padding-top: .5rem; }
+.wg-person a:focus-visible { outline: 2px solid #287153; outline-offset: 4px; }

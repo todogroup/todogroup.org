@@ -1,0 +1,27 @@
+.page-home .content .team-ospo { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr); gap:64px; align-items:center; max-width:100%; margin:60px 0 100px; padding:60px 0; border-top:1px solid #e0e8e4; }
+.content .team-ospo h2 { margin:0 0 28px; font-size:48px; line-height:1.2; color:var(--primary-800); }
+.team-ospo h2 span { text-transform:none; color:var(--primary-400); }
+.page-home .content .team-ospo__copy p { margin:0 0 30px; font-size:18px; line-height:1.7; }
+.team-ospo__copy .button { display:inline-block; }
+.page-home .content .team-ospo__copy .team-ospo__secondary { display:table; margin-top:18px; background:#e1efcd; color:var(--primary-800); }
+.page-home .content .team-ospo__copy .team-ospo__secondary:hover { background:#cce3ab; color:var(--primary-800); }
+
+.team-ospo__portraits { position:relative; height:490px; min-width:0; }
+.team-ospo__portrait { position:absolute; display:block; border-radius:50%; overflow:hidden; border:7px solid white; box-shadow:0 8px 22px rgb(0 60 50 / 13%); }
+.team-ospo__portrait img { display:block; width:100%; height:100%; object-fit:cover; }
+.team-ospo__portrait--1 { width:140px; height:140px; left:30%; top:0; }
+.team-ospo__portrait--2 { width:200px; height:200px; right:0; top:35px; }
+.team-ospo__portrait--3 { width:170px; height:170px; left:0; top:160px; }
+.team-ospo__portrait--4 { width:225px; height:225px; left:30%; bottom:0; }
+.team-ospo__portrait--5 { width:135px; height:135px; right:0; bottom:20px; }
+.team-ospo__dot { position:absolute; border-radius:50%; width:30px; height:30px; background:#e1efcd; }
+.team-ospo__dot--one { left:4%; top:65px; }
+.team-ospo__dot--two { right:4%; top:265px; background:#ccebe4; width:22px; height:22px; }
+.team-ospo__mark { position:absolute; bottom:55px; left:5%; width:52px; height:52px; border-radius:50%; display:grid; place-items:center; background:var(--primary-400); color:white; font-size:32px; font-weight:800; }
+.team-ospo a:focus-visible { outline:3px solid var(--primary-600); outline-offset:5px; }
+@media(max-width:999px) { .page-home .content .team-ospo { grid-template-columns:minmax(0,1fr); gap:36px; margin:40px 0 60px; padding:40px 0; } .content .team-ospo h2 { font-size:40px; } .team-ospo__portraits { max-width:620px; } }
+@media(max-width:550px) { .team-ospo__portraits { height:370px; } .team-ospo__portrait--1 { width:100px; height:100px; left:25%; } .team-ospo__portrait--2 { width:140px; height:140px; top:20px; } .team-ospo__portrait--3 { width:125px; height:125px; top:125px; } .team-ospo__portrait--4 { width:160px; height:160px; left:27%; } .team-ospo__portrait--5 { width:95px; height:95px; bottom:40px; } .team-ospo__dot--two { top:200px; } }
+
+.team-ospo__portrait img { position:absolute; inset:0; transition:opacity .7s ease; }
+.team-ospo__portrait img.is-entering { opacity:0; }
+@media(prefers-reduced-motion:reduce) { .team-ospo__portrait img { transition:none; } }

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lfx",
+    "label": "TODO Group Meetings",
+    "url": "https://webcal.prod.itx.linuxfoundation.org/lfx/a0941000002wBzFAAU",
+    "calendarUrl": "https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week",
+    "color": "#016554"
+  },
+  {
+    "id": "chaoss",
+    "label": "Joint TODO Group and CHAOSS meetings",
+    "url": "https://ics.teamup.com/feed/ksk9vit7vig1w48j3s/13079225.ics",
+    "calendarUrl": "https://www.chaoss.community/chaoss-calendar/",
+    "color": "#537c12"
+  }
+]

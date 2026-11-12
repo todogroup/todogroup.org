@@ -1,7 +1,7 @@
 ---
 title: "Steering Committee Elections: Meet the Candidates for 2026"
 author: todogroup
-date: 2025-10-13
+date: 2025-10-12
 ---
 
 The TODO Group’s mission is to identify key policy and process choices related to open source management and engagement within organizations and to create tools and educational materials that promote best practices.  

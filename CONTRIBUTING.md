@@ -87,11 +87,11 @@ git checkout -b blog/your-username
 ```
    
 3.	**Add Your Blog Post**
-Place your markdown file in the /content/blog/ directory
+Place your markdown file in the /content/en/blog/ directory
 
 
 5.	**Test Locally**
-Run the site locally to make sure your post renders properly
+Run the site locally to make sure your post renders properly. See [Development Setup](README.md#development-setup) in the README for the commands.
 
 7.	**Submit a Pull Request**
 - Push your branch to your fork

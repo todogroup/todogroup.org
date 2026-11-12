@@ -1,0 +1,29 @@
+{{- /* Wrap using advance widths from the site's Oswald Bold font. */ -}}
+{{- $lines := slice -}}
+{{- $line := "" -}}
+{{- $width := 0.0 -}}
+{{- $metrics := site.Data.blog_banner_widths -}}
+{{- range findRE `\S+` .title -}}
+  {{- $word := . -}}
+  {{- $wordWidth := 0.0 -}}
+  {{- range split $word "" -}}
+    {{- $wordWidth = add $wordWidth (index $metrics . | default 1.0) -}}
+  {{- end -}}
+  {{- if and $line (gt (mul (add $width $wordWidth) $.size) 960) -}}
+    {{- $lines = $lines | append $line -}}
+    {{- $line = "" -}}{{- $width = 0.0 -}}
+  {{- end -}}
+  {{- /* Split even an unusually long unbroken word rather than clip it. */ -}}
+  {{- range split $word "" -}}
+    {{- $advance := index $metrics . | default 1.0 -}}
+    {{- if gt (mul (add $width $advance) $.size) 960 -}}
+      {{- $lines = $lines | append $line -}}
+      {{- $line = "" -}}{{- $width = 0.0 -}}
+    {{- end -}}
+    {{- $line = print $line . -}}{{- $width = add $width $advance -}}
+  {{- end -}}
+  {{- $line = print $line " " -}}
+  {{- $width = add $width (index $metrics " ") -}}
+{{- end -}}
+{{- with $line -}}{{- $lines = $lines | append (trim . " ") -}}{{- end -}}
+{{- return $lines -}}

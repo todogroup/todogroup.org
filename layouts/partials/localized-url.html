@@ -1,0 +1,24 @@
+{{- $url := . -}}
+{{- $parsed := urls.Parse $url -}}
+{{- if and (not $parsed.IsAbs) (ne $parsed.Path "") (not (hasPrefix $url "//")) -}}
+  {{- $path := printf "/%s/" (trim $parsed.Path "/") -}}
+  {{- $aliases := dict "/members/" "/about/members/" "/community/" "/community/get-started/" -}}
+  {{- with index $aliases $path -}}{{- $path = . -}}{{- end -}}
+  {{- $target := site.GetPage $path -}}
+  {{- $localized := $path | relLangURL -}}
+  {{- range site.Pages -}}{{- if eq .RelPermalink $localized -}}{{- $target = . -}}{{- end -}}{{- end -}}
+  {{- if not $target -}}
+    {{- range site.Home.AllTranslations -}}
+      {{- if eq .Language.Lang "en" -}}
+        {{- range .Site.Pages -}}{{- if eq .RelPermalink $path -}}{{- $target = . -}}{{- end -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $target -}}
+    {{- $url = .RelPermalink -}}
+    {{- range .AllTranslations -}}{{- if eq .Language.Lang site.Language.Lang -}}{{- $url = .RelPermalink -}}{{- end -}}{{- end -}}
+    {{- with $parsed.RawQuery -}}{{- $url = printf "%s?%s" $url . -}}{{- end -}}
+    {{- with $parsed.Fragment -}}{{- $url = printf "%s#%s" $url . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

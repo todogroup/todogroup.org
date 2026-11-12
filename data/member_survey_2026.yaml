@@ -1,0 +1,162 @@
+# Questions for the 2026 TODO Group General Member Survey
+
+form_name: member-survey-2026
+
+sections:
+  - legend: About you
+    questions:
+      - name: full_name
+        type: text
+        label: Your first name and surname
+        help: Only TODO Group staff at the Linux Foundation can see your name and organization.
+        autocomplete: name
+        required: true
+      - name: organization
+        type: text
+        label: Which organization do you represent?
+        autocomplete: organization
+        required: true
+
+  - legend: TODO Group activities in 2026
+    questions:
+      - name: activity
+        type: matrix
+        label: How would you rate each TODO Group activity you or your colleagues took part in during 2026?
+        help: Choose "Did not take part" for activities you did not use.
+        none_label: Did not take part
+        min: 1
+        max: 5
+        min_label: Poor
+        max_label: Excellent
+        rows:
+          - { name: touchpoint_meetings, label: "General Member touchpoint meetings" }
+          - { name: working_groups, label: "Working groups" }
+          - { name: online_meetings, label: "Online community meetings" }
+          - { name: ospology_events, label: "OSPOlogy in-person events" }
+          - { name: ambassadors, label: "Ambassador program" }
+          - { name: slack, label: "TODO Group Slack" }
+          - { name: guides_resources, label: "Guides, OSPO Book, and other resources" }
+      - name: ospology_feedback
+        type: textarea
+        label: If you attended an OSPOlogy in-person event in 2026, what was most valuable, and what should change in 2027?
+        rows: 4
+
+  - legend: The value of TODO Group for you and your OSPO
+    questions:
+      - name: helped_with
+        type: checkbox
+        max: 3
+        label: How did TODO Group help you and your OSPO most in 2026?
+        help: Select your top 3.
+        options:
+          - Start, formalize, or grow our OSPO
+          - Write or update open source policies
+          - Write or update AI governance policies
+          - Manage open source use and compliance (licensing, SBOMs, supply chain)
+          - Manage contributions to and releases of open source projects
+          - Govern the use and release of AI models, data, and agents
+          - Benchmark our OSPO against peers
+          - Show the value of our OSPO to leadership
+          - Hire or train OSPO staff
+          - Solve a specific problem with help from peers
+          - Not yet
+          - Other
+      - name: community_value_2027
+        type: checkbox
+        max: 3
+        label: AI is changing OSPO priorities and the technology business. What value should TODO Group give your OSPO as a community in 2027?
+        help: Select up to 3.
+        options:
+          - Best practices, guides, and frameworks
+          - Ready-to-use templates, tools, and AI agents
+          - Benchmarks and data from peer organizations
+          - Small peer groups on specific problems
+          - Direct advice from experienced OSPO leaders
+          - Connections and joint work with other LF communities (e.g., OpenSSF, OpenChain, AAIF)
+          - A voice in regulation and policy discussions (e.g., EU Cyber Resilience Act, AI regulation)
+          - Training and certification for our staff
+          - Other
+      - name: leverage_2027
+        type: textarea
+        label: Is there anything TODO Group can help you leverage in 2027? What is it?
+        help: For example, a goal, a project, an internal decision, or a challenge where TODO Group could help.
+        rows: 5
+      - name: priorities_2027
+        type: checkbox
+        max: 3
+        label: Which topics should TODO Group focus on in 2027?
+        help: Select up to 3.
+        options:
+          - AI governance
+          - Agentic AI for OSPOs
+          - Regulatory compliance (e.g., EU Cyber Resilience Act)
+          - Open source security and supply chain
+          - OSPO metrics and value
+          - Funding and sustaining open source
+          - InnerSource
+          - OSPO talent and training
+          - Other
+      - name: lf_community_2027
+        type: select
+        label: Apart from TODO Group, which Linux Foundation community will your OSPO put the most effort into in 2027?
+        help: This helps us plan TODO Group activities with that community, for example at its events.
+        placeholder: Choose one
+        options:
+          - Agentic AI Foundation (AAIF)
+          - Academy Software Foundation (ASWF)
+          - Automotive Grade Linux (AGL)
+          - Cloud Native Computing Foundation (CNCF)
+          - Continuous Delivery Foundation
+          - DevRel Foundation
+          - ELISA
+          - FinOps Foundation
+          - FINOS
+          - GraphQL Foundation
+          - LF AI & Data
+          - LF Decentralized Trust
+          - LF Edge
+          - LF Energy
+          - LF Networking
+          - Open Mainframe Project
+          - Open Source Security Foundation (OpenSSF)
+          - OpenChain
+          - OpenInfra Foundation
+          - OpenJS Foundation
+          - OpenWallet Foundation
+          - Overture Maps Foundation
+          - PyTorch Foundation
+          - Tokenomics Foundation
+          - SPDX
+          - Zephyr Project
+          - None
+          - Other
+
+  - legend: Overall
+    questions:
+      - name: overall_satisfaction
+        type: scale
+        label: Overall, how satisfied are you with TODO Group in 2026?
+        min: 1
+        max: 5
+        min_label: Very dissatisfied
+        max_label: Very satisfied
+        required: true
+      - name: membership_rating
+        type: scale
+        label: What do you think of your TODO Group membership?
+        min: 1
+        max: 5
+        min_label: Does not meet expectations
+        max_label: Exceeds expectations
+        required: true
+      - name: recommend
+        type: radio
+        label: Would you recommend a TODO Group membership to other organizations?
+        required: true
+        options:
+          - "Yes"
+          - "No"
+      - name: other_feedback
+        type: textarea
+        label: Is there anything else you want to tell us?
+        rows: 4

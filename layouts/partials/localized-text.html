@@ -1,0 +1,5 @@
+{{- $text := . -}}
+{{- if eq site.Language.Lang "ja" -}}
+  {{- with index site.Data.ja_ui $text -}}{{- $text = . -}}{{- end -}}
+{{- end -}}
+{{- return (htmlUnescape $text) -}}

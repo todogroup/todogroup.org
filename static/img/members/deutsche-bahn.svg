@@ -1,0 +1,100 @@
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://creativecommons.org/ns#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        width="94.606644mm"
+        height="66.223038mm"
+        viewBox="0 0 94.606644 66.223038"
+        version="1.1"
+        id="svg1098"
+        inkscape:version="0.92.3 (2405546, 2018-03-11)"
+        sodipodi:docname="Alemanya (T) - DB.svg">
+  <defs
+          id="defs1092" />
+  <sodipodi:namedview
+          id="base"
+          pagecolor="#ffffff"
+          bordercolor="#666666"
+          borderopacity="1.0"
+          inkscape:pageopacity="0.0"
+          inkscape:pageshadow="2"
+          inkscape:zoom="1.4"
+          inkscape:cx="192.60453"
+          inkscape:cy="106.66729"
+          inkscape:document-units="mm"
+          inkscape:current-layer="layer1"
+          showgrid="false"
+          fit-margin-top="0"
+          fit-margin-left="0"
+          fit-margin-right="0"
+          fit-margin-bottom="0"
+          inkscape:window-width="1366"
+          inkscape:window-height="745"
+          inkscape:window-x="-8"
+          inkscape:window-y="-8"
+          inkscape:window-maximized="1" />
+  <metadata
+          id="metadata1095">
+    <rdf:RDF>
+      <cc:Work
+              rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+          inkscape:label="Capa 1"
+          inkscape:groupmode="layer"
+          id="layer1"
+          transform="translate(-17.708578,-29.543191)">
+    <g
+            id="g1073"
+            transform="matrix(3.2184604,0,0,-3.2184604,-661.27392,1901.4416)">
+      <g
+              transform="translate(237.435,581.613)"
+              id="g30">
+        <path
+                inkscape:connector-curvature="0"
+                id="path32"
+                style="fill:#e30613;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                d="m 0,0 h -23.516 c -1.616,0 -2.954,-1.278 -2.954,-2.93 v -14.685 c 0,-1.652 1.338,-2.961 2.954,-2.961 H 0 c 1.587,0 2.925,1.309 2.925,2.961 V -2.93 C 2.925,-1.278 1.587,0 0,0" />
+      </g>
+      <g
+              transform="translate(238.213,563.998)"
+              id="g34">
+        <path
+                inkscape:connector-curvature="0"
+                id="path36"
+                style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                d="m 0,0 c 0,-0.468 -0.31,-0.843 -0.778,-0.843 h -23.516 c -0.466,0 -0.808,0.375 -0.808,0.843 v 14.685 c 0,0.468 0.342,0.842 0.808,0.842 H -0.778 C -0.31,15.527 0,15.153 0,14.685" />
+      </g>
+      <g
+              style="fill:#e30613;fill-opacity:1"
+              transform="translate(231.961,564.59)"
+              id="g38">
+        <path
+                inkscape:connector-curvature="0"
+                id="path40"
+                style="fill:#e30613;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                d="m 0,0 h -5.225 v 13.47 h 5.474 c 2.582,0 3.982,-1.06 3.982,-3.586 0,-1.31 -1.09,-2.245 -2.27,-2.837 C 3.609,6.581 4.729,5.58 4.729,3.899 4.729,1.155 2.426,0 0,0 m -2.022,8.138 h 1.121 c 1.057,0 1.835,0.467 1.835,1.622 0,1.278 -0.997,1.622 -2.053,1.622 H -2.022 Z M 1.306,3.962 c 0,1.371 -0.87,1.683 -2.145,1.683 H -2.022 V 2.183 h 1.152 c 1.152,0 2.176,0.375 2.176,1.779" />
+      </g>
+      <g
+              style="fill:#e30613;fill-opacity:1"
+              transform="translate(219.955,564.59)"
+              id="g42">
+        <path
+                inkscape:connector-curvature="0"
+                id="path44"
+                style="fill:#e30613;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                d="M 0,0 H -4.946 V 13.47 H 0 c 3.484,0 5.349,-2.183 5.349,-6.672 C 5.349,2.9 4.105,0.033 0,0 m 2.147,6.518 c 0,2.712 -0.282,4.832 -3.204,4.832 H -1.712 V 2.183 h 1.151 c 1.711,0 2.708,1.372 2.708,4.335" />
+      </g>
+    </g>
+  </g>
+</svg>

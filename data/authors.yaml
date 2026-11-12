@@ -12,7 +12,6 @@ jerpelea:
 nruff:
   name: Nithya Ruff
   twitter: nithyaruff
-  company: SanDisk
 bvanevery:
   name: Benjamin VanEvery
   twitter: bvanevery
@@ -20,27 +19,50 @@ bvanevery:
 bkeepers:
   name: Brandon Keepers
   twitter: bkeepers
-  company: GitHub
 gianugo:
   name: Gianugo Rabellino
   twitter: gianugo
-  company: Microsoft
 caniszczyk:
   name: Chris Aniszczyk
   twitter: cra
   company: CNCF
+Chris Yang:
+  name: Chris Yang
+  company: vivo
+  role: R&D Director and OSPO lead
+  image: https://media.licdn.com/dms/image/v2/D5603AQEkSXKp4Sdp_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1694660305763?e=1785974400&v=beta&t=j1nyqBM_72pTBv0qeiS08VRKd63u96GCRmbpI7A6RCg
+chrisxie-fw:
+  name: Chris Xie
+  company: Futurewei
+  role: Head of Open Source Strategy
+  image: https://media.licdn.com/dms/image/v2/C4E03AQGmKKxk0dWxrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516174663618?e=1785974400&v=beta&t=lHG8aJcz8iEaPFmY14YPAedls5JW5TMFRW_1S24EX6s
 gyehuda:
   name: Gil Yehuda
   twitter: gyehuda
-  company: Verizon Media
 dalmaer:
   name: Dion Almaer
   twitter: dalmaer
   company: Walmart Labs
+geethujoseph:
+  name: Geethu Joseph
+  company: CRESYM
+  role: IT Asset Project Manager & OSPO
+  image: https://avatars.sched.co/8/a5/23129578/avatar.jpg?644
 nzakas:
   name: Nicholas C. Zakas
   twitter: slicknet
-  company: Box
 anajsana:
   name: Ana Jimenez Santamaria
-  company: The Linux Foudation
+  company: The Linux Foundation
+  role: Senior Project Manager
+  image: https://cdn.sessionize.com/image/4742-400o400o2-9XDFd3XnFLH9v35xw5pgas.jpg
+ibrahimatlinux:
+  name: Ibrahim Haddad
+  company: Volvo Cars
+  role: Head of Infotainment Engineering
+  image: https://media.licdn.com/dms/image/v2/D4D03AQH_u1phH9CSnw/profile-displayphoto-crop_800_800/B4DZhrmpwUHsAU-/0/1754151952066?e=1785974400&v=beta&t=EvyhW8bGDqGHlxOtlLXZ41aPr064p0GVsOidgjAr8qI
+david-lippert:
+  name: David Lippert
+  company: George Washington University
+  role: Director, Open Source Program Office
+  image: https://github.com/david-lippert.png

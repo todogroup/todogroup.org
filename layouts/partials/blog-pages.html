@@ -1,0 +1,7 @@
+{{- $pages := where site.RegularPages "Section" "blog" -}}
+{{- if and (eq site.Language.Lang "ja") (not $pages) -}}
+  {{- range site.Home.AllTranslations -}}
+    {{- if eq .Language.Lang "en" -}}{{- $pages = where .Site.RegularPages "Section" "blog" -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $pages -}}

@@ -1,0 +1,48 @@
+{{ $data := site.Data.agentic_ai }}
+{{ $logo := resources.Get "img/agentic-ai/agentic-ai-wg-logo.svg" | resources.Fingerprint }}
+<div class="ai-wg" id="ai-wg">
+  <nav class="ai-breadcrumb" aria-label="Breadcrumb"><a href="/working-groups/">Working groups</a><span aria-hidden="true">/</span><span>Agentic AI</span></nav>
+  <section class="ai-hero" aria-labelledby="ai-title">
+    <div class="ai-hero-copy">
+      <p class="ai-eyebrow">TODO GROUP WORKING GROUP</p>
+      <h1 id="ai-title">Agentic AI to empower OSPOs</h1>
+      <p class="ai-lede">Explore what the community is building, testing, and learning about AI in open source program offices</p>
+      <div class="ai-actions"><a class="button" href="#contributors">Contributors</a><a class="button secondary" href="#show-and-tell">Show and tells</a></div>
+    </div>
+    <div class="ai-wg-logo"><div class="ai-logo-orbit ai-logo-orbit-one" aria-hidden="true"></div><div class="ai-logo-orbit ai-logo-orbit-two" aria-hidden="true"></div><span class="ai-logo-bubble ai-logo-bubble-people" aria-hidden="true">People</span><span class="ai-logo-bubble ai-logo-bubble-governance" aria-hidden="true">Governance</span><span class="ai-logo-bubble ai-logo-bubble-workflows" aria-hidden="true">Workflows</span><img src="{{ $logo.RelPermalink }}" alt="Agentic AI OSPO working group" width="760" height="330"></div>
+  </section>
+  <section class="ai-section" id="contributors" aria-labelledby="contributors-title">
+    <div class="ai-section-heading"><div><p class="ai-eyebrow">THE PEOPLE BEHIND</p><h2 id="contributors-title">Community spotlight</h2></div></div>
+    <div class="ai-people" tabindex="0" role="region" aria-label="Show-and-tell contributors">
+      <div class="ai-people-track">
+        {{ range $copy := seq 0 1 }}
+        <div class="ai-people-group"{{ if eq $copy 1 }} aria-hidden="true" inert{{ end }}>
+          {{ range $data.people }}
+          <article class="ai-person"><div class="ai-person-top"><span class="ai-avatar">{{ with .photo }}<img src="{{ . }}" alt="" width="80" height="80" loading="lazy">{{ else }}{{ .initials }}{{ end }}</span></div><h3><a href="{{ .profile | default (printf "#%s" .session) }}">{{ .name }}</a></h3><p class="ai-org">{{ .org }}</p><a class="ai-person-topic" href="#{{ .session }}">{{ .topic }}</a></article>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <section class="ai-section ai-showcase" id="show-and-tell" aria-labelledby="showcase-title">
+    <div class="ai-section-heading"><div><p class="ai-eyebrow">SHARED ON THE CALL</p><h2 id="showcase-title">See the work</h2></div></div>
+    <div class="ai-topic-guide"><div><span class="ai-topic-dot"></span><strong>AI-assisted OSPO workflows</strong><p>Using AI to support the day-to-day work of an OSPO</p></div><div><span class="ai-topic-dot governance"></span><strong>AI governance & open source</strong><p>How OSPOs help govern AI use and AI-assisted contributions</p></div></div>
+    <div class="ai-filterbar" hidden><div role="group" aria-label="Filter show-and-tell sessions"><button type="button" data-filter="all" aria-pressed="true">All sessions</button><button type="button" data-filter="workflows" aria-pressed="false">AI-assisted workflows</button><button type="button" data-filter="governance" aria-pressed="false">AI governance</button></div><span id="ai-result-count" role="status" aria-live="polite">{{ len $data.cases }} sessions</span></div>
+    <div class="ai-cases">
+      {{ range $data.cases }}
+      <article class="ai-case" id="{{ .id }}" data-topics="{{ delimit .tags " " }}">
+        {{ if .image }}
+        <figure class="ai-case-figure"><a href="{{ .notes }}" aria-label="Read meeting notes: {{ .title }}"><img src="{{ .image }}" alt="{{ .alt }}" width="1200" height="650" loading="lazy"></a></figure>
+        {{ else }}
+        <figure class="ai-case-figure"><div class="ai-diagram ai-diagram-{{ .visual }}" role="img" aria-label="{{ .title }}: illustrative workflow"><span class="ai-diagram-kicker">{{ if eq .visual "metadata" }}METADATA, WITH A HUMAN IN THE LOOP{{ else if eq .visual "evidence" }}STRUCTURED SIGNALS → BETTER QUESTIONS{{ else if eq .visual "pipeline" }}A WORKFLOW PEOPLE CAN REVIEW{{ else if eq .visual "maintainers" }}MORE CONTEXT. BETTER CONTRIBUTIONS.{{ else }}EVIDENCE THAT TRAVELS WITH THE ARTIFACT{{ end }}</span><div class="ai-diagram-flow">{{ if eq .visual "metadata" }}<span>Repository</span><b>→</b><span>Local AI</span><b>→</b><span>Human review</span>{{ else if eq .visual "evidence" }}<span>Scorecard</span><b>+</b><span>MCP</span><b>→</b><span>Evidence</span>{{ else if eq .visual "pipeline" }}<span>Signals</span><b>→</b><span>Agent</span><b>→</b><span>Review</span>{{ else if eq .visual "maintainers" }}<span>Guidance</span><b>→</b><span>Contribution</span><b>→</b><span>Review</span>{{ else }}<span>Artifact</span><b>+</b><span>Attestation</span><b>+</b><span>Approval</span>{{ end }}</div><span class="ai-diagram-file">{{ if eq .visual "metadata" }}{ code.json }{{ else if eq .visual "evidence" }}{ checks · context · provenance }{{ else if eq .visual "pipeline" }}{ compliance artifact }{{ else if eq .visual "maintainers" }}{ contributing.md }{{ else }}{ verifiable provenance }{{ end }}</span></div></figure>
+        {{ end }}
+        <div class="ai-case-body"><div class="ai-case-meta"><time datetime="{{ .date }}">{{ .dateLabel }}</time><div class="ai-tags">{{ range .tags }}<span class="ai-tag {{ . }}">{{ if eq . "workflows" }}AI-assisted workflows{{ else }}AI governance{{ end }}</span>{{ end }}</div></div><h3><a class="ai-case-notes" href="{{ .notes }}" aria-label="Read meeting notes: {{ .title }}">{{ .title }}</a></h3><p class="ai-presenter">{{ .presenter }}{{ with .org }}<span>{{ . }}</span>{{ end }}</p><div class="ai-project-tags" aria-label="Tools">{{ range first 4 .projects }}<a class="ai-project-tag" href="{{ .url }}">{{ .name }}</a>{{ end }}</div></div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  <section class="ai-join" aria-labelledby="join-title"><div><h2 id="join-title">Bring your experience</h2><p>Share a workflow, an experiment, or a governance challenge at any stage</p><a class="button" href="https://join.slack.com/t/thetodogroup/shared_invite/zt-2w71kclgx-JOUB4LTXIuVEKehkJk7V0w">Join TODO Slack</a><span class="ai-slack-hint">Then find <strong>#wg-ai-agents</strong></span></div><div class="ai-join-links"><a href="https://zoom-lfx.platform.linuxfoundation.org/meetings/todogroup?view=week"><span>01</span><div><strong>Join a community call</strong><small>Find the next session on the community calendar</small></div></a><a href="https://github.com/todogroup/working-groups/tree/main/wg-agentic-ai"><span>02</span><div><strong>Contribute an example</strong><small>Explore the repository and bring your work</small></div></a><a href="/about/working-group-chairs/#agentic-ai"><span>03</span><div><strong>Meet the working group chairs</strong><small>Connect with the people supporting the group</small></div></a></div></section>
+</div>
+{{ $script := resources.Get "js/agentic-ai.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" defer></script>

@@ -1,0 +1,44 @@
+{{- /* One resolver for article, list, and social images. Cache by page. */ -}}
+{{- $src := .Params.featured_image -}}
+{{- if not $src -}}{{- with .Params.images -}}{{- $src = index . 0 -}}{{- end -}}{{- end -}}
+{{- $image := dict -}}
+{{- if $src -}}
+  {{- $url := $src | absURL -}}
+  {{- $resource := .Resources.GetMatch $src -}}
+  {{- if not $resource -}}{{- $resource = resources.Get $src -}}{{- end -}}
+  {{- if $resource -}}{{- $url = $resource.Permalink -}}{{- end -}}
+  {{- $image = dict "url" $url "alt" (.Params.featured_image_alt | default .Title) -}}
+  {{- if and $resource (eq $resource.ResourceType "image") (ne $resource.MediaType.SubType "svg") -}}
+    {{- $image = merge $image (dict "width" $resource.Width "height" $resource.Height) -}}
+  {{- end -}}
+{{- else -}}
+  {{- $title := .Title | plainify | htmlUnescape -}}
+  {{- $size := 64 -}}
+  {{- $lines := slice -}}
+  {{- range slice 64 56 48 40 32 24 16 -}}
+    {{- $size = . -}}
+    {{- $lines = partial "blog/title-lines.html" (dict "title" $title "size" $size) -}}
+    {{- if le (mul (len $lines) (mul $size 1.15)) 280 -}}{{- break -}}{{- end -}}
+  {{- end -}}
+  {{- $banner := resources.Get "social/blog-background.jpg" -}}
+  {{- $font := resources.Get "blog/oswald-bold.ttf" -}}
+  {{- range $i, $line := $lines -}}
+    {{- $y := add 168 (mul $i (mul $size 1.15)) | int -}}
+    {{- $color := cond (eq $i 0) "#ffffff" "#b7df80" -}}
+    {{- $banner = $banner.Filter (images.Text $line (dict "font" $font "size" $size "color" $color "x" 64 "y" $y)) -}}
+  {{- end -}}
+  {{- $author := .Params.author | default "TODO Group" -}}
+  {{- with index site.Data.authors $author -}}
+    {{- $author = .name -}}
+    {{- with .company -}}{{- if ne . $author -}}{{- $author = printf "%s / %s" $author . -}}{{- end -}}{{- end -}}
+  {{- end -}}
+  {{- range .Params.coauthors -}}
+    {{- $co := . -}}
+    {{- with index site.Data.authors . -}}{{- $co = .name -}}{{- end -}}
+    {{- $author = printf "%s & %s" $author $co -}}
+  {{- end -}}
+  {{- $authorY := add 198 (mul (len $lines) (mul $size 1.15)) | int -}}
+  {{- $banner = $banner.Filter (images.Text (printf "%s" ($author | truncate 80 | htmlUnescape)) (dict "size" 22 "color" "#e0eddf" "x" 64 "y" $authorY)) -}}
+  {{- $image = dict "url" $banner.Permalink "alt" $title "width" 1200 "height" 630 -}}
+{{- end -}}
+{{- return $image -}}

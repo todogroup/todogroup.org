@@ -27,6 +27,6 @@ TODO 为大家提供的 OSPO 资源是开放的，并在 TODO Group 的 GitHub �
 
 所有的 TODO 资源均由我们这个专业的实践者社区在公开场合中共同创建的，而您也可以加入我们这个大家庭！请查看“线上会议”部分的日程安排，并参与我们的活跃工作小组。或者，您可以深入研究 OSPOlogy 仓库，为像 OSPO Book、OSPO MindMap 这样的项目做出贡献。
 
-想要了解如何进一步参与，请访问我们的[贡献者途径](https://github.com/todogroup/ospology/blob/main/GOVERNANCE.md)。
+您可以在 [OSPOlogy 的公开问题列表](https://github.com/todogroup/ospology/issues)中寻找参与机会。
 
 {{< button link="https://github.com/todogroup/ospology/" text="OSPOlogy Repo" >}} {{< button link="/community/meetings/" style="secondary" text="参加线上会议" >}}

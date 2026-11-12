@@ -1,0 +1,21 @@
+{{ if eq .Language.Lang "ja" }}
+  {{ with .Paginator }}
+    {{ if gt .TotalPages 1 }}
+      {{ $pager := . }}
+      {{ $last := math.Min .TotalPages (math.Max 5 (add .PageNumber 2)) | int }}
+      {{ $first := math.Max 1 (sub $last 4) | int }}
+      <nav aria-label="ブログのページ切り替え"><ul class="pagination pagination-default">
+        <li class="page-item{{ if not .HasPrev }} disabled{{ end }}"><a class="page-link"{{ if .HasPrev }} href="{{ .First.URL }}"{{ else }} aria-disabled="true" tabindex="-1"{{ end }} aria-label="最初のページ">««</a></li>
+        <li class="page-item{{ if not .HasPrev }} disabled{{ end }}"><a class="page-link"{{ if .HasPrev }} href="{{ .Prev.URL }}"{{ else }} aria-disabled="true" tabindex="-1"{{ end }} aria-label="前のページ">«</a></li>
+        {{ range seq $first $last }}
+          {{ $item := index $pager.Pagers (sub . 1) }}
+          <li class="page-item{{ if eq . $pager.PageNumber }} active{{ end }}"><a class="page-link" href="{{ $item.URL }}" aria-label="{{ . }} ページ"{{ if eq . $pager.PageNumber }} aria-current="page"{{ end }}>{{ . }}</a></li>
+        {{ end }}
+        <li class="page-item{{ if not .HasNext }} disabled{{ end }}"><a class="page-link"{{ if .HasNext }} href="{{ .Next.URL }}"{{ else }} aria-disabled="true" tabindex="-1"{{ end }} aria-label="次のページ">»</a></li>
+        <li class="page-item{{ if not .HasNext }} disabled{{ end }}"><a class="page-link"{{ if .HasNext }} href="{{ .Last.URL }}"{{ else }} aria-disabled="true" tabindex="-1"{{ end }} aria-label="最後のページ">»»</a></li>
+      </ul></nav>
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

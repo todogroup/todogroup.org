@@ -1,0 +1,8 @@
+<link href='{{ "pagefind/pagefind-ui.css" | absURL }}' rel="stylesheet">
+<script src='{{ "pagefind/pagefind-ui.js" | absURL }}' defer></script>
+<div id="search"></div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    new PagefindUI({ element: "#search", showSubResults: true{{ if eq site.Language.Lang "ja" }}, translations: { placeholder: "サイト内を検索", zero_results: "「[SEARCH_TERM]」に一致する結果はありません", clear_search: "検索をクリア", load_more: "さらに結果を表示", searching: "検索中…", one_result: "「[SEARCH_TERM]」の検索結果 1 件", many_results: "「[SEARCH_TERM]」の検索結果 [COUNT] 件" }{{ end }} });
+  });
+</script>

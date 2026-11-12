@@ -10,3 +10,99 @@
 {{ if (eq .Kind "home") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="all">
 {{ end }}
+
+{{ if eq .Section "blog" }}
+<style>
+  .blog-featured-image, .content > .blog-featured-image { display: block; width: 100%; max-width: var(--content-width, 895px); height: auto; margin: 1.5rem 0 2.5rem; border-radius: 12px; }
+  .blog-item .blog-featured-image { max-width: 600px; }
+</style>
+{{ end }}
+
+{{ if or (.HasShortcode "steering-committee-application") (.HasShortcode "member-survey") }}
+{{ $formStyle := resources.Get "css/steering-committee-application.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $formStyle.RelPermalink }}" integrity="{{ $formStyle.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "member-survey" }}
+{{ $surveyStyle := resources.Get "css/member-survey.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $surveyStyle.RelPermalink }}" integrity="{{ $surveyStyle.Data.Integrity }}">
+{{ end }}
+
+{{ $navigation := resources.Get "scss/navigation.scss" | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $navigation.RelPermalink }}" integrity="{{ $navigation.Data.Integrity }}">
+
+{{ if .HasShortcode "working-group-leadership" }}
+{{ $leadership := resources.Get "css/working-group-leadership.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $leadership.RelPermalink }}" integrity="{{ $leadership.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "steering-committee" }}
+{{ $steering := resources.Get "css/steering-committee.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $steering.RelPermalink }}" integrity="{{ $steering.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "events-hub" }}
+{{ $events := resources.Get "css/events-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $events.RelPermalink }}" integrity="{{ $events.Data.Integrity }}">
+{{ end }}
+
+{{ if or .IsHome (and (in (slice "blog" "studies" "guides" "working-groups") .Section) (eq .Kind "section")) }}
+{{ $cards := resources.Get "css/content-cards.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $cards.RelPermalink }}" integrity="{{ $cards.Data.Integrity }}">
+{{ end }}
+
+{{ if .IsHome }}
+{{ $members := resources.Get "css/member-carousel.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $members.RelPermalink }}" integrity="{{ $members.Data.Integrity }}">
+{{ end }}
+
+{{ if .IsHome }}
+{{ $team := resources.Get "css/team-ospo.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $team.RelPermalink }}" integrity="{{ $team.Data.Integrity }}">
+{{ $teamScript := resources.Get "js/team-ospo.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $teamScript.RelPermalink }}" integrity="{{ $teamScript.Data.Integrity }}"></script>
+{{ end }}
+
+{{ $themeStyle := resources.Get "css/color-theme.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $themeStyle.RelPermalink }}" integrity="{{ $themeStyle.Data.Integrity }}">
+
+{{ if in (slice "en" "ja") .Language.Lang }}
+{{ $ospochiStyle := resources.Get "css/ospochi.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $ospochiStyle.RelPermalink }}" integrity="{{ $ospochiStyle.Data.Integrity }}">
+{{ end }}
+
+{{ if .HasShortcode "join-hub" }}
+{{ $joinStyle := resources.Get "css/join-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $joinStyle.RelPermalink }}" integrity="{{ $joinStyle.Data.Integrity }}">
+{{ end }}
+
+{{ if or (.HasShortcode "associate-organizations") (.HasShortcode "general-members") }}
+{{ $associateStyle := resources.Get "css/associate-organizations.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $associateStyle.RelPermalink }}" integrity="{{ $associateStyle.Data.Integrity }}">
+{{ $associateScript := resources.Get "js/associate-organizations.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $associateScript.RelPermalink }}" integrity="{{ $associateScript.Data.Integrity }}"></script>
+{{ end }}
+
+{{ if or (.HasShortcode "about-hub") (.HasShortcode "jobs-hub") (.HasShortcode "get-started-hub") (.HasShortcode "meetings-hub") }}
+{{ $communityStyle := resources.Get "css/community-pages.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $communityStyle.RelPermalink }}" integrity="{{ $communityStyle.Data.Integrity }}">
+{{ end }}
+{{ if .HasShortcode "jobs-hub" }}
+{{ $jobsScript := resources.Get "js/jobs-hub.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $jobsScript.RelPermalink }}" integrity="{{ $jobsScript.Data.Integrity }}"></script>
+{{ end }}
+
+{{ if .HasShortcode "meetings-hub" }}
+{{ $meetingsStyle := resources.Get "css/meetings-hub.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $meetingsStyle.RelPermalink }}" integrity="{{ $meetingsStyle.Data.Integrity }}">
+<script defer src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js" integrity="sha384-LjuMvep2w70bTtVscyL+xkqhYr7Y0kTM4t5cwWMy0xOTfl5duHb7MnP6K3J3/4Mk" crossorigin="anonymous"></script>
+{{ $meetingParser := resources.Get "js/meeting-events.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $meetingParser.RelPermalink }}" integrity="{{ $meetingParser.Data.Integrity }}"></script>
+{{ $meetingsScript := resources.Get "js/meetings-hub.js" | resources.Minify | resources.Fingerprint }}
+<script type="module" src="{{ $meetingsScript.RelPermalink }}" integrity="{{ $meetingsScript.Data.Integrity }}"></script>
+{{ end }}
+
+{{ if .HasShortcode "agentic-ai" }}
+{{ $agentic := resources.Get "css/agentic-ai.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $agentic.RelPermalink }}" integrity="{{ $agentic.Data.Integrity }}">
+{{ end }}

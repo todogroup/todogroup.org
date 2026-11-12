@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Art"
+   viewBox="0 0 576 129.8"
+   version="1.1"
+   sodipodi:docname="nokia.svg"
+   width="576"
+   height="129.8"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview189"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.86489899"
+     inkscape:cx="288.47299"
+     inkscape:cy="65.90365"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Art" />
+  <defs
+     id="defs184">
+    <style
+       id="style182">.cls-1{fill:#005aff;}</style>
+  </defs>
+  <g
+     id="Logo"
+     transform="translate(-108.1,-241)">
+    <path
+       id="Wordmark"
+       class="cls-1"
+       d="M 506.2,245.1 V 367 c 0,0 19.1,0 19.1,0 V 245.1 Z M 302.3,243 c -37.2,0 -66,25.9 -66,63 0,37.1 28.9,63 66,63 37.2,0 66.1,-24.3 66,-63 0,-35.2 -28.9,-63 -66,-63 z m 47,63 c 0,27.5 -21,45.7 -47,45.7 -26,0 -47,-18.2 -47,-45.7 0,-27.5 21,-45.7 47,-45.7 26,0 47,18.7 47,45.7 z M 108.1,241.1 v 125.8 h 19.5 v -83.2 c 0,0 101.2,87.1 101.2,87.1 V 344.7 L 108.1,241 Z m 274.6,64.9 70.8,60.9 h 28.4 c 0,0 -71,-60.9 -71,-60.9 l 71,-60.9 h -28.4 z m 301.4,60.9 h -21 l -15.4,-27 h -69.6 l -15.4,27 h -21 l 25.4,-45 h 70.5 l -35.1,-62.5 10.4,-18.3 v 0 c 0,0 0,0 0,0 L 684,366.9 Z" />
+  </g>
+</svg>

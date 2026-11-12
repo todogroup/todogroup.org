@@ -3,11 +3,21 @@ publish = "public"
 command = "make production-build"
 
 [build.environment]
-NODE_VERSION = "18.14.0"
+NODE_VERSION = "22"
 HUGO_VERSION = "0.126.1"
+
+[functions]
+directory = "netlify/functions"
+node_bundler = "esbuild"
 
 [context.deploy-preview]
 command = "make preview-build"
 
 [context.branch-deploy]
 command = "make preview-build"
+
+[[redirects]]
+from = "/calendar-feeds/*"
+to = "/.netlify/functions/community-calendar/:splat"
+status = 200
+force = true

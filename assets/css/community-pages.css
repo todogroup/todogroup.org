@@ -1,0 +1,75 @@
+.community-hub { --community-surface:#f1f6ef; --community-line:#dce7df; --community-accent:#016554; --community-on-accent:#fff; }
+.community-hub *, .community-hub *::before, .community-hub *::after { box-sizing:border-box; }
+.content .community-hub, .community-hub :is(section,article,aside,figure,div) { max-width:none; }
+.community-hub p { margin:0 0 22px; line-height:1.65; }
+.community-hub h1 { margin:0 0 24px; font-size:clamp(48px,5.5vw,76px); line-height:1.08; }
+.community-hub h1 span { color:var(--primary-800); }
+.community-hub h2 { margin:0 0 22px; font-size:clamp(30px,3.3vw,42px); line-height:1.2; color:var(--primary-800); }
+.community-hub h3 { margin:0 0 14px; font-size:25px; line-height:1.3; color:var(--primary-800); }
+.community-hub .community-eyebrow { margin:0 0 18px; color:var(--primary-600); font-size:12px; letter-spacing:1.4px; text-transform:uppercase; font-weight:800; }
+.community-hero { display:grid; grid-template-columns:1.1fr 1fr; align-items:center; gap:64px; padding:64px 0 56px; }
+.community-hub .community-lead { font-size:23px; line-height:1.45; color:var(--primary-800); }
+.community-photo { margin:0; }
+.community-photo img { display:block; width:100%; height:430px; border-radius:28px 28px 90px 28px; object-fit:cover; object-position:center 65%; }
+.community-photo figcaption { margin-top:12px; font-size:12px; color:var(--gray-800); }
+.community-button { display:inline-flex; align-items:center; justify-content:center; gap:12px; padding:14px 22px; border:0; border-radius:28px; background:var(--community-accent); color:var(--community-on-accent); text-decoration:none; font:inherit; font-size:14px; font-weight:800; line-height:1.4; cursor:pointer; }
+.community-button:hover { filter:brightness(.92); }
+.community-button--secondary { background:var(--community-surface); color:var(--primary-800); border:1px solid var(--community-line); }
+.community-section { padding:52px 0; border-top:1px solid var(--community-line); }
+.community-intro { max-width:780px!important; }
+.community-card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin-top:32px; }
+.community-card { padding:28px; border:1px solid var(--community-line); border-radius:20px; display:flex; flex-direction:column; align-items:flex-start; background:var(--white); transition:transform .18s,border-color .18s; }
+.community-card:hover { transform:translateY(-4px); border-color:var(--primary-600); }
+.community-icon { width:52px; height:52px; display:grid; place-items:center; border-radius:16px; color:var(--primary-700); background:var(--community-surface); flex-shrink:0; margin-bottom:22px; }
+.community-card a { margin-top:auto; padding-top:12px; }
+.community-hub :is(.community-card a,.community-steps a,.community-links a) { font-size:14px; font-weight:800; text-decoration:none; }
+.community-hub :is(.community-card a,.community-steps a,.community-links a):hover { text-decoration:underline; text-underline-offset:4px; }
+.community-network { display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center; padding:44px; border-radius:24px; background:var(--community-surface); margin:16px 0 52px; }
+.community-stats { display:grid; gap:12px; }
+.community-stats a { display:grid; grid-template-columns:80px 1fr auto; align-items:center; gap:14px; padding:18px 0; border-bottom:1px solid var(--community-line); text-decoration:none; color:var(--link-color); }
+.community-stats a:last-child { border:0; }
+.community-stats strong { font-size:48px; font-weight:800; line-height:1; }
+.community-stats span { font-size:14px; }
+.community-links { display:flex; flex-wrap:wrap; gap:12px; }
+.community-links a { display:flex; align-items:center; justify-content:space-between; gap:22px; padding:18px 22px; border:1px solid var(--community-line); border-radius:12px; background:var(--white); }
+.community-links--stacked { display:grid; }
+.community-disclosure { border-top:1px solid var(--community-line); border-bottom:1px solid var(--community-line); padding:24px 0; margin:8px 0 56px; }
+.community-disclosure summary { font-size:19px; font-weight:700; color:var(--primary-800); cursor:pointer; }
+.community-disclosure__body { padding:28px 0 0; }
+.community-tags { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+.community-tags span { display:block; padding:8px 13px; border:1px solid var(--community-line); border-radius:24px; font-size:12px; color:var(--primary-800); }
+.jobs-channel { padding:36px; background:#003c32; color:#fff; border-radius:28px 28px 70px 28px; }
+.jobs-channel__heading { display:flex; align-items:center; gap:14px; margin-bottom:28px; font-size:14px; font-weight:700; }
+.jobs-channel .community-icon { margin:0; background:#1c574b; color:#a8d74a; }
+.jobs-channel h2 { color:#fff; font-size:38px; }
+.jobs-channel h2 span { color:#b2df8a; }
+.jobs-channel .community-button { background:#b2df8a; color:#17371e; }
+.jobs-channel .jobs-channel__join { font-size:14px; margin:24px 0 10px; }
+.jobs-channel__join a { color:#c4ecd9; text-underline-offset:3px; }
+.jobs-channel small { color:#bcd3ca; font-size:12px; line-height:1.5; }
+.jobs-template { padding:28px; border:1px solid var(--community-line); border-radius:18px; background:var(--white); }
+.jobs-template pre { white-space:pre-wrap; overflow-wrap:anywhere; color:var(--text-color); font-size:14px; line-height:1.8; background:none; padding:0; margin:20px 0; }
+.community-hub .jobs-copy-status { font-size:13px; margin:14px 0 0; }
+.jobs-copy-status:empty { display:none; }
+.jobs-public-listings { margin:28px 0 0; }
+.community-welcome { padding:44px; border-radius:50% 50% 44px 44px; min-height:390px; display:flex; flex-direction:column; justify-content:center; background:var(--community-surface); }
+.community-welcome>span { color:var(--primary-500); font-size:70px; font-weight:900; line-height:1; margin-bottom:24px; }
+.community-hub .community-welcome p { color:var(--primary-800); font-size:27px; line-height:1.25; font-weight:700; margin-bottom:14px; }
+.community-welcome small { color:var(--primary-600); font-size:14px; font-weight:800; margin-top:18px; }
+.community-steps { list-style:none; margin:30px 0 0; padding:0; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
+.community-steps li { padding:0; margin:0; }
+.community-step-number { display:flex; align-items:center; justify-content:center; width:48px; height:48px; border-radius:50%; color:var(--primary-800); background:var(--community-surface); font-size:15px; font-weight:800; margin-bottom:24px; }
+.community-hub .community-note { font-size:14px; margin:30px 0 0; color:var(--gray-800); }
+.community-hub :focus-visible { outline:3px solid var(--primary-500); outline-offset:5px; }
+.community-hub [hidden] { display:none!important; }
+html[data-theme="dark"] .community-hub { --community-surface:#20352a; --community-line:#344a3e; --community-accent:#99dfc8; --community-on-accent:#10291e; }
+html[data-theme="dark"] .jobs-channel { background:#183c30; border:1px solid #375c48; }
+@media(max-width:1000px) { .community-hero { gap:32px; } .community-network { gap:32px; padding:32px; } .community-card { padding:24px; } .community-stats a { grid-template-columns:66px 1fr auto; } .community-stats strong { font-size:40px; } }
+@media(max-width:700px) { .community-hero { grid-template-columns:minmax(0,1fr); padding:32px 0 40px; } .community-photo img { height:300px; } .community-card-grid,.community-steps,.community-network { grid-template-columns:minmax(0,1fr); } .community-card-grid,.community-steps { gap:22px; } .community-network { padding:26px; margin-bottom:40px; } .community-section { padding:36px 0; } .community-hub h1 { font-size:48px; } .community-hub h2 { font-size:32px; } .community-steps li { display:flex; gap:20px; } .community-step-number { flex-shrink:0; } .community-welcome { min-height:300px; padding:36px; } .jobs-channel { padding:28px; } }
+@media(prefers-reduced-motion:reduce) { .community-card { transition:none; } .community-card:hover { transform:none; } }
+
+.about-hub .community-hero { grid-template-columns:minmax(0,1fr); }
+.about-hub .community-hero>div { max-width:880px; }
+.community-stats a { grid-template-columns:minmax(100px,max-content) minmax(0,1fr) auto; }
+.community-stats strong { white-space:nowrap; font-variant-numeric:tabular-nums; }
+@media(max-width:480px) { .community-stats a { grid-template-columns:90px minmax(0,1fr) auto; } }

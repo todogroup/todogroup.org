@@ -1,0 +1,31 @@
+{{- $image := dict -}}
+{{- if or .Params.featured_image .Params.images -}}
+  {{- $image = partialCached "blog/image.html" . .RelPermalink -}}
+{{- else if eq .File.ContentBaseName "agentic-ai" -}}
+  {{- $banner := resources.Get "social/agentic-ai.jpg" | resources.Fingerprint -}}
+  {{- $image = dict "url" $banner.Permalink "alt" .Title "width" 1200 "height" 630 -}}
+{{- else -}}
+  {{- $title := .Title -}}
+  {{- if ne .Language.Lang "en" -}}
+    {{- range .Translations -}}
+      {{- if eq .Language.Lang "en" -}}{{- $title = .Title -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $title = $title | plainify | htmlUnescape | replaceRE `(?i) working group$` "" -}}
+  {{- $size := 76 -}}
+  {{- $lines := slice -}}
+  {{- range slice 76 64 56 48 40 32 24 16 -}}
+    {{- $size = . -}}
+    {{- $lines = partial "blog/title-lines.html" (dict "title" $title "size" $size) -}}
+    {{- if le (mul (len $lines) (mul $size 1.15)) 300 -}}{{- break -}}{{- end -}}
+  {{- end -}}
+  {{- $banner := resources.Get "social/working-group-background.jpg" -}}
+  {{- $font := resources.Get "blog/oswald-bold.ttf" -}}
+  {{- range $i, $line := $lines -}}
+    {{- $y := add 178 (mul $i (mul $size 1.15)) | int -}}
+    {{- $color := cond (eq $i 0) "#003c32" "#579e00" -}}
+    {{- $banner = $banner.Filter (images.Text $line (dict "font" $font "size" $size "color" $color "x" 64 "y" $y)) -}}
+  {{- end -}}
+  {{- $image = dict "url" $banner.Permalink "alt" .Title "width" 1200 "height" 630 -}}
+{{- end -}}
+{{- return $image -}}

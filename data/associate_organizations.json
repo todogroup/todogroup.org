@@ -1,0 +1,60 @@
+{
+  "source": "https://github.com/todogroup/ospolandscape/blob/main/landscape.yml",
+  "organizations": [
+    {
+      "name": "CHAOSS",
+      "url": "https://chaoss.community/",
+      "logo": "chaoss.svg"
+    },
+    {
+      "name": "CURIOSS",
+      "url": "https://curioss.org/",
+      "logo": "curioss.svg"
+    },
+    {
+      "name": "ESOP",
+      "url": "https://esop.pt",
+      "logo": "esop.svg"
+    },
+    {
+      "name": "FINOS",
+      "url": "https://www.finos.org/",
+      "logo": "finos.svg"
+    },
+    {
+      "name": "Foundation for Public Code",
+      "url": "https://publiccode.net/",
+      "logo": "foundationforpubliccode.svg"
+    },
+    {
+      "name": "InnerSource Commons",
+      "url": "https://innersourcecommons.org/",
+      "logo": "isc.svg"
+    },
+    {
+      "name": "LF APAC OSPO SIG",
+      "url": "https://training.linuxfoundation.cn/tag/LFAPAC",
+      "logo": "lfapac-osposig.svg"
+    },
+    {
+      "name": "LF Energy",
+      "url": "https://www.lfenergy.org/projects-new",
+      "logo": "lf-energy.svg"
+    },
+    {
+      "name": "LF Europe",
+      "url": "https://linuxfoundation.eu/",
+      "logo": "lf-europe.svg"
+    },
+    {
+      "name": "OpenChain",
+      "url": "https://www.openchainproject.org/",
+      "logo": "openchain.svg"
+    },
+    {
+      "name": "OpenSSF",
+      "url": "https://openssf.org/",
+      "logo": "openssf.svg"
+    }
+  ]
+}

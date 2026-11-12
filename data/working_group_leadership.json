@@ -1,0 +1,34 @@
+[
+  {
+    "id": "oss-in-business",
+    "name": "OSS in Business",
+    "url": "/working-groups/oss-in-business/",
+    "chairs": [
+      "swastik-baranwal",
+      "fernando-eugenio-correa"
+    ],
+    "liaison": "georg-kunz"
+  },
+  {
+    "id": "agentic-ai",
+    "name": "Agentic AI to Empower OSPOs",
+    "url": "/working-groups/agentic-ai/",
+    "chairs": [
+      "ashleywolf",
+      "ana-jimenez-santamaria",
+      "stephenaugustus",
+      "diegomastroianni"
+    ],
+    "liaison": "annaniam"
+  },
+  {
+    "id": "chaoss-ospo-metrics",
+    "name": "OSPO Metrics with CHAOSS",
+    "url": "/working-groups/chaoss-ospo-metrics/",
+    "chairs": [
+      "dawnfoster",
+      "ajerpelea"
+    ],
+    "liaison": "annaniam"
+  }
+]

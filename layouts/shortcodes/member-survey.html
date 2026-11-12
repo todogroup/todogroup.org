@@ -1,0 +1,120 @@
+{{- /* Renders the General Member Survey from data/member_survey_2026.yaml as a Netlify form.
+     Access to the page is gated by netlify/edge-functions/member-survey-gate.js. */ -}}
+{{- $survey := site.Data.member_survey_2026 -}}
+{{- $formName := $survey.form_name -}}
+<div class="survey" data-pagefind-ignore="all">
+  <p>Thank you for being a TODO Group General Member. This survey helps us understand how TODO Group supports you as an OSPO leader with open source management, policies, AI governance, and more. It also helps us decide what to focus on in 2027.</p>
+  <p>It takes about <strong>5 minutes</strong>. Only the questions marked * are required.</p>
+
+  <form class="nomination-form survey-form" name="{{ $formName }}" method="POST" action="{{ "community/2026-member-survey-thanks/" | relURL }}" data-netlify="true" netlify-honeypot="bot-field" aria-label="2026 TODO Group General Member Survey">
+    <input type="hidden" name="form-name" value="{{ $formName }}">
+    <p hidden><label>Leave this field empty: <input name="bot-field" autocomplete="off" tabindex="-1"></label></p>
+
+    {{- $n := 0 }}
+    {{- range $section := $survey.sections }}
+    <fieldset>
+      <legend>{{ $section.legend }}</legend>
+      {{- range $q := $section.questions }}
+      {{- $n = add $n 1 }}
+      {{- $id := printf "survey-%s" (replace $q.name "_" "-") }}
+      {{- $req := $q.required | default false }}
+      {{- $label := printf "%d. %s" $n $q.label }}
+      <div class="nomination-form__field survey-question" data-type="{{ $q.type }}"{{ with $q.max }}{{ if eq $q.type "checkbox" }} data-max="{{ . }}"{{ end }}{{ end }}>
+        {{- if eq $q.type "select" }}
+        <label for="{{ $id }}">{{ $label }}{{ if $req }} <span aria-hidden="true">*</span>{{ end }}</label>
+        {{- with $q.help }}<p id="{{ $id }}-help" class="nomination-form__help">{{ . }}</p>{{ end }}
+        <select id="{{ $id }}" name="{{ $q.name }}" class="survey-select"{{ with $q.help }} aria-describedby="{{ $id }}-help"{{ end }}{{ if $req }} required{{ end }}{{ if in $q.options "Other" }} data-other="{{ $id }}-other"{{ end }}>
+          <option value="">{{ $q.placeholder | default "Choose one" }}</option>
+          {{- range $q.options }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+        </select>
+        {{- if in $q.options "Other" }}
+        <div class="survey-other" id="{{ $id }}-other-wrap" hidden>
+          <label for="{{ $id }}-other">Please specify</label>
+          <input id="{{ $id }}-other" name="{{ $q.name }}_other" type="text" maxlength="300">
+        </div>
+        {{- end }}
+
+        {{- else if in (slice "text" "textarea") $q.type }}
+        <label for="{{ $id }}">{{ $label }}{{ if $req }} <span aria-hidden="true">*</span>{{ end }}</label>
+        {{- with $q.help }}<p id="{{ $id }}-help" class="nomination-form__help">{{ . }}</p>{{ end }}
+        {{- if eq $q.type "text" }}
+        <input id="{{ $id }}" name="{{ $q.name }}" type="text" maxlength="300"{{ with $q.autocomplete }} autocomplete="{{ . }}"{{ end }}{{ with $q.help }} aria-describedby="{{ $id }}-help"{{ end }}{{ if $req }} required{{ end }}>
+        {{- else }}
+        <textarea id="{{ $id }}" name="{{ $q.name }}" rows="{{ $q.rows | default 4 }}" maxlength="5000"{{ with $q.help }} aria-describedby="{{ $id }}-help"{{ end }}{{ if $req }} required{{ end }}></textarea>
+        {{- end }}
+
+        {{- else }}
+        <fieldset class="survey-group"{{ with $q.help }} aria-describedby="{{ $id }}-help"{{ end }}>
+          <legend class="survey-group__legend">{{ $label }}{{ if $req }} <span aria-hidden="true">*</span>{{ end }}</legend>
+          {{- with $q.help }}<p id="{{ $id }}-help" class="nomination-form__help">{{ . }}</p>{{ end }}
+
+          {{- if eq $q.type "scale" }}
+          <div class="survey-scale">
+            <div class="survey-scale__options">
+              {{- range $v := seq $q.min $q.max }}
+              <label class="survey-scale__option">
+                <input type="radio" name="{{ $q.name }}" value="{{ $v }}"{{ if $req }} required{{ end }}>
+                <span>{{ $v }}</span>
+              </label>
+              {{- end }}
+            </div>
+            <div class="survey-scale__ends" aria-hidden="true"><span>{{ $q.min }} = {{ $q.min_label }}</span><span>{{ $q.max }} = {{ $q.max_label }}</span></div>
+          </div>
+
+          {{- else if eq $q.type "matrix" }}
+          <div class="survey-matrix" role="presentation">
+            <div class="survey-matrix__head" aria-hidden="true">
+              <span></span>
+              {{- range $v := seq $q.min $q.max }}<span>{{ $v }}</span>{{ end }}
+              <span>{{ $q.none_label }}</span>
+            </div>
+            {{- range $row := $q.rows }}
+            {{- $rowName := printf "%s_%s" $q.name $row.name }}
+            <fieldset class="survey-matrix__row">
+              <legend class="survey-matrix__label">{{ $row.label }}</legend>
+              {{- range $v := seq $q.min $q.max }}
+              <label class="survey-matrix__cell"><input type="radio" name="{{ $rowName }}" value="{{ $v }}"><span class="survey-matrix__value">{{ $v }}</span></label>
+              {{- end }}
+              <label class="survey-matrix__cell survey-matrix__cell--none"><input type="radio" name="{{ $rowName }}" value="{{ $q.none_label }}"><span class="survey-matrix__value">{{ $q.none_label }}</span></label>
+            </fieldset>
+            {{- end }}
+            <div class="survey-scale__ends" aria-hidden="true"><span>{{ $q.min }} = {{ $q.min_label }}</span><span>{{ $q.max }} = {{ $q.max_label }}</span></div>
+          </div>
+
+          {{- else }}
+          {{- $inputType := cond (eq $q.type "checkbox") "checkbox" "radio" }}
+          {{- $fieldName := cond (eq $q.type "checkbox") (printf "%s[]" $q.name) $q.name }}
+          <div class="survey-options">
+            {{- range $i, $opt := $q.options }}
+            {{- $optId := printf "%s-%d" $id $i }}
+            <label class="survey-option" for="{{ $optId }}">
+              <input id="{{ $optId }}" type="{{ $inputType }}" name="{{ $fieldName }}" value="{{ $opt }}"{{ if and $req (eq $inputType "radio") }} required{{ end }}{{ if eq $opt "Other" }} data-other="{{ $id }}-other"{{ end }}{{ if eq $opt "None of the above" }} data-exclusive{{ end }}{{ if eq $opt "Not yet" }} data-exclusive{{ end }}>
+              <span>{{ $opt }}</span>
+            </label>
+            {{- end }}
+          </div>
+          {{- if in $q.options "Other" }}
+          <div class="survey-other" id="{{ $id }}-other-wrap" hidden>
+            <label for="{{ $id }}-other">Please specify</label>
+            <input id="{{ $id }}-other" name="{{ $q.name }}_other" type="text" maxlength="300">
+          </div>
+          {{- end }}
+          {{- with $q.max }}<p class="nomination-form__help survey-limit" aria-live="polite"></p>{{ end }}
+          {{- end }}
+        </fieldset>
+        {{- end }}
+      </div>
+      {{- end }}
+    </fieldset>
+    {{- end }}
+
+    <div class="nomination-form__notice">
+      <h2>How your answers will be used</h2>
+      <p>Answers are collected through Netlify Forms. Only TODO Group staff at the Linux Foundation can see your name, your organization, and your individual answers. We share results with the TODO Group Steering Committee only in aggregate, without names or organizations.</p>
+      <p>Please do not include confidential information. See the <a href="https://www.linuxfoundation.org/privacy">Linux Foundation Privacy Policy</a>.</p>
+    </div>
+    <button type="submit" class="button">Submit survey</button>
+  </form>
+</div>
+{{ $script := resources.Get "js/member-survey.js" | resources.Fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>

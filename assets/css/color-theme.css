@@ -56,7 +56,6 @@ html[data-theme="dark"] .events-hub .events-button:hover { background:#bcebdc; c
 html[data-theme="dark"] .events-hub :is(.events-card,.events-finder__search input,.events-finder__select select,.events-finder__views button,.events-calendar__nav,.events-finder__tabs button[aria-selected="true"]) { background-color:#192621; border-color:#344a3e; color:#e1eae5; }
 html[data-theme="dark"] .events-hub :is(.events-finder__tabs,.events-card__media:not(.events-card__media--brand),.events-finder__views button[aria-pressed="true"],.events-calendar__weekday,.events-calendar__day--blank) { background-color:#20352a; }
 html[data-theme="dark"] .events-hub .events-finder__views button[aria-pressed="true"] { color:#8ad8b9; border-color:#8ad8b9; }
-html[data-theme="dark"] .events-hub .events-card__place { background:rgba(16,41,30,.9); color:#d6eee0; }
 html[data-theme="dark"] .events-hub .events-finder__map-canvas { background:#10291e; }
 html[data-theme="dark"] .events-hub .events-map-country { stroke:#3d5347; fill:#20352a; }
 html[data-theme="dark"] .events-hub .events-card__hosts li { background:#f4f8f5; border-color:#344a3e; }

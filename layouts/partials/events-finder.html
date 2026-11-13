@@ -34,7 +34,6 @@
       <img src="{{ $image | relURL }}" alt="" loading="lazy" width="500" height="500">
       <img class="events-card__flag" src="{{ printf "/img/flags/%s.svg" ($e.country | default "world") | relURL }}" alt="" loading="lazy" width="40" height="40">
     </span>
-    <span class="events-card__place">{{ $e.location }}</span>
     {{- else }}
     <img src="{{ $image | relURL }}" alt="" loading="lazy" width="640" height="360">
     {{- end }}

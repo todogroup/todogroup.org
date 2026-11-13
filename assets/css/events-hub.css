@@ -105,7 +105,6 @@
 .events-hub .events-card__mascot { position:relative; display:block; height:100%; aspect-ratio:1; }
 .events-hub .events-card__mascot img { display:block; width:100%; height:100%; object-fit:contain; }
 .events-hub .events-card__mascot .events-card__flag { position:absolute; left:9.1%; top:30.9%; width:21.6%; height:21.6%; border-radius:50%; border:2px solid #2a3530; object-fit:cover; }
-.events-hub .events-card__place { position:absolute; right:12px; bottom:12px; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--event-ink); font-family:var(--rounded-font-family); font-size:12px; font-weight:700; line-height:1.4; }
 .events-hub .events-card__kind { position:absolute; left:12px; top:12px; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.92); color:var(--event-ink); font-size:12px; font-weight:700; line-height:1.4; }
 .events-hub .events-card__body { display:flex; flex-direction:column; flex:1; padding:20px 22px 22px; }
 .events-hub .events-card__meta { font-size:13px; color:#52675c; margin-bottom:.5rem; }

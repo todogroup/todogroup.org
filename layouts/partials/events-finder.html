@@ -18,10 +18,12 @@
 {{- $link := $e.url -}}
 {{- if and $past $e.recap }}{{ $link = $e.recap }}{{ end -}}
 {{- if not (hasPrefix $link "http") }}{{ $link = partial "localized-url.html" $link }}{{ end -}}
-<li class="events-card{{ if $past }} events-card--past{{ end }}" data-event
+{{- $hostNames := slice -}}
+{{- range $e.hosts }}{{ with index site.Data.event_hosts . }}{{ $hostNames = $hostNames | append .name }}{{ end }}{{ end -}}
+<li class="events-card{{ if $past }} events-card--past{{ end }}{{ if $e.edition }} events-card--edition{{ end }}" data-event
     data-tab="{{ $e.tab }}" data-kind="{{ $e.kind }}"
     data-start="{{ $e.starts_at }}" data-end="{{ $e.ends_at }}"
-    data-search="{{ lower (delimit (slice $e.title ($e.original_title | default "") $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"
+    data-search="{{ lower (delimit (slice $e.title ($e.original_title | default "") (delimit $hostNames " ") $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"
     {{ with $e.lat }}data-lat="{{ . }}" data-lng="{{ $e.lng }}"{{ end }}
     data-title="{{ $e.title }}" data-location="{{ $e.location }}" data-date="{{ $start | time.Format ":date_long" }}" data-url="{{ $link }}">
   {{- $image := $e.image | default "/img/ospochi/ospochi-planet.png" -}}
@@ -37,11 +39,24 @@
     <img src="{{ $image | relURL }}" alt="" loading="lazy" width="640" height="360">
     {{- end }}
     <span class="events-card__kind">{{ index .kinds $e.kind | default $e.kind }}</span>
+    {{- with $e.edition }}
+    <span class="events-card__edition">{{ partial "localized-text.html" . }}</span>
+    {{- end }}
   </a>
   <div class="events-card__body">
     <p class="events-card__meta"><time datetime="{{ $e.starts_at }}">{{ $start | time.Format ":date_long" }}</time>{{ with $e.location }}<span aria-hidden="true"> • </span>{{ . }}{{ end }}</p>
     <h3 class="events-card__title"><a href="{{ $link }}">{{ $e.title }}</a></h3>
     <p class="events-card__group">{{ $e.group }}</p>
+    {{- with $e.hosts }}
+    <div class="events-card__hosts">
+      <p class="events-card__hosts-label">{{ partial "localized-text.html" "Hosted by" }}</p>
+      <ul>
+        {{- range . }}{{ with index site.Data.event_hosts . }}
+        <li title="{{ .name }}"><img src="{{ .logo | relURL }}" alt="{{ if not .label }}{{ .name }}{{ end }}" loading="lazy" height="22">{{ with .label }}<span>{{ . }}</span>{{ end }}</li>
+        {{- end }}{{ end }}
+      </ul>
+    </div>
+    {{- end }}
     <a class="events-button events-button--outline events-card__cta" href="{{ $link }}" aria-label="{{ cond $past (cond (isset $e "recap") (partial "localized-text.html" "Read the recap") (partial "localized-text.html" "View event")) (partial "localized-text.html" "Register") }}: {{ $e.title }}">
       {{- if not $past }}{{ partial "localized-text.html" "Register" }}{{ else if isset $e "recap" }}{{ partial "localized-text.html" "Read the recap" }}{{ else }}{{ partial "localized-text.html" "View event" }}{{ end }} <span aria-hidden="true">{{ if hasPrefix $link "http" }}↗{{ else }}→{{ end }}</span>
     </a>

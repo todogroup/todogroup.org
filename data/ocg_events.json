@@ -17,7 +17,10 @@
       "lng": 17.9446,
       "country": "se",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/4842zsj"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/4842zsj",
+      "hosts": [
+        "ericsson"
+      ]
     },
     {
       "id": "a710a5fe-b8d6-5f09-8c85-948853285f1b",
@@ -53,7 +56,10 @@
       "lng": 4.838,
       "country": "nl",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/r2kgr9e"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/r2kgr9e",
+      "hosts": [
+        "alliander"
+      ]
     },
     {
       "id": "7463a130-8044-51b4-9e99-7795aafb939f",
@@ -413,7 +419,10 @@
       "lng": 8.5703,
       "country": "de",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/e2ukavu"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/e2ukavu",
+      "hosts": [
+        "sap"
+      ]
     },
     {
       "id": "f03beb42-cc78-5190-b05e-755b3a437430",
@@ -593,7 +602,10 @@
       "lng": 5.9699,
       "country": "nl",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/sdgtbpd"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/sdgtbpd",
+      "hosts": [
+        "belastingdienst"
+      ]
     },
     {
       "id": "e0eda391-1537-5e3b-a669-d083d91403e9",
@@ -791,7 +803,10 @@
       "lng": 13.0038,
       "country": "se",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/gfuhzvz"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/gfuhzvz",
+      "hosts": [
+        "ikea"
+      ]
     },
     {
       "id": "81eab63e-5852-5d97-b7ae-db74308998fc",
@@ -1732,7 +1747,7 @@
     {
       "id": "801a564d-ed71-5b34-af71-3ed14b56078e",
       "tab": "official",
-      "title": "OSPOlogy Tokyo",
+      "title": "OSPOlogy Asia",
       "original_title": "OSPOlogy Asia",
       "group": "OSPOlogy Asia",
       "region": "Asia",
@@ -1745,7 +1760,12 @@
       "lng": 139.7283,
       "country": "jp",
       "image": "/images/events/ospology-asia-tokyo-2026.jpg",
-      "url": "https://ocgroups.dev/todo/group/8w9jc72/event/57p7sbv"
+      "url": "https://ocgroups.dev/todo/group/8w9jc72/event/57p7sbv",
+      "hosts": [
+        "lf-japan",
+        "cncf"
+      ],
+      "edition": "Regional edition"
     },
     {
       "id": "b0fcc3fa-4a6f-43ce-9420-7c2f03edaac1",
@@ -1836,7 +1856,11 @@
       "country": "cz",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/zw2jgk7",
-      "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/"
+      "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/",
+      "hosts": [
+        "deloitte",
+        "openchain"
+      ]
     },
     {
       "id": "bddbdd14-211a-42af-b0a0-ec5e01571c7f",

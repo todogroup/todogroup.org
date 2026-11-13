@@ -66,44 +66,69 @@
       "lat": 35.6197,
       "lng": 139.7283,
       "image": "/images/events/ospology-asia-tokyo-2026.jpg",
-      "country": "jp"
+      "country": "jp",
+      "hosts": [
+        "lf-japan",
+        "cncf"
+      ],
+      "title": "OSPOlogy Asia",
+      "edition": "Regional edition"
     },
     "zw2jgk7": {
       "location": "Prague, Czechia",
       "lat": 50.0755,
       "lng": 14.4378,
       "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/",
-      "country": "cz"
+      "country": "cz",
+      "hosts": [
+        "deloitte",
+        "openchain"
+      ]
     },
     "4842zsj": {
       "location": "Stockholm, Sweden",
       "lat": 59.4036,
       "lng": 17.9446,
-      "country": "se"
+      "country": "se",
+      "hosts": [
+        "ericsson"
+      ]
     },
     "r2kgr9e": {
       "location": "Amsterdam, Netherlands",
       "lat": 52.3906,
       "lng": 4.838,
-      "country": "nl"
+      "country": "nl",
+      "hosts": [
+        "alliander"
+      ]
     },
     "e2ukavu": {
       "location": "Frankfurt, Germany",
       "lat": 50.1436,
       "lng": 8.5703,
-      "country": "de"
+      "country": "de",
+      "hosts": [
+        "sap"
+      ]
     },
     "sdgtbpd": {
       "location": "Apeldoorn, Netherlands",
       "lat": 52.2112,
       "lng": 5.9699,
-      "country": "nl"
+      "country": "nl",
+      "hosts": [
+        "belastingdienst"
+      ]
     },
     "gfuhzvz": {
       "location": "Malmö, Sweden",
       "lat": 55.605,
       "lng": 13.0038,
-      "country": "se"
+      "country": "se",
+      "hosts": [
+        "ikea"
+      ]
     },
     "8x8cbmq": {
       "location": "Amsterdam, Netherlands",

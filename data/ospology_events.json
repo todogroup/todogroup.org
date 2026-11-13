@@ -16,7 +16,11 @@
       "image": "/images/blog/ospo-summit-china-2026/attachment-01.jpg",
       "url": "/blog/2026-09-19-ospology-ospo-summit-china-2026-recap/",
       "recap": "/blog/2026-09-19-ospology-ospo-summit-china-2026-recap/",
-      "country": "cn"
+      "country": "cn",
+      "hosts": [
+        "bytedance",
+        "vivo"
+      ]
     },
     {
       "id": "ospology-vivo-2026",
@@ -34,7 +38,10 @@
       "image": "/img/blog/vivo-1.png",
       "url": "/blog/2026-05-15-ospo-event-visit-vivo/",
       "recap": "/blog/2026-05-15-ospo-event-visit-vivo/",
-      "country": "cn"
+      "country": "cn",
+      "hosts": [
+        "vivo"
+      ]
     }
   ]
 }

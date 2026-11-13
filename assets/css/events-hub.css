@@ -112,6 +112,15 @@
 .events-hub .events-card__title { font-size:20px; line-height:1.3; margin:0 0 .5rem; }
 .events-hub .events-card__title a { color:var(--event-ink); }
 .events-hub .events-card__group { font-size:13px; color:#52675c; margin-bottom:1.25rem; }
+.events-hub .events-card__hosts { margin:0 0 1.25rem; padding-top:12px; border-top:1px solid var(--event-line); }
+.events-hub .events-card__hosts-label { font-size:11px; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; color:#52675c; margin:0 0 8px; }
+.events-hub .events-card__hosts ul { display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; list-style:none; padding:0; margin:0; }
+.events-hub .events-card__hosts li { display:flex; align-items:center; min-height:36px; padding:6px 10px; margin:0; background:#fff; border:1px solid var(--event-line); border-radius:4px; }
+.events-hub .events-card__hosts li span { margin-left:8px; font-size:13px; font-weight:700; color:#183c34; }
+.events-hub .events-card__hosts img { display:block; height:22px; width:auto; max-width:110px; object-fit:contain; margin:0; }
+.events-hub .events-card--edition { border-top:4px solid #e8664f; }
+.events-hub .events-card__edition { position:absolute; right:12px; top:12px; padding:4px 10px; border-radius:999px; background:#e8664f; color:#fff; font-size:12px; font-weight:700; line-height:1.4; }
+.events-hub .events-card--edition .events-card__title a { color:#b8432f; }
 .events-hub .events-card__cta { margin-top:auto; align-self:flex-start; padding:10px 16px; }
 .events-hub .events-finder__empty { padding:32px; border:1px dashed var(--event-line); border-radius:6px; text-align:center; }
 .events-hub .events-finder__empty .events-actions { justify-content:center; margin-top:1rem; }

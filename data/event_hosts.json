@@ -1,0 +1,47 @@
+{
+  "alliander": {
+    "name": "Alliander",
+    "logo": "/img/members/alliander.svg"
+  },
+  "belastingdienst": {
+    "name": "Dutch Tax and Customs Administration (Belastingdienst)",
+    "logo": "/img/hosts/belastingdienst.svg",
+    "label": "Belastingdienst"
+  },
+  "bytedance": {
+    "name": "ByteDance",
+    "logo": "/img/members/bytedance.svg"
+  },
+  "cncf": {
+    "name": "Cloud Native Computing Foundation (CNCF)",
+    "logo": "/img/hosts/cncf.svg"
+  },
+  "deloitte": {
+    "name": "Deloitte",
+    "logo": "/img/hosts/deloitte.svg"
+  },
+  "ericsson": {
+    "name": "Ericsson",
+    "logo": "/img/members/ericsson.svg"
+  },
+  "ikea": {
+    "name": "IKEA",
+    "logo": "/img/hosts/ikea.svg"
+  },
+  "lf-japan": {
+    "name": "Linux Foundation Japan",
+    "logo": "/img/hosts/linux-foundation.svg"
+  },
+  "openchain": {
+    "name": "OpenChain",
+    "logo": "/img/associates/openchain.svg"
+  },
+  "sap": {
+    "name": "SAP",
+    "logo": "/img/members/sap.svg"
+  },
+  "vivo": {
+    "name": "vivo",
+    "logo": "/img/members/vivo.svg"
+  }
+}

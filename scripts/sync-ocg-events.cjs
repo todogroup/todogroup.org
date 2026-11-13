@@ -5,8 +5,9 @@
 // The event pages add the format (in person, virtual, hybrid) and venue, so those are read
 // from each page. data/ocg_groups.json sets which tab each group appears under and the
 // group's country (shown as a flag) and image (OCG images can't be embedded on other sites, so they are kept in this
-// repo). Under "overrides" in that file, set the city, coordinates, image or recap link for
-// a single event, keyed by its OCG slug. Events whose titles contain one of the
+// repo). Under "overrides" in that file, set the city, coordinates, image, recap link, title,
+// edition label or hosts (keys from data/event_hosts.json) for a single event, keyed by its
+// OCG slug. Events whose titles contain one of the
 // "exclude_titles" strings, such as recurring working calls, are skipped.
 //
 // Usage: npm run sync:events [-- --months-back=72 --months-ahead=24]

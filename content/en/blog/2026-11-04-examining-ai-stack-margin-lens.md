@@ -1,5 +1,5 @@
 ---
-title: "Examining the AI Stack Through a Margin Lens: Recap of the TODO Group China Community Online Workshop"
+title: "The AI Stack Through a Margin Lens: Recap of the TODO Group China Community Workshop"
 date: 2026-11-04
 author: zhiqiang-yu
 tags:
@@ -8,15 +8,12 @@ tags:
   - TODO Group
   - China Community
 description: Key takeaways from Dr. Ibrahim Haddad's November 4 online workshop with the TODO Group China Community on how open source and standardization reshape value capture across the AI stack.
----
 
 On November 4, 2026, the **TODO Group China Community** hosted an engaging online workshop featuring **Dr. Ibrahim Haddad**. Titled *"Examining the AI Stack Through a Margin Lens,"* the session brought together OSPO leaders and open-source practitioners across China to explore a critical, yet often overlooked, economic question: **When a well-capitalized firm funds an open-source layer, how does that investment function as a strategic pricing decision?**
 
 ![TODO Group China Community online workshop with Dr. Ibrahim Haddad](/images/blog/pic2.jpg)
 
 Moving beyond the usual technical hype, Dr. Ibrahim offered an analytical framework showing how open source, standardization, and commoditization systematically reshape where companies create and capture value across the AI stack.
-
----
 
 ## Key Takeaways from the Workshop
 
@@ -29,8 +26,8 @@ Drawing parallels to historical shifts like Linux (2000–2001) and Android (200
 ### 2. The 7 Layers of the AI Stack & Their Current State
 The presentation broke down the AI stack into seven distinct layers, noting that each sits at a vastly different stage of maturity:
 
-* **Layers 1–2 (Chip, Hardware, Cloud & Infrastructure):** Driven by massive capital expenditures (projected at ~$725B for leading hyperscalers in 2026), AI compute remains supply-constrained with strong pricing power, while generic compute commoditizes.
-* **Layers 3–4 & 6 (Frameworks, Serving/Inference, and Agentic Protocols):** Highly standardized. Technologies like PyTorch, vLLM, SGLang, and the Model Context Protocol (MCP) have largely settled under neutral foundations (such as the Linux Foundation and Agentic AI Foundation). Competing here on software pricing is a losing battle; active participation brings early information and agenda influence, while durable margins live elsewhere.
+* **Layers 1 - 2 (Chip, Hardware, Cloud & Infrastructure):** Driven by massive capital expenditures (projected at ~$725B for leading hyperscalers in 2026), AI compute remains supply-constrained with strong pricing power, while generic compute commoditizes.
+* **Layers 3 - 4 & 6 (Frameworks, Serving/Inference, and Agentic Protocols):** Highly standardized. Technologies like PyTorch, vLLM, SGLang, and the Model Context Protocol (MCP) have largely settled under neutral foundations (such as the Linux Foundation and Agentic AI Foundation). Competing here on software pricing is a losing battle; active participation brings early information and agenda influence, while durable margins live elsewhere.
 * **Layer 5 (Models):** A contested middle. While open-weight models (such as Llama, Mistral, Qwen, and DeepSeek) compress the middle by closing the capability gap on many tasks, premium pricing still holds at the proprietary frontier.
 * **Layer 7 (Applications):** Fragmented yet rapidly forming, where the ultimate priceable good is the enterprise workflow—with coding assistants currently leading as the clearest durable use case.
 
@@ -48,8 +45,6 @@ Consequently, differentiation cannot rely solely on the model itself. Instead, v
 
 ![Presentation slide on the AI stack and the China ecosystem](/images/blog/pic1.png)
 
----
-
 ## Strategic Recommendations for OSPO Leaders
 
 Regardless of which reading of the stack an organization subscribes to, Dr. Ibrahim shared three actionable rules for enterprise and OSPO strategy:
@@ -58,14 +53,11 @@ Regardless of which reading of the stack an organization subscribes to, Dr. Ibra
 2. **Don’t Compete on Settled Layers:** On standardizing or neutrally governed layers, contribute to gain influence and early insights, but look elsewhere for sustainable margins.
 3. **Preserve Flexibility:** In a market where equilibrium is not yet legible, favor participation over ownership and flexible commitments over rigid, long-term locks.
 
----
 
 ## Closing Thoughts
 
 As AI continues to rewrite the rules of value creation and capture, OSPO leaders must map their organizations' exact positions within the tech stack and ask three critical questions: *Which layer are we monetizing? Who else wants that layer to be free? And are we in the room where that strategic decision is made?*
 
-*A huge thank you to Dr. Ibrahim Haddad for joining the TODO Group China Community online workshop and sharing his research with our members. If you would like to read the full report, feel free to reach out to Dr. Ibrahim directly!*
+A huge thank you to Dr. Ibrahim Haddad for joining the TODO Group China Community online workshop and sharing his research with our members. If you would like to read the full report, feel free to reach out to Dr. Ibrahim directly!
 
-***
-
-*Want to get involved in future TODO Group China Community discussions and workshops? Join us on the [TODO Group Slack](https://slack.todogroup.org/) or visit our community hub to connect with OSPO peers across the region.*
+Want to get involved in future TODO Group China Community discussions and workshops? Join us on the [TODO Group Slack](https://slack.todogroup.org/) or visit our community hub to connect with OSPO peers across the region.

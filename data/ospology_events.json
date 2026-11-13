@@ -3,7 +3,8 @@
     {
       "id": "ospo-summit-china-2026",
       "tab": "official",
-      "title": "OSPOlogy + OSPO Summit China 2026",
+      "title": "OSPOlogy Shanghai",
+      "original_title": "OSPOlogy + OSPO Summit China 2026",
       "group": "OSPOlogy Asia",
       "region": "Asia",
       "kind": "in-person",
@@ -20,7 +21,8 @@
     {
       "id": "ospology-vivo-2026",
       "tab": "official",
-      "title": "OSPOlogy visits vivo",
+      "title": "OSPOlogy Dongguan",
+      "original_title": "OSPOlogy visits vivo",
       "group": "OSPOlogy Asia",
       "region": "Asia",
       "kind": "in-person",

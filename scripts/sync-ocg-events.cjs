@@ -93,10 +93,15 @@ async function main() {
     let location = group.city || '';
     if (details.kind === 'online' && !group.city) location = 'Online';
     else if (!group.city && details.venue) location = [cityFromVenue(details.venue), details.country].filter(Boolean).join(', ');
+    // Official events are always named "OSPOlogy <city>", whatever spelling the OCG listing uses
+    // (OSPOlogyLive, OSPOlogy.live, ...). The original name is kept so it can still be searched.
+    const city = (override.location || location).split(',')[0].trim();
+    const title = group.tab === 'official' && city ? `OSPOlogy ${city}` : item.name;
     events.push({
       id: item.event_id,
       tab: group.tab,
-      title: item.name,
+      title,
+      original_title: item.name,
       group: group.name,
       region: group.region || '',
       kind: details.kind,

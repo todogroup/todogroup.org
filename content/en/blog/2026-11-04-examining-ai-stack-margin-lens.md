@@ -1,7 +1,7 @@
 ---
 title: "Examining the AI Stack Through a Margin Lens: Recap of the TODO Group China Community Online Workshop"
 date: 2026-11-04
-author: "[Zhqiang Yu / TODO Group Ambassador]"
+author: zhiqiang-yu
 tags:
   - OSPO
   - Strategy
@@ -10,10 +10,10 @@ tags:
 description: Key takeaways from Dr. Ibrahim Haddad's November 4 online workshop with the TODO Group China Community on how open source and standardization reshape value capture across the AI stack.
 ---
 
-# Examining the AI Stack Through a Margin Lens: Recap of the TODO Group China Community Online Workshop
-
 On November 4, 2026, the **TODO Group China Community** hosted an engaging online workshop featuring **Dr. Ibrahim Haddad**. Titled *"Examining the AI Stack Through a Margin Lens,"* the session brought together OSPO leaders and open-source practitioners across China to explore a critical, yet often overlooked, economic question: **When a well-capitalized firm funds an open-source layer, how does that investment function as a strategic pricing decision?**
-![[pic2.jpg]]
+
+![TODO Group China Community online workshop with Dr. Ibrahim Haddad](/images/blog/pic2.jpg)
+
 Moving beyond the usual technical hype, Dr. Ibrahim offered an analytical framework showing how open source, standardization, and commoditization systematically reshape where companies create and capture value across the AI stack.
 
 ---
@@ -45,7 +45,9 @@ Dr. Ibrahim presented three lenses through which organizations can interpret the
 A highlight of the discussion for our local community was the **China Case**. With deep open-source adoption and domestic AI leaders actively releasing open-weight models (compressing the middle layer), the cost of the software stack approaches zero. 
 
 Consequently, differentiation cannot rely solely on the model itself. Instead, value compresses deeply into **China's physical layer and manufacturing capabilities**—spanning robotics, drones, smart vehicles, industrial equipment, and robust supply chains. When free software becomes the consensus, competition shifts to the physical carriers that embed AI into real-world products.
-![[pic1.png]]
+
+![Presentation slide on the AI stack and the China ecosystem](/images/blog/pic1.png)
+
 ---
 
 ## Strategic Recommendations for OSPO Leaders

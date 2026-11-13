@@ -20,7 +20,7 @@
 {{- if not (hasPrefix $link "http") }}{{ $link = partial "localized-url.html" $link }}{{ end -}}
 {{- $hostNames := slice -}}
 {{- range $e.hosts }}{{ with index site.Data.event_hosts . }}{{ $hostNames = $hostNames | append .name }}{{ end }}{{ end -}}
-<li class="events-card{{ if $past }} events-card--past{{ end }}" data-event
+<li class="events-card{{ if $past }} events-card--past{{ end }}{{ if $e.tags }} events-card--special{{ end }}" data-event
     data-tab="{{ $e.tab }}" data-kind="{{ $e.kind }}"
     data-start="{{ $e.starts_at }}" data-end="{{ $e.ends_at }}"
     data-search="{{ lower (delimit (slice $e.title ($e.original_title | default "") (delimit $hostNames " ") $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"

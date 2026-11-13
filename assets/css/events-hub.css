@@ -120,6 +120,9 @@
 .events-hub .events-card__hosts img { display:block; height:22px; width:auto; max-width:110px; object-fit:contain; margin:0; }
 .events-hub .events-card__tags { position:absolute; right:12px; top:12px; display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; max-width:70%; }
 .events-hub .events-card__tags span { padding:4px 10px; border-radius:999px; background:var(--event-green); color:#fff; font-size:12px; font-weight:700; line-height:1.4; }
+.events-hub .events-card--special { border:2px solid #88b838; border-top-width:6px; background:#f7faf2; box-shadow:0 6px 18px rgba(136,184,56,.18); }
+.events-hub .events-card--special .events-card__tags span { background:#88b838; color:#183c34; }
+.events-hub .events-card--special .events-card__hosts { border-top-color:#d9e8c2; }
 .events-hub .events-card__cta { margin-top:auto; align-self:flex-start; padding:10px 16px; }
 .events-hub .events-finder__empty { padding:32px; border:1px dashed var(--event-line); border-radius:6px; text-align:center; }
 .events-hub .events-finder__empty .events-actions { justify-content:center; margin-top:1rem; }

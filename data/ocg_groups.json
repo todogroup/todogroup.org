@@ -72,7 +72,10 @@
         "cncf"
       ],
       "title": "OSPOlogy Asia",
-      "edition": "Regional edition"
+      "tags": [
+        "Joint event",
+        "APAC edition"
+      ]
     },
     "zw2jgk7": {
       "location": "Prague, Czechia",
@@ -83,7 +86,11 @@
       "hosts": [
         "deloitte",
         "openchain"
-      ]
+      ],
+      "tags": [
+        "Joint event"
+      ],
+      "image": "/images/events/ospology-prague-2026.jpg"
     },
     "4842zsj": {
       "location": "Stockholm, Sweden",
@@ -134,13 +141,20 @@
       "location": "Amsterdam, Netherlands",
       "lat": 52.3373,
       "lng": 4.8879,
-      "country": "nl"
+      "country": "nl",
+      "hosts": [
+        "uwv"
+      ]
     },
     "hxsmnmt": {
       "location": "Lyon, France",
       "lat": 45.764,
       "lng": 4.8357,
-      "country": "fr"
+      "country": "fr",
+      "hosts": [
+        "rte",
+        "lf-energy"
+      ]
     }
   }
 }

@@ -28,6 +28,10 @@
     "name": "IKEA",
     "logo": "/img/hosts/ikea.svg"
   },
+  "lf-energy": {
+    "name": "LF Energy",
+    "logo": "/img/associates/lf-energy.svg"
+  },
   "lf-japan": {
     "name": "Linux Foundation Japan",
     "logo": "/img/hosts/linux-foundation.svg"
@@ -36,9 +40,21 @@
     "name": "OpenChain",
     "logo": "/img/associates/openchain.svg"
   },
+  "rte": {
+    "name": "RTE France",
+    "logo": "/img/hosts/rte.svg",
+    "height": 26,
+    "label": "RTE France"
+  },
   "sap": {
     "name": "SAP",
     "logo": "/img/members/sap.svg"
+  },
+  "uwv": {
+    "name": "Dutch Employee Insurance Agency (UWV)",
+    "logo": "/img/hosts/uwv.svg",
+    "height": 26,
+    "label": "UWV"
   },
   "vivo": {
     "name": "vivo",

@@ -1184,7 +1184,10 @@
       "lng": 4.8879,
       "country": "nl",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/8x8cbmq"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/8x8cbmq",
+      "hosts": [
+        "uwv"
+      ]
     },
     {
       "id": "fbbaa168-8a31-5a10-b236-540e035210d7",
@@ -1436,7 +1439,11 @@
       "lng": 4.8357,
       "country": "fr",
       "image": "",
-      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/hxsmnmt"
+      "url": "https://ocgroups.dev/todo/group/6jf76jt/event/hxsmnmt",
+      "hosts": [
+        "rte",
+        "lf-energy"
+      ]
     },
     {
       "id": "4d678460-196c-5baa-96cf-f84267ce56a2",
@@ -1765,7 +1772,10 @@
         "lf-japan",
         "cncf"
       ],
-      "edition": "Regional edition"
+      "tags": [
+        "Joint event",
+        "APAC edition"
+      ]
     },
     {
       "id": "b0fcc3fa-4a6f-43ce-9420-7c2f03edaac1",
@@ -1854,12 +1864,15 @@
       "lat": 50.0755,
       "lng": 14.4378,
       "country": "cz",
-      "image": "",
+      "image": "/images/events/ospology-prague-2026.jpg",
       "url": "https://ocgroups.dev/todo/group/6jf76jt/event/zw2jgk7",
       "recap": "/blog/2026-10-19-openchain-ospology-prague-2026-recap/",
       "hosts": [
         "deloitte",
         "openchain"
+      ],
+      "tags": [
+        "Joint event"
       ]
     },
     {
@@ -1933,6 +1946,24 @@
       "country": "fi",
       "image": "",
       "url": "https://ocgroups.dev/todo/group/462uu5j/event/ah474mf"
+    },
+    {
+      "id": "2bcc3640-74a6-4927-9fc6-13fa18a32c11",
+      "tab": "community",
+      "title": "OSPOlogy UK Meetup",
+      "original_title": "OSPOlogy UK Meetup",
+      "group": "OSPOlogy Meetups - UK",
+      "region": "Europe",
+      "kind": "online",
+      "location": "United Kingdom",
+      "venue": "",
+      "starts_at": "2026-11-25T11:00:00.000Z",
+      "ends_at": "2026-11-25T12:00:00.000Z",
+      "lat": 51.5072,
+      "lng": -0.1276,
+      "country": "gb",
+      "image": "",
+      "url": "https://ocgroups.dev/todo/group/6vmej96/event/4kdmsmg"
     }
   ]
 }

@@ -20,7 +20,7 @@
 {{- if not (hasPrefix $link "http") }}{{ $link = partial "localized-url.html" $link }}{{ end -}}
 {{- $hostNames := slice -}}
 {{- range $e.hosts }}{{ with index site.Data.event_hosts . }}{{ $hostNames = $hostNames | append .name }}{{ end }}{{ end -}}
-<li class="events-card{{ if $past }} events-card--past{{ end }}{{ if $e.edition }} events-card--edition{{ end }}" data-event
+<li class="events-card{{ if $past }} events-card--past{{ end }}" data-event
     data-tab="{{ $e.tab }}" data-kind="{{ $e.kind }}"
     data-start="{{ $e.starts_at }}" data-end="{{ $e.ends_at }}"
     data-search="{{ lower (delimit (slice $e.title ($e.original_title | default "") (delimit $hostNames " ") $e.location $e.group ($e.region | default "") ($e.venue | default "")) " ") }}"
@@ -39,8 +39,8 @@
     <img src="{{ $image | relURL }}" alt="" loading="lazy" width="640" height="360">
     {{- end }}
     <span class="events-card__kind">{{ index .kinds $e.kind | default $e.kind }}</span>
-    {{- with $e.edition }}
-    <span class="events-card__edition">{{ partial "localized-text.html" . }}</span>
+    {{- with $e.tags }}
+    <span class="events-card__tags">{{ range . }}<span>{{ partial "localized-text.html" . }}</span>{{ end }}</span>
     {{- end }}
   </a>
   <div class="events-card__body">
@@ -52,7 +52,7 @@
       <p class="events-card__hosts-label">{{ partial "localized-text.html" "Hosted by" }}</p>
       <ul>
         {{- range . }}{{ with index site.Data.event_hosts . }}
-        <li title="{{ .name }}"><img src="{{ .logo | relURL }}" alt="{{ if not .label }}{{ .name }}{{ end }}" loading="lazy" height="22">{{ with .label }}<span>{{ . }}</span>{{ end }}</li>
+        <li title="{{ .name }}"><img src="{{ .logo | relURL }}" alt="{{ if not .label }}{{ .name }}{{ end }}" loading="lazy" height="{{ .height | default 22 }}"{{ with .height }} style="height:{{ . }}px"{{ end }}>{{ with .label }}<span>{{ . }}</span>{{ end }}</li>
         {{- end }}{{ end }}
       </ul>
     </div>

@@ -3,7 +3,7 @@
     {
       "id": "ospo-summit-china-2026",
       "tab": "official",
-      "title": "OSPOlogy Shanghai",
+      "title": "OSPOlogy + OSPO Summit China",
       "original_title": "OSPOlogy + OSPO Summit China 2026",
       "group": "OSPOlogy Asia",
       "region": "Asia",
@@ -20,6 +20,9 @@
       "hosts": [
         "bytedance",
         "vivo"
+      ],
+      "tags": [
+        "Joint event"
       ]
     },
     {

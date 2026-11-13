@@ -8,6 +8,7 @@ tags:
   - TODO Group
   - China Community
 description: Key takeaways from Dr. Ibrahim Haddad's November 4 online workshop with the TODO Group China Community on how open source and standardization reshape value capture across the AI stack.
+---
 
 On November 4, 2026, the **TODO Group China Community** hosted an engaging online workshop featuring **Dr. Ibrahim Haddad**. Titled *"Examining the AI Stack Through a Margin Lens,"* the session brought together OSPO leaders and open-source practitioners across China to explore a critical, yet often overlooked, economic question: **When a well-capitalized firm funds an open-source layer, how does that investment function as a strategic pricing decision?**
 

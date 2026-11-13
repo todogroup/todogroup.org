@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "id": "ospo-summit-china-2026",
+      "tab": "official",
+      "title": "OSPOlogy + OSPO Summit China",
+      "original_title": "OSPOlogy + OSPO Summit China 2026",
+      "group": "OSPOlogy Asia",
+      "region": "Asia",
+      "kind": "in-person",
+      "location": "Shanghai, China",
+      "starts_at": "2026-09-07T01:00:00Z",
+      "ends_at": "2026-09-07T09:00:00Z",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "image": "/images/blog/ospo-summit-china-2026/attachment-01.jpg",
+      "url": "/blog/2026-09-19-ospology-ospo-summit-china-2026-recap/",
+      "recap": "/blog/2026-09-19-ospology-ospo-summit-china-2026-recap/",
+      "country": "cn",
+      "hosts": [
+        "bytedance",
+        "vivo"
+      ],
+      "tags": [
+        "Joint event"
+      ]
+    },
+    {
+      "id": "ospology-vivo-2026",
+      "tab": "official",
+      "title": "OSPOlogy Dongguan",
+      "original_title": "OSPOlogy visits vivo",
+      "group": "OSPOlogy Asia",
+      "region": "Asia",
+      "kind": "in-person",
+      "location": "Dongguan, China",
+      "starts_at": "2026-05-15T02:00:00Z",
+      "ends_at": "2026-05-15T09:00:00Z",
+      "lat": 23.0207,
+      "lng": 113.7518,
+      "image": "/img/blog/vivo-1.png",
+      "url": "/blog/2026-05-15-ospo-event-visit-vivo/",
+      "recap": "/blog/2026-05-15-ospo-event-visit-vivo/",
+      "country": "cn",
+      "hosts": [
+        "vivo"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 :root { color-scheme:light; }
+html, body { background-color:#fff; }
 .header .theme-toggle { position:relative; flex:0 0 42px; width:42px; height:24px; border:1px solid #a2b5a8; border-radius:20px; background:#d9e3dd; cursor:pointer; padding:0; margin-left:16px; }
 .theme-toggle[hidden] { display:none; }
 .theme-toggle__thumb { position:absolute; left:3px; top:3px; width:16px; height:16px; border-radius:50%; background:#fff; box-shadow:0 1px 3px rgb(0 0 0 / 20%); transition:transform .18s ease; }
@@ -7,7 +8,7 @@
 @media(max-width:999px) { .header .theme-toggle { margin-left:auto; margin-right:18px; } }
 @media(prefers-reduced-motion:reduce) { .theme-toggle__thumb { transition:none; } }
 html[data-theme="dark"] { color-scheme:dark; --text-color:#e1eae5; --white:#192621; --black:#e1eae5; --link-color:#7cdbc0; --menu-link-color:#e1eae5; --menu-link-color-hover:#b2df8a; --primary-400:#9dcc50; --primary-500:#b2df8a; --primary-600:#7cdbc0; --primary-700:#99dfc8; --primary-800:#c8f0e1; --gray-200:#293b32; --gray-300:#344a3e; --gray-400:#3d5347; --gray-600:#8b9f94; --gray-700:#a9bdb1; --gray-800:#b8c9bf; --footer-link-color:#e1eae5; }
-html[data-theme="dark"] body { background:#101a15; }
+html[data-theme="dark"], html[data-theme="dark"] body { background:#101a15; }
 html[data-theme="dark"] .header .theme-toggle { background:#50834f; border-color:#73a46a; }
 html[data-theme="dark"] .button { background:#99dfc8; color:#10291e; }
 html[data-theme="dark"] .button:hover { background:#bcebdc; color:#10291e; }
@@ -52,6 +53,21 @@ html[data-theme="dark"] .pagination .page-item:not(.disabled):not(.active) .page
 html[data-theme="dark"] .events-hub :is(.events-story,.events-story--featured,.events-format) { background:#192621; border-color:#344a3e; }
 html[data-theme="dark"] .events-hub :is(.events-story__meta,.events-hero__photo figcaption) { color:#b8c9bf; }
 html[data-theme="dark"] .events-hub .events-button:hover { background:#bcebdc; color:#10291e; }
+html[data-theme="dark"] .events-hub :is(.events-card,.events-finder__search input,.events-finder__select select,.events-finder__views button,.events-calendar__nav,.events-finder__tabs button[aria-selected="true"]) { background-color:#192621; border-color:#344a3e; color:#e1eae5; }
+html[data-theme="dark"] .events-hub :is(.events-finder__tabs,.events-card__media:not(.events-card__media--brand),.events-finder__views button[aria-pressed="true"],.events-calendar__weekday,.events-calendar__day--blank) { background-color:#20352a; }
+html[data-theme="dark"] .events-hub .events-finder__views button[aria-pressed="true"] { color:#8ad8b9; border-color:#8ad8b9; }
+html[data-theme="dark"] .events-hub .events-finder__map-canvas { background:#10291e; }
+html[data-theme="dark"] .events-hub .events-map-country { stroke:#3d5347; fill:#20352a; }
+html[data-theme="dark"] .events-hub .events-card__hosts li { background:#f4f8f5; border-color:#344a3e; }
+html[data-theme="dark"] .events-hub .events-card__hosts-label { color:#b8c9bf; }
+html[data-theme="dark"] .events-hub .events-card__tags span { background:#8ad8b9; color:#10291e; }
+html[data-theme="dark"] .events-hub li.events-card.events-card--special { background-color:#1d2e1c; border-color:#9dcc50; }
+html[data-theme="dark"] .events-hub .events-card--special .events-card__tags span { background:#9dcc50; color:#10291e; }
+html[data-theme="dark"] .events-hub .events-card--special .events-card__hosts { border-top-color:#3d5a2c; }
+html[data-theme="dark"] .events-hub .events-card__kind { background:rgba(16,41,30,.9); color:#d6eee0; }
+html[data-theme="dark"] .events-hub .events-calendar__event { background:#20352a; color:#d6eee0; }
+html[data-theme="dark"] .events-hub :is(.events-card__meta,.events-card__group,.events-finder__status,.events-finder__note,.events-calendar__date,.events-calendar__weekday,.events-calendar__list span,.events-finder__tabs button) { color:#b8c9bf; }
+html[data-theme="dark"] .events-hub .events-calendar__day--today .events-calendar__date { color:#10291e; }
 
 html[data-theme="dark"] .amb-people .amb-social img { filter:brightness(0) invert(1); opacity:.85; }
 html[data-theme="dark"] table { border-color:#344a3e; }

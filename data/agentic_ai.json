@@ -1,6 +1,37 @@
 {
   "people": [
     {
+      "id": "stephen",
+      "name": "Stephen Augustus",
+      "org": "Bloomberg",
+      "initials": "SA",
+      "topic": "Opening Up an Open Source Program Hub",
+      "session": "osp-hub",
+      "photo": "/img/working-group-chairs/stephenaugustus.jpg",
+      "profile": "https://www.linkedin.com/in/stephenaugustus/"
+    },
+    {
+      "id": "diego",
+      "name": "Diego Mastroianni",
+      "org": "Cloudera",
+      "initials": "DM",
+      "photo": "/img/working-group-chairs/diegomastroianni.jpg",
+      "topic": "Opening Up an Open Source Program Hub",
+      "session": "osp-hub",
+      "profile": "https://www.linkedin.com/in/diegomastroianni/"
+    },
+    {
+      "id": "lucas",
+      "name": "Lucas Gonze",
+      "org": "",
+      "initials": "LG",
+      "topic": "Where the OSPO Fits in AI Governance",
+      "session": "ai-program-office",
+      "profile": "https://www.linkedin.com/in/lucasgonze/",
+      "photo": "/img/agentic-ai/lucas-portrait.jpg",
+      "photo_source": "https://media.licdn.com/dms/image/v2/C4E03AQE19D5S2rO_rQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1566880372258?e=1797465600&v=beta&t=e_wpB3Zg0dzsK3IHWi_FPxSSOAcMm8TJviM1ur1XFtY"
+    },
+    {
       "id": "david",
       "name": "David Lippert",
       "org": "George Washington University OSPO",
@@ -10,16 +41,6 @@
       "profile": "https://www.linkedin.com/in/david-lippert-357476240/",
       "photo": "/img/agentic-ai/david-portrait.jpg",
       "photo_source": "https://media.licdn.com/dms/image/v2/C4D03AQF8_5A-fUj0WQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1653853199932?e=1795046400&v=beta&t=atkcRcAKaznNEBB4QSmJxfk8DlSXrAvKED3acooHYvA"
-    },
-    {
-      "id": "diego",
-      "name": "Diego Mastroianni",
-      "org": "Cloudera",
-      "initials": "DM",
-      "photo": "/img/working-group-chairs/diegomastroianni.jpg",
-      "topic": "Building an Open Source Hub with AI Coding Tools",
-      "session": "portfolio-hub",
-      "profile": "https://www.linkedin.com/in/diegomastroianni/"
     },
     {
       "id": "angie",
@@ -76,16 +97,6 @@
       "photo_source": "https://media.licdn.com/dms/image/v2/D4D03AQHPeNEHR14o9w/profile-displayphoto-scale_100_100/B4DaAA6iQgKQAY-/0/1786721743750?e=1795046400&v=beta&t=KRAx8DebMqBicJow1W7A-lgs0Im_8FStixEG7KRU57E"
     },
     {
-      "id": "stephen",
-      "name": "Stephen Augustus",
-      "org": "Bloomberg",
-      "initials": "SA",
-      "topic": "Agentic security and compliance",
-      "session": "security",
-      "photo": "/img/working-group-chairs/stephenaugustus.jpg",
-      "profile": "https://www.linkedin.com/in/stephenaugustus/"
-    },
-    {
       "id": "mike",
       "name": "Mike Lieberman",
       "org": "Kusari",
@@ -109,6 +120,44 @@
     }
   ],
   "cases": [
+    {
+      "id": "osp-hub",
+      "title": "Opening Up an Open Source Program Hub",
+      "date": "2026-11-24",
+      "dateLabel": "24 November 2026",
+      "presenter": "Stephen Augustus & Diego Mastroianni",
+      "org": "Bloomberg, Cloudera",
+      "tags": ["workflows"],
+      "tools": "OpenSpec",
+      "description": "An internal hub for projects, people, and portfolio strategy is being made generic for other OSPOs, using AI-assisted specification extraction, automated checks, and human code review.",
+      "output": "A local demo with synthetic data. The repository is still private while the group defines a first release.",
+      "image": "/img/agentic-ai/osphub-portfolio.png",
+      "alt": "Portfolio view of the Open Source Program Hub demo, comparing project tiers with levels of involvement",
+      "caption": "Screenshot shared in the meeting notes · synthetic demo data",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-november-24",
+      "projects": [
+        {
+          "name": "OpenSpec",
+          "url": "https://openspec.dev/"
+        }
+      ]
+    },
+    {
+      "id": "ai-program-office",
+      "title": "Where the OSPO Fits in AI Governance",
+      "date": "2026-11-10",
+      "dateLabel": "10 November 2026",
+      "presenter": "Lucas Gonze",
+      "org": "",
+      "tags": ["governance"],
+            "description": "A component review shows how AI questions cross open source licenses, contracts, models, and infrastructure. A proposed AI Program Office starts the discussion on who owns each question.",
+      "output": "A proposed workflow and team model for the group to review and improve.",
+      "image": "/img/agentic-ai/ai-program-office-routing.png",
+      "alt": "Proposed routing of an AI component question from the OSPO to an AI Program Office and specialist attorneys",
+      "caption": "Illustration of the proposed workflow discussed on November 10",
+      "notes": "https://github.com/todogroup/working-groups/blob/main/wg-agentic-ai/meeting-notes.md#summary-november-10",
+      "projects": []
+    },
     {
       "id": "gw-skills",
       "title": "How GW OSPO Uses SKILL.md and AI",
